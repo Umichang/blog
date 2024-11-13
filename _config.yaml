@@ -1,0 +1,5 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: [うみちゃんの書き物置き場]
+description: [主にゲームや技術に関しての記事があると思います]
