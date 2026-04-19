@@ -5,3 +5,4 @@
 - [任天堂 歴代ハードウェア 海賊版・未承認ソフト対策 総合レポート](anti-piracy.md)
 - [コンピューターゲームにおけるAIの歴史](game-and-ai.md)
 - [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md)
+- [結局ローグライクってなんなのさ？](what-is-rougue-like-game.md)
