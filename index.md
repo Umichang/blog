@@ -6,3 +6,4 @@
 - [コンピューターゲームにおけるAIの歴史](game-and-ai.md)
 - [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md)
 - [結局ローグライクってなんなのさ？](what-is-rogue-like-game.md)
+- [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-recognition-and-games.md)
