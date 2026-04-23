@@ -106,61 +106,61 @@ AI NPC・生成型ナラティブについては、GDC 2025の報告にあるよ
 
 ## References
 
-<a id="ref-1"></a>1. [Squeezed in the Middle: AAA Gaming Studios Must Adapt | Bain & Company][1] - Bain Gaming Report 2025の中核章。22%/7%調査結果、Metacritic top 20の75%がインディー、AA・AAAのCAGR比較等の一次資料。
+<a id="ref-1"></a>1. [Squeezed in the Middle: AAA Gaming Studios Must Adapt ｜ Bain & Company][1] - Bain Gaming Report 2025の中核章。22%/7%調査結果、Metacritic top 20の75%がインディー、AA・AAAのCAGR比較等の一次資料。
 
-<a id="ref-2"></a>2. [The Future of AAA: How Rising Budgets and AI Are Transforming Game Production | CGMagazine][2] - AAA予算とAIによる制作変革の分析記事。AIリターゲティング70-80%削減、PCG・Houdini活用等。
+<a id="ref-2"></a>2. [The Future of AAA: How Rising Budgets and AI Are Transforming Game Production ｜ CGMagazine][2] - AAA予算とAIによる制作変革の分析記事。AIリターゲティング70-80%削減、PCG・Houdini活用等。
 
-<a id="ref-3"></a>3. [The Evolution of Gaming Technology: What's New in 2025 | Glide Magazine][3] - 空間オーディオ・レイトレーシングオーディオの動向。
+<a id="ref-3"></a>3. [The Evolution of Gaming Technology: What's New in 2025 ｜ Glide Magazine][3] - 空間オーディオ・レイトレーシングオーディオの動向。
 
 <a id="ref-4"></a>4. [Variety: Fortnite Developer Epic Games Axing 16% of Staff, Laying Off 830 Employees][4] - Epic Games 2023年9月のレイオフ第一報（830人/16%）。
 
-<a id="ref-5"></a>5. [Game Industry Layoffs: 14,600 people lost their jobs in 2024 | GameDev Reports][5] - 2024年業界レイオフ集計（GameIndustryLayoffs.comの集計データを基にした分析）。
+<a id="ref-5"></a>5. [Game Industry Layoffs: 14,600 people lost their jobs in 2024 ｜ GameDev Reports][5] - 2024年業界レイオフ集計（GameIndustryLayoffs.comの集計データを基にした分析）。
 
-<a id="ref-6"></a>6. [Global Indie Games Market Report 2024 | Video Game Insights (PDF)][6] - インディー市場のセグメンテーション一次資料。中規模市場（middle market）を「15-50人チーム、20-100万本売上、$1,000万収益」と定義。
+<a id="ref-6"></a>6. [Global Indie Games Market Report 2024 ｜ Video Game Insights (PDF)][6] - インディー市場のセグメンテーション一次資料。中規模市場（middle market）を「15-50人チーム、20-100万本売上、$1,000万収益」と定義。
 
 <a id="ref-7"></a>7. [4Gamer: スクウェア・エニックスHD，コンテンツ制作勘定の廃棄損として特別損失を約221億円計上する見込み][7] - 2024年4月30日のスクエニ221億円特損発表の一次報道。
 
-<a id="ref-8"></a>8. [Gaming Industry Emerges from Post-Pandemic Slump | BCG Press Release][8] - BCG Video Gaming Report 2026の公式プレスリリース。2030年市場規模3,530億ドル予測、クラウドゲーミング2025年14億ドル→2030年183億ドル。
+<a id="ref-8"></a>8. [Gaming Industry Emerges from Post-Pandemic Slump ｜ BCG Press Release][8] - BCG Video Gaming Report 2026の公式プレスリリース。2030年市場規模3,530億ドル予測、クラウドゲーミング2025年14億ドル→2030年183億ドル。
 
-<a id="ref-9"></a>9. [Riot Games lays off 530 employees, will close Riot Forge | PC Gamer][9] - Riot Games 2024年1月の530人/11%レイオフの報道。
+<a id="ref-9"></a>9. [Riot Games lays off 530 employees, will close Riot Forge ｜ PC Gamer][9] - Riot Games 2024年1月の530人/11%レイオフの報道。
 
-<a id="ref-10"></a>10. [GDC 2025 State of the Game Industry Report | GDC公式][10] - GDC公式調査レポート。生成AI実装率52%、個人使用率36%、開発者の生成AIへの懸念30%等。
+<a id="ref-10"></a>10. [GDC 2025 State of the Game Industry Report ｜ GDC公式][10] - GDC公式調査レポート。生成AI実装率52%、個人使用率36%、開発者の生成AIへの懸念30%等。
 
-<a id="ref-11"></a>11. [Announcing MetaHuman Creator: Fast, High-Fidelity Digital Humans in Unreal Engine | Epic Games][11] - Epic公式発表。デジタルヒューマン制作を「数週間〜数ヶ月から1時間以下に短縮」。
+<a id="ref-11"></a>11. [Announcing MetaHuman Creator: Fast, High-Fidelity Digital Humans in Unreal Engine ｜ Epic Games][11] - Epic公式発表。デジタルヒューマン制作を「数週間〜数ヶ月から1時間以下に短縮」。
 
-<a id="ref-12"></a>12. [2025年に注目のアニメーショントレンド16選 | GarageFarm][12] - 2D/3Dハイブリッド、『スパイダーバース』『アーケイン』等のスタイル動向。
+<a id="ref-12"></a>12. [2025年に注目のアニメーショントレンド16選 ｜ GarageFarm][12] - 2D/3Dハイブリッド、『スパイダーバース』『アーケイン』等のスタイル動向。
 
 <a id="ref-13"></a>13. [Hades II - Metacritic（公式評価ページ）][13] - Hades II（PC版95、Switch版95、Switch 2版94）の Metacritic公式スコアおよび2025 Game of the Year選出の一次データ。
 
-<a id="ref-14"></a>14. [Exit Interview: Joseph Cross | ReaderGrev][14] および [Episode 95 - Joseph Cross | The Learn Squared Podcast (Apple Podcasts)][15] - Marathon元アートディレクター・Joseph Cross氏への詳細インタビュー。「1年以内にやや写実的なスタイルからスタイライズドへ転換した」発言、および「Graphic Realism」という用語の定義について本人が直接語った一次資料（2025年4月配信ポッドキャスト + 2026年1月インタビュー）。
+<a id="ref-14"></a>14. [Exit Interview: Joseph Cross ｜ ReaderGrev][14] および [Episode 95 - Joseph Cross ｜ The Learn Squared Podcast (Apple Podcasts)][15] - Marathon元アートディレクター・Joseph Cross氏への詳細インタビュー。「1年以内にやや写実的なスタイルからスタイライズドへ転換した」発言、および「Graphic Realism」という用語の定義について本人が直接語った一次資料（2025年4月配信ポッドキャスト + 2026年1月インタビュー）。
 
-<a id="ref-15"></a>15. [NVIDIA Redefines Game AI With ACE Autonomous Game Characters | NVIDIA][16] - CES 2025発表のACE Autonomous Game Characters公式情報。inZOIのSmart Zoi、PUBG Allyの実装詳細。
+<a id="ref-15"></a>15. [NVIDIA Redefines Game AI With ACE Autonomous Game Characters ｜ NVIDIA][16] - CES 2025発表のACE Autonomous Game Characters公式情報。inZOIのSmart Zoi、PUBG Allyの実装詳細。
 
-<a id="ref-16"></a>16. [AI-powered gameplay in experiences from Ubisoft, NVIDIA, Xbox, and indie devs at GDC 2024 | Inworld AI][17] - GDC 2024でのNEO NPCs（Ubisoft）共同発表の一次資料。
+<a id="ref-16"></a>16. [AI-powered gameplay in experiences from Ubisoft, NVIDIA, Xbox, and indie devs at GDC 2024 ｜ Inworld AI][17] - GDC 2024でのNEO NPCs（Ubisoft）共同発表の一次資料。
 
-<a id="ref-17"></a>17. [Ubisoft debuts GenAI-powered Neo NPCs and gameplay prototype | GamesBeat][18] - GDC 2024でのNEO NPCs公開の詳細報道。Xavier Manzanares氏（Ubisoftプロデューサー）のコメント等。
+<a id="ref-17"></a>17. [Ubisoft debuts GenAI-powered Neo NPCs and gameplay prototype ｜ GamesBeat][18] - GDC 2024でのNEO NPCs公開の詳細報道。Xavier Manzanares氏（Ubisoftプロデューサー）のコメント等。
 
-<a id="ref-18"></a>18. [How PS5's DualSense controller is making EA Sports F1 22 an incredibly authentic racing experience | PlayStation Blog（公式）][19] - PlayStation公式ブログ。DualSenseのハプティクス・アダプティブトリガーがレーシングゲームでどのようにアセット化されているかの一次資料。
+<a id="ref-18"></a>18. [How PS5's DualSense controller is making EA Sports F1 22 an incredibly authentic racing experience ｜ PlayStation Blog（公式）][19] - PlayStation公式ブログ。DualSenseのハプティクス・アダプティブトリガーがレーシングゲームでどのようにアセット化されているかの一次資料。
 
-<a id="ref-19"></a>19. [The PC and Console Gaming Report 2025 | Newzoo（公式PDF）][20] - Newzoo公式レポート。2024年PCゲーム収益のうちマイクロトランザクション58%（約244億ドル）、DLC 14%（約53億ドル）、プレミアム 28%（約107億ドル）の内訳一次データ。
+<a id="ref-19"></a>19. [The PC and Console Gaming Report 2025 ｜ Newzoo（公式PDF）][20] - Newzoo公式レポート。2024年PCゲーム収益のうちマイクロトランザクション58%（約244億ドル）、DLC 14%（約53億ドル）、プレミアム 28%（約107億ドル）の内訳一次データ。
 
-<a id="ref-20"></a>20. [Game Industry In 2025: The Trends Defining How Studios Will Build | Gianty][21] - Newzoo 2025レポートに基づく業界動向総覧。
+<a id="ref-20"></a>20. [Game Industry In 2025: The Trends Defining How Studios Will Build ｜ Gianty][21] - Newzoo 2025レポートに基づく業界動向総覧。
 
-<a id="ref-21"></a>21. [AAA Game Development & Studio Strategies: 2026 Guide | Juego Studio][22] - GaaS、ライブサービス戦略についての業界解説。
+<a id="ref-21"></a>21. [AAA Game Development & Studio Strategies: 2026 Guide ｜ Juego Studio][22] - GaaS、ライブサービス戦略についての業界解説。
 
-<a id="ref-22"></a>22. [Games industry in 2026 and beyond: is user-generated content the future? | Taylor Wessing][23] - UGC・GaaS動向に関する法律事務所による分析。
+<a id="ref-22"></a>22. [Games industry in 2026 and beyond: is user-generated content the future? ｜ Taylor Wessing][23] - UGC・GaaS動向に関する法律事務所による分析。
 
 <a id="ref-23"></a>23. [Sega Press Release: Sonic the Hedgehog 3 Movie Box Office Surpasses $425 Million Worldwide][24] - セガ公式発表。Sonic映画三部作累計10億ドル超達成の一次資料。
 
-<a id="ref-24"></a>24. [Video Gaming Report 2026: The Next Era of Growth | BCG][25] - BCG Video Gaming Report 2026本編。クラウドゲーミング・サブスクリプション・IP戦略の予測。
+<a id="ref-24"></a>24. [Video Gaming Report 2026: The Next Era of Growth ｜ BCG][25] - BCG Video Gaming Report 2026本編。クラウドゲーミング・サブスクリプション・IP戦略の予測。
 
-<a id="ref-25"></a>25. [GDC 2025: Beyond prototypes to production AI | Inworld AI][26] - Inworld公式GDC 2025レポート。AI NPC実用化の課題（コントロール、コスト、予測可能性）に関する一次資料。
+<a id="ref-25"></a>25. [GDC 2025: Beyond prototypes to production AI ｜ Inworld AI][26] - Inworld公式GDC 2025レポート。AI NPC実用化の課題（コントロール、コスト、予測可能性）に関する一次資料。
 
-<a id="ref-26"></a>26. [The Ethics of AI in Games | arXiv (David Melhart et al., 2023)][27] - 感情認識・アダプティブシステムのエシカルリスクに関する学術論文。Affective Game Loop（感情の引き出し→感知→検出→適応）の各段階における倫理的課題（プライバシー、透明性、ダークパターン、依存性の助長）を体系的に論じる一次資料。ACM Foundations of Digital Games 2025発表の関連論文も参照可能。
+<a id="ref-26"></a>26. [The Ethics of AI in Games ｜ arXiv (David Melhart et al., 2023)][27] - 感情認識・アダプティブシステムのエシカルリスクに関する学術論文。Affective Game Loop（感情の引き出し→感知→検出→適応）の各段階における倫理的課題（プライバシー、透明性、ダークパターン、依存性の助長）を体系的に論じる一次資料。ACM Foundations of Digital Games 2025発表の関連論文も参照可能。
 
-<a id="ref-27"></a>27. [バンダイナムコグループ 2024年3月期 第3四半期 決算説明会（質疑応答概要） | バンダイナムコ公式PDF][28] - バンダイナムコ公式IR資料。「5タイトル以上の開発中止」の一次情報源。
+<a id="ref-27"></a>27. [バンダイナムコグループ 2024年3月期 第3四半期 決算説明会（質疑応答概要） ｜ バンダイナムコ公式PDF][28] - バンダイナムコ公式IR資料。「5タイトル以上の開発中止」の一次情報源。
 
-<a id="ref-28"></a>28. [Generative AI Has "Zero Part" In GTA 6 Despite Widespread Use Across Take-Two | GameSpot][29] - 2026年2月。Take-Two CEO Strauss Zelnick氏が「GTA VIには生成AIは一切使われていない」と公式表明。AAA大作の生成AI採用状況の最新一次情報。
+<a id="ref-28"></a>28. [Generative AI Has "Zero Part" In GTA 6 Despite Widespread Use Across Take-Two ｜ GameSpot][29] - 2026年2月。Take-Two CEO Strauss Zelnick氏が「GTA VIには生成AIは一切使われていない」と公式表明。AAA大作の生成AI採用状況の最新一次情報。
 
 [1]:	https://www.bain.com/insights/squeezed-in-the-middle-aaa-gaming-studios-must-adapt-gaming-report-2025/
 [2]:	https://www.cgmagonline.com/articles/budgets-ai-are-transform-games/
