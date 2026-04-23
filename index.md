@@ -7,3 +7,4 @@
 - [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md)
 - [結局ローグライクってなんなのさ？](what-is-rogue-like-game.md)
 - [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-recognition-and-games.md)
+- [ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性](game_graphics.md)
