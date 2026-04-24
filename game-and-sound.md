@@ -35,7 +35,7 @@
 
 **PlayStation期。** ソニーのPlayStationでは、サウンド系は **SPU** と **CD-ROM decoder** の二層構成になった。SPUは **24ボイス、44.1kHz、ADPCM、512KBのSPU RAM** を持ち、デジタルリバーブとCDデコーダ出力のミキシングを備える。一方、CD-ROM decoder側は **CD-DA 16-bit PCM** と **CD-ROM XA ADPCM** を読み、SPUに送って混ぜられる。つまりPlayStationの音響表現は、「何をSPU RAMに常駐させるか」と「何をCDから連続供給するか」の設計問題だった。
 
-PSY-Q開発資料が示すように、PlayStation世代では **VAG（サンプル）→ VAB（音色バンク）→ SEQ/SEP（シーケンス）** という制作フローが定着した。VAGは約3.5:1のADPCM圧縮（28サンプル×16-bit＝56バイト→16バイト）を前提にし、ADPCM圧縮の都合でループ点は **28サンプル境界** に縛られる。さらに、SPU streaming library は、512KBに収まらない波形を連続転送して再生する仕組みを用意しており、これによって音楽・ボイス・環境音の役割分担が一気に柔軟になった。PlayStationで"ゲーム音楽が映画に近づいた"という印象は、波形品質だけでなく、この **ストリーミング前提の実装自由度** から来ている。
+PlayStation世代では **VAG（サンプル）→ VAB（音色バンク）→ SEQ/SEP（シーケンス）** という制作フローが定着した。VAGは約3.5:1のADPCM圧縮（28サンプル×16-bit＝56バイト→16バイト）を前提にし、ADPCM圧縮の都合でループ点は **28サンプル境界** に縛られる。さらに、SPU streaming libraryは、512KBに収まらない波形を連続転送して再生する仕組みを用意しており、これによって音楽・ボイス・環境音の役割分担が一気に柔軟になった。PlayStationで"ゲーム音楽が映画に近づいた"という印象は、波形品質だけでなく、この **ストリーミング前提の実装自由度** から来ている。
 
 **現行機。** 2020年代の家庭用機は、旧来のような「何Hzで何bitの音源チップが何chあるか」を前面には出さない。公開資料の中心は、 **空間レンダリング、出力経路、ユーザー体験** である。PlayStation 5はTempest 3D AudioTechを **"custom engine for 3D audio"** として位置付け、ヘッドホン、TVスピーカー、さらに2023年以降は **Dolby Atmos対応HDMI機器** へのレンダリングを拡張してきた。Xbox Series X｜Sは **custom audio hardware** でCPUから空間音響処理をオフロードし、Microsoft Spatial Soundで **17の静的チャンネル (8.1.4.4) と dynamic objects** を扱える。Nintendo Switch 2は、公開されるのが主に **5.1ch Linear PCM出力、System/Headphone Virtual Surround、立体サウンド、内蔵マイクのノイズ抑制** であり、さらにゲームチャット用として **音声処理専用の高性能なチップ** を搭載することが明かされている。
 
