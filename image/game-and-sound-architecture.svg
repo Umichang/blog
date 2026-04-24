@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700" role="img" aria-labelledby="title desc">
+  <title id="title">現行家庭用機の公開オーディオアーキテクチャ</title>
+  <desc id="desc">Nintendo Switch 2、PlayStation 5、Xbox Series X/Sの公開情報にもとづくオーディオ処理経路を示した図。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .cluster { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 18; }
+      .sw { stroke: #14b8a6; }
+      .ps { stroke: #2563eb; }
+      .xb { stroke: #16a34a; }
+      .node { fill: #f8fafc; stroke: #94a3b8; stroke-width: 2; rx: 12; }
+      .nodeText { fill: #0f172a; font: 18px sans-serif; }
+      .heading { fill: #0f172a; font: 700 24px sans-serif; }
+      .title { fill: #0f172a; font: 700 34px sans-serif; }
+      .edge { stroke: #475569; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="700"/>
+  <text class="title" x="700" y="54" text-anchor="middle">現行家庭用機の公開オーディオアーキテクチャ</text>
+
+  <g>
+    <rect class="cluster sw" x="45" y="100" width="410" height="540"/>
+    <text class="heading" x="250" y="142" text-anchor="middle">Nintendo Switch 2</text>
+    <rect class="node" x="100" y="180" width="300" height="62"/>
+    <text class="nodeText" x="250" y="218" text-anchor="middle">ゲームエンジン / ミドルウェア</text>
+    <rect class="node" x="100" y="300" width="300" height="62"/>
+    <text class="nodeText" x="250" y="338" text-anchor="middle">システムミキサー / Virtual Surround</text>
+    <rect class="node" x="95" y="430" width="145" height="76"/>
+    <text class="nodeText" x="168" y="462" text-anchor="middle">HDMI出力</text>
+    <text class="nodeText" x="168" y="490" text-anchor="middle">5.1ch LPCM</text>
+    <rect class="node" x="260" y="430" width="145" height="76"/>
+    <text class="nodeText" x="333" y="462" text-anchor="middle">本体スピーカー</text>
+    <text class="nodeText" x="333" y="490" text-anchor="middle">/ ヘッドホン</text>
+    <rect class="node" x="85" y="545" width="130" height="56"/>
+    <text class="nodeText" x="150" y="580" text-anchor="middle">内蔵マイク</text>
+    <rect class="node" x="240" y="545" width="170" height="56"/>
+    <text class="nodeText" x="325" y="580" text-anchor="middle">音声処理専用チップ</text>
+    <path class="edge" d="M 250 242 L 250 292"/>
+    <path class="edge" d="M 220 362 L 175 422"/>
+    <path class="edge" d="M 280 362 L 326 422"/>
+    <path class="edge" d="M 215 573 L 232 573"/>
+    <path class="edge" d="M 325 545 C 325 472 300 420 272 370"/>
+  </g>
+
+  <g>
+    <rect class="cluster ps" x="495" y="100" width="410" height="540"/>
+    <text class="heading" x="700" y="142" text-anchor="middle">PlayStation 5</text>
+    <rect class="node" x="550" y="180" width="300" height="62"/>
+    <text class="nodeText" x="700" y="218" text-anchor="middle">ゲームエンジン / ミドルウェア</text>
+    <rect class="node" x="550" y="300" width="300" height="62"/>
+    <text class="nodeText" x="700" y="338" text-anchor="middle">Tempest 3D AudioTech</text>
+    <rect class="node" x="535" y="445" width="150" height="62"/>
+    <text class="nodeText" x="610" y="483" text-anchor="middle">ヘッドホン</text>
+    <rect class="node" x="704" y="430" width="165" height="92"/>
+    <text class="nodeText" x="787" y="462" text-anchor="middle">TVスピーカー</text>
+    <text class="nodeText" x="787" y="490" text-anchor="middle">仮想サラウンド</text>
+    <rect class="node" x="570" y="550" width="260" height="62"/>
+    <text class="nodeText" x="700" y="588" text-anchor="middle">Dolby Atmos対応HDMI機器</text>
+    <path class="edge" d="M 700 242 L 700 292"/>
+    <path class="edge" d="M 660 362 L 620 437"/>
+    <path class="edge" d="M 735 362 L 780 422"/>
+    <path class="edge" d="M 700 362 L 700 542"/>
+  </g>
+
+  <g>
+    <rect class="cluster xb" x="945" y="100" width="410" height="540"/>
+    <text class="heading" x="1150" y="142" text-anchor="middle">Xbox Series X/S</text>
+    <rect class="node" x="1000" y="180" width="300" height="62"/>
+    <text class="nodeText" x="1150" y="218" text-anchor="middle">ゲームエンジン / ミドルウェア</text>
+    <rect class="node" x="1000" y="300" width="300" height="62"/>
+    <text class="nodeText" x="1150" y="338" text-anchor="middle">Custom audio hardware</text>
+    <rect class="node" x="1000" y="420" width="300" height="62"/>
+    <text class="nodeText" x="1150" y="458" text-anchor="middle">Microsoft Spatial Sound</text>
+    <rect class="node" x="1000" y="540" width="300" height="62"/>
+    <text class="nodeText" x="1150" y="565" text-anchor="middle">Windows Sonic / Dolby Atmos</text>
+    <text class="nodeText" x="1150" y="592" text-anchor="middle">/ DTS X</text>
+    <path class="edge" d="M 1150 242 L 1150 292"/>
+    <path class="edge" d="M 1150 362 L 1150 412"/>
+    <path class="edge" d="M 1150 482 L 1150 532"/>
+  </g>
+</svg>
