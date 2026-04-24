@@ -8,7 +8,7 @@
 
 ## 対象範囲と分析の枠組み
 
-対象範囲は、 **ファミコン → スーパーファミコン → PlayStation → 現行機** とする。現行機は、2026年4月時点の主要メーカー最新家庭用機として、任天堂のNintendo Switch 2、ソニーのPlayStation 5、MicrosoftのXbox Series X|Sを含める。なおNintendo Switch 2は2025年6月5日発売で、TV出力と5.1ch Linear PCMを持つため、本稿では任天堂系の現行"家庭用"基幹機として扱う。旧世代では公式のレジスタ公開資料が断片的なため、一次資料として残るアーカイブ化された開発マニュアルを優先しつつ、レジスタ級仕様は長年利用されてきたハードウェア技術資料で補った。
+対象範囲は、 **ファミコン → スーパーファミコン → PlayStation → 現行機** とする。現行機は、2026年4月時点の主要メーカー最新家庭用機として、任天堂のNintendo Switch 2、ソニーのPlayStation 5、MicrosoftのXbox Series X｜Sを含める。なおNintendo Switch 2は2025年6月5日発売で、TV出力と5.1ch Linear PCMを持つため、本稿では任天堂系の現行"家庭用"基幹機として扱う。旧世代では公式のレジスタ公開資料が断片的なため、一次資料として残るアーカイブ化された開発マニュアルを優先しつつ、レジスタ級仕様は長年利用されてきたハードウェア技術資料で補った。
 
 ### 主要スペック比較
 
@@ -19,7 +19,7 @@
 | PlayStation       | SPU + CD-ROM decoder                                 | SPU ADPCM、CD-DA 16-bit PCM、CD-ROM XA ADPCM、ストリーミング     | 24ボイス + CD系音源のミックス                                              | 44.1kHz、SPUはADPCM、CD-DAは16-bit PCM                   | SPU RAM 512KB + CD-ROM                | "ローカルRAM上の音"と"ディスクから流す音"の分業が成立            |                                       |
 | Nintendo Switch 2 | 公開資料上はCustom NVIDIA processor + 音声入出力機能 + 音声処理用専用チップ | ソフトウェア / ミドルウェア主体、立体サウンド、Virtual Surround、5.1ch LPCM出力 | 固定ボイス数は非公開。公開される出力はStereo / 5.1 LPCM                            | 内部サンプルレート/ビット深度は非公開                                  | 本体保存メモリー256GB、高速化されたmicroSD Express対応 | 公開される差分は"出力能力"と"ボイス処理"寄りで、旧来の音源チップ的公開は少ない |                                       |
 | PlayStation 5     | Tempest 3D AudioTech                                 | 3D / 空間音響レンダリング、ヘッドホン / TV / Dolby Atmos対応             | 固定チャンネル数は非公開                                                    | 内部サンプルレート/ビット深度は非公開                                  | SSD 825GB、高速I/O                       | 低レベル音源ではなく、空間レンダラと出力経路が差別化要素              |                                       |
-| Xbox Series X     | S                                                    | Custom audio hardware block + Microsoft Spatial Sound  | オブジェクトベース spatial rendering、Windows Sonic / Dolby Atmos / DTS:X | API上は17 static channels (8.1.4.4) + dynamic objects  | 内部サンプルレート/ビット深度は非公開                   | SSD + custom hardware offload             | CPU負荷を下げつつ空間音響を標準化し、出力先差分をプラットフォームが吸収 |
+| Xbox Series X｜S  | Custom audio hardware block + Microsoft Spatial Sound | オブジェクトベース spatial rendering、Windows Sonic / Dolby Atmos / DTS:X | API上は17 static channels (8.1.4.4) + dynamic objects | 内部サンプルレート/ビット深度は非公開 | SSD + custom hardware offload | CPU負荷を下げつつ空間音響を標準化し、出力先差分をプラットフォームが吸収 |                                       |
 
 表中のファミコン行は2A03 APU/DMC仕様、スーパーファミコン行はSPC700/S-DSPとARAM・DAC仕様、PlayStation行はPSY-Qハードウェアリファレンスと開発者ガイド、現行機行は各社の現行公開仕様とオーディオ機能説明に基づく。現行機では、旧世代のような内部DSPのサンプリング周波数・内部量子化ビット深度・固定ボイス数が公開されないケースが多いため、その欄は「非公開」と明記した。
 
@@ -37,7 +37,7 @@
 
 PSY-Q開発資料が示すように、PlayStation世代では **VAG（サンプル）→ VAB（音色バンク）→ SEQ/SEP（シーケンス）** という制作フローが定着した。VAGは約3.5:1のADPCM圧縮（28サンプル×16-bit＝56バイト→16バイト）を前提にし、ADPCM圧縮の都合でループ点は **28サンプル境界** に縛られる。さらに、SPU streaming library は、512KBに収まらない波形を連続転送して再生する仕組みを用意しており、これによって音楽・ボイス・環境音の役割分担が一気に柔軟になった。PlayStationで"ゲーム音楽が映画に近づいた"という印象は、波形品質だけでなく、この **ストリーミング前提の実装自由度** から来ている。
 
-**現行機。** 2020年代の家庭用機は、旧来のような「何Hzで何bitの音源チップが何chあるか」を前面には出さない。公開資料の中心は、 **空間レンダリング、出力経路、ユーザー体験** である。PlayStation 5はTempest 3D AudioTechを **"custom engine for 3D audio"** として位置付け、ヘッドホン、TVスピーカー、さらに2023年以降は **Dolby Atmos対応HDMI機器** へのレンダリングを拡張してきた。Xbox Series X|Sは **custom audio hardware** でCPUから空間音響処理をオフロードし、Microsoft Spatial Soundで **17の静的チャンネル (8.1.4.4) と dynamic objects** を扱える。Nintendo Switch 2は、公開されるのが主に **5.1ch Linear PCM出力、System/Headphone Virtual Surround、立体サウンド、内蔵マイクのノイズ抑制** であり、さらにゲームチャット用として **音声処理専用の高性能なチップ** を搭載することが明かされている。
+**現行機。** 2020年代の家庭用機は、旧来のような「何Hzで何bitの音源チップが何chあるか」を前面には出さない。公開資料の中心は、 **空間レンダリング、出力経路、ユーザー体験** である。PlayStation 5はTempest 3D AudioTechを **"custom engine for 3D audio"** として位置付け、ヘッドホン、TVスピーカー、さらに2023年以降は **Dolby Atmos対応HDMI機器** へのレンダリングを拡張してきた。Xbox Series X｜Sは **custom audio hardware** でCPUから空間音響処理をオフロードし、Microsoft Spatial Soundで **17の静的チャンネル (8.1.4.4) と dynamic objects** を扱える。Nintendo Switch 2は、公開されるのが主に **5.1ch Linear PCM出力、System/Headphone Virtual Surround、立体サウンド、内蔵マイクのノイズ抑制** であり、さらにゲームチャット用として **音声処理専用の高性能なチップ** を搭載することが明かされている。
 
 この"非公開化"は退歩ではない。むしろ、現代のボトルネックが **固定チャンネル数から、リアルタイム空間化・動的ミキシング・大量アセットの帯域管理・ツールチェーン整合** へ移ったことを示している。昔はチップの制約が音の個性を作ったが、今は **レンダラ、コーデック、ミドルウェア、空間プロファイル、ストレージI/O** の設計が個性を作る。歴史的に見ると、サウンド技術の重心が **発音器そのもの** から **音響パイプライン全体** へ移ったのである。
 
@@ -61,7 +61,7 @@ timeline
     1997 : PSY-Qワークフロー確立
          : VAG / VAB / SEQ
          : SPU RAM + streamingの分業
-    2020 : PlayStation 5 / Xbox Series X|S
+    2020 : PlayStation 5 / Xbox Series X｜S
          : Tempest 3D AudioTech
          : Microsoft Spatial Sound + hardware offload
     2025 : Nintendo Switch 2
@@ -107,7 +107,7 @@ timeline
 
 12. **『Returnal』（2021年、PlayStation 5）** — Game Directorのコメントは、この作品の3D Audioが **縦方向の多い戦場で敵や弾の位置把握を直感化する** と説明している。別の公式インタビューでも、作曲の側から「HousemarqueがTempest Engineで優れた方向感を実現している」と語られている。ここで重要なのは、3Dオーディオが"没入感の演出"に留まらず、 **ゲームプレイ上の situational awareness** に組み込まれていることだ。公式音源はデジタルサウンドトラックと先行公開トラックから確認できる。
 
-13. **『Senua's Saga: Hellblade II』（2024年、Xbox Series X|S）** — Xbox Developer\_Directは、この作品で **binaural and spatial audio** がプレイヤーを世界へ深く沈めると説明している。これはXbox Series X|Sの空間音響が、"対応機器があればAtmosで鳴る"という出力段の話ではなく、 **知覚設計そのものをゲームの主題に結びつける** 段階に達していることを示す。とくにHellblade系作品は、定位が単なるサラウンド効果ではなく、主観経験の演出装置として機能するため、現行Xboxの代表例に適している。公式入手先としてはXbox版商品ページおよび拡張版の公式案内がある。
+13. **『Senua's Saga: Hellblade II』（2024年、Xbox Series X｜S）** — Xbox Developer\_Directは、この作品で **binaural and spatial audio** がプレイヤーを世界へ深く沈めると説明している。これはXbox Series X｜Sの空間音響が、"対応機器があればAtmosで鳴る"という出力段の話ではなく、 **知覚設計そのものをゲームの主題に結びつける** 段階に達していることを示す。とくにHellblade系作品は、定位が単なるサラウンド効果ではなく、主観経験の演出装置として機能するため、現行Xboxの代表例に適している。公式入手先としてはXbox版商品ページおよび拡張版の公式案内がある。
 
 14. **『カービィのエアライダー』（2025年、Nintendo Switch 2）** — 任天堂の公式記事では、桜井政博がこの作品の音楽コンセプトを **"子どもが歌えること""一度走っただけでも残るシグネチャ・メロディ""オーケストラを核にすること"** として語っている。さらに100曲超がNintendo Musicで聴取可能で、開発時点の素材がかなり大規模だったことも示される。これはNintendo Switch 2の低レベル音源を見せる事例ではなく、 **現行任天堂作品の制作規模が、レイヤー分割・オーケストレーション・長尺サントラ運用へ完全に移った** ことを示す事例として重要である。公式音源はNintendo Music。
 
@@ -127,13 +127,13 @@ timeline
 | スーパーファミコン                                                                | ノートデータ + サンプル選定 + ループ + DSP設定                                                                                                                                                     | BRR変換、ARAM配置、エコーメモリ節約           | BRR                                   |
 | PlayStation                                                              | MIDI系シーケンス + VAGサンプル + ストリーム管理                                                                                                                                                    | VAB設計、SPU RAM節約、XA/CDとの分業       | SPU ADPCM / XA ADPCM / CD-DA          |
 | 現行機                                                                      | 多トラック音源、ステム、オブジェクト、DSPグラフ                                                                                                                                                         | ミドルウェア連携、空間音響、動的ミックス、コーデック別銀行生成 | Opus / ATRAC9 / XMA / ADX系などプラットフォーム別 |
-| この表の後半ほど、作曲家と実装者の境界は曖昧になっていく。FMODは現行機でOpusをPlayStation 5 / Xbox Series X | S / Nintendo Switch向け推奨コーデックとして扱い、Unreal MetaSoundsはサンプルアキュレートなDSPグラフ生成を可能にし、CRI ADX2はSound xRによってプラットフォーム差を吸収する方向を取っている。つまり現在の"音質向上"は、単純なPCM化ではなく、 **圧縮効率・空間整合・ツールの横断性** で達成されている。 |                                 |                                       |
+｜この表の後半ほど、作曲家と実装者の境界は曖昧になっていく。FMODは現行機でOpusをPlayStation 5 / Xbox Series X｜S / Nintendo Switch向け推奨コーデックとして扱い、Unreal MetaSoundsはサンプルアキュレートなDSPグラフ生成を可能にし、CRI ADX2はSound xRによってプラットフォーム差を吸収する方向を取っている。つまり現在の"音質向上"は、単純なPCM化ではなく、 **圧縮効率・空間整合・ツールの横断性** で達成されている。
 
 サウンドミドルウェアの意味も変わった。ファミコン / スーパーファミコン期の"サウンドエンジン"はほぼ各タイトル固有だったが、PlayStation期にはソニーの標準ライブラリとファイル形式が共通基盤として働き始める。現在はWwise、FMOD、CRI ADX2のような汎用ミドルウェアが **複数プラットフォームへ同一プロジェクトを展開** し、その上でPlayStation 5のTempestやXbox Spatial Sound、各プラットフォーム固有のデコーダ / 出力に橋をかける。この意味で、現代のサウンドエンジンは"再生器"ではなく、 **プラットフォーム差分の翻訳層** に近い。
 
 ## 現行機アーキテクチャと今後の展望
 
-以下の図は、各社が **公開している範囲だけ** で抽象化した現行家庭用機のオーディオアーキテクチャである。PlayStation 5はTempest 3D AudioTechを核にしたレンダラ、Xbox Series X|Sはcustom audio hardwareとMicrosoft Spatial Sound、Nintendo Switch 2は5.1ch LPCM / Virtual Surroundとゲームチャット向けの音声処理専用チップが公開情報の中心で、旧来のような"このDSPが何kHzで何ボイス"という低レベル仕様はほぼ表に出ない。
+以下の図は、各社が **公開している範囲だけ** で抽象化した現行家庭用機のオーディオアーキテクチャである。PlayStation 5はTempest 3D AudioTechを核にしたレンダラ、Xbox Series X｜Sはcustom audio hardwareとMicrosoft Spatial Sound、Nintendo Switch 2は5.1ch LPCM / Virtual Surroundとゲームチャット向けの音声処理専用チップが公開情報の中心で、旧来のような"このDSPが何kHzで何ボイス"という低レベル仕様はほぼ表に出ない。
 
 ```mermaid
 flowchart TB
@@ -179,7 +179,7 @@ flowchart TB
 
 2. **個人最適化HRTF** は標準要素に近づく。PlayStation 5はすでにpersonalized 3D audio profilesを導入し、Xbox / WindowsはHRTFベースのspatial audio object実装を公開している。Nintendo Switch 2もSystem / Headphone Virtual Surroundをユーザー設定として露出しており、将来的には測定や推定の個人化が広がると見るのが自然である。
 
-3. アセット圧縮は、 **ロスレスPCM常駐より"Opus中心の高効率ストリーム + 必要時だけ高品位展開"** に寄る公算が大きい。FMODはPlayStation 5 / Xbox Series X|S / Nintendo SwitchでOpusをプラットフォーム提供デコーダとして扱っており、高速ストレージと組み合わせることで、長尺のステムや環境音を細かく差し替える設計がしやすいからである。
+3. アセット圧縮は、 **ロスレスPCM常駐より"Opus中心の高効率ストリーム + 必要時だけ高品位展開"** に寄る公算が大きい。FMODはPlayStation 5 / Xbox Series X｜S / Nintendo SwitchでOpusをプラットフォーム提供デコーダとして扱っており、高速ストレージと組み合わせることで、長尺のステムや環境音を細かく差し替える設計がしやすいからである。
 
 4. **ボイス / チャット / アクセシビリティとゲーム音響の統合** はさらに進む。Nintendo Switch 2は内蔵マイクと音声処理専用チップを公開しており、Xboxのアクセシビリティ指針も"方向定位が重要な音のspatial audio表現"を推奨している。現行機の音響設計は、BGMやSEだけでなく、 **会話・聴覚支援・ノイズ抑制まで含む総合I/O設計** へ広がっていくはずだ。
 
