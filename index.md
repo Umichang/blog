@@ -12,3 +12,4 @@
 - [家庭用ゲーム機サウンドの歴史：ピコピコ音から立体音響へ](game-and-sound-reviced.md)
 - [家庭用ゲーム機とオンライン環境の歴史](online-games.md)
 - [家庭用ゲーム機のネット対戦：物理的制約と遅延隠蔽技術の完全解説](online-multiplayer.md)
+- [ゲームローカライズ完全ガイド：翻訳からカルチャライズ、AI時代の課題まで](game-localize.md)
