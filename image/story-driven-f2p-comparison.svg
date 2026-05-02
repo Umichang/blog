@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1080" viewBox="0 0 1400 1080" role="img" aria-labelledby="title desc">
+  <title id="title">F2Pストーリードリブン・マネタイズ比較図</title>
+  <desc id="desc">Fate/Grand Order、ブルーアーカイブ、崩壊：スターレイルを、マネタイズ、物語アクセス、課金動機、P2W圧力、パワークリープ、エンドコンテンツ、収益構造の軸で比較する図。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f4ed; }
+      .panel { fill: #fffdf8; stroke: #d8d1c2; stroke-width: 2; }
+      .header { fill: #262a33; }
+      .title { font: 700 34px -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; fill: #1f2430; }
+      .subtitle { font: 500 18px -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; fill: #5e6470; }
+      .col-title { font: 700 24px -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; fill: #ffffff; }
+      .col-note { font: 500 15px -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; fill: #e9edf4; }
+      .axis { font: 700 18px -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; fill: #252a33; }
+      .body { font: 500 17px -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; fill: #2f3440; }
+      .small { font: 500 14px -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; fill: #5e6470; }
+      .badge { font: 700 15px -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; fill: #ffffff; }
+      .group { font: 700 15px -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; fill: #6a5f4e; letter-spacing: .04em; }
+      .grid { stroke: #e2dccf; stroke-width: 1; }
+      .fgo { fill: #3d5a80; }
+      .ba { fill: #278ea5; }
+      .hsr { fill: #b45f32; }
+      .low { fill: #2f855a; }
+      .mid { fill: #c47b18; }
+      .high { fill: #b83232; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1400" height="1080"/>
+  <text class="title" x="70" y="70">三作品の設計思想比較</text>
+  <text class="subtitle" x="70" y="105">縦軸は評価観点、横軸はタイトル。色付きバッジはエンドコンテンツ上の課金圧力を示す。</text>
+
+  <rect class="panel" x="50" y="140" width="1300" height="870" rx="18"/>
+
+  <rect class="header" x="50" y="140" width="1300" height="92" rx="18"/>
+  <rect class="header" x="50" y="190" width="1300" height="42"/>
+  <text class="col-title" x="350" y="178" text-anchor="middle">FGO</text>
+  <text class="col-note" x="350" y="204" text-anchor="middle">愛着が先、課金が後</text>
+  <text class="col-title" x="720" y="178" text-anchor="middle">ブルーアーカイブ</text>
+  <text class="col-note" x="720" y="204" text-anchor="middle">先生と生徒の絆</text>
+  <text class="col-title" x="1090" y="178" text-anchor="middle">崩壊：スターレイル</text>
+  <text class="col-note" x="1090" y="204" text-anchor="middle">プレイアブル・フィクション</text>
+
+  <line class="grid" x1="220" y1="140" x2="220" y2="1010"/>
+  <line class="grid" x1="485" y1="140" x2="485" y2="1010"/>
+  <line class="grid" x1="865" y1="140" x2="865" y2="1010"/>
+
+  <g>
+    <rect x="70" y="262" width="110" height="28" rx="14" fill="#efe4cf"/>
+    <text class="group" x="125" y="282" text-anchor="middle">価値設計</text>
+    <text class="axis" x="70" y="330">マネタイズの核心</text>
+    <text class="body" x="250" y="308">IPと感情移入による</text>
+    <text class="body" x="250" y="332">「推し活」</text>
+    <text class="body" x="515" y="308">絆システムと</text>
+    <text class="body" x="515" y="332">推し活の接続</text>
+    <text class="body" x="895" y="308">キャラクター収集と</text>
+    <text class="body" x="895" y="332">継続的な世界体験</text>
+  </g>
+
+  <line class="grid" x1="50" y1="372" x2="1350" y2="372"/>
+  <g>
+    <text class="axis" x="70" y="425">物語へのアクセス</text>
+    <text class="body" x="250" y="404">メインストーリーは</text>
+    <text class="body" x="250" y="428">全員無料</text>
+    <text class="body" x="515" y="404">全員無料</text>
+    <text class="small" x="515" y="428">絆ストーリーは</text>
+    <text class="small" x="515" y="449">キャラ所持が必要</text>
+    <text class="body" x="895" y="404">開拓クエストは</text>
+    <text class="body" x="895" y="428">全員無料</text>
+  </g>
+
+  <line class="grid" x1="50" y1="482" x2="1350" y2="482"/>
+  <g>
+    <text class="axis" x="70" y="535">課金動機</text>
+    <text class="body" x="250" y="514">推しキャラを</text>
+    <text class="body" x="250" y="538">「所有する」価値</text>
+    <text class="body" x="515" y="514">推しキャラとの</text>
+    <text class="body" x="515" y="538">絆コンテンツ解放</text>
+    <text class="body" x="895" y="514">キャラ収集と</text>
+    <text class="body" x="895" y="538">エンド対応能力</text>
+  </g>
+
+  <line class="grid" x1="50" y1="592" x2="1350" y2="592"/>
+  <g>
+    <rect x="70" y="612" width="110" height="28" rx="14" fill="#efe4cf"/>
+    <text class="group" x="125" y="632" text-anchor="middle">競争圧力</text>
+    <text class="axis" x="70" y="680">P2W圧力</text>
+    <rect class="low" x="250" y="645" width="96" height="34" rx="17"/>
+    <text class="badge" x="298" y="668" text-anchor="middle">低い</text>
+    <text class="small" x="250" y="704">PvPなし、低レア攻略可</text>
+    <rect class="mid" x="515" y="645" width="96" height="34" rx="17"/>
+    <text class="badge" x="563" y="668" text-anchor="middle">中程度</text>
+    <text class="small" x="515" y="704">ランキング競争で差が出る</text>
+    <rect class="high" x="895" y="645" width="96" height="34" rx="17"/>
+    <text class="badge" x="943" y="668" text-anchor="middle">高め</text>
+    <text class="small" x="895" y="704">Pay to Adapt化が進行</text>
+  </g>
+
+  <line class="grid" x1="50" y1="735" x2="1350" y2="735"/>
+  <g>
+    <text class="axis" x="70" y="788">パワークリープ</text>
+    <text class="body" x="250" y="767">非常に緩やか</text>
+    <text class="body" x="515" y="767">中程度</text>
+    <text class="small" x="515" y="791">レイド特化設計あり</text>
+    <text class="body" x="895" y="767">顕著</text>
+    <text class="small" x="895" y="791">HP/防御値インフレが論点</text>
+  </g>
+
+  <line class="grid" x1="50" y1="830" x2="1350" y2="830"/>
+  <g>
+    <rect x="70" y="850" width="110" height="28" rx="14" fill="#efe4cf"/>
+    <text class="group" x="125" y="870" text-anchor="middle">運営構造</text>
+    <text class="axis" x="70" y="918">エンドコンテンツ</text>
+    <text class="body" x="250" y="897">チャレンジクエスト</text>
+    <text class="small" x="250" y="921">非競争的</text>
+    <text class="body" x="515" y="897">総力戦ランキング</text>
+    <text class="small" x="515" y="921">半競争的</text>
+    <text class="body" x="895" y="897">忘却の庭・虚構叙事</text>
+    <text class="small" x="895" y="921">スコア競争</text>
+  </g>
+
+  <line class="grid" x1="50" y1="950" x2="1350" y2="950"/>
+  <g>
+    <text class="axis" x="70" y="992">収益構造の特徴</text>
+    <text class="body" x="250" y="976">RPDが高水準</text>
+    <text class="body" x="515" y="976">日本市場比率が高い</text>
+    <text class="body" x="895" y="976">中国・日本の二大市場</text>
+  </g>
+</svg>
