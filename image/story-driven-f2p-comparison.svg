@@ -35,8 +35,8 @@
   <rect class="header" x="50" y="190" width="1300" height="42"/>
   <text class="col-title" x="350" y="178" text-anchor="middle">FGO</text>
   <text class="col-note" x="350" y="204" text-anchor="middle">愛着が先、課金が後</text>
-  <text class="col-title" x="720" y="178" text-anchor="middle">ブルーアーカイブ</text>
-  <text class="col-note" x="720" y="204" text-anchor="middle">先生と生徒の絆</text>
+  <text class="col-title" x="675" y="178" text-anchor="middle">ブルーアーカイブ</text>
+  <text class="col-note" x="675" y="204" text-anchor="middle">先生と生徒の絆</text>
   <text class="col-title" x="1090" y="178" text-anchor="middle">崩壊：スターレイル</text>
   <text class="col-note" x="1090" y="204" text-anchor="middle">プレイアブル・フィクション</text>
 
