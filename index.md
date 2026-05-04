@@ -17,3 +17,4 @@
 - [AIの登場するゲームたち ― 日本のプレイヤーが知っている名作で読み解く「もう一つの知性」 ―](AI-in-games-reviced.md)
 - [F2Pゲームのストーリードリブン・マネタイズ比較](story-drivened-f2p-games.md)
 - [レポート：PCゲームと家庭用コンソールのゲームの性能比較](pc-vs-console-gaming-os-performance-report.md)
+- [汎用OS搭載PCゲーム vs 専用OS搭載コンソールゲーム 性能・設計・開発の徹底比較レポート](pc-vs-console-gaming-os-performance-report_reviced.md)
