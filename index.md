@@ -16,3 +16,4 @@
 - [古今東西、AIの登場するゲームたち ― ゲームが描いてきた「もう一つの知性」の系譜 ―](AI-in-games.md)
 - [AIの登場するゲームたち ― 日本のプレイヤーが知っている名作で読み解く「もう一つの知性」 ―](AI-in-games-reviced.md)
 - [F2Pゲームのストーリードリブン・マネタイズ比較](story-drivened-f2p-games.md)
+- [レポート：PCゲームと家庭用コンソールのゲームの性能比較](pc-vs-console-gaming-os-performance-report.md)
