@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">SteamOSが携帯ゲーミングPCで効く理由</title>
+  <desc id="desc">SteamOSはSteamライブラリ、コントローラーUI、スリープ復帰、少ない常駐ソフト、AMD APU最適化、Deck Verifiedをひとつの体験にまとめる。</desc>
+  <defs>
+    <style>
+      .bg{fill:#f6f8fb}
+      .hub{fill:#111827}
+      .node{fill:#fff;stroke:#a7b7d4;stroke-width:2}
+      .accent{fill:#eaf2ff;stroke:#4f8df6;stroke-width:2}
+      .title{font:700 34px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#1f2937}
+      .hubText{font:700 28px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#fff}
+      .label{font:700 21px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#1f2937}
+      .small{font:600 17px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#475569}
+      .line{stroke:#7893bd;stroke-width:4}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="720"/>
+  <text class="title" x="60" y="68">SteamOSは「PCの自由度」を携帯機の体験へ寄せる</text>
+
+  <circle class="hub" cx="600" cy="365" r="116"/>
+  <text class="hubText" x="600" y="350" text-anchor="middle">SteamOS</text>
+  <text class="hubText" x="600" y="386" text-anchor="middle">携帯PC体験</text>
+
+  <line class="line" x1="505" y1="300" x2="315" y2="200"/>
+  <line class="line" x1="600" y1="250" x2="600" y2="150"/>
+  <line class="line" x1="695" y1="300" x2="885" y2="200"/>
+  <line class="line" x1="495" y1="425" x2="315" y2="525"/>
+  <line class="line" x1="600" y1="480" x2="600" y2="590"/>
+  <line class="line" x1="705" y1="425" x2="885" y2="525"/>
+
+  <rect class="accent" x="110" y="145" width="300" height="95" rx="8"/>
+  <text class="label" x="260" y="179" text-anchor="middle">コンソール風UI</text>
+  <text class="small" x="260" y="208" text-anchor="middle">コントローラーで完結しやすい</text>
+
+  <rect class="node" x="450" y="105" width="300" height="95" rx="8"/>
+  <text class="label" x="600" y="139" text-anchor="middle">Steamライブラリ統合</text>
+  <text class="small" x="600" y="168" text-anchor="middle">購入・起動・管理が集約される</text>
+
+  <rect class="accent" x="790" y="145" width="300" height="95" rx="8"/>
+  <text class="label" x="940" y="179" text-anchor="middle">スリープ復帰</text>
+  <text class="small" x="940" y="208" text-anchor="middle">短時間で遊び直しやすい</text>
+
+  <rect class="node" x="110" y="485" width="300" height="95" rx="8"/>
+  <text class="label" x="260" y="519" text-anchor="middle">常駐ソフトを減らしやすい</text>
+  <text class="small" x="260" y="548" text-anchor="middle">ゲーム用途へ絞り込みやすい</text>
+
+  <rect class="accent" x="450" y="550" width="300" height="95" rx="8"/>
+  <text class="label" x="600" y="584" text-anchor="middle">AMD APUとの相性</text>
+  <text class="small" x="600" y="613" text-anchor="middle">固定寄りの環境で調整しやすい</text>
+
+  <rect class="node" x="790" y="485" width="300" height="95" rx="8"/>
+  <text class="label" x="940" y="519" text-anchor="middle">Deck Verified</text>
+  <text class="small" x="940" y="548" text-anchor="middle">遊べるかを事前に判断しやすい</text>
+</svg>
