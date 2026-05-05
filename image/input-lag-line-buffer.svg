@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title1 desc1">
+  <title id="title1">ラインバッファ方式の仕組み</title>
+  <desc id="desc1">ファミコン時代のラインバッファ方式：CPUがVRAMに書き込んだデータをPPUが1スキャンライン単位で処理し、CRTビームに同期してリアルタイムに出力する仕組み。フレームバッファを必要としない低遅延・低コスト設計。</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+    <marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="600" y="44" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="26" font-weight="700">ラインバッファ方式の仕組み（ファミコン時代）</text>
+
+  <!-- ===== CPU/VRAM BOX ===== -->
+  <rect x="22" y="62" width="238" height="348" rx="12" fill="#faf5ff" stroke="#7c3aed" stroke-width="2.5"/>
+  <text x="141" y="92" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="18" font-weight="700">CPU / VRAM</text>
+
+  <rect x="47" y="106" width="188" height="58" rx="6" fill="#7c3aed"/>
+  <text x="141" y="132" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="700">CPU（6502系）</text>
+  <text x="141" y="152" text-anchor="middle" fill="#ddd6fe" font-family="sans-serif" font-size="13">ゲームロジック処理</text>
+
+  <rect x="42" y="178" width="198" height="112" rx="6" fill="#ede9fe" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="141" y="200" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="14" font-weight="700">VRAM</text>
+  <text x="141" y="218" text-anchor="middle" fill="#4c1d95" font-family="sans-serif" font-size="13">スプライト・タイル・BG</text>
+  <line x1="42" y1="232" x2="240" y2="232" stroke="#c4b5fd" stroke-width="1"/>
+  <line x1="42" y1="248" x2="240" y2="248" stroke="#c4b5fd" stroke-width="1"/>
+  <line x1="42" y1="264" x2="240" y2="264" stroke="#c4b5fd" stroke-width="1"/>
+  <line x1="42" y1="280" x2="240" y2="280" stroke="#c4b5fd" stroke-width="1"/>
+  <line x1="110" y1="226" x2="110" y2="290" stroke="#c4b5fd" stroke-width="1"/>
+  <line x1="175" y1="226" x2="175" y2="290" stroke="#c4b5fd" stroke-width="1"/>
+
+  <text x="141" y="320" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">VBI期間中にCPUが</text>
+  <text x="141" y="337" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">次フレームデータを書込み</text>
+  <text x="141" y="364" text-anchor="middle" fill="#7c3aed" font-family="sans-serif" font-size="14" font-weight="700">→ フレームバッファ不要！</text>
+  <text x="141" y="382" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">（メモリコスト大幅削減）</text>
+
+  <!-- ===== PPU BOX ===== -->
+  <rect x="310" y="62" width="248" height="348" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="434" y="92" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="18" font-weight="700">PPU（映像処理ユニット）</text>
+
+  <rect x="333" y="106" width="202" height="58" rx="6" fill="#2563eb"/>
+  <text x="434" y="130" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="700">スプライト / BG合成</text>
+  <text x="434" y="150" text-anchor="middle" fill="#bfdbfe" font-family="sans-serif" font-size="13">1スキャンライン毎にリアルタイム処理</text>
+
+  <path d="M 434 166 L 434 194" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrB)"/>
+
+  <rect x="322" y="196" width="224" height="76" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="434" y="222" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="15" font-weight="700">ラインバッファ</text>
+  <text x="434" y="241" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="13">1スキャンライン分のみ保持</text>
+  <text x="434" y="259" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="13">256ドット × 1行 ≈ 数百バイト</text>
+
+  <text x="434" y="302" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">H-blank（水平帰線期間）：</text>
+  <text x="434" y="319" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">PPUが次ラインのデータを</text>
+  <text x="434" y="336" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">ラインバッファへロード</text>
+
+  <text x="434" y="370" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="13" font-weight="600">1フレーム = 262スキャンライン</text>
+  <text x="434" y="388" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">（表示240本 + VBI 22本）</text>
+
+  <!-- ===== CRT BOX ===== -->
+  <rect x="608" y="62" width="570" height="348" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="893" y="92" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="18" font-weight="700">ブラウン管（CRT）</text>
+  <text x="893" y="110" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">電子ビームによるリアルタイム走査</text>
+
+  <!-- CRT Screen -->
+  <rect x="626" y="120" width="534" height="232" rx="6" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+
+  <!-- Row 1 (y=124-150): UI bar + sky -->
+  <rect x="630" y="124" width="526" height="26" fill="#5c94fc"/>
+  <rect x="630" y="124" width="526" height="11" fill="#000000"/>
+  <text x="652" y="133" fill="#ffffff" font-family="monospace" font-size="9">SCORE  01000          &#x2665; x3     WORLD 1-1</text>
+
+  <!-- Row 2 (y=153-179): Sky + clouds -->
+  <rect x="630" y="153" width="526" height="26" fill="#5c94fc"/>
+  <rect x="648" y="157" width="62" height="18" rx="9" fill="#fcfcfc"/>
+  <rect x="659" y="154" width="40" height="15" rx="7" fill="#fcfcfc"/>
+  <rect x="964" y="158" width="58" height="17" rx="8" fill="#fcfcfc"/>
+  <rect x="972" y="155" width="36" height="14" rx="7" fill="#fcfcfc"/>
+
+  <!-- Row 3 (y=182-208): Sky + character hat/head + floating blocks -->
+  <!-- CRTスキャンラインの3px暗帯(y=179-182)がキャラクターの首部分で自然に切れる -->
+  <rect x="630" y="182" width="526" height="26" fill="#5c94fc"/>
+  <!-- Mario hat crown (red) -->
+  <rect x="760" y="184" width="40" height="8" fill="#c80000"/>
+  <!-- Mario hat brim (wider) -->
+  <rect x="750" y="192" width="60" height="8" fill="#c80000"/>
+  <!-- Mario face (skin) -->
+  <rect x="753" y="200" width="54" height="8" fill="#fca048"/>
+  <!-- Mario eyes -->
+  <rect x="758" y="201" width="7" height="6" fill="#3a2000"/>
+  <rect x="793" y="201" width="7" height="6" fill="#3a2000"/>
+  <!-- Floating brick block -->
+  <rect x="840" y="184" width="22" height="22" rx="2" fill="#c84c0c"/>
+  <line x1="851" y1="184" x2="851" y2="206" stroke="#a03c08" stroke-width="2"/>
+  <line x1="840" y1="195" x2="862" y2="195" stroke="#a03c08" stroke-width="1"/>
+  <!-- Floating ? block -->
+  <rect x="874" y="184" width="22" height="22" rx="2" fill="#e8a028"/>
+  <text x="885" y="200" text-anchor="middle" fill="#7c4c00" font-family="monospace" font-size="13" font-weight="700">?</text>
+  <!-- Floating brick block -->
+  <rect x="908" y="184" width="22" height="22" rx="2" fill="#c84c0c"/>
+  <line x1="919" y1="184" x2="919" y2="206" stroke="#a03c08" stroke-width="2"/>
+  <line x1="908" y1="195" x2="930" y2="195" stroke="#a03c08" stroke-width="1"/>
+
+  <!-- Row 4 (y=211-237): Character body/shoes + coins + ground -->
+  <rect x="630" y="211" width="526" height="26" fill="#5c94fc"/>
+  <!-- Mario body/overalls (blue) -->
+  <rect x="748" y="211" width="64" height="14" fill="#0050e0"/>
+  <!-- Shirt sides (red) -->
+  <rect x="743" y="211" width="5" height="10" fill="#c80000"/>
+  <rect x="812" y="211" width="5" height="10" fill="#c80000"/>
+  <!-- Mario shoes (dark brown) -->
+  <rect x="748" y="223" width="20" height="7" fill="#4a2000"/>
+  <rect x="792" y="223" width="20" height="7" fill="#4a2000"/>
+  <!-- Floating coins -->
+  <rect x="870" y="213" width="14" height="13" rx="3" fill="#fce038" stroke="#c8a000" stroke-width="1.5"/>
+  <rect x="898" y="213" width="14" height="13" rx="3" fill="#fce038" stroke="#c8a000" stroke-width="1.5"/>
+  <rect x="926" y="213" width="14" height="13" rx="3" fill="#fce038" stroke="#c8a000" stroke-width="1.5"/>
+  <!-- Ground (NES-style green blocks) -->
+  <rect x="630" y="228" width="526" height="9" fill="#4a9000"/>
+  <line x1="694" y1="228" x2="694" y2="237" stroke="#3a7000" stroke-width="2"/>
+  <line x1="758" y1="228" x2="758" y2="237" stroke="#3a7000" stroke-width="2"/>
+  <line x1="822" y1="228" x2="822" y2="237" stroke="#3a7000" stroke-width="2"/>
+  <line x1="886" y1="228" x2="886" y2="237" stroke="#3a7000" stroke-width="2"/>
+  <line x1="950" y1="228" x2="950" y2="237" stroke="#3a7000" stroke-width="2"/>
+  <line x1="1014" y1="228" x2="1014" y2="237" stroke="#3a7000" stroke-width="2"/>
+  <line x1="1078" y1="228" x2="1078" y2="237" stroke="#3a7000" stroke-width="2"/>
+  <line x1="1142" y1="228" x2="1142" y2="237" stroke="#3a7000" stroke-width="2"/>
+
+  <!-- Beam row (y=240-266): left=underground(drawn), right=undrawn -->
+  <rect x="630" y="240" width="526" height="26" fill="#14532d"/>
+  <rect x="630" y="240" width="220" height="26" fill="#5c3808"/>
+  <circle cx="854" cy="253" r="7" fill="#fbbf24"/>
+  <line x1="861" y1="253" x2="1152" y2="253" stroke="#fbbf24" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="868" y="249" fill="#fbbf24" font-family="sans-serif" font-size="12" font-weight="700">← 電子ビーム走査中</text>
+
+  <!-- Undrawn rows (below beam) -->
+  <rect x="630" y="269" width="526" height="26" fill="#14532d"/>
+  <rect x="630" y="298" width="526" height="26" fill="#14532d"/>
+  <rect x="630" y="327" width="526" height="26" fill="#14532d"/>
+
+  <!-- Screen legend -->
+  <rect x="630" y="362" width="15" height="12" fill="#5c94fc" rx="2"/>
+  <text x="651" y="373" fill="#1e40af" font-family="sans-serif" font-size="13">描画済みライン（ゲーム映像）</text>
+  <circle cx="745" cy="368" r="5" fill="#fbbf24"/>
+  <text x="756" y="373" fill="#92400e" font-family="sans-serif" font-size="13">電子ビーム</text>
+  <rect x="844" y="362" width="15" height="12" fill="#14532d" stroke="#4ade80" stroke-width="0.5" rx="2"/>
+  <text x="865" y="373" fill="#64748b" font-family="sans-serif" font-size="13">未描画（次順番待ち）</text>
+
+  <text x="893" y="400" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="13" font-weight="700">描画と表示が完全同期 → 遅延はマイクロ秒単位</text>
+
+  <!-- ===== ARROWS ===== -->
+  <path d="M 262 235 L 308 235" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <text x="285" y="224" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">ドット</text>
+  <text x="285" y="249" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">データ</text>
+
+  <path d="M 560 234 L 606 234" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <text x="583" y="222" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">アナログ</text>
+  <text x="583" y="248" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">映像信号</text>
+
+  <!-- ===== TIMELINE ===== -->
+  <text x="600" y="440" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="17" font-weight="700">タイムライン（1フレーム ≈ 16.7ms / 60fps）</text>
+
+  <rect x="22" y="452" width="1156" height="68" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Line+Hblank pairs -->
+  <rect x="24" y="454" width="58" height="64" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="53" y="492" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="12">L1</text>
+  <rect x="84" y="454" width="12" height="64" rx="2" fill="#fde68a" stroke="#fbbf24" stroke-width="1"/>
+
+  <rect x="98" y="454" width="58" height="64" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="127" y="492" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="12">L2</text>
+  <rect x="158" y="454" width="12" height="64" rx="2" fill="#fde68a" stroke="#fbbf24" stroke-width="1"/>
+
+  <rect x="172" y="454" width="58" height="64" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="201" y="492" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="12">L3</text>
+  <rect x="232" y="454" width="12" height="64" rx="2" fill="#fde68a" stroke="#fbbf24" stroke-width="1"/>
+
+  <rect x="246" y="454" width="58" height="64" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="275" y="492" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="12">L4</text>
+  <rect x="306" y="454" width="12" height="64" rx="2" fill="#fde68a" stroke="#fbbf24" stroke-width="1"/>
+
+  <rect x="320" y="454" width="58" height="64" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="349" y="492" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="12">L5</text>
+  <rect x="380" y="454" width="12" height="64" rx="2" fill="#fde68a" stroke="#fbbf24" stroke-width="1"/>
+
+  <text x="412" y="492" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="22" font-weight="700">•••</text>
+
+  <rect x="432" y="454" width="58" height="64" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="461" y="488" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="11">L238</text>
+  <rect x="492" y="454" width="12" height="64" rx="2" fill="#fde68a" stroke="#fbbf24" stroke-width="1"/>
+
+  <rect x="506" y="454" width="58" height="64" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="535" y="488" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="11">L239</text>
+  <rect x="566" y="454" width="12" height="64" rx="2" fill="#fde68a" stroke="#fbbf24" stroke-width="1"/>
+
+  <rect x="580" y="454" width="58" height="64" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="609" y="488" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="11">L240</text>
+  <rect x="640" y="454" width="12" height="64" rx="2" fill="#fde68a" stroke="#fbbf24" stroke-width="1"/>
+
+  <!-- VBI Block -->
+  <rect x="654" y="454" width="522" height="64" rx="2" fill="#fecaca" stroke="#f87171" stroke-width="1"/>
+  <text x="915" y="479" text-anchor="middle" fill="#7f1d1d" font-family="sans-serif" font-size="15" font-weight="700">VBI（垂直帰線期間）22スキャンライン</text>
+  <text x="915" y="501" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">CPU → VRAM：次フレームのグラフィクスデータを書込み</text>
+
+  <!-- Legend -->
+  <rect x="22" y="536" width="15" height="12" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="43" y="547" fill="#334155" font-family="sans-serif" font-size="13">表示ライン（PPUがビームに同期してリアルタイム出力）</text>
+  <rect x="22" y="556" width="15" height="12" rx="2" fill="#fde68a" stroke="#fbbf24" stroke-width="1"/>
+  <text x="43" y="567" fill="#334155" font-family="sans-serif" font-size="13">H-blank（水平帰線期間）：次ラインをラインバッファへロード</text>
+  <rect x="22" y="576" width="15" height="12" rx="2" fill="#fecaca" stroke="#f87171" stroke-width="1"/>
+  <text x="43" y="587" fill="#334155" font-family="sans-serif" font-size="13">VBI（垂直帰線期間）：CPUがVRAMへ次フレームデータを書込み（フレームバッファ不要）</text>
+</svg>
