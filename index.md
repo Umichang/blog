@@ -20,3 +20,4 @@
 - [汎用OS搭載PCゲーム vs 専用OS搭載コンソールゲーム 性能・設計・開発の徹底比較レポート](pc-vs-console-gaming-os-performance-report_reviced.md)
 - [ゲームの入力遅延 完全解説レポート](input_lag.md)
 - [オープンワールドゲームの歴史：萌芽から革新へ](open-world-games.md)
+- [アタリショックからプレイステーション流通革命まで：ゲーム市場構造の変遷](atari-shock.md)
