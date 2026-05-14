@@ -1,220 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title2 desc2">
-  <title id="title2">フレームバッファ方式とダブルバッファリング</title>
-  <desc id="desc2">フレームバッファ方式のダブルバッファリング：GPUがバックバッファに描画し、V-sync（垂直同期）のタイミングでフロントバッファとスワップすることで映像を出力する。V-sync直後の入力は最大1フレーム分遅延する。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">フレームバッファ方式とダブルバッファリング</title>
+  <desc id="desc">フレームバッファ方式とダブルバッファリングを、処理パイプライン、保持するバッファ量、タイムラインの3段で示す図。GPUがバックバッファに1フレーム分を描画し、垂直同期でフロントバッファと交換して表示する。</desc>
   <defs>
-    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
     </marker>
-    <marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ea580c"/>
     </marker>
-    <marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"/>
-    </marker>
-    <marker id="arrU" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0891b2"/>
-    </marker>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif; }
+      .title { fill: #0f172a; font-size: 27px; font-weight: 800; }
+      .subtitle { fill: #475569; font-size: 14px; font-weight: 600; }
+      .section { fill: #334155; font-size: 13px; font-weight: 700; letter-spacing: 0; }
+      .node-title { fill: #0f172a; font-size: 17px; font-weight: 800; }
+      .node-text { fill: #475569; font-size: 13px; }
+      .small { fill: #64748b; font-size: 12px; }
+      .metric-title { fill: #0f172a; font-size: 15px; font-weight: 800; }
+      .metric-body { fill: #475569; font-size: 13px; }
+      .accent { fill: #c2410c; font-size: 14px; font-weight: 800; }
+    </style>
   </defs>
 
-  <rect width="1200" height="680" fill="#f8fafc"/>
+  <rect width="1200" height="760" fill="#f8fafc"/>
 
-  <!-- Title -->
-  <text x="600" y="44" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="26" font-weight="700">フレームバッファ方式とダブルバッファリング</text>
+  <text x="600" y="42" text-anchor="middle" class="title">フレームバッファ方式：描き終えてから表示する</text>
+  <text x="600" y="68" text-anchor="middle" class="subtitle">処理単位は「フレーム」。GPUが画面1枚分を描き、V-syncで表示用バッファと交換する。</text>
 
-  <!-- ===== TOP ROW: INPUT → CPU → GPU ===== -->
-  <!-- Controller -->
-  <rect x="22" y="75" width="148" height="104" rx="10" fill="#faf5ff" stroke="#7c3aed" stroke-width="2.5"/>
-  <text x="96" y="104" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="15" font-weight="700">コントローラー</text>
-  <text x="96" y="122" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">入力デバイス</text>
-  <text x="96" y="140" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">ポーリング間隔:</text>
-  <text x="96" y="157" text-anchor="middle" fill="#7c3aed" font-family="sans-serif" font-size="12" font-weight="600">1〜8ms</text>
-
-  <path d="M 172 127 L 208 127" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <text x="56" y="106" class="section">処理パイプライン</text>
 
   <!-- CPU -->
-  <rect x="210" y="75" width="168" height="104" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
-  <text x="294" y="104" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="15" font-weight="700">CPU / ゲームロジック</text>
-  <text x="294" y="122" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">入力読み取り</text>
-  <text x="294" y="140" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">ゲーム状態更新</text>
-  <text x="294" y="157" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">描画コマンド生成</text>
+  <rect x="48" y="124" width="230" height="176" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="163" y="156" text-anchor="middle" class="node-title">CPU / ゲームロジック</text>
+  <text x="163" y="181" text-anchor="middle" class="node-text">入力を読み、次の画面を決める</text>
+  <rect x="79" y="204" width="168" height="28" rx="5" fill="#ede9fe" stroke="#c4b5fd"/>
+  <rect x="79" y="242" width="168" height="28" rx="5" fill="#ede9fe" stroke="#c4b5fd"/>
+  <text x="163" y="223" text-anchor="middle" fill="#6d28d9" font-size="12" font-weight="700">入力サンプル</text>
+  <text x="163" y="261" text-anchor="middle" fill="#6d28d9" font-size="12" font-weight="700">描画コマンド生成</text>
 
-  <path d="M 380 127 L 416 127" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <path d="M 284 212 L 337 212" stroke="#475569" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+  <text x="311" y="199" text-anchor="middle" class="small">描画</text>
+  <text x="311" y="226" text-anchor="middle" class="small">命令</text>
 
   <!-- GPU -->
-  <rect x="418" y="75" width="168" height="104" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="2.5"/>
-  <text x="502" y="104" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="15" font-weight="700">GPU 描画処理</text>
-  <text x="502" y="122" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">ポリゴン変換</text>
-  <text x="502" y="140" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">テクスチャマッピング</text>
-  <text x="502" y="157" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">シェーダー処理</text>
+  <rect x="344" y="124" width="230" height="176" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="459" y="156" text-anchor="middle" class="node-title">GPU</text>
+  <text x="459" y="181" text-anchor="middle" class="node-text">1フレーム分をまとめて描画</text>
+  <rect x="382" y="204" width="154" height="26" rx="5" fill="#ffedd5" stroke="#fdba74"/>
+  <rect x="382" y="238" width="154" height="26" rx="5" fill="#ffedd5" stroke="#fdba74"/>
+  <text x="459" y="222" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="700">3D演算・ラスタライズ</text>
+  <text x="459" y="256" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="700">ピクセルを書き込み</text>
 
-  <!-- GPU → Back Buffer arrow (diagonal down-right) -->
-  <path d="M 588 150 Q 640 150 640 205" stroke="#ea580c" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
-  <text x="634" y="176" fill="#64748b" font-family="sans-serif" font-size="12">描画</text>
+  <path d="M 580 212 L 633 212" stroke="#ea580c" stroke-width="2.4" fill="none" marker-end="url(#arrow-orange)"/>
+  <text x="607" y="199" text-anchor="middle" class="small">画面</text>
+  <text x="607" y="226" text-anchor="middle" class="small">1枚分</text>
 
-  <!-- ===== BACK BUFFER ===== -->
-  <rect x="620" y="68" width="228" height="156" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
-  <text x="734" y="96" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700">バックバッファ</text>
-  <text x="734" y="114" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="13">GPU 描画中（非表示）</text>
-  <!-- Grid representing frame data -->
-  <rect x="638" y="122" width="192" height="88" rx="4" fill="#fef9c3" stroke="#fbbf24" stroke-width="1"/>
-  <line x1="638" y1="145" x2="830" y2="145" stroke="#fde68a" stroke-width="1"/>
-  <line x1="638" y1="168" x2="830" y2="168" stroke="#fde68a" stroke-width="1"/>
-  <line x1="638" y1="191" x2="830" y2="191" stroke="#fde68a" stroke-width="1"/>
-  <line x1="702" y1="122" x2="702" y2="210" stroke="#fde68a" stroke-width="1"/>
-  <line x1="766" y1="122" x2="766" y2="210" stroke="#fde68a" stroke-width="1"/>
-  <text x="734" y="158" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="12">1フレーム分の</text>
-  <text x="734" y="174" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="12">画像データ</text>
+  <!-- Back buffer -->
+  <rect x="640" y="124" width="230" height="176" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="755" y="156" text-anchor="middle" class="node-title">バックバッファ</text>
+  <text x="755" y="181" text-anchor="middle" class="node-text">描画中。まだ表示しない</text>
+  <rect x="681" y="205" width="148" height="72" rx="5" fill="#ffedd5" stroke="#fdba74"/>
+  <line x1="681" y1="223" x2="829" y2="223" stroke="#fed7aa"/>
+  <line x1="681" y1="241" x2="829" y2="241" stroke="#fed7aa"/>
+  <line x1="681" y1="259" x2="829" y2="259" stroke="#fed7aa"/>
+  <line x1="718" y1="205" x2="718" y2="277" stroke="#fed7aa"/>
+  <line x1="755" y1="205" x2="755" y2="277" stroke="#fed7aa"/>
+  <line x1="792" y1="205" x2="792" y2="277" stroke="#fed7aa"/>
+  <text x="755" y="247" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="800">完成待ち</text>
 
-  <!-- V-sync flip area -->
-  <rect x="630" y="236" width="208" height="46" rx="8" fill="#e0f2fe" stroke="#0891b2" stroke-width="2"/>
-  <text x="734" y="254" text-anchor="middle" fill="#0e7490" font-family="sans-serif" font-size="13" font-weight="700">V-sync フリップ</text>
-  <text x="734" y="272" text-anchor="middle" fill="#0e7490" font-family="sans-serif" font-size="12">16.7ms（60Hz）毎に交換</text>
+  <path d="M 876 212 L 929 212" stroke="#475569" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+  <text x="903" y="197" text-anchor="middle" class="small">V-sync</text>
+  <text x="903" y="226" text-anchor="middle" class="small">交換</text>
 
-  <!-- Double headed arrow between buffers -->
-  <path d="M 734 225 L 734 234" stroke="#0891b2" stroke-width="2.5" fill="none" marker-end="url(#arrU)"/>
-  <path d="M 734 284 L 734 293" stroke="#0891b2" stroke-width="2.5" fill="none" marker-end="url(#arrU)"/>
+  <!-- Front buffer and display -->
+  <rect x="936" y="124" width="216" height="176" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="1044" y="156" text-anchor="middle" class="node-title">フロントバッファ</text>
+  <text x="1044" y="181" text-anchor="middle" class="node-text">表示中の完成フレーム</text>
+  <rect x="975" y="201" width="138" height="78" rx="5" fill="#0f172a" stroke="#334155"/>
+  <rect x="983" y="209" width="122" height="54" fill="#60a5fa"/>
+  <rect x="983" y="252" width="122" height="11" fill="#16a34a"/>
+  <rect x="983" y="263" width="122" height="9" fill="#854d0e"/>
+  <rect x="1011" y="229" width="24" height="24" fill="#f97316"/>
+  <rect x="1024" y="220" width="22" height="15" fill="#fde047"/>
+  <rect x="1066" y="233" width="20" height="30" fill="#22c55e"/>
 
-  <!-- ===== FRONT BUFFER ===== -->
-  <rect x="620" y="296" width="228" height="156" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
-  <text x="734" y="324" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700">フロントバッファ</text>
-  <text x="734" y="342" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="13">表示中（ディスプレイへ出力）</text>
-  <!-- Grid representing frame data -->
-  <rect x="638" y="350" width="192" height="88" rx="4" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
-  <line x1="638" y1="373" x2="830" y2="373" stroke="#bbf7d0" stroke-width="1"/>
-  <line x1="638" y1="396" x2="830" y2="396" stroke="#bbf7d0" stroke-width="1"/>
-  <line x1="638" y1="419" x2="830" y2="419" stroke="#bbf7d0" stroke-width="1"/>
-  <line x1="702" y1="350" x2="702" y2="438" stroke="#bbf7d0" stroke-width="1"/>
-  <line x1="766" y1="350" x2="766" y2="438" stroke="#bbf7d0" stroke-width="1"/>
-  <text x="734" y="386" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">1フレーム前の</text>
-  <text x="734" y="402" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">画像データ</text>
+  <!-- Metrics -->
+  <text x="56" y="350" class="section">比較の要点</text>
+  <rect x="48" y="370" width="344" height="102" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="76" y="405" class="metric-title">保持するバッファ量</text>
+  <text x="76" y="433" class="metric-body">フロントとバックの2画面分。</text>
+  <text x="76" y="454" class="metric-body">高機能な描画と引き換えにVRAMを使う。</text>
 
-  <!-- Front Buffer → Display arrow -->
-  <path d="M 850 374 L 896 374" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <rect x="428" y="370" width="344" height="102" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="456" y="405" class="metric-title">同期の単位</text>
+  <text x="456" y="433" class="metric-body">V-syncごとにバッファを交換。</text>
+  <text x="456" y="454" class="metric-body">描画中の画面を見せずティアリングを防ぐ。</text>
 
-  <!-- ===== DISPLAY ===== -->
-  <rect x="898" y="80" width="280" height="390" rx="10" fill="#1e293b" stroke="#475569" stroke-width="2.5"/>
-  <text x="1038" y="110" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="16" font-weight="700">ディスプレイ</text>
-  <!-- ===== GAME SCENE: Complete rendered frame (LCD: no scanline gaps) ===== -->
-  <!-- Sky background -->
-  <rect x="914" y="122" width="248" height="196" fill="#5c94fc"/>
-  <!-- Cloud 1 -->
-  <rect x="918" y="139" width="58" height="18" rx="9" fill="#fcfcfc"/>
-  <rect x="926" y="135" width="40" height="16" rx="8" fill="#fcfcfc"/>
-  <rect x="914" y="143" width="28" height="13" rx="6" fill="#fcfcfc"/>
-  <!-- Cloud 2 -->
-  <rect x="1092" y="144" width="54" height="16" rx="8" fill="#fcfcfc"/>
-  <rect x="1100" y="140" width="36" height="14" rx="7" fill="#fcfcfc"/>
-  <!-- Coins above blocks -->
-  <rect x="924" y="162" width="12" height="14" rx="3" fill="#fce038" stroke="#c8a000" stroke-width="1"/>
-  <rect x="945" y="162" width="12" height="14" rx="3" fill="#fce038" stroke="#c8a000" stroke-width="1"/>
-  <rect x="966" y="162" width="12" height="14" rx="3" fill="#fce038" stroke="#c8a000" stroke-width="1"/>
-  <!-- Floating blocks -->
-  <rect x="922" y="178" width="20" height="20" rx="2" fill="#c84c0c"/>
-  <line x1="932" y1="178" x2="932" y2="198" stroke="#a03c08" stroke-width="2"/>
-  <line x1="922" y1="188" x2="942" y2="188" stroke="#a03c08" stroke-width="1"/>
-  <rect x="944" y="178" width="20" height="20" rx="2" fill="#e8a028"/>
-  <text x="954" y="193" text-anchor="middle" fill="#7c4c00" font-family="monospace" font-size="12" font-weight="700">?</text>
-  <rect x="966" y="178" width="20" height="20" rx="2" fill="#c84c0c"/>
-  <line x1="976" y1="178" x2="976" y2="198" stroke="#a03c08" stroke-width="2"/>
-  <line x1="966" y1="188" x2="986" y2="188" stroke="#a03c08" stroke-width="1"/>
-  <!-- Green pipe (right edge) -->
-  <rect x="1100" y="196" width="54" height="8" rx="2" fill="#22c000"/>
-  <rect x="1104" y="204" width="46" height="10" rx="2" fill="#1aaa00"/>
-  <rect x="1108" y="214" width="38" height="104" fill="#14a000"/>
-  <line x1="1127" y1="214" x2="1127" y2="318" stroke="#0e7800" stroke-width="2"/>
-  <!-- Ground -->
-  <rect x="914" y="318" width="248" height="10" fill="#4a9000"/>
-  <rect x="914" y="328" width="248" height="114" fill="#8b4513"/>
-  <line x1="944" y1="318" x2="944" y2="442" stroke="#6b3410" stroke-width="1.5"/>
-  <line x1="974" y1="318" x2="974" y2="442" stroke="#6b3410" stroke-width="1.5"/>
-  <line x1="1004" y1="318" x2="1004" y2="442" stroke="#6b3410" stroke-width="1.5"/>
-  <line x1="1034" y1="318" x2="1034" y2="442" stroke="#6b3410" stroke-width="1.5"/>
-  <line x1="1064" y1="318" x2="1064" y2="442" stroke="#6b3410" stroke-width="1.5"/>
-  <line x1="1094" y1="318" x2="1094" y2="442" stroke="#6b3410" stroke-width="1.5"/>
-  <line x1="1124" y1="318" x2="1124" y2="442" stroke="#6b3410" stroke-width="1.5"/>
-  <line x1="1154" y1="318" x2="1154" y2="442" stroke="#6b3410" stroke-width="1.5"/>
-  <line x1="914" y1="360" x2="1162" y2="360" stroke="#6b3410" stroke-width="1.5"/>
-  <line x1="914" y1="402" x2="1162" y2="402" stroke="#6b3410" stroke-width="1.5"/>
-  <!-- Character (Mario-like), feet at y=318 -->
-  <rect x="1020" y="258" width="36" height="8" fill="#c80000"/>
-  <rect x="1012" y="266" width="52" height="8" fill="#c80000"/>
-  <rect x="1016" y="274" width="44" height="16" fill="#fca048"/>
-  <rect x="1022" y="277" width="6" height="7" fill="#3a2000"/>
-  <rect x="1048" y="277" width="6" height="7" fill="#3a2000"/>
-  <rect x="1010" y="290" width="56" height="20" fill="#0050e0"/>
-  <rect x="1006" y="290" width="4" height="14" fill="#c80000"/>
-  <rect x="1066" y="290" width="4" height="14" fill="#c80000"/>
-  <rect x="1008" y="308" width="22" height="10" fill="#4a2000"/>
-  <rect x="1046" y="308" width="22" height="10" fill="#4a2000"/>
-  <!-- Goomba enemy, feet at y=318 -->
-  <rect x="1072" y="281" width="26" height="20" rx="8" fill="#7c3a0c"/>
-  <rect x="1070" y="298" width="30" height="14" rx="3" fill="#a04c1a"/>
-  <rect x="1070" y="308" width="12" height="10" rx="3" fill="#4a2000"/>
-  <rect x="1088" y="308" width="12" height="10" rx="3" fill="#4a2000"/>
-  <rect x="1076" y="284" width="6" height="8" rx="2" fill="#ffffff"/>
-  <rect x="1090" y="284" width="6" height="8" rx="2" fill="#ffffff"/>
-  <rect x="1077" y="287" width="3" height="4" fill="#000000"/>
-  <rect x="1091" y="287" width="3" height="4" fill="#000000"/>
-  <line x1="1075" y1="282" x2="1083" y2="285" stroke="#4a2000" stroke-width="2"/>
-  <line x1="1097" y1="282" x2="1089" y2="285" stroke="#4a2000" stroke-width="2"/>
-  <!-- UI bar (drawn last to overlay sky) -->
-  <rect x="914" y="122" width="248" height="11" fill="#000000"/>
-  <text x="920" y="131" fill="#ffffff" font-family="monospace" font-size="8">SCORE 01000  &#x2665; x3</text>
-  <text x="1038" y="470" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">フロントバッファの内容を表示</text>
+  <rect x="808" y="370" width="344" height="102" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="836" y="405" class="metric-title">遅延の性質</text>
+  <text x="836" y="433" class="metric-body">入力反映後も表示切替まで待つ。</text>
+  <text x="836" y="454" class="metric-body">60fpsでは最大約16.7msの待ちが増える。</text>
 
-  <!-- ===== LATENCY NOTE ===== -->
-  <rect x="22" y="220" width="580" height="86" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
-  <text x="312" y="248" text-anchor="middle" fill="#7f1d1d" font-family="sans-serif" font-size="15" font-weight="700">⚠ 入力遅延の発生メカニズム</text>
-  <text x="312" y="270" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">V-sync直後: GPUが新フレームの描画を開始した直後に入力</text>
-  <text x="312" y="289" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">→ 次のV-syncまで約1フレーム（16.7ms）待機してから表示</text>
+  <!-- Timeline -->
+  <text x="56" y="522" class="section">1フレーム内の時間の流れ（約16.7ms / 60fps）</text>
+  <rect x="48" y="546" width="1104" height="102" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
 
-  <!-- ===== TIMELINE ===== -->
-  <text x="600" y="524" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="17" font-weight="700">入力タイミングと遅延タイムライン</text>
+  <rect x="72" y="580" width="320" height="34" rx="3" fill="#ffedd5" stroke="#fdba74"/>
+  <rect x="396" y="580" width="18" height="34" rx="2" fill="#cffafe" stroke="#67e8f9"/>
+  <rect x="418" y="580" width="320" height="34" rx="3" fill="#ffedd5" stroke="#fdba74"/>
+  <rect x="742" y="580" width="18" height="34" rx="2" fill="#cffafe" stroke="#67e8f9"/>
+  <rect x="764" y="580" width="320" height="34" rx="3" fill="#ffedd5" stroke="#fdba74"/>
+  <rect x="1088" y="580" width="18" height="34" rx="2" fill="#cffafe" stroke="#67e8f9"/>
 
-  <rect x="22" y="536" width="1156" height="56" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="232" y="602" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="800">フレームNをバックバッファへ描画</text>
+  <text x="405" y="602" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="800">交換</text>
+  <text x="578" y="602" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="800">フレームN+1をバックバッファへ描画</text>
+  <text x="751" y="602" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="800">交換</text>
+  <text x="924" y="602" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="800">フレームN+2をバックバッファへ描画</text>
+  <text x="1097" y="602" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="800">交換</text>
 
-  <!-- Frame N -->
-  <rect x="24" y="538" width="430" height="52" rx="3" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
-  <text x="239" y="558" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="13" font-weight="700">フレームN（CPU処理 → GPU描画 → バックバッファ）</text>
-  <text x="239" y="578" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="12">≈ 16.7ms</text>
+  <line x1="452" y1="558" x2="452" y2="636" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="452" cy="580" r="5" fill="#dc2626"/>
+  <text x="452" y="556" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="800">入力</text>
+  <path d="M 456 632 L 738 632" stroke="#dc2626" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+  <text x="597" y="628" text-anchor="middle" fill="#dc2626" font-size="13" font-weight="800">次のV-syncまで表示切替を待つ</text>
 
-  <!-- V-sync N marker -->
-  <line x1="456" y1="532" x2="456" y2="598" stroke="#0891b2" stroke-width="3"/>
-  <text x="456" y="612" text-anchor="middle" fill="#0e7490" font-family="sans-serif" font-size="12" font-weight="700">V-sync</text>
-  <text x="456" y="626" text-anchor="middle" fill="#0e7490" font-family="sans-serif" font-size="11">バッファ交換</text>
+  <path d="M 72 566 L 1084 566" stroke="#ea580c" stroke-width="2.4" fill="none" marker-end="url(#arrow-orange)"/>
+  <text x="578" y="558" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="800">1フレーム描く → V-syncで交換 → 次フレームへ</text>
 
-  <!-- Frame N+1 -->
-  <rect x="460" y="538" width="430" height="52" rx="3" fill="#c7d2fe" stroke="#a5b4fc" stroke-width="1"/>
-  <text x="675" y="558" text-anchor="middle" fill="#3730a3" font-family="sans-serif" font-size="13" font-weight="700">フレームN+1（CPU処理 → GPU描画 → バックバッファ）</text>
-  <text x="675" y="578" text-anchor="middle" fill="#3730a3" font-family="sans-serif" font-size="12">≈ 16.7ms</text>
-
-  <!-- V-sync N+1 marker -->
-  <line x1="892" y1="532" x2="892" y2="598" stroke="#0891b2" stroke-width="3"/>
-  <text x="892" y="612" text-anchor="middle" fill="#0e7490" font-family="sans-serif" font-size="12" font-weight="700">V-sync</text>
-  <text x="892" y="626" text-anchor="middle" fill="#0e7490" font-family="sans-serif" font-size="11">バッファ交換</text>
-
-  <!-- Frame N+2 start -->
-  <rect x="896" y="538" width="280" height="52" rx="3" fill="#e0e7ff" stroke="#c7d2fe" stroke-width="1"/>
-  <text x="1036" y="562" text-anchor="middle" fill="#4338ca" font-family="sans-serif" font-size="12">フレームN+2…</text>
-
-  <!-- Input A annotation (early in frame N) -->
-  <line x1="80" y1="590" x2="80" y2="640" stroke="#dc2626" stroke-width="2" stroke-dasharray="4,3"/>
-  <circle cx="80" cy="590" r="5" fill="#dc2626"/>
-  <text x="80" y="655" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="700">入力A</text>
-  <text x="80" y="669" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="11">フレームN先頭</text>
-
-  <!-- Result of A shown at V-sync N (displayed in frame N) -->
-  <line x1="456" y1="640" x2="456" y2="650" stroke="#dc2626" stroke-width="2" stroke-dasharray="4,3"/>
-  <path d="M 84 644 L 452 644" stroke="#dc2626" stroke-width="2" fill="none" marker-end="url(#arrR)"/>
-  <text x="270" y="638" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="600">遅延 ≈ 1フレーム（16.7ms）</text>
-
-  <!-- Input B annotation (just after V-sync N) -->
-  <line x1="480" y1="590" x2="480" y2="640" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,3"/>
-  <circle cx="480" cy="590" r="5" fill="#ea580c"/>
-  <text x="480" y="655" text-anchor="middle" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="700">入力B</text>
-  <text x="480" y="669" text-anchor="middle" fill="#ea580c" font-family="sans-serif" font-size="11">V-sync直後</text>
-
-  <!-- Result of B shown at V-sync N+1 -->
-  <path d="M 484 658 L 888 658" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrR)"/>
-  <text x="686" y="652" text-anchor="middle" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="600">遅延 ≈ 2フレーム（33.4ms）ワーストケース</text>
+  <rect x="48" y="676" width="1104" height="44" rx="8" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="600" y="704" text-anchor="middle" fill="#c2410c" font-size="16" font-weight="800">遅延が増える理由：画面1枚を完成させ、交換タイミングまで表示を待つ</text>
 </svg>
