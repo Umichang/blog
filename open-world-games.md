@@ -15,17 +15,17 @@
 
 オープンワールドという概念の起源をたどると、1976年のテキストアドベンチャー『Colossal Cave Adventure』まで遡ることができる。プレイヤーが自由にコマンドを打ち込んで洞窟を探索するこの作品は、「プレイヤー主導の探索」という思想の先駆けだった。[[2](#ref-2)]
 
-![Colossal Cave Adventure の画面](image/open-world-colossal-cave.png)
+![Colossal Cave Adventure の画面](image/open-world-colossal-cave.webp)
 *画像出典: [Wikimedia Commons - Adventure.PNG](https://commons.wikimedia.org/wiki/File:Adventure.PNG) / 『Colossal Cave Adventure』の画面。本文中の作品解説のため引用。*
 
 1981年には、米カリフォルニア・パシフィック・コンピュータ社が『Ultima』（後の『Ultima I: The First Age of Darkness』）をApple II向けにリリースした。プレイヤーは最終目標（悪の魔法使いモンデインを倒すこと）を持ちながらも、マップのどこへでも自由に移動でき、多数のオプショナルクエストや装備が用意されていた。これは事実上、世界初のオープンワールドRPGとしての評価を受けている。[[3](#ref-3)]
 
-![Ultima I のフィールド画面](image/open-world-ultima.png)
+![Ultima I のフィールド画面](image/open-world-ultima.webp)
 *画像出典: [The Avocado - Franchise Festival #68: Ultima (Part One)](https://the-avocado.org/2019/09/20/franchise-festival-68-ultima-part-one/) / 『Ultima』Atari 8-bit版の画面。本文中の作品解説のため引用。*
 
 1984年のスペースフライトシミュレーター『Elite』は、現在のオープンワールドゲームの原型と言われており、広大な宇宙空間を自由に飛び回り、貿易・戦闘・探索を行うそのゲームプレイは、後のサンドボックス型ゲームに直接的な影響を与えた。ただし、これらの初期作品は主にPC（パソコン）プラットフォームに限定されており、一般家庭の茶の間には届いていなかった。[[4](#ref-4)]
 
-![Elite の星系チャート画面](image/open-world-elite.png)
+![Elite の星系チャート画面](image/open-world-elite.webp)
 *画像出典: [Elite on the 6502 - Sprite usage in NES Elite](https://elite.bbcelite.com/deep_dives/sprite_usage_in_nes_elite.html) / 『Elite』関連画面。本文中の作品解説のため引用。*
 
 ***
@@ -36,7 +36,7 @@
 
 ファミリーコンピュータ（ファミコン）のスペックは現代から見れば極めて限定的だ。CPUはMOS 6502ベースの8ビットプロセッサで動作クロックは約1.79MHz、メインRAMはわずか2KBだった。この非力なハードウェア上で、宮本茂と手塚卓志が設計した『ゼルダの伝説』（1986年2月21日、ファミリーコンピュータ ディスクシステム向けに発売）は、ゲーム史に革命をもたらした。[[5](#ref-5)][[6](#ref-6)][[7](#ref-7)]
 
-![ゼルダの伝説 NES版の画面](image/open-world-zelda-nes.jpg)
+![ゼルダの伝説 NES版の画面](image/open-world-zelda-nes.webp)
 *画像出典: [Nintendo Life - The Legend of Zelda screenshots](https://www.nintendolife.com/games/nes/legend_of_zelda/screenshots) / 『ゼルダの伝説』NES版の画面。本文中の作品解説のため引用。*
 
 縦8画面×横16画面、計128画面から構成される広大なトップビューのフィールドが展開され、草原・森・山・湖などあらゆるエリアへ自由に移動できる設計になっていた。ダンジョンの攻略順序さえプレイヤーが自由に決められる（最終ダンジョンを除く）という非線形性は、当時の主流だった一本道ゲームとは根本的に異なるアプローチだった。[[8](#ref-8)][[9](#ref-9)][[3](#ref-3)]
@@ -57,14 +57,14 @@
 
 1996年6月23日、任天堂はNINTENDO 64を『スーパーマリオ64』と同時に発売した。64ビットCPUと真のポリゴン3Dグラフィックスを採用したこの機器上で、マリオは初めて360度の自由な3D空間を駆け回ることができるようになった。海外メディアIGNはスーパーマリオ64について「3Dのオープンエンドなフリーローミングの世界において革命的だった」と評しており、プレイヤーが自分のスタイルでスターを集められる自由なステージ設計は、後の3Dオープンワールドの雛形となった。[[14](#ref-14)][[15](#ref-15)][[2](#ref-2)]
 
-![スーパーマリオ64 の画面](image/open-world-super-mario-64.jpg)
+![スーパーマリオ64 の画面](image/open-world-super-mario-64.webp)
 *画像出典: [Nintendo Life - Super Mario 64 screenshots](https://www.nintendolife.com/games/n64/super_mario_64/screenshots) / 『スーパーマリオ64』ゲームプレイ中の画面。本文中の作品解説のため引用。*
 
 ### 『ゼルダの伝説 時のオカリナ』が証明した「3Dゼルダ」の可能性
 
 1998年、NINTENDO 64向けに『ゼルダの伝説 時のオカリナ』が発売された。シリーズ初の3D作品となるこの作品で、ダンジョンは複数フロアを持つ立体的な構造となり、垂直方向の移動・カメラ制御・「Zターゲット」による敵ロックオンシステムなど、3D空間の操作に関する様々な革新が盛り込まれた。N64の強化されたグラフィックス能力により、ハイラル城下町やコキリの森の牧歌的な雰囲気、影の神殿やガノンの城の不気味な世界観など、エリアごとの没入感が飛躍的に向上した。『時のオカリナ』は3D空間でのアドベンチャーゲームデザインの基本文法を定め、その後の多くのゲームがこのシステムを模倣した。[[16](#ref-16)][[17](#ref-17)][[18](#ref-18)]
 
-![ゼルダの伝説 時のオカリナ 3D の画面](image/open-world-ocarina-of-time.jpg)
+![ゼルダの伝説 時のオカリナ 3D の画面](image/open-world-ocarina-of-time.webp)
 *画像出典: [Nintendo Life - The Legend of Zelda: Ocarina of Time 3D screenshots](https://www.nintendolife.com/games/3ds/legend_of_zelda_ocarina_of_time_3D/screenshots) / 『ゼルダの伝説 時のオカリナ 3D』の画面。本文中の作品解説のため引用。*
 
 ***
@@ -75,7 +75,7 @@
 
 セガがドリームキャスト向けに1999年12月29日にリリースした『シェンムー 一章 横須賀』は、当時としては前例のない完成度の3D都市環境を実現した作品だ。「総製作費70億円」と謳われたこの大作は、1986年の横須賀を舞台に、昼夜の変化・天候変化・NPCが独自のスケジュールで動く「生きた街」をリアルに再現した。建物の内外に移動できる3Dフィールド、数多くのインタラクティブなオブジェクト、ミニゲームの充実など、これらはのちに「オープンワールドの定義」として標準化される要素の先取りだった。メーカーが定めたジャンルは「FREE（Full Reactive Eyes Entertainment）」で、その自由度の高さが特徴とされた。[[19](#ref-19)][[20](#ref-20)]
 
-![シェンムー I & II の画面](image/open-world-shenmue.jpg)
+![シェンムー I & II の画面](image/open-world-shenmue.webp)
 *画像出典: [Steam - Shenmue I & II](https://store.steampowered.com/app/758330/Shenmue/) / 『Shenmue I & II』公式スクリーンショット。本文中の作品解説のため引用。*
 
 『シェンムー』は現代的なオープンワールドの先駆けとして高く評価される一方、当時の商業的成功は限定的で、セガのハード事業撤退の一因ともなった。しかし、その設計思想は後の『GTA III』以降のオープンワールドゲームに多大な影響を与えており、後続の多くの開発者がシェンムーを学習材料としたことが知られている。[[21](#ref-21)][[1](#ref-1)]
@@ -84,7 +84,7 @@
 
 2001年10月22日（北米版）、ロックスター・ゲームスから発売された『グランド・セフト・オートIII』（以下『GTA III』）は、オープンワールドというジャンルを一般大衆に定着させた歴史的作品だ。ニューヨークをモデルにした架空の都市「リバティーシティ」を3人称視点で自由に歩き回り、車を乗り回し、ミッションを自由な順序でこなせる設計は、当時のゲーマーに「都市そのものが遊び場だ」という強烈な体験を与えた。日本ではカプコンより2003年にPlayStation 2版が発売されている。『GTA III』は全世界で1,450万本を超える売上を記録し、3Dオープンワールドという設計思想を業界のスタンダードへと引き上げた。[[22](#ref-22)][[23](#ref-23)]
 
-![グランド・セフト・オートIII の画面](image/open-world-gta3.jpg)
+![グランド・セフト・オートIII の画面](image/open-world-gta3.webp)
 *画像出典: [Steam - Grand Theft Auto III](https://store.steampowered.com/app/12100/Grand_Theft_Auto_III/) / 『Grand Theft Auto III』公式スクリーンショット。本文中の作品解説のため引用。*
 
 | 年代 | 作品 | プラットフォーム | 主な技術的革新 |
@@ -98,7 +98,7 @@
 
 2002年5月1日にBethesda Game Studiosがリリースした『The Elder Scrolls III: Morrowind』は、広大なオープンワールドRPGの原型を確立した。「プレイヤーの行動を制約する境界がほとんどない」という設計思想のもと、メインシナリオよりもプレイヤー自身の行動や探索を重視するゲームデザインは、のちのベセスダ作品（『Oblivion』『Skyrim』）はもちろん、多くのオープンワールドRPGに受け継がれた。[[24](#ref-24)][[25](#ref-25)]
 
-![The Elder Scrolls III: Morrowind の画面](image/open-world-morrowind.jpg)
+![The Elder Scrolls III: Morrowind の画面](image/open-world-morrowind.webp)
 *画像出典: [Steam - The Elder Scrolls III: Morrowind Game of the Year Edition](https://store.steampowered.com/app/22320/The_Elder_Scrolls_III_Morrowind_Game_of_the_Year_Edition/) / 『The Elder Scrolls III: Morrowind』公式スクリーンショット。本文中の作品解説のため引用。*
 
 ***
@@ -109,31 +109,31 @@
 
 2011年11月11日に欧米で（日本語版は同年12月8日に）リリースされた『The Elder Scrolls V: Skyrim』は、IGN・Spike Video Game Awardsをはじめ複数のメディアから「ゲーム・オブ・ザ・イヤー」を受賞し、オープンワールドRPGというジャンルを新たな高みへと引き上げた。同時期の2011年前後、ゲームエンジン市場でも大きな変化が起きていた。Unreal Engine（1998年初版）やUnity（2005年公開）といった汎用ゲームエンジンが普及し、2015年には両エンジンとも基本無償提供が開始された。これにより、大規模スタジオだけでなく中小スタジオやインディー開発者も本格的な3Dオープンワールドを開発できる環境が整った。[[26](#ref-26)][[27](#ref-27)][[28](#ref-28)]
 
-![The Elder Scrolls V: Skyrim の画面](image/open-world-skyrim.jpg)
+![The Elder Scrolls V: Skyrim の画面](image/open-world-skyrim.webp)
 *画像出典: [Steam - The Elder Scrolls V: Skyrim](https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/) / 『The Elder Scrolls V: Skyrim』公式スクリーンショット。本文中の作品解説のため引用。*
 
 ### 『Minecraft』（2011年）——プロシージャル生成という第3の道
 
 2011年11月18日に正式版がリリースされ、累計販売本数3億本以上を記録した『Minecraft』（マインクラフト）は、オープンワールドに全く異なるアプローチをもたらした。アルゴリズムによって自動生成される無限の世界（プロシージャル生成）と、ブロックを自由に破壊・設置できるサンドボックス性の組み合わせは、「開発者が設計した世界を探索する」のではなく「プレイヤー自身が世界を創る」という新しいパラダイムを生み出した。『No Man's Sky』（2016年）のような「1京8,000兆以上の惑星」を擁する手続き的宇宙も、『Minecraft』が切り開いたプロシージャル生成の延長線上にある。[[29](#ref-29)][[30](#ref-30)][[31](#ref-31)]
 
-![Minecraft の画面](image/open-world-minecraft.png)
+![Minecraft の画面](image/open-world-minecraft.webp)
 *画像出典: [Minecraft Wiki - Minecraft landscape1.png](https://minecraft.wiki/w/File:Minecraft_landscape1.png) / 『Minecraft』公式由来のスクリーンショット。本文中の作品解説のため引用。*
 
-![No Man's Sky の画面](image/open-world-no-mans-sky.jpg)
+![No Man's Sky の画面](image/open-world-no-mans-sky.webp)
 *画像出典: [Steam - No Man's Sky](https://store.steampowered.com/app/275850/No_Mans_Sky/) / 『No Man's Sky』公式スクリーンショット。本文中の作品解説のため引用。*
 
 ### 『ウィッチャー3 ワイルドハント』（2015年）——クオリティとスケールの両立
 
 2015年にCD Projekt REDがリリースした『ウィッチャー3 ワイルドハント』は、広大なオープンワールドとハンドクラフト（手作業）による密度の高いコンテンツを両立させた金字塔的作品だ。同社は独自のゲームエンジン「REDengine 3」を採用し、非線形RPGのためのオープンワールド表現に最適化させた。「あらゆる場所を手作りで、プレイヤーが探索する際のワクワク感と驚きを維持する」という設計方針のもとで制作されたサブクエストの質の高さは、「広大だが空虚」という従来のオープンワールドの弱点を正面から乗り越えるものだった。[[32](#ref-32)][[33](#ref-33)]
 
-![ウィッチャー3 ワイルドハント の画面](image/open-world-witcher3.jpg)
+![ウィッチャー3 ワイルドハント の画面](image/open-world-witcher3.webp)
 *画像出典: [Steam - The Witcher 3: Wild Hunt](https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/) / 『The Witcher 3: Wild Hunt』公式スクリーンショット。本文中の作品解説のため引用。*
 
 ### 『レッド・デッド・リデンプション2』（2018年）——技術的到達点
 
 2018年発売のロックスター・ゲームス作品『レッド・デッド・リデンプション2』（以下『RDR2』）は、1899年のアメリカ西部を舞台にした5地域にわたる広大なオープンワールドを実現した。Euphoriaエンジン（NaturalMotion社製物理エンジン）を独自に進化させ、人間・動物の物理的なリアクションを飛躍的に向上。RAGE（Rockstar Advanced Game Engine）と最新のテンポラル・アンチエイリアシング、パー・オブジェクト・モーションブラーを組み合わせることで、映画的なビジュアルとリアルな世界表現を達成した。『RDR2』は「オープンワールドゲームとしての没入感と体験の意味合いを極限まで昇華させている」と評され、現代のオープンワールドの技術的ベンチマークとなっている。[[34](#ref-34)][[35](#ref-35)][[36](#ref-36)][[37](#ref-37)]
 
-![レッド・デッド・リデンプション2 の画面](image/open-world-rdr2.jpg)
+![レッド・デッド・リデンプション2 の画面](image/open-world-rdr2.webp)
 *画像出典: [Steam - Red Dead Redemption 2](https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/) / 『Red Dead Redemption 2』公式スクリーンショット。本文中の作品解説のため引用。*
 
 ***
@@ -144,7 +144,7 @@
 
 2017年3月3日、Nintendo Switch本体のローンチタイトル兼Wii U向けに発売された『ゼルダの伝説 ブレス オブ ザ ワイルド』（以下『ブレス オブ ザ ワイルド』）は、オープンワールドゲームの概念を根底から再定義した。海外メディアDigital Trendsは「あらゆる表面を登れる能力とマップを滑空できる能力が、プレイヤーに前例のない移動の自由を与え、ゲームジャンルを切り開き、開発者に垂直方向のデザインへの再考を促した」と評している。[[38](#ref-38)][[39](#ref-39)]
 
-![ゼルダの伝説 ブレス オブ ザ ワイルド のゲームプレイ画面](image/open-world-botw.jpg)
+![ゼルダの伝説 ブレス オブ ザ ワイルド のゲームプレイ画面](image/open-world-botw.webp)
 *画像出典: [Nintendo Life - The Legend of Zelda: Breath of the Wild screenshots](https://www.nintendolife.com/games/nintendo-switch/legend_of_zelda_breath_of_the_wild/screenshots) / 『ゼルダの伝説 ブレス オブ ザ ワイルド』ゲームプレイ中の画面。本文中の作品解説のため引用。*
 
 開発チームがこだわったのは「UIや導線の削減」だった。地図をマーカーで埋め尽くすいわゆる「Ubisoftスタイル」と対極に位置し、プレイヤー自身が目標を設定し、発見をマップに記録していく自由形式の探索を中心に据えた。[[39](#ref-39)]
