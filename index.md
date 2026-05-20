@@ -53,6 +53,11 @@
 - [レポート：PCゲームと家庭用コンソールのゲームの性能比較](pc-vs-console-gaming-os-performance-report.md)
 - [汎用OS搭載PCゲーム vs 専用OS搭載コンソールゲーム 性能・設計・開発の徹底比較レポート](pc-vs-console-gaming-os-performance-report_reviced.md)
 
+## 番外編
+
+- [番外編：このブログ記事を作るまで](how-to-make-documents.md)
+
 ## ボツ
+
 - [家庭用ゲーム機サウンドの歴史](game-and-sound.md)
 - [古今東西、AIの登場するゲームたち ― ゲームが描いてきた「もう一つの知性」の系譜 ―](AI-in-games.md)
