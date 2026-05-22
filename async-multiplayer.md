@@ -44,7 +44,7 @@
 | ゲーム | 要素 | 体験の内容 |
 |--------|------|------------|
 | エルデンリング / ダークソウルシリーズ | メッセージ | 定型文の組み合わせで攻略ヒントや嘘メッセージを残せる。評価（称賛）で書いた人の体力が回復する[[6](#ref-6)][[10](#ref-10)] |
-| デス・ストランディング2 | サイン | 危険・おすすめルートなどを示す記号を設置できる[[11](#ref-11)] |
+| デス・ストランディング | サイン | 危険・おすすめルートなどを示す記号を設置し、他プレイヤーにヒントを残せる[[11](#ref-11)] |
 | フェズ | 隠し文字の解読 | 難解な暗号パズルをコミュニティ全体で解読する文化が生まれた[[12](#ref-12)] |
 | ワードル | 共通パズルの共有 | 世界中が毎日同じ問題に挑む。絵文字グリッドのSNSシェアが「知恵の見せ合い」になる[[13](#ref-13)][[14](#ref-14)] |
 
@@ -62,8 +62,7 @@
 
 | ゲーム | 要素 | 体験の内容 |
 |--------|------|------------|
-| デス・ストランディング | ラダー・ロープ・橋・ロードなどの構造物 | 自分が設置した構造物が他のプレイヤーの世界に出現し、使われると「いいね！」が届く[[15](#ref-15)][[7](#ref-7)] |
-| デス・ストランディング2 | ポータブル・カイラル・コンストラクター（PCC）製の構造物 | 他プレイヤーが未完成で残した橋を、自分が資材を提供して完成させられる。協力作業の感覚[[16](#ref-16)] |
+| デス・ストランディング | ラダー・ロープ・橋・道路などの構造物 | 自分が設置した構造物が他のプレイヤーの世界に出現し、使われると「いいね！」が届く。資材を寄付して、他者の世界を含む構造物の再建・強化にも参加できる[[15](#ref-15)][[16](#ref-16)] |
 | どうぶつの森シリーズ | マイデザイン共有・島の共有 | セーブデータ単位の共有型世界。複数プレイヤーの行動が同じ島に蓄積される[[17](#ref-17)] |
 | ノーマンズスカイ | 基地の共有・発見のシェア | 他プレイヤーの基地を訪問できる。惑星の命名・発見がサーバーに共有される[[18](#ref-18)] |
 
@@ -176,7 +175,7 @@
 
 非同期オンライン要素の本質は、「常時接続しなくても、世界が他者の存在で満たされている」感覚の創出だ。宮崎英高が雪嵐の夜に感じた「助けてもらったが相手は消えた」という体験の本質が、そのままゲームのデザイン原理になっている。[[5](#ref-5)][[9](#ref-9)]
 
-現代においてこの手法は、モバイルゲームのセッション設計、SNSとの連携設計、オープンワールドの密度向上など、多様な文脈で応用されている。新しいゲームを設計するとき、「このゲームで他者とどんな体験を共有させたいか」という問いから非同期要素を逆算することが、最も確実な設計アプローチと言えるだろう。[[16](#ref-16)][[22](#ref-22)][[13](#ref-13)]
+現代においてこの手法は、モバイルゲームのセッション設計、SNSとの連携設計、オープンワールドの密度向上など、多様な文脈で応用されている。新しいゲームを設計するとき、「このゲームで他者とどんな体験を共有させたいか」という問いから非同期要素を逆算することが、最も確実な設計アプローチと言えるだろう。[[15](#ref-15)][[22](#ref-22)][[13](#ref-13)]
 
 ---
 
@@ -202,7 +201,7 @@
 
 <a id="ref-10"></a>10. [The Joy of Player Generated Messages in Elden Ring][10] - Players are able to leave cryptic messages scattered across the game world that rival the ambiguity ...
 
-<a id="ref-11"></a>11. [How Death Stranding 2's Asynchronous Multiplayer Changes the ...][11] - Once you've connected a terminal to the Chiral Network and 'bring it online', you'll be able to buil...
+<a id="ref-11"></a>11. [How to place signs in Death Stranding][11] - In this guide we’ll show you how to place signs in Death Stranding, so that you can start leaving your own messages for other players.
 
 <a id="ref-12"></a>12. [Fez (video game) - Wikipedia][12] - The player rotates between these four 2D views to realign platforms and solve puzzles. The objective...
 
@@ -210,9 +209,9 @@
 
 <a id="ref-14"></a>14. [The Wordle Phenomenon: A Deep Dive into the Daily Delight][14] - Wordle, a daily word puzzle that asks players to guess a five-letter word in six attempts, emerged f...
 
-<a id="ref-15"></a>15. [Social Strand System - Death Stranding Wiki - Fandom][15] - The Social Strand System is the core framework that embodies Death Stranding's central theme of "con...
+<a id="ref-15"></a>15. [DEATH STRANDING DIRECTOR'S CUT: Beginner's Guide][15] - In your mission to reconnect America, you will also build connections with other players from all over the world via DEATH STRANDING’s unique game system, the “Social Strand System”.
 
-<a id="ref-16"></a>16. [Everything You Need To Know About Death Stranding 2's ... - Kotaku][16] - Once an area is online, you'll be able to see structures that other players have left behind. This f...
+<a id="ref-16"></a>16. [Death Stranding - PS5 and PS4 Games][16] - Donate valuable resources to rebuild structures in your world and others, and offer likes in support of player structures that appear in yours.
 
 <a id="ref-17"></a>17. [「どうぶつの森」は第3世代へ！ 世界が認めるコミュニケーション ...][17] - 今回のセッションで語られたのは、「ゲームデザインの変遷」、「開発体制の変遷」の2つ。野上氏が最初に携わったNINTENDO64「あつまれ どうぶつの森」から ...
 
@@ -242,12 +241,12 @@
 [8]: https://www.gamespark.jp/article/2026/01/19/161755.html
 [9]: https://www.reddit.com/r/ItsAllAboutGames/comments/1sz86vm/the_loneliness_myth_why_single_player_games_are/
 [10]: https://frostilyte.ca/2022/08/11/the-joy-of-player-generated-messages-in-elden-ring/
-[11]: https://uperfect.com/blogs/portable-gaming-monitor/death-stranding-2-on-the-beach
+[11]: https://www.shacknews.com/article/114823/how-to-place-signs-in-death-stranding
 [12]: https://en.wikipedia.org/wiki/Fez_(video_game)
 [13]: https://www.businessinsider.com/wordle-game-viral-experts-psychology-sharing-twitter-2022-1
 [14]: https://factspark.blog/posts/the-wordle-phenomenon-a-deep-dive-into-the-daily-delight
-[15]: https://deathstranding.fandom.com/wiki/Social_Strand_System
-[16]: https://kotaku.com/death-stranding-2-chiral-network-multiplayer-connect-1851785246
+[15]: https://www.kojimaproductions.jp/en/death-stranding-directors-cut-beginners-guide
+[16]: https://www.playstation.com/en-us/games/death-stranding-ps4/
 [17]: https://game.watch.impress.co.jp/docs/kikaku/1275162.html
 [18]: https://www.youtube.com/watch?v=weSHtGhL5Ic
 [19]: https://www.underpolar.com/entry/2019/11/17/143000
