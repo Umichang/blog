@@ -6,6 +6,16 @@
 >
 > 本稿では視点を変え、その議論をゲームプランナー側の問いに置き換えます。つまり、バンダイナムコにアーケードレーサーを提案するなら、代表作であるリッジレーサーをどのように復活させるべきかを検討します。
 
+<div style="aspect-ratio: 16 / 9; width: 100%; margin: 1.5rem 0;">
+  <iframe
+    src="https://www.youtube.com/embed/F3sifvfous4"
+    title="なぜ「ゲームっぽい挙動」のレースゲーは絶滅したのか？【議論】"
+    style="width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
 ***
 
 ## エグゼクティブサマリー

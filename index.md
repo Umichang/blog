@@ -33,6 +33,7 @@
 - [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md)
 - [結局ローグライクってなんなのさ？](what-is-rogue-like-game.md)
 - [ターンベースRPGの進化史](turn-based-rpg.md)
+- [現代の技術でリッジレーサーを復活させることは可能か？](how-to-reboot-ridge-racer.md)
 
 ## ローカライズ
 
