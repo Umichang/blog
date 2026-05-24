@@ -2,3 +2,4 @@
 *.plist
 AGENT.md
 CLAUDE.md
+.claude/settings.json
