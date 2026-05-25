@@ -328,3 +328,7 @@
 [18]: https://b-follow-blog.appli-c.com/archives/633
 [19]: https://backofficeforce.jp/media/business_efficiency/outsourcing-request/
 [20]: https://www.youtube.com/watch?v=8mTHxxXRO4c
+
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

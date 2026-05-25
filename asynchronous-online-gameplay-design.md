@@ -238,3 +238,7 @@
 [23]: https://www.fromsoftware.jp/manual/eldenring/ps5/networkplay2.html
 [24]: https://en.wikipedia.org/wiki/Let_It_Die_(video_game)
 [25]: https://realsound.jp/tech/2022/10/post-1145218.html
+
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

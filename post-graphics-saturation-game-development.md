@@ -191,3 +191,7 @@ AI NPC・生成型ナラティブについては、GDC 2025の報告にあるよ
 [27]:	https://arxiv.org/pdf/2305.07392
 [28]:	https://www.bandainamco.co.jp/files/ir/financialstatements/pdf/20240214_qa.pdf
 [29]:	https://www.gamespot.com/articles/generative-ai-has-zero-part-in-gta-6-despite-widespread-use-across-take-two/1100-6537900/
+
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

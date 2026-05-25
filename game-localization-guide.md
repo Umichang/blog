@@ -256,3 +256,7 @@ AIは「使えない」のではなく「使い方が重要」だ。現状でも
 <a id="ref-34"></a>34. [Warhorse Studios Faced Backlash Over Kingdom Come 2 AI ...](https://www.linkedin.com/posts/nexsouk_warhorse-studios-faces-backlash-as-kingdom-activity-7444062151457239040-Q32J) - Warhorse Studios Faces Backlash for Firing Czech Translator and Replacing Them with AI In a controve...
 
 <a id="ref-35"></a>35. [Investigating Steam's new language-specific review scores](https://games.alphacrc.com/investigating-steams-new-language-specific-review-scores/) - Poor localization in one language can cap a game's potential in that market, even if it's a hit else...
+
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

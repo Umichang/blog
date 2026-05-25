@@ -212,3 +212,7 @@
 [20]:	http://blog.livedoor.jp/treckless/archives/23665024.html
 [21]:	https://gamer2.jp/post/roguelike-roguelight/
 [22]:	https://gamebakkari.com/2026/03/25/rouge/
+
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

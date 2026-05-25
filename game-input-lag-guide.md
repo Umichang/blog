@@ -336,3 +336,6 @@ RetroArchなどのエミュレーターが実装する **先行実行（Run-Ahea
 
 <a id="ref-40"></a>40. [芯（シン）・遅延対策2020 ～ヒトのスペックから紐解かれる - CEDiL](https://cedil.cesa.or.jp/cedil_sessions/view/2002) - ゲームはもとより、特に即応性が重視されるコンテンツ開発・エンタメ設計への向き合い方、ミリ秒オーダーの遅延対策について、最前線の知見を共有します。
 
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

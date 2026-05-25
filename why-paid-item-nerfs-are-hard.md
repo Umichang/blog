@@ -276,3 +276,7 @@ SNS・コミュニティでの拡散（炎上）
 [19]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6457316/
 [20]: https://plaza.rakuten.co.jp/redstoneteikou/diary/202007020000/
 [21]: https://note.com/_lhy/n/n329f8ff97a36
+
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

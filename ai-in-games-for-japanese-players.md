@@ -306,3 +306,7 @@ AIをテーマにしたゲームを作るとき、「どこまでが現実でど
 [32]:	https://www.writersandartists.co.uk/advice/five-top-tips-creating-grounded-science-fiction-world
 [33]:	https://classicsofsciencefiction.com/2019/04/19/the-limits-of-believability-in-science-fiction/
 [34]:	https://jfsdigital.org/articles-and-essays/vol-23-no-4-june-2019/worldbuilding-in-science-fiction-foresight-and-design/
+
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

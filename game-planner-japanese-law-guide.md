@@ -341,3 +341,7 @@
 [35]: https://www2.accsjp.or.jp/activities/2018/pr6.php
 [36]: https://clairlaw.jp/blog/2015/02/design.html
 [37]: https://catalog.monex.co.jp/article/?p=9313
+
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

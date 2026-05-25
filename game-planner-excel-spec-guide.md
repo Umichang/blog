@@ -307,3 +307,7 @@ Excelは「悪いツール」ではない。問題なのは「向いていない
 [18]: https://note.com/kawauso9n/n/ne6c9ce77835c
 [19]: https://note.com/mtsuruta/n/n10d85462511c
 [20]: https://www.otwo.jp/blog/specification_writing/
+
+----
+
+この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
