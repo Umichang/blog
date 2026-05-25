@@ -51,6 +51,7 @@
 - [有償アイテムのナーフが許されない理由](why-paid-item-nerfs-are-hard.md)
 - [アタリショックからプレイステーション流通革命まで：ゲーム市場構造の変遷](atari-shock-market-structure-history.md)
 - [ゲームにおけるUGC：Fortnite・Roblox・原神の徹底比較](ugc-in-games-fortnite-roblox-genshin.md)
+- [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md)
 
 ## 法務・規制
 
