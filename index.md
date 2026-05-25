@@ -46,6 +46,7 @@
 ## ビジネス・市場・マネタイズ
 
 - [なぜゲームはF2Pモデルに依存するようになったのか](why-games-depend-on-f2p.md)
+- [ゲームのログインボーナスで継続率を下支えするコツ](login-bonus-retention-tips.md)
 - [F2Pゲームのストーリードリブン・マネタイズ比較](story-driven-f2p-monetization.md)
 - [複数プラットフォーム対応・基本プレイ無料ゲームの開発工数と収益構造](multi-platform-f2p-development-and-monetization.md)
 - [有償アイテムのナーフが許されない理由](why-paid-item-nerfs-are-hard.md)
