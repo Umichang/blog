@@ -55,6 +55,7 @@
 ## 法務・規制
 
 - [ゲームプランナーが知っておくべき法令ガイド](japanese-law.md)
+- [外部クリエイターへの発注ガイド](outsourcing-guide-for-game-planners.md)
 
 ## プラットフォーム・ハードウェア
 
