@@ -71,6 +71,7 @@
 ## 開発・制作ワークフロー
 
 - [ゲームプランナーのための脱Excel仕様書ガイド](game-planner-excel-spec-guide.md)
+- [Cyberpunk 2077 崩壊の構造](cyberpunk-2077-anatomy-of-a-collapse.md)
 
 ## 番外編
 
