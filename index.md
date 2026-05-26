@@ -19,6 +19,7 @@
 ## 操作・インターフェイス
 
 - [ゲームコンソール コントローラーのボタン配置はなぜ異なるのか ― 歴史的経緯の総合レポート](console-controller-button-layout-history.md)
+- [コントローラーの振動とハプティックフィードバック――ゲームプランナーのための企画設計ガイド](controller-haptics-design-guide.md)
 - [ゲームの入力遅延 完全解説レポート](game-input-lag-guide.md)
 - [ゲームのHUDデザイン完全解説](game-hud-design-guide.md)
 

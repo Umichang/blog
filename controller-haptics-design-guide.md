@@ -18,11 +18,17 @@
 
 ### 1-2. Xbox コントローラーのインパルス トリガー
 
+![Xbox One wireless controller](image/microsoft-xbox-one-controller.webp)
+*画像出典: Evan-Amos, [Microsoft-Xbox-One-controller.jpg](https://commons.wikimedia.org/wiki/File:Microsoft-Xbox-One-controller.jpg), Wikimedia Commons, Public Domain. / Xbox One コントローラーの形状を示す資料として引用。*
+
 マイクロソフトは2013年のXbox One コントローラー発表において、 **インパルス トリガー** を導入した。これはグリップ部の従来型ラージモーター・スモールモーターに加え、LT・RTトリガーの内部にも独立した小型バイブレーションモーターを組み込んだ設計だ。[[4](#ref-4)][[5](#ref-5)]
 
 トリガーは人差し指が直接触れる最も感度の高い部位であり、ここで生じる振動は手のひら全体の振動とは質的に異なるフィードバックをプレイヤーに与える。射撃の反動、ブレーキの感触、エンジンのトルク変動といった「指先の物理」を伝えるのに適した構造となっている。LT・RT（左右トリガー）の独立制御が可能であるため、左右非対称なフィードバックも実装できる。[[5](#ref-5)][[6](#ref-6)][[4](#ref-4)]
 
 ### 1-3. DualSense ワイヤレスコントローラーのハプティックフィードバック
+
+![DualSense wireless controller](image/playstation-dualsense-controller.webp)
+*画像出典: Alex Cochrane, [Playstation DualSense Controller.png](https://commons.wikimedia.org/wiki/File:Playstation_DualSense_Controller.png), Wikimedia Commons, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). / DualSense ワイヤレスコントローラーの形状を示す資料として引用。*
 
 PS5のDualSense ワイヤレスコントローラーは、左右グリップにそれぞれ1基ずつボイスコイル型アクチュエータ（広義のLRA）を内蔵する。古典的なLRAが単一の共振周波数を中心に動作するのに対し、DualSense ワイヤレスコントローラーのアクチュエータはスピーカーと同様に広帯域の波形を再現できる点が特徴だ。左右独立した動作によって、振動の「空間的方向性」をコントローラーの物理的位置に対応づけることが可能だ。ソニーのエンジニアリングチームはこの設計を「ステレオ音声のような立体的振動」と表現している。[[7](#ref-7)][[2](#ref-2)]
 
