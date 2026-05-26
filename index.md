@@ -72,6 +72,7 @@
 
 - [ゲームプランナーのための脱Excel仕様書ガイド](game-planner-excel-spec-guide.md)
 - [Cyberpunk 2077 崩壊の構造](cyberpunk-2077-anatomy-of-a-collapse.md)
+- [炎上から復活へ：No Man's Skyに学ぶ期待値管理と運営立て直しの教科書](no-mans-sky-expectation-management-case-study.md)
 
 ## 番外編
 
