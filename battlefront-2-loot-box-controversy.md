@@ -18,6 +18,9 @@
 
 『Star Wars Battlefront II』（2017年）は、DICE・Criterion Games・Motive Studiosが共同開発し、EAが発売した60ドル（日本円で7,000〜8,000円台）のフルプライスゲームだ。前作への批判（DLCシーズンパスで課金が必要なコンテンツ追加）を受け、今作では「すべてのマップ・ヒーローキャラクターを無料で追加し続ける」とDICEが約束していた。問題は、その「無料追加コンテンツ」を補う形で設計されたマネタイズ構造にあった。[[4](#ref-4)]
 
+![『Star Wars Battlefront II』のゲーム中スクリーンショット](image/star-wars-battlefront-ii-steam-screenshot.webp)
+*画像引用: [Steam - STAR WARS™ Battlefront™ II](https://store.steampowered.com/app/1237950/STAR_WARS_Battlefront_II/)（公式ストア掲載スクリーンショット, © Electronic Arts / Lucasfilm Ltd.。本文中の作品紹介・実ゲーム画面の説明に必要な範囲で引用）*
+
 ゲームのマルチプレイヤーにはスターカードと呼ばれる能力強化カードが存在し、これを持つ側が戦闘で有利になる構造だった。スターカードはルートボックス（ゲーム内では「クレート」と呼称）から入手でき、クレートは **ゲームプレイで稼ぐ「クレジット」か、リアルマネーで購入する「クリスタル」のどちらかで開封できた**。[[5](#ref-5)][[4](#ref-4)]
 
 これにより、 **課金した側が競技優位性を持つ「ペイ・トゥ・ウィン（P2W）」の構造** が出来上がっていた。[[5](#ref-5)]
