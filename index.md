@@ -52,6 +52,7 @@
 - [F2Pゲームのストーリードリブン・マネタイズ比較](story-driven-f2p-monetization.md)
 - [複数プラットフォーム対応・基本プレイ無料ゲームの開発工数と収益構造](multi-platform-f2p-development-and-monetization.md)
 - [有償アイテムのナーフが許されない理由](why-paid-item-nerfs-are-hard.md)
+- [「誇りと達成感」の代償：Star Wars Battlefront IIが業界のルールを書き換えた日](battlefront-2-loot-box-controversy.md)
 - [アタリショックからプレイステーション流通革命まで：ゲーム市場構造の変遷](atari-shock-market-structure-history.md)
 - [ゲームにおけるUGC：Fortnite・Roblox・原神の徹底比較](ugc-in-games-fortnite-roblox-genshin.md)
 - [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md)
