@@ -28,6 +28,7 @@
 - [家庭用ゲーム機とオンライン環境の歴史](console-online-gaming-history.md)
 - [家庭用ゲーム機のネット対戦：物理的制約と遅延隠蔽技術の完全解説](console-online-multiplayer-latency-techniques.md)
 - [ゲームの非同期オンライン要素：プレイヤー体験視点の分類と設計指針](asynchronous-online-gameplay-design.md)
+- [クラウドゲーミング徹底解説](cloud-gaming-deep-dive-proofread.md)
 
 ## ゲームデザイン・ジャンル
 
