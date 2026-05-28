@@ -15,6 +15,7 @@
 
 - [コンピューターゲームにおけるAIの歴史](history-of-ai-in-video-games.md)
 - [AIの登場するゲームたち ― 日本のプレイヤーが知っている名作で読み解く「もう一つの知性」 ―](ai-in-games-for-japanese-players.md)
+- [ターン制RPGの戦闘AIを構築するためのガンビットシステム](gambit-system-for-turn-based-rpg-combat-ai.md)
 
 ## 操作・インターフェイス
 
