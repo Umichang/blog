@@ -64,6 +64,7 @@
 
 - [ゲームプランナーが知っておくべき法令ガイド](game-planner-japanese-law-guide.md)
 - [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md)
+- [App Store / Google Play ゲーム表現の検閲と審査対策 完全ガイド](app-store-google-play-game-content-review-guide.md)
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md)
 
 ## プラットフォーム・ハードウェア
