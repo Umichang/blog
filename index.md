@@ -1,7 +1,7 @@
 
 すべての文章は注記がない限りMIT Liceenseで提供されています。
 
-- [はじめに](introduction.md)
+- [はじめに](README.md)
 
 ## ヴィジュアル・空間表現
 
