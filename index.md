@@ -5,6 +5,7 @@
 
 ## ヴィジュアル・空間表現
 
+- [ゲームにおけるレイトレーシング——リアルな光表現の可能性と限界](ray-tracing-in-games.md)
 - [ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性](post-graphics-saturation-game-development.md)
 - [オープンワールドゲームの歴史：萌芽から革新へ](open-world-games-history.md)
 
