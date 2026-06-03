@@ -43,6 +43,7 @@
 - [位置情報ゲームの歴史と新規企画のポイント](location-based-games-market-history-and-design-guide.md)
 - [現代の技術でリッジレーサーを復活させることは可能か？](rebooting-ridge-racer-with-modern-technology.md)
 - [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md)
+- [ゲームのリマスターとリメイク：ゲームプランナーが押さえるべき設計思想](game-remaster-remake-design-philosophy.md)
 
 ## ローカライズ
 
