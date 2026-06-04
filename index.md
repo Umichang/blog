@@ -62,7 +62,6 @@
 - [F2Pゲームのストーリードリブン・マネタイズ比較](story-driven-f2p-monetization.md) 🌶️🌶️🌶️
 - [複数プラットフォーム対応・基本プレイ無料ゲームの開発工数と収益構造](multi-platform-f2p-development-and-monetization.md) 🌶️🌶️🌶️
 - [有償アイテムのナーフが許されない理由](why-paid-item-nerfs-are-hard.md) 🌶️🌶️
-- [「誇りと達成感」の代償：Star Wars Battlefront IIが業界のルールを書き換えた日](battlefront-2-loot-box-controversy.md) 🌶️🌶️
 - [アタリショックからプレイステーション流通革命まで：ゲーム市場構造の変遷](atari-shock-market-structure-history.md) 🌶️🌶️
 - [ゲームにおけるUGC：Fortnite・Roblox・原神の徹底比較](ugc-in-games-fortnite-roblox-genshin.md) 🌶️🌶️🌶️
 - [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md) 🌶️🌶️
@@ -87,7 +86,11 @@
 - [「実装後に炎上する仕様書」の共通点——曖昧さの解剖と、書ける仕様書の作り方](game-spec-pitfalls-and-how-to-write-clear-specs.md) 🌶️🌶️
 - [ゲームプランナーが知っておくべきデータベースの基礎](database-basics-for-game-planners.md) 🌶️🌶️🌶️
 - [ゲームプランナーが知っておくべき乱数の話](random-numbers-for-game-planners.md) 🌶️🌶️🌶️
+
+## さまざまな失敗事例
+
 - [Cyberpunk 2077 崩壊の構造](cyberpunk-2077-anatomy-of-a-collapse.md) 🌶️🌶️
+- [「誇りと達成感」の代償：Star Wars Battlefront IIが業界のルールを書き換えた日](battlefront-2-loot-box-controversy.md) 🌶️🌶️
 - [炎上から復活へ：No Man's Skyに学ぶ期待値管理と運営立て直しの教科書](no-mans-sky-expectation-management-case-study.md) 🌶️🌶️
 
 ## 番外編
