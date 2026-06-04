@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: [うみちゃんの書き物置き場]
 description: [主にゲームや技術に関しての記事があると思います]
+lang: ja-JP
