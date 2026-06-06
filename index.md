@@ -74,6 +74,7 @@
 - [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md) 🌶️🌶️🌶️
 - [App Store / Google Play ゲーム表現の検閲と審査対策 完全ガイド](app-store-google-play-game-content-review-guide.md) 🌶️🌶️🌶️
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🌶️🌶️
+- [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🌶️🌶️🌶️
 
 ## プラットフォーム・ハードウェア
 
