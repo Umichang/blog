@@ -16,6 +16,7 @@
 - [家庭用ゲーム機サウンドの歴史：ピコピコ音から立体音響へ](console-game-sound-history.md) 🌶️🌶️
 - [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🌶️
 - [ゲームにおける環境音と3Dオーディオ — ゲームプランナー実践ガイド](game-ambient-sound-and-3d-audio-planner-guide.md) 🌶️🌶️🌶️
+- [インタラクティブミュージック・アダプティブミュージック 完全解説](interactive-adaptive-music-explained.md) 🌶️🌶️🌶️
 
 ## AI・知性表現
 
