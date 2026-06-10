@@ -1,5 +1,5 @@
 
 *.plist
-AGENT.md
+AGENTS.md
 CLAUDE.md
 .claude/settings.json
