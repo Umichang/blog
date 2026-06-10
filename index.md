@@ -44,6 +44,7 @@
 - [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🌶️
 - [ARG（代替現実ゲーム）完全ガイド：日本の事例と第四境界の革新](arg-complete-guide-japan-fourth-boundary.md) 🌶️🌶️
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🌶️🌶️🌶️
+- [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🌶️🌶️
 - [ターンベースRPGの進化史](turn-based-rpg-history.md) 🌶️
 - [位置情報ゲームの歴史と新規企画のポイント](location-based-games-market-history-and-design-guide.md) 🌶️🌶️
 - [現代の技術でリッジレーサーを復活させることは可能か？](rebooting-ridge-racer-with-modern-technology.md) 🌶️🌶️
