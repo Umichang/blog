@@ -46,6 +46,7 @@
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🌶️🌶️🌶️
 - [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🌶️🌶️
 - [ターンベースRPGの進化史](turn-based-rpg-history.md) 🌶️
+- [RPGバトル設計の落とし穴：割合ダメージを軸に学ぶ「萎え」の原因と対策](rpg-battle-design-pitfalls-percentage-damage.md) 🌶️🌶️🌶️
 - [位置情報ゲームの歴史と新規企画のポイント](location-based-games-market-history-and-design-guide.md) 🌶️🌶️
 - [現代の技術でリッジレーサーを復活させることは可能か？](rebooting-ridge-racer-with-modern-technology.md) 🌶️🌶️
 - [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🌶️🌶️
