@@ -78,6 +78,7 @@
 
 - [ゲームプランナーが知っておくべき法令ガイド](game-planner-japanese-law-guide.md) 🌶️🌶️🌶️
 - [ゲームプレイの配信と二次創作：ルール設計の実践ガイド](game-streaming-fan-creation-guideline-design.md) 🌶️🌶️🌶️
+- [Modの功罪：ゲーム文化・法律・開発者の視点から読み解く](modding-merits-demerits-culture-law-developers.md) 🌶️🌶️🌶️
 - [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md) 🌶️🌶️🌶️
 - [App Store / Google Play ゲーム表現の検閲と審査対策 完全ガイド](app-store-google-play-game-content-review-guide.md) 🌶️🌶️🌶️
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🌶️🌶️
