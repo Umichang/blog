@@ -98,6 +98,7 @@
 - [「実装後に炎上する仕様書」の共通点——曖昧さの解剖と、書ける仕様書の作り方](game-spec-pitfalls-and-how-to-write-clear-specs.md) 🌶️🌶️
 - [バグなのか仕様なのか——「グレーゾーン」の判断プロセス](bug-or-spec-gray-zone-decision-process.md) 🌶️🌶️
 - [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🌶️🌶️
+- [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🌶️🌶️
 - [ゲームプランナーが知っておくべきデータベースの基礎](database-basics-for-game-planners.md) 🌶️🌶️🌶️
 - [ゲームプランナーが知っておくべき乱数の話](random-numbers-for-game-planners.md) 🌶️🌶️🌶️
 
