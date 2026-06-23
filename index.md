@@ -42,6 +42,7 @@
 
 - [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md) 🌶️
 - [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🌶️
+- [ゲームにおけるプロシージャル生成の技術史と設計論](procedural-content-generation-history-and-design.md) 🌶️🌶️🌶️
 - [ARG（代替現実ゲーム）完全ガイド：日本の事例と第四境界の革新](arg-complete-guide-japan-fourth-boundary.md) 🌶️🌶️
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🌶️🌶️
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🌶️🌶️🌶️
