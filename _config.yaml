@@ -9,3 +9,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   math_engine: mathjax
+defaults:
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: default
