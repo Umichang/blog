@@ -40,6 +40,7 @@
 
 ## 🧩 ゲームデザイン・ジャンル
 
+- [対戦ゲームのマッチメイキングとレーティング完全解説](competitive-game-matchmaking-rating-explained.md) 🌶️🌶️🌶️
 - [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md) 🌶️
 - [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🌶️
 - [ゲームにおけるプロシージャル生成の技術史と設計論](procedural-content-generation-history-and-design.md) 🌶️🌶️🌶️
