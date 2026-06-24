@@ -4,3 +4,8 @@ plugins:
 title: [うみちゃんの書き物置き場]
 description: [主にゲームや技術に関しての記事があると思います]
 lang: ja-JP
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
