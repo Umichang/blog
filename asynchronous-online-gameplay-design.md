@@ -115,7 +115,7 @@
 
 ## 体験分類の全体マップ
 
-![非同期オンライン要素の体験分類マップ](image/async-multiplayer-experience-map.svg)
+![非同期オンライン要素の体験分類マップ](image/async-multiplayer-experience-map.webp)
 
 ***
 
