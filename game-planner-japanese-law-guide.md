@@ -56,7 +56,7 @@
 
 ### 1-4. 表示規制違反の罰則フロー
 
-![表示規制違反の罰則フロー](image/japanese-law-penalty-flow.svg)
+![表示規制違反の罰則フロー](image/japanese-law-penalty-flow-imagegen.webp)
 
 ***
 
@@ -94,7 +94,7 @@
 
 ### 2-3. 有償・無償コインの設計パターン
 
-![有償・無償コインの二層管理パターン](image/japanese-law-paid-free-currency.svg)
+![有償・無償コインの二層管理パターン](image/japanese-law-paid-free-currency-imagegen.webp)
 
 **プランナーが注意すべきポイント：**
 - 有償コインと無償コインの残高を **明確に別管理** し、有償を先に使うか後に使うかの設計を明示する
