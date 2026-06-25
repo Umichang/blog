@@ -62,7 +62,7 @@ PCにもDirectStorageはある。MicrosoftはDirectStorage 1.1について、GPU
 
 Windows PCでは、ゲーム以外にも多くの処理が同時に動く。
 
-![Windows PCのバックグラウンド処理とゲームへの影響](image/pc-console-background-overhead.svg)
+![Windows PCのバックグラウンド処理とゲームへの影響](image/pc-console-background-overhead.webp)
 
 家庭用機にもバックグラウンド処理はあるが、ゲーム体験を壊さない範囲に設計・制限されている。PCではユーザーが自由に環境を構築できる反面、ゲームに関係ないソフトがフレームタイムの乱れ、入力遅延、メモリ消費、I/O競合を生むことがある。
 
@@ -82,7 +82,7 @@ PCゲームは、膨大なGPU、CPU、メモリ構成、ディスプレイ、入
 
 PCではSteam、Epic Games Store、Battle.net、EA app、Ubisoft Connect、Xboxアプリなどが並立する。これらは便利な反面、以下のコストを生む。
 
-![PCのストア・ランチャー・DRMの重層構造](image/pc-console-launcher-stack.svg)
+![PCのストア・ランチャー・DRMの重層構造](image/pc-console-launcher-stack.webp)
 
 家庭用機にもDRMやストア認証はあるが、プラットフォーム全体に統合されている。PCでは「ゲームの上にストア、その上にOS、その横に別ランチャー」という重層構造になりがちだ。
 
@@ -114,7 +114,7 @@ SteamOSの強みは、特に携帯ゲーミングPCで出る。
 
 *画像引用: [Steam Deck公式サイト](https://www.steamdeck.com/en/)（Valve公開のSteam Deck OLED本体画像, © Valve Corporation。携帯ゲーミングPCとしての本体形状と操作系を説明するために引用。WebP変換）*
 
-![SteamOSが携帯ゲーミングPCで効く理由](image/pc-console-steamos-benefits.svg)
+![SteamOSが携帯ゲーミングPCで効く理由](image/pc-console-steamos-benefits.webp)
 
 Steam Deck Verifiedでは、ValveがSteam Deckでの互換性評価を行い、Verified、Playable、Unsupported、Unknownの4カテゴリで表示している。これは、PCでありながら家庭用機的な「このゲームはこの環境で遊べるのか」を可視化する仕組みだ。[[8](#ref-8)]
 
@@ -194,7 +194,7 @@ PCでは、その間に以下が入りがちだ。
 
 家庭用機は、QAの観点でも有利だ。検証対象が限定されるため、「全ユーザーで同じように動く」状態を作りやすい。
 
-![家庭用機とPC版のQA範囲の違い](image/pc-console-qa-scope.svg)
+![家庭用機とPC版のQA範囲の違い](image/pc-console-qa-scope.webp)
 
 PC版では、GPUメーカー、VRAM容量、CPU世代、OSバージョン、ドライバ、解像度、入力機器、ウルトラワイド、MOD、ランチャーなど、検証項目が爆発する。家庭用機では、その分のコストをゲーム内容やパフォーマンス調整に回しやすい。
 
@@ -264,7 +264,7 @@ PC版開発の最大の敵は、ユーザー環境のばらつきだ。
 
 同じゲームでも、以下のような差がある。
 
-![PCゲームのユーザー環境差](image/pc-console-pc-environment-variance.svg)
+![PCゲームのユーザー環境差](image/pc-console-pc-environment-variance.webp)
 
 新人プランナーが理解すべきなのは、PC版の仕様を考えるとき、 **「ゲームデザイン」だけでなく「環境差を吸収する設計」も必要になる** ということだ。
 
@@ -272,7 +272,7 @@ PC版開発の最大の敵は、ユーザー環境のばらつきだ。
 
 PCゲームでは、家庭用機には少ない追加コストが発生する。
 
-![PCゲームで発生しやすい追加コスト](image/pc-console-pc-extra-costs.svg)
+![PCゲームで発生しやすい追加コスト](image/pc-console-pc-extra-costs.webp)
 
 PCゲームは安いセールも多いが、総体験としては「機材と知識に投資する趣味」になりやすい。
 
