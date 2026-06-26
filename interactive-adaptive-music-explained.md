@@ -19,7 +19,7 @@
 
 インタラクティブミュージックを実現する手法は、大きく2種類に分けられる。楽譜のイメージで覚えると分かりやすい——楽譜は縦に楽器が並び、横軸（左から右）に時間が流れる。[[3](#ref-3)][[1](#ref-1)]
 
-![縦の遷移と横の遷移の違い](image/interactive-adaptive-music-transition-types.svg)
+![縦の遷移と横の遷移の違い](image/interactive-adaptive-music-transition-types.webp)
 *図：縦の遷移は同じ時間軸上で楽器レイヤーを足し引きし、横の遷移は曲の区間そのものを切り替える。*
 
 ### 縦の遷移（Vertical Remixing）＝アレンジの変化
