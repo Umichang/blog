@@ -249,7 +249,7 @@ Splatoonシリーズでは、クラウドセーブの機能的な問題ではな
 
 <a id="ref-14"></a>14. [Destiny 2: Cross Save Guide - Bungie Help][14] - Destiny 2のクロスセーブ公式ガイド。無効化後90日間は再有効化できず、拡張DLCはプラットフォーム間で引き継がれない。
 
-<a id="ref-15"></a>15. [How to Use Cross-Save | FANTASY LIFE i: The Girl Who Steals Time][15] - ファンタジーライフiの公式クロスセーブ手順。Epic Gamesアカウントを連携し、各プラットフォームから手動でアップロード／ダウンロードする。
+<a id="ref-15"></a>15. [How to Use Cross-Save ｜ FANTASY LIFE i: The Girl Who Steals Time][15] - ファンタジーライフiの公式クロスセーブ手順。Epic Gamesアカウントを連携し、各プラットフォームから手動でアップロード／ダウンロードする。
 
 <a id="ref-16"></a>16. [『ファンタジーライフｉ グルグルの竜と時をぬすむ少女』本日5月22日発売 - ファミ通.com][16] - 本作が2025年5月22日にレベルファイブから発売され、クロスプレイ・クロスセーブに対応していると報道。
 
