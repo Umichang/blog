@@ -67,6 +67,7 @@
 
 - [ゲームにおける非機能要件](game-non-functional-requirements.md) 🌶️🌶️🌶️
 - [ゲームプランナーが知っておくべきデータベースの基礎](database-basics-for-game-planners.md) 🌶️🌶️🌶️
+- [セーブシステムの設計史と実装の落とし穴](save-system-design-history-and-pitfalls.md) 🌶️🌶️🌶️
 - [ゲームプランナーが知っておくべき乱数の話](random-numbers-for-game-planners.md) 🌶️🌶️🌶️
 - [ゲームプランナーのための脱Excel仕様書ガイド](game-planner-excel-spec-guide.md) 🌶️🌶️
 - [「実装後に炎上する仕様書」の共通点——曖昧さの解剖と、書ける仕様書の作り方](game-spec-pitfalls-and-how-to-write-clear-specs.md) 🌶️🌶️
