@@ -37,6 +37,7 @@
 - [家庭用ゲーム機とオンライン環境の歴史](console-online-gaming-history.md) 🌶️🌶️
 - [ゲームの非同期オンライン要素：プレイヤー体験視点の分類と設計指針](asynchronous-online-gameplay-design.md) 🌶️🌶️
 - [家庭用ゲーム機のネット対戦：物理的制約と遅延隠蔽技術の完全解説](console-online-multiplayer-latency-techniques.md) 🌶️🌶️🌶️
+- [オンラインゲームのアンチチート技術：歴史・現状・開発者の判断軸](online-game-anti-cheat-technology-history.md) 🌶️🌶️🌶️
 - [クラウドゲーミング徹底解説](cloud-gaming-deep-dive-proofread.md) 🌶️🌶️🌶️
 
 ### 🧩 ゲームシステム・プレイヤー体験
