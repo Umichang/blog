@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900" role="img" aria-labelledby="title desc">
+  <title id="title">ゲームAI技術の系譜年表（1980〜2025）</title>
+  <desc id="desc">1980年から2025年までのゲームAI技術を、共通の年代軸上で5つの技術系統に分けて示した年表。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#031326"/>
+      <stop offset="1" stop-color="#061c35"/>
+    </linearGradient>
+    <linearGradient id="footer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b2b4c"/>
+      <stop offset="0.5" stop-color="#061d35"/>
+      <stop offset="1" stop-color="#0b2b4c"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="minorGrid" width="32" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 26" fill="none" stroke="#18314d" stroke-width="1" opacity="0.24"/>
+    </pattern>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", "Hiragino Sans", sans-serif; }
+      .axis-year { fill:#eaf5ff; font-size:22px; font-weight:700; text-anchor:middle; }
+      .guide { stroke:#68809a; stroke-width:1.5; stroke-dasharray:4 5; opacity:.68; }
+      .lane-divider { stroke:#53697e; stroke-width:1; opacity:.55; }
+      .lane-line { fill:none; stroke-width:3; opacity:.95; }
+      .lane-label { fill:#f4fbff; font-size:23px; font-weight:800; }
+      .lane-no { fill:#f4fbff; font-size:27px; font-weight:800; text-anchor:middle; }
+      .event-year { fill:#ffffff; font-size:19px; font-weight:800; }
+      .event-name { fill:#ecf7ff; font-size:16px; font-weight:650; }
+      .leader { fill:none; stroke-width:1.5; opacity:.9; }
+      .dot { stroke:#061426; stroke-width:3; }
+      .small-note { fill:#d7e8f5; font-size:15px; font-weight:600; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="900" fill="url(#bg)"/>
+  <rect x="250" y="145" width="1490" height="650" fill="url(#minorGrid)"/>
+
+  <g aria-label="タイトル">
+    <rect x="22" y="18" width="126" height="58" rx="2" fill="#d8edf8"/>
+    <text x="85" y="58" text-anchor="middle" fill="#061426" font-size="38" font-weight="900">Fig.14</text>
+    <text x="180" y="61" fill="#f7fbff" font-size="43" font-weight="900">ゲームAI技術の系譜年表（1980〜2025）</text>
+    <text x="1730" y="58" text-anchor="end" fill="#7ddfff" font-size="18" font-weight="700">共通の年代軸で5系統を比較</text>
+  </g>
+
+  <g aria-label="年代目盛り">
+    <line class="guide" x1="280" y1="140" x2="280" y2="795"/>
+    <line class="guide" x1="440" y1="140" x2="440" y2="795"/>
+    <line class="guide" x1="600" y1="140" x2="600" y2="795"/>
+    <line class="guide" x1="760" y1="140" x2="760" y2="795"/>
+    <line class="guide" x1="920" y1="140" x2="920" y2="795"/>
+    <line class="guide" x1="1080" y1="140" x2="1080" y2="795"/>
+    <line class="guide" x1="1240" y1="140" x2="1240" y2="795"/>
+    <line class="guide" x1="1400" y1="140" x2="1400" y2="795"/>
+    <line class="guide" x1="1560" y1="140" x2="1560" y2="795"/>
+    <line class="guide" x1="1720" y1="140" x2="1720" y2="795"/>
+    <text class="axis-year" x="280" y="127">1980</text>
+    <text class="axis-year" x="440" y="127">1985</text>
+    <text class="axis-year" x="600" y="127">1990</text>
+    <text class="axis-year" x="760" y="127">1995</text>
+    <text class="axis-year" x="920" y="127">2000</text>
+    <text class="axis-year" x="1080" y="127">2005</text>
+    <text class="axis-year" x="1240" y="127">2010</text>
+    <text class="axis-year" x="1400" y="127">2015</text>
+    <text class="axis-year" x="1560" y="127">2020</text>
+    <text class="axis-year" x="1720" y="127">2025</text>
+  </g>
+
+  <g aria-label="レーン区切り">
+    <line class="lane-divider" x1="20" y1="275" x2="1740" y2="275"/>
+    <line class="lane-divider" x1="20" y1="405" x2="1740" y2="405"/>
+    <line class="lane-divider" x1="20" y1="535" x2="1740" y2="535"/>
+    <line class="lane-divider" x1="20" y1="665" x2="1740" y2="665"/>
+    <line class="lane-divider" x1="20" y1="795" x2="1740" y2="795"/>
+  </g>
+
+  <g aria-label="ルールベース">
+    <path d="M20 155 H215 L245 210 L215 265 H20 Z" fill="#067ab8" stroke="#32c8ff" stroke-width="2"/>
+    <rect x="34" y="181" width="42" height="50" fill="none" stroke="#e6f8ff" stroke-width="2"/>
+    <text class="lane-no" x="55" y="218">1</text>
+    <text class="lane-label" x="88" y="220">ルールベース</text>
+    <line class="lane-line" x1="245" y1="210" x2="1730" y2="210" stroke="#2dc7ff"/>
+    <path d="M1730 202 L1745 210 L1730 218 Z" fill="#2dc7ff"/>
+
+    <circle class="dot" cx="280" cy="210" r="10" fill="#2dc7ff" filter="url(#glow)"/>
+    <path class="leader" d="M280 220 V238" stroke="#2dc7ff"/>
+    <text class="event-year" x="280" y="244" text-anchor="middle">1980</text>
+    <text class="event-name" x="280" y="264" text-anchor="middle">パックマン（FSM）</text>
+
+    <circle class="dot" cx="504" cy="210" r="10" fill="#2dc7ff" filter="url(#glow)"/>
+    <path class="leader" d="M504 200 V177" stroke="#2dc7ff"/>
+    <text class="event-year" x="504" y="167" text-anchor="middle">1987</text>
+    <text class="event-name" x="504" y="187" text-anchor="middle">メタルギア（MSX2）</text>
+
+    <circle class="dot" cx="600" cy="210" r="10" fill="#2dc7ff" filter="url(#glow)"/>
+    <path class="leader" d="M600 220 V238" stroke="#2dc7ff"/>
+    <text class="event-year" x="630" y="244">1990</text>
+    <text class="event-name" x="630" y="264">ドラクエIV（AI戦闘）／メタルギア2</text>
+  </g>
+
+  <g aria-label="動的難易度調整とメタAI">
+    <path d="M20 285 H215 L245 340 L215 395 H20 Z" fill="#078f8d" stroke="#36e0d8" stroke-width="2"/>
+    <rect x="34" y="311" width="42" height="50" fill="none" stroke="#eaffff" stroke-width="2"/>
+    <text class="lane-no" x="55" y="348">2</text>
+    <text class="lane-label" x="88" y="350">DDA・メタAI</text>
+    <line class="lane-line" x1="245" y1="340" x2="1730" y2="340" stroke="#37d9d0"/>
+    <path d="M1730 332 L1745 340 L1730 348 Z" fill="#37d9d0"/>
+
+    <circle class="dot" cx="472" cy="340" r="10" fill="#37d9d0" filter="url(#glow)"/>
+    <path class="leader" d="M472 350 V366" stroke="#37d9d0"/>
+    <text class="event-year" x="472" y="374" text-anchor="middle">1986</text>
+    <text class="event-name" x="472" y="394" text-anchor="middle">ザナック（ALC）</text>
+
+    <circle class="dot" cx="664" cy="340" r="10" fill="#37d9d0" filter="url(#glow)"/>
+    <path class="leader" d="M664 330 V306" stroke="#37d9d0"/>
+    <text class="event-year" x="664" y="303" text-anchor="middle">1992</text>
+    <text class="event-name" x="664" y="323" text-anchor="middle">スーパーアレスタ</text>
+
+    <circle class="dot" cx="1080" cy="340" r="10" fill="#37d9d0" filter="url(#glow)"/>
+    <path class="leader" d="M1080 350 V366" stroke="#37d9d0"/>
+    <text class="event-year" x="1080" y="374" text-anchor="middle">2005</text>
+    <text class="event-name" x="1080" y="394" text-anchor="middle">バイオハザード4（Difficulty Scale）</text>
+
+    <circle class="dot" cx="1176" cy="340" r="10" fill="#37d9d0" filter="url(#glow)"/>
+    <path class="leader" d="M1176 330 V306" stroke="#37d9d0"/>
+    <text class="event-year" x="1176" y="303" text-anchor="middle">2008</text>
+    <text class="event-name" x="1176" y="323" text-anchor="middle">Left 4 Dead（AIディレクター）</text>
+  </g>
+
+  <g aria-label="プランニング">
+    <path d="M20 415 H215 L245 470 L215 525 H20 Z" fill="#d58b06" stroke="#ffbb31" stroke-width="2"/>
+    <rect x="34" y="441" width="42" height="50" fill="none" stroke="#fff8e6" stroke-width="2"/>
+    <text class="lane-no" x="55" y="478">3</text>
+    <text class="lane-label" x="88" y="480">プランニング</text>
+    <line class="lane-line" x1="245" y1="470" x2="1730" y2="470" stroke="#ffab20"/>
+    <path d="M1730 462 L1745 470 L1730 478 Z" fill="#ffab20"/>
+
+    <circle class="dot" cx="1048" cy="470" r="10" fill="#ffab20" filter="url(#glow)"/>
+    <path class="leader" d="M1048 480 V495" stroke="#ffab20"/>
+    <text class="event-year" x="1018" y="504" text-anchor="end">2004</text>
+    <text class="event-name" x="1018" y="524" text-anchor="end">Halo 2（ビヘイビアツリー）</text>
+
+    <circle class="dot" cx="1080" cy="470" r="10" fill="#ffab20" filter="url(#glow)"/>
+    <path class="leader" d="M1080 460 V437" stroke="#ffab20"/>
+    <text class="event-year" x="1100" y="434">2005</text>
+    <text class="event-name" x="1100" y="454">F.E.A.R.（GOAP）</text>
+  </g>
+
+  <g aria-label="深層強化学習">
+    <path d="M20 545 H215 L245 600 L215 655 H20 Z" fill="#7442b6" stroke="#c481ff" stroke-width="2"/>
+    <rect x="34" y="571" width="42" height="50" fill="none" stroke="#f4eaff" stroke-width="2"/>
+    <text class="lane-no" x="55" y="608">4</text>
+    <text class="lane-label" x="88" y="610">深層強化学習</text>
+    <line class="lane-line" x1="245" y1="600" x2="1730" y2="600" stroke="#b86cff"/>
+    <path d="M1730 592 L1745 600 L1730 608 Z" fill="#b86cff"/>
+
+    <circle class="dot" cx="1336" cy="600" r="10" fill="#b86cff" filter="url(#glow)"/>
+    <path class="leader" d="M1336 610 V626" stroke="#b86cff"/>
+    <text class="event-year" x="1336" y="634" text-anchor="middle">2013</text>
+    <text class="event-name" x="1336" y="654" text-anchor="middle">DQN（Atari）</text>
+
+    <circle class="dot" cx="1512" cy="600" r="10" fill="#b86cff" filter="url(#glow)"/>
+    <path class="leader" d="M1512 590 V563" stroke="#b86cff"/>
+    <text class="event-year" x="1512" y="563" text-anchor="middle">2018–2019</text>
+    <text class="event-name" x="1512" y="583" text-anchor="middle">OpenAI Five（Dota 2）／AlphaStar（StarCraft II）</text>
+
+    <circle class="dot" cx="1624" cy="600" r="10" fill="#b86cff" filter="url(#glow)"/>
+    <path class="leader" d="M1624 610 V626" stroke="#b86cff"/>
+    <text class="event-year" x="1624" y="634" text-anchor="middle">2022</text>
+    <text class="event-name" x="1624" y="654" text-anchor="middle">GT Sophy</text>
+  </g>
+
+  <g aria-label="LLMとゲーム">
+    <path d="M20 675 H215 L245 730 L215 785 H20 Z" fill="#4b9a36" stroke="#85e369" stroke-width="2"/>
+    <rect x="34" y="701" width="42" height="50" fill="none" stroke="#f0ffe9" stroke-width="2"/>
+    <text class="lane-no" x="55" y="738">5</text>
+    <text class="lane-label" x="88" y="740">LLM×ゲーム</text>
+    <line class="lane-line" x1="245" y1="730" x2="1730" y2="730" stroke="#7bdc57"/>
+    <path d="M1730 722 L1745 730 L1730 738 Z" fill="#7bdc57"/>
+
+    <circle class="dot" cx="1656" cy="730" r="9" fill="#7bdc57" filter="url(#glow)"/>
+    <path class="leader" d="M1656 720 L1505 696 H1338" stroke="#7bdc57"/>
+    <rect x="1322" y="670" width="190" height="52" rx="10" fill="#102a26" stroke="#7bdc57"/>
+    <text class="event-year" x="1338" y="692">2023</text>
+    <text class="event-name" x="1338" y="712">NVIDIA ACE</text>
+
+    <circle class="dot" cx="1688" cy="730" r="9" fill="#7bdc57" filter="url(#glow)"/>
+    <path class="leader" d="M1688 740 L1585 766 H1450" stroke="#7bdc57"/>
+    <rect x="1434" y="743" width="180" height="50" rx="10" fill="#102a26" stroke="#7bdc57"/>
+    <text class="event-year" x="1450" y="765">2024</text>
+    <text class="event-name" x="1450" y="785">Ubisoft NEO NPC</text>
+
+    <circle class="dot" cx="1720" cy="730" r="9" fill="#7bdc57" filter="url(#glow)"/>
+    <path class="leader" d="M1720 720 V712" stroke="#7bdc57"/>
+    <rect x="1532" y="668" width="248" height="55" rx="10" fill="#102a26" stroke="#7bdc57"/>
+    <text class="event-year" x="1548" y="688">2025</text>
+    <text class="small-note" x="1548" y="706">Teammates／PUBG Ally</text>
+    <text class="small-note" x="1548" y="720">NARAKA ACE／Dead Meat</text>
+  </g>
+
+  <g aria-label="主題">
+    <path d="M20 820 H1780 V885 H20 Z" fill="url(#footer)" stroke="#36c7ff" stroke-width="2"/>
+    <path d="M20 820 H110 L85 840 H20 Z" fill="#12446c"/>
+    <path d="M1780 820 H1690 L1715 840 H1780 Z" fill="#12446c"/>
+    <text x="900" y="866" text-anchor="middle" fill="#f7fbff" font-size="38" font-weight="900">制約が創造性を生む</text>
+  </g>
+</svg>
