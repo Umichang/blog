@@ -124,6 +124,7 @@
 - [「誇りと達成感」の代償：Star Wars Battlefront IIが業界のルールを書き換えた日](battlefront-2-loot-box-controversy.md) 🌶️🌶️
 - [残高がマイナスになる日――ブルーアーカイブ“負債石”事件にみる、誤配布通貨の回収とプレイヤー公平性の衝突](negative-currency-recovery-bluearchive-fgo-case.md) 🌶️🌶️
 - [炎上から復活へ：No Man's Skyに学ぶ期待値管理と運営立て直しの教科書](no-mans-sky-expectation-management-case-study.md) 🌶️🌶️
+- [Concordはなぜ2週間で終わったのか――市場適合と「超短命サービス終了」の実務](concord-rapid-shutdown-case-study.md) 🌶️🌶️
 
 ## ✨ 番外編
 
