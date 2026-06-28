@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="1152" viewBox="0 0 1024 1536" role="img" aria-labelledby="title desc">
+  <title id="title">対戦ゲームの人口が複数の軸で細分化される構造</title>
+  <desc id="desc">全人口が地域、時間帯、入力方式、モード、実力帯の順に分かれ、最終的なマッチ成立人数が小さくなる様子を示す。</desc>
+  <defs>
+    <linearGradient id="top-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0873d1"/>
+      <stop offset="1" stop-color="#0051a9"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf4ff"/>
+      <stop offset="1" stop-color="#c9e0f7"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7f8f2"/>
+      <stop offset="1" stop-color="#c9efe4"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4d9"/>
+      <stop offset="1" stop-color="#ffe0a0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#0a2342" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#12376a"/>
+    </marker>
+    <style>
+      text { font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif; font-weight: 700; }
+      .axis { fill: #0b2a55; font-size: 42px; }
+      .divide { fill: #0b2a55; font-size: 40px; }
+      .blue-text { fill: #0b2a55; font-size: 34px; }
+      .input-text { fill: #075f50; font-size: 26px; }
+      .mode-text { fill: #075f50; font-size: 36px; }
+      .orange-text { fill: #c55300; font-size: 35px; }
+      .box { stroke-width: 3; }
+      .flow { stroke: #12376a; stroke-width: 6; stroke-linecap: round; marker-end: url(#arrow-blue); }
+    </style>
+  </defs>
+
+  <rect width="1024" height="1536" fill="#fbfaf6"/>
+
+  <text class="axis" x="45" y="145">全人口</text>
+  <rect class="box" x="218" y="62" width="640" height="138" rx="16" fill="url(#top-blue)" stroke="#083b82" filter="url(#shadow)"/>
+  <text x="538" y="150" text-anchor="middle" fill="#fff" font-size="62">全人口</text>
+  <line class="flow" x1="538" y1="224" x2="538" y2="267"/>
+
+  <text class="axis" x="45" y="370">地域</text>
+  <g fill="url(#blue)" stroke="#1568b9">
+    <rect class="box" x="200" y="300" width="155" height="112" rx="13"/>
+    <rect class="box" x="370" y="300" width="155" height="112" rx="13"/>
+    <rect class="box" x="540" y="300" width="155" height="112" rx="13"/>
+    <rect class="box" x="710" y="300" width="155" height="112" rx="13"/>
+  </g>
+  <g class="blue-text" text-anchor="middle">
+    <text x="277.5" y="370">北米</text>
+    <text x="447.5" y="370">欧州</text>
+    <text x="617.5" y="370">アジア</text>
+    <text x="787.5" y="370">日本</text>
+  </g>
+  <text class="divide" x="910" y="370">÷N</text>
+  <line class="flow" x1="538" y1="437" x2="538" y2="480"/>
+
+  <text class="axis" x="45" y="570">時間帯</text>
+  <g fill="url(#blue)" stroke="#2583d6">
+    <rect class="box" x="240" y="510" width="125" height="92" rx="12"/>
+    <rect class="box" x="390" y="510" width="125" height="92" rx="12"/>
+    <rect class="box" x="540" y="510" width="125" height="92" rx="12"/>
+    <rect class="box" x="690" y="510" width="125" height="92" rx="12"/>
+  </g>
+  <g class="blue-text" text-anchor="middle">
+    <text x="302.5" y="570">朝</text>
+    <text x="452.5" y="570">昼</text>
+    <text x="602.5" y="570">夜</text>
+    <text x="752.5" y="570">深夜</text>
+  </g>
+  <text class="divide" x="910" y="570">÷N</text>
+  <line class="flow" x1="538" y1="627" x2="538" y2="670"/>
+
+  <text class="axis" x="45" y="775">入力方式</text>
+  <g fill="url(#green)" stroke="#07917e">
+    <rect class="box" x="230" y="705" width="300" height="105" rx="13"/>
+    <rect class="box" x="545" y="705" width="300" height="105" rx="13"/>
+  </g>
+  <g class="input-text" text-anchor="middle">
+    <text x="380" y="770">PS5コントローラー</text>
+    <text x="695" y="770">キーボード&amp;マウス</text>
+  </g>
+  <text class="divide" x="910" y="775">÷N</text>
+  <line class="flow" x1="538" y1="835" x2="538" y2="878"/>
+
+  <text class="axis" x="45" y="965">モード</text>
+  <rect class="box" x="358" y="905" width="360" height="92" rx="13" fill="url(#green)" stroke="#07917e"/>
+  <text class="mode-text" x="538" y="965" text-anchor="middle">6つのモード</text>
+  <text class="divide" x="910" y="965">÷N</text>
+  <line class="flow" x1="538" y1="1022" x2="538" y2="1065"/>
+
+  <text class="axis" x="45" y="1155">実力帯</text>
+  <g fill="url(#orange)" stroke="#ef7d00">
+    <rect class="box" x="290" y="1095" width="150" height="92" rx="13"/>
+    <rect class="box" x="463" y="1095" width="150" height="92" rx="13"/>
+    <rect class="box" x="636" y="1095" width="150" height="92" rx="13"/>
+  </g>
+  <g class="orange-text" text-anchor="middle">
+    <text x="365" y="1155">低</text>
+    <text x="538" y="1155">中</text>
+    <text x="711" y="1155">高</text>
+  </g>
+  <text class="divide" x="910" y="1155">÷N</text>
+  <line class="flow" x1="538" y1="1212" x2="538" y2="1255"/>
+
+  <g fill="url(#orange)" stroke="#ef7d00" stroke-width="3">
+    <rect x="235" y="1280" width="58" height="68" rx="10"/>
+    <rect x="310" y="1280" width="58" height="68" rx="10"/>
+    <rect x="385" y="1280" width="58" height="68" rx="10"/>
+    <rect x="460" y="1280" width="58" height="68" rx="10"/>
+    <rect x="535" y="1280" width="58" height="68" rx="10"/>
+    <rect x="610" y="1280" width="58" height="68" rx="10"/>
+    <rect x="685" y="1280" width="58" height="68" rx="10"/>
+    <rect x="760" y="1280" width="58" height="68" rx="10"/>
+  </g>
+  <text class="divide" x="910" y="1325">÷N</text>
+
+  <rect x="172" y="1380" width="680" height="105" rx="14" fill="#fffaf0" stroke="#ef6500" stroke-width="3"/>
+  <text x="512" y="1448" text-anchor="middle" fill="#d85c00" font-size="38">この層でマッチ成立人数が必要</text>
+</svg>
