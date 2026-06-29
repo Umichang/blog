@@ -115,6 +115,7 @@
 
 ### 📜 ゲーム史・人物史
 
+- [アーケードゲーム／ゲームセンターの歴史大全：黎明期から現代まで](arcade-game-center-history.md) 🌶️🌶️
 - [ポケモンが生まれるまで――ゲームフリーク前史](pokemon-game-freak-prehistory.md) 🌶️
 - [同人ゲームの系譜：日本のコミックマーケット文化が育てたゲームたち](doujin-game-history-comic-market-culture.md) 🌶️
 
