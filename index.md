@@ -119,6 +119,7 @@
 - [アーケードゲーム／ゲームセンターの歴史大全：黎明期から現代まで](arcade-game-center-history.md) 🌶️🌶️
 - [弾幕シューティングの歴史：なぜ「撃つゲーム」は「避けるゲーム」へ進化したのか](danmaku-shmup-history.md) 🌶️🌶️
 - [ポケモンが生まれるまで――ゲームフリーク前史](pokemon-game-freak-prehistory.md) 🌶️
+- [横井軍平評伝：「枯れた技術の水平思考」を生きた男](gunpei-yokoi-biography-lateral-thinking-of-withered-technology.md) 🌶️🌶️
 - [同人ゲームの系譜：日本のコミックマーケット文化が育てたゲームたち](doujin-game-history-comic-market-culture.md) 🌶️
 
 ### ⚠️ さまざまな失敗事例
