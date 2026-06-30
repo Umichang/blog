@@ -100,6 +100,7 @@
 ### ⚖️ 法務・規制
 
 - [ゲームプランナーが知っておくべき法令ガイド](game-planner-japanese-law-guide.md) 🌶️🌶️🌶️
+- [ガチャは違法になったのか？ コンプガチャ規制から確率表示までの歴史](gacha-regulation-japan-history.md) 🌶️🌶️
 - [ゲームプレイの配信と二次創作：ルール設計の実践ガイド](game-streaming-fan-creation-guideline-design.md) 🌶️🌶️🌶️
 - [Modの功罪：ゲーム文化・法律・開発者の視点から読み解く](modding-merits-demerits-culture-law-developers.md) 🌶️🌶️🌶️
 - [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md) 🌶️🌶️🌶️
