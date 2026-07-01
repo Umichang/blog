@@ -134,4 +134,4 @@
 
 ## ✨ 番外編
 
-- [番外編：このブログ記事を作るまで](making-this-blog-with-ai-tools.md) 🌶️
+- [番外編：生成AIと一緒に、このブログを作るまで（改訂版）](making-this-blog-with-ai-tools.md) 🌶️
