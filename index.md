@@ -59,6 +59,7 @@
 - [オープンワールドゲームの歴史：萌芽から革新へ](open-world-games-history.md) 🌶️
 - [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🌶️
 - [ターンベースRPGの進化史](turn-based-rpg-history.md) 🌶️
+- [対戦格闘ゲームの歴史――ストII以前からロールバック時代まで](fighting-game-genre-history.md) 🌶️🌶️
 - [ARG（代替現実ゲーム）完全ガイド：日本の事例と第四境界の革新](arg-complete-guide-japan-fourth-boundary.md) 🌶️🌶️
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🌶️🌶️
 - [位置情報ゲームの歴史と新規企画のポイント](location-based-games-market-history-and-design-guide.md) 🌶️🌶️
