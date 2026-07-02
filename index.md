@@ -46,6 +46,7 @@
 
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🌶️🌶️🌶️
 - [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🌶️🌶️
+- [難易度設計とダイナミックディフィカルティ――「ちょうどよい挑戦」を壊さず運用する実務](difficulty-design-and-dynamic-adjustment.md) 🌶️🌶️🌶️
 - [対戦ゲームのマッチメイキングとレーティング完全解説](competitive-game-matchmaking-rating-explained.md) 🌶️🌶️🌶️
 - [RPGバトル設計の落とし穴：割合ダメージを軸に学ぶ「萎え」の原因と対策](rpg-battle-design-pitfalls-percentage-damage.md) 🌶️🌶️🌶️
 - [ゲームにおけるプロシージャル生成の技術史と設計論](procedural-content-generation-history-and-design.md) 🌶️🌶️🌶️
