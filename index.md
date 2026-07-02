@@ -16,7 +16,6 @@
 ### 🔊 サウンド・音声
 
 - [家庭用ゲーム機サウンドの歴史：ピコピコ音から立体音響へ](console-game-sound-history.md) 🌶️🌶️
-- [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🌶️
 - [ゲームにおける環境音と3Dオーディオ — ゲームプランナー実践ガイド](game-ambient-sound-and-3d-audio-planner-guide.md) 🌶️🌶️🌶️
 - [インタラクティブミュージック・アダプティブミュージック 完全解説](interactive-adaptive-music-explained.md) 🌶️🌶️🌶️
 
@@ -29,6 +28,7 @@
 ### 🎮 操作・インターフェイス
 
 - [ゲームコンソール コントローラーのボタン配置はなぜ異なるのか ― 歴史的経緯の総合レポート](console-controller-button-layout-history.md) 🌶️
+- [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🌶️
 - [コントローラーの振動とハプティックフィードバック――ゲームプランナーのための企画設計ガイド](controller-haptics-design-guide.md) 🌶️🌶️
 - [ゲームのHUDデザイン完全解説](game-hud-design-guide.md) 🌶️🌶️
 - [ゲームのアクセシビリティ設計――「遊べない」を減らす企画・実装・検証の実務](game-accessibility-design-guide.md) 🌶️🌶️🌶️
@@ -45,7 +45,6 @@
 ### 🧩 ゲームシステム・プレイヤー体験
 
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🌶️🌶️🌶️
-- [ゲームの世界設定・シナリオとゲームメカニクスの関係](worldbuilding-scenario-and-game-mechanics.md) 🌶️🌶️
 - [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🌶️🌶️
 - [対戦ゲームのマッチメイキングとレーティング完全解説](competitive-game-matchmaking-rating-explained.md) 🌶️🌶️🌶️
 - [RPGバトル設計の落とし穴：割合ダメージを軸に学ぶ「萎え」の原因と対策](rpg-battle-design-pitfalls-percentage-damage.md) 🌶️🌶️🌶️
@@ -53,17 +52,23 @@
 - [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🌶️🌶️
 - [ゲームのリマスターとリメイク：ゲームプランナーが押さえるべき設計思想](game-remaster-remake-design-philosophy.md) 🌶️🌶️
 
-### 🎲 ジャンル・物語・ゲーム文化
+### 📖 物語・世界設定・謎解き
+
+- [ゲームの世界設定・シナリオとゲームメカニクスの関係](worldbuilding-scenario-and-game-mechanics.md) 🌶️🌶️
+- [ARG（代替現実ゲーム）完全ガイド：日本の事例と第四境界の革新](arg-complete-guide-japan-fourth-boundary.md) 🌶️🌶️
+- [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🌶️🌶️
+
+### 🎲 ジャンル・ゲーム文化
 
 - [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md) 🌶️
 - [オープンワールドゲームの歴史：萌芽から革新へ](open-world-games-history.md) 🌶️
 - [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🌶️
 - [ターンベースRPGの進化史](turn-based-rpg-history.md) 🌶️
 - [対戦格闘ゲームの歴史――ストII以前からロールバック時代まで](fighting-game-genre-history.md) 🌶️🌶️
-- [ARG（代替現実ゲーム）完全ガイド：日本の事例と第四境界の革新](arg-complete-guide-japan-fourth-boundary.md) 🌶️🌶️
-- [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🌶️🌶️
+- [弾幕シューティングの歴史：なぜ「撃つゲーム」は「避けるゲーム」へ進化したのか](danmaku-shmup-history.md) 🌶️🌶️
 - [位置情報ゲームの歴史と新規企画のポイント](location-based-games-market-history-and-design-guide.md) 🌶️🌶️
 - [現代の技術でリッジレーサーを復活させることは可能か？](rebooting-ridge-racer-with-modern-technology.md) 🌶️🌶️
+- [Modの功罪：ゲーム文化・法律・開発者の視点から読み解く](modding-merits-demerits-culture-law-developers.md) 🌶️🌶️🌶️
 
 ## 🛠️ 開発・運営とビジネス
 
@@ -104,7 +109,6 @@
 - [ゲームプランナーが知っておくべき法令ガイド](game-planner-japanese-law-guide.md) 🌶️🌶️🌶️
 - [ガチャは違法になったのか？ コンプガチャ規制から確率表示までの歴史](gacha-regulation-japan-history.md) 🌶️🌶️
 - [ゲームプレイの配信と二次創作：ルール設計の実践ガイド](game-streaming-fan-creation-guideline-design.md) 🌶️🌶️🌶️
-- [Modの功罪：ゲーム文化・法律・開発者の視点から読み解く](modding-merits-demerits-culture-law-developers.md) 🌶️🌶️🌶️
 - [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md) 🌶️🌶️🌶️
 - [App Store / Google Play ゲーム表現の検閲と審査対策 完全ガイド](app-store-google-play-game-content-review-guide.md) 🌶️🌶️🌶️
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🌶️🌶️🌶️
@@ -120,7 +124,6 @@
 ### 📜 ゲーム史・人物史
 
 - [アーケードゲーム／ゲームセンターの歴史大全：黎明期から現代まで](arcade-game-center-history.md) 🌶️🌶️
-- [弾幕シューティングの歴史：なぜ「撃つゲーム」は「避けるゲーム」へ進化したのか](danmaku-shmup-history.md) 🌶️🌶️
 - [ポケモンが生まれるまで――ゲームフリーク前史](pokemon-game-freak-prehistory.md) 🌶️
 - [横井軍平評伝：「枯れた技術の水平思考」を生きた男](gunpei-yokoi-biography-lateral-thinking-of-withered-technology.md) 🌶️🌶️
 - [同人ゲームの系譜：日本のコミックマーケット文化が育てたゲームたち](doujin-game-history-comic-market-culture.md) 🌶️
