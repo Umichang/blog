@@ -89,6 +89,7 @@
 ### 🤝 運営・コミュニティ
 
 - [ライブ運営の実務：リリースから「動かし続ける」仕事のすべて](live-ops-operations-from-launch-to-sustained-growth.md) 🌶️🌶️🌶️
+- [ゲーム内経済の設計――通貨とアイテムを壊さず回し続ける実務](in-game-economy-design.md) 🌶️🌶️🌶️
 - [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🌶️🌶️
 - [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🌶️🌶️
 - [サービス終了をどう設計するか――オンラインゲームを破綻なく畳む実務](service-shutdown-design-and-practice.md) 🌶️🌶️🌶️
