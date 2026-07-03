@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">リズムゲーム判定システムの進化</title>
+  <desc id="desc">リズムゲームの判定システムに関係する作品と入力装置の変化を時系列で示す図。</desc>
+  <defs>
+    <style>
+      text {
+        font-family: "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", sans-serif;
+        fill: #1f2937;
+      }
+      .title {
+        font-size: 64px;
+        font-weight: 800;
+      }
+      .legend {
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .year {
+        font-size: 34px;
+        font-weight: 800;
+      }
+      .name {
+        font-size: 24px;
+        font-weight: 800;
+      }
+      .note {
+        font-size: 20px;
+        font-weight: 700;
+        fill: #4b5563;
+      }
+      .small {
+        font-size: 22px;
+        fill: #6b7280;
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="800" y="92" text-anchor="middle" class="title">リズムゲーム判定システムの進化</text>
+
+  <g transform="translate(270 145)">
+    <circle cx="0" cy="0" r="16" fill="#3b82f6"/>
+    <text x="30" y="10" class="legend">標準コントローラー</text>
+    <circle cx="360" cy="0" r="16" fill="#ef4444"/>
+    <text x="390" y="10" class="legend">専用筐体</text>
+    <circle cx="620" cy="0" r="16" fill="#22c55e"/>
+    <text x="650" y="10" class="legend">PC</text>
+    <circle cx="780" cy="0" r="16" fill="#8b5cf6"/>
+    <text x="810" y="10" class="legend">タッチパネル</text>
+  </g>
+
+  <line x1="105" y1="500" x2="1495" y2="500" stroke="#d1d5db" stroke-width="18" stroke-linecap="round"/>
+  <line x1="105" y1="500" x2="395" y2="500" stroke="#3b82f6" stroke-width="18" stroke-linecap="round"/>
+  <line x1="395" y1="500" x2="875" y2="500" stroke="#ef4444" stroke-width="18"/>
+  <line x1="875" y1="500" x2="1035" y2="500" stroke="#22c55e" stroke-width="18"/>
+  <line x1="1035" y1="500" x2="1495" y2="500" stroke="#8b5cf6" stroke-width="18" stroke-linecap="round"/>
+
+  <g transform="translate(115 310)">
+    <circle cx="0" cy="190" r="34" fill="#3b82f6"/>
+    <text x="0" y="202" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">1</text>
+    <line x1="0" y1="80" x2="0" y2="156" stroke="#3b82f6" stroke-width="8"/>
+    <rect x="-54" y="0" width="108" height="72" rx="18" fill="#eff6ff" stroke="#3b82f6" stroke-width="5"/>
+    <circle cx="-24" cy="36" r="12" fill="#3b82f6"/>
+    <circle cx="24" cy="36" r="12" fill="#3b82f6"/>
+    <text x="0" y="295" text-anchor="middle" class="year" fill="#2563eb">1987</text>
+    <text x="0" y="343" text-anchor="middle" class="name">オトッキー</text>
+    <text x="0" y="382" text-anchor="middle" class="note">操作と音生成</text>
+  </g>
+
+  <g transform="translate(285 310)">
+    <circle cx="0" cy="190" r="34" fill="#3b82f6"/>
+    <text x="0" y="202" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">2</text>
+    <line x1="0" y1="80" x2="0" y2="156" stroke="#3b82f6" stroke-width="8"/>
+    <rect x="-54" y="0" width="108" height="72" rx="24" fill="#eff6ff" stroke="#3b82f6" stroke-width="5"/>
+    <path d="M-28 36h24m-12-12v24" stroke="#3b82f6" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="25" cy="27" r="8" fill="#3b82f6"/>
+    <circle cx="39" cy="44" r="8" fill="#3b82f6"/>
+    <text x="0" y="295" text-anchor="middle" class="year" fill="#2563eb">1996</text>
+    <text x="0" y="334" text-anchor="middle" class="name">パラッパ</text>
+    <text x="0" y="366" text-anchor="middle" class="name">ラッパー</text>
+    <text x="0" y="400" text-anchor="middle" class="note">標準入力</text>
+  </g>
+
+  <g transform="translate(480 310)">
+    <circle cx="0" cy="190" r="34" fill="#ef4444"/>
+    <text x="0" y="202" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">3</text>
+    <line x1="0" y1="80" x2="0" y2="156" stroke="#ef4444" stroke-width="8"/>
+    <rect x="-62" y="0" width="124" height="72" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="5"/>
+    <rect x="-42" y="16" width="15" height="40" fill="#ef4444"/>
+    <rect x="-18" y="16" width="15" height="40" fill="#ef4444"/>
+    <rect x="6" y="16" width="15" height="40" fill="#ef4444"/>
+    <circle cx="39" cy="36" r="20" fill="none" stroke="#ef4444" stroke-width="7"/>
+    <text x="0" y="295" text-anchor="middle" class="year" fill="#dc2626">1997</text>
+    <text x="0" y="343" text-anchor="middle" class="name">beatmania</text>
+    <text x="0" y="382" text-anchor="middle" class="note">鍵盤＋ターンテーブル</text>
+  </g>
+
+  <g transform="translate(665 310)">
+    <circle cx="0" cy="190" r="34" fill="#ef4444"/>
+    <text x="0" y="202" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">4</text>
+    <line x1="0" y1="80" x2="0" y2="156" stroke="#ef4444" stroke-width="8"/>
+    <rect x="-48" y="0" width="96" height="96" rx="12" fill="#fef2f2" stroke="#ef4444" stroke-width="5"/>
+    <path d="M0 12l18 20h-36zM0 84l-18-20h36zM-36 48l20-18v36zM36 48l-20 18V30z" fill="#ef4444"/>
+    <text x="0" y="295" text-anchor="middle" class="year" fill="#dc2626">1998</text>
+    <text x="0" y="343" text-anchor="middle" class="name">DDR</text>
+    <text x="0" y="382" text-anchor="middle" class="note">フットパネル</text>
+  </g>
+
+  <g transform="translate(845 310)">
+    <circle cx="0" cy="190" r="34" fill="#ef4444"/>
+    <text x="0" y="202" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">5</text>
+    <line x1="0" y1="80" x2="0" y2="156" stroke="#ef4444" stroke-width="8"/>
+    <circle cx="-8" cy="38" r="44" fill="#fef2f2" stroke="#ef4444" stroke-width="5"/>
+    <path d="M-44 38c20 28 54 28 72 0" fill="none" stroke="#ef4444" stroke-width="5"/>
+    <line x1="44" y1="8" x2="70" y2="82" stroke="#ef4444" stroke-width="8" stroke-linecap="round"/>
+    <text x="0" y="295" text-anchor="middle" class="year" fill="#dc2626">2001</text>
+    <text x="0" y="343" text-anchor="middle" class="name">太鼓の達人</text>
+    <text x="0" y="382" text-anchor="middle" class="note">太鼓型入力</text>
+  </g>
+
+  <g transform="translate(1015 310)">
+    <circle cx="0" cy="190" r="34" fill="#22c55e"/>
+    <text x="0" y="202" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">6</text>
+    <line x1="0" y1="80" x2="0" y2="156" stroke="#22c55e" stroke-width="8"/>
+    <rect x="-58" y="0" width="116" height="76" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="5"/>
+    <text x="0" y="49" text-anchor="middle" fill="#16a34a" font-size="28" font-weight="800">osu!</text>
+    <text x="0" y="295" text-anchor="middle" class="year" fill="#16a34a">2007</text>
+    <text x="0" y="343" text-anchor="middle" class="name">osu!</text>
+    <text x="0" y="382" text-anchor="middle" class="note">ユーザー譜面</text>
+  </g>
+
+  <g transform="translate(1180 310)">
+    <circle cx="0" cy="190" r="34" fill="#8b5cf6"/>
+    <text x="0" y="202" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">7</text>
+    <line x1="0" y1="80" x2="0" y2="156" stroke="#8b5cf6" stroke-width="8"/>
+    <rect x="-34" y="0" width="68" height="104" rx="12" fill="#faf5ff" stroke="#8b5cf6" stroke-width="5"/>
+    <circle cx="0" cy="62" r="18" fill="none" stroke="#8b5cf6" stroke-width="6"/>
+    <text x="0" y="295" text-anchor="middle" class="year" fill="#7c3aed">2013</text>
+    <text x="0" y="343" text-anchor="middle" class="name">スクフェス</text>
+    <text x="0" y="382" text-anchor="middle" class="note">タップ×IP</text>
+  </g>
+
+  <g transform="translate(1330 310)">
+    <circle cx="0" cy="190" r="34" fill="#8b5cf6"/>
+    <text x="0" y="202" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">8</text>
+    <line x1="0" y1="80" x2="0" y2="156" stroke="#8b5cf6" stroke-width="8"/>
+    <rect x="-34" y="0" width="68" height="104" rx="12" fill="#faf5ff" stroke="#8b5cf6" stroke-width="5"/>
+    <path d="M0 25l23 13v27L0 78-23 65V38z" fill="none" stroke="#8b5cf6" stroke-width="5"/>
+    <text x="0" y="295" text-anchor="middle" class="year" fill="#7c3aed">2015</text>
+    <text x="0" y="343" text-anchor="middle" class="name">デレステ</text>
+    <text x="0" y="382" text-anchor="middle" class="note">タップ×3D</text>
+  </g>
+
+  <g transform="translate(1480 310)">
+    <circle cx="0" cy="190" r="34" fill="#8b5cf6"/>
+    <text x="0" y="202" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">9</text>
+    <line x1="0" y1="80" x2="0" y2="156" stroke="#8b5cf6" stroke-width="8"/>
+    <rect x="-34" y="0" width="68" height="104" rx="12" fill="#faf5ff" stroke="#8b5cf6" stroke-width="5"/>
+    <circle cx="-12" cy="42" r="9" fill="#8b5cf6"/>
+    <circle cx="13" cy="58" r="9" fill="#8b5cf6"/>
+    <path d="M-12 42c18-16 31-10 25 16" fill="none" stroke="#8b5cf6" stroke-width="5"/>
+    <text x="0" y="295" text-anchor="middle" class="year" fill="#7c3aed">2020</text>
+    <text x="0" y="343" text-anchor="middle" class="name">プロセカ</text>
+    <text x="0" y="382" text-anchor="middle" class="note">複合タッチ</text>
+  </g>
+
+  <text x="800" y="835" text-anchor="middle" class="small">入力装置が変わるたびに、ノーツ表示、判定窓、譜面設計の条件も組み直されてきた。</text>
+</svg>
