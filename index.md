@@ -66,6 +66,7 @@
 - [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🌶️
 - [ターンベースRPGの進化史](turn-based-rpg-history.md) 🌶️
 - [対戦格闘ゲームの歴史――ストII以前からロールバック時代まで](fighting-game-genre-history.md) 🌶️🌶️
+- [リズムゲームの歴史：入力を「音楽体験」に変えた判定システムの進化](music-game-judgment-system-history.md) 🌶️🌶️
 - [弾幕シューティングの歴史：なぜ「撃つゲーム」は「避けるゲーム」へ進化したのか](danmaku-shmup-history.md) 🌶️🌶️
 - [位置情報ゲームの歴史と新規企画のポイント](location-based-games-market-history-and-design-guide.md) 🌶️🌶️
 - [現代の技術でリッジレーサーを復活させることは可能か？](rebooting-ridge-racer-with-modern-technology.md) 🌶️🌶️
