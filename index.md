@@ -58,6 +58,7 @@
 ### 📖 物語・世界設定・謎解き
 
 - [ゲームの世界設定・シナリオとゲームメカニクスの関係](worldbuilding-scenario-and-game-mechanics.md) 🌶️🌶️
+- [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🌶️🌶️🌶️
 - [ARG（代替現実ゲーム）完全ガイド：日本の事例と第四境界の革新](arg-complete-guide-japan-fourth-boundary.md) 🌶️🌶️
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🌶️🌶️
 
