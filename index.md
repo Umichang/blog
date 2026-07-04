@@ -32,6 +32,7 @@
 - [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🌶️
 - [コントローラーの振動とハプティックフィードバック――ゲームプランナーのための企画設計ガイド](controller-haptics-design-guide.md) 🌶️🌶️
 - [ゲームのHUDデザイン完全解説](game-hud-design-guide.md) 🌶️🌶️
+- [なぜ3Dゲームのカメラは難しいのか――「後ろからついてくるだけ」では済まない制御設計](game-camera-design-challenges.md) 🌶️🌶️🌶️
 - [ゲームのアクセシビリティ設計――「遊べない」を減らす企画・実装・検証の実務](game-accessibility-design-guide.md) 🌶️🌶️🌶️
 - [ゲームの入力遅延 完全解説レポート](game-input-lag-guide.md) 🌶️🌶️🌶️
 
