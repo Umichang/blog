@@ -82,6 +82,7 @@
 - [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🌶️🌶️🌶️
 - [GitやSVNだけではなぜ苦しくなるのか――ゲーム開発のバージョン管理・アセット管理実務](version-control-and-asset-management-for-game-development.md) 🌶️🌶️🌶️
 - [ゲームプランナーが知っておくべきデータベースの基礎](database-basics-for-game-planners.md) 🌶️🌶️🌶️
+- [テレメトリ・計測設計入門――「何を・いつ・どの粒度で記録するか」を設計する技術](game-telemetry-and-instrumentation-design.md) 🌶️🌶️🌶️
 - [セーブシステムの設計史と実装の落とし穴](save-system-design-history-and-pitfalls.md) 🌶️🌶️🌶️
 - [ゲームプランナーが知っておくべき乱数の話](random-numbers-for-game-planners.md) 🌶️🌶️🌶️
 - [ゲームプランナーのための脱Excel仕様書ガイド](game-planner-excel-spec-guide.md) 🌶️🌶️
