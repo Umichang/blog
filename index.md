@@ -75,6 +75,7 @@
 - [位置情報ゲームの歴史と新規企画のポイント](location-based-games-market-history-and-design-guide.md) 🌶️🌶️
 - [現代の技術でリッジレーサーを復活させることは可能か？](rebooting-ridge-racer-with-modern-technology.md) 🌶️🌶️
 - [Modの功罪：ゲーム文化・法律・開発者の視点から読み解く](modding-merits-demerits-culture-law-developers.md) 🌶️🌶️🌶️
+- [RTA in Japan――寄付イベントとしてのタイムアタック文化](rta-in-japan-charity-speedrun-culture.md) 🌶️🌶️
 
 ## 🛠️ 開発・運営とビジネス
 
