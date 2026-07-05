@@ -103,7 +103,7 @@
 - [サービス終了をどう設計するか――オンラインゲームを破綻なく畳む実務](service-shutdown-design-and-practice.md) 🌶️🌶️🌶️
 - [ゲームのログインボーナスで継続率を下支えするコツ](login-bonus-retention-tips.md) 🌶️🌶️
 - [ゲームにおけるUGC――Fortnite・Roblox・原神の設計と運営の比較](ugc-in-games-fortnite-roblox-genshin.md) 🌶️🌶️🌶️
-- [にじさんじ甲子園――個人発の大会に、パブリッシャーが関与を深めた軌跡](nijisanji-koshien-publisher-engagement-design.md) 🌶️🌶️🌶️
+- [にじさんじ甲子園――個人発の大会に、パブリッシャーが関与を深めた軌跡](nijisanji-koshien-publisher-engagement-design.md) 🌶️🌶️
 
 ### 💰 ビジネス・市場・マネタイズ
 
