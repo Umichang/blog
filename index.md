@@ -17,7 +17,7 @@
 
 - [家庭用ゲーム機サウンドの歴史：ピコピコ音から立体音響へ](console-game-sound-history.md) 🌶️🌶️
 - [ゲームにおける環境音と3Dオーディオ — ゲームプランナー実践ガイド](game-ambient-sound-and-3d-audio-planner-guide.md) 🌶️🌶️🌶️
-- [インタラクティブミュージック・アダプティブミュージック 完全解説](interactive-adaptive-music-explained.md) 🌶️🌶️🌶️
+- [インタラクティブ／アダプティブミュージック――変化するゲーム音楽の設計と実装](interactive-adaptive-music-explained.md) 🌶️🌶️🌶️
 
 ### 🧠 AI・ゲーム内知性
 
@@ -28,21 +28,21 @@
 
 ### 🎮 操作・インターフェイス
 
-- [ゲームコンソール コントローラーのボタン配置はなぜ異なるのか ― 歴史的経緯の総合レポート](console-controller-button-layout-history.md) 🌶️
+- [ゲームコンソールのボタン配置はなぜ異なるのか――規格分岐の歴史](console-controller-button-layout-history.md) 🌶️
 - [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🌶️
 - [コントローラーの振動とハプティックフィードバック――ゲームプランナーのための企画設計ガイド](controller-haptics-design-guide.md) 🌶️🌶️
-- [ゲームのHUDデザイン完全解説](game-hud-design-guide.md) 🌶️🌶️
+- [ゲームのHUDデザイン――情報量と没入感を両立する設計原則](game-hud-design-guide.md) 🌶️🌶️
 - [なぜ3Dゲームのカメラは難しいのか――「後ろからついてくるだけ」では済まない制御設計](game-camera-design-challenges.md) 🌶️🌶️🌶️
 - [ゲームのアクセシビリティ設計――「遊べない」を減らす企画・実装・検証の実務](game-accessibility-design-guide.md) 🌶️🌶️🌶️
-- [ゲームの入力遅延 完全解説レポート](game-input-lag-guide.md) 🌶️🌶️🌶️
+- [ゲームの入力遅延――発生要因と削減・隠蔽の技術](game-input-lag-guide.md) 🌶️🌶️🌶️
 
 ### 🌐 オンライン・ネットワーク
 
 - [家庭用ゲーム機とオンライン環境の歴史](console-online-gaming-history.md) 🌶️🌶️
 - [ゲームの非同期オンライン要素：プレイヤー体験視点の分類と設計指針](asynchronous-online-gameplay-design.md) 🌶️🌶️
-- [家庭用ゲーム機のネット対戦：物理的制約と遅延隠蔽技術の完全解説](console-online-multiplayer-latency-techniques.md) 🌶️🌶️🌶️
+- [家庭用ゲーム機のネット対戦――物理的遅延の構造と遅延を隠す技術](console-online-multiplayer-latency-techniques.md) 🌶️🌶️🌶️
 - [オンラインゲームのアンチチート技術：歴史・現状・開発者の判断軸](online-game-anti-cheat-technology-history.md) 🌶️🌶️🌶️
-- [クラウドゲーミング徹底解説](cloud-gaming-deep-dive-proofread.md) 🌶️🌶️🌶️
+- [クラウドゲーミングの現在地――サービスの成否と技術的課題](cloud-gaming-deep-dive-proofread.md) 🌶️🌶️🌶️
 
 ### 🧩 ゲームシステム・プレイヤー体験
 
@@ -50,7 +50,7 @@
 - [実績・トロフィーシステムの設計史――外付けの目標がゲーム体験を変えるまで](achievement-trophy-system-design.md) 🌶️🌶️🌶️
 - [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🌶️🌶️
 - [難易度設計とダイナミックディフィカルティ――「ちょうどよい挑戦」を壊さず運用する実務](difficulty-design-and-dynamic-adjustment.md) 🌶️🌶️🌶️
-- [対戦ゲームのマッチメイキングとレーティング完全解説](competitive-game-matchmaking-rating-explained.md) 🌶️🌶️🌶️
+- [対戦ゲームのマッチメイキングとレーティング――仕組みと設計トレードオフ](competitive-game-matchmaking-rating-explained.md) 🌶️🌶️🌶️
 - [RPGバトル設計の落とし穴：割合ダメージを軸に学ぶ「萎え」の原因と対策](rpg-battle-design-pitfalls-percentage-damage.md) 🌶️🌶️🌶️
 - [ゲームにおけるプロシージャル生成の技術史と設計論](procedural-content-generation-history-and-design.md) 🌶️🌶️🌶️
 - [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🌶️🌶️
@@ -60,7 +60,7 @@
 
 - [ゲームの世界設定・シナリオとゲームメカニクスの関係](worldbuilding-scenario-and-game-mechanics.md) 🌶️🌶️
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🌶️🌶️🌶️
-- [ARG（代替現実ゲーム）完全ガイド：日本の事例と第四境界の革新](arg-complete-guide-japan-fourth-boundary.md) 🌶️🌶️
+- [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🌶️🌶️
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🌶️🌶️
 
 ### 🎲 ジャンル・ゲーム文化
@@ -92,17 +92,17 @@
 - [バグなのか仕様なのか——「グレーゾーン」の判断プロセス](bug-or-spec-gray-zone-decision-process.md) 🌶️🌶️
 - [QA・デバッグとマスターアップ——「全部直す」では出荷できないゲーム開発の実務](qa-debugging-and-master-up-guide.md) 🌶️🌶️🌶️
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🌶️🌶️
-- [ゲームローカライズ完全ガイド：翻訳からカルチャライズ、AI時代の課題まで](game-localization-guide.md) 🌶️🌶️
+- [ゲームローカライズの工程と実践](game-localization-guide.md) 🌶️🌶️
 
 ### 🤝 運営・コミュニティ
 
-- [ライブ運営の実務：リリースから「動かし続ける」仕事のすべて](live-ops-operations-from-launch-to-sustained-growth.md) 🌶️🌶️🌶️
+- [ライブ運営の実務――リリース後90日から継続運営まで](live-ops-operations-from-launch-to-sustained-growth.md) 🌶️🌶️🌶️
 - [ゲーム内経済の設計――通貨とアイテムを壊さず回し続ける実務](in-game-economy-design.md) 🌶️🌶️🌶️
 - [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🌶️🌶️
 - [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🌶️🌶️
 - [サービス終了をどう設計するか――オンラインゲームを破綻なく畳む実務](service-shutdown-design-and-practice.md) 🌶️🌶️🌶️
 - [ゲームのログインボーナスで継続率を下支えするコツ](login-bonus-retention-tips.md) 🌶️🌶️
-- [ゲームにおけるUGC：Fortnite・Roblox・原神の徹底比較](ugc-in-games-fortnite-roblox-genshin.md) 🌶️🌶️🌶️
+- [ゲームにおけるUGC――Fortnite・Roblox・原神の設計と運営の比較](ugc-in-games-fortnite-roblox-genshin.md) 🌶️🌶️🌶️
 
 ### 💰 ビジネス・市場・マネタイズ
 
@@ -121,7 +121,7 @@
 - [ガチャは違法になったのか？ コンプガチャ規制から確率表示までの歴史](gacha-regulation-japan-history.md) 🌶️🌶️
 - [ゲームプレイの配信と二次創作：ルール設計の実践ガイド](game-streaming-fan-creation-guideline-design.md) 🌶️🌶️🌶️
 - [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md) 🌶️🌶️🌶️
-- [App Store / Google Play ゲーム表現の検閲と審査対策 完全ガイド](app-store-google-play-game-content-review-guide.md) 🌶️🌶️🌶️
+- [App Store / Google Playにおけるゲーム表現の審査基準と対策](app-store-google-play-game-content-review-guide.md) 🌶️🌶️🌶️
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🌶️🌶️🌶️
 
 ### 🕹️ プラットフォーム・ハードウェア
@@ -129,13 +129,13 @@
 - [セガのコンソール史：SG-1000からドリームキャストまで](sega-console-history.md) 🌶️
 - [レポート：PCゲームと家庭用コンソールのゲームの性能比較](pc-vs-console-gaming-performance-report.md) 🌶️🌶️🌶️
 - [ハードウェア「スペック戦争」の実態史――128ビットからテラフロップスまで](128-bit-to-teraflops-spec-wars.md) 🌶️🌶️🌶️
-- [任天堂 歴代ハードウェア 海賊版・未承認ソフト対策 総合レポート](nintendo-hardware-anti-piracy-report.md) 🌶️🌶️🌶️
+- [任天堂ハードウェアの海賊版・未承認ソフト対策史](nintendo-hardware-anti-piracy-report.md) 🌶️🌶️🌶️
 
 ## 📚 歴史とケーススタディ
 
 ### 📜 ゲーム史・人物史
 
-- [アーケードゲーム／ゲームセンターの歴史大全：黎明期から現代まで](arcade-game-center-history.md) 🌶️🌶️
+- [アーケードゲーム／ゲームセンターの歴史――筐体・遊び・運営の変遷](arcade-game-center-history.md) 🌶️🌶️
 - [ポケモンが生まれるまで――ゲームフリーク前史](pokemon-game-freak-prehistory.md) 🌶️
 - [横井軍平評伝：「枯れた技術の水平思考」を生きた男](gunpei-yokoi-biography-lateral-thinking-of-withered-technology.md) 🌶️🌶️
 - [山内溥と任天堂のライセンスビジネス——主導権を手放さなかった経営判断](hiroshi-yamauchi-decision-making.md) 🌶️🌶️
@@ -147,7 +147,7 @@
 - [FF14旧版（1.0）はなぜ崩壊したのか――大型タイトルが開発で破綻する構造](ffxiv-1-0-failure-anatomy.md) 🌶️🌶️
 - [「誇りと達成感」の代償：Star Wars Battlefront IIが業界のルールを書き換えた日](battlefront-2-loot-box-controversy.md) 🌶️🌶️
 - [残高がマイナスになる日――ブルーアーカイブ“負債石”事件にみる、誤配布通貨の回収とプレイヤー公平性の衝突](negative-currency-recovery-bluearchive-fgo-case.md) 🌶️🌶️
-- [炎上から復活へ：No Man's Skyに学ぶ期待値管理と運営立て直しの教科書](no-mans-sky-expectation-management-case-study.md) 🌶️🌶️
+- [No Man's Skyの炎上と復活――期待値管理と運営立て直しの事例](no-mans-sky-expectation-management-case-study.md) 🌶️🌶️
 - [Concordはなぜ2週間で終わったのか――市場適合と「超短命サービス終了」の実務](concord-rapid-shutdown-case-study.md) 🌶️🌶️
 
 ## ✨ 番外編
