@@ -94,6 +94,7 @@
 - [QA・デバッグとマスターアップ——「全部直す」では出荷できないゲーム開発の実務](qa-debugging-and-master-up-guide.md) 🌶️🌶️🌶️
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🌶️🌶️
 - [ゲームローカライズの工程と実践](game-localization-guide.md) 🌶️🌶️
+- [声優キャスティングとローカライズ収録の実務](voice-casting-and-localized-recording-guide.md) 🌶️🌶️🌶️
 
 ### 🤝 運営・コミュニティ
 
