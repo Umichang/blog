@@ -143,6 +143,7 @@
 ### 📜 ゲーム史・人物史
 
 - [アーケードゲーム／ゲームセンターの歴史――筐体・遊び・運営の変遷](arcade-game-center-history.md) 🌶️🌶️
+- [ポケットの中に、現在があった――ガラケー時代のモバイルゲーム文化史](feature-phone-mobile-game-culture-history.md) 🌶️🌶️
 - [ポケモンが生まれるまで――ゲームフリーク前史](pokemon-game-freak-prehistory.md) 🌶️
 - [横井軍平評伝：「枯れた技術の水平思考」を生きた男](gunpei-yokoi-biography-lateral-thinking-of-withered-technology.md) 🌶️🌶️
 - [山内溥と任天堂のライセンスビジネス——主導権を手放さなかった経営判断](hiroshi-yamauchi-decision-making.md) 🌶️🌶️
