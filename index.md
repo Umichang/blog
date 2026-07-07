@@ -106,6 +106,7 @@
 - [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🌶️🌶️
 - [サービス終了をどう設計するか――オンラインゲームを破綻なく畳む実務](service-shutdown-design-and-practice.md) 🌶️🌶️🌶️
 - [ゲームのログインボーナスで継続率を下支えするコツ](login-bonus-retention-tips.md) 🌶️🌶️
+- [プッシュ通知で嫌われずに復帰を促すリエンゲージメント設計](push-notification-reengagement-design.md) 🌶️🌶️
 - [ゲームにおけるUGC――Fortnite・Roblox・原神の設計と運営の比較](ugc-in-games-fortnite-roblox-genshin.md) 🌶️🌶️
 - [にじさんじ甲子園――個人発の大会に、パブリッシャーが関与を深めた軌跡](nijisanji-koshien-publisher-engagement-design.md) 🌶️🌶️
 
