@@ -8,8 +8,8 @@
 
 ## 第1章：黎明期 ― ジョイスティックと1ボタンの時代（1970年代）
 
-![Atari CX40 joystick](image/atari-cx40.webp)
-*画像出典（引用）：Rama, [Atari CX40 Joystick.jpg](https://commons.wikimedia.org/wiki/File:Atari_CX40_Joystick.jpg), Wikimedia Commons, [CC BY-SA 2.0 FR](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en) / CX40ジョイスティックの形状を示す資料として引用。WebP変換。*
+![斜め前から見たAtari CX40ジョイスティック](image/atari-cx40.webp)
+*画像出典（引用）：Evan-Amos, [Atari-2600-Joystick.jpg](https://commons.wikimedia.org/wiki/File:Atari-2600-Joystick.jpg), Wikimedia Commons, Public Domain / CX40ジョイスティックのスティック部分と1ボタン構成を示す資料として引用。WebP変換。*
 
 ゲームコントローラーの歴史は、1977年にAtari Video Computer System（のちのAtari 2600）とともに発売されたCX10ジョイスティックに始まる。このコントローラーはジョイスティック1本と発射ボタン1個というシンプルな構成で、翌年にはより安価なCX40に置き換えられた。ボタンが1つしかないため、配置の「違い」は存在しなかった。しかし、ジョイスティックを長時間握り続けることによる「ジョイスティック・サム」と呼ばれる疲労が問題視され、より快適な操作手段が求められるようになる。[[1](#ref-1)]
 
