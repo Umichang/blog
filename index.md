@@ -100,6 +100,7 @@
 ### 🤝 運営・コミュニティ
 
 - [ライブ運営の実務――リリース後90日から継続運営まで](live-ops-operations-from-launch-to-sustained-growth.md) 🌶️🌶️🌶️
+- [期間限定イベント設計の実務――目的、報酬、救済、終了処理を一枚の仕様へ落とす](limited-time-event-design-practices.md) 🌶️🌶️🌶️
 - [ゲーム内経済の設計――通貨とアイテムを壊さず回し続ける実務](in-game-economy-design.md) 🌶️🌶️🌶️
 - [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🌶️🌶️
 - [ソーシャル機能設計の実務――フレンド・ギルドをどう作り、どう運用するか](social-features-friends-guilds-design-practices.md) 🌶️🌶️
