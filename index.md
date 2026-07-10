@@ -134,6 +134,7 @@
 - [モバイルゲームのKPI読み方入門——数字の意味と、数字だけに騙されない判断力](mobile-game-kpi-reading-guide.md) 🌶️🌶️🌶️
 - [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md) 🌶️🌶️
 - [アタリショックからプレイステーション流通革命まで：ゲーム市場構造の変遷](atari-shock-market-structure-history.md) 🌶️🌶️
+- [PlayStation物理ディスク版生産終了が示すゲーム業界の構造転換](playstation-disc-discontinuation-industry-structure.md) 🌶️🌶️
 - [eスポーツの歴史とビジネス構造――賞金、リーグ、配信、選手を支える仕組み](esports-history-and-business-structure.md) 🌶️🌶️
 
 ### ⚖️ 法務・規制
