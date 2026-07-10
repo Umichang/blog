@@ -20,6 +20,7 @@
 - [プランナーのためのビジュアル発注基礎――コンセプトアート編](concept-art-commissioning-basics-for-planners.md) 🌶️🌶️
 - [ゲームのアートディレクション基礎――スタイルガイド・アートバイブルの役割](game-art-direction-style-guide-basics-for-planners.md) 🌶️🌶️
 - [2Dデザインから3Dモデルへの立ち上げ・監修基礎](3d-model-supervision-basics-for-planners.md) 🌶️🌶️
+- [モーション・アニメーション監修の基礎――動きの質とタイミングをプランナーが検収するために](motion-animation-supervision-basics-for-planners.md) 🌶️🌶️
 - [ゲームにおけるレイトレーシング——リアルな光表現の可能性と限界](ray-tracing-in-games.md) 🌶️🌶️
 - [ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性](post-graphics-saturation-game-development.md) 🌶️🌶️
 - [レベルデザイン入門｜ルールではなく空間で体験を組み立てる仕事](level-design-introduction-practical-guide.md) 🌶️🌶️
