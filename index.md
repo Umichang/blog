@@ -145,6 +145,7 @@
 ### 🕹️ プラットフォーム・ハードウェア
 
 - [セガのコンソール史：SG-1000からドリームキャストまで](sega-console-history.md) 🌶️
+- [プレイステーション、セガサターン、NINTENDO64――次世代32/64ビット機戦争を市場から読む](playstation-saturn-n64-market-war-history.md) 🌶️🌶️
 - [レポート：PCゲームと家庭用コンソールのゲームの性能比較](pc-vs-console-gaming-performance-report.md) 🌶️🌶️
 - [ハードウェア「スペック戦争」の実態史――128ビットからテラフロップスまで](128-bit-to-teraflops-spec-wars.md) 🌶️🌶️
 - [任天堂ハードウェアの海賊版・未承認ソフト対策史](nintendo-hardware-anti-piracy-report.md) 🌶️🌶️
