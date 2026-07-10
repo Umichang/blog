@@ -141,6 +141,7 @@
 - [ゲームプレイの配信と二次創作：ルール設計の実践ガイド](game-streaming-fan-creation-guideline-design.md) 🌶️🌶️
 - [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md) 🌶️🌶️
 - [App Store / Google Playにおけるゲーム表現の審査基準と対策](app-store-google-play-game-content-review-guide.md) 🌶️🌶️
+- [スマートフォンソフトウェア競争促進法（スマホ新法）とゲーム業界への影響――競争法・ビジネスインパクトの角度から](smartphone-software-competition-act-game-industry-impact.md) 🌶️🌶️🌶️
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🌶️🌶️🌶️
 
 ### 🕹️ プラットフォーム・ハードウェア
@@ -180,4 +181,4 @@
 
 ## ✨ 番外編
 
-- [番外編：生成AIと一緒に、このブログを作るまで（改訂版）](making-this-blog-with-ai-tools.md) 🌶️
+- [番外編：生成AIと一緒に、このブログを作るまで（二訂版）](making-this-blog-with-ai-tools.md) 🌶️
