@@ -15,8 +15,9 @@
 
 ## 🎮 ゲーム体験と表現
 
-### 🎨 ヴィジュアル・空間表現
+### 🎨 ビジュアル・空間表現
 
+- [プランナーのためのビジュアル発注基礎――コンセプトアート編](concept-art-commissioning-basics-for-planners.md) 🌶️🌶️
 - [ゲームにおけるレイトレーシング——リアルな光表現の可能性と限界](ray-tracing-in-games.md) 🌶️🌶️
 - [ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性](post-graphics-saturation-game-development.md) 🌶️🌶️
 - [レベルデザイン入門｜ルールではなく空間で体験を組み立てる仕事](level-design-introduction-practical-guide.md) 🌶️🌶️
