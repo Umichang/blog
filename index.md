@@ -15,7 +15,7 @@
 
 ## ⏰ CEDEC2026特集
 
-- [CEDEC2026予習：CEDECとは何か――新人ゲームプランナーとゲームプレイヤーのための場の見取り図](cedec-overview-history-and-structure-for-game-planners.md) 🌶️
+- [CEDECとは何か――新人ゲームプランナーとゲームプレイヤーのための場の見取り図](cedec-overview-history-and-structure-for-game-planners.md) 🌶️
 - [CEDEC2026予習：対話をメカニクスとして設計する――マーダーミステリー、TRPG、人狼、デジタルゲームの系譜](cedec2026-communication-games-murder-mystery-dialogue-mechanics.md) 🌶️🌶️
 - [CEDEC2026予習：Unity AIとバイブコーディングが変えるゲーム企画の検証工程](cedec2026-unity-ai-prototyping-planner-vibe-coding.md) 🌶️🌶️
 - [CEDEC2026予習：国内ゲームオリジナルIPのメディアミックス展開に見る企画論点――『アイドルマスター』『ブルーアーカイブ』、そして『ヘブンバーンズレッド』](cedec2026-media-mix-strategy-idolmaster-bluearchive-heaven-burns-red.md) 🌶️🌶️
