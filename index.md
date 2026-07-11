@@ -140,6 +140,7 @@
 - [PlayStation物理ディスク版生産終了が示すゲーム業界の構造転換](playstation-disc-discontinuation-industry-structure.md) 🌶️🌶️
 - [EA非上場化（LBO）完全解説：史上最大のゲーム業界買収とパブリッシャー経営構造の変化](ea-lbo-take-private-publisher-capital-structure-shift.md) 🌶️🌶️🌶️
 - [eスポーツの歴史とビジネス構造――賞金、リーグ、配信、選手を支える仕組み](esports-history-and-business-structure.md) 🌶️🌶️
+- [CEDEC2026予習：国内ゲームオリジナルIPのメディアミックス展開に見る企画論点――『アイドルマスター』『ブルーアーカイブ』、そして『ヘブンバーンズレッド』](cedec2026-media-mix-strategy-idolmaster-bluearchive-heaven-burns-red.md) 🌶️🌶️
 
 ### ⚖️ 法務・規制
 
