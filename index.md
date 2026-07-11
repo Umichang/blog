@@ -130,6 +130,7 @@
 - [なぜゲームはF2Pモデルに依存するようになったのか](why-games-depend-on-f2p.md) 🌶️🌶️
 - [F2Pゲームのストーリードリブン・マネタイズ比較](story-driven-f2p-monetization.md) 🌶️🌶️
 - [複数プラットフォーム対応・基本プレイ無料ゲームの開発工数と収益構造](multi-platform-f2p-development-and-monetization.md) 🌶️🌶️
+- [P2Eゲーム制作を指示されたとき、ゲームプランナーが確認・検討すべきこと](p2e-game-development-planner-checklist.md) 🌶️🌶️🌶️
 - [有償アイテムのナーフが許されない理由](why-paid-item-nerfs-are-hard.md) 🌶️🌶️
 - [モバイルゲームのKPI読み方入門——数字の意味と、数字だけに騙されない判断力](mobile-game-kpi-reading-guide.md) 🌶️🌶️🌶️
 - [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md) 🌶️🌶️
