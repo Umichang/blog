@@ -107,6 +107,7 @@
 - [「実装後に炎上する仕様書」の共通点——曖昧さの解剖と、書ける仕様書の作り方](game-spec-pitfalls-and-how-to-write-clear-specs.md) 🌶️🌶️
 - [バグなのか仕様なのか——「グレーゾーン」の判断プロセス](bug-or-spec-gray-zone-decision-process.md) 🌶️🌶️
 - [QA・デバッグとマスターアップ——「全部直す」では出荷できないゲーム開発の実務](qa-debugging-and-master-up-guide.md) 🌶️🌶️
+- [生成AIによるQA・デバッグの実装レベル判断――2026年の実用化領域と人間が担うべき境界](generative-ai-qa-debugging-implementation-guide.md) 🌶️🌶️🌶️
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🌶️🌶️
 - [ゲームローカライズの工程と実践](game-localization-guide.md) 🌶️🌶️
 - [声優キャスティングとローカライズ収録の実務](voice-casting-and-localized-recording-guide.md) 🌶️🌶️
