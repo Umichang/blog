@@ -13,6 +13,13 @@
 
 - [はじめに](introduction.md) 🌶️
 
+## ⏰ CEDEC2026特集
+
+- [CEDEC2026予習：対話をメカニクスとして設計する――マーダーミステリー、TRPG、人狼、デジタルゲームの系譜](cedec2026-communication-games-murder-mystery-dialogue-mechanics.md) 🌶️🌶️
+- [CEDEC2026予習：Unity AIとバイブコーディングが変えるゲーム企画の検証工程](cedec2026-unity-ai-prototyping-planner-vibe-coding.md) 🌶️🌶️
+- [CEDEC2026予習：国内ゲームオリジナルIPのメディアミックス展開に見る企画論点――『アイドルマスター』『ブルーアーカイブ』、そして『ヘブンバーンズレッド』](cedec2026-media-mix-strategy-idolmaster-bluearchive-heaven-burns-red.md) 🌶️🌶️
+- [CEDEC2026予習：ゲーム企画者のための文化盗用リスク管理](cedec2026-cultural-appropriation-risk-management-for-game-planners.md) 🌶️🌶️🌶️
+
 ## 🎮 ゲーム体験と表現
 
 ### 🎨 ビジュアル・空間表現
@@ -59,6 +66,7 @@
 ### 🧩 ゲームシステム・プレイヤー体験
 
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🌶️🌶️
+- [CEDEC2026予習：対話をメカニクスとして設計する――マーダーミステリー、TRPG、人狼、デジタルゲームの系譜](cedec2026-communication-games-murder-mystery-dialogue-mechanics.md) 🌶️🌶️
 - [育成システム設計の実務――レベル、スキルツリー、リスペックを一つの仕様にする](character-progression-level-skill-tree-design.md) 🌶️🌶️🌶️
 - [実績・トロフィーシステムの設計史――外付けの目標がゲーム体験を変えるまで](achievement-trophy-system-design.md) 🌶️🌶️
 - [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🌶️🌶️
