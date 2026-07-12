@@ -106,6 +106,7 @@
 
 - [ゲームにおける非機能要件](game-non-functional-requirements.md) 🌶️🌶️🌶️
 - [CEDECとは何か――新人ゲームプランナーとゲームプレイヤーのための場の見取り図](cedec-overview-history-and-structure-for-game-planners.md) 🌶️
+- [スクラムの振り返り会で新人ゲームプランナーができること――KPTを「儀式」で終わらせない参加者の実践](agile-scrum-kpt-retrospective-for-junior-planners.md) 🌶️🌶️
 - [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🌶️🌶️
 - [GitやSVNだけではなぜ苦しくなるのか――ゲーム開発のバージョン管理・アセット管理実務](version-control-and-asset-management-for-game-development.md) 🌶️🌶️🌶️
 - [Unity Runtime Fee騒動から2026年のマルチエンジン時代へ――Godot台頭とゲームエンジン選定戦略](unity-runtime-fee-controversy-godot-multi-engine-era.md) 🌶️🌶️🌶️
