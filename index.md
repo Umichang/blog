@@ -141,6 +141,7 @@
 
 - [QA・デバッグとマスターアップ——「全部直す」では出荷できないゲーム開発の実務](qa-debugging-and-master-up-guide.md) 🌶️🌶️
 - [生成AIによるQA・デバッグの実装レベル判断――2026年の実用化領域と人間が担うべき境界](generative-ai-qa-debugging-implementation-guide.md) 🌶️🌶️🌶️
+- [重大インシデント後のポストモーテムを設計する――ゲーム開発チームのための事後検証と学習の方法論](postmortem-methodology-after-major-incidents-for-game-teams.md) 🌶️🌶️🌶️
 
 ### 🌏 ローカライズ・音声制作
 
