@@ -37,6 +37,7 @@
 - [家庭用ゲーム機サウンドの歴史：ピコピコ音から立体音響へ](console-game-sound-history.md) 🌶️🌶️
 - [ゲームにおける環境音と3Dオーディオ — ゲームプランナー実践ガイド](game-ambient-sound-and-3d-audio-planner-guide.md) 🌶️🌶️
 - [インタラクティブ／アダプティブミュージック――変化するゲーム音楽の設計と実装](interactive-adaptive-music-explained.md) 🌶️🌶️
+- [UIサウンド・フィードバックSE設計基礎](ui-feedback-sound-effect-design-basics-for-planners.md) 🌶️🌶️
 
 ### 🧠 AI・ゲーム内知性
 
