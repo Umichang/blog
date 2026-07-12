@@ -38,6 +38,7 @@
 - [ゲームにおける環境音と3Dオーディオ — ゲームプランナー実践ガイド](game-ambient-sound-and-3d-audio-planner-guide.md) 🌶️🌶️
 - [インタラクティブ／アダプティブミュージック――変化するゲーム音楽の設計と実装](interactive-adaptive-music-explained.md) 🌶️🌶️
 - [UIサウンド・フィードバックSE設計基礎](ui-feedback-sound-effect-design-basics-for-planners.md) 🌶️🌶️
+- [劇伴制作の進行管理実務――ゲームプランナーが担う発注・スポッティング・実装橋渡し](game-music-commissioning-and-production-management-for-planners.md) 🌶️🌶️
 
 ### 🧠 AI・ゲーム内知性
 
