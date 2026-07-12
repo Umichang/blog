@@ -159,6 +159,7 @@
 - [CEDEC2026予習：ゲーム企画者のための文化盗用リスク管理](cedec2026-cultural-appropriation-risk-management-for-game-planners.md) 🌶️🌶️🌶️
 - [生成AIと著作権法 ― ゲーム業界の実務論点ガイド](generative-ai-copyright-game-industry-guide.md) 🌶️🌶️🌶️
 - [日本のゲーム業界における「クランチ」と労働法制の歴史](game-crunch-labor-law-japan-history.md) 🌶️🌶️
+- [欧米ゲーム業界で続く大規模レイオフと、日本の労働法制](game-industry-mass-layoffs-japan-labor-law.md) 🌶️🌶️
 - [ガチャは違法になったのか？ コンプガチャ規制から確率表示までの歴史](gacha-regulation-japan-history.md) 🌶️🌶️
 - [ゲームプレイの配信と二次創作：ルール設計の実践ガイド](game-streaming-fan-creation-guideline-design.md) 🌶️🌶️
 - [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md) 🌶️🌶️
