@@ -161,6 +161,7 @@
 - [日本のゲーム業界における「クランチ」と労働法制の歴史](game-crunch-labor-law-japan-history.md) 🌶️🌶️
 - [欧米ゲーム業界で続く大規模レイオフと、日本の労働法制](game-industry-mass-layoffs-japan-labor-law.md) 🌶️🌶️
 - [ガチャは違法になったのか？ コンプガチャ規制から確率表示までの歴史](gacha-regulation-japan-history.md) 🌶️🌶️
+- [スキンギャンブリングの歴史とプラットフォーム責任：CS:GOから2026年のValve訴訟まで](skin-gambling-third-party-ecosystem.md) 🌶️🌶️🌶️
 - [ゲームプレイの配信と二次創作：ルール設計の実践ガイド](game-streaming-fan-creation-guideline-design.md) 🌶️🌶️
 - [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md) 🌶️🌶️
 - [App Store / Google Playにおけるゲーム表現の審査基準と対策](app-store-google-play-game-content-review-guide.md) 🌶️🌶️
