@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">1984年から1989年までのテトリスの展開と媒体区分</title>
+  <desc id="desc">テトリスの初期展開とライセンス交渉を示す年表。色付きバッジはPC、家庭用コンソール、アーケード、携帯機という媒体区分を表す。</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .title { fill: #102a56; font: 700 38px 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    .subtitle { fill: #52657f; font: 500 20px 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    .card { fill: #ffffff; stroke: #102a56; stroke-width: 4; }
+    .year { fill: #102a56; font: 700 34px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .event { fill: #102a56; font: 700 22px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .small { fill: #102a56; font: 700 15px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .badge { fill: #ffffff; font: 700 15px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .legend { fill: #102a56; font: 700 18px 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    .note { fill: #102a56; font: 700 26px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .muted { fill: #6c7787; font: 700 15px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+  </style>
+
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="800" y="66" text-anchor="middle">1984〜1989：テトリスの展開と媒体区分</text>
+  <text class="subtitle" x="800" y="102" text-anchor="middle">色付きバッジは、その年の展開・契約で扱われた媒体を示す</text>
+
+  <g fill="#102a56">
+    <path d="M267 285 H292 V271 L318 291 L292 311 V297 H267 Z"/>
+    <path d="M527 285 H552 V271 L578 291 L552 311 V297 H527 Z"/>
+    <path d="M787 285 H812 V271 L838 291 L812 311 V297 H787 Z"/>
+    <path d="M1047 285 H1072 V271 L1098 291 L1072 311 V297 H1047 Z"/>
+    <path d="M1307 285 H1332 V271 L1358 291 L1332 311 V297 H1307 Z"/>
+  </g>
+
+  <!-- 1984 -->
+  <g>
+    <rect class="card" x="40" y="150" width="220" height="310" rx="18"/>
+    <text class="year" x="150" y="205">1984年</text>
+    <line x1="70" y1="228" x2="230" y2="228" stroke="#102a56" stroke-width="3"/>
+    <text class="event" x="150" y="280">モスクワ</text>
+    <text class="event" x="150" y="316">エレクトロニカ60</text>
+    <rect x="75" y="360" width="150" height="34" rx="17" fill="#6c7787"/>
+    <text class="badge" x="150" y="383">研究機関内の版</text>
+    <text class="muted" x="150" y="426">媒体別の許諾前</text>
+  </g>
+
+  <!-- 1985 -->
+  <g>
+    <rect class="card" x="300" y="150" width="220" height="310" rx="18"/>
+    <text class="year" x="410" y="205">1985年</text>
+    <line x1="330" y1="228" x2="490" y2="228" stroke="#102a56" stroke-width="3"/>
+    <text class="event" x="410" y="280">IBM PC移植</text>
+    <text class="event" x="410" y="316">ソ連内で複製</text>
+    <rect x="355" y="360" width="110" height="34" rx="17" fill="#2764b0"/>
+    <text class="badge" x="410" y="383">PC</text>
+  </g>
+
+  <!-- 1986 -->
+  <g>
+    <rect class="card" x="560" y="150" width="220" height="310" rx="18"/>
+    <text class="year" x="670" y="205">1986年</text>
+    <line x1="590" y1="228" x2="750" y2="228" stroke="#102a56" stroke-width="3"/>
+    <text class="event" x="670" y="280">東欧経由</text>
+    <text class="event" x="670" y="316">西側が認知</text>
+    <rect x="595" y="360" width="150" height="34" rx="17" fill="#6c7787"/>
+    <text class="badge" x="670" y="383">交渉・非公式拡散</text>
+  </g>
+
+  <!-- 1987 -->
+  <g>
+    <rect class="card" x="820" y="150" width="220" height="310" rx="18"/>
+    <text class="year" x="930" y="205">1987年</text>
+    <line x1="850" y1="228" x2="1010" y2="228" stroke="#102a56" stroke-width="3"/>
+    <text class="event" x="930" y="280">北米・欧州</text>
+    <text class="event" x="930" y="316">PC版</text>
+    <rect x="875" y="360" width="110" height="34" rx="17" fill="#2764b0"/>
+    <text class="badge" x="930" y="383">PC</text>
+  </g>
+
+  <!-- 1988 -->
+  <g>
+    <rect class="card" x="1080" y="150" width="220" height="310" rx="18"/>
+    <text class="year" x="1190" y="205">1988年</text>
+    <line x1="1110" y1="228" x2="1270" y2="228" stroke="#102a56" stroke-width="3"/>
+    <text class="event" x="1190" y="270">computer権契約</text>
+    <text class="event" x="1190" y="304">日本展開</text>
+    <rect x="1100" y="330" width="72" height="30" rx="15" fill="#2764b0"/>
+    <text class="badge" x="1136" y="351">PC</text>
+    <rect x="1180" y="330" width="100" height="30" rx="15" fill="#d79b00"/>
+    <text class="badge" x="1230" y="351">家庭用（争点）</text>
+    <rect x="1100" y="374" width="88" height="30" rx="15" fill="#c9413a"/>
+    <text class="badge" x="1144" y="395">アーケード除外</text>
+    <rect x="1195" y="374" width="85" height="30" rx="15" fill="#2e8b57"/>
+    <text class="badge" x="1237" y="395">携帯機除外</text>
+  </g>
+
+  <!-- 1989 -->
+  <g>
+    <rect class="card" x="1340" y="150" width="220" height="310" rx="18"/>
+    <text class="year" x="1450" y="205">1989年</text>
+    <line x1="1370" y1="228" x2="1530" y2="228" stroke="#102a56" stroke-width="3"/>
+    <text class="event" x="1450" y="270">携帯機権</text>
+    <text class="event" x="1450" y="304">任天堂・ゲームボーイ</text>
+    <rect x="1360" y="345" width="80" height="34" rx="17" fill="#d79b00"/>
+    <text class="badge" x="1400" y="368">家庭用</text>
+    <rect x="1460" y="345" width="80" height="34" rx="17" fill="#2e8b57"/>
+    <text class="badge" x="1500" y="368">携帯機</text>
+  </g>
+
+  <g>
+    <rect x="170" y="560" width="1260" height="104" rx="20" fill="#f5f8fc" stroke="#b9c8dc" stroke-width="2"/>
+    <text class="legend" x="255" y="608">凡例</text>
+    <rect x="355" y="584" width="26" height="26" rx="5" fill="#2764b0"/><text class="legend" x="394" y="605">PC</text>
+    <rect x="560" y="584" width="26" height="26" rx="5" fill="#d79b00"/><text class="legend" x="599" y="605">家庭用コンソール</text>
+    <rect x="880" y="584" width="26" height="26" rx="5" fill="#c9413a"/><text class="legend" x="919" y="605">アーケード</text>
+    <rect x="1130" y="584" width="26" height="26" rx="5" fill="#2e8b57"/><text class="legend" x="1169" y="605">携帯機</text>
+    <text class="subtitle" x="800" y="642" text-anchor="middle">灰色は、媒体区分が契約上の中心ではない出来事を示す</text>
+  </g>
+
+  <rect x="250" y="730" width="1100" height="76" rx="38" fill="#102a56"/>
+  <text x="800" y="779" fill="#ffffff" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="29" font-weight="700" text-anchor="middle">販売経路と原権利の許諾範囲は別</text>
+</svg>

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">テトリスのモバイル・ライセンスの変遷</title>
+  <desc id="desc">2005年のJamdatから2021年のPLAYSTUDIOSまでのモバイル・ライセンスの年表。2021年の権利には、中国を除く世界という地域条件と、N3TWORKの既存プロダクトを運営・発展させる条件がある。</desc>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#102a56"/></marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7050b8"/></marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#23845a"/></marker>
+  </defs>
+  <style>
+    .title { fill: #102a56; font: 700 38px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .sub { fill: #556987; font: 500 20px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .card { fill: #ffffff; stroke: #102a56; stroke-width: 4; }
+    .year { fill: #ffffff; font: 700 34px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .company { fill: #102a56; font: 700 27px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .detail { fill: #102a56; font: 700 20px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .arrowlabel { fill: #102a56; font: 700 17px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .call-title { font: 700 18px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+    .call-text { fill: #102a56; font: 700 24px 'Hiragino Sans', 'Noto Sans JP', sans-serif; text-anchor: middle; }
+  </style>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text class="title" x="800" y="64">2005〜2021：テトリスのモバイル・ライセンスの変遷</text>
+  <text class="sub" x="800" y="102">上段は年次の流れ、下段は2021年に明示された権利条件</text>
+
+  <!-- 年次の流れ -->
+  <text class="sub" x="80" y="152" text-anchor="start">年次の流れ</text>
+  <line x1="60" y1="174" x2="1540" y2="174" stroke="#c5d2e3" stroke-width="3"/>
+
+  <!-- 2005 -->
+  <g>
+    <rect class="card" x="40" y="205" width="250" height="285" rx="18"/>
+    <rect x="40" y="205" width="250" height="70" rx="18" fill="#2764b0"/>
+    <rect x="40" y="252" width="250" height="23" fill="#2764b0"/>
+    <text class="year" x="165" y="251">2005年</text>
+    <text class="company" x="165" y="330">Jamdat</text>
+    <text class="detail" x="165" y="375">世界・15年契約</text>
+    <text class="detail" x="165" y="410">モバイル独占ライセンス</text>
+  </g>
+
+  <!-- 2006 -->
+  <g>
+    <rect class="card" x="355" y="205" width="250" height="285" rx="18"/>
+    <rect x="355" y="205" width="250" height="70" rx="18" fill="#6a51bb"/>
+    <rect x="355" y="252" width="250" height="23" fill="#6a51bb"/>
+    <text class="year" x="480" y="251">2006年</text>
+    <text class="company" x="480" y="330">EA</text>
+    <text class="detail" x="480" y="375">Jamdatを買収</text>
+    <text class="detail" x="480" y="410">独占ライセンシーとなる</text>
+  </g>
+
+  <!-- 2019 -->
+  <g>
+    <rect class="card" x="670" y="205" width="250" height="285" rx="18"/>
+    <rect x="670" y="205" width="250" height="70" rx="18" fill="#2764b0"/>
+    <rect x="670" y="252" width="250" height="23" fill="#2764b0"/>
+    <text class="year" x="795" y="251">2019年</text>
+    <text class="company" x="795" y="330">N3TWORK</text>
+    <text class="detail" x="795" y="390">新たな提携を公表</text>
+  </g>
+
+  <!-- 2020 -->
+  <g>
+    <rect class="card" x="985" y="205" width="250" height="285" rx="18"/>
+    <rect x="985" y="205" width="250" height="70" rx="18" fill="#23845a"/>
+    <rect x="985" y="252" width="250" height="23" fill="#23845a"/>
+    <text class="year" x="1110" y="251">2020年</text>
+    <text class="company" x="1110" y="330">N3TWORK版</text>
+    <text class="detail" x="1110" y="390">導入</text>
+  </g>
+
+  <!-- 2021 -->
+  <g>
+    <rect class="card" x="1300" y="205" width="260" height="285" rx="18"/>
+    <rect x="1300" y="205" width="260" height="70" rx="18" fill="#6a51bb"/>
+    <rect x="1300" y="252" width="260" height="23" fill="#6a51bb"/>
+    <text class="year" x="1430" y="251">2021年</text>
+    <text class="company" x="1430" y="330">PLAYSTUDIOS</text>
+    <text class="detail" x="1430" y="375">複数タイトル向け</text>
+    <text class="detail" x="1430" y="410">モバイル独占権を引受</text>
+  </g>
+
+  <!-- 上段の矢印は年次の連続のみを表す -->
+  <line x1="295" y1="347" x2="350" y2="347" stroke="#102a56" stroke-width="5" marker-end="url(#arrow-navy)"/>
+  <line x1="610" y1="347" x2="665" y2="347" stroke="#102a56" stroke-width="5" marker-end="url(#arrow-navy)"/>
+  <line x1="925" y1="347" x2="980" y2="347" stroke="#102a56" stroke-width="5" marker-end="url(#arrow-navy)"/>
+  <line x1="1240" y1="347" x2="1295" y2="347" stroke="#102a56" stroke-width="5" marker-end="url(#arrow-navy)"/>
+
+  <!-- 2021年の権利条件 -->
+  <rect x="175" y="565" width="1250" height="255" rx="24" fill="#f7f9fc" stroke="#c5d2e3" stroke-width="2"/>
+  <text x="800" y="620" fill="#102a56" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" text-anchor="middle">2021年に明示された権利条件</text>
+
+  <path d="M1380 492 V652 H690" fill="none" stroke="#7050b8" stroke-width="6" stroke-dasharray="13 10" marker-end="url(#arrow-purple)"/>
+  <rect x="290" y="650" width="420" height="105" rx="18" fill="#f0eafb" stroke="#7050b8" stroke-width="3"/>
+  <text class="call-title" x="500" y="685" fill="#7050b8">地域</text>
+  <text class="call-text" x="500" y="727">世界（中国を除く）</text>
+
+  <path d="M1480 492 V787 H1000" fill="none" stroke="#23845a" stroke-width="6" marker-end="url(#arrow-green)"/>
+  <rect x="865" y="735" width="520" height="105" rx="18" fill="#e8f5ee" stroke="#23845a" stroke-width="3"/>
+  <text class="call-title" x="1125" y="770" fill="#23845a">対象</text>
+  <text class="call-text" x="1125" y="812">N3TWORKの既存製品を運営・発展</text>
+</svg>

@@ -255,6 +255,7 @@
 ### 📜 ゲーム史・文化史
 
 - [アーケードゲーム／ゲームセンターの歴史――筐体・遊び・運営の変遷](arcade-game-center-history.md) 🌶️🌶️
+- [鉄のカーテンを越えたパズル――テトリスの誕生からeスポーツ化まで](tetris-origin-licensing-esports-history.md) 🌶️🌶️
 - [ポケットの中に、現在があった――ガラケー時代のモバイルゲーム文化史](feature-phone-mobile-game-culture-history.md) 🌶️🌶️
 - [同人ゲームの系譜：日本のコミックマーケット文化が育てたゲームたち](doujin-game-history-comic-market-culture.md) 🌶️
 
