@@ -128,6 +128,7 @@
 - [「実装後に炎上する仕様書」の共通点——曖昧さの解剖と、書ける仕様書の作り方](game-spec-pitfalls-and-how-to-write-clear-specs.md) 🌶️🌶️
 - [プレイテストの設計・運用方法論](playtest-design-and-operation-methodology-for-planners.md) 🌶️🌶️
 - [バグなのか仕様なのか——「グレーゾーン」の判断プロセス](bug-or-spec-gray-zone-decision-process.md) 🌶️🌶️
+- [物理シミュレーションの不具合はなぜ根絶しにくいのか――プランナーが仕様書でつくる安全域](physics-simulation-bug-prevention-spec-writing-for-planners.md) 🌶️🌶️
 - [Cyberpunk 2077 崩壊の構造](cyberpunk-2077-anatomy-of-a-collapse.md) 🌶️🌶️
 - [FF14旧版（1.0）はなぜ崩壊したのか――大型タイトルが開発で破綻する構造](ffxiv-1-0-failure-anatomy.md) 🌶️🌶️
 
