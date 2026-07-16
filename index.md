@@ -262,6 +262,7 @@
 ### 👤 人物・企業史
 
 - [ポケモンが生まれるまで――ゲームフリーク前史](pokemon-game-freak-prehistory.md) 🌶️
+- [キングスフィールドができるまで――フロム・ソフトウェア前史](fromsoftware-business-software-to-kings-field.md) 🌶️
 - [ミハイル・コーガン評伝：オデーサの亡命者から『スペースインベーダー』を生んだ男へ](mikhail-kogan-biography-taito-founder-space-invaders.md) 🌶️🌶️
 - [横井軍平評伝：「枯れた技術の水平思考」を生きた男](gunpei-yokoi-biography-lateral-thinking-of-withered-technology.md) 🌶️🌶️
 - [山内溥と任天堂のライセンスビジネス——主導権を手放さなかった経営判断](hiroshi-yamauchi-decision-making.md) 🌶️🌶️
