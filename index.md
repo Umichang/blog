@@ -99,6 +99,7 @@
 
 - [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md) 🌶️
 - [オープンワールドゲームの歴史：萌芽から革新へ](open-world-games-history.md) 🌶️
+- [『マリオカート ワールド』は、なぜオープンワールドを「競技の一部」にしたのか](mario-kart-world-open-world-design-vs-forza-horizon.md) 🌶️🌶️
 - [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🌶️
 - [ターンベースRPGの進化史](turn-based-rpg-history.md) 🌶️
 - [対戦格闘ゲームの歴史――ストII以前からロールバック時代まで](fighting-game-genre-history.md) 🌶️🌶️
