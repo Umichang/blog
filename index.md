@@ -73,6 +73,7 @@
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🌶️🌶️
 - [育成システム設計の実務――レベル、スキルツリー、リスペックを一つの仕様にする](character-progression-level-skill-tree-design.md) 🌶️🌶️🌶️
 - [実績・トロフィーシステムの設計史――外付けの目標がゲーム体験を変えるまで](achievement-trophy-system-design.md) 🌶️🌶️
+- [マイクロゲーミフィケーション――ゲームデザイン手法の非ゲーム領域への輸出とその限界](micro-gamification-non-game-design-limitations.md) 🌶️🌶️
 - [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🌶️🌶️
 - [難易度設計とダイナミックディフィカルティ――「ちょうどよい挑戦」を壊さず運用する実務](difficulty-design-and-dynamic-adjustment.md) 🌶️🌶️
 
