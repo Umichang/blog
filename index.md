@@ -245,6 +245,7 @@
 
 - [ハードウェア「スペック戦争」の実態史――128ビットからテラフロップスまで](128-bit-to-teraflops-spec-wars.md) 🌶️🌶️
 - [任天堂ハードウェアの海賊版・未承認ソフト対策史](nintendo-hardware-anti-piracy-report.md) 🌶️🌶️
+- [Nintendo Switch 2の電池交換対応から読む、EU規制がハードウェア設計を変える仕組み](nintendo-switch-2-eu-battery-regulation-design.md) 🌶️🌶️🌶️
 
 #### 🖥️ 国産PCプラットフォーム史
 
