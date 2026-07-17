@@ -175,6 +175,7 @@
 - [残高がマイナスになる日――ブルーアーカイブ“負債石”事件にみる、誤配布通貨の回収とプレイヤー公平性の衝突](negative-currency-recovery-bluearchive-fgo-case.md) 🌶️🌶️
 - [No Man's Skyの炎上と復活――期待値管理と運営立て直しの事例](no-mans-sky-expectation-management-case-study.md) 🌶️🌶️
 - [Concordはなぜ2週間で終わったのか――市場適合と「超短命サービス終了」の実務](concord-rapid-shutdown-case-study.md) 🌶️🌶️
+- [TOKYO BEASTはなぜ76日で終わったのか――P2Eゲームの大型プロジェクトを読み解く個別事例](tokyo-beast-p2e-game-shutdown-case-study.md) 🌶️🌶️🌶️
 
 #### 🫂 コミュニティ・ソーシャル・UGC
 
