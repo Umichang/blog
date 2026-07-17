@@ -81,6 +81,7 @@
 
 - [対戦ゲームのマッチメイキングとレーティング――仕組みと設計トレードオフ](competitive-game-matchmaking-rating-explained.md) 🌶️🌶️🌶️
 - [トレーディングカードゲームのデジタル化とデッキ構築設計の実務](tcg-digital-deck-building-design-practices.md) 🌶️🌶️🌶️
+- [『Slay the Spire 2』は何を守り、何を壊したのか――ジャンルを定義したデッキ構築ローグライクの続編設計](slay-the-spire-2-roguelike-deckbuilder-sequel-design.md) 🌶️🌶️🌶️
 - [RPGバトル設計の落とし穴：割合ダメージを軸に学ぶ「萎え」の原因と対策](rpg-battle-design-pitfalls-percentage-damage.md) 🌶️🌶️🌶️
 
 #### 🏗️ コンテンツ生成・再設計
