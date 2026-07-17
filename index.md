@@ -71,6 +71,7 @@
 #### 🎯 進行・目標・難易度
 
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🌶️🌶️
+- [勝利条件がない生活シミュレーションはなぜ続くのか――「どうぶつの森」と「トモダチコレクション」から考える長期継続設計](communication-game-life-sim-design-for-planners.md) 🌶️🌶️
 - [育成システム設計の実務――レベル、スキルツリー、リスペックを一つの仕様にする](character-progression-level-skill-tree-design.md) 🌶️🌶️🌶️
 - [実績・トロフィーシステムの設計史――外付けの目標がゲーム体験を変えるまで](achievement-trophy-system-design.md) 🌶️🌶️
 - [マイクロゲーミフィケーション――ゲームデザイン手法の非ゲーム領域への輸出とその限界](micro-gamification-non-game-design-limitations.md) 🌶️🌶️
