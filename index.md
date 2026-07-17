@@ -196,6 +196,7 @@
 
 #### 📊 市場・産業構造・リリース戦略
 
+- [AI需要による半導体価格高騰がコンソールゲーム業界に与える影響](ai-demand-semiconductor-price-surge-console-industry-impact.md) 🌶️🌶️
 - [GTA6再延期はなぜ海外を揺らし、日本では温度差が見えるのか――メガタイトルの「重力圏」と発売時期の設計](gta6-delay-japan-overseas-perception-gap.md) 🌶️🌶️
 - [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md) 🌶️🌶️
 - [アタリショックからプレイステーション流通革命まで：ゲーム市場構造の変遷](atari-shock-market-structure-history.md) 🌶️🌶️
