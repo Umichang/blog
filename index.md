@@ -181,6 +181,7 @@
 - [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🌶️🌶️
 - [ソーシャル機能設計の実務――フレンド・ギルドをどう作り、どう運用するか](social-features-friends-guilds-design-practices.md) 🌶️🌶️
 - [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🌶️🌶️
+- [開発者個人のSNS発言はなぜスタジオ全体のリスクになるのか：4事例で考える人事・炎上・ガバナンス](developer-personal-sns-studio-risk-management.md) 🌶️🌶️
 - [ゲームにおけるUGC――Fortnite・Roblox・原神の設計と運営の比較](ugc-in-games-fortnite-roblox-genshin.md) 🌶️🌶️
 - [にじさんじ甲子園――個人発の大会に、パブリッシャーが関与を深めた軌跡](nijisanji-koshien-publisher-engagement-design.md) 🌶️🌶️
 
