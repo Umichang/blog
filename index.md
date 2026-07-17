@@ -83,6 +83,7 @@
 - [トレーディングカードゲームのデジタル化とデッキ構築設計の実務](tcg-digital-deck-building-design-practices.md) 🌶️🌶️🌶️
 - [『Slay the Spire 2』は何を守り、何を壊したのか――ジャンルを定義したデッキ構築ローグライクの続編設計](slay-the-spire-2-roguelike-deckbuilder-sequel-design.md) 🌶️🌶️🌶️
 - [RPGバトル設計の落とし穴：割合ダメージを軸に学ぶ「萎え」の原因と対策](rpg-battle-design-pitfalls-percentage-damage.md) 🌶️🌶️🌶️
+- [『PRAGMATA』はなぜ2人協力プレイにしなかったのか――完全新規IPと「自分自身との協力」の設計](pragmata-capcom-new-ip-hacking-shooting-design.md) 🌶️🌶️🌶️
 
 #### 🏗️ コンテンツ生成・再設計
 
