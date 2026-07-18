@@ -217,6 +217,7 @@
 - [生成AIと著作権法 ― ゲーム業界の実務論点ガイド](generative-ai-copyright-game-industry-guide.md) 🌶️🌶️🌶️
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🌶️🌶️🌶️
 - [『パルワールド』訴訟はゲームデザインをどう動かしたか――特許係争と1.0正式版までの歩み](palworld-nintendo-patent-lawsuit-and-game-design-analysis.md) 🌶️🌶️🌶️
+- [ソニーvsテンセント『Horizon』対『Light of Motiram』訴訟の経緯と決着](sony-tencent-horizon-light-of-motiram-lawsuit.md) 🌶️🌶️🌶️
 - [Modの功罪：ゲーム文化・法律・開発者の視点から読み解く](modding-merits-demerits-culture-law-developers.md) 🌶️🌶️
 
 #### 🎨 表現・配信・レーティング
