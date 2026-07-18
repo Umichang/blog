@@ -65,7 +65,7 @@ F-ZEROの初代は1990年のスーパーファミコン版である。続く『F
 
 ![カービィがワープスターで走る『カービィのエアライダー』の公式キービジュアル](image/kirby-air-riders-official-key-visual.webp)
 
-*画像出典（引用）：任天堂「[カービィのエアライダー | Nintendo Switch 2](https://www.nintendo.com/jp/games/switch2/aaaba/index.html)」掲載のキービジュアル（© Nintendo / SORA / HAL Laboratory, Inc.）を無改変で引用／WebP変換。*
+画像出典（引用）：任天堂「[カービィのエアライダー｜Nintendo Switch 2](https://www.nintendo.com/jp/games/switch2/aaaba/index.html)」掲載のキービジュアル（© Nintendo / SORA / HAL Laboratory, Inc.）を無改変で引用／WebP変換。
 
 ### 3-2. Star Fox：原点を入口に作り直す復活
 
@@ -77,13 +77,13 @@ F-ZEROの初代は1990年のスーパーファミコン版である。続く『F
 
 ![フォックス、ファルコ、スリッピー、ペッピーが並ぶNintendo Switch 2『Star Fox』の公式キービジュアル](image/star-fox-2026-official-key-visual.webp)
 
-*画像出典（引用）：任天堂「[Star Fox | Nintendo Switch 2](https://www.nintendo.com/jp/games/switch2/abgwa/index.html)」掲載のキービジュアル（© Nintendo）を無改変で引用／WebP変換。*
+画像出典（引用）：任天堂「[Star Fox｜Nintendo Switch 2](https://www.nintendo.com/jp/games/switch2/abgwa/index.html)」掲載のキービジュアル（© Nintendo）を無改変で引用／WebP変換。
 
 ### 3-3. 比較すべきなのは「沈黙の長さ」ではなく「再起動の契約」である
 
 ![カービィのエアライダー、Star Fox、F-ZEROの再起動を比較する3枚のカード。F-ZEROだけが進行中として示されている](image/nintendo-dormant-ip-revival-comparison.webp)
 
-*不在の後に最初に出した答え、プレイヤーに結ぶ契約、企画リスクを比較する。F-ZEROは「進行中」であり、新作という答えにはまだ到達していない。*
+図表の要点：不在の後に最初に出した答え、プレイヤーに約束する内容、企画リスクを比較する。F-ZEROは「進行中」であり、新作という答えにはまだ到達していない。
 
 この比較は、「F-ZEROが劣っている」と結論づけるためのものではない。三つのIPはジャンル、開発体制、過去作の蓄積、事業上の役割が違う。比較すべきなのは売上や知名度ではなく、プレイヤーにどの範囲まで将来を約束したかである。
 
@@ -101,7 +101,7 @@ F-ZEROの初代は1990年のスーパーファミコン版である。続く『F
 
 ![保存・到達性、需要検証、制作コミットメントの3層ピラミッド。最上層だけが新作の約束で、F-ZEROは第1層と第2層に留まる](image/nintendo-dormant-ip-revival-signals.webp)
 
-*再起動のシグナルは同じ強さではない。タイトル・対応機種・発売時期・開発主体・ゲーム内容が同時に示される第3層で、初めて新作の約束として扱える。*
+図表の要点：再起動のシグナルは同じ強さではない。タイトル・対応機種・発売時期・開発主体・ゲーム内容が同時に示される第3層で、初めて新作の約束として扱える。
 
 『F-ZERO 99』は第2層の性質を持つが、Nintendo Switch Online加入者限定のソフトであり、その利用規模や収益、続編へどう接続するかは公開されていない。『GX』の配信やGBA2作の再配信は第1層の強い事例である。これらを第3層として語ると、ファンの期待も社内の企画評価も誤らせる。[[3](#ref-3)][[4](#ref-4)][[8](#ref-8)]
 
