@@ -140,6 +140,7 @@
 ### 🎬 他メディアIPのゲーム化
 
 - [『Marvel's Spider-Man』は、なぜ「映画タイアップ」から離れて成功できたのか――大型IPゲーム化の成功事例](marvel-spider-man-insomniac-ip-adaptation-success-case-study.md) 🌶️🌶️
+- [『Marvel's Avengers』は、なぜ大型IPをゲームとして定着させられなかったのか――座組みから読む失敗事例](marvel-avengers-crystal-dynamics-ip-adaptation-failure-case-study.md) 🌶️🌶️
 
 ### 🧰 技術基盤・データ・アセット
 
