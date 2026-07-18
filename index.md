@@ -137,6 +137,10 @@
 - [Cyberpunk 2077 崩壊の構造](cyberpunk-2077-anatomy-of-a-collapse.md) 🌶️🌶️
 - [FF14旧版（1.0）はなぜ崩壊したのか――大型タイトルが開発で破綻する構造](ffxiv-1-0-failure-anatomy.md) 🌶️🌶️
 
+### 🎬 他メディアIPのゲーム化
+
+- [『Marvel's Spider-Man』は、なぜ「映画タイアップ」から離れて成功できたのか――大型IPゲーム化の成功事例](marvel-spider-man-insomniac-ip-adaptation-success-case-study.md) 🌶️🌶️
+
 ### 🧰 技術基盤・データ・アセット
 
 - [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🌶️🌶️
