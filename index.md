@@ -124,6 +124,7 @@
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🌶️🌶️
 - [ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性](post-graphics-saturation-game-development.md) 🌶️🌶️
 - [現代の技術でリッジレーサーを復活させることは可能か？](rebooting-ridge-racer-with-modern-technology.md) 🌶️🌶️
+- [カービィのエアライダーとStar Foxは帰ってきた。F-ZEROに残る23年目の空白から読む、任天堂の休眠IP再起動](nintendo-dormant-ip-revival-f-zero-kirby-star-fox.md) 🌶️🌶️
 - [ゲームのリマスターとリメイク：ゲームプランナーが押さえるべき設計思想](game-remaster-remake-design-philosophy.md) 🌶️🌶️
 
 #### 📝 仕様・品質判断
