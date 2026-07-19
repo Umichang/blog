@@ -146,6 +146,7 @@
 - [『ザ・ロード・オブ・ザ・リング：ゴラム』は、なぜIPの「独自解釈」をゲームの価値へ変えられなかったのか――適性、ライセンス、実行力から読む失敗事例](lord-of-the-rings-gollum-daedalic-ip-adaptation-failure-case-study.md) 🌶️🌶️
 - [『ドラゴンボール ファイターズ』は、なぜ既存の表現基盤を大型IPの成功へ変えられたのか――技術転用と競技性から読む成功事例](dragon-ball-fighterz-arc-system-works-ip-adaptation-success-case-study.md) 🌶️🌶️
 - [『New ガンダムブレイカー』は、なぜ「ユーザーの声に応える刷新」を前作からの後退にしてしまったのか](new-gundam-breaker-crafts-meister-ip-adaptation-failure-case-study.md) 🌶️🌶️
+- [番外編：ゲームから映画へ、同じ成功ではない――マリオと『バイオハザード』に見る二つの到達点](game-to-film-success-mario-resident-evil-contrast.md) 🌶️🌶️
 
 ### 🧰 技術基盤・データ・アセット
 
