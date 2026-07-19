@@ -180,6 +180,7 @@
 - [ゲーム内経済の設計――通貨とアイテムを壊さず回し続ける実務](in-game-economy-design.md) 🌶️🌶️🌶️
 - [ゲームのログインボーナスで継続率を下支えするコツ](login-bonus-retention-tips.md) 🌶️🌶️
 - [プッシュ通知で嫌われずに復帰を促すリエンゲージメント設計](push-notification-reengagement-design.md) 🌶️🌶️
+- [「創作体験サーバー」はリーク対策か、先行広告か――HoYoverseの制度を運用型ゲームの設計として読む](creator-experience-server-leak-control-and-advertising.md) 🌶️🌶️🌶️
 
 #### 🧯 サービスライフサイクル・運営対応
 
