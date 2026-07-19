@@ -139,6 +139,7 @@
 
 ### 🎬 他メディアIPのゲーム化
 
+- [IPゲーム化は「知名度の借用」ではない――成功・失敗6事例から読む期待値の循環](media-ip-game-adaptation-case-study-series-conclusion.md) 🌶️🌶️
 - [『Marvel's Spider-Man』は、なぜ「映画タイアップ」から離れて成功できたのか――大型IPゲーム化の成功事例](marvel-spider-man-insomniac-ip-adaptation-success-case-study.md) 🌶️🌶️
 - [『Marvel's Avengers』は、なぜ大型IPをゲームとして定着させられなかったのか――座組みから読む失敗事例](marvel-avengers-crystal-dynamics-ip-adaptation-failure-case-study.md) 🌶️🌶️
 - [『鬼滅の刃 ヒノカミ血風譚』は、なぜ急拡大したアニメIPをゲームへ着地させられたのか――協働とタイミングの成功事例](demon-slayer-hinokami-keppuutan-cyberconnect2-ip-adaptation-success-case-study.md) 🌶️🌶️
