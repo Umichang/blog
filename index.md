@@ -296,6 +296,7 @@
 - [山内溥と任天堂のライセンスビジネス——主導権を手放さなかった経営判断](hiroshi-yamauchi-decision-making.md) 🌶️🌶️
 - [岩田聡評伝——プログラマー社長が経営した「危機」と「対話」](satoru-iwata-crisis-management-and-dialogue.md) 🌶️🌶️
 - [中村雅哉――電動木馬から『パックマン』へ、ナムコを育てた企業家](masaya-nakamura-namco-founder-biography.md) 🌶️🌶️
+- [miHoYo／HoYoverse企業史：創業からグローバル展開まで](mihoyo-hoyoverse-company-history-global-expansion.md) 🌶️🌶️
 
 ## ✨ 番外編
 

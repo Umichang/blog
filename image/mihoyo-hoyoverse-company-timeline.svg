@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2440" height="1280" viewBox="0 0 2440 1280" role="img" aria-labelledby="title desc">
+  <title id="title">miHoYo／HoYoverseの2011年から2024年までの主な節目</title>
+  <desc id="desc">FlyMe2theMoon、崩壊学園、崩壊学園2、崩壊3rd、原神、HoYoverse、崩壊：スターレイル、ゼンレスゾーンゼロを年代順に並べたタイムライン。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="40" markerHeight="40" refX="36" refY="20" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L40,20 L0,40 Z" fill="#102e61"/>
+    </marker>
+    <style>
+      .line { stroke: #102e61; stroke-width: 12; stroke-linecap: round; }
+      .guide { stroke: #9ca6b5; stroke-width: 3; stroke-dasharray: 4 10; }
+      .card { fill: #ffffff; stroke-width: 3; }
+      .year { fill: #102e61; font-family: 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif; font-size: 52px; font-weight: 700; text-anchor: middle; }
+      .year-small { fill: #102e61; font-family: 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif; font-size: 33px; font-weight: 700; text-anchor: middle; }
+      .year-date { fill: #102e61; font-family: 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif; font-size: 29px; font-weight: 700; text-anchor: middle; }
+      .label { fill: #102e61; font-family: 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif; font-size: 35px; font-weight: 700; text-anchor: middle; }
+      .label-small { fill: #102e61; font-family: 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif; font-size: 30px; font-weight: 700; text-anchor: middle; }
+      .label-tiny { fill: #102e61; font-family: 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif; font-size: 26px; font-weight: 700; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="2440" height="1280" fill="#ffffff"/>
+  <line class="line" x1="110" y1="600" x2="2360" y2="600" marker-end="url(#arrow)"/>
+
+  <!-- 2011: FlyMe2theMoon -->
+  <line class="guide" x1="170" y1="440" x2="170" y2="580"/>
+  <rect class="card" x="43" y="210" width="254" height="230" rx="18" stroke="#16a5d6"/>
+  <text class="year" x="170" y="305">2011</text>
+  <text class="label-tiny" x="170" y="375">FlyMe2theMoon</text>
+  <circle cx="170" cy="600" r="20" fill="#16a5d6" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- 2012: 崩壊学園 -->
+  <line class="guide" x1="470" y1="620" x2="470" y2="760"/>
+  <rect class="card" x="343" y="760" width="254" height="230" rx="18" stroke="#16a5d6"/>
+  <text class="year" x="470" y="855">2012</text>
+  <text class="label" x="470" y="930">崩壊学園</text>
+  <circle cx="470" cy="600" r="20" fill="#16a5d6" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- 2014: 崩壊学園2 -->
+  <line class="guide" x1="770" y1="440" x2="770" y2="580"/>
+  <rect class="card" x="643" y="210" width="254" height="230" rx="18" stroke="#16a5d6"/>
+  <text class="year" x="770" y="305">2014</text>
+  <text class="label" x="770" y="375">崩壊学園2</text>
+  <circle cx="770" cy="600" r="20" fill="#16a5d6" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- 2016: 崩壊3rd -->
+  <line class="guide" x1="1070" y1="620" x2="1070" y2="760"/>
+  <rect class="card" x="943" y="760" width="254" height="230" rx="18" stroke="#16a5d6"/>
+  <text class="year" x="1070" y="855">2016</text>
+  <text class="label" x="1070" y="930">崩壊3rd</text>
+  <circle cx="1070" cy="600" r="20" fill="#16a5d6" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- 2020: 原神 -->
+  <line class="guide" x1="1370" y1="440" x2="1370" y2="580"/>
+  <rect class="card" x="1243" y="210" width="254" height="230" rx="18" stroke="#16a5d6"/>
+  <text class="year" x="1370" y="305">2020</text>
+  <text class="label" x="1370" y="375">原神</text>
+  <circle cx="1370" cy="600" r="20" fill="#16a5d6" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- 2022: HoYoverse -->
+  <line class="guide" x1="1670" y1="620" x2="1670" y2="760"/>
+  <rect class="card" x="1543" y="760" width="254" height="230" rx="18" stroke="#7b5dd6"/>
+  <text class="year-small" x="1670" y="850">2022年2月</text>
+  <text class="label" x="1670" y="930">HoYoverse</text>
+  <circle cx="1670" cy="600" r="20" fill="#7b5dd6" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- 2023: 崩壊：スターレイル -->
+  <line class="guide" x1="1970" y1="440" x2="1970" y2="580"/>
+  <rect class="card" x="1843" y="210" width="254" height="230" rx="18" stroke="#f15b5b"/>
+  <text class="year-date" x="1970" y="295">2023年4月26日</text>
+  <text class="label-small" x="1970" y="350">崩壊：</text>
+  <text class="label-small" x="1970" y="390">スターレイル</text>
+  <circle cx="1970" cy="600" r="20" fill="#f15b5b" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- 2024: ゼンレスゾーンゼロ -->
+  <line class="guide" x1="2270" y1="620" x2="2270" y2="760"/>
+  <rect class="card" x="2143" y="760" width="254" height="230" rx="18" stroke="#f15b5b"/>
+  <text class="year-date" x="2270" y="845">2024年7月4日</text>
+  <text class="label-small" x="2270" y="900">ゼンレス</text>
+  <text class="label-small" x="2270" y="940">ゾーンゼロ</text>
+  <circle cx="2270" cy="600" r="20" fill="#f15b5b" stroke="#ffffff" stroke-width="5"/>
+</svg>
