@@ -29,6 +29,7 @@
 - [ゲームのアートディレクション基礎――スタイルガイド・アートバイブルの役割](game-art-direction-style-guide-basics-for-planners.md) 🌶️🌶️
 - [2Dデザインから3Dモデルへの立ち上げ・監修基礎](3d-model-supervision-basics-for-planners.md) 🌶️🌶️
 - [モーション・アニメーション監修の基礎――動きの質とタイミングをプランナーが検収するために](motion-animation-supervision-basics-for-planners.md) 🌶️🌶️
+- [Live2D／E-moteを用いたキャラクターアニメーション表現の監修基礎――プランナーが3Dモデル監修とは異なる観察軸で議論するために](live2d-e-mote-animation-supervision-basics-for-planners.md) 🌶️🌶️
 - [ゲームにおけるレイトレーシング——リアルな光表現の可能性と限界](ray-tracing-in-games.md) 🌶️🌶️
 - [レベルデザイン入門｜ルールではなく空間で体験を組み立てる仕事](level-design-introduction-practical-guide.md) 🌶️🌶️
 
