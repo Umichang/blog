@@ -19,5 +19,5 @@ defaults:
 # 公開しても問題ない計測用の識別子だけを置く。空欄の間は計測用タグを出力しない。
 analytics:
   cloudflare_web_analytics_token: "5a0cc79f486f4b9399ceff5f2b6069cb"
-  google_search_console_verification: ""
+  google_search_console_verification: "ecP6ww2zZ67iEdObOy7jiYBqupql16ZufGUlVtsxeWY"
   started_on: "2026-07-22"
