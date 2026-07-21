@@ -124,6 +124,7 @@
 - [CEDECとは何か――新人ゲームプランナーとゲームプレイヤーのための場の見取り図](cedec-overview-history-and-structure-for-game-planners.md) 🌶️
 - [スクラムの振り返り会で新人ゲームプランナーができること――KPTを「儀式」で終わらせない参加者の実践](agile-scrum-kpt-retrospective-for-junior-planners.md) 🌶️🌶️
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🌶️🌶️
+- [『スチームパイロッツ』の資金・契約トラブルから学ぶ――インディーゲームのクラウドファンディング・ガバナンス](steam-pilots-crowdfunding-governance-lessons.md) 🌶️🌶️🌶️
 - [ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性](post-graphics-saturation-game-development.md) 🌶️🌶️
 - [現代の技術でリッジレーサーを復活させることは可能か？](rebooting-ridge-racer-with-modern-technology.md) 🌶️🌶️
 - [カービィのエアライダーとStar Foxは帰ってきた。F-ZEROに残る23年目の空白から読む、任天堂の休眠IP再起動](nintendo-dormant-ip-revival-f-zero-kirby-star-fox.md) 🌶️🌶️
