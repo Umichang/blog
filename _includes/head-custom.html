@@ -1,1 +1,5 @@
 {% include mathjax.html %}
+{% assign search_console_verification = site.analytics.google_search_console_verification | default: "" %}
+{% unless search_console_verification == "" %}
+<meta name="google-site-verification" content="{{ search_console_verification }}">
+{% endunless %}
