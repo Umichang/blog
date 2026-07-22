@@ -10,6 +10,28 @@
 
 リポジトリに変更を push すると、GitHub Pages によって HTML が自動生成されます。
 
+## ローカルでの検証
+
+このリポジトリは `.ruby-version` で Ruby 3.3.4 を指定し、`Gemfile` で GitHub Pages と同じ Jekyll 3.10 系を固定している。初回のみ、リポジトリ直下で次を実行する。
+
+```sh
+bundle install
+```
+
+HTML生成だけを確認する場合は、次を実行する。
+
+```sh
+bundle exec jekyll build
+```
+
+ブラウザで確認する場合は、次を実行して `http://127.0.0.1:4000/` を開く。
+
+```sh
+bundle exec jekyll serve
+```
+
+このサイトはCaymanリモートテーマを使うため、ビルド時はネットワーク接続が必要である。Bundlerが作る `vendor/bundle/` とJekyllの出力先 `_site/` はGit管理しない。
+
 ## アクセス解析の有効化
 
 計測タグは、識別子が設定されるまで公開サイトに出力されない。Cloudflare Web Analytics と Google Search Console を有効にする場合は、`_config.yaml` の次の値を設定して公開する。

@@ -4,3 +4,10 @@ AGENTS.md
 CLAUDE.md
 .claude/settings.json
 .DS_Store
+
+# Local Jekyll and Bundler artifacts
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/bundle/
