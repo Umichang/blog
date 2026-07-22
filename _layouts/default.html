@@ -29,7 +29,11 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      {{ content }}
+      {% capture page_content %}{{ content }}{% endcapture %}
+      {% assign page_content = page_content
+        | replace: '<img', '<img loading="lazy"'
+        | replace: '<iframe', '<iframe loading="lazy"' %}
+      {{ page_content }}
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
