@@ -259,6 +259,7 @@
 #### 📱 プラットフォーム規制・課金規制
 
 - [ガチャは違法になったのか？ コンプガチャ規制から確率表示までの歴史](gacha-regulation-japan-history.md) 🌶️🌶️
+- [日本におけるRMTの歴史――なぜゲームはリアルマネートレードを禁止し続けるのか](rmt-history-japan-why-games-ban-real-money-trading.md) 🌶️🌶️🌶️
 - [NEXT Bayは日本のライブサービスに何を持ち込むか――LINE NEXTのUSDT建てRMT仲介を警戒する理由](next-bay-rmt-crypto-regulatory-friction.md) 🌶️🌶️🌶️
 - [スキンギャンブリングの歴史とプラットフォーム責任：CS:GOから2026年のValve訴訟まで](skin-gambling-third-party-ecosystem.md) 🌶️🌶️🌶️
 - [スマートフォンソフトウェア競争促進法（スマホ新法）とゲーム業界への影響――競争法・ビジネスインパクトの角度から](smartphone-software-competition-act-game-industry-impact.md) 🌶️🌶️🌶️
