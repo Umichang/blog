@@ -197,6 +197,7 @@
 - [Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか](hollow-knight-silksong-long-silence-launch-anticipation.md) 🌶️🌶️
 - [Concordはなぜ2週間で終わったのか――市場適合と「超短命サービス終了」の実務](concord-rapid-shutdown-case-study.md) 🌶️🌶️
 - [TOKYO BEASTはなぜ76日で終わったのか――P2Eゲームの大型プロジェクトを読み解く個別事例](tokyo-beast-p2e-game-shutdown-case-study.md) 🌶️🌶️🌶️
+- [『ファイナルファンタジーXIV モバイル』は、なぜ中国版とグローバル展開を同時に失ったのか――提携・ライセンス契約がロードマップを止めるとき](ffxiv-mobile-license-termination-global-cancellation.md) 🌶️🌶️🌶️
 
 #### 🫂 コミュニティ・ソーシャル・UGC
 
