@@ -5,6 +5,8 @@ title: うみちゃんの書き物置き場
 description: 主にゲームや技術に関しての記事があると思います
 url: https://umichang.github.io
 baseurl: /blog
+twitter:
+  card: summary
 lang: ja-JP
 markdown: kramdown
 kramdown:
