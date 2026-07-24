@@ -1,4 +1,7 @@
 {% include mathjax.html %}
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+<link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | relative_url }}" sizes="32x32">
+<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}" sizes="180x180">
 {% assign search_console_verification = site.analytics.google_search_console_verification | default: "" %}
 {% unless search_console_verification == "" %}
 <meta name="google-site-verification" content="{{ search_console_verification }}">
