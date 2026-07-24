@@ -186,6 +186,7 @@
 - [期間限定イベント設計の実務――目的、報酬、救済、終了処理を一枚の仕様へ落とす](limited-time-event-design-practices.md) 🌶️🌶️🌶️
 - [スタミナ・AP（行動力）システムの設計実務](stamina-energy-system-design-practices.md) 🌶️🌶️🌶️
 - [ゲーム内経済の設計――通貨とアイテムを壊さず回し続ける実務](in-game-economy-design.md) 🌶️🌶️🌶️
+- [運営公認RMTは機能するのか――Diablo III、WoWトークン、EVE Online、タスクバーヒーローに見る「売るもの」の設計](official-rmt-design-diablo-wow-eve-taskbar-hero.md) 🌶️🌶️🌶️
 - [ゲームのログインボーナスで継続率を下支えするコツ](login-bonus-retention-tips.md) 🌶️🌶️
 - [プッシュ通知で嫌われずに復帰を促すリエンゲージメント設計](push-notification-reengagement-design.md) 🌶️🌶️
 - [「創作体験サーバー」はリーク対策か、先行広告か――HoYoverseの制度を運用型ゲームの設計として読む](creator-experience-server-leak-control-and-advertising.md) 🌶️🌶️🌶️
