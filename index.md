@@ -18,6 +18,7 @@
 - [CEDECとは何か――新人ゲームプランナーとゲームプレイヤーのための場の見取り図](cedec-overview-history-and-structure-for-game-planners.md) 🌶️
 - [CEDEC2026初日レポート：3大セッションに見る「作り手とユーザー・技術・海外パートナーのずれ」](cedec2026-day1-keynote-silent-hill-beyond-hdr-recap.md) 🌶️🌶️
 - [CEDEC2026中盤レポート：6大セッションに見る「即効性のない投資判断」](cedec2026-day2-recap-pokemon-bananza-pragmata-investment.md) 🌶️🌶️
+- [CEDEC2026最終日レポート：5大セッションに見る「『できるはず』と『できた』のあいだを埋める泥臭さ」](cedec2026-day3-recap-garage-ai-npc-prototyping-120fps.md) 🌶️🌶️
 - [CEDEC2026予習：対話をメカニクスとして設計する――マーダーミステリー、TRPG、人狼、デジタルゲームの系譜](cedec2026-communication-games-murder-mystery-dialogue-mechanics.md) 🌶️🌶️
 - [CEDEC2026予習：Unity AIとバイブコーディングが変えるゲーム企画の検証工程](cedec2026-unity-ai-prototyping-planner-vibe-coding.md) 🌶️🌶️
 - [CEDEC2026予習：ゲーム発オリジナルIPのメディアミックス展開に見る企画論点――『アイドルマスター』『ブルーアーカイブ』、そして『ヘブンバーンズレッド』](cedec2026-media-mix-strategy-idolmaster-bluearchive-heaven-burns-red.md) 🌶️🌶️
@@ -126,6 +127,7 @@
 - [CEDECとは何か――新人ゲームプランナーとゲームプレイヤーのための場の見取り図](cedec-overview-history-and-structure-for-game-planners.md) 🌶️
 - [CEDEC2026初日レポート：3大セッションに見る「作り手とユーザー・技術・海外パートナーのずれ」](cedec2026-day1-keynote-silent-hill-beyond-hdr-recap.md) 🌶️🌶️
 - [CEDEC2026中盤レポート：6大セッションに見る「即効性のない投資判断」](cedec2026-day2-recap-pokemon-bananza-pragmata-investment.md) 🌶️🌶️
+- [CEDEC2026最終日レポート：5大セッションに見る「『できるはず』と『できた』のあいだを埋める泥臭さ」](cedec2026-day3-recap-garage-ai-npc-prototyping-120fps.md) 🌶️🌶️
 - [スクラムの振り返り会で新人ゲームプランナーができること――KPTを「儀式」で終わらせない参加者の実践](agile-scrum-kpt-retrospective-for-junior-planners.md) 🌶️🌶️
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🌶️🌶️
 - [『スチームパイロッツ』の資金・契約トラブルから学ぶ――インディーゲームのクラウドファンディング・ガバナンス](steam-pilots-crowdfunding-governance-lessons.md) 🌶️🌶️🌶️

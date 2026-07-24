@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">年間社会的便益（ASV）の比較</title>
+  <desc id="desc">日本発のSoftEther VPN、TRON、Rubyと、海外のLinux kernel、Pythonの年間社会的便益の範囲を、0から22兆円の線形軸で比較する図。SoftEther VPNとTRONは0から0.2兆円の拡大図でも示す。</desc>
+  <style>
+    .title { font: 700 46px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #102a5c; }
+    .subtitle { font: 400 22px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #49627f; }
+    .group { font: 700 26px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #fff; }
+    .label { font: 700 27px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #142b56; }
+    .value { font: 600 24px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #142b56; }
+    .tick { font: 500 20px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #53657c; }
+    .small { font: 500 19px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #53657c; }
+    .inset-title { font: 700 23px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #142b56; }
+    .inset-label { font: 700 20px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #142b56; }
+    .inset-value { font: 600 18px 'Noto Sans JP', 'Hiragino Sans', sans-serif; fill: #142b56; }
+  </style>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="85" class="title">年間社会的便益（ASV）の比較</text>
+  <text x="80" y="122" class="subtitle">範囲は最小値から最大値までを示す。横軸は線形で、単位は兆円。</text>
+
+  <!-- Group labels -->
+  <rect x="80" y="190" width="160" height="286" rx="22" fill="#153c7a"/>
+  <text x="160" y="346" text-anchor="middle" class="group">日本発</text>
+  <rect x="80" y="500" width="160" height="194" rx="22" fill="#007f83"/>
+  <text x="160" y="606" text-anchor="middle" class="group">海外</text>
+
+  <!-- Main chart: x = 530 + value * 42.272727 -->
+  <g stroke="#d9e1ec" stroke-width="2" stroke-dasharray="6 8">
+    <line x1="530" y1="180" x2="530" y2="730"/>
+    <line x1="614.55" y1="180" x2="614.55" y2="730"/>
+    <line x1="699.09" y1="180" x2="699.09" y2="730"/>
+    <line x1="783.64" y1="180" x2="783.64" y2="730"/>
+    <line x1="868.18" y1="180" x2="868.18" y2="730"/>
+    <line x1="952.73" y1="180" x2="952.73" y2="730"/>
+    <line x1="1037.27" y1="180" x2="1037.27" y2="730"/>
+    <line x1="1121.82" y1="180" x2="1121.82" y2="730"/>
+    <line x1="1206.36" y1="180" x2="1206.36" y2="730"/>
+    <line x1="1290.91" y1="180" x2="1290.91" y2="730"/>
+    <line x1="1375.45" y1="180" x2="1375.45" y2="730"/>
+    <line x1="1460" y1="180" x2="1460" y2="730"/>
+  </g>
+  <line x1="530" y1="730" x2="1460" y2="730" stroke="#142b56" stroke-width="3"/>
+  <g class="tick" text-anchor="middle">
+    <text x="530" y="765">0</text><text x="614.55" y="765">2</text><text x="699.09" y="765">4</text><text x="783.64" y="765">6</text><text x="868.18" y="765">8</text><text x="952.73" y="765">10</text><text x="1037.27" y="765">12</text><text x="1121.82" y="765">14</text><text x="1206.36" y="765">16</text><text x="1290.91" y="765">18</text><text x="1375.45" y="765">20</text><text x="1460" y="765">22</text>
+  </g>
+  <text x="995" y="825" text-anchor="middle" class="label">年間社会的便益（兆円）</text>
+
+  <!-- Main row labels -->
+  <g class="label">
+    <text x="280" y="245">SoftEther VPN</text>
+    <text x="280" y="335">TRON</text>
+    <text x="280" y="425" fill="#a25f00">Ruby</text>
+    <text x="280" y="565" fill="#007f83">Linux kernel</text>
+    <text x="280" y="655" fill="#007f83">Python</text>
+  </g>
+  <g class="value">
+    <text x="280" y="275">411〜610億円</text>
+    <text x="280" y="365">1,086〜1,100億円</text>
+    <text x="280" y="455" fill="#a25f00">1.3〜2.7兆円</text>
+    <text x="280" y="595" fill="#007f83">8.7〜9.7兆円</text>
+    <text x="280" y="685" fill="#007f83">11.4〜21.0兆円</text>
+  </g>
+
+  <!-- Values below 0.2 trillion are explicitly magnified in the inset. -->
+  <g fill="#153c7a">
+    <circle cx="531.74" cy="235" r="7"/><circle cx="532.58" cy="235" r="7"/>
+    <circle cx="534.59" cy="325" r="7"/><circle cx="534.65" cy="325" r="7"/>
+  </g>
+
+  <!-- Main range bars -->
+  <g stroke-linecap="round">
+    <line x1="584.95" y1="415" x2="644.14" y2="415" stroke="#d38300" stroke-width="12"/>
+    <circle cx="584.95" cy="415" r="9" fill="#d38300"/><circle cx="644.14" cy="415" r="9" fill="#d38300"/>
+    <line x1="897.86" y1="555" x2="940.14" y2="555" stroke="#008b8b" stroke-width="12"/>
+    <circle cx="897.86" cy="555" r="9" fill="#008b8b"/><circle cx="940.14" cy="555" r="9" fill="#008b8b"/>
+    <line x1="1011.86" y1="645" x2="1417.27" y2="645" stroke="#008b8b" stroke-width="12"/>
+    <circle cx="1011.86" cy="645" r="9" fill="#008b8b"/><circle cx="1417.27" cy="645" r="9" fill="#008b8b"/>
+  </g>
+
+  <!-- Exact enlargement for the sub-0.2 trillion ranges: x = 1045 + value * 1650 -->
+  <rect x="965" y="160" width="535" height="275" rx="20" fill="#f7faff" stroke="#153c7a" stroke-width="3"/>
+  <text x="1232" y="202" text-anchor="middle" class="inset-title">拡大表示（0〜0.2兆円）</text>
+  <text x="1232" y="229" text-anchor="middle" class="small">主図では0付近に重なる範囲を、同じ線形軸で拡大</text>
+  <g stroke="#d9e1ec" stroke-width="2" stroke-dasharray="4 6">
+    <line x1="1045" y1="246" x2="1045" y2="387"/><line x1="1127.5" y1="246" x2="1127.5" y2="387"/><line x1="1210" y1="246" x2="1210" y2="387"/><line x1="1292.5" y1="246" x2="1292.5" y2="387"/><line x1="1375" y1="246" x2="1375" y2="387"/>
+  </g>
+  <line x1="1045" y1="387" x2="1375" y2="387" stroke="#142b56" stroke-width="2"/>
+  <g class="small" text-anchor="middle"><text x="1045" y="414">0</text><text x="1127.5" y="414">0.05</text><text x="1210" y="414">0.10</text><text x="1292.5" y="414">0.15</text><text x="1375" y="414">0.20</text></g>
+  <text x="987" y="285" class="inset-label">SoftEther VPN</text>
+  <text x="987" y="355" class="inset-label">TRON</text>
+  <g stroke="#153c7a" stroke-linecap="round">
+    <line x1="1112.82" y1="278" x2="1145.65" y2="278" stroke-width="10"/>
+    <circle cx="1112.82" cy="278" r="7" fill="#153c7a"/><circle cx="1145.65" cy="278" r="7" fill="#153c7a"/>
+    <line x1="1224.19" y1="348" x2="1226.50" y2="348" stroke-width="10"/>
+    <circle cx="1224.19" cy="348" r="7" fill="#153c7a"/><circle cx="1226.50" cy="348" r="7" fill="#153c7a"/>
+  </g>
+  <text x="1112.82" y="263" text-anchor="middle" class="inset-value">0.0411</text>
+  <text x="1145.65" y="309" text-anchor="middle" class="inset-value">0.0610</text>
+  <text x="1224.19" y="333" text-anchor="end" class="inset-value">0.1086</text>
+  <text x="1226.50" y="375" text-anchor="start" class="inset-value">0.1100</text>
+
+  <!-- Connector from the compressed main positions to the magnified panel -->
+  <path d="M 540 235 C 700 235, 780 210, 965 245" fill="none" stroke="#7b8ca8" stroke-width="2" stroke-dasharray="7 7"/>
+  <path d="M 540 325 C 710 325, 820 360, 965 365" fill="none" stroke="#7b8ca8" stroke-width="2" stroke-dasharray="7 7"/>
+</svg>
