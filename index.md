@@ -218,6 +218,7 @@
 #### 💳 マネタイズ・F2P・デジタル商品
 
 - [なぜゲームはF2Pモデルに依存するようになったのか](why-games-depend-on-f2p.md) 🌶️🌶️
+- [課金投票が生んだ「声のつく日」――AKB48選抜総選挙からシンデレラガール総選挙まで、キャラクター人気投票の起源と賞味期限](paid-voting-character-popularity-contest-origin-lifespan.md) 🌶️🌶️
 - [無料の物語は、なぜガチャを回させるのか――FGO、ブルーアーカイブ、崩壊：スターレイルの課金設計](story-driven-f2p-monetization.md) 🌶️🌶️
 - [複数プラットフォーム対応・基本プレイ無料ゲームの開発工数と収益構造](multi-platform-f2p-development-and-monetization.md) 🌶️🌶️
 - [P2Eゲーム制作を指示されたとき、ゲームプランナーが確認・検討すべきこと](p2e-game-development-planner-checklist.md) 🌶️🌶️🌶️
