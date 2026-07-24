@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
 
 {% seo %}
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description | escape }}">
+    {% endif %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +20,7 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <a href="{{ '/' | relative_url }}" class="btn">トップページへ戻る</a>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
