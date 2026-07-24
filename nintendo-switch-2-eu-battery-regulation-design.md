@@ -1,3 +1,7 @@
+---
+description: "2026年7月、任天堂は欧州で販売する一部製品を、ユーザーが交換できる電池を備えた改良版へ段階的に切り替えると告知した。Nintendo Switch 2本体は2026年秋、Joy-Con 2とNintendo Switch 2 Pro Controllerは同年冬が最短の予定である。"
+---
+
 # Nintendo Switch 2の電池交換対応から読む、EU規制がハードウェア設計を変える仕組み
 
 ## エグゼクティブサマリー

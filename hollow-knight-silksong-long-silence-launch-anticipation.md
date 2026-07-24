@@ -1,3 +1,7 @@
+---
+description: "2025年9月4日、『Hollow Knight: Silksong』の発売直後、Steam、Nintendo eShop、PlayStation Store、Microsoft Storeで購入・配信に関する障害が相次いだ。"
+---
+
 # Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか
 
 ## はじめに：沈黙は「成功する広報戦略」ではない
