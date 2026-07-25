@@ -284,6 +284,7 @@
 - [WiiとWii Uはなぜゲームデザイン史の中心から外れやすいのか](wii-wii-u-design-language-and-legacy.md) 🌶️🌶️
 - [プレイステーション、セガサターン、NINTENDO64――次世代32/64ビット機戦争を市場から読む](playstation-saturn-n64-market-war-history.md) 🌶️🌶️
 - [レポート：PCゲームと家庭用コンソールのゲームの性能比較](pc-vs-console-gaming-performance-report.md) 🌶️🌶️
+- [携帯ゲーム機はなぜ性能で勝てなかったのか――駆動時間の法則が消えるまで](portable-console-competition-battery-software-history.md) 🌶️🌶️
 
 #### ⚙️ ハードウェア技術・仕様・保護
 
