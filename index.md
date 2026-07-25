@@ -207,6 +207,7 @@
 #### 🫂 コミュニティ・ソーシャル・UGC
 
 - [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🌶️🌶️
+- [オンラインゲームの有害行動対策はなぜ難しいのか――通報、制裁、誤BAN、理由開示を一つの設計にする](online-game-harassment-moderation-design.md) 🌶️🌶️🌶️
 - [ソーシャル機能設計の実務――フレンド・ギルドをどう作り、どう運用するか](social-features-friends-guilds-design-practices.md) 🌶️🌶️
 - [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🌶️🌶️
 - [開発者個人のSNS発言はなぜスタジオ全体のリスクになるのか：4事例で考える人事・炎上・ガバナンス](developer-personal-sns-studio-risk-management.md) 🌶️🌶️
