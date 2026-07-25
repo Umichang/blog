@@ -225,6 +225,7 @@
 - [P2Eゲーム制作を指示されたとき、ゲームプランナーが確認・検討すべきこと](p2e-game-development-planner-checklist.md) 🌶️🌶️🌶️
 - [有償アイテムのナーフが許されない理由](why-paid-item-nerfs-are-hard.md) 🌶️🌶️
 - [「誇りと達成感」の代償：Star Wars Battlefront IIが業界のルールを書き換えた日](battlefront-2-loot-box-controversy.md) 🌶️🌶️
+- [100円で出てくるのはプレイ料金か、カード代か――即時印刷・排出型カード筐体の設計論](instant-print-arcade-card-machine-design.md) 🌶️🌶️
 
 #### 📊 市場・産業構造・リリース戦略
 
