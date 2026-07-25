@@ -264,6 +264,7 @@
 
 #### 📱 プラットフォーム規制・課金規制
 
+- [プレイ時間の上限は誰が決めるのか――各国の時間規制から考えるコンテンツ消費設計](game-play-time-limits-content-consumption-design.md) 🌶️🌶️🌶️
 - [ガチャは違法になったのか？ コンプガチャ規制から確率表示までの歴史](gacha-regulation-japan-history.md) 🌶️🌶️
 - [日本におけるRMTの歴史――なぜゲームはリアルマネートレードを禁止し続けるのか](rmt-history-japan-why-games-ban-real-money-trading.md) 🌶️🌶️🌶️
 - [NEXT Bayは日本のライブサービスに何を持ち込むか――LINE NEXTのUSDT建てRMT仲介を警戒する理由](next-bay-rmt-crypto-regulatory-friction.md) 🌶️🌶️🌶️
