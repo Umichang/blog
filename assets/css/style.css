@@ -177,6 +177,16 @@ img { max-width: 100%; }
 .article-body li { margin-bottom: 0.3em; }
 .article-body strong { font-weight: 700; }
 .article-body sup a { font-size: 12px; }
+/* 注意書き・用語注記・引用の区切り。デフォルトのbrowser blockquoteは字下げのみで
+   目立たないため、背景色と左のアクセント罫線で「ブロックである」ことを視認しやすくする。 */
+.article-body blockquote {
+  background: var(--color-surface);
+  border-left: 4px solid var(--color-divider);
+  margin: var(--space-6) 0;
+  padding: var(--space-4) var(--space-6);
+}
+.article-body blockquote > *:first-child { margin-top: 0; }
+.article-body blockquote > *:last-child { margin-bottom: 0; }
 .article-body figure { margin: var(--space-6) 0; }
 .article-body figcaption { font-size: 13px; color: var(--color-neutral-700); margin-top: var(--space-2); text-align: center; }
 .article-body img { display: block; border: 1px solid var(--color-neutral-200); width: 100%; }
