@@ -23,6 +23,7 @@
 - [CEDEC2026予習：Unity AIとバイブコーディングが変えるゲーム企画の検証工程](cedec2026-unity-ai-prototyping-planner-vibe-coding.md) 🌶️🌶️
 - [CEDEC2026予習：ゲーム発オリジナルIPのメディアミックス展開に見る企画論点――『アイドルマスター』『ブルーアーカイブ』、そして『ヘブンバーンズレッド』](cedec2026-media-mix-strategy-idolmaster-bluearchive-heaven-burns-red.md) 🌶️🌶️
 - [CEDEC2026予習：ゲーム企画者のための文化盗用リスク管理](cedec2026-cultural-appropriation-risk-management-for-game-planners.md) 🌶️🌶️🌶️
+- [CEDEC2026フォローアップ：ゲーム音楽の権利をどこに置くか――買い取り・自社管理・信託・委嘱の制度を読む](game-music-copyright-ownership-buyout-trust-commissioning.md) 🌶️🌶️🌶️
 
 ## 🎮 ゲーム体験と表現
 
@@ -43,6 +44,7 @@
 - [インタラクティブ／アダプティブミュージック――変化するゲーム音楽の設計と実装](interactive-adaptive-music-explained.md) 🌶️🌶️
 - [UIサウンド・フィードバックSE設計基礎](ui-feedback-sound-effect-design-basics-for-planners.md) 🌶️🌶️
 - [劇伴制作の進行管理実務――ゲームプランナーが担う発注・スポッティング・実装橋渡し](game-music-commissioning-and-production-management-for-planners.md) 🌶️🌶️
+- [CEDEC2026フォローアップ：ゲーム音楽の権利をどこに置くか――買い取り・自社管理・信託・委嘱の制度を読む](game-music-copyright-ownership-buyout-trust-commissioning.md) 🌶️🌶️🌶️
 
 ### 🧠 AI・ゲーム内知性
 
