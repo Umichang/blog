@@ -35,7 +35,7 @@
 - [モーション・アニメーション監修の基礎――動きの質とタイミングをプランナーが検収するために](motion-animation-supervision-basics-for-planners.md) 🟡
 - [Live2D／E-moteを用いたキャラクターアニメーション表現の監修基礎――プランナーが3Dモデル監修とは異なる観察軸で議論するために](live2d-e-mote-animation-supervision-basics-for-planners.md) 🟡
 - [ゲームにおけるレイトレーシング——リアルな光表現の可能性と限界](ray-tracing-in-games.md) 🟡
-- [レベルデザイン入門｜ルールではなく空間で体験を組み立てる仕事](level-design-introduction-practical-guide.md) 🟡
+- [レベルデザイン入門｜ルールではなく空間で体験を組み立てる仕事](level-design-introduction-practical-guide.md) 🟢
 
 ### 🔊 サウンド・音声
 
@@ -79,9 +79,9 @@
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🟡
 - [勝利条件がない生活シミュレーションはなぜ続くのか――「どうぶつの森」と「トモダチコレクション」から考える長期継続設計](communication-game-life-sim-design-for-planners.md) 🟡
 - [育成システム設計の実務――レベル、スキルツリー、リスペックを一つの仕様にする](character-progression-level-skill-tree-design.md) 🔴
-- [実績・トロフィーシステムの設計史――外付けの目標がゲーム体験を変えるまで](achievement-trophy-system-design.md) 🟡
-- [マイクロゲーミフィケーション――ゲームデザイン手法の非ゲーム領域への輸出とその限界](micro-gamification-non-game-design-limitations.md) 🟡
-- [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🟡
+- [実績・トロフィーシステムの設計史――外付けの目標がゲーム体験を変えるまで](achievement-trophy-system-design.md) 🟢
+- [マイクロゲーミフィケーション――ゲームデザイン手法の非ゲーム領域への輸出とその限界](micro-gamification-non-game-design-limitations.md) 🟢
+- [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🟢
 - [難易度設計とダイナミックディフィカルティ――「ちょうどよい挑戦」を壊さず運用する実務](difficulty-design-and-dynamic-adjustment.md) 🟡
 
 #### ⚔️ バトル・対戦・デッキ構築
@@ -95,14 +95,14 @@
 #### 🏗️ コンテンツ生成・再設計
 
 - [ゲームにおけるプロシージャル生成の技術史と設計論](procedural-content-generation-history-and-design.md) 🟡
-- [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🟡
+- [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🟢
 
 ### 📖 物語・世界設定・謎解き
 
 - [ゲームの世界設定・シナリオとゲームメカニクスの関係](worldbuilding-scenario-and-game-mechanics.md) 🟡
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🟡
 - [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🟡
-- [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟡
+- [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟢
 
 ### 🎲 ジャンル・ゲーム文化
 
@@ -111,11 +111,11 @@
 - [『マリオカート ワールド』は、なぜオープンワールドを「競技の一部」にしたのか](mario-kart-world-open-world-design-vs-forza-horizon.md) 🟡
 - [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🟢
 - [ターンベースRPGの進化史](turn-based-rpg-history.md) 🟢
-- [対戦格闘ゲームの歴史――ストII以前からロールバック時代まで](fighting-game-genre-history.md) 🟡
-- [リズムゲームの歴史：入力を「音楽体験」に変えた判定システムの進化](music-game-judgment-system-history.md) 🟡
-- [弾幕シューティングの歴史：なぜ「撃つゲーム」は「避けるゲーム」へ進化したのか](danmaku-shmup-history.md) 🟡
+- [対戦格闘ゲームの歴史――ストII以前からロールバック時代まで](fighting-game-genre-history.md) 🟢
+- [リズムゲームの歴史：入力を「音楽体験」に変えた判定システムの進化](music-game-judgment-system-history.md) 🟢
+- [弾幕シューティングの歴史：なぜ「撃つゲーム」は「避けるゲーム」へ進化したのか](danmaku-shmup-history.md) 🟢
 - [位置情報ゲームの歴史と新規企画のポイント](location-based-games-market-history-and-design-guide.md) 🟡
-- [RTA in Japan――寄付イベントとしてのタイムアタック文化](rta-in-japan-charity-speedrun-culture.md) 🟡
+- [RTA in Japan――寄付イベントとしてのタイムアタック文化](rta-in-japan-charity-speedrun-culture.md) 🟢
 
 ## 🛠️ 開発・運営とビジネス
 
@@ -130,14 +130,14 @@
 - [CEDEC2026初日レポート：3大セッションに見る「作り手とユーザー・技術・海外パートナーのずれ」](cedec2026-day1-keynote-silent-hill-beyond-hdr-recap.md) 🟡
 - [CEDEC2026中盤レポート：6大セッションに見る「即効性のない投資判断」](cedec2026-day2-recap-pokemon-bananza-pragmata-investment.md) 🟡
 - [CEDEC2026最終日レポート：5大セッションに見る「『できるはず』と『できた』のあいだを埋める泥臭さ」](cedec2026-day3-recap-garage-ai-npc-prototyping-120fps.md) 🟡
-- [スクラムの振り返り会で新人ゲームプランナーができること――KPTを「儀式」で終わらせない参加者の実践](agile-scrum-kpt-retrospective-for-junior-planners.md) 🟡
+- [スクラムの振り返り会で新人ゲームプランナーができること――KPTを「儀式」で終わらせない参加者の実践](agile-scrum-kpt-retrospective-for-junior-planners.md) 🟢
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🟡
 - [『スチームパイロッツ』の資金・契約トラブルから学ぶ――インディーゲームのクラウドファンディング・ガバナンス](steam-pilots-crowdfunding-governance-lessons.md) 🔴
 - [ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性](post-graphics-saturation-game-development.md) 🟡
 - [現代の技術でリッジレーサーを復活させることは可能か？](rebooting-ridge-racer-with-modern-technology.md) 🟡
 - [カービィのエアライダーとStar Foxは帰ってきた。F-ZEROに残る23年目の空白から読む、任天堂の休眠IP再起動](nintendo-dormant-ip-revival-f-zero-kirby-star-fox.md) 🟡
 - [『スプラトゥーン4』ではなくスピンオフを選んだ理由――『スプラトゥーン レイダース』の二つの方向転換から学ぶ設計判断](splatoon-raiders-spin-off-development-design-lessons.md) 🟡
-- [ゲームのリマスターとリメイク：ゲームプランナーが押さえるべき設計思想](game-remaster-remake-design-philosophy.md) 🟡
+- [ゲームのリマスターとリメイク：ゲームプランナーが押さえるべき設計思想](game-remaster-remake-design-philosophy.md) 🟢
 
 #### 📝 仕様・品質判断
 
@@ -146,8 +146,8 @@
 - [プレイテストの設計・運用方法論](playtest-design-and-operation-methodology-for-planners.md) 🟡
 - [バグなのか仕様なのか——「グレーゾーン」の判断プロセス](bug-or-spec-gray-zone-decision-process.md) 🟡
 - [物理シミュレーションの不具合はなぜ根絶しにくいのか――プランナーが仕様書でつくる安全域](physics-simulation-bug-prevention-spec-writing-for-planners.md) 🟡
-- [Cyberpunk 2077 崩壊の構造](cyberpunk-2077-anatomy-of-a-collapse.md) 🟡
-- [FF14旧版（1.0）はなぜ崩壊したのか――大型タイトルが開発で破綻する構造](ffxiv-1-0-failure-anatomy.md) 🟡
+- [Cyberpunk 2077 崩壊の構造](cyberpunk-2077-anatomy-of-a-collapse.md) 🟢
+- [FF14旧版（1.0）はなぜ崩壊したのか――大型タイトルが開発で破綻する構造](ffxiv-1-0-failure-anatomy.md) 🟢
 
 ### 🎬 他メディアIPのゲーム化
 
@@ -162,7 +162,7 @@
 
 ### 🧰 技術基盤・データ・アセット
 
-- [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🟡
+- [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🟢
 - [GitやSVNだけではなぜ苦しくなるのか――ゲーム開発のバージョン管理・アセット管理実務](version-control-and-asset-management-for-game-development.md) 🔴
 - [Unity Runtime Fee騒動から2026年のマルチエンジン時代へ――Godot台頭とゲームエンジン選定戦略](unity-runtime-fee-controversy-godot-multi-engine-era.md) 🔴
 - [CEDEC2026予習：Unity AIとバイブコーディングが変えるゲーム企画の検証工程](cedec2026-unity-ai-prototyping-planner-vibe-coding.md) 🟡
@@ -179,7 +179,7 @@
 
 ### 🌏 ローカライズ・音声制作
 
-- [ゲームローカライズの工程と実践](game-localization-guide.md) 🟡
+- [ゲームローカライズの工程と実践](game-localization-guide.md) 🟢
 - [声優キャスティングとローカライズ収録の実務](voice-casting-and-localized-recording-guide.md) 🟡
 
 ### 🤝 運営・コミュニティ
@@ -199,10 +199,10 @@
 
 - [サービス終了をどう設計するか――オンラインゲームを破綻なく畳む実務](service-shutdown-design-and-practice.md) 🔴
 - [残高がマイナスになる日――ブルーアーカイブ“負債石”事件にみる、誤配布通貨の回収とプレイヤー公平性の衝突](negative-currency-recovery-bluearchive-fgo-case.md) 🟡
-- [No Man's Skyの炎上と復活――期待値管理と運営立て直しの事例](no-mans-sky-expectation-management-case-study.md) 🟡
+- [No Man's Skyの炎上と復活――期待値管理と運営立て直しの事例](no-mans-sky-expectation-management-case-study.md) 🟢
 - [『BLUE PROTOCOL』はなぜ美しいまま終わったのか――絵が集めた客層と、設計が想定した客層のずれ](blue-protocol-visual-success-and-live-service-failure.md) 🔴
-- [Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか](hollow-knight-silksong-long-silence-launch-anticipation.md) 🟡
-- [Concordはなぜ2週間で終わったのか――市場適合と「超短命サービス終了」の実務](concord-rapid-shutdown-case-study.md) 🟡
+- [Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか](hollow-knight-silksong-long-silence-launch-anticipation.md) 🟢
+- [Concordはなぜ2週間で終わったのか――市場適合と「超短命サービス終了」の実務](concord-rapid-shutdown-case-study.md) 🟢
 - [TOKYO BEASTはなぜ76日で終わったのか――P2Eゲームの大型プロジェクトを読み解く個別事例](tokyo-beast-p2e-game-shutdown-case-study.md) 🔴
 - [『ファイナルファンタジーXIV モバイル』は、なぜ中国版とグローバル展開を同時に失ったのか――提携・ライセンス契約がロードマップを止めるとき](ffxiv-mobile-license-termination-global-cancellation.md) 🔴
 
@@ -211,34 +211,34 @@
 - [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🟡
 - [オンラインゲームの有害行動対策はなぜ難しいのか――通報、制裁、誤BAN、理由開示を一つの設計にする](online-game-harassment-moderation-design.md) 🔴
 - [ソーシャル機能設計の実務――フレンド・ギルドをどう作り、どう運用するか](social-features-friends-guilds-design-practices.md) 🟡
-- [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🟡
-- [開発者個人のSNS発言はなぜスタジオ全体のリスクになるのか：4事例で考える人事・炎上・ガバナンス](developer-personal-sns-studio-risk-management.md) 🟡
+- [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🟢
+- [開発者個人のSNS発言はなぜスタジオ全体のリスクになるのか：4事例で考える人事・炎上・ガバナンス](developer-personal-sns-studio-risk-management.md) 🟢
 - [ゲームにおけるUGC――Fortnite・Roblox・原神の設計と運営の比較](ugc-in-games-fortnite-roblox-genshin.md) 🟡
-- [にじさんじ甲子園――個人発の大会に、パブリッシャーが関与を深めた軌跡](nijisanji-koshien-publisher-engagement-design.md) 🟡
+- [にじさんじ甲子園――個人発の大会に、パブリッシャーが関与を深めた軌跡](nijisanji-koshien-publisher-engagement-design.md) 🟢
 
 ### 💰 ビジネス・市場・マネタイズ
 
 #### 💳 マネタイズ・F2P・デジタル商品
 
-- [なぜゲームはF2Pモデルに依存するようになったのか](why-games-depend-on-f2p.md) 🟡
-- [課金投票が生んだ「声のつく日」――AKB48選抜総選挙からシンデレラガール総選挙まで、キャラクター人気投票の起源と賞味期限](paid-voting-character-popularity-contest-origin-lifespan.md) 🟡
+- [なぜゲームはF2Pモデルに依存するようになったのか](why-games-depend-on-f2p.md) 🟢
+- [課金投票が生んだ「声のつく日」――AKB48選抜総選挙からシンデレラガール総選挙まで、キャラクター人気投票の起源と賞味期限](paid-voting-character-popularity-contest-origin-lifespan.md) 🟢
 - [無料の物語は、なぜガチャを回させるのか――FGO、ブルーアーカイブ、崩壊：スターレイルの課金設計](story-driven-f2p-monetization.md) 🟡
 - [複数プラットフォーム対応・基本プレイ無料ゲームの開発工数と収益構造](multi-platform-f2p-development-and-monetization.md) 🟡
 - [P2Eゲーム制作を指示されたとき、ゲームプランナーが確認・検討すべきこと](p2e-game-development-planner-checklist.md) 🔴
-- [有償アイテムのナーフが許されない理由](why-paid-item-nerfs-are-hard.md) 🟡
-- [「誇りと達成感」の代償：Star Wars Battlefront IIが業界のルールを書き換えた日](battlefront-2-loot-box-controversy.md) 🟡
+- [有償アイテムのナーフが許されない理由](why-paid-item-nerfs-are-hard.md) 🟢
+- [「誇りと達成感」の代償：Star Wars Battlefront IIが業界のルールを書き換えた日](battlefront-2-loot-box-controversy.md) 🟢
 - [100円で出てくるのはプレイ料金か、カード代か――即時印刷・排出型カード筐体の設計論](instant-print-arcade-card-machine-design.md) 🟡
 
 #### 📊 市場・産業構造・リリース戦略
 
 - [AI需要による半導体価格高騰がコンソールゲーム業界に与える影響](ai-demand-semiconductor-price-surge-console-industry-impact.md) 🟡
-- [GTA6再延期はなぜ海外を揺らし、日本では温度差が見えるのか――メガタイトルの「重力圏」と発売時期の設計](gta6-delay-japan-overseas-perception-gap.md) 🟡
-- [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md) 🟡
-- [アタリショックからプレイステーション流通革命まで：ゲーム市場構造の変遷](atari-shock-market-structure-history.md) 🟡
-- [PlayStation物理ディスク版生産終了が示すゲーム業界の構造転換](playstation-disc-discontinuation-industry-structure.md) 🟡
+- [GTA6再延期はなぜ海外を揺らし、日本では温度差が見えるのか――メガタイトルの「重力圏」と発売時期の設計](gta6-delay-japan-overseas-perception-gap.md) 🟢
+- [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md) 🟢
+- [アタリショックからプレイステーション流通革命まで：ゲーム市場構造の変遷](atari-shock-market-structure-history.md) 🟢
+- [PlayStation物理ディスク版生産終了が示すゲーム業界の構造転換](playstation-disc-discontinuation-industry-structure.md) 🟢
 - [EA非上場化（LBO）――大型買収の構造とパブリッシャー経営への影響](ea-lbo-take-private-publisher-capital-structure-shift.md) 🔴
 - [Xbox再編から考える、スタジオの「独立・売却・閉鎖」はなぜ分かれるのか](xbox-studio-restructuring-exit-paths-2026.md) 🔴
-- [eスポーツの歴史とビジネス構造――賞金、リーグ、配信、選手を支える仕組み](esports-history-and-business-structure.md) 🟡
+- [eスポーツの歴史とビジネス構造――賞金、リーグ、配信、選手を支える仕組み](esports-history-and-business-structure.md) 🟢
 - [CEDEC2026予習：ゲーム発オリジナルIPのメディアミックス展開に見る企画論点――『アイドルマスター』『ブルーアーカイブ』、そして『ヘブンバーンズレッド』](cedec2026-media-mix-strategy-idolmaster-bluearchive-heaven-burns-red.md) 🟡
 
 ### ⚖️ 法務・規制
@@ -283,41 +283,41 @@
 #### 🕹️ コンソール・プラットフォーム史
 
 - [セガのコンソール史：SG-1000からドリームキャストまで](sega-console-history.md) 🟢
-- [WiiとWii Uはなぜゲームデザイン史の中心から外れやすいのか](wii-wii-u-design-language-and-legacy.md) 🟡
-- [プレイステーション、セガサターン、NINTENDO64――次世代32/64ビット機戦争を市場から読む](playstation-saturn-n64-market-war-history.md) 🟡
+- [WiiとWii Uはなぜゲームデザイン史の中心から外れやすいのか](wii-wii-u-design-language-and-legacy.md) 🟢
+- [プレイステーション、セガサターン、NINTENDO64――次世代32/64ビット機戦争を市場から読む](playstation-saturn-n64-market-war-history.md) 🟢
 - [レポート：PCゲームと家庭用コンソールのゲームの性能比較](pc-vs-console-gaming-performance-report.md) 🟡
-- [携帯ゲーム機はなぜ性能で勝てなかったのか――駆動時間の法則が消えるまで](portable-console-competition-battery-software-history.md) 🟡
+- [携帯ゲーム機はなぜ性能で勝てなかったのか――駆動時間の法則が消えるまで](portable-console-competition-battery-software-history.md) 🟢
 
 #### ⚙️ ハードウェア技術・仕様・保護
 
-- [ハードウェア「スペック戦争」の実態史――128ビットからテラフロップスまで](128-bit-to-teraflops-spec-wars.md) 🟡
+- [ハードウェア「スペック戦争」の実態史――128ビットからテラフロップスまで](128-bit-to-teraflops-spec-wars.md) 🟢
 - [任天堂ハードウェアの海賊版・未承認ソフト対策史](nintendo-hardware-anti-piracy-report.md) 🟡
 - [Nintendo Switch 2の電池交換対応から読む、EU規制がハードウェア設計を変える仕組み](nintendo-switch-2-eu-battery-regulation-design.md) 🔴
 
 #### 🖥️ 国産PCプラットフォーム史
 
-- [PC-8000/8800/9800シリーズの歴史：日本語処理が作った国産PCゲーム文化](pc-8000-8800-9800-series-history.md) 🟡
-- [X1/X68000シリーズの歴史：アーケードへの憧れが作ったホビーPC文化](x1-x68000-series-history.md) 🟡
-- [MSXの歴史：統一規格が作ったホビーPCとゲーム制作文化](msx-standard-home-pc-game-history.md) 🟡
+- [PC-8000/8800/9800シリーズの歴史：日本語処理が作った国産PCゲーム文化](pc-8000-8800-9800-series-history.md) 🟢
+- [X1/X68000シリーズの歴史：アーケードへの憧れが作ったホビーPC文化](x1-x68000-series-history.md) 🟢
+- [MSXの歴史：統一規格が作ったホビーPCとゲーム制作文化](msx-standard-home-pc-game-history.md) 🟢
 
 ## 📚 歴史と人物
 
 ### 📜 ゲーム史・文化史
 
-- [アーケードゲーム／ゲームセンターの歴史――筐体・遊び・運営の変遷](arcade-game-center-history.md) 🟡
-- [鉄のカーテンを越えたパズル――テトリスの誕生からeスポーツ化まで](tetris-origin-licensing-esports-history.md) 🟡
-- [ポケットの中に、現在があった――ガラケー時代のモバイルゲーム文化史](feature-phone-mobile-game-culture-history.md) 🟡
+- [アーケードゲーム／ゲームセンターの歴史――筐体・遊び・運営の変遷](arcade-game-center-history.md) 🟢
+- [鉄のカーテンを越えたパズル――テトリスの誕生からeスポーツ化まで](tetris-origin-licensing-esports-history.md) 🟢
+- [ポケットの中に、現在があった――ガラケー時代のモバイルゲーム文化史](feature-phone-mobile-game-culture-history.md) 🟢
 - [同人ゲームの系譜：日本のコミックマーケット文化が育てたゲームたち](doujin-game-history-comic-market-culture.md) 🟢
 
 ### 👤 人物・企業史
 
 - [ポケモンが生まれるまで――ゲームフリーク前史](pokemon-game-freak-prehistory.md) 🟢
 - [キングスフィールドができるまで――フロム・ソフトウェア前史](fromsoftware-business-software-to-kings-field.md) 🟢
-- [ミハイル・コーガン評伝：オデーサの亡命者から『スペースインベーダー』を生んだ男へ](mikhail-kogan-biography-taito-founder-space-invaders.md) 🟡
-- [横井軍平評伝：「枯れた技術の水平思考」を生きた男](gunpei-yokoi-biography-lateral-thinking-of-withered-technology.md) 🟡
-- [山内溥と任天堂のライセンスビジネス——主導権を手放さなかった経営判断](hiroshi-yamauchi-decision-making.md) 🟡
-- [岩田聡評伝——プログラマー社長が経営した「危機」と「対話」](satoru-iwata-crisis-management-and-dialogue.md) 🟡
-- [中村雅哉――電動木馬から『パックマン』へ、ナムコを育てた企業家](masaya-nakamura-namco-founder-biography.md) 🟡
+- [ミハイル・コーガン評伝：オデーサの亡命者から『スペースインベーダー』を生んだ男へ](mikhail-kogan-biography-taito-founder-space-invaders.md) 🟢
+- [横井軍平評伝：「枯れた技術の水平思考」を生きた男](gunpei-yokoi-biography-lateral-thinking-of-withered-technology.md) 🟢
+- [山内溥と任天堂のライセンスビジネス——主導権を手放さなかった経営判断](hiroshi-yamauchi-decision-making.md) 🟢
+- [岩田聡評伝——プログラマー社長が経営した「危機」と「対話」](satoru-iwata-crisis-management-and-dialogue.md) 🟢
+- [中村雅哉――電動木馬から『パックマン』へ、ナムコを育てた企業家](masaya-nakamura-namco-founder-biography.md) 🟢
 - [miHoYo／HoYoverse企業史：創業からグローバル展開まで](mihoyo-hoyoverse-company-history-global-expansion.md) 🟡
 
 ## ✨ 番外編
