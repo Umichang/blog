@@ -173,57 +173,58 @@ Epic の Unreal Engine ドキュメントも、レベルデザインの最初の
 ## References
 
 <a id="ref-1"></a>1. [OUR JOB ROLES][1] - Ubisoft が Game Design と Level Design の役割をどう分けているかを示す職種紹介。  
-[1]: https://www.ubisoft.com/en-us/company/careers/locations/articles/our-job-roles
 
 <a id="ref-2"></a>2. [Level Designer | Ubisoft Careers][2] - レベルデザイナーの実務として、ゲームプレイ実装、可読性と難易度の維持、協業、技術課題対応を明記。  
-[2]: https://www.ubisoft.com/en-us/company/careers/search/744000116430617-level-designer
 
 <a id="ref-3"></a>3. [People of Ubisoft Toronto — Meet Roger Liu, Level Artist][3] - レベルアートがレベルデザインと連携して blockout し、光や音や視線誘導で player-leading を行うことを説明。  
-[3]: https://toronto.ubisoft.com/people-of-ubisoft-toronto-meet-roger-liu-level-artist/
 
 <a id="ref-4"></a>4. [Designer 01 Project Setup and Level Blockout in Unreal Engine][4] - blockout / grayboxing の定義、反復の意義、見通しやスケール確認、メトリクス設計の基本を説明。  
-[4]: https://dev.epicgames.com/documentation/unreal-engine/designer-01-project-setup-and-level-blockout-in-unreal-engine
 
 <a id="ref-5"></a>5. [Level Design Workshop Section Three: Pacing][5] - ペーシングの定義、活動強度と時間の関係、プレッシャーの少ない学習、観察型プレイテストの重要性を扱う資料。  
-[5]: https://media.gdcvault.com/gdcchina14/presentations/833762_JoelBurgess_MattScott_LeePerry_3_Pacing_EN.pdf
 
 <a id="ref-6"></a>6. [Level Design Workshop Section Five: Level Designer As Storyteller][6] - 教えるべき能力の提示、ゲーティング、フレーミング、ステージングとライティングによる誘導を整理した資料。  
-[6]: https://media.gdcvault.com/gdcchina14/presentations/833762_JoelBurgess_MattScott_LeePerry_5_Narrative_Part01_EN.pdf
 
 <a id="ref-7"></a>7. [What Happened Here? Environmental Storytelling][7] - environmental storytelling を、空間の履歴や暗示をプレイヤーに読み取らせる技法として説明する GDC 講演概要。  
-[7]: https://www.gdcvault.com/play/1012647/what-happened-here-environmental
 
 <a id="ref-8"></a>8. [Level Design Workshop: Rewarding Exploration in 'Deus Ex: Mankind Divided'][8] - 探索報酬を、ナビゲーション、環境物語、読み物、寄り道設計の組み合わせとして捉える講演概要。  
-[8]: https://www.gdcvault.com/play/1024305/Level-Design-Workshop-Rewarding-Exploration
 
 <a id="ref-9"></a>9. [The Birth of Ascent][9] - VALORANT のマップ制作工程を、incubation から greybox、block-in、art production へと分けて説明し、長期化した greybox の背景も語る。  
-[9]: https://playvalorant.com/en-us/news/dev/the-birth-of-ascent/
 
 <a id="ref-10"></a>10. [Lotus: Unearthing VALORANT’s Lost City][10] - greybox 段階で大量の修正が出ること、流動的な移動設計、playtest と analyst の役割を説明。  
-[10]: https://playvalorant.com/en-us/news/dev/lotus-unearthing-valorant-s-lost-city/
 
 <a id="ref-11"></a>11. [The Creation of Split][11] - competitive map の design goal、mid と tower の反復、POI と visual theme による認知補助を具体的に解説。  
-[11]: https://playvalorant.com/en-us/news/dev/the-creation-of-split/
 
 <a id="ref-12"></a>12. [Far Cry 5 – Creating Curiosity in a Familiar World][12] - オープンワールドでの自然な導線、 curiosity 喚起、地形による navigation と flow の制御を開発者が説明。  
-[12]: https://news.ubisoft.com/en-us/article/16TjVZmAtD85EWcvHtxHXL/far-cry-5-creating-curiosity-in-a-familiar-world
 
 <a id="ref-13"></a>13. [A city of thousand choices: Prague city hub in Deus Ex Mankind Divided][13] - landmarks、clear path、探索セットアップ、予算配分、安定性と QA 管理まで含めたハブ設計の実務資料。  
-[13]: https://media.gdcvault.com/gdc2017/Presentations/Douce_A%20City%20of%20Thousand%20Choices.pdf
 
 <a id="ref-14"></a>14. [The Art of VALORANT Map Environments][14] - greybox 以後の art blockout と art production、週次プレイテスト、視認性とパフォーマンスのトレードオフを説明。  
-[14]: https://playvalorant.com/en-us/news/dev/the-art-of-valorant-map-environments/
 
 <a id="ref-15"></a>15. [The Creation of Saints Row's Open World Cityscape: Stilwater][15] - メモリ、streaming、frame rate、道路封鎖による遅延設計と rework など、大規模ワールド制作の技術的制約を示す。  
-[15]: https://media.gdcvault.com/gdc07/slides/S3741i1.pdf
 
 <a id="ref-16"></a>16. [World Partition in Unreal Engine][16] - 大規模ワールドを streamable grid cell に分割して運用する仕組みと、共同制作との関係を説明。  
-[16]: https://dev.epicgames.com/documentation/unreal-engine/world-partition-in-unreal-engine
 
 <a id="ref-17"></a>17. [One File Per Actor in Unreal Engine][17] - Actor 単位でファイルを外出しし、共同編集をしやすくする一方で、changelist 管理が複雑になることを説明。  
-[17]: https://dev.epicgames.com/documentation/unreal-engine/one-file-per-actor-in-unreal-engine
 
 <a id="ref-18"></a>18. [Source Control in Unreal Engine][18] - source control がコードとデータの変更管理の基盤であり、checkout による同時編集制御を行うことを説明。  
+
+[1]: https://www.ubisoft.com/en-us/company/careers/locations/articles/our-job-roles
+[2]: https://www.ubisoft.com/en-us/company/careers/search/744000116430617-level-designer
+[3]: https://toronto.ubisoft.com/people-of-ubisoft-toronto-meet-roger-liu-level-artist/
+[4]: https://dev.epicgames.com/documentation/unreal-engine/designer-01-project-setup-and-level-blockout-in-unreal-engine
+[5]: https://media.gdcvault.com/gdcchina14/presentations/833762_JoelBurgess_MattScott_LeePerry_3_Pacing_EN.pdf
+[6]: https://media.gdcvault.com/gdcchina14/presentations/833762_JoelBurgess_MattScott_LeePerry_5_Narrative_Part01_EN.pdf
+[7]: https://www.gdcvault.com/play/1012647/what-happened-here-environmental
+[8]: https://www.gdcvault.com/play/1024305/Level-Design-Workshop-Rewarding-Exploration
+[9]: https://playvalorant.com/en-us/news/dev/the-birth-of-ascent/
+[10]: https://playvalorant.com/en-us/news/dev/lotus-unearthing-valorant-s-lost-city/
+[11]: https://playvalorant.com/en-us/news/dev/the-creation-of-split/
+[12]: https://news.ubisoft.com/en-us/article/16TjVZmAtD85EWcvHtxHXL/far-cry-5-creating-curiosity-in-a-familiar-world
+[13]: https://media.gdcvault.com/gdc2017/Presentations/Douce_A%20City%20of%20Thousand%20Choices.pdf
+[14]: https://playvalorant.com/en-us/news/dev/the-art-of-valorant-map-environments/
+[15]: https://media.gdcvault.com/gdc07/slides/S3741i1.pdf
+[16]: https://dev.epicgames.com/documentation/unreal-engine/world-partition-in-unreal-engine
+[17]: https://dev.epicgames.com/documentation/unreal-engine/one-file-per-actor-in-unreal-engine
 [18]: https://dev.epicgames.com/documentation/unreal-engine/source-control-in-unreal-engine
 
 ----
