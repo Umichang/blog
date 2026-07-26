@@ -187,6 +187,35 @@ img { max-width: 100%; }
 }
 .article-body blockquote > *:first-child { margin-top: 0; }
 .article-body blockquote > *:last-child { margin-bottom: 0; }
+/* コードブロック（kramdown+rougeの出力 <div class="highlighter-rouge"><pre class="highlight"><code>）。
+   従来は無地の等幅テキストで区切りが分かりにくかったため、背景色と枠線を付ける。 */
+.article-body .highlighter-rouge {
+  margin: var(--space-6) 0;
+}
+.article-body pre.highlight {
+  background: var(--color-surface);
+  border: 1px solid var(--color-neutral-200);
+  padding: var(--space-4);
+  margin: 0;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 1.6;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.article-body pre.highlight code {
+  background: none;
+  padding: 0;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+/* 文中のインラインコード（`code`）。コードブロックと同系統だが控えめに。 */
+.article-body code {
+  background: var(--color-surface);
+  padding: 0.15em 0.4em;
+  font-size: 0.9em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
 .article-body figure { margin: var(--space-6) 0; }
 .article-body figcaption { font-size: 13px; color: var(--color-neutral-700); margin-top: var(--space-2); text-align: center; }
 .article-body img { display: block; border: 1px solid var(--color-neutral-200); width: 100%; }
