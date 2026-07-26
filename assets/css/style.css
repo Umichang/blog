@@ -254,6 +254,10 @@ img { max-width: 100%; }
   border-top: 2px solid var(--color-divider);
   padding: var(--space-6) var(--space-4) var(--space-8);
 }
+/* フッターは記事ページ(.article-body, 720px)と一覧ページ(.post-index, 760px)の
+   両方で共通表示されるため、どちらかの本文幅にpxで厳密一致させると、
+   もう片方のページでは逆にズレて見える。ページ種別を問わず違和感が
+   出ないよう、幅で本文に合わせるのではなく中央揃えにする。 */
 .site-footer__inner {
   max-width: 760px;
   margin: 0 auto;
@@ -261,5 +265,7 @@ img { max-width: 100%; }
   color: var(--color-neutral-700);
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
   gap: var(--space-2) var(--space-4);
 }
