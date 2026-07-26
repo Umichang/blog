@@ -15,23 +15,27 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 img { max-width: 100%; }
 
 /* スキップリンク：キーボード・スクリーンリーダー利用者向けの導線。
-   通常時は1×1pxへ縮小してoverflow:hiddenで切り取り、完全に見えなくする
-   （固定pxのtopマイナス値だけで浮かせる方式は、実際のボックス高さとの
-   差でわずかに端が見えることがあったため、サイズごと縮める方式に変更）。
-   フォーカス時のみ位置・サイズを戻して表示する。 */
+   前回の修正はwidth/height:1pxにしつつpaddingとborderを残していたため、
+   box-sizing:border-boxでもpadding・borderは縮まず、実際にはborder(2px×2辺)＋
+   padding(8px/12px×2辺)ぶんの箱がそのまま見えてしまっていた（1pxになっていなかった）。
+   非表示時はpadding・border・marginも含めて完全に0にし、clipで切り取る
+   WCAGの定番「visually hidden」パターンに変更。フォーカス時のみ全プロパティを
+   まとめて可視状態へ戻す。 */
 #skip-to-content {
   position: absolute;
-  top: -10px;
+  top: 0;
   left: 0;
   z-index: 20;
   width: 1px;
   height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
   overflow: hidden;
-  padding: var(--space-2) var(--space-3);
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
   background: var(--color-bg);
   color: var(--color-text);
-  border: 2px solid var(--color-accent);
-  white-space: nowrap;
 }
 #skip-to-content:focus {
   position: fixed;
@@ -39,7 +43,11 @@ img { max-width: 100%; }
   left: 10px;
   width: auto;
   height: auto;
+  margin: 0;
+  padding: var(--space-2) var(--space-3);
+  border: 2px solid var(--color-accent);
   overflow: visible;
+  clip: auto;
 }
 
 /* ============ ナビゲーションバー（全ページ共通・上部固定） ============ */
