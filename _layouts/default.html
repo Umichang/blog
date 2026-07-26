@@ -8,7 +8,7 @@
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f3f2f2">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% include head-custom.html %}
   </head>
   <body>
@@ -17,15 +17,15 @@
     <nav class="site-nav" role="banner">
       <img class="site-nav__bg" src="{{ '/image/nav-bg.webp' | relative_url }}" alt="">
       <div class="site-nav__scrim"></div>
-      <a class="site-nav__brand" href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
+      <a class="site-nav__brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <a href="{{ '/introduction.html' | relative_url }}">はじめに</a>
     </nav>
 
     {% if page.url == "/" or page.url == "/index.html" %}
     <header class="hero">
       <p class="hero__kicker">GAME PLANNING &amp; DESIGN JOURNAL</p>
-      <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
     </header>
     {% endif %}
 
@@ -42,9 +42,6 @@
         <span>注記のない限り、MIT Licenseで提供しています</span>
         <span>｜<a href="{{ '/analytics.html' | relative_url }}">アクセス解析について</a></span>
         <span>｜ナビ背景画像: <a href="https://aipict.com/utility_graphics/cool_background/cool_background/">AIPICT</a></span>
-        {% if site.github.is_project_page %}
-        <span><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
       </div>
     </footer>
     {% include analytics.html %}
