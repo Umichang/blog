@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll-sitemap
 title: うみちゃんの書き物置き場
-description: 主にゲームや技術に関しての記事があると思います
+description: ゲームや技術に関する調査記事をまとめています。
 url: https://umichang.github.io
 baseurl: /blog
 twitter:
