@@ -93,7 +93,10 @@ img { max-width: 100%; }
   margin: 0 auto;
   padding: var(--space-8) var(--space-4) var(--space-6);
 }
-.hero__kicker {
+/* .hero p の方が詳細度が高く(class+要素 > class単独)、後述の
+   color:var(--color-neutral-800)がこちらのオレンジ色指定を上書きしてしまって
+   いたため、.hero p.hero__kicker で詳細度を上げて確実に勝たせる。 */
+.hero p.hero__kicker {
   font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
