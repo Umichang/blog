@@ -30,7 +30,7 @@ bundle exec jekyll build
 bundle exec jekyll serve
 ```
 
-このサイトはCaymanリモートテーマを使うため、ビルド時はネットワーク接続が必要である。Bundlerが作る `vendor/bundle/` とJekyllの出力先 `_site/` はGit管理しない。
+サイトのレイアウトとスタイルはリポジトリ内の `_layouts/` と `assets/` で管理しているため、依存Gemの導入後はHTML生成時にリモートテーマの取得やネットワーク接続を必要としない。Bundlerが作る `vendor/bundle/` とJekyllの出力先 `_site/` はGit管理しない。
 
 ## アクセス解析の有効化
 

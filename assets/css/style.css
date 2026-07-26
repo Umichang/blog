@@ -15,8 +15,7 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 img { max-width: 100%; }
 
 /* スキップリンク：キーボード・スクリーンリーダー利用者向けの導線。
-   通常時は画面外に隠し、フォーカス時のみ表示する（Cayman由来のCSSが
-   移植時に欠落し、常時表示されてしまっていたため追加）。 */
+   通常時は画面外に隠し、フォーカス時のみ表示する。 */
 #skip-to-content {
   position: absolute;
   top: -40px;

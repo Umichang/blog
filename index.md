@@ -315,6 +315,7 @@
 - [キングスフィールドができるまで――フロム・ソフトウェア前史](fromsoftware-business-software-to-kings-field.md) 🟢
 - [ミハイル・コーガン評伝：オデーサの亡命者から『スペースインベーダー』を生んだ男へ](mikhail-kogan-biography-taito-founder-space-invaders.md) 🟢
 - [横井軍平評伝：「枯れた技術の水平思考」を生きた男](gunpei-yokoi-biography-lateral-thinking-of-withered-technology.md) 🟢
+- [大賀典雄評伝——CDからPlayStationへ、「規格と供給」を一体で考えた経営者](norio-ohga-cd-to-playstation-platform-biography.md) 🟡
 - [山内溥と任天堂のライセンスビジネス——主導権を手放さなかった経営判断](hiroshi-yamauchi-decision-making.md) 🟢
 - [岩田聡評伝——プログラマー社長が経営した「危機」と「対話」](satoru-iwata-crisis-management-and-dialogue.md) 🟢
 - [中村雅哉――電動木馬から『パックマン』へ、ナムコを育てた企業家](masaya-nakamura-namco-founder-biography.md) 🟢
