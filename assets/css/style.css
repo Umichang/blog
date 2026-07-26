@@ -115,27 +115,26 @@ img { max-width: 100%; }
   color: var(--color-neutral-700);
 }
 .post-index ul { list-style: none; margin: 0 0 var(--space-3); padding: 0; }
+/* 難易度表示は「🌶️」の1〜3個繰り返しから、1文字だけの信号色ドット（🟢🟡🔴）へ変更した。
+   繰り返し表記は文字数が項目ごとに違うため、無名フレックスアイテムとして
+   幅が不揃いになったり、幅を詰めようとすると絵文字間で改行されて縦に
+   割れたりする問題があった（タイトルを1行に強制する対症療法も、今度は
+   タイトルが省略される副作用を生んだため撤回）。常に1文字の絵文字にする
+   ことで、折り返しの有無に関係なく同じ大きさ・同じ右端に揃う。 */
 .post-index li {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-4);
   padding: 10px 0;
   border-bottom: 1px solid var(--color-neutral-200);
   font-size: 15px;
   line-height: 1.6;
 }
-/* タイトルが長いと折り返して複数行になる項目が多く、末尾の「🌶️🌶️」は
-   無名フレックスアイテムとして1行目のbaselineに揃うため、行数が項目ごとに
-   バラつくと辛さ表示が浮いて見え、リスト全体がガタガタに見えていた。
-   aをflex-growさせて残り幅を占有し、長いタイトルは1行に収めて省略記号で
-   切ることで、行数を1行に揃え、辛さ表示が常に同じ高さ・同じ右端に並ぶようにする。 */
-.post-index li a {
-  flex: 1 1 auto;
-  min-width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
+/* aだけがflex-growするため、末尾の信号色ドット（無名フレックスアイテム）は
+   常に行の右端に1文字ぶんの幅で残る。ドット側を縮める指定は不要
+   （縮めるとhttps://drafts.csswg.org/css-flexbox/の自動最小サイズにより
+   絵文字1個ぶん未満にはならないため、詰まっても改行は起きない）。 */
+.post-index li a { flex: 1 1 auto; }
 
 /* 難易度表（index.md 冒頭のMarkdown表） */
 .post-index table,
