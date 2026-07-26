@@ -15,19 +15,31 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 img { max-width: 100%; }
 
 /* スキップリンク：キーボード・スクリーンリーダー利用者向けの導線。
-   通常時は画面外に隠し、フォーカス時のみ表示する。 */
+   通常時は1×1pxへ縮小してoverflow:hiddenで切り取り、完全に見えなくする
+   （固定pxのtopマイナス値だけで浮かせる方式は、実際のボックス高さとの
+   差でわずかに端が見えることがあったため、サイズごと縮める方式に変更）。
+   フォーカス時のみ位置・サイズを戻して表示する。 */
 #skip-to-content {
   position: absolute;
-  top: -40px;
+  top: -10px;
   left: 0;
   z-index: 20;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
   padding: var(--space-2) var(--space-3);
   background: var(--color-bg);
   color: var(--color-text);
   border: 2px solid var(--color-accent);
+  white-space: nowrap;
 }
 #skip-to-content:focus {
-  top: 0;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: auto;
+  height: auto;
+  overflow: visible;
 }
 
 /* ============ ナビゲーションバー（全ページ共通・上部固定） ============ */
