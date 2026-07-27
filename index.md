@@ -74,6 +74,8 @@
 
 ### 🧩 ゲームシステム・プレイヤー体験
 
+#### 💬 対話・コミュニケーション
+
 - [CEDEC2026予習：対話をメカニクスとして設計する――マーダーミステリー、TRPG、人狼、デジタルゲームの系譜](cedec2026-communication-games-murder-mystery-dialogue-mechanics.md) 🟡
 
 #### 🎯 進行・目標・難易度
