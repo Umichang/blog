@@ -24,6 +24,7 @@
 - [CEDEC2026予習：ゲーム発オリジナルIPのメディアミックス展開に見る企画論点――『アイドルマスター』『ブルーアーカイブ』、そして『ヘブンバーンズレッド』](cedec2026-media-mix-strategy-idolmaster-bluearchive-heaven-burns-red.md) 🟡
 - [CEDEC2026予習：ゲーム企画者のための文化盗用リスク管理](cedec2026-cultural-appropriation-risk-management-for-game-planners.md) 🔴
 - [CEDEC2026フォローアップ：ゲーム音楽の権利をどこに置くか――買い取り・自社管理・信託・委嘱の制度を読む](game-music-copyright-ownership-buyout-trust-commissioning.md) 🔴
+- [CEDEC2026フォローアップ：音声なしでキャラクターを再創造する――『ウマ娘』英語版に学ぶ、テキストだけの創造的ローカライズ](cedec2026-umamusume-text-only-creative-localization.md) 🟡
 
 ## 🎮 ゲーム体験と表現
 
@@ -181,6 +182,7 @@
 
 - [ゲームローカライズの工程と実践](game-localization-guide.md) 🟢
 - [声優キャスティングとローカライズ収録の実務](voice-casting-and-localized-recording-guide.md) 🟡
+- [CEDEC2026フォローアップ：音声なしでキャラクターを再創造する――『ウマ娘』英語版に学ぶ、テキストだけの創造的ローカライズ](cedec2026-umamusume-text-only-creative-localization.md) 🟡
 
 ### 🤝 運営・コミュニティ
 
