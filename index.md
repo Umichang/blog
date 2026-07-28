@@ -83,6 +83,10 @@
 
 - [CEDEC2026予習：対話をメカニクスとして設計する――マーダーミステリー、TRPG、人狼、デジタルゲームの系譜](cedec2026-communication-games-murder-mystery-dialogue-mechanics.md) 🟡
 
+#### 🤲 身体性・接触
+
+- [『ICO』と『ワンダと巨像』は、なぜ20年を経ても代わりが作りにくいのか――「持続する接触」を中心に据えた上田文人氏の設計判断](ico-shadow-of-the-colossus-sustained-contact-design.md) 🟡
+
 #### 🎯 進行・目標・難易度
 
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🟡
