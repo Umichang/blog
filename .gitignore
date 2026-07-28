@@ -12,3 +12,4 @@ _site/
 .bundle/
 vendor/bundle/
 ARTICLES.md
+.jekyll-metadata
