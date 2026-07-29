@@ -216,6 +216,7 @@
 
 - [サービス終了をどう設計するか――オンラインゲームを破綻なく畳む実務](service-shutdown-design-and-practice.md) 🔴
 - [残高がマイナスになる日――ブルーアーカイブ“負債石”事件にみる、誤配布通貨の回収とプレイヤー公平性の衝突](negative-currency-recovery-bluearchive-fgo-case.md) 🟡
+- [期待値が良くても、なぜ燃えるのか――『ブルーアーカイブ』「呼び出しチャージ」への変更を確率と信頼から読む](bluearchive-recruitment-charge-probability-player-trust.md) 🟡
 - [No Man's Skyの炎上と復活――期待値管理と運営立て直しの事例](no-mans-sky-expectation-management-case-study.md) 🟢
 - [『BLUE PROTOCOL』はなぜ美しいまま終わったのか――絵が集めた客層と、設計が想定した客層のずれ](blue-protocol-visual-success-and-live-service-failure.md) 🔴
 - [Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか](hollow-knight-silksong-long-silence-launch-anticipation.md) 🟢
