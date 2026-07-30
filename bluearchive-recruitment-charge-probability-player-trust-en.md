@@ -5,7 +5,7 @@ description: "This July 2026 analysis examines Blue Archive's Japanese Student R
 
 # Why Can Better Expected Value Still Spark a Backlash? — Blue Archive’s Recruitment Charge Change Through Probability and Trust
 
-[日本語](bluearchive-recruitment-charge-probability-player-trust.md) | English
+[日本語](bluearchive-recruitment-charge-probability-player-trust.md) ｜ English
 
 > This English edition was prepared using ChatGPT Work and DeepL. This blog primarily presents practical work and case studies for game planners; it is not written from a player-first perspective. All dates and times in this article are Japan Standard Time (JST).
 
