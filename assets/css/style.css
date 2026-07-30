@@ -9,6 +9,11 @@ body {
   color: var(--color-text);
   font-family: var(--font-body);
 }
+/* lang="en" と lang="en-US" などの英語ページだけを欧文向けフォントへ切り替える。
+   日本語ページは :root の --font-body をそのまま使う。 */
+html[lang|="en"] {
+  --font-body: var(--font-body-en);
+}
 a { color: var(--color-accent-700); text-decoration: none; }
 a:hover { color: var(--color-accent); text-decoration: underline; }
 a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }

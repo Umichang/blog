@@ -36,6 +36,9 @@
      （日本語主体のブログのため、和文の可読性を優先） */
   --font-body: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic Medium", "Yu Gothic", Meiryo, sans-serif;
   --font-heading: var(--font-body);
+  /* 英語ページでは言語属性によってこの欧文向けスタックへ切り替える。外部フォントを
+     読み込まず、OSにある読みやすいサンセリフ体を優先する。 */
+  --font-body-en: Inter, "Aptos", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
   /* --- 余白スケール --- */
   --space-1: 4px;
