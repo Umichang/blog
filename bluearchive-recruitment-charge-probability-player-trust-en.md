@@ -239,15 +239,15 @@ To earn acceptance for a design change, presenting the favorable mean is not eno
 
 ## References
 
-<a id="ref-1"></a>1. [Student Recruitment System Renewal (Japanese)][1] — *Blue Archive* official notice (July 28, 2026). Announces the removal of Recruitment Points, their 1:1 conversion to Keystone Fragments, the 100- and 200-recruit Recruitment Charge effects, reset and carryover rules, and Recruitment Count Rewards.
+<a id="ref-1"></a>1. [生徒募集システムのリニューアルについて][1] — *Blue Archive* official notice (July 28, 2026). Announces the removal of Recruitment Points, their 1:1 conversion to Keystone Fragments, the 100- and 200-recruit Recruitment Charge effects, reset and carryover rules, and Recruitment Count Rewards.
 
-<a id="ref-2"></a>2. [Blue Archive’s controversial gacha revision: Recruitment Count Rewards revealed, including up to 40 limited-time recruits’ worth of tickets by 200 pulls (Japanese)][2] — AUTOMATON (July 28, 2026). Reports the old/new-system difference, unfavorable paths near 200 during simultaneous Pick-Ups, contemporaneous paid packages, and the operator’s explanation.
+<a id="ref-2"></a>2. [『ブルーアーカイブ（ブルアカ）』波紋を呼ぶガチャ新仕様、「募集回数特典」の内容が公開。200連までに計40連分の期間限定募集チケットなどがもらえる][2] — AUTOMATON (July 28, 2026). Reports the old/new-system difference, unfavorable paths near 200 during simultaneous Pick-Ups, contemporaneous paid packages, and the operator’s explanation.
 
 <a id="ref-3"></a>3. [Recruitment][3] — *Blue Archive* Global official forum (January 23, 2025). Defines Global terminology for Student Recruitment, Pick-Up Recruitment, Recruitment Points, selective acquisition, and Keystone Fragments.
 
-<a id="ref-4"></a>4. [Blue Archive 5.5th Anniversary Livestream: This Is the Real Go! Go!! (Japanese)][4] — Official *Blue Archive* YouTube channel (July 26, 2026). Official livestream that announced the Student Recruitment system renewal.
+<a id="ref-4"></a>4. [ブルーアーカイブ5.5周年生放送 ～これが本当のごー！ごー！！です♪～][4] — Official *Blue Archive* YouTube channel (July 26, 2026). Official livestream that announced the Student Recruitment system renewal.
 
-<a id="ref-5"></a>5. [Yongha Kim (@ysoya), explanation and apology post (Japanese)][5] — X (July 28, 2026, 22:19 JST). The executive producer’s personal-account explanation and apology concerning the Student Recruitment system renewal.
+<a id="ref-5"></a>5. [Yongha Kim (@ysoya), explanation and apology post][5] — X (July 28, 2026, 22:19 JST). The executive producer’s personal-account explanation and apology concerning the Student Recruitment system renewal.
 
 <a id="ref-6"></a>6. [Blue Archive on Steam][6] — Steam. Store listing for the Global version published by NEXON Korea; the review figure in this article is explicitly a historical editorial snapshot.
 
