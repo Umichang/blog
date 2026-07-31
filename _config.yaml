@@ -59,4 +59,5 @@ defaults:
 analytics:
   cloudflare_web_analytics_token: "5a0cc79f486f4b9399ceff5f2b6069cb"
   google_search_console_verification: "ecP6ww2zZ67iEdObOy7jiYBqupql16ZufGUlVtsxeWY"
+  bing_webmaster_verification: "9EA3B5118CB4411CF738778530A0ED9B"
   started_on: "2026-07-22"

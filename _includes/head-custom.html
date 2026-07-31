@@ -6,3 +6,7 @@
 {% unless search_console_verification == "" %}
 <meta name="google-site-verification" content="{{ search_console_verification }}">
 {% endunless %}
+{% assign bing_webmaster_verification = site.analytics.bing_webmaster_verification | default: "" %}
+{% unless bing_webmaster_verification == "" %}
+<meta name="msvalidate.01" content="{{ bing_webmaster_verification }}" />
+{% endunless %}
