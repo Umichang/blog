@@ -79,6 +79,7 @@
 #### 🕵️ ステルス・サバイバル
 
 - [『METAL GEAR SOLID 3』は「サバイバル」をどう数値と操作へ翻訳したか――『METAL GEAR SOLID Δ』に学ぶ、変えないための変更](metal-gear-solid-3-survival-system-remake-translation.md) 🟡
+- [『バイオハザード4』と『バイオRE:4』——変えた設計、変えなかった設計](re4-vs-re4remake-game-design.md) 🟡
 
 #### 💬 対話・コミュニケーション
 
