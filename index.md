@@ -61,6 +61,7 @@
 - [ゲームコンソールのボタン配置はなぜ異なるのか――規格分岐の歴史](console-controller-button-layout-history.md) 🟢
 - [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🟢
 - [コントローラーの振動とハプティックフィードバック――ゲームプランナーのための企画設計ガイド](controller-haptics-design-guide.md) 🟡
+- [『大神』の操作系デザインは、なぜ二度違う形で再解釈されたのか――Wii版とPS3『大神 絶景版』に学ぶコントロール再設計](okami-control-redesign-wii-ps3-hd.md) 🟡
 - [ゲームのHUDデザイン――情報量と没入感を両立する設計原則](game-hud-design-guide.md) 🟡
 - [なぜ3Dゲームのカメラは難しいのか――「後ろからついてくるだけ」では済まない制御設計](game-camera-design-challenges.md) 🟡
 - [ゲームのアクセシビリティ設計――「遊べない」を減らす企画・実装・検証の実務](game-accessibility-design-guide.md) 🟡
