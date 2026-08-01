@@ -250,6 +250,7 @@
 - [ゲームにおけるUGC――Fortnite・Roblox・原神の設計と運営の比較](ugc-in-games-fortnite-roblox-genshin.md) 🟡
 - [『めっちゃカメレオン』の悪性ModマップとDiscord乗っ取り――「技術的な連鎖」と「同一犯」を混同しないために](meccha-chameleon-workshop-malware-discord-incident.md) 🔴
 - [にじさんじ甲子園――個人発の大会に、パブリッシャーが関与を深めた軌跡](nijisanji-koshien-publisher-engagement-design.md) 🟢
+- [にじさんじサーバー――Minecraftのアバターが育てる、もう一つの生活拠点](nijisanji-minecraft-server-digital-twin-governance.md) 🟢
 
 ### 💰 ビジネス・市場・マネタイズ
 
