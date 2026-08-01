@@ -1,12 +1,17 @@
 /* デザイントークン — Modernistデザインシステムから抽出した値。
    ビルドツール非依存。プレーンなCSSカスタムプロパティのみ。 */
 :root {
+  color-scheme: light;
   /* --- 色 --- */
   --color-bg: #f3f2f2;
   --color-surface: #eae9e9;
   --color-text: #201e1d;
   --color-accent: #ec3013;
   --color-divider: rgba(32, 30, 29, 0.4);
+  --color-highlight-bg: #ffe56b;
+  --color-highlight-text: #201e1d;
+  --color-nav-scrim: rgba(32, 30, 29, 0.72);
+  --color-nav-link: rgba(255, 255, 255, 0.85);
 
   /* ニュートラル（濃淡）ランプ 100(明)〜900(暗) */
   --color-neutral-100: #f8f4f4;
@@ -52,4 +57,81 @@
   --radius-md: 0px; /* Modernist系は角丸なし */
   --shadow-sm: 0 1px 2px rgba(45, 43, 43, 0.14);
   --shadow-md: 0 3px 10px rgba(45, 43, 43, 0.16);
+}
+
+/* ダーク時も、既存の画像や赤系アクセントを引き立てる暖色寄りの濃灰を基調にする。 */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #191817;
+  --color-surface: #272423;
+  --color-text: #f3efed;
+  --color-accent: #ff8d76;
+  --color-divider: rgba(243, 239, 237, 0.35);
+  --color-highlight-bg: #6f5817;
+  --color-highlight-text: #fff8d8;
+  --color-nav-scrim: rgba(9, 8, 8, 0.78);
+  --color-nav-link: rgba(255, 255, 255, 0.9);
+
+  --color-neutral-100: #302d2c;
+  --color-neutral-200: #3c3837;
+  --color-neutral-300: #514c4a;
+  --color-neutral-400: #716a67;
+  --color-neutral-500: #958c88;
+  --color-neutral-600: #b9afab;
+  --color-neutral-700: #d6ceca;
+  --color-neutral-800: #e8e1de;
+  --color-neutral-900: #f3efed;
+
+  --color-accent-100: #4a211b;
+  --color-accent-200: #663028;
+  --color-accent-300: #8a4035;
+  --color-accent-400: #b85949;
+  --color-accent-500: #e87561;
+  --color-accent-600: #ff8d76;
+  --color-accent-700: #ffad9d;
+  --color-accent-800: #ffc9be;
+  --color-accent-900: #ffe0d9;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.32);
+  --shadow-md: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* JavaScriptが使えない場合も、未指定のテーマはOS設定に従う。 */
+@media (prefers-color-scheme: dark) {
+  html[data-theme="system"],
+  html:not([data-theme]) {
+    color-scheme: dark;
+    --color-bg: #191817;
+    --color-surface: #272423;
+    --color-text: #f3efed;
+    --color-accent: #ff8d76;
+    --color-divider: rgba(243, 239, 237, 0.35);
+    --color-highlight-bg: #6f5817;
+    --color-highlight-text: #fff8d8;
+    --color-nav-scrim: rgba(9, 8, 8, 0.78);
+    --color-nav-link: rgba(255, 255, 255, 0.9);
+
+    --color-neutral-100: #302d2c;
+    --color-neutral-200: #3c3837;
+    --color-neutral-300: #514c4a;
+    --color-neutral-400: #716a67;
+    --color-neutral-500: #958c88;
+    --color-neutral-600: #b9afab;
+    --color-neutral-700: #d6ceca;
+    --color-neutral-800: #e8e1de;
+    --color-neutral-900: #f3efed;
+
+    --color-accent-100: #4a211b;
+    --color-accent-200: #663028;
+    --color-accent-300: #8a4035;
+    --color-accent-400: #b85949;
+    --color-accent-500: #e87561;
+    --color-accent-600: #ff8d76;
+    --color-accent-700: #ffad9d;
+    --color-accent-800: #ffc9be;
+    --color-accent-900: #ffe0d9;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.32);
+    --shadow-md: 0 3px 10px rgba(0, 0, 0, 0.4);
+  }
 }
