@@ -11,7 +11,7 @@
 
 <div class="index-catalog-controls" data-index-catalog-controls hidden>
   <label for="index-title-search">記事タイトルから探す：</label>
-  <input id="index-title-search" type="search" placeholder="例：ゲームデザイン、AI、CEDEC" autocomplete="off" enterkeyhint="search">
+  <input id="index-title-search" type="search" placeholder="例：レベルデザイン、AI、CEDEC" autocomplete="off" enterkeyhint="search">
   <p id="index-search-status" role="status" aria-live="polite"></p>
 </div>
 
