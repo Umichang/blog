@@ -60,7 +60,8 @@ img { max-width: 100%; }
   position: sticky;
   top: 0;
   z-index: 10;
-  overflow: hidden;
+  /* テーマ選択メニューをナビゲーションの下へ展開できるようにする。 */
+  overflow: visible;
   border-bottom: 2px solid var(--color-divider);
   display: flex;
   align-items: center;
