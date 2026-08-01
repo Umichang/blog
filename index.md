@@ -74,6 +74,7 @@
 - [『大神』の操作系デザインは、なぜ二度違う形で再解釈されたのか――Wii版とPS3『大神 絶景版』に学ぶコントロール再設計](okami-control-redesign-wii-ps3-hd.md) 🟡
 - [ゲームのHUDデザイン――情報量と没入感を両立する設計原則](game-hud-design-guide.md) 🟡
 - [なぜ3Dゲームのカメラは難しいのか――「後ろからついてくるだけ」では済まない制御設計](game-camera-design-challenges.md) 🟡
+- [『サイレントヒル2』は、なぜカメラを変えるだけでは済まなかったのか――視点変更が連鎖させた体験設計の再構築](silent-hill-2-camera-change-design-rebuild.md) 🟡
 - [ゲームのアクセシビリティ設計――「遊べない」を減らす企画・実装・検証の実務](game-accessibility-design-guide.md) 🟡
 - [ゲームの入力遅延――発生要因と削減・隠蔽の技術](game-input-lag-guide.md) 🟡
 
