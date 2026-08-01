@@ -7,7 +7,7 @@
   const search = controls.querySelector('#index-title-search');
   const status = controls.querySelector('#index-search-status');
   const headings = Array.from(root.children)
-    .filter((element) => /^H[2-4]$/.test(element.tagName));
+    .filter((element) => /^H[23]$/.test(element.tagName));
 
   if (!search || !status || headings.length === 0) return;
 
@@ -24,11 +24,11 @@
     const nextBoundary = headings.slice(index + 1)
       .find((candidate) => headingLevel(candidate) <= level);
     const boundary = wrappers.get(nextBoundary);
-    const wrapper = level === 4
+    const wrapper = level === 3
       ? document.createElement('details')
       : document.createElement('section');
 
-    if (level === 4) {
+    if (level === 3) {
       const summary = document.createElement('summary');
       const content = document.createElement('div');
 
@@ -48,8 +48,8 @@
         node = nextNode;
       }
     } else {
-      wrapper.className = `catalog-group catalog-group--h${level}`;
-      if (level === 2 && index === 0) wrapper.classList.add('catalog-group--first');
+      wrapper.className = 'catalog-group catalog-group--h2';
+      if (index === 0) wrapper.classList.add('catalog-group--first');
 
       heading.before(wrapper);
       wrapper.append(heading);
