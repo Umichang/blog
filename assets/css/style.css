@@ -112,22 +112,83 @@ img { max-width: 100%; }
 .hero p { font-size: 17px; line-height: 1.75; max-width: 62ch; margin: 0 0 var(--space-3); color: var(--color-neutral-800); }
 .hero p:last-child { color: var(--color-neutral-700); font-size: 15px; margin-bottom: 0; }
 
-/* ============ 記事一覧（index.md をそのまま流し込むコンテナ） ============
-   kramdownがMarkdownから生成する素のh2/h3/h4/ul/li/table/aだけを対象にスタイルする。
-   HTML構造を変える必要はない。 */
+/* ============ 記事一覧（index.md をそのまま流し込むコンテナ） ============ */
 .post-index {
   max-width: 760px;
   margin: 0 auto;
   padding: 0 var(--space-4) var(--space-8);
 }
-.post-index h2 {
+.post-index > h2 {
   font-size: 24px;
   font-weight: 700;
   margin: var(--space-8) 0 var(--space-4);
   padding-top: var(--space-6);
   border-top: 2px solid var(--color-divider);
 }
-.post-index h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+.post-index > h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+.index-catalog-controls {
+  margin: var(--space-6) 0 var(--space-8);
+  padding: var(--space-4);
+  border: 1px solid var(--color-divider);
+  background: var(--color-surface);
+}
+.index-catalog-controls label {
+  display: block;
+  margin-bottom: var(--space-2);
+  font-size: 14px;
+  font-weight: 700;
+}
+.index-catalog-controls input {
+  width: 100%;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-neutral-500);
+  border-radius: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font: inherit;
+}
+.index-catalog-controls input:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+.index-catalog-controls p {
+  min-height: 1.6em;
+  margin: var(--space-2) 0 0;
+  font-size: 14px;
+  color: var(--color-neutral-700);
+}
+.catalog-section {
+  margin: var(--space-8) 0 0;
+  border-top: 2px solid var(--color-divider);
+}
+.catalog-section--first { margin-top: 0; border-top: 0; }
+.catalog-section__summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-6) 0 var(--space-4);
+  cursor: pointer;
+  list-style: none;
+}
+.catalog-section--first > .catalog-section__summary { padding-top: 0; }
+.catalog-section__summary::-webkit-details-marker { display: none; }
+.catalog-section__summary::before {
+  flex: 0 0 auto;
+  width: 1.1em;
+  content: "＋";
+  color: var(--color-accent-700);
+  font-weight: 700;
+}
+.catalog-section[open] > .catalog-section__summary::before { content: "−"; }
+.catalog-section__heading {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.catalog-section__content > :first-child { margin-top: 0; }
 .post-index h3 {
   font-size: 18px;
   font-weight: 700;
@@ -162,6 +223,13 @@ img { max-width: 100%; }
    （縮めるとhttps://drafts.csswg.org/css-flexbox/の自動最小サイズにより
    絵文字1個ぶん未満にはならないため、詰まっても改行は起きない）。 */
 .post-index li a { flex: 1 1 auto; }
+
+@media (max-width: 520px) {
+  .index-catalog-controls { margin-bottom: var(--space-6); }
+  .catalog-section { margin-top: var(--space-6); }
+  .catalog-section__summary { padding-top: var(--space-4); }
+  .catalog-section__heading { font-size: 21px; }
+}
 
 /* 難易度表（index.md 冒頭のMarkdown表） */
 .post-index table,

@@ -9,6 +9,12 @@
 | 🟡 | 標準 | 多少の業界用語や実務前提を含みます。 |
 | 🔴 | 専門寄り | 技術・法務・運営などの前提知識があると読みやすい記事です。 |
 
+<div class="index-catalog-controls" data-index-catalog-controls hidden>
+  <label for="index-title-search">記事タイトルを探す</label>
+  <input id="index-title-search" type="search" placeholder="例：ゲームデザイン、AI、CEDEC" autocomplete="off" enterkeyhint="search">
+  <p id="index-search-status" role="status" aria-live="polite"></p>
+</div>
+
 ## 📌 まず読む記事
 
 - [はじめに](introduction.md) 🟢
@@ -155,6 +161,7 @@
 - [カービィのエアライダーとStar Foxは帰ってきた。F-ZEROに残る23年目の空白から読む、任天堂の休眠IP再起動](nintendo-dormant-ip-revival-f-zero-kirby-star-fox.md) 🟡
 - [『スプラトゥーン4』ではなくスピンオフを選んだ理由――『スプラトゥーン レイダース』の二つの方向転換から学ぶ設計判断](splatoon-raiders-spin-off-development-design-lessons.md) 🟡
 - [ゲームのリマスターとリメイク：ゲームプランナーが押さえるべき設計思想](game-remaster-remake-design-philosophy.md) 🟢
+- [『ペルソナ3』は18年・4バージョンで何を変え、何を変えなかったか――再解釈と追加販売を設計として読む](persona3-four-version-design-and-edition-strategy.md) 🟡
 
 #### 📝 仕様・品質判断
 
