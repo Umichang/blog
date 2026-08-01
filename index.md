@@ -15,6 +15,10 @@
   <p id="index-search-status" role="status" aria-live="polite"></p>
 </div>
 
+<nav class="index-catalog-actions" data-index-catalog-actions hidden aria-label="記事一覧の開閉">
+  [<button type="button" data-catalog-open-all>全て開く</button>｜<button type="button" data-catalog-close-all>全て閉じる</button>]
+</nav>
+
 ## 📌 まず読む記事
 
 - [はじめに](introduction.md) 🟢

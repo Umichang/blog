@@ -6,6 +6,9 @@
 
   const search = controls.querySelector('#index-title-search');
   const status = controls.querySelector('#index-search-status');
+  const actions = document.querySelector('[data-index-catalog-actions]');
+  const openAll = actions?.querySelector('[data-catalog-open-all]');
+  const closeAll = actions?.querySelector('[data-catalog-close-all]');
   const headings = Array.from(root.children)
     .filter((element) => /^H[23]$/.test(element.tagName));
 
@@ -144,6 +147,11 @@
     groups.forEach((group) => { group.hidden = false; });
     status.textContent = `全${articles.length}件の記事から検索できます。`;
   };
+  const setVisibleSections = (open) => {
+    sections.forEach((section) => {
+      if (!section.hidden) section.open = open;
+    });
+  };
   const filter = () => {
     const normalizedQuery = normalize(search.value);
 
@@ -182,6 +190,11 @@
   };
 
   controls.hidden = false;
+  if (actions && openAll && closeAll) {
+    actions.hidden = false;
+    openAll.addEventListener('click', () => setVisibleSections(true));
+    closeAll.addEventListener('click', () => setVisibleSections(false));
+  }
   reset();
   search.addEventListener('input', filter);
 })();
