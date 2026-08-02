@@ -1,8 +1,11 @@
 
-*.plist
+# Local macOS/Ulysses metadata
+.Ulysses-Group.plist
+.Ulysses-Settings.plist
 AGENTS.md
 CLAUDE.md
 .claude/settings.json
+.claude/settings.local.json
 .DS_Store
 
 # Local Jekyll and Bundler artifacts
@@ -11,5 +14,6 @@ _site/
 .sass-cache/
 .bundle/
 vendor/bundle/
+.ruby-lsp/
 ARTICLES.md
 .jekyll-metadata
