@@ -152,6 +152,7 @@
 
 - [『塊魂』は、なぜ新人プランナーの参考になるのか――単一ルールと限られた資源から生まれた設計判断](katamari-damacy-design-judgments-for-junior-planners.md) 🟢
 - [初代『ピクミン』の企画はどこから生まれたのか――断片を一枚のゲームフローへ統合する、プランナーの設計判断集](pikmin-design-origin-game-flow-planner-lessons.md) 🟢
+- [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
 - [ゲームにおける非機能要件](game-non-functional-requirements.md) 🔴
 - [本番想定の負荷試験・キャパシティプランニングの実務](production-load-testing-capacity-planning-for-planners.md) 🔴
 - [展示会・イベント向け体験ビルド制作の実務ガイド](exhibition-demo-build-production-guide-for-planners.md) 🟡
