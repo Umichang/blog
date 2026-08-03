@@ -54,6 +54,10 @@ defaults:
     path: "LICENSE"
   values:
     sitemap: false
+- scope:
+    path: "rss.xml"
+  values:
+    sitemap: false
 
 # 公開しても問題ない計測用の識別子だけを置く。空欄の間は計測用タグを出力しない。
 analytics:
