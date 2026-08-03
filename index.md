@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [複数入力方式の切り替えUX設計――タッチ・ゲームパッド・キーボード＋マウスを同一セッションでどう共存させるか](multi-input-switching-ux-design.md) 🟡
 - [『ELDEN RING』はなぜ死にゲーをマスマーケットへ運べたのか――難易度を下げず、関所に迂回路を作るオープンワールド設計](elden-ring-open-world-detour-design.md) 🟡
 - [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
 - [『原神』はなぜ超大型タイトルになれたのか――端末を増やし、体験を分岐させない設計](genshin-impact-unified-cross-platform-design.md) 🟡
 - [『文豪ストレイドッグス 迷ヰ犬怪奇譚』――告知から実質1日、廃業と「異能石」払戻し拒否が突いた法とサービス終了設計の隙間](bungo-stray-dogs-mayoi-inu-bankruptcy-shutdown-refund-gap.md) 🔴
-- [Minecraftはなぜ17年近く売れ続けるのか――「終わらない設計」とJava版・Bedrock版を統合しない判断](minecraft-endless-design-java-bedrock-strategy.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -68,6 +68,7 @@
 - [ゲームコンソールのボタン配置はなぜ異なるのか――規格分岐の歴史](console-controller-button-layout-history.md) 🟢
 - [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🟢
 - [コントローラーの振動とハプティックフィードバック――ゲームプランナーのための企画設計ガイド](controller-haptics-design-guide.md) 🟡
+- [複数入力方式の切り替えUX設計――タッチ・ゲームパッド・キーボード＋マウスを同一セッションでどう共存させるか](multi-input-switching-ux-design.md) 🟡
 - [『大神』の操作系デザインは、なぜ二度違う形で再解釈されたのか――Wii版とPS3『大神 絶景版』に学ぶコントロール再設計](okami-control-redesign-wii-ps3-hd.md) 🟡
 - [ゲームのHUDデザイン――情報量と没入感を両立する設計原則](game-hud-design-guide.md) 🟡
 - [なぜ3Dゲームのカメラは難しいのか――「後ろからついてくるだけ」では済まない制御設計](game-camera-design-challenges.md) 🟡
