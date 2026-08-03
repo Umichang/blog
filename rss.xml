@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 03 Aug 2026 12:02:11 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 13:20:33 -0000</lastBuildDate>
+    <item>
+      <title>ゲームの演出と光過敏性発作――「でんのうせんしポリゴン」事件が残した数値基準をVFX仕様へ落とし込む</title>
+      <link>https://umichang.github.io/blog/game-photosensitivity-vfx-safety-standards.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-photosensitivity-vfx-safety-standards.html</guid>
+      <description>1997年のポケモン放送事故を起点に、光過敏性発作に関する放送・ウェブの数値基準と、ゲームの企画・VFX・QAで点滅表現を管理する実務を解説する。</description>
+      <pubDate>Mon, 03 Aug 2026 13:20:33 -0000</pubDate>
+    </item>
     <item>
       <title>複数入力方式の切り替えUX設計――タッチ・ゲームパッド・キーボード＋マウスを同一セッションでどう共存させるか</title>
       <link>https://umichang.github.io/blog/multi-input-switching-ux-design.html</link>
@@ -32,13 +39,6 @@
       <link>https://umichang.github.io/blog/genshin-impact-unified-cross-platform-design.html</link>
       <guid isPermaLink="true">https://umichang.github.io/blog/genshin-impact-unified-cross-platform-design.html</guid>
       <description>『原神』がPC・家庭用ゲーム機・モバイルへ入口を広げながら、プレイヤー体験とセーブデータを一つのサービスへ寄せた設計判断を読む。MinecraftのJava版／Bedrock版との対比から、プラットフォーム戦略を考えるゲームプランナー向け記事。</description>
-      <pubDate>Mon, 03 Aug 2026 03:29:11 -0000</pubDate>
-    </item>
-    <item>
-      <title>『文豪ストレイドッグス 迷ヰ犬怪奇譚』――告知から実質1日、廃業と「異能石」払戻し拒否が突いた法とサービス終了設計の隙間</title>
-      <link>https://umichang.github.io/blog/bungo-stray-dogs-mayoi-inu-bankruptcy-shutdown-refund-gap.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/bungo-stray-dogs-mayoi-inu-bankruptcy-shutdown-refund-gap.html</guid>
-      <description>『文豪ストレイドッグス 迷ヰ犬怪奇譚』の短期間でのサービス終了を事例に、前払式支払手段の払戻しと利用規約の免責、終了告知の設計を確認できる事実から整理する。</description>
       <pubDate>Mon, 03 Aug 2026 03:29:11 -0000</pubDate>
     </item>
   </channel>
