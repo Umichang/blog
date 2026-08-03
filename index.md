@@ -23,19 +23,16 @@
 
 - [はじめに](introduction.md) 🟢
 
-## ⏰ CEDEC2026特集
+## 🆕 新着記事
 
-- [CEDECとは何か――新人ゲームプランナーとゲームプレイヤーのための場の見取り図](cedec-overview-history-and-structure-for-game-planners.md) 🟢
-- [CEDEC2026初日レポート：3大セッションに見る「作り手とユーザー・技術・海外パートナーのずれ」](cedec2026-day1-keynote-silent-hill-beyond-hdr-recap.md) 🟡
-- [CEDEC2026中盤レポート：6大セッションに見る「即効性のない投資判断」](cedec2026-day2-recap-pokemon-bananza-pragmata-investment.md) 🟡
-- [CEDEC2026最終日レポート：5大セッションに見る「『できるはず』と『できた』のあいだを埋める泥臭さ」](cedec2026-day3-recap-garage-ai-npc-prototyping-120fps.md) 🟡
-- [CEDEC2026予習：対話をメカニクスとして設計する――マーダーミステリー、TRPG、人狼、デジタルゲームの系譜](cedec2026-communication-games-murder-mystery-dialogue-mechanics.md) 🟡
-- [CEDEC2026予習：Unity AIとバイブコーディングが変えるゲーム企画の検証工程](cedec2026-unity-ai-prototyping-planner-vibe-coding.md) 🟡
-- [CEDEC2026予習：ゲーム発オリジナルIPのメディアミックス展開に見る企画論点――『アイドルマスター』『ブルーアーカイブ』、そして『ヘブンバーンズレッド』](cedec2026-media-mix-strategy-idolmaster-bluearchive-heaven-burns-red.md) 🟡
-- [CEDEC2026予習：ゲーム企画者のための文化盗用リスク管理](cedec2026-cultural-appropriation-risk-management-for-game-planners.md) 🔴
-- [CEDEC2026フォローアップ：ゲーム音楽の権利をどこに置くか――買い取り・自社管理・信託・委嘱の制度を読む](game-music-copyright-ownership-buyout-trust-commissioning.md) 🔴
-- [CEDEC2026フォローアップ：音声なしでキャラクターを再創造する――『ウマ娘』英語版に学ぶ、テキストだけの創造的ローカライズ](cedec2026-umamusume-text-only-creative-localization.md) 🟡
-- [CEDEC2026フォローアップ：『ドンキーコング バナンザ』が自由な破壊を守るために行ったQA](cedec2026-donkey-kong-bananza-qa-freedom-design.md) 🟡
+<!-- recent-articles:start -->
+- [『ELDEN RING』はなぜ死にゲーをマスマーケットへ運べたのか――難易度を下げず、関所に迂回路を作るオープンワールド設計](elden-ring-open-world-detour-design.md) 🟡
+- [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
+- [『原神』はなぜ超大型タイトルになれたのか――端末を増やし、体験を分岐させない設計](genshin-impact-unified-cross-platform-design.md) 🟡
+- [『文豪ストレイドッグス 迷ヰ犬怪奇譚』――告知から実質1日、廃業と「異能石」払戻し拒否が突いた法とサービス終了設計の隙間](bungo-stray-dogs-mayoi-inu-bankruptcy-shutdown-refund-gap.md) 🔴
+- [Minecraftはなぜ17年近く売れ続けるのか――「終わらない設計」とJava版・Bedrock版を統合しない判断](minecraft-endless-design-java-bedrock-strategy.md) 🟡
+
+<!-- recent-articles:end -->
 
 ## 🎮 ゲーム体験と表現
 
