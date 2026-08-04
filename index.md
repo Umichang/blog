@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ガチャ・ルートボックスの抽選演出と期待感の設計――禁じられるのは演出ではなく、事実を歪める期待操作である](loot-box-presentation-and-anticipation-design.md) 🟡
 - [ゲームの演出と光過敏性発作――「でんのうせんしポリゴン」事件が残した数値基準をVFX仕様へ落とし込む](game-photosensitivity-vfx-safety-standards.md) 🟡
 - [複数入力方式の切り替えUX設計――タッチ・ゲームパッド・キーボード＋マウスを同一セッションでどう共存させるか](multi-input-switching-ux-design.md) 🟡
 - [『ELDEN RING』はなぜ死にゲーをマスマーケットへ運べたのか――難易度を下げず、関所に迂回路を作るオープンワールド設計](elden-ring-open-world-detour-design.md) 🟡
 - [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
-- [『原神』はなぜ超大型タイトルになれたのか――端末を増やし、体験を分岐させない設計](genshin-impact-unified-cross-platform-design.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -258,6 +258,7 @@
 
 #### 💳 マネタイズ・F2P・デジタル商品
 
+- [ガチャ・ルートボックスの抽選演出と期待感の設計――禁じられるのは演出ではなく、事実を歪める期待操作である](loot-box-presentation-and-anticipation-design.md) 🟡
 - [なぜゲームはF2Pモデルに依存するようになったのか](why-games-depend-on-f2p.md) 🟢
 - [課金投票が生んだ「声のつく日」――AKB48選抜総選挙からシンデレラガール総選挙まで、キャラクター人気投票の起源と賞味期限](paid-voting-character-popularity-contest-origin-lifespan.md) 🟢
 - [無料の物語は、なぜガチャを回させるのか――FGO、ブルーアーカイブ、崩壊：スターレイルの課金設計](story-driven-f2p-monetization.md) 🟡
