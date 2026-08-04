@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 04 Aug 2026 11:27:15 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 23:46:55 -0000</lastBuildDate>
+    <item>
+      <title>セーブ後の「やり直し」とゲーム設計――防ぐ・思いとどまらせる・公式に受け止める</title>
+      <link>https://umichang.github.io/blog/retry-design-save-scumming-game-planning.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/retry-design-save-scumming-game-planning.html</guid>
+      <description>セーブ後に気に入らない結果だけを戻す「やり直し」を、技術的な抑止、心理的・制度的な抑止、限定的な公式救済という設計類型に分け、ゲームプランナーの判断軸と実務チェックリストを整理する。</description>
+      <pubDate>Tue, 04 Aug 2026 23:46:55 -0000</pubDate>
+    </item>
     <item>
       <title>キャラクター編成・パーティ管理UIの設計</title>
       <link>https://umichang.github.io/blog/roster-party-ui-ux-design.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-photosensitivity-vfx-safety-standards.html</guid>
       <description>1997年のポケモン放送事故を起点に、光過敏性発作に関する放送・ウェブの数値基準と、ゲームの企画・VFX・QAで点滅表現を管理する実務を解説する。</description>
       <pubDate>Mon, 03 Aug 2026 13:20:33 -0000</pubDate>
-    </item>
-    <item>
-      <title>複数入力方式の切り替えUX設計――タッチ・ゲームパッド・キーボード＋マウスを同一セッションでどう共存させるか</title>
-      <link>https://umichang.github.io/blog/multi-input-switching-ux-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/multi-input-switching-ux-design.html</guid>
-      <description>タッチ・ゲームパッド・キーボード＋マウスを同一セッションで切り替えるとき、プランナーが決めるべきアクション、UI状態、プロンプト、優先順位の設計原則を整理する。</description>
-      <pubDate>Mon, 03 Aug 2026 12:02:11 -0000</pubDate>
     </item>
   </channel>
 </rss>
