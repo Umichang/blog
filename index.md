@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線](auto-play-and-skip-boundaries-design.md) 🔴
 - [ガチャ・ルートボックスの抽選演出と期待感の設計――禁じられるのは演出ではなく、事実を歪める期待操作である](loot-box-presentation-and-anticipation-design.md) 🟡
 - [ゲームの演出と光過敏性発作――「でんのうせんしポリゴン」事件が残した数値基準をVFX仕様へ落とし込む](game-photosensitivity-vfx-safety-standards.md) 🟡
 - [複数入力方式の切り替えUX設計――タッチ・ゲームパッド・キーボード＋マウスを同一セッションでどう共存させるか](multi-input-switching-ux-design.md) 🟡
 - [『ELDEN RING』はなぜ死にゲーをマスマーケットへ運べたのか――難易度を下げず、関所に迂回路を作るオープンワールド設計](elden-ring-open-world-detour-design.md) 🟡
-- [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -222,6 +222,7 @@
 - [ライブ運営の実務――リリース後90日から継続運営まで](live-ops-operations-from-launch-to-sustained-growth.md) 🔴
 - [期間限定イベント設計の実務――目的、報酬、救済、終了処理を一枚の仕様へ落とす](limited-time-event-design-practices.md) 🔴
 - [スタミナ・AP（行動力）システムの設計実務](stamina-energy-system-design-practices.md) 🔴
+- [オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線](auto-play-and-skip-boundaries-design.md) 🔴
 - [ゲーム内経済の設計――通貨とアイテムを壊さず回し続ける実務](in-game-economy-design.md) 🔴
 - [運営公認RMTは機能するのか――Diablo III、WoWトークン、EVE Online、タスクバーヒーローに見る「売るもの」の設計](official-rmt-design-diablo-wow-eve-taskbar-hero.md) 🔴
 - [ゲームのログインボーナスで継続率を下支えするコツ](login-bonus-retention-tips.md) 🟡

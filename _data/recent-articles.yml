@@ -1,5 +1,7 @@
 ---
 articles:
+- path: auto-play-and-skip-boundaries-design.md
+  published_at: '2026-08-04T03:33:45Z'
 - path: loot-box-presentation-and-anticipation-design.md
   published_at: '2026-08-04T00:38:17Z'
 - path: game-photosensitivity-vfx-safety-standards.md
@@ -7,6 +9,4 @@ articles:
 - path: multi-input-switching-ux-design.md
   published_at: '2026-08-03T12:02:11Z'
 - path: elden-ring-open-world-detour-design.md
-  published_at: '2026-08-03T03:29:11Z'
-- path: pokemon-global-ip-core-game-design.md
   published_at: '2026-08-03T03:29:11Z'

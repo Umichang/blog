@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 04 Aug 2026 00:38:17 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 03:33:45 -0000</lastBuildDate>
+    <item>
+      <title>オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線</title>
+      <link>https://umichang.github.io/blog/auto-play-and-skip-boundaries-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/auto-play-and-skip-boundaries-design.html</guid>
+      <description>オートプレイと周回スキップは、単なる時短機能ではない。戦闘を省略する条件、コストを免除する範囲、判断をどこまで代行するか、結果だけを見せるかを分け、プランナーが決めるべき境界線を整理する。</description>
+      <pubDate>Tue, 04 Aug 2026 03:33:45 -0000</pubDate>
+    </item>
     <item>
       <title>ガチャ・ルートボックスの抽選演出と期待感の設計――禁じられるのは演出ではなく、事実を歪める期待操作である</title>
       <link>https://umichang.github.io/blog/loot-box-presentation-and-anticipation-design.html</link>
@@ -32,13 +39,6 @@
       <link>https://umichang.github.io/blog/elden-ring-open-world-detour-design.html</link>
       <guid isPermaLink="true">https://umichang.github.io/blog/elden-ring-open-world-detour-design.html</guid>
       <description>『ELDEN RING』は、死の重さを薄めずに、詰まったプレイヤーが別の場所へ向かえる迂回路をオープンワールドに埋め込んだ。難易度を下げずに間口を広げた設計を、関所の置き方から読む。</description>
-      <pubDate>Mon, 03 Aug 2026 03:29:11 -0000</pubDate>
-    </item>
-    <item>
-      <title>ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計</title>
-      <link>https://umichang.github.io/blog/pokemon-global-ip-core-game-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/pokemon-global-ip-core-game-design.html</guid>
-      <description>ポケモンを、媒体横断の巨大IPを動かす専任組織と、世代ごとに新規性を入れ替えるゲーム設計の両面から分析する。変えないコアループと、図鑑・戦闘・移行基盤を更新する判断をゲームプランナー向けに読む。</description>
       <pubDate>Mon, 03 Aug 2026 03:29:11 -0000</pubDate>
     </item>
   </channel>
