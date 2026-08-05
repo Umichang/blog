@@ -1,5 +1,7 @@
 ---
 articles:
+- path: shared-universe-design-retrofit-versus-intent.md
+  published_at: '2026-08-05T10:34:36Z'
 - path: retry-design-save-scumming-game-planning.md
   published_at: '2026-08-04T23:46:55Z'
 - path: roster-party-ui-ux-design.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-04T03:33:45Z'
 - path: loot-box-presentation-and-anticipation-design.md
   published_at: '2026-08-04T00:38:17Z'
-- path: game-photosensitivity-vfx-safety-standards.md
-  published_at: '2026-08-03T13:20:33Z'

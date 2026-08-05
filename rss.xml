@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 04 Aug 2026 23:46:55 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 10:34:36 -0000</lastBuildDate>
+    <item>
+      <title>作品世界を「つなぐ」設計――UGSFと『崩壊3rd』×『崩壊：スターレイル』から考える、後年統合型と意図設計型</title>
+      <link>https://umichang.github.io/blog/shared-universe-design-retrofit-versus-intent.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/shared-universe-design-retrofit-versus-intent.html</guid>
+      <description>複数タイトルの作品世界をつなぐ設計には、既存資産を後年に公式統合する型と、新作展開を見越して初期から接続点を置く型がある。UGSFと『崩壊3rd』×『崩壊：スターレイル』を対比し、プレイヤーの発見と各タイトルの独立性を両立する企画判断を整理する。</description>
+      <pubDate>Wed, 05 Aug 2026 10:34:36 -0000</pubDate>
+    </item>
     <item>
       <title>セーブ後の「やり直し」とゲーム設計――防ぐ・思いとどまらせる・公式に受け止める</title>
       <link>https://umichang.github.io/blog/retry-design-save-scumming-game-planning.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/loot-box-presentation-and-anticipation-design.html</guid>
       <description>ガチャ・ルートボックスの演出は、期待を形にするための設計技法である。一方で、実際にはない有利さ、期限、価格の分かりやすさを装うなら、演出は消費者を誤認させる表示やマーケティングになり得る。FTCのHoYoverse事案とPEGIの改定から、その境界をプランナー向けに整理する。</description>
       <pubDate>Tue, 04 Aug 2026 00:38:17 -0000</pubDate>
-    </item>
-    <item>
-      <title>ゲームの演出と光過敏性発作――「でんのうせんしポリゴン」事件が残した数値基準をVFX仕様へ落とし込む</title>
-      <link>https://umichang.github.io/blog/game-photosensitivity-vfx-safety-standards.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-photosensitivity-vfx-safety-standards.html</guid>
-      <description>1997年のポケモン放送事故を起点に、光過敏性発作に関する放送・ウェブの数値基準と、ゲームの企画・VFX・QAで点滅表現を管理する実務を解説する。</description>
-      <pubDate>Mon, 03 Aug 2026 13:20:33 -0000</pubDate>
     </item>
   </channel>
 </rss>

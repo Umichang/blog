@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [作品世界を「つなぐ」設計――UGSFと『崩壊3rd』×『崩壊：スターレイル』から考える、後年統合型と意図設計型](shared-universe-design-retrofit-versus-intent.md) 🟡
 - [セーブ後の「やり直し」とゲーム設計――防ぐ・思いとどまらせる・公式に受け止める](retry-design-save-scumming-game-planning.md) 🟡
 - [キャラクター編成・パーティ管理UIの設計](roster-party-ui-ux-design.md) 🟡
 - [オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線](auto-play-and-skip-boundaries-design.md) 🔴
 - [ガチャ・ルートボックスの抽選演出と期待感の設計――禁じられるのは演出ではなく、事実を歪める期待操作である](loot-box-presentation-and-anticipation-design.md) 🟡
-- [ゲームの演出と光過敏性発作――「でんのうせんしポリゴン」事件が残した数値基準をVFX仕様へ落とし込む](game-photosensitivity-vfx-safety-standards.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -132,6 +132,7 @@
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🟡
 - [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🟡
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟢
+- [作品世界を「つなぐ」設計――UGSFと『崩壊3rd』×『崩壊：スターレイル』から考える、後年統合型と意図設計型](shared-universe-design-retrofit-versus-intent.md) 🟡
 
 ### 🎲 ジャンル・ゲーム文化
 
