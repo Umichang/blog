@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [『hololive Dreams』とholo Indie――配信者IPを「ファンと一緒に遊び続けるゲーム」へ翻訳する設計](hololive-dreams-vtuber-ip-co-creation-design.md) 🟡
 - [作品世界を「つなぐ」設計――UGSFと『崩壊3rd』×『崩壊：スターレイル』から考える、後年統合型と意図設計型](shared-universe-design-retrofit-versus-intent.md) 🟡
 - [セーブ後の「やり直し」とゲーム設計――防ぐ・思いとどまらせる・公式に受け止める](retry-design-save-scumming-game-planning.md) 🟡
 - [キャラクター編成・パーティ管理UIの設計](roster-party-ui-ux-design.md) 🟡
 - [オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線](auto-play-and-skip-boundaries-design.md) 🔴
-- [ガチャ・ルートボックスの抽選演出と期待感の設計――禁じられるのは演出ではなく、事実を歪める期待操作である](loot-box-presentation-and-anticipation-design.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -256,6 +256,7 @@
 - [ゲームにおけるUGC――Fortnite・Roblox・原神の設計と運営の比較](ugc-in-games-fortnite-roblox-genshin.md) 🟡
 - [『めっちゃカメレオン』の悪性ModマップとDiscord乗っ取り――「技術的な連鎖」と「同一犯」を混同しないために](meccha-chameleon-workshop-malware-discord-incident.md) 🔴
 - [にじさんじ甲子園――個人発の大会に、パブリッシャーが関与を深めた軌跡](nijisanji-koshien-publisher-engagement-design.md) 🟢
+- [『hololive Dreams』とholo Indie――配信者IPを「ファンと一緒に遊び続けるゲーム」へ翻訳する設計](hololive-dreams-vtuber-ip-co-creation-design.md) 🟡
 - [にじさんじサーバー――Minecraftのアバターが育てる、もう一つの生活拠点](nijisanji-minecraft-server-digital-twin-governance.md) 🟢
 
 ### 💰 ビジネス・市場・マネタイズ

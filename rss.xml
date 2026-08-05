@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 05 Aug 2026 10:34:36 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 12:36:45 -0000</lastBuildDate>
+    <item>
+      <title>『hololive Dreams』とholo Indie――配信者IPを「ファンと一緒に遊び続けるゲーム」へ翻訳する設計</title>
+      <link>https://umichang.github.io/blog/hololive-dreams-vtuber-ip-co-creation-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/hololive-dreams-vtuber-ip-co-creation-design.html</guid>
+      <description>『hololive Dreams』とholo Indieを手がかりに、配信者IPをゲームへ翻訳する際の「公式制作」と「ファンの創作」の接続、そして活動終了という生きたIP固有のリスクを考える。</description>
+      <pubDate>Wed, 05 Aug 2026 12:36:45 -0000</pubDate>
+    </item>
     <item>
       <title>作品世界を「つなぐ」設計――UGSFと『崩壊3rd』×『崩壊：スターレイル』から考える、後年統合型と意図設計型</title>
       <link>https://umichang.github.io/blog/shared-universe-design-retrofit-versus-intent.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/auto-play-and-skip-boundaries-design.html</guid>
       <description>オートプレイと周回スキップは、単なる時短機能ではない。戦闘を省略する条件、コストを免除する範囲、判断をどこまで代行するか、結果だけを見せるかを分け、プランナーが決めるべき境界線を整理する。</description>
       <pubDate>Tue, 04 Aug 2026 03:33:45 -0000</pubDate>
-    </item>
-    <item>
-      <title>ガチャ・ルートボックスの抽選演出と期待感の設計――禁じられるのは演出ではなく、事実を歪める期待操作である</title>
-      <link>https://umichang.github.io/blog/loot-box-presentation-and-anticipation-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/loot-box-presentation-and-anticipation-design.html</guid>
-      <description>ガチャ・ルートボックスの演出は、期待を形にするための設計技法である。一方で、実際にはない有利さ、期限、価格の分かりやすさを装うなら、演出は消費者を誤認させる表示やマーケティングになり得る。FTCのHoYoverse事案とPEGIの改定から、その境界をプランナー向けに整理する。</description>
-      <pubDate>Tue, 04 Aug 2026 00:38:17 -0000</pubDate>
     </item>
   </channel>
 </rss>
