@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 05 Aug 2026 12:36:45 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 23:28:38 -0000</lastBuildDate>
+    <item>
+      <title>『ゼノブレイド』は、なぜ四世代のハードを渡れたのか</title>
+      <link>https://umichang.github.io/blog/xenoblade-design-across-four-hardware-generations.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/xenoblade-design-across-four-hardware-generations.html</guid>
+      <description>2010年のWii版『ゼノブレイド』は、巨大な神の身体を実際に歩いて渡るフィールド、リアルタイム戦闘、仲間の関係性をゲーム進行へ接続する設計を持っていた。Newニンテンドー3DS、Nintendo Switch、Nintendo Switch 2へ続く展開から、長寿タイトルが保存すべき設計骨格を考える。</description>
+      <pubDate>Wed, 05 Aug 2026 23:28:38 -0000</pubDate>
+    </item>
     <item>
       <title>『hololive Dreams』とholo Indie――配信者IPを「ファンと一緒に遊び続けるゲーム」へ翻訳する設計</title>
       <link>https://umichang.github.io/blog/hololive-dreams-vtuber-ip-co-creation-design.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/roster-party-ui-ux-design.html</guid>
       <description>多数のキャラクターを抱えるゲームでは、編成画面がプレイヤーの判断速度と試行の幅を左右する。本稿は、選択肢の増加、フィルタとソート、リストの描画性能、運用上の記録、そして自動編成の境界を、育成設計とは切り分けて扱う。</description>
       <pubDate>Tue, 04 Aug 2026 11:27:15 -0000</pubDate>
-    </item>
-    <item>
-      <title>オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線</title>
-      <link>https://umichang.github.io/blog/auto-play-and-skip-boundaries-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/auto-play-and-skip-boundaries-design.html</guid>
-      <description>オートプレイと周回スキップは、単なる時短機能ではない。戦闘を省略する条件、コストを免除する範囲、判断をどこまで代行するか、結果だけを見せるかを分け、プランナーが決めるべき境界線を整理する。</description>
-      <pubDate>Tue, 04 Aug 2026 03:33:45 -0000</pubDate>
     </item>
   </channel>
 </rss>

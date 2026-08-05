@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [『ゼノブレイド』は、なぜ四世代のハードを渡れたのか](xenoblade-design-across-four-hardware-generations.md) 🟡
 - [『hololive Dreams』とholo Indie――配信者IPを「ファンと一緒に遊び続けるゲーム」へ翻訳する設計](hololive-dreams-vtuber-ip-co-creation-design.md) 🟡
 - [作品世界を「つなぐ」設計――UGSFと『崩壊3rd』×『崩壊：スターレイル』から考える、後年統合型と意図設計型](shared-universe-design-retrofit-versus-intent.md) 🟡
 - [セーブ後の「やり直し」とゲーム設計――防ぐ・思いとどまらせる・公式に受け止める](retry-design-save-scumming-game-planning.md) 🟡
 - [キャラクター編成・パーティ管理UIの設計](roster-party-ui-ux-design.md) 🟡
-- [オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線](auto-play-and-skip-boundaries-design.md) 🔴
 
 <!-- recent-articles:end -->
 
@@ -172,6 +172,7 @@
 - [『スプラトゥーン4』ではなくスピンオフを選んだ理由――『スプラトゥーン レイダース』の二つの方向転換から学ぶ設計判断](splatoon-raiders-spin-off-development-design-lessons.md) 🟡
 - [ゲームのリマスターとリメイク：ゲームプランナーが押さえるべき設計思想](game-remaster-remake-design-philosophy.md) 🟢
 - [『ペルソナ3』は18年・4バージョンで何を変え、何を変えなかったか――再解釈と追加販売を設計として読む](persona3-four-version-design-and-edition-strategy.md) 🟡
+- [『ゼノブレイド』は、なぜ四世代のハードを渡れたのか](xenoblade-design-across-four-hardware-generations.md) 🟡
 
 #### 📝 仕様・品質判断
 
