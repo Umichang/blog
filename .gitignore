@@ -17,3 +17,6 @@ vendor/bundle/
 .ruby-lsp/
 ARTICLES.md
 .jekyll-metadata
+
+# Local Notion recommendation-posts sync configuration (never store API tokens in Git)
+.notion-recommendation-sync.yml
