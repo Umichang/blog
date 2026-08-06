@@ -30,6 +30,12 @@ bundle exec jekyll build
 bundle exec jekyll serve
 ```
 
+## おすすめ記事投稿の管理
+
+Notionで日々のおすすめ記事投稿と過去のX投稿を管理する手順は、[おすすめ記事投稿台帳](docs/recommendation-posts.md)を参照してください。
+
+記事を `index.md` へ新着掲載する `scripts/update-recent-articles.rb` は、成功後にNotion記事台帳も同期します。Notionトークンは `~/.config/umichang-blog/notion.env` から読み込みます。
+
 サイトのレイアウトとスタイルはリポジトリ内の `_layouts/` と `assets/` で管理しているため、依存Gemの導入後はHTML生成時にリモートテーマの取得やネットワーク接続を必要としない。Bundlerが作る `vendor/bundle/` とJekyllの出力先 `_site/` はGit管理しない。
 
 ## アクセス解析の有効化

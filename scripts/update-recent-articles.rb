@@ -4,6 +4,7 @@
 require 'cgi'
 require 'fileutils'
 require 'rexml/document'
+require 'rbconfig'
 require 'time'
 require 'yaml'
 
@@ -159,6 +160,14 @@ ensure
   File.delete(temporary_path) if temporary_path && File.exist?(temporary_path)
 end
 
+def sync_notion_articles(root)
+  script = File.join(root, 'scripts', 'sync-notion-articles.rb')
+  return true if system(RbConfig.ruby, script)
+
+  warn 'Notion記事台帳の同期に失敗しました。Notionの設定を確認し、同じ公開コマンドを再実行してください。'
+  false
+end
+
 article_path, difficulty = ARGV
 abort_with_usage('引数は記事ファイルと、必要なら読みやすさです。') unless (1..2).cover?(ARGV.length)
 abort_with_usage("読みやすさは #{VALID_DIFFICULTIES.join('、')} のいずれかです。") if difficulty && !VALID_DIFFICULTIES.include?(difficulty)
@@ -227,3 +236,5 @@ if changed_files.empty?
 else
   puts "更新しました: #{changed_files.join('、')}"
 end
+
+fail_update('Notion記事台帳を同期できませんでした。') unless sync_notion_articles(root)
