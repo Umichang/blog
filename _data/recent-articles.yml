@@ -1,5 +1,7 @@
 ---
 articles:
+- path: journey-sky-nonverbal-communication-live-service-design.md
+  published_at: '2026-08-06T23:59:42Z'
 - path: xenoblade-design-across-four-hardware-generations.md
   published_at: '2026-08-05T23:28:38Z'
 - path: hololive-dreams-vtuber-ip-co-creation-design.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-05T10:34:36Z'
 - path: retry-design-save-scumming-game-planning.md
   published_at: '2026-08-04T23:46:55Z'
-- path: roster-party-ui-ux-design.md
-  published_at: '2026-08-04T11:27:15Z'

@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 05 Aug 2026 23:28:38 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 23:59:42 -0000</lastBuildDate>
+    <item>
+      <title>『風ノ旅ビト』から『Sky 星を紡ぐ子どもたち』へ――非言語コミュニケーションを持続する関係へ翻訳する設計</title>
+      <link>https://umichang.github.io/blog/journey-sky-nonverbal-communication-live-service-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/journey-sky-nonverbal-communication-live-service-design.html</guid>
+      <description>『風ノ旅ビト』と『Sky 星を紡ぐ子どもたち』を比較し、言葉を封じる設計が、継続する関係のために段階的な解禁へどう変わったかを読む。</description>
+      <pubDate>Thu, 06 Aug 2026 23:59:42 -0000</pubDate>
+    </item>
     <item>
       <title>『ゼノブレイド』は、なぜ四世代のハードを渡れたのか</title>
       <link>https://umichang.github.io/blog/xenoblade-design-across-four-hardware-generations.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/retry-design-save-scumming-game-planning.html</guid>
       <description>セーブ後に気に入らない結果だけを戻す「やり直し」を、技術的な抑止、心理的・制度的な抑止、限定的な公式救済という設計類型に分け、ゲームプランナーの判断軸と実務チェックリストを整理する。</description>
       <pubDate>Tue, 04 Aug 2026 23:46:55 -0000</pubDate>
-    </item>
-    <item>
-      <title>キャラクター編成・パーティ管理UIの設計</title>
-      <link>https://umichang.github.io/blog/roster-party-ui-ux-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/roster-party-ui-ux-design.html</guid>
-      <description>多数のキャラクターを抱えるゲームでは、編成画面がプレイヤーの判断速度と試行の幅を左右する。本稿は、選択肢の増加、フィルタとソート、リストの描画性能、運用上の記録、そして自動編成の境界を、育成設計とは切り分けて扱う。</description>
-      <pubDate>Tue, 04 Aug 2026 11:27:15 -0000</pubDate>
     </item>
   </channel>
 </rss>
