@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 08 Aug 2026 05:49:56 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 12:19:25 -0000</lastBuildDate>
+    <item>
+      <title>Nintendo Switch 2へ移植できるゲームは何で決まるのか――重量級タイトルから読む四つの判定軸</title>
+      <link>https://umichang.github.io/blog/switch-2-portability-four-axes.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/switch-2-portability-four-axes.html</guid>
+      <description>サイバーパンク2077、ファイナルファンタジーXIV、ファイナルファンタジーVII リメイクシリーズのNintendo Switch 2対応は、移植可否を「AAAかどうか」で決められないことを示す。GPUとCPUの非対称性、絵作り、オンライン構成、ストレージという四つの軸で、自社タイトルの移植を検討する。</description>
+      <pubDate>Sat, 08 Aug 2026 12:19:25 -0000</pubDate>
+    </item>
     <item>
       <title>『METAL GEAR SOLID 4』のオクトカムは何を自動化したのか――迷彩と長大なカットシーンから読む、プレイヤーの裁量の設計</title>
       <link>https://umichang.github.io/blog/metal-gear-solid-4-octocamo-cutscene-agency.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/xenoblade-design-across-four-hardware-generations.html</guid>
       <description>2010年のWii版『ゼノブレイド』は、巨大な神の身体を実際に歩いて渡るフィールド、リアルタイム戦闘、仲間の関係性をゲーム進行へ接続する設計を持っていた。Newニンテンドー3DS、Nintendo Switch、Nintendo Switch 2へ続く展開から、長寿タイトルが保存すべき設計骨格を考える。</description>
       <pubDate>Wed, 05 Aug 2026 23:28:38 -0000</pubDate>
-    </item>
-    <item>
-      <title>『hololive Dreams』とholo Indie――配信者IPを「ファンと一緒に遊び続けるゲーム」へ翻訳する設計</title>
-      <link>https://umichang.github.io/blog/hololive-dreams-vtuber-ip-co-creation-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/hololive-dreams-vtuber-ip-co-creation-design.html</guid>
-      <description>『hololive Dreams』とholo Indieを手がかりに、配信者IPをゲームへ翻訳する際の「公式制作」と「ファンの創作」の接続、そして活動終了という生きたIP固有のリスクを考える。</description>
-      <pubDate>Wed, 05 Aug 2026 12:36:45 -0000</pubDate>
     </item>
   </channel>
 </rss>

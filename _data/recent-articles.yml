@@ -1,5 +1,7 @@
 ---
 articles:
+- path: switch-2-portability-four-axes.md
+  published_at: '2026-08-08T12:19:25Z'
 - path: metal-gear-solid-4-octocamo-cutscene-agency.md
   published_at: '2026-08-08T05:49:56Z'
 - path: monster-hunter-portable-3rd-local-multiplayer-culture-peak.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-06T23:59:42Z'
 - path: xenoblade-design-across-four-hardware-generations.md
   published_at: '2026-08-05T23:28:38Z'
-- path: hololive-dreams-vtuber-ip-co-creation-design.md
-  published_at: '2026-08-05T12:36:45Z'
