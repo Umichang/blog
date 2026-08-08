@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [『モンスターハンターポータブル 3rd』が「持ち寄って狩る」文化の集大成になった理由](monster-hunter-portable-3rd-local-multiplayer-culture-peak.md) 🟡
 - [『風ノ旅ビト』から『Sky 星を紡ぐ子どもたち』へ――非言語コミュニケーションを持続する関係へ翻訳する設計](journey-sky-nonverbal-communication-live-service-design.md) 🟡
 - [『ゼノブレイド』は、なぜ四世代のハードを渡れたのか](xenoblade-design-across-four-hardware-generations.md) 🟡
 - [『hololive Dreams』とholo Indie――配信者IPを「ファンと一緒に遊び続けるゲーム」へ翻訳する設計](hololive-dreams-vtuber-ip-co-creation-design.md) 🟡
 - [作品世界を「つなぐ」設計――UGSFと『崩壊3rd』×『崩壊：スターレイル』から考える、後年統合型と意図設計型](shared-universe-design-retrofit-versus-intent.md) 🟡
-- [セーブ後の「やり直し」とゲーム設計――防ぐ・思いとどまらせる・公式に受け止める](retry-design-save-scumming-game-planning.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -84,6 +84,7 @@
 - [ゲームの非同期オンライン要素：プレイヤー体験視点の分類と設計指針](asynchronous-online-gameplay-design.md) 🟡
 - [家庭用ゲーム機のネット対戦――物理的遅延の構造と遅延を隠す技術](console-online-multiplayer-latency-techniques.md) 🟡
 - [オンラインゲームのアンチチート技術：歴史・現状・開発者の判断軸](online-game-anti-cheat-technology-history.md) 🔴
+- [『モンスターハンターポータブル 3rd』が「持ち寄って狩る」文化の集大成になった理由](monster-hunter-portable-3rd-local-multiplayer-culture-peak.md) 🟡
 
 ### 🧩 ゲームシステム・プレイヤー体験
 
