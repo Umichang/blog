@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 08 Aug 2026 04:51:11 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 05:49:56 -0000</lastBuildDate>
+    <item>
+      <title>『METAL GEAR SOLID 4』のオクトカムは何を自動化したのか――迷彩と長大なカットシーンから読む、プレイヤーの裁量の設計</title>
+      <link>https://umichang.github.io/blog/metal-gear-solid-4-octocamo-cutscene-agency.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/metal-gear-solid-4-octocamo-cutscene-agency.html</guid>
+      <description>『METAL GEAR SOLID 4 GUNS OF THE PATRIOTS』のオクトカムは、迷彩選択を自動化して潜入の流れを守った。その快適さと、長大なカットシーンに現れる作家性を、プレイヤーの裁量という観点から読む。</description>
+      <pubDate>Sat, 08 Aug 2026 05:49:56 -0000</pubDate>
+    </item>
     <item>
       <title>『モンスターハンターポータブル 3rd』が「持ち寄って狩る」文化の集大成になった理由</title>
       <link>https://umichang.github.io/blog/monster-hunter-portable-3rd-local-multiplayer-culture-peak.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/hololive-dreams-vtuber-ip-co-creation-design.html</guid>
       <description>『hololive Dreams』とholo Indieを手がかりに、配信者IPをゲームへ翻訳する際の「公式制作」と「ファンの創作」の接続、そして活動終了という生きたIP固有のリスクを考える。</description>
       <pubDate>Wed, 05 Aug 2026 12:36:45 -0000</pubDate>
-    </item>
-    <item>
-      <title>作品世界を「つなぐ」設計――UGSFと『崩壊3rd』×『崩壊：スターレイル』から考える、後年統合型と意図設計型</title>
-      <link>https://umichang.github.io/blog/shared-universe-design-retrofit-versus-intent.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/shared-universe-design-retrofit-versus-intent.html</guid>
-      <description>複数タイトルの作品世界をつなぐ設計には、既存資産を後年に公式統合する型と、新作展開を見越して初期から接続点を置く型がある。UGSFと『崩壊3rd』×『崩壊：スターレイル』を対比し、プレイヤーの発見と各タイトルの独立性を両立する企画判断を整理する。</description>
-      <pubDate>Wed, 05 Aug 2026 10:34:36 -0000</pubDate>
     </item>
   </channel>
 </rss>
