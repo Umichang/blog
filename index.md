@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [『The Last of Us』は、なぜ「生き残る判断」を手放させないのか](the-last-of-us-single-player-core-design.md) 🟡
 - [Nintendo Switch 2へ移植できるゲームは何で決まるのか――重量級タイトルから読む四つの判定軸](switch-2-portability-four-axes.md) 🟡
 - [『METAL GEAR SOLID 4』のオクトカムは何を自動化したのか――迷彩と長大なカットシーンから読む、プレイヤーの裁量の設計](metal-gear-solid-4-octocamo-cutscene-agency.md) 🟡
 - [『モンスターハンターポータブル 3rd』が「持ち寄って狩る」文化の集大成になった理由](monster-hunter-portable-3rd-local-multiplayer-culture-peak.md) 🟡
 - [『風ノ旅ビト』から『Sky 星を紡ぐ子どもたち』へ――非言語コミュニケーションを持続する関係へ翻訳する設計](journey-sky-nonverbal-communication-live-service-design.md) 🟡
-- [『ゼノブレイド』は、なぜ四世代のハードを渡れたのか](xenoblade-design-across-four-hardware-generations.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -90,6 +90,7 @@
 
 #### 🕵️ ステルス・サバイバル
 
+- [『The Last of Us』は、なぜ「生き残る判断」を手放させないのか](the-last-of-us-single-player-core-design.md) 🟡
 - [『METAL GEAR SOLID 3』は「サバイバル」をどう数値と操作へ翻訳したか――『METAL GEAR SOLID Δ』に学ぶ、変えないための変更](metal-gear-solid-3-survival-system-remake-translation.md) 🟡
 - [『METAL GEAR SOLID 4』のオクトカムは何を自動化したのか――迷彩と長大なカットシーンから読む、プレイヤーの裁量の設計](metal-gear-solid-4-octocamo-cutscene-agency.md) 🟡
 - [『バイオハザード4』と『バイオRE:4』——変えた設計、変えなかった設計](re4-vs-re4remake-game-design.md) 🟡

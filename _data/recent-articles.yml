@@ -1,5 +1,7 @@
 ---
 articles:
+- path: the-last-of-us-single-player-core-design.md
+  published_at: '2026-08-08T23:54:02Z'
 - path: switch-2-portability-four-axes.md
   published_at: '2026-08-08T12:19:25Z'
 - path: metal-gear-solid-4-octocamo-cutscene-agency.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-08T04:51:11Z'
 - path: journey-sky-nonverbal-communication-live-service-design.md
   published_at: '2026-08-06T23:59:42Z'
-- path: xenoblade-design-across-four-hardware-generations.md
-  published_at: '2026-08-05T23:28:38Z'
