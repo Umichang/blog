@@ -1,5 +1,7 @@
 ---
 articles:
+- path: dragons-dogma-core-design-friction-pawns-vocations.md
+  published_at: '2026-08-09T14:03:54Z'
 - path: the-last-of-us-single-player-core-design.md
   published_at: '2026-08-08T23:54:02Z'
 - path: switch-2-portability-four-axes.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-08T05:49:56Z'
 - path: monster-hunter-portable-3rd-local-multiplayer-culture-peak.md
   published_at: '2026-08-08T04:51:11Z'
-- path: journey-sky-nonverbal-communication-live-service-design.md
-  published_at: '2026-08-06T23:59:42Z'

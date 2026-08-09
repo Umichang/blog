@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 08 Aug 2026 23:54:02 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 14:03:54 -0000</lastBuildDate>
+    <item>
+      <title>『ドラゴンズドグマ』はなぜ「不便さ」を捨てなかったのか――ポーン、移動、よじ登り、ヴォケーションで読む核設計</title>
+      <link>https://umichang.github.io/blog/dragons-dogma-core-design-friction-pawns-vocations.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/dragons-dogma-core-design-friction-pawns-vocations.html</guid>
+      <description>『ドラゴンズドグマ』と『ドラゴンズドグマ 2』を、ポーン、移動の摩擦、よじ登り戦闘、ヴォケーションから読む。便利さを減らすのではなく、道中で判断させるための核設計をゲームプランナー向けに整理する。</description>
+      <pubDate>Sun, 09 Aug 2026 14:03:54 -0000</pubDate>
+    </item>
     <item>
       <title>『The Last of Us』は、なぜ「生き残る判断」を手放させないのか</title>
       <link>https://umichang.github.io/blog/the-last-of-us-single-player-core-design.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/monster-hunter-portable-3rd-local-multiplayer-culture-peak.html</guid>
       <description>『モンスターハンターポータブル 3rd』は、『モンスターハンターポータブル 2nd G』が定着させたPSPの対面協力文化を、ローカル通信の設計と遊びやすさで商業的・文化的なピークへ運んだ集大成である。携帯機向けの再構成と、人数が有利になる協力設計をゲームプランナー向けに分析する。</description>
       <pubDate>Sat, 08 Aug 2026 04:51:11 -0000</pubDate>
-    </item>
-    <item>
-      <title>『風ノ旅ビト』から『Sky 星を紡ぐ子どもたち』へ――非言語コミュニケーションを持続する関係へ翻訳する設計</title>
-      <link>https://umichang.github.io/blog/journey-sky-nonverbal-communication-live-service-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/journey-sky-nonverbal-communication-live-service-design.html</guid>
-      <description>『風ノ旅ビト』と『Sky 星を紡ぐ子どもたち』を比較し、言葉を封じる設計が、継続する関係のために段階的な解禁へどう変わったかを読む。</description>
-      <pubDate>Thu, 06 Aug 2026 23:59:42 -0000</pubDate>
     </item>
   </channel>
 </rss>

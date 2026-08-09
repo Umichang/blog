@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [『ドラゴンズドグマ』はなぜ「不便さ」を捨てなかったのか――ポーン、移動、よじ登り、ヴォケーションで読む核設計](dragons-dogma-core-design-friction-pawns-vocations.md) 🟡
 - [『The Last of Us』は、なぜ「生き残る判断」を手放させないのか](the-last-of-us-single-player-core-design.md) 🟡
 - [Nintendo Switch 2へ移植できるゲームは何で決まるのか――重量級タイトルから読む四つの判定軸](switch-2-portability-four-axes.md) 🟡
 - [『METAL GEAR SOLID 4』のオクトカムは何を自動化したのか――迷彩と長大なカットシーンから読む、プレイヤーの裁量の設計](metal-gear-solid-4-octocamo-cutscene-agency.md) 🟡
 - [『モンスターハンターポータブル 3rd』が「持ち寄って狩る」文化の集大成になった理由](monster-hunter-portable-3rd-local-multiplayer-culture-peak.md) 🟡
-- [『風ノ旅ビト』から『Sky 星を紡ぐ子どもたち』へ――非言語コミュニケーションを持続する関係へ翻訳する設計](journey-sky-nonverbal-communication-live-service-design.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -115,6 +115,7 @@
 - [チュートリアル設計の罠——「教えすぎ」と「放置」の間を探る](tutorial-design-overteaching-vs-neglect.md) 🟢
 - [難易度設計とダイナミックディフィカルティ――「ちょうどよい挑戦」を壊さず運用する実務](difficulty-design-and-dynamic-adjustment.md) 🟡
 - [『ELDEN RING』はなぜ死にゲーをマスマーケットへ運べたのか――難易度を下げず、関所に迂回路を作るオープンワールド設計](elden-ring-open-world-detour-design.md) 🟡
+- [『ドラゴンズドグマ』はなぜ「不便さ」を捨てなかったのか――ポーン、移動、よじ登り、ヴォケーションで読む核設計](dragons-dogma-core-design-friction-pawns-vocations.md) 🟡
 - [セーブ後の「やり直し」とゲーム設計――防ぐ・思いとどまらせる・公式に受け止める](retry-design-save-scumming-game-planning.md) 🟡
 
 #### ⚔️ バトル・対戦・デッキ構築
