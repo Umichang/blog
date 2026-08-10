@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [『アンチャーテッド 黄金刀と消えた船団』が実現した「操作できる映画」――四つの核設計](uncharted-2-active-cinematic-experience-core-design.md) 🟡
 - [『ドラゴンズドグマ』はなぜ「不便さ」を捨てなかったのか――ポーン、移動、よじ登り、ヴォケーションで読む核設計](dragons-dogma-core-design-friction-pawns-vocations.md) 🟡
 - [『The Last of Us』は、なぜ「生き残る判断」を手放させないのか](the-last-of-us-single-player-core-design.md) 🟡
 - [Nintendo Switch 2へ移植できるゲームは何で決まるのか――重量級タイトルから読む四つの判定軸](switch-2-portability-four-axes.md) 🟡
 - [『METAL GEAR SOLID 4』のオクトカムは何を自動化したのか――迷彩と長大なカットシーンから読む、プレイヤーの裁量の設計](metal-gear-solid-4-octocamo-cutscene-agency.md) 🟡
-- [『モンスターハンターポータブル 3rd』が「持ち寄って狩る」文化の集大成になった理由](monster-hunter-portable-3rd-local-multiplayer-culture-peak.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -160,6 +160,7 @@
 
 - [『塊魂』は、なぜ新人プランナーの参考になるのか――単一ルールと限られた資源から生まれた設計判断](katamari-damacy-design-judgments-for-junior-planners.md) 🟢
 - [初代『ピクミン』の企画はどこから生まれたのか――断片を一枚のゲームフローへ統合する、プランナーの設計判断集](pikmin-design-origin-game-flow-planner-lessons.md) 🟢
+- [『アンチャーテッド 黄金刀と消えた船団』が実現した「操作できる映画」――四つの核設計](uncharted-2-active-cinematic-experience-core-design.md) 🟡
 - [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
 - [ゲームにおける非機能要件](game-non-functional-requirements.md) 🔴
 - [本番想定の負荷試験・キャパシティプランニングの実務](production-load-testing-capacity-planning-for-planners.md) 🔴
