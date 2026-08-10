@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 10 Aug 2026 15:22:08 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 23:49:00 -0000</lastBuildDate>
+    <item>
+      <title>東亜プランの企業史：消えた組織から、複数のシューティング設計文化が生まれるまで</title>
+      <link>https://umichang.github.io/blog/toaplan-company-history-design-culture.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/toaplan-company-history-design-culture.html</guid>
+      <description>東亜プランが残した「撃って避ける」設計は、倒産後にケイブやライジングなどで異なる作風へ分岐した。アーケードシューティングの名門を、設計文化の継承という組織史から読み解く。</description>
+      <pubDate>Mon, 10 Aug 2026 23:49:00 -0000</pubDate>
+    </item>
     <item>
       <title>MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計</title>
       <link>https://umichang.github.io/blog/mmorpg-planning-development-live-operations-basics.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/dragons-dogma-core-design-friction-pawns-vocations.html</guid>
       <description>『ドラゴンズドグマ』と『ドラゴンズドグマ 2』を、ポーン、移動の摩擦、よじ登り戦闘、ヴォケーションから読む。便利さを減らすのではなく、道中で判断させるための核設計をゲームプランナー向けに整理する。</description>
       <pubDate>Sun, 09 Aug 2026 14:03:54 -0000</pubDate>
-    </item>
-    <item>
-      <title>『The Last of Us』は、なぜ「生き残る判断」を手放させないのか</title>
-      <link>https://umichang.github.io/blog/the-last-of-us-single-player-core-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/the-last-of-us-single-player-core-design.html</guid>
-      <description>『The Last of Us』は、弾薬と素材の希少性、ステルスと戦闘を往還する遭遇、異なる知覚を持つ敵AI、そしてエリーのコンパニオンAIを重ね、ジョエルとエリーの旅をプレイヤー自身の判断として経験させた。PS3版のシングルプレイ設計を、ゲームプランナーの視点から読む。</description>
-      <pubDate>Sat, 08 Aug 2026 23:54:02 -0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,7 @@
 ---
 articles:
+- path: toaplan-company-history-design-culture.md
+  published_at: '2026-08-10T23:49:00Z'
 - path: mmorpg-planning-development-live-operations-basics.md
   published_at: '2026-08-10T15:22:08Z'
 - path: ps2-ps3-remaster-technical-debt.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-10T02:58:24Z'
 - path: dragons-dogma-core-design-friction-pawns-vocations.md
   published_at: '2026-08-09T14:03:54Z'
-- path: the-last-of-us-single-player-core-design.md
-  published_at: '2026-08-08T23:54:02Z'
