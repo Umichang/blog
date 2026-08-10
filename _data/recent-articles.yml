@@ -1,5 +1,7 @@
 ---
 articles:
+- path: ps2-ps3-remaster-technical-debt.md
+  published_at: '2026-08-10T10:58:36Z'
 - path: uncharted-2-active-cinematic-experience-core-design.md
   published_at: '2026-08-10T02:58:24Z'
 - path: dragons-dogma-core-design-friction-pawns-vocations.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-08T23:54:02Z'
 - path: switch-2-portability-four-axes.md
   published_at: '2026-08-08T12:19:25Z'
-- path: metal-gear-solid-4-octocamo-cutscene-agency.md
-  published_at: '2026-08-08T05:49:56Z'

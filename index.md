@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [なぜPS2・PS3世代のリマスターは難しいのか――ハード固有最適化を「技術的負債」で読む](ps2-ps3-remaster-technical-debt.md) 🟡
 - [『アンチャーテッド 黄金刀と消えた船団』が実現した「操作できる映画」――四つの核設計](uncharted-2-active-cinematic-experience-core-design.md) 🟡
 - [『ドラゴンズドグマ』はなぜ「不便さ」を捨てなかったのか――ポーン、移動、よじ登り、ヴォケーションで読む核設計](dragons-dogma-core-design-friction-pawns-vocations.md) 🟡
 - [『The Last of Us』は、なぜ「生き残る判断」を手放させないのか](the-last-of-us-single-player-core-design.md) 🟡
 - [Nintendo Switch 2へ移植できるゲームは何で決まるのか――重量級タイトルから読む四つの判定軸](switch-2-portability-four-axes.md) 🟡
-- [『METAL GEAR SOLID 4』のオクトカムは何を自動化したのか――迷彩と長大なカットシーンから読む、プレイヤーの裁量の設計](metal-gear-solid-4-octocamo-cutscene-agency.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -344,6 +344,7 @@
 #### ⚙️ ハードウェア技術・仕様・保護
 
 - [ハードウェア「スペック戦争」の実態史――128ビットからテラフロップスまで](128-bit-to-teraflops-spec-wars.md) 🟢
+- [なぜPS2・PS3世代のリマスターは難しいのか――ハード固有最適化を「技術的負債」で読む](ps2-ps3-remaster-technical-debt.md) 🟡
 - [任天堂ハードウェアの海賊版・未承認ソフト対策史](nintendo-hardware-anti-piracy-report.md) 🟡
 - [Nintendo Switch 2の電池交換対応から読む、EU規制がハードウェア設計を変える仕組み](nintendo-switch-2-eu-battery-regulation-design.md) 🔴
 - [Nintendo Switch 2へ移植できるゲームは何で決まるのか――重量級タイトルから読む四つの判定軸](switch-2-portability-four-axes.md) 🟡
