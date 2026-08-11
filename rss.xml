@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 10 Aug 2026 23:49:00 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 15:09:32 -0000</lastBuildDate>
+    <item>
+      <title>『バランス・オブ・パワー』は政治をどう動詞にしたか：抽象システムを遊びへ翻訳する設計</title>
+      <link>https://umichang.github.io/blog/balance-of-power-political-system-game-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/balance-of-power-political-system-game-design.html</guid>
+      <description>『バランス・オブ・パワー』は、政治や外交という抽象的な題材を、限られた動詞と危機の反復へ変えた。後発4作品との比較から、システムを遊びへ翻訳する設計手順を読み解く。</description>
+      <pubDate>Tue, 11 Aug 2026 15:09:32 -0000</pubDate>
+    </item>
     <item>
       <title>東亜プランの企業史：消えた組織から、複数のシューティング設計文化が生まれるまで</title>
       <link>https://umichang.github.io/blog/toaplan-company-history-design-culture.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/uncharted-2-active-cinematic-experience-core-design.html</guid>
       <description>『アンチャーテッド 黄金刀と消えた船団』のペーシング、トラバーサル・ガンプレイ、敵AI、セットピースを、「操作できる映画」という一貫した設計目標から読み解く。</description>
       <pubDate>Mon, 10 Aug 2026 02:58:24 -0000</pubDate>
-    </item>
-    <item>
-      <title>『ドラゴンズドグマ』はなぜ「不便さ」を捨てなかったのか――ポーン、移動、よじ登り、ヴォケーションで読む核設計</title>
-      <link>https://umichang.github.io/blog/dragons-dogma-core-design-friction-pawns-vocations.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/dragons-dogma-core-design-friction-pawns-vocations.html</guid>
-      <description>『ドラゴンズドグマ』と『ドラゴンズドグマ 2』を、ポーン、移動の摩擦、よじ登り戦闘、ヴォケーションから読む。便利さを減らすのではなく、道中で判断させるための核設計をゲームプランナー向けに整理する。</description>
-      <pubDate>Sun, 09 Aug 2026 14:03:54 -0000</pubDate>
     </item>
   </channel>
 </rss>

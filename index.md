@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [『バランス・オブ・パワー』は政治をどう動詞にしたか：抽象システムを遊びへ翻訳する設計](balance-of-power-political-system-game-design.md) 🟡
 - [東亜プランの企業史：消えた組織から、複数のシューティング設計文化が生まれるまで](toaplan-company-history-design-culture.md) 🟡
 - [MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計](mmorpg-planning-development-live-operations-basics.md) 🟡
 - [なぜPS2・PS3世代のリマスターは難しいのか――ハード固有最適化を「技術的負債」で読む](ps2-ps3-remaster-technical-debt.md) 🟡
 - [『アンチャーテッド 黄金刀と消えた船団』が実現した「操作できる映画」――四つの核設計](uncharted-2-active-cinematic-experience-core-design.md) 🟡
-- [『ドラゴンズドグマ』はなぜ「不便さ」を捨てなかったのか――ポーン、移動、よじ登り、ヴォケーションで読む核設計](dragons-dogma-core-design-friction-pawns-vocations.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -160,6 +160,7 @@
 
 - [『塊魂』は、なぜ新人プランナーの参考になるのか――単一ルールと限られた資源から生まれた設計判断](katamari-damacy-design-judgments-for-junior-planners.md) 🟢
 - [初代『ピクミン』の企画はどこから生まれたのか――断片を一枚のゲームフローへ統合する、プランナーの設計判断集](pikmin-design-origin-game-flow-planner-lessons.md) 🟢
+- [『バランス・オブ・パワー』は政治をどう動詞にしたか：抽象システムを遊びへ翻訳する設計](balance-of-power-political-system-game-design.md) 🟡
 - [『アンチャーテッド 黄金刀と消えた船団』が実現した「操作できる映画」――四つの核設計](uncharted-2-active-cinematic-experience-core-design.md) 🟡
 - [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
 - [MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計](mmorpg-planning-development-live-operations-basics.md) 🟡
