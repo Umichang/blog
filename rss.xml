@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 11 Aug 2026 15:09:32 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 08:53:04 -0000</lastBuildDate>
+    <item>
+      <title>ゲームはどこまで保存できるのか――博物館に残せる作品と、戻らないライブサービスの「お祭り」</title>
+      <link>https://umichang.github.io/blog/game-preservation-playable-archives-and-live-service-limits.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-preservation-playable-archives-and-live-service-limits.html</guid>
+      <description>ゲーム保存の対象を、完成品として残せるパッケージ・アーケード型と、運営・人口・知識が体験を変えるライブサービス型に分け、開発段階から何を保存し、何を記録すべきかを考える。</description>
+      <pubDate>Wed, 12 Aug 2026 08:53:04 -0000</pubDate>
+    </item>
     <item>
       <title>『バランス・オブ・パワー』は政治をどう動詞にしたか：抽象システムを遊びへ翻訳する設計</title>
       <link>https://umichang.github.io/blog/balance-of-power-political-system-game-design.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/ps2-ps3-remaster-technical-debt.html</guid>
       <description>PS2のGraphics SynthesizerとPS3のCell、『ANUBIS』の修正事例を通じて、ハード固有最適化が現行機への再現・再設計・検証コストへ変わる構造を、技術的負債の枠組みで解説する。</description>
       <pubDate>Mon, 10 Aug 2026 10:58:36 -0000</pubDate>
-    </item>
-    <item>
-      <title>『アンチャーテッド 黄金刀と消えた船団』が実現した「操作できる映画」――四つの核設計</title>
-      <link>https://umichang.github.io/blog/uncharted-2-active-cinematic-experience-core-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/uncharted-2-active-cinematic-experience-core-design.html</guid>
-      <description>『アンチャーテッド 黄金刀と消えた船団』のペーシング、トラバーサル・ガンプレイ、敵AI、セットピースを、「操作できる映画」という一貫した設計目標から読み解く。</description>
-      <pubDate>Mon, 10 Aug 2026 02:58:24 -0000</pubDate>
     </item>
   </channel>
 </rss>
