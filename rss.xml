@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 12 Aug 2026 08:53:04 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 16:05:22 -0000</lastBuildDate>
+    <item>
+      <title>世界展開するライブサービスゲームの季節イベント設計――宗教・文化の摩擦と訴求力をどう選ぶか</title>
+      <link>https://umichang.github.io/blog/live-service-seasonal-event-cultural-calendar-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/live-service-seasonal-event-cultural-calendar-design.html</guid>
+      <description>世界展開するライブサービスゲームでは、現実の行事が強い集客・売上の入口になる一方、宗教や文化の受け止め方が地域ごとに異なる。5つのイベント戦略を比較し、どの摩擦を引き受けるか決める判断軸を整理する。</description>
+      <pubDate>Wed, 12 Aug 2026 16:05:22 -0000</pubDate>
+    </item>
     <item>
       <title>ゲームはどこまで保存できるのか――博物館に残せる作品と、戻らないライブサービスの「お祭り」</title>
       <link>https://umichang.github.io/blog/game-preservation-playable-archives-and-live-service-limits.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/mmorpg-planning-development-live-operations-basics.html</guid>
       <description>MMORPGの企画書は、発売後の運営まで含めて完成する。World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2を比較し、競合調査、事業モデル、差別化、需要予測、レベル上限後の定住設計、運営体制までを一つの設計として捉える。</description>
       <pubDate>Mon, 10 Aug 2026 15:22:08 -0000</pubDate>
-    </item>
-    <item>
-      <title>なぜPS2・PS3世代のリマスターは難しいのか――ハード固有最適化を「技術的負債」で読む</title>
-      <link>https://umichang.github.io/blog/ps2-ps3-remaster-technical-debt.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/ps2-ps3-remaster-technical-debt.html</guid>
-      <description>PS2のGraphics SynthesizerとPS3のCell、『ANUBIS』の修正事例を通じて、ハード固有最適化が現行機への再現・再設計・検証コストへ変わる構造を、技術的負債の枠組みで解説する。</description>
-      <pubDate>Mon, 10 Aug 2026 10:58:36 -0000</pubDate>
     </item>
   </channel>
 </rss>

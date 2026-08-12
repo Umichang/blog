@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [世界展開するライブサービスゲームの季節イベント設計――宗教・文化の摩擦と訴求力をどう選ぶか](live-service-seasonal-event-cultural-calendar-design.md) 🟡
 - [ゲームはどこまで保存できるのか――博物館に残せる作品と、戻らないライブサービスの「お祭り」](game-preservation-playable-archives-and-live-service-limits.md) 🔴
 - [『バランス・オブ・パワー』は政治をどう動詞にしたか：抽象システムを遊びへ翻訳する設計](balance-of-power-political-system-game-design.md) 🟡
 - [東亜プランの企業史：消えた組織から、複数のシューティング設計文化が生まれるまで](toaplan-company-history-design-culture.md) 🟡
 - [MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計](mmorpg-planning-development-live-operations-basics.md) 🟡
-- [なぜPS2・PS3世代のリマスターは難しいのか――ハード固有最適化を「技術的負債」で読む](ps2-ps3-remaster-technical-debt.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -233,6 +233,7 @@
 
 - [ライブ運営の実務――リリース後90日から継続運営まで](live-ops-operations-from-launch-to-sustained-growth.md) 🔴
 - [期間限定イベント設計の実務――目的、報酬、救済、終了処理を一枚の仕様へ落とす](limited-time-event-design-practices.md) 🔴
+- [世界展開するライブサービスゲームの季節イベント設計――宗教・文化の摩擦と訴求力をどう選ぶか](live-service-seasonal-event-cultural-calendar-design.md) 🟡
 - [スタミナ・AP（行動力）システムの設計実務](stamina-energy-system-design-practices.md) 🔴
 - [オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線](auto-play-and-skip-boundaries-design.md) 🔴
 - [ゲーム内経済の設計――通貨とアイテムを壊さず回し続ける実務](in-game-economy-design.md) 🔴
