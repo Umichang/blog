@@ -1,5 +1,7 @@
 ---
 description: "対戦格闘ゲームの歴史は、しばしば『ストリートファイターII』から始まる。しかし、これは半分だけ正しい。"
+category: genre-game-culture
+difficulty: green
 ---
 
 # 対戦格闘ゲームの歴史――ストII以前からロールバック時代まで

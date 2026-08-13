@@ -1,5 +1,7 @@
 ---
 description: "『Cyberpunk 2077』の発売時の混乱を、開発スコープ、機種別の品質、発売判断、宣伝と実像のずれから分析し、開発現場の教訓を整理する。"
+category: planning-spec-dev-process
+difficulty: green
 ---
 
 # Cyberpunk 2077 崩壊の構造

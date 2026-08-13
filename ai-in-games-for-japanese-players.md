@@ -1,5 +1,7 @@
 ---
 description: "日本で親しまれたゲームを例に、敵、味方、群衆、対戦相手としてのAIがどのようにプレイヤー体験を作ってきたかを読み解く。"
+category: game-ai
+difficulty: green
 ---
 
 # AIの登場するゲームたち

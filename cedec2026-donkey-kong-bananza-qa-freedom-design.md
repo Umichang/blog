@@ -1,5 +1,7 @@
 ---
 description: "『ドンキーコング バナンザ』のCEDEC2026 QAセッションを基に、自由な破壊を制約せず安全にする品質保証の実務と、ゲームプランナーが初期からQAを共同設計者にする意義を解説する。"
+category: qa-debug-release
+difficulty: yellow
 ---
 
 # CEDEC2026フォローアップ：『ドンキーコング バナンザ』が自由な破壊を守るために行ったQA

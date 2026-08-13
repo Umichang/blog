@@ -1,5 +1,7 @@
 ---
 description: "1983年（ファミコン版は1985年）、堀井雄二がデザインした『ポートピア連続殺人事件』の結末は、ゲーム史に刻まれる衝撃として語り継がれている。"
+category: narrative-worldbuilding-puzzle
+difficulty: green
 ---
 
 # 「犯人はヤス」に見るゲーム独自の謎解きと第四の壁

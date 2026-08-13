@@ -1,5 +1,7 @@
 ---
 description: "『風ノ旅ビト』と『Sky 星を紡ぐ子どもたち』を比較し、言葉を封じる設計が、継続する関係のために段階的な解禁へどう変わったかを読む。"
+category: game-systems-player-experience
+difficulty: yellow
 ---
 
 # 『風ノ旅ビト』から『Sky 星を紡ぐ子どもたち』へ――非言語コミュニケーションを持続する関係へ翻訳する設計

@@ -1,5 +1,7 @@
 ---
 description: "『原神』以降、中国発のアニメ調・基本プレイ無料ゲームは、スマートフォン中心のゲームから、PC・家庭用ゲーム機・スマートフォンを同時に狙う大型の継続運営型ゲームへ変わった。"
+category: business-market-monetization
+difficulty: yellow
 ---
 
 # 複数プラットフォーム対応・基本プレイ無料ゲームの開発工数と収益構造

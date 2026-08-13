@@ -1,5 +1,7 @@
 ---
 description: "『原神』がPC・家庭用ゲーム機・モバイルへ入口を広げながら、プレイヤー体験とセーブデータを一つのサービスへ寄せた設計判断を読む。MinecraftのJava版／Bedrock版との対比から、プラットフォーム戦略を考えるゲームプランナー向け記事。"
+category: business-market-monetization
+difficulty: yellow
 ---
 
 # 『原神』はなぜ超大型タイトルになれたのか――端末を増やし、体験を分岐させない設計

@@ -1,5 +1,7 @@
 ---
 description: "RTA in Japanを手がかりに、タイムアタックが競技、配信、寄付イベントとして成立する仕組みと、ゲーム文化における位置付けをたどる。"
+category: genre-game-culture
+difficulty: green
 ---
 
 # RTA in Japan――寄付イベントとしてのタイムアタック文化
