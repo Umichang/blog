@@ -1,5 +1,7 @@
 ---
 articles:
+- path: steam-adult-content-payment-banking-bottlenecks.md
+  published_at: '2026-08-13T08:06:22Z'
 - path: ni-no-kuni-ghibli-direction-game-design-translation.md
   published_at: '2026-08-13T03:35:32Z'
 - path: valkyria-chronicles-war-emotional-weight-design.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-12T16:05:22Z'
 - path: game-preservation-playable-archives-and-live-service-limits.md
   published_at: '2026-08-12T08:53:04Z'
-- path: balance-of-power-political-system-game-design.md
-  published_at: '2026-08-11T15:09:32Z'
