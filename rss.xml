@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 12 Aug 2026 16:05:22 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 00:39:22 -0000</lastBuildDate>
+    <item>
+      <title>『戦場のヴァルキュリア』はなぜ写実を捨てたのか――CANVAS、BLiTZ、パーマデスを貫く「戦争の重み」の設計</title>
+      <link>https://umichang.github.io/blog/valkyria-chronicles-war-emotional-weight-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/valkyria-chronicles-war-emotional-weight-design.html</guid>
+      <description>『戦場のヴァルキュリア』がCANVAS、BLiTZ、兵科一括成長、パーマデス、架空欧州をどう一つの感情目標へ束ね、戦争の重みをプレイヤーへ返したかを設計面から読み解く。</description>
+      <pubDate>Thu, 13 Aug 2026 00:39:22 -0000</pubDate>
+    </item>
     <item>
       <title>世界展開するライブサービスゲームの季節イベント設計――宗教・文化の摩擦と訴求力をどう選ぶか</title>
       <link>https://umichang.github.io/blog/live-service-seasonal-event-cultural-calendar-design.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/toaplan-company-history-design-culture.html</guid>
       <description>東亜プランが残した「撃って避ける」設計は、倒産後にケイブやライジングなどで異なる作風へ分岐した。アーケードシューティングの名門を、設計文化の継承という組織史から読み解く。</description>
       <pubDate>Mon, 10 Aug 2026 23:49:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計</title>
-      <link>https://umichang.github.io/blog/mmorpg-planning-development-live-operations-basics.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/mmorpg-planning-development-live-operations-basics.html</guid>
-      <description>MMORPGの企画書は、発売後の運営まで含めて完成する。World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2を比較し、競合調査、事業モデル、差別化、需要予測、レベル上限後の定住設計、運営体制までを一つの設計として捉える。</description>
-      <pubDate>Mon, 10 Aug 2026 15:22:08 -0000</pubDate>
     </item>
   </channel>
 </rss>

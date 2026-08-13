@@ -1,5 +1,7 @@
 ---
 articles:
+- path: valkyria-chronicles-war-emotional-weight-design.md
+  published_at: '2026-08-13T00:39:22Z'
 - path: live-service-seasonal-event-cultural-calendar-design.md
   published_at: '2026-08-12T16:05:22Z'
 - path: game-preservation-playable-archives-and-live-service-limits.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-11T15:09:32Z'
 - path: toaplan-company-history-design-culture.md
   published_at: '2026-08-10T23:49:00Z'
-- path: mmorpg-planning-development-live-operations-basics.md
-  published_at: '2026-08-10T15:22:08Z'
