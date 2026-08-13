@@ -1,5 +1,7 @@
 ---
 description: "MMORPGの企画書は、発売後の運営まで含めて完成する。World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2を比較し、競合調査、事業モデル、差別化、需要予測、レベル上限後の定住設計、運営体制までを一つの設計として捉える。"
+category: planning-spec-dev-process
+difficulty: yellow
 ---
 
 # MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計

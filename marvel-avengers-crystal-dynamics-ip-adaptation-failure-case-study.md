@@ -1,5 +1,7 @@
 ---
 description: "大型IPをゲーム化するとき、原作の知名度は強力な初速をもたらす。しかし、その知名度は、ゲームとして何を提供する企画なのかを代わりに決めてはくれない。2020年の『Marvel's Avengers』は、そのことを端的に示した。"
+category: ip-adaptation
+difficulty: yellow
 ---
 
 # 『Marvel's Avengers』は、なぜ大型IPをゲームとして定着させられなかったのか――座組みから読む失敗事例

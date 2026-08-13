@@ -1,5 +1,7 @@
 ---
 description: "PS2のGraphics SynthesizerとPS3のCell、『ANUBIS』の修正事例を通じて、ハード固有最適化が現行機への再現・再設計・検証コストへ変わる構造を、技術的負債の枠組みで解説する。"
+category: platform-hardware
+difficulty: yellow
 ---
 
 # なぜPS2・PS3世代のリマスターは難しいのか――ハード固有最適化を「技術的負債」で読む

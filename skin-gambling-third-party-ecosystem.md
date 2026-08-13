@@ -1,5 +1,7 @@
 ---
 description: "2026年2月25日、ニューヨーク州司法長官レティシア・ジェームズは、Valve Corporationを提訴した。対象は、Valveが運営するSteamと、Counter-Strike 2、Team Fortress 2、Dota 2におけるルートボックスおよびアイテム経済である。"
+category: legal-regulation
+difficulty: red
 ---
 
 # スキンギャンブリングの歴史とプラットフォーム責任：CS:GOから2026年のValve訴訟まで

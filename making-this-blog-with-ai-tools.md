@@ -1,5 +1,7 @@
 ---
 description: "このブログでは、Claudeを提案・校閲、ChatGPT Workを本文素案、Codexを図版・画像引用の担当として使い分け、各工程で人間が内容を確認して記事を完成させている。"
+category: extras
+difficulty: green
 ---
 
 # 番外編：生成AIと一緒に、このブログを作るまで（三訂版）

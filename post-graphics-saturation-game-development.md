@@ -1,5 +1,7 @@
 ---
 description: "映像表現の成熟後、ゲーム開発チームがどこへ労力を振り向けるべきかを、遊び、制作効率、アクセシビリティ、運営の観点から考える。"
+category: planning-spec-dev-process
+difficulty: yellow
 ---
 
 # ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性

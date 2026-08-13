@@ -1,5 +1,7 @@
 ---
 description: "『ファイナルファンタジーXII』のガンビットを手がかりに、ターン制RPGで条件分岐型の戦闘AIを設計し、プレイヤーの判断を支える方法を解説する。"
+category: game-ai
+difficulty: yellow
 ---
 
 # ターン制RPGの戦闘AIを構築するためのガンビットシステム

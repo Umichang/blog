@@ -1,5 +1,7 @@
 ---
 description: "eスポーツが賞金競技だけではなく、大会運営、配信、スポンサー、チーム、観戦者の関係で成り立つビジネスであることを歴史から整理する。"
+category: business-market-monetization
+difficulty: green
 ---
 
 # eスポーツの歴史とビジネス構造――賞金、リーグ、配信、選手を支える仕組み

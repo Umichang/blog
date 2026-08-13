@@ -1,5 +1,7 @@
 ---
 description: "HUD（Head-Up Display、ヘッドアップディスプレイ） とは、ゲーム画面の最前面に常時表示される、プレイヤーが必要とするあらゆる情報表示の総称である。HPゲージ、ミニマップ、残弾数、スキルアイコンなどが代表例だ。"
+category: controls-interface
+difficulty: yellow
 ---
 
 # ゲームのHUDデザイン――情報量と没入感を両立する設計原則

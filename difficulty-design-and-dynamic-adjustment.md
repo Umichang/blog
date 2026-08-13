@@ -1,5 +1,7 @@
 ---
 description: "新人プランナーが難易度調整を任されると、まず敵のHPや攻撃力を変えようとしがちだ。しかし、プレイヤーが難しいと感じる理由は一つではない。"
+category: game-systems-player-experience
+difficulty: yellow
 ---
 
 # 難易度設計とダイナミックディフィカルティ――「ちょうどよい挑戦」を壊さず運用する実務

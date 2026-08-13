@@ -1,5 +1,7 @@
 ---
 description: "Windows以前の国産PCゲーム史を、PC-8001、PC-8801、PC-9801、X1、X68000の流れだけで見ると、MSXは少し不思議な位置に見える。NECのPC-88/98のように国内PC市場の中心を長く握ったわけではない。"
+category: platform-hardware
+difficulty: green
 ---
 
 # MSXの歴史：統一規格が作ったホビーPCとゲーム制作文化

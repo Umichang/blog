@@ -1,5 +1,7 @@
 ---
 description: "スタミナや行動力を、プレイ時間の調整だけでなく、目標、報酬、復帰、課金との関係まで含めて設計するための実務を解説する。"
+category: operations-community
+difficulty: red
 ---
 
 # スタミナ・AP（行動力）システムの設計実務

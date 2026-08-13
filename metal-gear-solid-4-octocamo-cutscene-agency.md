@@ -1,5 +1,7 @@
 ---
 description: "『METAL GEAR SOLID 4 GUNS OF THE PATRIOTS』のオクトカムは、迷彩選択を自動化して潜入の流れを守った。その快適さと、長大なカットシーンに現れる作家性を、プレイヤーの裁量という観点から読む。"
+category: game-systems-player-experience
+difficulty: yellow
 ---
 
 # 『METAL GEAR SOLID 4』のオクトカムは何を自動化したのか――迷彩と長大なカットシーンから読む、プレイヤーの裁量の設計

@@ -1,0 +1,86 @@
+schema_version: 1
+categories:
+  - slug: visual-spatial-design
+    heading: "🎨 ビジュアル・空間表現"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 10
+  - slug: sound-audio
+    heading: "🔊 サウンド・音声"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 20
+  - slug: game-ai
+    heading: "🧠 AI・ゲーム内知性"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 30
+  - slug: controls-interface
+    heading: "🎮 操作・インターフェイス"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 40
+  - slug: online-network
+    heading: "🌐 オンライン・ネットワーク"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 50
+  - slug: game-systems-player-experience
+    heading: "🧩 ゲームシステム・プレイヤー体験"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 60
+  - slug: narrative-worldbuilding-puzzle
+    heading: "📖 物語・世界設定・謎解き"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 70
+  - slug: genre-game-culture
+    heading: "🎲 ジャンル・ゲーム文化"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 80
+  - slug: planning-spec-dev-process
+    heading: "🛠️ 企画・仕様・開発プロセス"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 10
+  - slug: ip-adaptation
+    heading: "🎬 他メディアIPのゲーム化"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 20
+  - slug: tech-foundation-data-assets
+    heading: "🧰 技術基盤・データ・アセット"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 30
+  - slug: qa-debug-release
+    heading: "🧪 品質保証・デバッグ・リリース"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 40
+  - slug: localization-voice-production
+    heading: "🌏 ローカライズ・音声制作"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 50
+  - slug: operations-community
+    heading: "🤝 運営・コミュニティ"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 60
+  - slug: business-market-monetization
+    heading: "💰 ビジネス・市場・マネタイズ"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 70
+  - slug: legal-regulation
+    heading: "⚖️ 法務・規制"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 80
+  - slug: analytics-measurement
+    heading: "📈 計測・分析"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 90
+  - slug: platform-hardware
+    heading: "🕹️ プラットフォーム・ハードウェア"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 100
+  - slug: game-history-culture
+    heading: "📜 ゲーム史・文化史"
+    parent_group: "📚 歴史と人物"
+    display_order: 10
+  - slug: people-company-history
+    heading: "👤 人物・企業史"
+    parent_group: "📚 歴史と人物"
+    display_order: 20
+  - slug: extras
+    heading: "✨ 番外編"
+    parent_group: "✨ 番外編"
+    display_order: 10

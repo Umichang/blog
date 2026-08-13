@@ -1,5 +1,7 @@
 ---
 description: "ゲームのポイントや報酬の仕組みを業務・学習・健康行動へ応用する際に、体験を作業化させないための設計条件と限界を考える。"
+category: game-systems-player-experience
+difficulty: green
 ---
 
 # マイクロゲーミフィケーション

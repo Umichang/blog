@@ -1,5 +1,7 @@
 ---
 description: "「ローグライク（Roguelike）」は1980年のゲーム『Rogue』に始まるジャンル名であり、長らくコミュニティ内で独自の定義が積み重ねられてきた。"
+category: genre-game-culture
+difficulty: green
 ---
 
 # 結局ローグライクってなんなのさ？

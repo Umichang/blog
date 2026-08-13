@@ -1,5 +1,7 @@
 ---
 description: "スポーツゲームの売上は現地競技人気だけでは決まらない。MLB Power Pros、NBA 2K、Wii Sports、クリケット、WBSCパワプロを通じ、競合、ローカライズ、市場インフラ、操作設計、販売施策を含む市場分析の視点を解説する。"
+category: business-market-monetization
+difficulty: yellow
 ---
 
 # 「その国のスポーツ人気」だけでスポーツゲームの売上は語れるか

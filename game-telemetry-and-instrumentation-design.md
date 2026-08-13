@@ -1,5 +1,7 @@
 ---
 description: "「テレメトリ（telemetry）」という言葉はギリシャ語の tele（遠隔）と metron（計測）に由来し、「遠くから何かを計測する仕組み」を指す。ゲームの文脈では、プレイヤーの行動をイベントとして記録し、サーバーへ送信する一連の仕組み がテレメトリである。"
+category: analytics-measurement
+difficulty: red
 ---
 
 # テレメトリ・計測設計入門

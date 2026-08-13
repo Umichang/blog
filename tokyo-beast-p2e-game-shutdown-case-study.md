@@ -1,5 +1,7 @@
 ---
 description: "2025年6月9日にグローバルリリースされた『TOKYO BEAST TRIALS』は、8月24日にサービスを終了した。リリース日から数えると76日である。"
+category: operations-community
+difficulty: red
 ---
 
 # TOKYO BEASTはなぜ76日で終わったのか――P2Eゲームの大型プロジェクトを読み解く個別事例

@@ -1,5 +1,7 @@
 ---
 description: "2025年9月29日、エレクトロニック・アーツ（EA）はサウジアラビアの政府系ファンド「PIF（Public Investment Fund）」、テクノロジー特化型プライベートエクイティ「Silver Lake」、そしてジャレッド・クシュナー（トランプ大統領の娘婿）が率いる「Affinity Partners」のコンソーシアムに対し、 総額約550億ドル（企業価値ベース） での売却に合意した。"
+category: business-market-monetization
+difficulty: red
 ---
 
 # EA非上場化（LBO）――大型買収の構造とパブリッシャー経営への影響

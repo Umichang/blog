@@ -1,5 +1,7 @@
 ---
 description: "「入力遅延」とは、コントローラーのボタンを押した瞬間から、その結果がディスプレイに映し出されるまでのタイムラグを指す。英語では \"Input Lag\" や \"Input Latency\" と呼ばれる。"
+category: controls-interface
+difficulty: yellow
 ---
 
 # ゲームの入力遅延――発生要因と削減・隠蔽の技術

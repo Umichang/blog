@@ -1,5 +1,7 @@
 ---
 description: "大賀典雄を、ゲーム機の技術者ではなく、CDで規格・製造・流通・音源を同時に考えた経営者として読む。PlayStationへつながる判断を、性能競争ではなくプラットフォーム設計の発想からたどる。"
+category: people-company-history
+difficulty: green
 ---
 
 # 大賀典雄評伝——CDからPlayStationへ、「規格と供給」を一体で考えた経営者

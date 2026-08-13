@@ -1,5 +1,7 @@
 ---
 description: "CEDEC2026（Computer Entertainment Developers Conference 2026）は2026年7月22日から24日の3日間、パシフィコ横浜ノースとオンラインのハイブリッド形式で開催された、国内最大級のゲーム開発者向けカンファレンスである。"
+category: planning-spec-dev-process
+difficulty: yellow
 ---
 
 # CEDEC2026中盤レポート：6大セッションに見る「即効性のない投資判断」

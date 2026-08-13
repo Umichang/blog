@@ -1,5 +1,7 @@
 ---
 description: "『戦場のヴァルキュリア』がCANVAS、BLiTZ、兵科一括成長、パーマデス、架空欧州をどう一つの感情目標へ束ね、戦争の重みをプレイヤーへ返したかを設計面から読み解く。"
+category: planning-spec-dev-process
+difficulty: yellow
 ---
 
 # 『戦場のヴァルキュリア』はなぜ写実を捨てたのか――CANVAS、BLiTZ、パーマデスを貫く「戦争の重み」の設計

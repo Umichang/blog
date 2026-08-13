@@ -1,5 +1,7 @@
 ---
 description: "『BLUE PROTOCOL』は、アニメ調のグラフィックに失敗したタイトルではない。開発元のバンダイナムコスタジオ自身が「劇場アニメに入り込んだような圧倒的グラフィック表現」を掲げ、再開発中に描画を全面的に見直した開発陣は、Amazon Games版PVへの「絵がきれいになってない？」"
+category: operations-community
+difficulty: red
 ---
 
 # 『BLUE PROTOCOL』はなぜ美しいまま終わったのか――絵が集めた客層と、設計が想定した客層のずれ

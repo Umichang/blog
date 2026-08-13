@@ -1,6 +1,8 @@
 ---
 lang: en-US
 description: "This July 2026 analysis examines Blue Archive's Japanese Student Recruitment overhaul through its 0.7% Pick-Up rate, 100- and 200-recruit safeguards, and expected values. It explains why a lower average cost still prompted backlash, and what Global players were responding to."
+category: operations-community
+difficulty: yellow
 ---
 
 # Why Can Better Expected Value Still Spark a Backlash? — Blue Archive’s Recruitment Charge Change Through Probability and Trust
