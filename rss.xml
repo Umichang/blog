@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 13 Aug 2026 00:39:22 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 03:35:32 -0000</lastBuildDate>
+    <item>
+      <title>『二ノ国 白き聖灰の女王』は「ジブリらしさ」をどうゲームへ翻訳したか</title>
+      <link>https://umichang.github.io/blog/ni-no-kuni-ghibli-direction-game-design-translation.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/ni-no-kuni-ghibli-direction-game-design-translation.html</guid>
+      <description>『二ノ国 白き聖灰の女王』のジブリらしさは、色や輪郭の再現だけでなく、キャラクターに仕事をさせ、重さや年齢を動きで語らせる演出判断から生まれた。その判断を学びつつ、ゲームとして成立させるために操作対象を絞った開発事例から、模倣と翻訳の境界を読み解く。</description>
+      <pubDate>Thu, 13 Aug 2026 03:35:32 -0000</pubDate>
+    </item>
     <item>
       <title>『戦場のヴァルキュリア』はなぜ写実を捨てたのか――CANVAS、BLiTZ、パーマデスを貫く「戦争の重み」の設計</title>
       <link>https://umichang.github.io/blog/valkyria-chronicles-war-emotional-weight-design.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/balance-of-power-political-system-game-design.html</guid>
       <description>『バランス・オブ・パワー』は、政治や外交という抽象的な題材を、限られた動詞と危機の反復へ変えた。後発4作品との比較から、システムを遊びへ翻訳する設計手順を読み解く。</description>
       <pubDate>Tue, 11 Aug 2026 15:09:32 -0000</pubDate>
-    </item>
-    <item>
-      <title>東亜プランの企業史：消えた組織から、複数のシューティング設計文化が生まれるまで</title>
-      <link>https://umichang.github.io/blog/toaplan-company-history-design-culture.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/toaplan-company-history-design-culture.html</guid>
-      <description>東亜プランが残した「撃って避ける」設計は、倒産後にケイブやライジングなどで異なる作風へ分岐した。アーケードシューティングの名門を、設計文化の継承という組織史から読み解く。</description>
-      <pubDate>Mon, 10 Aug 2026 23:49:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
