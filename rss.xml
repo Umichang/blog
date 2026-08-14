@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 14 Aug 2026 00:24:39 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 09:49:19 -0000</lastBuildDate>
+    <item>
+      <title>Steamのライブ生成AI審査とEpic Games Storeの異なる哲学――『Instantale』が示した配信設計の新条件</title>
+      <link>https://umichang.github.io/blog/instantale-steam-live-generated-ai-review-epic-policy.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/instantale-steam-live-generated-ai-review-epic-policy.html</guid>
+      <description>自由入力型の生成AIゲームでは、配信プラットフォームの審査方針がゲームシステムの成立条件になる。『Instantale』がSteam配信を断念し、Epic Games Storeで発売されるまでの経緯から、ライブ生成AIの申告、成人向け表現の制御、ストア選定を企画段階でどう扱うべきかを考える。</description>
+      <pubDate>Fri, 14 Aug 2026 09:49:19 -0000</pubDate>
+    </item>
     <item>
       <title>小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP</title>
       <link>https://umichang.github.io/blog/indie-game-publishing-contract-revenue-recoup-ip.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/valkyria-chronicles-war-emotional-weight-design.html</guid>
       <description>『戦場のヴァルキュリア』がCANVAS、BLiTZ、兵科一括成長、パーマデス、架空欧州をどう一つの感情目標へ束ね、戦争の重みをプレイヤーへ返したかを設計面から読み解く。</description>
       <pubDate>Thu, 13 Aug 2026 00:39:22 -0000</pubDate>
-    </item>
-    <item>
-      <title>世界展開するライブサービスゲームの季節イベント設計――宗教・文化の摩擦と訴求力をどう選ぶか</title>
-      <link>https://umichang.github.io/blog/live-service-seasonal-event-cultural-calendar-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/live-service-seasonal-event-cultural-calendar-design.html</guid>
-      <description>世界展開するライブサービスゲームでは、現実の行事が強い集客・売上の入口になる一方、宗教や文化の受け止め方が地域ごとに異なる。5つのイベント戦略を比較し、どの摩擦を引き受けるか決める判断軸を整理する。</description>
-      <pubDate>Wed, 12 Aug 2026 16:05:22 -0000</pubDate>
     </item>
   </channel>
 </rss>
