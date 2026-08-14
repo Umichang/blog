@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP](indie-game-publishing-contract-revenue-recoup-ip.md) 🔴
 - [Steam成人向け規制と国内銀行の入金拒否――インディー開発を止める二重の資金ボトルネック](steam-adult-content-payment-banking-bottlenecks.md) 🔴
 - [『二ノ国 白き聖灰の女王』は「ジブリらしさ」をどうゲームへ翻訳したか](ni-no-kuni-ghibli-direction-game-design-translation.md) 🟡
 - [『戦場のヴァルキュリア』はなぜ写実を捨てたのか――CANVAS、BLiTZ、パーマデスを貫く「戦争の重み」の設計](valkyria-chronicles-war-emotional-weight-design.md) 🟡
 - [世界展開するライブサービスゲームの季節イベント設計――宗教・文化の摩擦と訴求力をどう選ぶか](live-service-seasonal-event-cultural-calendar-design.md) 🟡
-- [ゲームはどこまで保存できるのか――博物館に残せる作品と、戻らないライブサービスの「お祭り」](game-preservation-playable-archives-and-live-service-limits.md) 🔴
 
 <!-- recent-articles:end -->
 
@@ -305,6 +305,7 @@
 #### 📚 法務・知財・二次創作
 
 - [ゲームプランナーが知っておくべき法令ガイド](game-planner-japanese-law-guide.md) 🟡
+- [小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP](indie-game-publishing-contract-revenue-recoup-ip.md) 🔴
 - [生成AIと著作権法 ― ゲーム業界の実務論点ガイド](generative-ai-copyright-game-industry-guide.md) 🔴
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🔴
 - [『パルワールド』訴訟はゲームデザインをどう動かしたか――特許係争と1.0正式版までの歩み](palworld-nintendo-patent-lawsuit-and-game-design-analysis.md) 🔴

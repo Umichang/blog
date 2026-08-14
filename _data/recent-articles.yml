@@ -1,5 +1,7 @@
 ---
 articles:
+- path: indie-game-publishing-contract-revenue-recoup-ip.md
+  published_at: '2026-08-14T00:24:39Z'
 - path: steam-adult-content-payment-banking-bottlenecks.md
   published_at: '2026-08-13T08:06:22Z'
 - path: ni-no-kuni-ghibli-direction-game-design-translation.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-13T00:39:22Z'
 - path: live-service-seasonal-event-cultural-calendar-design.md
   published_at: '2026-08-12T16:05:22Z'
-- path: game-preservation-playable-archives-and-live-service-limits.md
-  published_at: '2026-08-12T08:53:04Z'
