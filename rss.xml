@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 14 Aug 2026 09:49:19 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 14:45:12 -0000</lastBuildDate>
+    <item>
+      <title>XboxとPlayStationの「PC後退」は何が違うのか――配信チャネルとコンテンツ選別を分けて読む</title>
+      <link>https://umichang.github.io/blog/xbox-playstation-pc-strategy-channel-content-selection-2026.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/xbox-playstation-pc-strategy-channel-content-selection-2026.html</guid>
+      <description>XboxのSteam離脱観測とPlayStationのPC展開見直しは、同じ「PC後退」に見えても、意思決定の対象が異なる。2026年の報道と公式発言を時系列でたどり、配信チャネルとコンテンツ選別を分けて考える。</description>
+      <pubDate>Fri, 14 Aug 2026 14:45:12 -0000</pubDate>
+    </item>
     <item>
       <title>Steamのライブ生成AI審査とEpic Games Storeの異なる哲学――『Instantale』が示した配信設計の新条件</title>
       <link>https://umichang.github.io/blog/instantale-steam-live-generated-ai-review-epic-policy.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/ni-no-kuni-ghibli-direction-game-design-translation.html</guid>
       <description>『二ノ国 白き聖灰の女王』のジブリらしさは、色や輪郭の再現だけでなく、キャラクターに仕事をさせ、重さや年齢を動きで語らせる演出判断から生まれた。その判断を学びつつ、ゲームとして成立させるために操作対象を絞った開発事例から、模倣と翻訳の境界を読み解く。</description>
       <pubDate>Thu, 13 Aug 2026 03:35:32 -0000</pubDate>
-    </item>
-    <item>
-      <title>『戦場のヴァルキュリア』はなぜ写実を捨てたのか――CANVAS、BLiTZ、パーマデスを貫く「戦争の重み」の設計</title>
-      <link>https://umichang.github.io/blog/valkyria-chronicles-war-emotional-weight-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/valkyria-chronicles-war-emotional-weight-design.html</guid>
-      <description>『戦場のヴァルキュリア』がCANVAS、BLiTZ、兵科一括成長、パーマデス、架空欧州をどう一つの感情目標へ束ね、戦争の重みをプレイヤーへ返したかを設計面から読み解く。</description>
-      <pubDate>Thu, 13 Aug 2026 00:39:22 -0000</pubDate>
     </item>
   </channel>
 </rss>
