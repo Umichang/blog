@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 15 Aug 2026 00:22:56 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 01:36:32 -0000</lastBuildDate>
+    <item>
+      <title>ゲームプランナーの転職論――スキルアップか、泥舟から逃げるか</title>
+      <link>https://umichang.github.io/blog/game-planner-career-change-preparation.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-planner-career-change-preparation.html</guid>
+      <description>ゲームプランナーの転職を、スキルアップか現職からの離脱かという動機で裁かず、実績の翻訳、危機対応、引き継ぎを含む準備の質から考える。</description>
+      <pubDate>Sat, 15 Aug 2026 01:36:32 -0000</pubDate>
+    </item>
     <item>
       <title>スマートフォンゲーム会社の倒産はなぜ過去最多ペースなのか――2026年の数字から読む開発費・運営費と国内市場</title>
       <link>https://umichang.github.io/blog/smartphone-game-developer-bankruptcies-2026-structural-costs-market.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/indie-game-publishing-contract-revenue-recoup-ip.html</guid>
       <description>一人・小規模インディー開発者向けに、パブリッシング契約のレベニューシェア、前払金、リクープ、分配原資、IP、独占、売上の受取主体を実契約の調査データから読み解く。</description>
       <pubDate>Fri, 14 Aug 2026 00:24:39 -0000</pubDate>
-    </item>
-    <item>
-      <title>Steam成人向け規制と国内銀行の入金拒否――インディー開発を止める二重の資金ボトルネック</title>
-      <link>https://umichang.github.io/blog/steam-adult-content-payment-banking-bottlenecks.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/steam-adult-content-payment-banking-bottlenecks.html</guid>
-      <description>Steamの成人向けコンテンツ規制と、日本の銀行による海外売上の入金拒否を、購入時の決済網と売上を受け取る銀行口座という別々の地点で生じた二重のボトルネックとして整理する。</description>
-      <pubDate>Thu, 13 Aug 2026 08:06:22 -0000</pubDate>
     </item>
   </channel>
 </rss>

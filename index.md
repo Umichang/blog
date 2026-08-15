@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ゲームプランナーの転職論――スキルアップか、泥舟から逃げるか](game-planner-career-change-preparation.md) 🟡
 - [スマートフォンゲーム会社の倒産はなぜ過去最多ペースなのか――2026年の数字から読む開発費・運営費と国内市場](smartphone-game-developer-bankruptcies-2026-structural-costs-market.md) 🔴
 - [XboxとPlayStationの「PC後退」は何が違うのか――配信チャネルとコンテンツ選別を分けて読む](xbox-playstation-pc-strategy-channel-content-selection-2026.md) 🔴
 - [Steamのライブ生成AI審査とEpic Games Storeの異なる哲学――『Instantale』が示した配信設計の新条件](instantale-steam-live-generated-ai-review-epic-policy.md) 🔴
 - [小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP](indie-game-publishing-contract-revenue-recoup-ip.md) 🔴
-- [Steam成人向け規制と国内銀行の入金拒否――インディー開発を止める二重の資金ボトルネック](steam-adult-content-payment-banking-bottlenecks.md) 🔴
 
 <!-- recent-articles:end -->
 
@@ -165,6 +165,7 @@
 - [『二ノ国 白き聖灰の女王』は「ジブリらしさ」をどうゲームへ翻訳したか](ni-no-kuni-ghibli-direction-game-design-translation.md) 🟡
 - [『アンチャーテッド 黄金刀と消えた船団』が実現した「操作できる映画」――四つの核設計](uncharted-2-active-cinematic-experience-core-design.md) 🟡
 - [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
+- [ゲームプランナーの転職論――スキルアップか、泥舟から逃げるか](game-planner-career-change-preparation.md) 🟡
 - [MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計](mmorpg-planning-development-live-operations-basics.md) 🟡
 - [ゲームにおける非機能要件](game-non-functional-requirements.md) 🔴
 - [本番想定の負荷試験・キャパシティプランニングの実務](production-load-testing-capacity-planning-for-planners.md) 🔴
