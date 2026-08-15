@@ -1,6 +1,6 @@
 ---
 description: "ゲームプランナーの転職を、スキルアップか現職からの離脱かという動機で裁かず、実績の翻訳、危機対応、引き継ぎを含む準備の質から考える。"
-category: planning-spec-dev-process
+category: legal-regulation
 difficulty: yellow
 ---
 
