@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 14 Aug 2026 14:45:12 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 00:22:56 -0000</lastBuildDate>
+    <item>
+      <title>スマートフォンゲーム会社の倒産はなぜ過去最多ペースなのか――2026年の数字から読む開発費・運営費と国内市場</title>
+      <link>https://umichang.github.io/blog/smartphone-game-developer-bankruptcies-2026-structural-costs-market.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/smartphone-game-developer-bankruptcies-2026-structural-costs-market.html</guid>
+      <description>2026年に過去最多ペースとなった国内スマートフォンゲーム事業者の倒産を、帝国データバンクの定量データ、開発・運営費、市場規模から読み解く。</description>
+      <pubDate>Sat, 15 Aug 2026 00:22:56 -0000</pubDate>
+    </item>
     <item>
       <title>XboxとPlayStationの「PC後退」は何が違うのか――配信チャネルとコンテンツ選別を分けて読む</title>
       <link>https://umichang.github.io/blog/xbox-playstation-pc-strategy-channel-content-selection-2026.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/steam-adult-content-payment-banking-bottlenecks.html</guid>
       <description>Steamの成人向けコンテンツ規制と、日本の銀行による海外売上の入金拒否を、購入時の決済網と売上を受け取る銀行口座という別々の地点で生じた二重のボトルネックとして整理する。</description>
       <pubDate>Thu, 13 Aug 2026 08:06:22 -0000</pubDate>
-    </item>
-    <item>
-      <title>『二ノ国 白き聖灰の女王』は「ジブリらしさ」をどうゲームへ翻訳したか</title>
-      <link>https://umichang.github.io/blog/ni-no-kuni-ghibli-direction-game-design-translation.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/ni-no-kuni-ghibli-direction-game-design-translation.html</guid>
-      <description>『二ノ国 白き聖灰の女王』のジブリらしさは、色や輪郭の再現だけでなく、キャラクターに仕事をさせ、重さや年齢を動きで語らせる演出判断から生まれた。その判断を学びつつ、ゲームとして成立させるために操作対象を絞った開発事例から、模倣と翻訳の境界を読み解く。</description>
-      <pubDate>Thu, 13 Aug 2026 03:35:32 -0000</pubDate>
     </item>
   </channel>
 </rss>
