@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 16 Aug 2026 02:42:30 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 10:38:08 -0000</lastBuildDate>
+    <item>
+      <title>スマホゲームのリリース前スケジュール――プランナーが準備すべきことの逆算チェックリスト</title>
+      <link>https://umichang.github.io/blog/smartphone-game-prelaunch-schedule-planner-checklist.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/smartphone-game-prelaunch-schedule-planner-checklist.html</guid>
+      <description>スマートフォンゲームを公開する前に、プランナーがゲーム内で完了させるべき実装、申請用資料、初日設定、初動確認を、ストアの外部締切から逆算して整理する。</description>
+      <pubDate>Sun, 16 Aug 2026 10:38:08 -0000</pubDate>
+    </item>
     <item>
       <title>ブロックチェーンとP2Eとは何か――ゲームプランナーのための基礎知識ガイド</title>
       <link>https://umichang.github.io/blog/blockchain-p2e-game-planner-basics.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/xbox-playstation-pc-strategy-channel-content-selection-2026.html</guid>
       <description>XboxのSteam離脱観測とPlayStationのPC展開見直しは、同じ「PC後退」に見えても、意思決定の対象が異なる。2026年の報道と公式発言を時系列でたどり、配信チャネルとコンテンツ選別を分けて考える。</description>
       <pubDate>Fri, 14 Aug 2026 14:45:12 -0000</pubDate>
-    </item>
-    <item>
-      <title>Steamのライブ生成AI審査とEpic Games Storeの異なる哲学――『Instantale』が示した配信設計の新条件</title>
-      <link>https://umichang.github.io/blog/instantale-steam-live-generated-ai-review-epic-policy.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/instantale-steam-live-generated-ai-review-epic-policy.html</guid>
-      <description>自由入力型の生成AIゲームでは、配信プラットフォームの審査方針がゲームシステムの成立条件になる。『Instantale』がSteam配信を断念し、Epic Games Storeで発売されるまでの経緯から、ライブ生成AIの申告、成人向け表現の制御、ストア選定を企画段階でどう扱うべきかを考える。</description>
-      <pubDate>Fri, 14 Aug 2026 09:49:19 -0000</pubDate>
     </item>
   </channel>
 </rss>
