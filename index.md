@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [大川功評伝：セガに779億円を遺した「最後のオーナー経営」](isao-okawa-sega-owner-governance-biography.md) 🟢
 - [スマホゲームのリリース前スケジュール――プランナーが準備すべきことの逆算チェックリスト](smartphone-game-prelaunch-schedule-planner-checklist.md) 🟡
 - [ブロックチェーンとP2Eとは何か――ゲームプランナーのための基礎知識ガイド](blockchain-p2e-game-planner-basics.md) 🟢
 - [ゲームプランナーの転職論――スキルアップか、泥舟から逃げるか](game-planner-career-change-preparation.md) 🟡
 - [スマートフォンゲーム会社の倒産はなぜ過去最多ペースなのか――2026年の数字から読む開発費・運営費と国内市場](smartphone-game-developer-bankruptcies-2026-structural-costs-market.md) 🔴
-- [XboxとPlayStationの「PC後退」は何が違うのか――配信チャネルとコンテンツ選別を分けて読む](xbox-playstation-pc-strategy-channel-content-selection-2026.md) 🔴
 
 <!-- recent-articles:end -->
 
@@ -380,6 +380,7 @@
 
 ### 👤 人物・企業史
 
+- [大川功評伝：セガに779億円を遺した「最後のオーナー経営」](isao-okawa-sega-owner-governance-biography.md) 🟢
 - [ポケモンが生まれるまで――ゲームフリーク前史](pokemon-game-freak-prehistory.md) 🟢
 - [キングスフィールドができるまで――フロム・ソフトウェア前史](fromsoftware-business-software-to-kings-field.md) 🟢
 - [ミハイル・コーガン評伝：オデーサの亡命者から『スペースインベーダー』を生んだ男へ](mikhail-kogan-biography-taito-founder-space-invaders.md) 🟢

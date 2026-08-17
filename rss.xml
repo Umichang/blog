@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 16 Aug 2026 10:38:08 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 06:44:06 -0000</lastBuildDate>
+    <item>
+      <title>大川功評伝：セガに779億円を遺した「最後のオーナー経営」</title>
+      <link>https://umichang.github.io/blog/isao-okawa-sega-owner-governance-biography.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/isao-okawa-sega-owner-governance-biography.html</guid>
+      <description>CSK創業者・セガ元会長兼社長の大川功を、ドリームキャスト期の779億円の私財拠出と、死後に進んだ資本関係の再編から読み解く。オーナー経営の強みと後継設計の課題を考える。</description>
+      <pubDate>Mon, 17 Aug 2026 06:44:06 -0000</pubDate>
+    </item>
     <item>
       <title>スマホゲームのリリース前スケジュール――プランナーが準備すべきことの逆算チェックリスト</title>
       <link>https://umichang.github.io/blog/smartphone-game-prelaunch-schedule-planner-checklist.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/smartphone-game-developer-bankruptcies-2026-structural-costs-market.html</guid>
       <description>2026年に過去最多ペースとなった国内スマートフォンゲーム事業者の倒産を、帝国データバンクの定量データ、開発・運営費、市場規模から読み解く。</description>
       <pubDate>Sat, 15 Aug 2026 00:22:56 -0000</pubDate>
-    </item>
-    <item>
-      <title>XboxとPlayStationの「PC後退」は何が違うのか――配信チャネルとコンテンツ選別を分けて読む</title>
-      <link>https://umichang.github.io/blog/xbox-playstation-pc-strategy-channel-content-selection-2026.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/xbox-playstation-pc-strategy-channel-content-selection-2026.html</guid>
-      <description>XboxのSteam離脱観測とPlayStationのPC展開見直しは、同じ「PC後退」に見えても、意思決定の対象が異なる。2026年の報道と公式発言を時系列でたどり、配信チャネルとコンテンツ選別を分けて考える。</description>
-      <pubDate>Fri, 14 Aug 2026 14:45:12 -0000</pubDate>
     </item>
   </channel>
 </rss>
