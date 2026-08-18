@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ライブサービスの障害対応で「誰が指揮を執るか」を先に決める――DeNAの演習事例から学ぶ初動体制の作り方](incident-command-exercises-for-live-service-game-teams.md) 🟡
 - [個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと](personal-data-breach-first-48-hours-game-company.md) 🟡
 - [「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか](live-service-game-incident-compensation-framework.md) 🟡
 - [大川功評伝：セガに779億円を遺した「最後のオーナー経営」](isao-okawa-sega-owner-governance-biography.md) 🟢
 - [スマホゲームのリリース前スケジュール――プランナーが準備すべきことの逆算チェックリスト](smartphone-game-prelaunch-schedule-planner-checklist.md) 🟡
-- [ブロックチェーンとP2Eとは何か――ゲームプランナーのための基礎知識ガイド](blockchain-p2e-game-planner-basics.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -247,6 +247,7 @@
 
 #### 🧯 サービスライフサイクル・運営対応
 
+- [ライブサービスの障害対応で「誰が指揮を執るか」を先に決める――DeNAの演習事例から学ぶ初動体制の作り方](incident-command-exercises-for-live-service-game-teams.md) 🟡
 - [サービス終了をどう設計するか――オンラインゲームを破綻なく畳む実務](service-shutdown-design-and-practice.md) 🔴
 - [ゲームはどこまで保存できるのか――博物館に残せる作品と、戻らないライブサービスの「お祭り」](game-preservation-playable-archives-and-live-service-limits.md) 🔴
 - [『文豪ストレイドッグス 迷ヰ犬怪奇譚』――告知から実質1日、廃業と「異能石」払戻し拒否が突いた法とサービス終了設計の隙間](bungo-stray-dogs-mayoi-inu-bankruptcy-shutdown-refund-gap.md) 🔴

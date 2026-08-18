@@ -1,5 +1,7 @@
 ---
 articles:
+- path: incident-command-exercises-for-live-service-game-teams.md
+  published_at: '2026-08-18T14:38:02Z'
 - path: personal-data-breach-first-48-hours-game-company.md
   published_at: '2026-08-18T08:28:13Z'
 - path: live-service-game-incident-compensation-framework.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-17T06:44:06Z'
 - path: smartphone-game-prelaunch-schedule-planner-checklist.md
   published_at: '2026-08-16T10:38:08Z'
-- path: blockchain-p2e-game-planner-basics.md
-  published_at: '2026-08-16T02:42:30Z'

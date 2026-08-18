@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 18 Aug 2026 08:28:13 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 14:38:02 -0000</lastBuildDate>
+    <item>
+      <title>ライブサービスの障害対応で「誰が指揮を執るか」を先に決める――DeNAの演習事例から学ぶ初動体制の作り方</title>
+      <link>https://umichang.github.io/blog/incident-command-exercises-for-live-service-game-teams.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/incident-command-exercises-for-live-service-game-teams.html</guid>
+      <description>ライブサービスのセキュリティ・システム障害で初動を遅らせないために、誰が指揮を執るかを平時に決め、机上演習で確かめる。DeNAのマネージャ向けワークショップと公開教材から、ゲームチームが始める方法を整理する。</description>
+      <pubDate>Tue, 18 Aug 2026 14:38:02 -0000</pubDate>
+    </item>
     <item>
       <title>個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと</title>
       <link>https://umichang.github.io/blog/personal-data-breach-first-48-hours-game-company.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/smartphone-game-prelaunch-schedule-planner-checklist.html</guid>
       <description>スマートフォンゲームを公開する前に、プランナーがゲーム内で完了させるべき実装、申請用資料、初日設定、初動確認を、ストアの外部締切から逆算して整理する。</description>
       <pubDate>Sun, 16 Aug 2026 10:38:08 -0000</pubDate>
-    </item>
-    <item>
-      <title>ブロックチェーンとP2Eとは何か――ゲームプランナーのための基礎知識ガイド</title>
-      <link>https://umichang.github.io/blog/blockchain-p2e-game-planner-basics.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/blockchain-p2e-game-planner-basics.html</guid>
-      <description>ブロックチェーン、暗号資産、トークン、NFT、ウォレット、P2Eの役割を、ゲームの報酬と取引の流れに沿って初めての人にも分かる言葉で解説する。</description>
-      <pubDate>Sun, 16 Aug 2026 02:42:30 -0000</pubDate>
     </item>
   </channel>
 </rss>
