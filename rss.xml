@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 17 Aug 2026 11:07:08 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 08:28:13 -0000</lastBuildDate>
+    <item>
+      <title>個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと</title>
+      <link>https://umichang.github.io/blog/personal-data-breach-first-48-hours-game-company.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/personal-data-breach-first-48-hours-game-company.html</guid>
+      <description>個人情報漏洩・不正アクセスが疑われるゲーム会社が、発覚から48時間で対象データ、原因経路、報告トリガー、本人通知の準備を確定させるための初動フロー。</description>
+      <pubDate>Tue, 18 Aug 2026 08:28:13 -0000</pubDate>
+    </item>
     <item>
       <title>「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか</title>
       <link>https://umichang.github.io/blog/live-service-game-incident-compensation-framework.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/blockchain-p2e-game-planner-basics.html</guid>
       <description>ブロックチェーン、暗号資産、トークン、NFT、ウォレット、P2Eの役割を、ゲームの報酬と取引の流れに沿って初めての人にも分かる言葉で解説する。</description>
       <pubDate>Sun, 16 Aug 2026 02:42:30 -0000</pubDate>
-    </item>
-    <item>
-      <title>ゲームプランナーの転職論――スキルアップか、泥舟から逃げるか</title>
-      <link>https://umichang.github.io/blog/game-planner-career-change-preparation.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-planner-career-change-preparation.html</guid>
-      <description>ゲームプランナーの転職を、スキルアップか現職からの離脱かという動機で裁かず、実績の翻訳、危機対応、引き継ぎを含む準備の質から考える。</description>
-      <pubDate>Sat, 15 Aug 2026 01:36:32 -0000</pubDate>
     </item>
   </channel>
 </rss>

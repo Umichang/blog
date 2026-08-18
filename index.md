@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと](personal-data-breach-first-48-hours-game-company.md) 🟡
 - [「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか](live-service-game-incident-compensation-framework.md) 🟡
 - [大川功評伝：セガに779億円を遺した「最後のオーナー経営」](isao-okawa-sega-owner-governance-biography.md) 🟢
 - [スマホゲームのリリース前スケジュール――プランナーが準備すべきことの逆算チェックリスト](smartphone-game-prelaunch-schedule-planner-checklist.md) 🟡
 - [ブロックチェーンとP2Eとは何か――ゲームプランナーのための基礎知識ガイド](blockchain-p2e-game-planner-basics.md) 🟢
-- [ゲームプランナーの転職論――スキルアップか、泥舟から逃げるか](game-planner-career-change-preparation.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -251,6 +251,7 @@
 - [ゲームはどこまで保存できるのか――博物館に残せる作品と、戻らないライブサービスの「お祭り」](game-preservation-playable-archives-and-live-service-limits.md) 🔴
 - [『文豪ストレイドッグス 迷ヰ犬怪奇譚』――告知から実質1日、廃業と「異能石」払戻し拒否が突いた法とサービス終了設計の隙間](bungo-stray-dogs-mayoi-inu-bankruptcy-shutdown-refund-gap.md) 🔴
 - [「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか](live-service-game-incident-compensation-framework.md) 🟡
+- [個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと](personal-data-breach-first-48-hours-game-company.md) 🟡
 - [残高がマイナスになる日――ブルーアーカイブ“負債石”事件にみる、誤配布通貨の回収とプレイヤー公平性の衝突](negative-currency-recovery-bluearchive-fgo-case.md) 🟡
 - [期待値が良くても、なぜ燃えるのか――『ブルーアーカイブ』「呼び出しチャージ」への変更を確率と信頼から読む](bluearchive-recruitment-charge-probability-player-trust.md) 🟡
 - [English: Why Can Better Expected Value Still Spark a Backlash? — Blue Archive’s Recruitment Charge Change Through Probability and Trust](bluearchive-recruitment-charge-probability-player-trust-en.md) 🟡
