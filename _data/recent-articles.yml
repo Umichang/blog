@@ -1,5 +1,7 @@
 ---
 articles:
+- path: scaling-game-balance-operations-three-layers.md
+  published_at: '2026-08-19T02:49:57Z'
 - path: incident-command-exercises-for-live-service-game-teams.md
   published_at: '2026-08-18T14:38:02Z'
 - path: personal-data-breach-first-48-hours-game-company.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-17T11:07:08Z'
 - path: isao-okawa-sega-owner-governance-biography.md
   published_at: '2026-08-17T06:44:06Z'
-- path: smartphone-game-prelaunch-schedule-planner-checklist.md
-  published_at: '2026-08-16T10:38:08Z'

@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 18 Aug 2026 14:38:02 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 02:49:57 -0000</lastBuildDate>
+    <item>
+      <title>大量の対象を抱えるゲームバランスを、継続運用できる仕組みにする</title>
+      <link>https://umichang.github.io/blog/scaling-game-balance-operations-three-layers.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/scaling-game-balance-operations-three-layers.html</guid>
+      <description>対象が人力で把握しきれない規模になったとき、ゲームバランスをどう継続運用するか。ポケモンの事例を縦軸に、対象の単純化、変更コストを下げる基盤設計、データとAIによる監視という三つのレイヤーで整理する。</description>
+      <pubDate>Wed, 19 Aug 2026 02:49:57 -0000</pubDate>
+    </item>
     <item>
       <title>ライブサービスの障害対応で「誰が指揮を執るか」を先に決める――DeNAの演習事例から学ぶ初動体制の作り方</title>
       <link>https://umichang.github.io/blog/incident-command-exercises-for-live-service-game-teams.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/isao-okawa-sega-owner-governance-biography.html</guid>
       <description>CSK創業者・セガ元会長兼社長の大川功を、ドリームキャスト期の779億円の私財拠出と、死後に進んだ資本関係の再編から読み解く。オーナー経営の強みと後継設計の課題を考える。</description>
       <pubDate>Mon, 17 Aug 2026 06:44:06 -0000</pubDate>
-    </item>
-    <item>
-      <title>スマホゲームのリリース前スケジュール――プランナーが準備すべきことの逆算チェックリスト</title>
-      <link>https://umichang.github.io/blog/smartphone-game-prelaunch-schedule-planner-checklist.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/smartphone-game-prelaunch-schedule-planner-checklist.html</guid>
-      <description>スマートフォンゲームを公開する前に、プランナーがゲーム内で完了させるべき実装、申請用資料、初日設定、初動確認を、ストアの外部締切から逆算して整理する。</description>
-      <pubDate>Sun, 16 Aug 2026 10:38:08 -0000</pubDate>
     </item>
   </channel>
 </rss>
