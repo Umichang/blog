@@ -331,6 +331,14 @@ def build_database(root: Path, db_path: Path) -> tuple[int, int, str]:
     temporary = Path(temp_name)
     try:
         with sqlite3.connect(temporary) as connection:
+            # 接続フォルダがFUSE経由のマウントだと、既定のロールバックジャーナル（journal_mode=DELETE）が
+            # 要求するfcntlバイト範囲ロックやジャーナルファイルの作成・fsync・削除の一連の操作と相性が悪く、
+            # "disk I/O error" で書き込みに失敗することがある。ここは一時ファイルへのビルドであり、
+            # 成功時のみ os.replace() で articles.db へ原子的に差し替えるため、一時ファイル側のジャーナルを
+            # 無効化しても本番DBが壊れるリスクはない（失敗時は一時ファイルが残るだけで、articles.db は
+            # 一切変更されない）。
+            connection.execute("PRAGMA journal_mode=OFF")
+            connection.execute("PRAGMA synchronous=OFF")
             check_fts5(connection)
             connection.executescript(SCHEMA_SQL)
             connection.executemany(
