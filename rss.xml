@@ -7,7 +7,7 @@
     <language>ja-JP</language>
     <lastBuildDate>Wed, 19 Aug 2026 02:49:57 -0000</lastBuildDate>
     <item>
-      <title>大量の対象を抱えるゲームバランスを、継続運用できる仕組みにする</title>
+      <title>1000種以上のポケモンをどう調整し続けるか――大規模ゲームバランスを支える3つの仕組み</title>
       <link>https://umichang.github.io/blog/scaling-game-balance-operations-three-layers.html</link>
       <guid isPermaLink="true">https://umichang.github.io/blog/scaling-game-balance-operations-three-layers.html</guid>
       <description>対象が人力で把握しきれない規模になったとき、ゲームバランスをどう継続運用するか。ポケモンの事例を縦軸に、対象の単純化、変更コストを下げる基盤設計、データとAIによる監視という三つのレイヤーで整理する。</description>

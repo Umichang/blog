@@ -26,7 +26,7 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
-- [大量の対象を抱えるゲームバランスを、継続運用できる仕組みにする](scaling-game-balance-operations-three-layers.md) 🟡
+- [1000種以上のポケモンをどう調整し続けるか――大規模ゲームバランスを支える3つの仕組み](scaling-game-balance-operations-three-layers.md) 🟡
 - [ライブサービスの障害対応で「誰が指揮を執るか」を先に決める――DeNAの演習事例から学ぶ初動体制の作り方](incident-command-exercises-for-live-service-game-teams.md) 🟡
 - [個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと](personal-data-breach-first-48-hours-game-company.md) 🟡
 - [「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか](live-service-game-incident-compensation-framework.md) 🟡
@@ -186,7 +186,7 @@
 
 #### 📝 仕様・品質判断
 
-- [大量の対象を抱えるゲームバランスを、継続運用できる仕組みにする](scaling-game-balance-operations-three-layers.md) 🟡
+- [1000種以上のポケモンをどう調整し続けるか――大規模ゲームバランスを支える3つの仕組み](scaling-game-balance-operations-three-layers.md) 🟡
 - [ゲームプランナーのための脱Excel仕様書ガイド](game-planner-excel-spec-guide.md) 🟡
 - [「実装後に炎上する仕様書」の共通点——曖昧さの解剖と、書ける仕様書の作り方](game-spec-pitfalls-and-how-to-write-clear-specs.md) 🟡
 - [プレイテストの設計・運用方法論](playtest-design-and-operation-methodology-for-planners.md) 🟡
