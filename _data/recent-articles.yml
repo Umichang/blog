@@ -1,5 +1,7 @@
 ---
 articles:
+- path: flow-theory-psychology-origins-and-game-design.md
+  published_at: '2026-08-20T08:21:23Z'
 - path: game-feel-design-theory-for-game-planners.md
   published_at: '2026-08-20T01:29:32Z'
 - path: scaling-game-balance-operations-three-layers.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-18T14:38:02Z'
 - path: personal-data-breach-first-48-hours-game-company.md
   published_at: '2026-08-18T08:28:13Z'
-- path: live-service-game-incident-compensation-framework.md
-  published_at: '2026-08-17T11:07:08Z'

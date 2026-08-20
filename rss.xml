@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 20 Aug 2026 01:29:32 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 08:21:23 -0000</lastBuildDate>
+    <item>
+      <title>フロー理論はゲームのために生まれたのか――原典・調査手法・反証から読み直す「ちょうどよい挑戦」</title>
+      <link>https://umichang.github.io/blog/flow-theory-psychology-origins-and-game-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/flow-theory-psychology-origins-and-game-design.html</guid>
+      <description>フロー理論はゲームの設計法則ではなく、心理学における主観的経験の研究から生まれた。原典の調査手法、ゲームへの翻訳、そして挑戦と技能の釣り合いへの実証的な反論をたどる。</description>
+      <pubDate>Thu, 20 Aug 2026 08:21:23 -0000</pubDate>
+    </item>
     <item>
       <title>ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く</title>
       <link>https://umichang.github.io/blog/game-feel-design-theory-for-game-planners.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/personal-data-breach-first-48-hours-game-company.html</guid>
       <description>個人情報漏洩・不正アクセスが疑われるゲーム会社が、発覚から48時間で対象データ、原因経路、報告トリガー、本人通知の準備を確定させるための初動フロー。</description>
       <pubDate>Tue, 18 Aug 2026 08:28:13 -0000</pubDate>
-    </item>
-    <item>
-      <title>「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか</title>
-      <link>https://umichang.github.io/blog/live-service-game-incident-compensation-framework.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/live-service-game-incident-compensation-framework.html</guid>
-      <description>ライブサービスゲームの障害・不具合補填を、感情的な謝罪ではなく制度として設計する。資金決済法・景品表示法との関係、機会損失の考え方、重大度別の補填基準表をプランナー向けに整理する。</description>
-      <pubDate>Mon, 17 Aug 2026 11:07:08 -0000</pubDate>
     </item>
   </channel>
 </rss>
