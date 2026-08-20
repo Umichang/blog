@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 20 Aug 2026 08:21:23 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 11:21:02 -0000</lastBuildDate>
+    <item>
+      <title>『スノウブレイク：禁域降臨』長期停止から考える、IPコラボの審査と販売済みコンテンツの変更</title>
+      <link>https://umichang.github.io/blog/snowbreak-collaboration-risk-digital-content-changes.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/snowbreak-collaboration-risk-digital-content-changes.html</guid>
+      <description>『スノウブレイク：禁域降臨』の約2か月の停止と再開を、公共性の高い相手とのIPコラボ審査と、販売済みデジタルコンテンツを事後変更する際の補填設計という二つの論点から整理する。</description>
+      <pubDate>Thu, 20 Aug 2026 11:21:02 -0000</pubDate>
+    </item>
     <item>
       <title>フロー理論はゲームのために生まれたのか――原典・調査手法・反証から読み直す「ちょうどよい挑戦」</title>
       <link>https://umichang.github.io/blog/flow-theory-psychology-origins-and-game-design.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/incident-command-exercises-for-live-service-game-teams.html</guid>
       <description>ライブサービスのセキュリティ・システム障害で初動を遅らせないために、誰が指揮を執るかを平時に決め、机上演習で確かめる。DeNAのマネージャ向けワークショップと公開教材から、ゲームチームが始める方法を整理する。</description>
       <pubDate>Tue, 18 Aug 2026 14:38:02 -0000</pubDate>
-    </item>
-    <item>
-      <title>個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと</title>
-      <link>https://umichang.github.io/blog/personal-data-breach-first-48-hours-game-company.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/personal-data-breach-first-48-hours-game-company.html</guid>
-      <description>個人情報漏洩・不正アクセスが疑われるゲーム会社が、発覚から48時間で対象データ、原因経路、報告トリガー、本人通知の準備を確定させるための初動フロー。</description>
-      <pubDate>Tue, 18 Aug 2026 08:28:13 -0000</pubDate>
     </item>
   </channel>
 </rss>

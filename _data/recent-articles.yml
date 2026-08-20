@@ -1,5 +1,7 @@
 ---
 articles:
+- path: snowbreak-collaboration-risk-digital-content-changes.md
+  published_at: '2026-08-20T11:21:02Z'
 - path: flow-theory-psychology-origins-and-game-design.md
   published_at: '2026-08-20T08:21:23Z'
 - path: game-feel-design-theory-for-game-planners.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-19T02:49:57Z'
 - path: incident-command-exercises-for-live-service-game-teams.md
   published_at: '2026-08-18T14:38:02Z'
-- path: personal-data-breach-first-48-hours-game-company.md
-  published_at: '2026-08-18T08:28:13Z'
