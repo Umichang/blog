@@ -1,5 +1,7 @@
 ---
 articles:
+- path: game-feel-design-theory-for-game-planners.md
+  published_at: '2026-08-20T01:29:32Z'
 - path: scaling-game-balance-operations-three-layers.md
   published_at: '2026-08-19T02:49:57Z'
 - path: incident-command-exercises-for-live-service-game-teams.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-18T08:28:13Z'
 - path: live-service-game-incident-compensation-framework.md
   published_at: '2026-08-17T11:07:08Z'
-- path: isao-okawa-sega-owner-governance-biography.md
-  published_at: '2026-08-17T06:44:06Z'

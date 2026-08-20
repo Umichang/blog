@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く](game-feel-design-theory-for-game-planners.md) 🟡
 - [1000種以上のポケモンをどう調整し続けるか――大規模ゲームバランスを支える3つの仕組み](scaling-game-balance-operations-three-layers.md) 🟡
 - [ライブサービスの障害対応で「誰が指揮を執るか」を先に決める――DeNAの演習事例から学ぶ初動体制の作り方](incident-command-exercises-for-live-service-game-teams.md) 🟡
 - [個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと](personal-data-breach-first-48-hours-game-company.md) 🟡
 - [「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか](live-service-game-incident-compensation-framework.md) 🟡
-- [大川功評伝：セガに779億円を遺した「最後のオーナー経営」](isao-okawa-sega-owner-governance-biography.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -103,6 +103,10 @@
 #### 🤲 身体性・接触
 
 - [『ICO』と『ワンダと巨像』は、なぜ20年を経ても代わりが作りにくいのか――「持続する接触」を中心に据えた上田文人氏の設計判断](ico-shadow-of-the-colossus-sustained-contact-design.md) 🟡
+
+#### 🎮 操作・フィードバック
+
+- [ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く](game-feel-design-theory-for-game-planners.md) 🟡
 
 #### 🎯 進行・目標・難易度
 

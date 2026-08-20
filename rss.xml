@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 19 Aug 2026 02:49:57 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 01:29:32 -0000</lastBuildDate>
+    <item>
+      <title>ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く</title>
+      <link>https://umichang.github.io/blog/game-feel-design-theory-for-game-planners.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-feel-design-theory-for-game-planners.html</guid>
+      <description>ゲームフィールは、物理性、出来事の意味づけ、意図の補助という三つの設計領域が重なって生まれる。プレイヤーが『気持ちいい』と感じる瞬間を、この三つのレンズから読み解く。</description>
+      <pubDate>Thu, 20 Aug 2026 01:29:32 -0000</pubDate>
+    </item>
     <item>
       <title>1000種以上のポケモンをどう調整し続けるか――大規模ゲームバランスを支える3つの仕組み</title>
       <link>https://umichang.github.io/blog/scaling-game-balance-operations-three-layers.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/live-service-game-incident-compensation-framework.html</guid>
       <description>ライブサービスゲームの障害・不具合補填を、感情的な謝罪ではなく制度として設計する。資金決済法・景品表示法との関係、機会損失の考え方、重大度別の補填基準表をプランナー向けに整理する。</description>
       <pubDate>Mon, 17 Aug 2026 11:07:08 -0000</pubDate>
-    </item>
-    <item>
-      <title>大川功評伝：セガに779億円を遺した「最後のオーナー経営」</title>
-      <link>https://umichang.github.io/blog/isao-okawa-sega-owner-governance-biography.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/isao-okawa-sega-owner-governance-biography.html</guid>
-      <description>CSK創業者・セガ元会長兼社長の大川功を、ドリームキャスト期の779億円の私財拠出と、死後に進んだ資本関係の再編から読み解く。オーナー経営の強みと後継設計の課題を考える。</description>
-      <pubDate>Mon, 17 Aug 2026 06:44:06 -0000</pubDate>
     </item>
   </channel>
 </rss>
