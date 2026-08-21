@@ -1,5 +1,7 @@
 ---
 articles:
+- path: mda-framework-mechanics-dynamics-aesthetics-guide.md
+  published_at: '2026-08-21T02:22:12Z'
 - path: snowbreak-collaboration-risk-digital-content-changes.md
   published_at: '2026-08-20T11:21:02Z'
 - path: flow-theory-psychology-origins-and-game-design.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-20T01:29:32Z'
 - path: scaling-game-balance-operations-three-layers.md
   published_at: '2026-08-19T02:49:57Z'
-- path: incident-command-exercises-for-live-service-game-teams.md
-  published_at: '2026-08-18T14:38:02Z'
