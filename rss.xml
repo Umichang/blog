@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 21 Aug 2026 02:22:12 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 02:23:18 -0000</lastBuildDate>
+    <item>
+      <title>ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く</title>
+      <link>https://umichang.github.io/blog/variable-ratio-reinforcement-gacha-loot-box-psychology.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/variable-ratio-reinforcement-gacha-loot-box-psychology.html</guid>
+      <description>ガチャやルートボックスの予測不能な報酬は、なぜ次の抽選を促しやすいのか。FersterとSkinnerによる1957年の強化スケジュール研究から、近年の大規模調査と心理生理学的実験までをつなぎ、可変比率強化の説明力と限界を整理する。</description>
+      <pubDate>Sat, 22 Aug 2026 02:23:18 -0000</pubDate>
+    </item>
     <item>
       <title>MDAフレームワークとは何か――「面白い」をMechanics・Dynamics・Aestheticsに分けて考える</title>
       <link>https://umichang.github.io/blog/mda-framework-mechanics-dynamics-aesthetics-guide.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-feel-design-theory-for-game-planners.html</guid>
       <description>ゲームフィールは、物理性、出来事の意味づけ、意図の補助という三つの設計領域が重なって生まれる。プレイヤーが『気持ちいい』と感じる瞬間を、この三つのレンズから読み解く。</description>
       <pubDate>Thu, 20 Aug 2026 01:29:32 -0000</pubDate>
-    </item>
-    <item>
-      <title>1000種以上のポケモンをどう調整し続けるか――大規模ゲームバランスを支える3つの仕組み</title>
-      <link>https://umichang.github.io/blog/scaling-game-balance-operations-three-layers.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/scaling-game-balance-operations-three-layers.html</guid>
-      <description>対象が人力で把握しきれない規模になったとき、ゲームバランスをどう継続運用するか。ポケモンの事例を縦軸に、対象の単純化、変更コストを下げる基盤設計、データとAIによる監視という三つのレイヤーで整理する。</description>
-      <pubDate>Wed, 19 Aug 2026 02:49:57 -0000</pubDate>
     </item>
   </channel>
 </rss>

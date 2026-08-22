@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く](variable-ratio-reinforcement-gacha-loot-box-psychology.md) 🟡
 - [MDAフレームワークとは何か――「面白い」をMechanics・Dynamics・Aestheticsに分けて考える](mda-framework-mechanics-dynamics-aesthetics-guide.md) 🟡
 - [『スノウブレイク：禁域降臨』長期停止から考える、IPコラボの審査と販売済みコンテンツの変更](snowbreak-collaboration-risk-digital-content-changes.md) 🟡
 - [フロー理論はゲームのために生まれたのか――原典・調査手法・反証から読み直す「ちょうどよい挑戦」](flow-theory-psychology-origins-and-game-design.md) 🟡
 - [ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く](game-feel-design-theory-for-game-planners.md) 🟡
-- [1000種以上のポケモンをどう調整し続けるか――大規模ゲームバランスを支える3つの仕組み](scaling-game-balance-operations-three-layers.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -110,6 +110,7 @@
 
 #### 🎯 進行・目標・難易度
 
+- [ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く](variable-ratio-reinforcement-gacha-loot-box-psychology.md) 🟡
 - [MDAフレームワークとは何か――「面白い」をMechanics・Dynamics・Aestheticsに分けて考える](mda-framework-mechanics-dynamics-aesthetics-guide.md) 🟡
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🟡
 - [勝利条件がない生活シミュレーションはなぜ続くのか――「どうぶつの森」と「トモダチコレクション」から考える長期継続設計](communication-game-life-sim-design-for-planners.md) 🟡

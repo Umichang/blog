@@ -1,5 +1,7 @@
 ---
 articles:
+- path: variable-ratio-reinforcement-gacha-loot-box-psychology.md
+  published_at: '2026-08-22T02:23:18Z'
 - path: mda-framework-mechanics-dynamics-aesthetics-guide.md
   published_at: '2026-08-21T02:22:12Z'
 - path: snowbreak-collaboration-risk-digital-content-changes.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-20T08:21:23Z'
 - path: game-feel-design-theory-for-game-planners.md
   published_at: '2026-08-20T01:29:32Z'
-- path: scaling-game-balance-operations-three-layers.md
-  published_at: '2026-08-19T02:49:57Z'
