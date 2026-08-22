@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計](intransitive-balance-rock-paper-scissors-game-design.md) 🟡
 - [ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く](variable-ratio-reinforcement-gacha-loot-box-psychology.md) 🟡
 - [MDAフレームワークとは何か――「面白い」をMechanics・Dynamics・Aestheticsに分けて考える](mda-framework-mechanics-dynamics-aesthetics-guide.md) 🟡
 - [『スノウブレイク：禁域降臨』長期停止から考える、IPコラボの審査と販売済みコンテンツの変更](snowbreak-collaboration-risk-digital-content-changes.md) 🟡
 - [フロー理論はゲームのために生まれたのか――原典・調査手法・反証から読み直す「ちょうどよい挑戦」](flow-theory-psychology-origins-and-game-design.md) 🟡
-- [ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く](game-feel-design-theory-for-game-planners.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -127,6 +127,7 @@
 
 #### ⚔️ バトル・対戦・デッキ構築
 
+- [3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計](intransitive-balance-rock-paper-scissors-game-design.md) 🟡
 - [対戦ゲームのマッチメイキングとレーティング――仕組みと設計トレードオフ](competitive-game-matchmaking-rating-explained.md) 🔴
 - [トレーディングカードゲームのデジタル化とデッキ構築設計の実務](tcg-digital-deck-building-design-practices.md) 🔴
 - [『Slay the Spire 2』は何を守り、何を壊したのか――ジャンルを定義したデッキ構築ローグライクの続編設計](slay-the-spire-2-roguelike-deckbuilder-sequel-design.md) 🔴
