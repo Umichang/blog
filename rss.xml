@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 23 Aug 2026 11:19:43 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 12:46:29 -0000</lastBuildDate>
+    <item>
+      <title>GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか</title>
+      <link>https://umichang.github.io/blog/gdpr-consent-gate-game-telemetry-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/gdpr-consent-gate-game-telemetry-design.html</guid>
+      <description>GDPRの適法根拠を日本の個人情報保護法と対比し、Ubisoftへの申立てを手掛かりに、同意ゲートの位置、拒否後の通常プレイ、ATTとの分離、KPI・A/Bテストの欠測を設計へ落とし込む。</description>
+      <pubDate>Sun, 23 Aug 2026 12:46:29 -0000</pubDate>
+    </item>
     <item>
       <title>コンビニのニンテンドーカード、なぜ2種類あるのか――資金決済法から読むゲーム課金の「前払い」</title>
       <link>https://umichang.github.io/blog/nintendo-prepaid-download-cards-payment-services-act.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/variable-ratio-reinforcement-gacha-loot-box-psychology.html</guid>
       <description>ガチャやルートボックスの予測不能な報酬は、なぜ次の抽選を促しやすいのか。FersterとSkinnerによる1957年の強化スケジュール研究から、近年の大規模調査と心理生理学的実験までをつなぎ、可変比率強化の説明力と限界を整理する。</description>
       <pubDate>Sat, 22 Aug 2026 02:23:18 -0000</pubDate>
-    </item>
-    <item>
-      <title>MDAフレームワークとは何か――「面白い」をMechanics・Dynamics・Aestheticsに分けて考える</title>
-      <link>https://umichang.github.io/blog/mda-framework-mechanics-dynamics-aesthetics-guide.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/mda-framework-mechanics-dynamics-aesthetics-guide.html</guid>
-      <description>MDAフレームワークを原論文から読み解き、『面白い』という感想をMechanics、Dynamics、Aestheticsへ分けて企画・プレイテストに生かす考え方と限界を解説する。</description>
-      <pubDate>Fri, 21 Aug 2026 02:22:12 -0000</pubDate>
     </item>
   </channel>
 </rss>

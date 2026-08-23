@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか](gdpr-consent-gate-game-telemetry-design.md) 🟡
 - [コンビニのニンテンドーカード、なぜ2種類あるのか――資金決済法から読むゲーム課金の「前払い」](nintendo-prepaid-download-cards-payment-services-act.md) 🟢
 - [『ドラゴンクエストX』おしゃべりスラミィに学ぶ、生成AIコンパニオンの「自由を絞る」設計](dragon-quest-x-slamy-generative-ai-companion-design.md) 🟡
 - [3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計](intransitive-balance-rock-paper-scissors-game-design.md) 🟡
 - [ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く](variable-ratio-reinforcement-gacha-loot-box-psychology.md) 🟡
-- [MDAフレームワークとは何か――「面白い」をMechanics・Dynamics・Aestheticsに分けて考える](mda-framework-mechanics-dynamics-aesthetics-guide.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -323,6 +323,7 @@
 #### 📚 法務・知財・二次創作
 
 - [ゲームプランナーが知っておくべき法令ガイド](game-planner-japanese-law-guide.md) 🟡
+- [GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか](gdpr-consent-gate-game-telemetry-design.md) 🟡
 - [小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP](indie-game-publishing-contract-revenue-recoup-ip.md) 🔴
 - [生成AIと著作権法 ― ゲーム業界の実務論点ガイド](generative-ai-copyright-game-industry-guide.md) 🔴
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🔴
