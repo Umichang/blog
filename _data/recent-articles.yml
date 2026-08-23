@@ -1,5 +1,7 @@
 ---
 articles:
+- path: dragon-quest-x-slamy-generative-ai-companion-design.md
+  published_at: '2026-08-22T23:57:40Z'
 - path: intransitive-balance-rock-paper-scissors-game-design.md
   published_at: '2026-08-22T11:33:11Z'
 - path: variable-ratio-reinforcement-gacha-loot-box-psychology.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-21T02:22:12Z'
 - path: snowbreak-collaboration-risk-digital-content-changes.md
   published_at: '2026-08-20T11:21:02Z'
-- path: flow-theory-psychology-origins-and-game-design.md
-  published_at: '2026-08-20T08:21:23Z'
