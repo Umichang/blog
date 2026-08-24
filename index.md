@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その配信、PRですか？――ステルスマーケティング規制とゲーム実況・VTuberタイアップの実務](stealth-marketing-game-streaming-vtuber-pr-disclosure.md) 🟡
 - [その「勝った」は本物か――A/Bテストの設計と読み方](ab-testing-design-and-interpretation.md) 🟡
 - [GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか](gdpr-consent-gate-game-telemetry-design.md) 🟡
 - [コンビニのニンテンドーカード、なぜ2種類あるのか――資金決済法から読むゲーム課金の「前払い」](nintendo-prepaid-download-cards-payment-services-act.md) 🟢
 - [『ドラゴンクエストX』おしゃべりスラミィに学ぶ、生成AIコンパニオンの「自由を絞る」設計](dragon-quest-x-slamy-generative-ai-companion-design.md) 🟡
-- [3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計](intransitive-balance-rock-paper-scissors-game-design.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -324,6 +324,7 @@
 
 - [ゲームプランナーが知っておくべき法令ガイド](game-planner-japanese-law-guide.md) 🟡
 - [GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか](gdpr-consent-gate-game-telemetry-design.md) 🟡
+- [その配信、PRですか？――ステルスマーケティング規制とゲーム実況・VTuberタイアップの実務](stealth-marketing-game-streaming-vtuber-pr-disclosure.md) 🟡
 - [小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP](indie-game-publishing-contract-revenue-recoup-ip.md) 🔴
 - [生成AIと著作権法 ― ゲーム業界の実務論点ガイド](generative-ai-copyright-game-industry-guide.md) 🔴
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🔴

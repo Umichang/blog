@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 24 Aug 2026 03:02:34 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 04:53:25 -0000</lastBuildDate>
+    <item>
+      <title>その配信、PRですか？――ステルスマーケティング規制とゲーム実況・VTuberタイアップの実務</title>
+      <link>https://umichang.github.io/blog/stealth-marketing-game-streaming-vtuber-pr-disclosure.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/stealth-marketing-game-streaming-vtuber-pr-disclosure.html</guid>
+      <description>ゲーム実況者やVTuberへのレビューコード提供、案件配信、継続契約は、どこからPR表記が必要になるのか。2023年施行のステルスマーケティング規制を、発注・契約・配信・切り抜きの実務へ翻訳する。</description>
+      <pubDate>Mon, 24 Aug 2026 04:53:25 -0000</pubDate>
+    </item>
     <item>
       <title>その「勝った」は本物か――A/Bテストの設計と読み方</title>
       <link>https://umichang.github.io/blog/ab-testing-design-and-interpretation.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/dragon-quest-x-slamy-generative-ai-companion-design.html</guid>
       <description>『ドラゴンクエストX オンライン』のおしゃべりスラミィを題材に、有限な会話、双方向の発話、マルチエージェント構成から生成AIコンパニオン設計を読み解く。</description>
       <pubDate>Sat, 22 Aug 2026 23:57:40 -0000</pubDate>
-    </item>
-    <item>
-      <title>3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計</title>
-      <link>https://umichang.github.io/blog/intransitive-balance-rock-paper-scissors-game-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/intransitive-balance-rock-paper-scissors-game-design.html</guid>
-      <description>ジャンケン、自然界の競争、格闘ゲーム、RTS、TCG、ポケモンを横断し、単一の最強手を作らない非推移バランスの設計原理と学習コストを整理する。</description>
-      <pubDate>Sat, 22 Aug 2026 11:33:11 -0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,7 @@
 ---
 articles:
+- path: stealth-marketing-game-streaming-vtuber-pr-disclosure.md
+  published_at: '2026-08-24T04:53:25Z'
 - path: ab-testing-design-and-interpretation.md
   published_at: '2026-08-24T03:02:34Z'
 - path: gdpr-consent-gate-game-telemetry-design.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-23T11:19:43Z'
 - path: dragon-quest-x-slamy-generative-ai-companion-design.md
   published_at: '2026-08-22T23:57:40Z'
-- path: intransitive-balance-rock-paper-scissors-game-design.md
-  published_at: '2026-08-22T11:33:11Z'
