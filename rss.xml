@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 24 Aug 2026 04:53:25 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 14:45:17 -0000</lastBuildDate>
+    <item>
+      <title>なぜCEOの質問に、違う数字が返ってくるのか――データ基盤とダッシュボード運用</title>
+      <link>https://umichang.github.io/blog/dashboard-metric-consistency-data-pipeline-operations.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/dashboard-metric-consistency-data-pipeline-operations.html</guid>
+      <description>CEOへの回答が部署ごとに食い違う理由を、Airbnb、DeNA、Aiming、バンダイナムコエンターテインメント、Cygamesの事例からたどり、指標定義とダッシュボードを継続運用する方法を整理する。</description>
+      <pubDate>Mon, 24 Aug 2026 14:45:17 -0000</pubDate>
+    </item>
     <item>
       <title>その配信、PRですか？――ステルスマーケティング規制とゲーム実況・VTuberタイアップの実務</title>
       <link>https://umichang.github.io/blog/stealth-marketing-game-streaming-vtuber-pr-disclosure.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/nintendo-prepaid-download-cards-payment-services-act.html</guid>
       <description>コンビニに並ぶニンテンドープリペイドカードとダウンロードカードの違いから、資金決済法の前払式支払手段、残高保全、6か月ルールをやさしく整理する。</description>
       <pubDate>Sun, 23 Aug 2026 11:19:43 -0000</pubDate>
-    </item>
-    <item>
-      <title>『ドラゴンクエストX』おしゃべりスラミィに学ぶ、生成AIコンパニオンの「自由を絞る」設計</title>
-      <link>https://umichang.github.io/blog/dragon-quest-x-slamy-generative-ai-companion-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/dragon-quest-x-slamy-generative-ai-companion-design.html</guid>
-      <description>『ドラゴンクエストX オンライン』のおしゃべりスラミィを題材に、有限な会話、双方向の発話、マルチエージェント構成から生成AIコンパニオン設計を読み解く。</description>
-      <pubDate>Sat, 22 Aug 2026 23:57:40 -0000</pubDate>
     </item>
   </channel>
 </rss>
