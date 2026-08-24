@@ -1,5 +1,7 @@
 ---
 articles:
+- path: ab-testing-design-and-interpretation.md
+  published_at: '2026-08-24T03:02:34Z'
 - path: gdpr-consent-gate-game-telemetry-design.md
   published_at: '2026-08-23T12:46:29Z'
 - path: nintendo-prepaid-download-cards-payment-services-act.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-22T23:57:40Z'
 - path: intransitive-balance-rock-paper-scissors-game-design.md
   published_at: '2026-08-22T11:33:11Z'
-- path: variable-ratio-reinforcement-gacha-loot-box-psychology.md
-  published_at: '2026-08-22T02:23:18Z'

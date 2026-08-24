@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その「勝った」は本物か――A/Bテストの設計と読み方](ab-testing-design-and-interpretation.md) 🟡
 - [GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか](gdpr-consent-gate-game-telemetry-design.md) 🟡
 - [コンビニのニンテンドーカード、なぜ2種類あるのか――資金決済法から読むゲーム課金の「前払い」](nintendo-prepaid-download-cards-payment-services-act.md) 🟢
 - [『ドラゴンクエストX』おしゃべりスラミィに学ぶ、生成AIコンパニオンの「自由を絞る」設計](dragon-quest-x-slamy-generative-ai-companion-design.md) 🟡
 - [3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計](intransitive-balance-rock-paper-scissors-game-design.md) 🟡
-- [ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く](variable-ratio-reinforcement-gacha-loot-box-psychology.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -359,6 +359,7 @@
 ### 📈 計測・分析
 
 - [テレメトリ・計測設計入門――「何を・いつ・どの粒度で記録するか」を設計する技術](game-telemetry-and-instrumentation-design.md) 🔴
+- [その「勝った」は本物か――A/Bテストの設計と読み方](ab-testing-design-and-interpretation.md) 🟡
 - [モバイルゲームのKPI読み方入門——数字の意味と、数字だけに騙されない判断力](mobile-game-kpi-reading-guide.md) 🔴
 
 ### 🕹️ プラットフォーム・ハードウェア
