@@ -1,5 +1,7 @@
 ---
 articles:
+- path: mobile-game-ad-attribution-after-att-skan.md
+  published_at: '2026-08-25T02:40:57Z'
 - path: dashboard-metric-consistency-data-pipeline-operations.md
   published_at: '2026-08-24T14:45:17Z'
 - path: stealth-marketing-game-streaming-vtuber-pr-disclosure.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-24T03:02:34Z'
 - path: gdpr-consent-gate-game-telemetry-design.md
   published_at: '2026-08-23T12:46:29Z'
-- path: nintendo-prepaid-download-cards-payment-services-act.md
-  published_at: '2026-08-23T11:19:43Z'
