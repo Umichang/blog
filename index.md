@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [コミケへの企業ブース参入――理念と流儀、メリットと懸念点](comic-market-corporate-booth-participation-practice.md) 🟡
 - [黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか](tacit-tolerance-doujin-ip-enforcement.md) 🟡
 - [誰がいくら稼いだかが見えなくなった――ATT後の広告アトリビューション計測](mobile-game-ad-attribution-after-att-skan.md) 🟡
 - [なぜCEOの質問に、違う数字が返ってくるのか――データ基盤とダッシュボード運用](dashboard-metric-consistency-data-pipeline-operations.md) 🟡
 - [その配信、PRですか？――ステルスマーケティング規制とゲーム実況・VTuberタイアップの実務](stealth-marketing-game-streaming-vtuber-pr-disclosure.md) 🟡
-- [その「勝った」は本物か――A/Bテストの設計と読み方](ab-testing-design-and-interpretation.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -277,6 +277,7 @@
 #### 🫂 コミュニティ・ソーシャル・UGC
 
 - [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🟡
+- [コミケへの企業ブース参入――理念と流儀、メリットと懸念点](comic-market-corporate-booth-participation-practice.md) 🟡
 - [オンラインゲームの有害行動対策はなぜ難しいのか――通報、制裁、誤BAN、理由開示を一つの設計にする](online-game-harassment-moderation-design.md) 🔴
 - [ソーシャル機能設計の実務――フレンド・ギルドをどう作り、どう運用するか](social-features-friends-guilds-design-practices.md) 🟡
 - [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🟢

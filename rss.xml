@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 25 Aug 2026 09:48:24 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 13:04:34 -0000</lastBuildDate>
+    <item>
+      <title>コミケへの企業ブース参入――理念と流儀、メリットと懸念点</title>
+      <link>https://umichang.github.io/blog/comic-market-corporate-booth-participation-practice.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/comic-market-corporate-booth-participation-practice.html</guid>
+      <description>コミックマーケットの企業ブースを、単なる物販イベントではなく、全員が参加者であるという理念と会場運営の中で捉える。成立史、同人活動との線引き、収益・ファン接点、安全・表現配慮から出展判断を整理する。</description>
+      <pubDate>Tue, 25 Aug 2026 13:04:34 -0000</pubDate>
+    </item>
     <item>
       <title>黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか</title>
       <link>https://umichang.github.io/blog/tacit-tolerance-doujin-ip-enforcement.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/stealth-marketing-game-streaming-vtuber-pr-disclosure.html</guid>
       <description>ゲーム実況者やVTuberへのレビューコード提供、案件配信、継続契約は、どこからPR表記が必要になるのか。2023年施行のステルスマーケティング規制を、発注・契約・配信・切り抜きの実務へ翻訳する。</description>
       <pubDate>Mon, 24 Aug 2026 04:53:25 -0000</pubDate>
-    </item>
-    <item>
-      <title>その「勝った」は本物か――A/Bテストの設計と読み方</title>
-      <link>https://umichang.github.io/blog/ab-testing-design-and-interpretation.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/ab-testing-design-and-interpretation.html</guid>
-      <description>A/Bテストの有意差を額面通りに受け取らず、サンプルサイズ、SRM、時間効果、ネットワーク干渉、多重比較、のぞき見を順に点検する実務手順を解説する。</description>
-      <pubDate>Mon, 24 Aug 2026 03:02:34 -0000</pubDate>
     </item>
   </channel>
 </rss>
