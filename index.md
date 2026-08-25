@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか](tacit-tolerance-doujin-ip-enforcement.md) 🟡
 - [誰がいくら稼いだかが見えなくなった――ATT後の広告アトリビューション計測](mobile-game-ad-attribution-after-att-skan.md) 🟡
 - [なぜCEOの質問に、違う数字が返ってくるのか――データ基盤とダッシュボード運用](dashboard-metric-consistency-data-pipeline-operations.md) 🟡
 - [その配信、PRですか？――ステルスマーケティング規制とゲーム実況・VTuberタイアップの実務](stealth-marketing-game-streaming-vtuber-pr-disclosure.md) 🟡
 - [その「勝った」は本物か――A/Bテストの設計と読み方](ab-testing-design-and-interpretation.md) 🟡
-- [GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか](gdpr-consent-gate-game-telemetry-design.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -325,6 +325,7 @@
 - [ゲームプランナーが知っておくべき法令ガイド](game-planner-japanese-law-guide.md) 🟡
 - [GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか](gdpr-consent-gate-game-telemetry-design.md) 🟡
 - [その配信、PRですか？――ステルスマーケティング規制とゲーム実況・VTuberタイアップの実務](stealth-marketing-game-streaming-vtuber-pr-disclosure.md) 🟡
+- [黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか](tacit-tolerance-doujin-ip-enforcement.md) 🟡
 - [小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP](indie-game-publishing-contract-revenue-recoup-ip.md) 🔴
 - [生成AIと著作権法 ― ゲーム業界の実務論点ガイド](generative-ai-copyright-game-industry-guide.md) 🔴
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🔴

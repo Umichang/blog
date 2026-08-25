@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 25 Aug 2026 02:40:57 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 09:48:24 -0000</lastBuildDate>
+    <item>
+      <title>黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか</title>
+      <link>https://umichang.github.io/blog/tacit-tolerance-doujin-ip-enforcement.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/tacit-tolerance-doujin-ip-enforcement.html</guid>
+      <description>自社IPの二次創作頒布を、どこまで黙認し、どこから介入するか。コミケの成立理念、親告罪、ポケモン同人誌事件、人材輩出、カプコンの明文化事例から、版元の実務判断を整理する。</description>
+      <pubDate>Tue, 25 Aug 2026 09:48:24 -0000</pubDate>
+    </item>
     <item>
       <title>誰がいくら稼いだかが見えなくなった――ATT後の広告アトリビューション計測</title>
       <link>https://umichang.github.io/blog/mobile-game-ad-attribution-after-att-skan.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/ab-testing-design-and-interpretation.html</guid>
       <description>A/Bテストの有意差を額面通りに受け取らず、サンプルサイズ、SRM、時間効果、ネットワーク干渉、多重比較、のぞき見を順に点検する実務手順を解説する。</description>
       <pubDate>Mon, 24 Aug 2026 03:02:34 -0000</pubDate>
-    </item>
-    <item>
-      <title>GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか</title>
-      <link>https://umichang.github.io/blog/gdpr-consent-gate-game-telemetry-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/gdpr-consent-gate-game-telemetry-design.html</guid>
-      <description>GDPRの適法根拠を日本の個人情報保護法と対比し、Ubisoftへの申立てを手掛かりに、同意ゲートの位置、拒否後の通常プレイ、ATTとの分離、KPI・A/Bテストの欠測を設計へ落とし込む。</description>
-      <pubDate>Sun, 23 Aug 2026 12:46:29 -0000</pubDate>
     </item>
   </channel>
 </rss>
