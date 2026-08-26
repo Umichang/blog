@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ゲームアプリのサブスクとダークパターン――炎上事例・国内外規制から設計指針を考える](game-app-subscription-dark-pattern-regulation-design.md) 🔴
 - [同人ゲームプランナーの個人事業と確定申告――兼業と企業への助っ人参画を分けて考える](indie-game-planner-sole-proprietor-tax-contract-social-insurance.md) 🔴
 - [コミケへの企業ブース参入――理念と流儀、メリットと懸念点](comic-market-corporate-booth-participation-practice.md) 🟡
 - [黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか](tacit-tolerance-doujin-ip-enforcement.md) 🟡
 - [誰がいくら稼いだかが見えなくなった――ATT後の広告アトリビューション計測](mobile-game-ad-attribution-after-att-skan.md) 🟡
-- [なぜCEOの質問に、違う数字が返ってくるのか――データ基盤とダッシュボード運用](dashboard-metric-consistency-data-pipeline-operations.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -352,6 +352,7 @@
 
 #### 📱 プラットフォーム規制・課金規制
 
+- [ゲームアプリのサブスクとダークパターン――炎上事例・国内外規制から設計指針を考える](game-app-subscription-dark-pattern-regulation-design.md) 🔴
 - [コンビニのニンテンドーカード、なぜ2種類あるのか――資金決済法から読むゲーム課金の「前払い」](nintendo-prepaid-download-cards-payment-services-act.md) 🟢
 - [プレイ時間の上限は誰が決めるのか――各国の時間規制から考えるコンテンツ消費設計](game-play-time-limits-content-consumption-design.md) 🔴
 - [ガチャは違法になったのか？ コンプガチャ規制から確率表示までの歴史](gacha-regulation-japan-history.md) 🟡
