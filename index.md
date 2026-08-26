@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [同人ゲームプランナーの個人事業と確定申告――兼業と企業への助っ人参画を分けて考える](indie-game-planner-sole-proprietor-tax-contract-social-insurance.md) 🔴
 - [コミケへの企業ブース参入――理念と流儀、メリットと懸念点](comic-market-corporate-booth-participation-practice.md) 🟡
 - [黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか](tacit-tolerance-doujin-ip-enforcement.md) 🟡
 - [誰がいくら稼いだかが見えなくなった――ATT後の広告アトリビューション計測](mobile-game-ad-attribution-after-att-skan.md) 🟡
 - [なぜCEOの質問に、違う数字が返ってくるのか――データ基盤とダッシュボード運用](dashboard-metric-consistency-data-pipeline-operations.md) 🟡
-- [その配信、PRですか？――ステルスマーケティング規制とゲーム実況・VTuberタイアップの実務](stealth-marketing-game-streaming-vtuber-pr-disclosure.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -348,6 +348,7 @@
 - [日本のゲーム業界における「クランチ」と労働法制の歴史](game-crunch-labor-law-japan-history.md) 🟡
 - [欧米ゲーム業界で続く大規模レイオフと、日本の労働法制](game-industry-mass-layoffs-japan-labor-law.md) 🟡
 - [ゲームプランナーの転職論――スキルアップか、泥舟から逃げるか](game-planner-career-change-preparation.md) 🟡
+- [同人ゲームプランナーの個人事業と確定申告――兼業と企業への助っ人参画を分けて考える](indie-game-planner-sole-proprietor-tax-contract-social-insurance.md) 🔴
 
 #### 📱 プラットフォーム規制・課金規制
 
