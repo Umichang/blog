@@ -1,6 +1,6 @@
 ---
 description: "スマートフォンゲームの流通は、事実上 Apple の App Store と Google の Google Play という2つのプラットフォームに支配されている。この2社は 単なる販売窓口ではなく、ゲームの内容そのものを審査・規制する権限を持つ「ゲートキーパー」 として機能している。"
-category: legal-regulation
+category: expression-streaming-rating
 difficulty: yellow
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "ゲームの体験版は「製品版を売るための試み」である。しかしその位置づけは時代とともに変化し、単純なプロモーションツールから、開発方針を左右するフィードバック収集の手段、さらにはビジネスモデルそのものへと進化してきた。"
-category: business-market-monetization
+category: market-industry-release
 difficulty: green
 ---
 

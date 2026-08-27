@@ -1,6 +1,6 @@
 ---
 description: "2016年8月9日、イギリスのインディースタジオHello Gamesが4人から始めた開発チームの作品、『No Man's Sky』がPS4向けにリリースされた（北米8月9日・欧州8月10日、PC版は8月12日）。"
-category: operations-community
+category: market-industry-release
 difficulty: green
 ---
 

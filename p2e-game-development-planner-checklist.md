@@ -1,6 +1,6 @@
 ---
 description: "「P2E（Play to Earn）要素を入れたゲームを検討してほしい」と上長から言われたとき、ゲームプランナーが最初に作るべきものは、トークンの名前でも報酬表でもない。企画の前提を分解し、誰のどの課題を、どの仕組みで解決するのかを確認するための論点表である。"
-category: business-market-monetization
+category: monetization-f2p
 difficulty: red
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "「にじさんじ甲子園」は、VTuber（アバターを用いて配信する活動者）たちが高校野球の監督となり、育てたチームを戦わせる配信企画である。"
-category: operations-community
+category: community-social-ugc
 difficulty: green
 ---
 

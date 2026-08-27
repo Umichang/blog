@@ -1,6 +1,6 @@
 ---
 description: "ゲームフィールは、物理性、出来事の意味づけ、意図の補助という三つの設計領域が重なって生まれる。プレイヤーが『気持ちいい』と感じる瞬間を、この三つのレンズから読み解く。"
-category: game-systems-player-experience
+category: game-design-theory
 difficulty: yellow
 ---
 

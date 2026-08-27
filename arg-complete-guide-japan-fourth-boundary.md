@@ -1,7 +1,7 @@
 ---
 description: "ARG（Alternate Reality Game）は、「代替現実ゲーム」と訳される体験型エンターテインメントのジャンルだ。近年では「日常侵蝕ゲーム」という表現も使われるようになっている。"
 category: narrative-worldbuilding-puzzle
-difficulty: yellow
+difficulty: green
 ---
 
 # ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界

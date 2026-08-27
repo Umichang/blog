@@ -1,6 +1,6 @@
 ---
 description: "『METAL GEAR SOLID 3 SNAKE EATER』は、サバイバルという主題を迷彩率、食糧、治療、CQCの操作へ翻訳した。『METAL GEAR SOLID Δ: SNAKE EATER』が体験を保つために何を変えたかを、開発者の言葉から読む。"
-category: game-systems-player-experience
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

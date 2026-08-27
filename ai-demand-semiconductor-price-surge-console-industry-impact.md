@@ -1,6 +1,6 @@
 ---
 description: "2025年後半から2026年にかけて、AIデータセンター投資の急拡大がDRAM・NAND・HBM(広帯域メモリ)の価格を歴史的なペースで押し上げ、コンソール本体からPCゲーミング機、クラウドサーバーコストまでゲーム業界全体に波及している。"
-category: business-market-monetization
+category: market-industry-release
 difficulty: yellow
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: "2026年に過去最多ペースとなった国内スマートフォンゲーム事業者の倒産を、帝国データバンクの定量データ、開発・運営費、市場規模から読み解く。"
-category: business-market-monetization
-difficulty: red
+category: market-industry-release
+difficulty: yellow
 ---
 
 # スマートフォンゲーム会社の倒産はなぜ過去最多ペースなのか――2026年の数字から読む開発費・運営費と国内市場

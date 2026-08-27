@@ -136,7 +136,8 @@ python3 scripts/article_index.py build
 6. `index.md`の新着記事・まず読む記事は検索DBへ重複登録されず、分類一覧の掲載だけが登録される。
 7. `✨ 番外編`のH2直下にある記事が、直前のH3カテゴリへ誤分類されない。
 8. frontmatterの`category`・`difficulty`と、`index.md`の分類・難易度が異なる場合に`validate`が失敗する。
-9. `.cache/articles.db`が`.gitignore`対象であり、DBをコミットしない。
+9. `🆕 新着記事`・`📌 まず読む記事`の難易度が分類セクションと異なる場合に`validate`が失敗する。
+10. `.cache/articles.db`が`.gitignore`対象であり、DBをコミットしない。
 
 自動テストは次で実行できる。
 

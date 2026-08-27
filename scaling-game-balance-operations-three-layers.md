@@ -1,6 +1,6 @@
 ---
 description: "対象が人力で把握しきれない規模になったとき、ゲームバランスをどう継続運用するか。ポケモンの事例を縦軸に、対象の単純化、変更コストを下げる基盤設計、データとAIによる監視という三つのレイヤーで整理する。"
-category: planning-spec-dev-process
+category: spec-quality-judgment
 difficulty: yellow
 ---
 

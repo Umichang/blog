@@ -1,6 +1,6 @@
 ---
 description: "その場でカードを印刷・排出し、次のプレイに読み戻すアーケード筐体を題材に、未印刷在庫、確率、物理的な所有感、二次流通、料金設計と運用上のトレードオフを解説する。"
-category: business-market-monetization
+category: monetization-f2p
 difficulty: yellow
 ---
 

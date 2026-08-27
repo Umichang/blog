@@ -1,7 +1,7 @@
 ---
 description: "ゲーム業界では近年、過去のタイトルを「リマスター」または「リメイク」として復刻する動きが加速している。背景には複数の要因がある。"
-category: planning-spec-dev-process
-difficulty: green
+category: series-ip-strategy
+difficulty: yellow
 ---
 
 # ゲームのリマスターとリメイク：ゲームプランナーが押さえるべき設計思想

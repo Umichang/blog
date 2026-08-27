@@ -1,6 +1,6 @@
 ---
 description: "一人・小規模インディー開発者向けに、パブリッシング契約のレベニューシェア、前払金、リクープ、分配原資、IP、独占、売上の受取主体を実契約の調査データから読み解く。"
-category: legal-regulation
+category: law-ip-fanworks
 difficulty: red
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "『ペルソナ3』は18年で4つの主要バージョンへ展開した。『フェス』の後日談と差額版、『ポータブル』の女性主人公と2D化、『リロード』の3D再設計とDLCをたどり、何を変え、何を引き継げなかったのかをプランナー視点で読む。"
-category: planning-spec-dev-process
+category: series-ip-strategy
 difficulty: yellow
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "ゲームをグローバルにリリースするとき、最大の壁のひとつが 各国のレーティング審査 だ。国ごとに「何が許容され、何が禁止されるか」の基準は大きく異なり、日本でALL OK だったタイトルが海外でリジェクトされることも、逆に海外タイトルが日本の審査を通過できずに発売中止になることも珍しくない。"
-category: legal-regulation
+category: expression-streaming-rating
 difficulty: yellow
 ---
 

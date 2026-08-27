@@ -1,6 +1,6 @@
 ---
 description: "自由入力型の生成AIゲームでは、配信プラットフォームの審査方針がゲームシステムの成立条件になる。『Instantale』がSteam配信を断念し、Epic Games Storeで発売されるまでの経緯から、ライブ生成AIの申告、成人向け表現の制御、ストア選定を企画段階でどう扱うべきかを考える。"
-category: legal-regulation
+category: expression-streaming-rating
 difficulty: red
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "ゲーム開発の終盤に長時間労働が集中する「クランチ」と、プロジェクトや拠点の縮小に伴って人員が削減される「レイオフ」は、別の問題に見える。しかし、どちらも開発計画と雇用のリスクを、誰がどのように引き受けるかという問いにつながっている。"
-category: legal-regulation
+category: labor-organization
 difficulty: yellow
 ---
 

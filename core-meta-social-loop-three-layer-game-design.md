@@ -1,6 +1,6 @@
 ---
 description: "コアループ、メタループ、ソーシャルループの三層をつなぎ、短期の手応えから長期の継続までを設計する考え方と、接続が切れる失敗を解説する。"
-category: game-systems-player-experience
+category: game-design-theory
 difficulty: yellow
 ---
 

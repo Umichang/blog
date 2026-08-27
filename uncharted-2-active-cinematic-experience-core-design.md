@@ -1,6 +1,6 @@
 ---
 description: "『アンチャーテッド 黄金刀と消えた船団』のペーシング、トラバーサル・ガンプレイ、敵AI、セットピースを、「操作できる映画」という一貫した設計目標から読み解く。"
-category: planning-spec-dev-process
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

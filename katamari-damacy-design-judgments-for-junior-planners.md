@@ -1,6 +1,6 @@
 ---
 description: "『塊魂』は、なぜ『転がして巻き込む』だけで20年以上続くシリーズになったのか。高橋慶太の開発経緯から、若手プランナーが企画を早く形にし、資産と制約を設計へ変える判断を読み解く。"
-category: planning-spec-dev-process
+category: title-experience-design-analysis
 difficulty: green
 ---
 

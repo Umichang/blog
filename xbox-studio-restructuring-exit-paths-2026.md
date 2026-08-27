@@ -1,7 +1,7 @@
 ---
 description: "2026年7月、Xboxは大規模な人員削減と、傘下スタジオの切り離しを同時に発表した。数字の大きさだけを追えばレイオフのニュースである。しかし企画・開発の現場にとって、より長く効く論点は別にある。"
-category: business-market-monetization
-difficulty: red
+category: market-industry-release
+difficulty: yellow
 ---
 
 # Xbox再編から考える、スタジオの「独立・売却・閉鎖」はなぜ分かれるのか

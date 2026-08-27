@@ -1,7 +1,7 @@
 ---
 description: "「ランダム」と聞けば、誰でも「予測不可能な出来事」を思い浮かべる。しかしゲーム開発において、本当に予測不可能な「真の乱数」を使うことはほとんどない。理由はシンプルだ——真の乱数は再現できず、デバッグもテストも成立しないからである。"
 category: tech-foundation-data-assets
-difficulty: yellow
+difficulty: red
 ---
 
 # ゲームプランナーが知っておくべき乱数の話

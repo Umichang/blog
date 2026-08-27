@@ -1,6 +1,6 @@
 ---
 description: "『バランス・オブ・パワー』は、政治や外交という抽象的な題材を、限られた動詞と危機の反復へ変えた。後発4作品との比較から、システムを遊びへ翻訳する設計手順を読み解く。"
-category: planning-spec-dev-process
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "世界展開するライブサービスゲームでは、現実の行事が強い集客・売上の入口になる一方、宗教や文化の受け止め方が地域ごとに異なる。5つのイベント戦略を比較し、どの摩擦を引き受けるか決める判断軸を整理する。"
-category: operations-community
+category: live-service-retention
 difficulty: yellow
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "フロー理論はゲームの設計法則ではなく、心理学における主観的経験の研究から生まれた。原典の調査手法、ゲームへの翻訳、そして挑戦と技能の釣り合いへの実証的な反論をたどる。"
-category: game-systems-player-experience
+category: game-design-theory
 difficulty: yellow
 ---
 

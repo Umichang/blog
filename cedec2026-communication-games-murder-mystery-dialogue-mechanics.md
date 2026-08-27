@@ -1,6 +1,6 @@
 ---
 description: "ゲームの入力といえば、ボタン、レバー、タッチ、コマンド選択を思い浮かべることが多い。しかし、プレイヤーが他のプレイヤーへ何を伝え、何を隠し、どの発言を信じるかも、勝敗を変える入力になり得る。そこでは、対話は物語を見せるための演出ではなく、ゲームの状態を変えるメカニクスになる。"
-category: game-systems-player-experience
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

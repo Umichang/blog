@@ -1,6 +1,6 @@
 ---
 description: "高性能な携帯ゲーム機が繰り返し主役になれなかったのはなぜか。乾電池の時代に効いた駆動時間と価格の法則が、充電とスマートフォンの普及でどう変わり、Nintendo Switchで何に置き換わったかを追う。"
-category: platform-hardware
+category: console-platform-history
 difficulty: green
 ---
 

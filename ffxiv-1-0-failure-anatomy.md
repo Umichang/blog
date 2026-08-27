@@ -1,6 +1,6 @@
 ---
 description: "2010年9月30日、Windows版『ファイナルファンタジーXIV』の正式サービスが始まった。『ファイナルファンタジーXI』（以下、FF11）に続く、シリーズ2作目のMMORPGである。MMORPGとは、多数のプレイヤーが同じ世界へ継続的に接続して遊ぶオンラインRPGを指す。"
-category: planning-spec-dev-process
+category: spec-quality-judgment
 difficulty: green
 ---
 

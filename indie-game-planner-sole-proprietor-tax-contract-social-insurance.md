@@ -1,6 +1,6 @@
 ---
 description: "会社員の兼業同人ゲーム制作と、個人事業主として企業チームへ参画する助っ人プランナーを分け、所得区分、確定申告、契約、インボイス、社会保険、老後保障の実務を整理する。"
-category: legal-regulation
+category: labor-organization
 difficulty: red
 ---
 

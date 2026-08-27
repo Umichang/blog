@@ -1,6 +1,6 @@
 ---
 description: "オンラインゲームのリリースや大型ライブイベントでは、「サーバーを増やせば何とかなる」という期待が生まれやすい。しかし、実際の障害は、アプリケーションサーバーのCPU不足だけで起きるとは限らない。"
-category: planning-spec-dev-process
+category: planning-production-process
 difficulty: red
 ---
 

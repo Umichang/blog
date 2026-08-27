@@ -1,6 +1,6 @@
 ---
 description: "プロシージャル生成（Procedural Content Generation：PCG）とは、コンテンツをあらかじめ手作業で作るのではなく、アルゴリズムによってその場で自動的に生み出す 手法である。初期のゲームにとってこれは「容量制約への苦肉の策」だった。"
-category: game-systems-player-experience
+category: tech-foundation-data-assets
 difficulty: yellow
 ---
 

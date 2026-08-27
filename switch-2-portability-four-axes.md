@@ -1,6 +1,6 @@
 ---
 description: "サイバーパンク2077、ファイナルファンタジーXIV、ファイナルファンタジーVII リメイクシリーズのNintendo Switch 2対応は、移植可否を「AAAかどうか」で決められないことを示す。GPUとCPUの非対称性、絵作り、オンライン構成、ストレージという四つの軸で、自社タイトルの移植を検討する。"
-category: platform-hardware
+category: hardware-tech-protection
 difficulty: yellow
 ---
 

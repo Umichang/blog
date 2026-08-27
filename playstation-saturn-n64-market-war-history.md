@@ -1,6 +1,6 @@
 ---
 description: "1990年代半ばの家庭用ゲーム機競争は、単に「32ビット対64ビット」の性能比べではなかった。プレイステーション、セガサターン、NINTENDO64は、同じ3D化の波に向き合いながら、媒体、開発者との関係、小売への届け方、強いジャンルを異なる形で選んだ。"
-category: platform-hardware
+category: console-platform-history
 difficulty: green
 ---
 

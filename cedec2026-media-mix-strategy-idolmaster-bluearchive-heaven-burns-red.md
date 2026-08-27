@@ -1,6 +1,6 @@
 ---
 description: "ゲームのメディアミックス展開を考えるとき、最初に整理しておきたいのは「誰が最終的に決めるのか」という点である。通常、アニメ化、舞台化、商品化、イベント化などの大きな方針は、ゲームプランナーが単独で決めるものではない。"
-category: business-market-monetization
+category: market-industry-release
 difficulty: yellow
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: "A/Bテストの有意差を額面通りに受け取らず、サンプルサイズ、SRM、時間効果、ネットワーク干渉、多重比較、のぞき見を順に点検する実務手順を解説する。"
 category: analytics-measurement
-difficulty: yellow
+difficulty: red
 ---
 
 # その「勝った」は本物か――A/Bテストの設計と読み方

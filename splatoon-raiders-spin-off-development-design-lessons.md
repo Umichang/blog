@@ -1,6 +1,6 @@
 ---
 description: "2026年7月23日にNintendo Switch 2向けに発売される『スプラトゥーン レイダース』は、ナンバリング最新作ではなく、シリーズ初のスピンオフである。対戦を中核に育ったシリーズから、協力プレイの「サーモンラン」やひとり用のストーリーモードにある遊びを独立させ、対戦に馴染めなかった人も入れる入口をつくる。"
-category: planning-spec-dev-process
+category: series-ip-strategy
 difficulty: yellow
 ---
 

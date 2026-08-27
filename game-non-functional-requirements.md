@@ -1,6 +1,6 @@
 ---
 description: "ゲームプランナーが日々考えるのは「どんな機能をゲームに入れるか」だ。バトルシステム、キャラクター育成、ガチャの確率、チュートリアルのフロー——これらはすべて 機能要件（Functional Requirements） と呼ばれる。"
-category: planning-spec-dev-process
+category: planning-production-process
 difficulty: red
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "自社IPの二次創作頒布を、どこまで黙認し、どこから介入するか。コミケの成立理念、親告罪、ポケモン同人誌事件、人材輩出、カプコンの明文化事例から、版元の実務判断を整理する。"
-category: legal-regulation
+category: law-ip-fanworks
 difficulty: yellow
 ---
 

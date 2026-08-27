@@ -1,6 +1,6 @@
 ---
 description: "CEDEC2026最終日の5セッションから、基盤技術の人材育成、AI NPCの大規模実証、生成AIプロトタイピング、120FPS最適化、AIローカライズに共通する検証と工程の積み上げを読み解く。"
-category: planning-spec-dev-process
+category: planning-production-process
 difficulty: yellow
 ---
 

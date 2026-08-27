@@ -1,6 +1,6 @@
 ---
 description: "スタミナや行動力を、プレイ時間の調整だけでなく、目標、報酬、復帰、課金との関係まで含めて設計するための実務を解説する。"
-category: operations-community
+category: live-service-retention
 difficulty: red
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: "期間限定イベントは、既存の遊びに期限、目標、報酬、特別な見せ方を重ね、プレイヤーへ「今、この遊びを選ぶ理由」を作る施策である。"
-category: operations-community
-difficulty: red
+category: live-service-retention
+difficulty: yellow
 ---
 
 # 期間限定イベント設計の実務――目的、報酬、救済、終了処理を一枚の仕様へ落とす

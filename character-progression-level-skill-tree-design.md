@@ -1,6 +1,6 @@
 ---
 description: "育成システムの仕様書へ「敵を倒すと経験値を獲得し、一定値でレベルアップする」と書くだけでは、実装の入口しか決まっていない。プレイヤーがいつ強くなり、何を選び、選択をどこまでやり直せるかが未定だからである。"
-category: game-systems-player-experience
+category: progression-goals-difficulty
 difficulty: red
 ---
 

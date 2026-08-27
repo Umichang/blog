@@ -1,6 +1,6 @@
 ---
 description: "明確なラスボスも、エンディングへ至る一本道の目標もない。それでもプレイヤーは、家具を一つ置き直し、住民の様子を少し見に行き、季節の虫を博物館へ寄贈するために何か月、何年と戻ってくる。生活シミュレーションの長期継続を「終わらないコンテンツ量」で説明すると、いつか物量競争に行き着く。"
-category: game-systems-player-experience
+category: progression-goals-difficulty
 difficulty: yellow
 ---
 

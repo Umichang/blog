@@ -19,5 +19,9 @@ ARTICLES.md
 .jekyll-metadata
 .cache/
 
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
 # Local Notion recommendation-posts sync configuration (never store API tokens in Git)
 .notion-recommendation-sync.yml

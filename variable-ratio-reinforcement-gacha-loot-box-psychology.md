@@ -1,6 +1,6 @@
 ---
 description: "ガチャやルートボックスの予測不能な報酬は、なぜ次の抽選を促しやすいのか。FersterとSkinnerによる1957年の強化スケジュール研究から、近年の大規模調査と心理生理学的実験までをつなぎ、可変比率強化の説明力と限界を整理する。"
-category: game-systems-player-experience
+category: game-design-theory
 difficulty: yellow
 ---
 

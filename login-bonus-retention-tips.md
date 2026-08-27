@@ -1,6 +1,6 @@
 ---
 description: "ログインボーナス（以下「ログボ」）は、F2P（Free-to-Play）モバイルゲームにおいて最も広く普及した継続率施策のひとつである。しかし「とりあえず実装する」という慣習的な設計は、むしろプレイヤーの離脱を加速させる逆効果を招くことがある。"
-category: operations-community
+category: live-service-retention
 difficulty: yellow
 ---
 

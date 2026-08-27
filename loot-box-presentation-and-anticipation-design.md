@@ -1,6 +1,6 @@
 ---
 description: "ガチャ・ルートボックスの演出は、期待を形にするための設計技法である。一方で、実際にはない有利さ、期限、価格の分かりやすさを装うなら、演出は消費者を誤認させる表示やマーケティングになり得る。FTCのHoYoverse事案とPEGIの改定から、その境界をプランナー向けに整理する。"
-category: business-market-monetization
+category: monetization-f2p
 difficulty: yellow
 ---
 

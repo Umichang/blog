@@ -1,6 +1,6 @@
 ---
 description: "ジャンケン、自然界の競争、格闘ゲーム、RTS、TCG、ポケモンを横断し、単一の最強手を作らない非推移バランスの設計原理と学習コストを整理する。"
-category: game-systems-player-experience
+category: game-design-theory
 difficulty: yellow
 ---
 

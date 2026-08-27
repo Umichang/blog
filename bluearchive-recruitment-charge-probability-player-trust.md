@@ -1,6 +1,6 @@
 ---
 description: "『ブルーアーカイブ』が2026年7月29日に実施する生徒募集の仕様変更を、0.7%のピックアップ確率と100・200回の救済を使って計算する。期待値が改善しても反発が起きた理由を、確実性、ダブルピックアップ、説明、地域ロールアウトから考える。"
-category: operations-community
+category: incident-response
 difficulty: yellow
 ---
 

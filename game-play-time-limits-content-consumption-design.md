@@ -1,6 +1,6 @@
 ---
 description: "プレイ時間の上限を誰が決めるかという問いから、中国・韓国・香川県の制度を比較し、ライブサービスで時間制限に耐えるコンテンツ消費、報酬、地域別仕様を設計する要点を解説する。"
-category: legal-regulation
+category: platform-payment-regulation
 difficulty: red
 ---
 

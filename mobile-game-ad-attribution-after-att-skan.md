@@ -1,7 +1,7 @@
 ---
 description: "ATTでユーザー単位の広告効果測定が制限された後、広告収益ゲームのUA判断はどう変わったのか。SKAdNetwork 4.0、確率モデリング、MMM、インクリメンタリティ、Androidとの非対称性を実務向けに整理する。"
 category: analytics-measurement
-difficulty: yellow
+difficulty: red
 ---
 
 # 誰がいくら稼いだかが見えなくなった――ATT後の広告アトリビューション計測

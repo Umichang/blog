@@ -1,6 +1,6 @@
 ---
 description: "『Palworld / パルワールド』をめぐる任天堂・株式会社ポケモンと株式会社ポケットペアの特許権侵害訴訟は、キャラクターの見た目の印象をめぐる論争とは別の、ゲームシステムを対象とした民事訴訟である。"
-category: legal-regulation
+category: law-ip-fanworks
 difficulty: red
 ---
 

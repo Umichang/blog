@@ -1,7 +1,7 @@
 ---
 description: "個人情報漏洩・不正アクセスが疑われるゲーム会社が、発覚から48時間で対象データ、原因経路、報告トリガー、本人通知の準備を確定させるための初動フロー。"
-category: operations-community
-difficulty: yellow
+category: incident-response
+difficulty: red
 ---
 
 # 個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと

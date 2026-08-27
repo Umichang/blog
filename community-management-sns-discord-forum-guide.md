@@ -1,6 +1,6 @@
 ---
 description: "コミュニティ運営は本来コミュニティマネージャー（CM）の仕事だが、ゲームプランナーはCMが発信する「元情報」を作る立場にある。アップデートの意図、バランス変更の理由、新機能の背景——これらをCMがプレイヤーに正確に届けるためには、プランナーとCMの間に密なコミュニケーションが不可欠だ。"
-category: operations-community
+category: community-social-ugc
 difficulty: yellow
 ---
 

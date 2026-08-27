@@ -1,6 +1,6 @@
 ---
 description: "セーブ後に気に入らない結果だけを戻す「やり直し」を、技術的な抑止、心理的・制度的な抑止、限定的な公式救済という設計類型に分け、ゲームプランナーの判断軸と実務チェックリストを整理する。"
-category: game-systems-player-experience
+category: progression-goals-difficulty
 difficulty: yellow
 ---
 

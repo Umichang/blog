@@ -1,6 +1,6 @@
 ---
 description: "『ELDEN RING』は、死の重さを薄めずに、詰まったプレイヤーが別の場所へ向かえる迂回路をオープンワールドに埋め込んだ。難易度を下げずに間口を広げた設計を、関所の置き方から読む。"
-category: game-systems-player-experience
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

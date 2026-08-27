@@ -1,6 +1,6 @@
 ---
 description: "ポケモンを、媒体横断の巨大IPを動かす専任組織と、世代ごとに新規性を入れ替えるゲーム設計の両面から分析する。変えないコアループと、図鑑・戦闘・移行基盤を更新する判断をゲームプランナー向けに読む。"
-category: planning-spec-dev-process
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

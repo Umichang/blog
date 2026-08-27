@@ -1,6 +1,6 @@
 ---
 description: "Mod（モッド） とは、\"Modification\"の略称であり、主にPCゲームにおいてメーカー以外の第三者が制作した改造データのことを指す。Modを導入することで、グラフィックの強化、新たなゲームシステムの追加、ステージ・キャラクターの変更など、元のゲームを大きく変容させることができる。"
-category: legal-regulation
+category: law-ip-fanworks
 difficulty: yellow
 ---
 

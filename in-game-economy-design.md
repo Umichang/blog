@@ -1,6 +1,6 @@
 ---
 description: "ゲーム内通貨とアイテムの供給・回収、価格、プレイヤー間取引をどう設計すれば、経済のインフレと停滞を防ぎながら運営できるかを解説する。"
-category: operations-community
+category: live-service-retention
 difficulty: red
 ---
 

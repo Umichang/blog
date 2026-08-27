@@ -1,6 +1,6 @@
 ---
 description: "『バイオハザード4』と『バイオハザード RE:4』を比較し、QTEをパリィへ置き換えた判断、資源管理と三幕構成を継承した理由、追加コンテンツの配信設計をプランナー視点で整理する。"
-category: game-systems-player-experience
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

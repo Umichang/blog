@@ -1,7 +1,7 @@
 ---
 description: "ゲームの特許とは、「新しく考えた遊びの仕組み（発明）を文章・図面で可視化し、財産として権利化したもの」である。著作権がキャラクターやストーリーといった「表現」を守るのに対し、特許権が守るのは「仕組み・処理の流れ」だ。"
-category: legal-regulation
-difficulty: red
+category: law-ip-fanworks
+difficulty: yellow
 ---
 
 # ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略

@@ -1,6 +1,6 @@
 ---
 description: "CEDEC（Computer Entertainment Developers Conference）は、ゲームを中心とするコンピュータエンターテインメントの開発者が、技術や知識を共有するカンファレンスである。"
-category: planning-spec-dev-process
+category: planning-production-process
 difficulty: green
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "2025年6月9日にグローバルリリースされた『TOKYO BEAST TRIALS』は、8月24日にサービスを終了した。リリース日から数えると76日である。"
-category: operations-community
+category: service-sunset-exit
 difficulty: red
 ---
 

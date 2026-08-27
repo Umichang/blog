@@ -1,7 +1,7 @@
 ---
 description: "CSK創業者・セガ元会長兼社長の大川功を、ドリームキャスト期の779億円の私財拠出と、死後に進んだ資本関係の再編から読み解く。オーナー経営の強みと後継設計の課題を考える。"
 category: people-company-history
-difficulty: green
+difficulty: yellow
 ---
 
 # 大川功評伝：セガに779億円を遺した「最後のオーナー経営」

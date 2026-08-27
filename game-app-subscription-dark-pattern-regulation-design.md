@@ -1,6 +1,6 @@
 ---
 description: "RyzaChat:AIとDAZNの料金表示問題を起点に、サブスクのダークパターン類型、日本・米国・EU・韓国の規制段階、無料体験・自動更新・解約・価格表示の設計指針を整理する。"
-category: legal-regulation
+category: platform-payment-regulation
 difficulty: red
 ---
 

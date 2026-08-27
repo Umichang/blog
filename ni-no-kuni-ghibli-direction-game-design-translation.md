@@ -1,6 +1,6 @@
 ---
 description: "『二ノ国 白き聖灰の女王』のジブリらしさは、色や輪郭の再現だけでなく、キャラクターに仕事をさせ、重さや年齢を動きで語らせる演出判断から生まれた。その判断を学びつつ、ゲームとして成立させるために操作対象を絞った開発事例から、模倣と翻訳の境界を読み解く。"
-category: planning-spec-dev-process
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

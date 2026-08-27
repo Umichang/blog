@@ -1,7 +1,7 @@
 ---
 description: "ソニー・インタラクティブエンタテインメント（SIE）は2025年7月、テンセント傘下スタジオが開発する『Light of Motiram』が自社の『Horizon』シリーズの「あからさまな模倣」であるとして、著作権・商標侵害訴訟を米カリフォルニア州北部地区連邦地方裁判所に提起した。"
-category: legal-regulation
-difficulty: red
+category: law-ip-fanworks
+difficulty: yellow
 ---
 
 # ソニーvsテンセント『Horizon』対『Light of Motiram』訴訟の経緯と決着

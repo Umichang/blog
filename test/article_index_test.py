@@ -131,6 +131,17 @@ class ArticleIndexTest(unittest.TestCase):
         with self.assertRaises(article_index.IndexError):
             article_index.collect_articles(self.root)
 
+    def test_highlight_section_difficulty_drift_fails(self) -> None:
+        path = self.root / "index.md"
+        text = path.read_text(encoding="utf-8")
+        head, marker, tail = text.partition("## 🎮 体験")
+        path.write_text(
+            head.replace("- [ガチャの設計](loot.md) 🟡", "- [ガチャの設計](loot.md) 🔴") + marker + tail,
+            encoding="utf-8",
+        )
+        with self.assertRaises(article_index.IndexError):
+            article_index.collect_articles(self.root)
+
     def test_literal_like_escaping(self) -> None:
         self.write_article("percent.md", "100%の設計", "_ を含む", "systems", "green")
         with (self.root / "index.md").open("a", encoding="utf-8") as output:

@@ -1,6 +1,6 @@
 ---
 description: "ライブサービスのセキュリティ・システム障害で初動を遅らせないために、誰が指揮を執るかを平時に決め、机上演習で確かめる。DeNAのマネージャ向けワークショップと公開教材から、ゲームチームが始める方法を整理する。"
-category: operations-community
+category: incident-response
 difficulty: yellow
 ---
 

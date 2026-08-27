@@ -1,6 +1,6 @@
 ---
 description: "UGC（ユーザー生成コンテンツ） とは、ゲームのプレイヤー自身がコンテンツを作成し、ほかのユーザーと共有・体験できる仕組みの総称である。［1］"
-category: operations-community
+category: community-social-ugc
 difficulty: yellow
 ---
 

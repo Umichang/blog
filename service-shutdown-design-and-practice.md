@@ -1,6 +1,6 @@
 ---
 description: "ライブサービスやオンライン専用ゲームには、いつか終わりが来る。ここでいうライブサービスとは、発売後もサーバーを運用し、更新やイベントを続けるゲームのことだ。本記事では、その終了を通称に合わせて「サ終」と呼ぶ。"
-category: operations-community
+category: service-sunset-exit
 difficulty: red
 ---
 

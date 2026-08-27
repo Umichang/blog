@@ -1,6 +1,6 @@
 ---
 description: "日本語圏のライブサービスにとって、RMTは「好ましくない周辺行為」ではない。運営が設計した獲得速度、対戦・協力の公平性、アカウントの本人性、ゲーム内経済を、ゲーム外の金銭で直接買い替える行為である。多くのオンラインゲームが利用規約でRMTを禁じ、アカウント停止やアイテム没収を定めてきたのは、そのためである。"
-category: legal-regulation
+category: platform-payment-regulation
 difficulty: red
 ---
 

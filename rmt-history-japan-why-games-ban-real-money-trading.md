@@ -1,7 +1,7 @@
 ---
 description: "日本のRMTはなぜゲーム運営に禁止されるのか。規約、業界ガイドライン、不正アクセスや決済不正との関係を、2000年代からの歴史でたどる。"
-category: legal-regulation
-difficulty: red
+category: platform-payment-regulation
+difficulty: yellow
 ---
 
 # 日本におけるRMTの歴史――なぜゲームはリアルマネートレードを禁止し続けるのか

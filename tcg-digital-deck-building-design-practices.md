@@ -1,6 +1,6 @@
 ---
 description: "トレーディングカードゲーム（以下TCG）は、カードを集め、選び、組み合わせ、対戦で検証する遊びである。紙のTCGでは、物理カードを買い、交換し、デッキケースに入れ、対面でシャッフルする。この制約は単なる不便ではない。"
-category: game-systems-player-experience
+category: battle-competitive-deckbuilding
 difficulty: red
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "AKB48選抜総選挙からアイドルマスター シンデレラガールズまで、投票券の獲得経路と当選報酬を結び付けた人気投票企画が、なぜ強く機能し、なぜ形式を変える必要があるのかを追う。"
-category: business-market-monetization
+category: monetization-f2p
 difficulty: green
 ---
 

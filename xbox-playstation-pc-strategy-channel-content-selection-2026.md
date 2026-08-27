@@ -1,7 +1,7 @@
 ---
 description: "XboxのSteam離脱観測とPlayStationのPC展開見直しは、同じ「PC後退」に見えても、意思決定の対象が異なる。2026年の報道と公式発言を時系列でたどり、配信チャネルとコンテンツ選別を分けて考える。"
-category: business-market-monetization
-difficulty: red
+category: market-industry-release
+difficulty: yellow
 ---
 
 # XboxとPlayStationの「PC後退」は何が違うのか――配信チャネルとコンテンツ選別を分けて読む

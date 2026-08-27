@@ -1,7 +1,7 @@
 ---
 description: "2026年7月22日から24日に開催されるCEDEC2026では、7月22日15:00〜16:00に「文化盗用リスクの管理を考える〜想定外のトラブルを避けるためにできること」が予定されている。講演者は、シティユーワ法律事務所の野本新弁護士である。"
-category: legal-regulation
-difficulty: red
+category: expression-streaming-rating
+difficulty: yellow
 ---
 
 # CEDEC2026予習：ゲーム企画者のための文化盗用リスク管理

@@ -1,6 +1,6 @@
 ---
 description: "F2Pゲームにおいて、ストーリーやキャラクターへの感情的な投資を課金の起点とする「ストーリードリブン・マネタイズ」は、日本・韓国・中国それぞれで異なる形で発展してきた。"
-category: business-market-monetization
+category: monetization-f2p
 difficulty: yellow
 ---
 

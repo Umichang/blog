@@ -1,7 +1,7 @@
 ---
 description: "クラウドファンディングは、資金を集める仕組みであると同時に、支援者への履行責任を引き受ける仕組みでもある。ゲームでは特に、発起人、開発会社、イラストレーター、音楽家、プラットフォーム、支援者という複数の当事者が関わる。"
-category: planning-spec-dev-process
-difficulty: red
+category: planning-production-process
+difficulty: yellow
 ---
 
 # 『スチームパイロッツ』の資金・契約トラブルから学ぶ――インディーゲームのクラウドファンディング・ガバナンス

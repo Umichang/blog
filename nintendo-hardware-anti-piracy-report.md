@@ -1,6 +1,6 @@
 ---
 description: "任天堂は1983年のファミリーコンピュータ発売以来、40年以上にわたり海賊版・未承認ソフト対策を進化させてきた。"
-category: platform-hardware
+category: hardware-tech-protection
 difficulty: yellow
 ---
 

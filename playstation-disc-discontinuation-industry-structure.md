@@ -1,6 +1,6 @@
 ---
 description: "ソニー・インタラクティブエンタテインメント（SIE）は2026年7月1日、PlayStationコンソール向けに発売される新作ゲームについて、2028年1月以降、ディスク版の生産を終了すると発表した。"
-category: business-market-monetization
+category: market-industry-release
 difficulty: green
 ---
 

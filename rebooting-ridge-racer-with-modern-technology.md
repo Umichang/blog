@@ -1,6 +1,6 @@
 ---
 description: "現代のゲーム技術で『リッジレーサー』を復活させる可能性を、操作感、コース設計、オンライン機能、開発体制と権利の観点から検討する。"
-category: planning-spec-dev-process
+category: series-ip-strategy
 difficulty: yellow
 ---
 

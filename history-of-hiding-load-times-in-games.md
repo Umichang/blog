@@ -1,6 +1,6 @@
 ---
 description: "ゲームの歴史において、「ロード時間」という問題が大きくなったのはROMカートリッジからCD-ROMへの移行期だ。ROMカートリッジはランダムアクセスが高速なため、マップやデータをほぼ瞬時に読み込めた。"
-category: game-systems-player-experience
+category: tech-foundation-data-assets
 difficulty: green
 ---
 

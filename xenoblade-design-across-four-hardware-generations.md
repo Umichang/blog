@@ -1,6 +1,6 @@
 ---
 description: "2010年のWii版『ゼノブレイド』は、巨大な神の身体を実際に歩いて渡るフィールド、リアルタイム戦闘、仲間の関係性をゲーム進行へ接続する設計を持っていた。Newニンテンドー3DS、Nintendo Switch、Nintendo Switch 2へ続く展開から、長寿タイトルが保存すべき設計骨格を考える。"
-category: planning-spec-dev-process
+category: series-ip-strategy
 difficulty: yellow
 ---
 

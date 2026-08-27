@@ -1,6 +1,6 @@
 ---
 description: "Steamの成人向けコンテンツ規制と、日本の銀行による海外売上の入金拒否を、購入時の決済網と売上を受け取る銀行口座という別々の地点で生じた二重のボトルネックとして整理する。"
-category: legal-regulation
+category: expression-streaming-rating
 difficulty: red
 ---
 

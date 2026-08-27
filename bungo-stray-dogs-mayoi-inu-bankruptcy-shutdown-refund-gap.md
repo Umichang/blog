@@ -1,6 +1,6 @@
 ---
 description: "『文豪ストレイドッグス 迷ヰ犬怪奇譚』の短期間でのサービス終了を事例に、前払式支払手段の払戻しと利用規約の免責、終了告知の設計を確認できる事実から整理する。"
-category: operations-community
+category: service-sunset-exit
 difficulty: red
 ---
 

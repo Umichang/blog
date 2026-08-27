@@ -26,6 +26,7 @@ except ImportError as error:  # pragma: no cover - startup guard
 SCHEMA_VERSION = "1"
 GENERATOR_VERSION = "1.0.0"
 DIFFICULTY_FROM_EMOJI = {"🟢": "green", "🟡": "yellow", "🔴": "red"}
+DIFFICULTY_TO_EMOJI = {value: key for key, value in DIFFICULTY_FROM_EMOJI.items()}
 VALID_DIFFICULTIES = frozenset(DIFFICULTY_FROM_EMOJI.values())
 NON_CATEGORY_HEADINGS = frozenset({"📌 まず読む記事", "🆕 新着記事"})
 SLUG_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
@@ -131,6 +132,7 @@ def parse_index(root: Path, categories_by_heading: dict[str, Category]) -> dict[
     current_h3: str | None = None
     entries: dict[str, IndexEntry] = {}
     seen_headings: set[str] = set()
+    highlights: list[tuple[int, str, str, str | None]] = []
     for line_number, line in enumerate(lines, start=1):
         if match := H2_RE.match(line):
             current_h2 = match.group(1)
@@ -140,7 +142,13 @@ def parse_index(root: Path, categories_by_heading: dict[str, Category]) -> dict[
             current_h3 = match.group(1)
             continue
         match = LINK_RE.match(line)
-        if not match or current_h2 in NON_CATEGORY_HEADINGS:
+        if not match:
+            continue
+        if current_h2 in NON_CATEGORY_HEADINGS:
+            highlights.append(
+                (line_number, current_h2 or "", match.group("path"),
+                 DIFFICULTY_FROM_EMOJI.get(match.group("suffix").strip()))
+            )
             continue
 
         heading = current_h3 or current_h2
@@ -162,6 +170,19 @@ def parse_index(root: Path, categories_by_heading: dict[str, Category]) -> dict[
             )
         entries[filename] = IndexEntry(filename, category, difficulty)
         seen_headings.add(category.heading)
+
+    for line_number, heading, filename, difficulty in highlights:
+        entry = entries.get(filename)
+        if entry is None:
+            continue
+        if difficulty != entry.difficulty:
+            shown = DIFFICULTY_TO_EMOJI.get(difficulty or "", "なし")
+            expected = DIFFICULTY_TO_EMOJI[entry.difficulty]
+            fail(
+                f"index.md:{line_number}: {heading}の{filename}の難易度が分類側と一致しません "
+                f"（{heading}={shown} / {entry.category.heading}={expected}）。"
+                "分類セクションの難易度を変更したときは新着記事欄も合わせてください。"
+            )
 
     missing = sorted(set(categories_by_heading) - seen_headings)
     if missing:

@@ -1,6 +1,6 @@
 ---
 description: "『スノウブレイク：禁域降臨』の約2か月の停止と再開を、公共性の高い相手とのIPコラボ審査と、販売済みデジタルコンテンツを事後変更する際の補填設計という二つの論点から整理する。"
-category: operations-community
+category: incident-response
 difficulty: yellow
 ---
 

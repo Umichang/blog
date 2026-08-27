@@ -1,7 +1,7 @@
 ---
 description: "実績・トロフィーが、プレイヤーへ目標、発見、再挑戦の動機をどう与えるかを歴史と設計の両面から解説する。"
-category: game-systems-player-experience
-difficulty: green
+category: progression-goals-difficulty
+difficulty: yellow
 ---
 
 # 実績・トロフィーシステムの設計史――外付けの目標がゲーム体験を変えるまで

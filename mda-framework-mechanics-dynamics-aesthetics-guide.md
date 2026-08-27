@@ -1,6 +1,6 @@
 ---
 description: "MDAフレームワークを原論文から読み解き、『面白い』という感想をMechanics、Dynamics、Aestheticsへ分けて企画・プレイテストに生かす考え方と限界を解説する。"
-category: game-systems-player-experience
+category: game-design-theory
 difficulty: yellow
 ---
 

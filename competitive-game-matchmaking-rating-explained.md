@@ -1,6 +1,6 @@
 ---
 description: "オンライン対戦ゲームにおいて、マッチメイキングは「楽しい体験」と「ストレスフルな体験」を分ける最も重要なシステムのひとつだ。完全な実力差のある相手と戦わされ続けたり、逆に格下ばかりとマッチングしてゲームが退屈になったりすれば、プレイヤーはそのゲームから離脱する。"
-category: game-systems-player-experience
+category: battle-competitive-deckbuilding
 difficulty: red
 ---
 

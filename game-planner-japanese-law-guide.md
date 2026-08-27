@@ -1,6 +1,6 @@
 ---
 description: "ゲームプランナーは企画・仕様策定の段階から法的リスクを正確に把握する必要がある。本レポートは、実際に行政処分・訴訟に至った事例を軸に、景品表示法・資金決済法・特定商取引法・不正競争防止法・著作権法という5つの主要法令を整理する。"
-category: legal-regulation
+category: law-ip-fanworks
 difficulty: yellow
 ---
 

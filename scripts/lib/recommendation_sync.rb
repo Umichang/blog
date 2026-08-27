@@ -106,11 +106,21 @@ module RecommendationSync
         path = match[:path]
         next unless local_article?(path)
 
-        titles[path] ||= match[:title]
-        difficulties[path] ||= match[:difficulty]
         category = headings[headings.keys.max]
+        in_category = !category.nil? && !NON_CATEGORY_HEADINGS.include?(category)
+
+        # 分類セクションの記載を正とする。📌／🆕の記載は、分類セクションに現れない記事の補完にだけ使う。
+        # 新着記事欄は分類セクションより前にあり、難易度を後から変更しても追従しないため、先勝ちにしない。
+        if in_category
+          titles[path] = match[:title]
+          difficulties[path] = match[:difficulty]
+        else
+          titles[path] ||= match[:title]
+          difficulties[path] ||= match[:difficulty]
+        end
+
         categories[path] ||= []
-        categories[path] << category if category && !NON_CATEGORY_HEADINGS.include?(category) && !categories[path].include?(category)
+        categories[path] << category if in_category && !categories[path].include?(category)
       end
 
       titles.map do |path, title|

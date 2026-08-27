@@ -1,6 +1,6 @@
 ---
 description: "ゲーム開発は「完成物を作る」仕事だが、ライブ運営は「動いているサービスを止めずに育てる」仕事である。この2つは目的も時間軸も根本的に異なる。"
-category: operations-community
+category: live-service-retention
 difficulty: red
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "初代『ピクミン』の起源を『マリオ128』由来説ではなく、AI試作、技術制約、アクションの発見、ゲームフロー統合という設計判断から読み直す。断片的なアイデアを遊べる循環へ変える、新人プランナー向けの実務的な視点をまとめる。"
-category: planning-spec-dev-process
+category: title-experience-design-analysis
 difficulty: green
 ---
 

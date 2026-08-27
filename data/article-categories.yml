@@ -20,58 +20,114 @@ categories:
     heading: "🌐 オンライン・ネットワーク"
     parent_group: "🎮 ゲーム体験と表現"
     display_order: 50
-  - slug: game-systems-player-experience
-    heading: "🧩 ゲームシステム・プレイヤー体験"
+  - slug: game-design-theory
+    heading: "📐 ゲームデザイン理論"
     parent_group: "🎮 ゲーム体験と表現"
     display_order: 60
+  - slug: progression-goals-difficulty
+    heading: "🎯 進行・目標・難易度"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 70
+  - slug: battle-competitive-deckbuilding
+    heading: "⚔️ バトル・対戦・デッキ構築"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 80
+  - slug: title-experience-design-analysis
+    heading: "🔍 タイトル別・体験設計の分析"
+    parent_group: "🎮 ゲーム体験と表現"
+    display_order: 90
   - slug: narrative-worldbuilding-puzzle
     heading: "📖 物語・世界設定・謎解き"
     parent_group: "🎮 ゲーム体験と表現"
-    display_order: 70
+    display_order: 100
   - slug: genre-game-culture
     heading: "🎲 ジャンル・ゲーム文化"
     parent_group: "🎮 ゲーム体験と表現"
-    display_order: 80
-  - slug: planning-spec-dev-process
-    heading: "🛠️ 企画・仕様・開発プロセス"
+    display_order: 110
+  - slug: planning-production-process
+    heading: "🛠️ 企画・制作プロセス"
     parent_group: "🛠️ 開発・運営とビジネス"
     display_order: 10
+  - slug: series-ip-strategy
+    heading: "🔁 シリーズ・IP運用戦略"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 20
+  - slug: spec-quality-judgment
+    heading: "📝 仕様・品質判断"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 30
   - slug: ip-adaptation
     heading: "🎬 他メディアIPのゲーム化"
     parent_group: "🛠️ 開発・運営とビジネス"
-    display_order: 20
+    display_order: 40
   - slug: tech-foundation-data-assets
     heading: "🧰 技術基盤・データ・アセット"
     parent_group: "🛠️ 開発・運営とビジネス"
-    display_order: 30
+    display_order: 50
   - slug: qa-debug-release
     heading: "🧪 品質保証・デバッグ・リリース"
     parent_group: "🛠️ 開発・運営とビジネス"
-    display_order: 40
+    display_order: 60
   - slug: localization-voice-production
     heading: "🌏 ローカライズ・音声制作"
     parent_group: "🛠️ 開発・運営とビジネス"
-    display_order: 50
-  - slug: operations-community
-    heading: "🤝 運営・コミュニティ"
-    parent_group: "🛠️ 開発・運営とビジネス"
-    display_order: 60
-  - slug: business-market-monetization
-    heading: "💰 ビジネス・市場・マネタイズ"
-    parent_group: "🛠️ 開発・運営とビジネス"
     display_order: 70
-  - slug: legal-regulation
-    heading: "⚖️ 法務・規制"
+  - slug: live-service-retention
+    heading: "🔄 ライブサービス・継続施策"
     parent_group: "🛠️ 開発・運営とビジネス"
     display_order: 80
+  - slug: incident-response
+    heading: "🧯 障害・不具合対応"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 90
+  - slug: service-sunset-exit
+    heading: "🪦 サービス終了・撤退"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 100
+  - slug: community-social-ugc
+    heading: "🫂 コミュニティ・ソーシャル・UGC"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 110
+  - slug: monetization-f2p
+    heading: "💳 マネタイズ・F2P・デジタル商品"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 120
+  - slug: market-industry-release
+    heading: "📊 市場・産業構造・リリース戦略"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 130
+  - slug: law-ip-fanworks
+    heading: "📚 法務・知財・二次創作"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 140
+  - slug: expression-streaming-rating
+    heading: "🎨 表現・配信・レーティング"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 150
+  - slug: labor-organization
+    heading: "👥 労務・組織"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 160
+  - slug: platform-payment-regulation
+    heading: "📱 プラットフォーム規制・課金規制"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 170
   - slug: analytics-measurement
     heading: "📈 計測・分析"
     parent_group: "🛠️ 開発・運営とビジネス"
-    display_order: 90
-  - slug: platform-hardware
-    heading: "🕹️ プラットフォーム・ハードウェア"
+    display_order: 180
+  - slug: console-platform-history
+    heading: "🕹️ コンソール・プラットフォーム史"
     parent_group: "🛠️ 開発・運営とビジネス"
-    display_order: 100
+    display_order: 190
+  - slug: hardware-tech-protection
+    heading: "⚙️ ハードウェア技術・仕様・保護"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 200
+  - slug: japanese-pc-platform-history
+    heading: "🖥️ 国産PCプラットフォーム史"
+    parent_group: "🛠️ 開発・運営とビジネス"
+    display_order: 210
   - slug: game-history-culture
     heading: "📜 ゲーム史・文化史"
     parent_group: "📚 歴史と人物"

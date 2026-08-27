@@ -1,6 +1,6 @@
 ---
 description: "『The Last of Us』は、弾薬と素材の希少性、ステルスと戦闘を往還する遭遇、異なる知覚を持つ敵AI、そしてエリーのコンパニオンAIを重ね、ジョエルとエリーの旅をプレイヤー自身の判断として経験させた。PS3版のシングルプレイ設計を、ゲームプランナーの視点から読む。"
-category: game-systems-player-experience
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

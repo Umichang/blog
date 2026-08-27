@@ -1,7 +1,7 @@
 ---
 description: "GDPRの適法根拠を日本の個人情報保護法と対比し、Ubisoftへの申立てを手掛かりに、同意ゲートの位置、拒否後の通常プレイ、ATTとの分離、KPI・A/Bテストの欠測を設計へ落とし込む。"
-category: legal-regulation
-difficulty: yellow
+category: law-ip-fanworks
+difficulty: red
 ---
 
 # GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか

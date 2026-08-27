@@ -1,6 +1,6 @@
 ---
 description: "PC-8001、PC-8801、PC-9801を一本の歴史として見ると、単なるNEC製パソコンの年代記ではなく、 日本語を扱うための技術制約が、流通、ソフト開発、ゲームジャンル、そして市場標準まで決めていった過程 が見えてくる。"
-category: platform-hardware
+category: japanese-pc-platform-history
 difficulty: green
 ---
 

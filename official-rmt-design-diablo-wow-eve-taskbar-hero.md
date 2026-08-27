@@ -1,6 +1,6 @@
 ---
 description: "運営公認で現金とゲーム内価値を交換する仕組みは、何を売買可能にするかでゲーム体験をどう変えるのか。Diablo III、WoWトークン、EVE Online、タスクバーヒーローを比較する。"
-category: operations-community
+category: live-service-retention
 difficulty: red
 ---
 

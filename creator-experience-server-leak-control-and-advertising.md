@@ -1,6 +1,6 @@
 ---
 description: "『崩壊：スターレイル』の鏡流をめぐる2023年夏の情報流通は、運用型ガチャゲームが抱える矛盾をよく表している。鏡流は2023年8月15日に公式がビジュアルを公開し、10月11日のVer.1.4で正式に実装された。"
-category: operations-community
+category: live-service-retention
 difficulty: red
 ---
 

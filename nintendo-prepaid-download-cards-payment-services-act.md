@@ -1,6 +1,6 @@
 ---
 description: "コンビニに並ぶニンテンドープリペイドカードとダウンロードカードの違いから、資金決済法の前払式支払手段、残高保全、6か月ルールをやさしく整理する。"
-category: legal-regulation
+category: platform-payment-regulation
 difficulty: green
 ---
 

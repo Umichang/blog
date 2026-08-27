@@ -1,6 +1,6 @@
 ---
 description: "ゲーム実況者やVTuberへのレビューコード提供、案件配信、継続契約は、どこからPR表記が必要になるのか。2023年施行のステルスマーケティング規制を、発注・契約・配信・切り抜きの実務へ翻訳する。"
-category: legal-regulation
+category: law-ip-fanworks
 difficulty: yellow
 ---
 

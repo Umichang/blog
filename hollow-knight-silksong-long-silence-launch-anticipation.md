@@ -1,6 +1,6 @@
 ---
 description: "2025年9月4日、『Hollow Knight: Silksong』の発売直後、Steam、Nintendo eShop、PlayStation Store、Microsoft Storeで購入・配信に関する障害が相次いだ。"
-category: operations-community
+category: market-industry-release
 difficulty: green
 ---
 

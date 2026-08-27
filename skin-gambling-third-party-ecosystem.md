@@ -1,6 +1,6 @@
 ---
 description: "2026年2月25日、ニューヨーク州司法長官レティシア・ジェームズは、Valve Corporationを提訴した。対象は、Valveが運営するSteamと、Counter-Strike 2、Team Fortress 2、Dota 2におけるルートボックスおよびアイテム経済である。"
-category: legal-regulation
+category: platform-payment-regulation
 difficulty: red
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "Minecraftが17年近く売れ続ける背景を、終わりを固定しない更新設計と、Java版・Bedrock版を統合し切らない二重戦略から読む。単一の正解を決め打ちしない運営判断をゲームプランナー向けに考える。"
-category: game-systems-player-experience
+category: series-ip-strategy
 difficulty: yellow
 ---
 

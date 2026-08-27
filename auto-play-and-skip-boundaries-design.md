@@ -1,7 +1,7 @@
 ---
 description: "オートプレイと周回スキップは、単なる時短機能ではない。戦闘を省略する条件、コストを免除する範囲、判断をどこまで代行するか、結果だけを見せるかを分け、プランナーが決めるべき境界線を整理する。"
-category: operations-community
-difficulty: red
+category: live-service-retention
+difficulty: yellow
 ---
 
 # オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線

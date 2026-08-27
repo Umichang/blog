@@ -1,6 +1,6 @@
 ---
 description: "2024年8月23日に発売された対戦シューター『Concord』は、9月6日にオンラインサービスを停止した。発売から停止まで14日である。"
-category: operations-community
+category: service-sunset-exit
 difficulty: green
 ---
 

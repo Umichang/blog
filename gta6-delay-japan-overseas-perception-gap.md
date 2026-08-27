@@ -1,6 +1,6 @@
 ---
 description: "Rockstar Gamesは2025年11月7日（Rockstar Newswireの掲載日表記は11月6日）、『グランド・セフト・オートVI』（以下、GTA6）の発売日を2026年11月19日へ変更すると発表した。"
-category: business-market-monetization
+category: market-industry-release
 difficulty: green
 ---
 

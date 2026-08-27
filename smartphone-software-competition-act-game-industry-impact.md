@@ -1,6 +1,6 @@
 ---
 description: "スマートフォンゲームの収益設計は、ゲームの価格や課金アイテムの設計だけで決まるものではない。どのOSで動かし、どのストアで配信し、どの決済を使い、プレイヤーをどこへ案内できるかという、プラットフォームのルールにも左右される。"
-category: legal-regulation
+category: platform-payment-regulation
 difficulty: red
 ---
 

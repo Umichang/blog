@@ -1,7 +1,7 @@
 ---
 description: "ライブサービスゲームの障害・不具合補填を、感情的な謝罪ではなく制度として設計する。資金決済法・景品表示法との関係、機会損失の考え方、重大度別の補填基準表をプランナー向けに整理する。"
-category: operations-community
-difficulty: yellow
+category: incident-response
+difficulty: red
 ---
 
 # 「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか

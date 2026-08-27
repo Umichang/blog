@@ -1,6 +1,6 @@
 ---
 description: "先に結論を述べると、2012年に日本で「ガチャそのもの」が違法になったわけではない。問題とされたのは、有料ガチャで異なる種類のアイテムをそろえさせ、さらに別の景品を与える コンプガチャ という特定の方式である。"
-category: legal-regulation
+category: platform-payment-regulation
 difficulty: yellow
 ---
 

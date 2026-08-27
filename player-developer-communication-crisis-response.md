@@ -1,6 +1,6 @@
 ---
 description: "「プレイヤーとのコミュニケーション」はプロデューサーやディレクターの仕事に見える。実際、表に出るのは彼らだ。しかしプランナーは、コミュニケーションの 素材を作る側 であり、 炎上の火種を生み出す仕様を設計する側 でもある。"
-category: operations-community
+category: community-social-ugc
 difficulty: green
 ---
 

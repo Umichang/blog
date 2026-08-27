@@ -1,6 +1,6 @@
 ---
 description: "ガチャを回すための通貨の残高が、ある日マイナスになる。借金のように、これから稼ぐぶんが自動的に天引きされていく――。スマートフォン向けゲーム『ブルーアーカイブ』で2026年5月末に起きたのは、まさにそういう事態だった。"
-category: operations-community
+category: incident-response
 difficulty: yellow
 ---
 

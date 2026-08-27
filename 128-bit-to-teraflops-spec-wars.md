@@ -1,6 +1,6 @@
 ---
 description: "新しいゲーム機が発表されるたび、「前世代の何倍」「何テラフロップス」という数字が並ぶ。その数字が大きければ、すべてのゲームが高画質かつ滑らかに動くようにも見える。"
-category: platform-hardware
+category: hardware-tech-protection
 difficulty: green
 ---
 

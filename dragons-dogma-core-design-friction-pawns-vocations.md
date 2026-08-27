@@ -1,6 +1,6 @@
 ---
 description: "『ドラゴンズドグマ』と『ドラゴンズドグマ 2』を、ポーン、移動の摩擦、よじ登り戦闘、ヴォケーションから読む。便利さを減らすのではなく、道中で判断させるための核設計をゲームプランナー向けに整理する。"
-category: game-systems-player-experience
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

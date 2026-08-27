@@ -1,6 +1,6 @@
 ---
 description: "チュートリアルは「最初に遊び方を説明するパート」ではない。正確には、プレイヤーが そのゲームの遊び方・考え方・期待すべき体験 を学ぶための導線全体である。 だから問題は、説明文が多いか少ないかではない。"
-category: game-systems-player-experience
+category: progression-goals-difficulty
 difficulty: green
 ---
 

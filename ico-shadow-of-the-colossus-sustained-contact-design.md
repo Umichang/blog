@@ -1,6 +1,6 @@
 ---
 description: "『ICO』と『ワンダと巨像』は、なぜ要素を減らしただけの作品ではないのか。上田文人氏の発言から、キャラクターの実在感、持続的な接触、技術的な見切りを一つの体験へ束ねる設計判断を読む。"
-category: game-systems-player-experience
+category: title-experience-design-analysis
 difficulty: yellow
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "Wiiは大成功した。任天堂の公式な累計販売数量では、Wiiは1億163万台に達している。Wii Uは1,356万台であり、Wiiの約13.3％にとどまった。数字だけを見れば、前者は成功例、後者は失敗例である。"
-category: platform-hardware
+category: console-platform-history
 difficulty: green
 ---
 

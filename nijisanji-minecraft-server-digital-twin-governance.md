@@ -1,6 +1,6 @@
 ---
 description: "にじさんじサーバーは、Minecraft上のアバターを通じてライバーが継続的に集まる共有ワールドである。サバイバルの制約、公式管理、タレント自治が大規模建築と定例行事をどう支えたかを考える。"
-category: operations-community
+category: community-social-ugc
 difficulty: green
 ---
 

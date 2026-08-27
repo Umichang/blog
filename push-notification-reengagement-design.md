@@ -1,6 +1,6 @@
 ---
 description: "プッシュ通知は、休眠したプレイヤーへアプリの外から接触できる強力な手段である。同時に、使うほど残量が減る「信用の予算」でもある。関係の薄い通知を一斉配信し、短期的に起動数が増えたとしても、通知を無効化されれば次の大型イベントも、期限が迫った受け取り忘れも届けられない。"
-category: operations-community
+category: live-service-retention
 difficulty: yellow
 ---
 

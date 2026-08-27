@@ -1,6 +1,6 @@
 ---
 description: "ゲームを作っていると、企画会議で「一度プレイテストをしよう」という話が出る。しかし、プレイテストは「何人かに遊んでもらい、感想を集める」だけの作業ではない。何を確かめたいのかが曖昧なまま参加者を集めると、強い意見や目立つバグだけが残り、企画の判断に使える証拠にならない。"
-category: planning-spec-dev-process
+category: spec-quality-judgment
 difficulty: yellow
 ---
 

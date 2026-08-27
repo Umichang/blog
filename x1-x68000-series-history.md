@@ -1,6 +1,6 @@
 ---
 description: "1980年代の日本のパソコン史を見ると、NECのPC-8801、PC-9801が市場標準として語られやすい。日本語処理、販売店、ソフト資産、業務用途を含むプラットフォームとして見れば、それは自然な整理である。"
-category: platform-hardware
+category: japanese-pc-platform-history
 difficulty: green
 ---
 

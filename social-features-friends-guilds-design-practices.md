@@ -1,6 +1,6 @@
 ---
 description: "フレンド申請ボタンを置き、ギルドを作成できるようにすれば、ソーシャル機能は完成する――わけではない。申請を送った相手が先に自分をブロックしていたらどうするか。報酬確定の直前にギルドへ加入した人へ何を配るか。"
-category: operations-community
+category: community-social-ugc
 difficulty: yellow
 ---
 

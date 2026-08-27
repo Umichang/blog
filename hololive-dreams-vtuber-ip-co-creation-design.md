@@ -1,6 +1,6 @@
 ---
 description: "『hololive Dreams』とholo Indieを手がかりに、配信者IPをゲームへ翻訳する際の「公式制作」と「ファンの創作」の接続、そして活動終了という生きたIP固有のリスクを考える。"
-category: operations-community
+category: community-social-ugc
 difficulty: yellow
 ---
 

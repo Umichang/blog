@@ -20,7 +20,7 @@
 
 | パス | 種別 | 役割 |
 | --- | --- | --- |
-| `data/article-categories.yml` | git管理 | 分類台帳。21分類を初期登録する |
+| `data/article-categories.yml` | git管理 | 分類台帳。現在35分類を登録する |
 | `scripts/article_index.py` | git管理 | build、search、validate、migrateを提供するCLI |
 | `test/article_index_test.py` | git管理 | パース、検証、検索の自動テスト |
 | `.cache/articles.db` | git管理外 | SQLite/FTS5の派生キャッシュ |
@@ -46,7 +46,7 @@ categories:
 - `heading`は一意とする。`index.md`の分類見出しと完全一致しなければならない。
 - `parent_group`は`index.md`のH2見出しと完全一致しなければならない。
 - `display_order`は親グループ内で一意とする。DB検索の既定並びには使わず、将来の一覧生成時の安定順序に使う。
-- 基本設計の21 slug案を初期値に採用する。`✨ 番外編`も独立した`extras`として登録する。
+- 初期値には基本設計の21 slug案を採用した。2026年8月の再分類で`index.md`のH4小見出しを分類へ昇格し、肥大した分類の分割と1件のみの分類の吸収を行った結果、現在は35 slugを登録している。`✨ 番外編`も独立した`extras`として登録する。
 
 カテゴリ改名は、slugを変えずに台帳の`heading`と`index.md`の該当見出しを同一コミットで変更する。slugの統合・廃止は記事frontmatterを変更する移行であり、通常の表示名変更として扱ってはならない。
 
@@ -97,6 +97,7 @@ translation_of: original-article.md
 - 分類見出しが台帳にない、または台帳の親グループとH2が一致しない
 - 台帳の分類が`index.md`にない（廃止予定の分類も放置しない）
 - frontmatterの`category`／`difficulty`と、リンクから得た値が一致しない
+- `🆕 新着記事`／`📌 まず読む記事`に載る記事の難易度が、分類セクションの難易度と一致しない（新着記事欄は分類側の変更に自動追従しないため、ずれたまま気づかない経路を塞ぐ）
 
 カテゴリ一覧は`index.md`から、記事内容はリンク先から読む。未掲載の下書き、`analytics.md`、`docs/`、`ARTICLES.md`、`CLAUDE.md`、`README.md`、`introduction.md`はDBに入れない。この選び方により、DBの収録対象は「公開カタログに載っている記事」と明確になる。
 

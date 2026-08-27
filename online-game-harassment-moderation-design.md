@@ -1,7 +1,7 @@
 ---
 description: "オンラインゲームの通報窓口には、チートのようにログで確定しやすい不正と、文脈を読まなければ判断できない暴言・妨害・寄生が同時に届く。判定可能性の差から、通報、レビュー、制裁、異議申立て、理由開示をどう設計するかを整理する。"
-category: operations-community
-difficulty: red
+category: community-social-ugc
+difficulty: yellow
 ---
 
 # オンラインゲームの有害行動対策はなぜ難しいのか――通報、制裁、誤BAN、理由開示を一つの設計にする

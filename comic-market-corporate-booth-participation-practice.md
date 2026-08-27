@@ -1,6 +1,6 @@
 ---
 description: "コミックマーケットの企業ブースを、単なる物販イベントではなく、全員が参加者であるという理念と会場運営の中で捉える。成立史、同人活動との線引き、収益・ファン接点、安全・表現配慮から出展判断を整理する。"
-category: operations-community
+category: community-social-ugc
 difficulty: yellow
 ---
 

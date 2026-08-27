@@ -1,6 +1,6 @@
 ---
 description: "「仕様書通りに作ったのに、なんか違う」「こんなケースは想定していなかった」「実装してみたら仕様が矛盾していた」——ゲーム開発の現場でこうした言葉が飛び交うとき、その原因の多くは仕様書の書き方に根ざしている。"
-category: planning-spec-dev-process
+category: spec-quality-judgment
 difficulty: yellow
 ---
 

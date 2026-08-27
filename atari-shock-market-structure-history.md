@@ -1,6 +1,6 @@
 ---
 description: "日本では「アタリショック＝粗製濫造ソフトのせいで市場が崩壊した」という理解が定着している。確かにそれは要因の一つだが、実際の崩壊は複数の構造的問題が重なった結果だった。"
-category: business-market-monetization
+category: market-industry-release
 difficulty: green
 ---
 

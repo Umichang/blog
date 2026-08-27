@@ -1,6 +1,6 @@
 ---
 description: "ブロックチェーン、暗号資産、トークン、NFT、ウォレット、P2Eの役割を、ゲームの報酬と取引の流れに沿って初めての人にも分かる言葉で解説する。"
-category: business-market-monetization
+category: monetization-f2p
 difficulty: green
 ---
 

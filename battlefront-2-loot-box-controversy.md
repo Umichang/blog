@@ -1,6 +1,6 @@
 ---
 description: "2017年11月12日、あるコメントがインターネット上に投稿された。ゲーム会社EA（エレクトロニック・アーツ）の公式アカウントによるそのRedditコメントは、やがてギネスブックに「Reddit史上最多の低評価（downvote）を記録したコメント」として掲載される。"
-category: business-market-monetization
+category: monetization-f2p
 difficulty: green
 ---
 

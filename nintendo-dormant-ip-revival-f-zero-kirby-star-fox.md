@@ -1,6 +1,6 @@
 ---
 description: "2025年の『カービィのエアライダー』と2026年の『Star Fox』は、どちらも長く新作を待たれていた任天堂IPの再起動である。ただし、前者は『カービィのエアライド』の遊びを次世代へ延ばす完全新作、後者は『スターフォックス64』を現代の入口として作り直すリメイクであり、復活の目的とリスクは同じではない。"
-category: planning-spec-dev-process
+category: series-ip-strategy
 difficulty: yellow
 ---
 
