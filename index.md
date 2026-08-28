@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ディレクターとプロデューサーは何が違うのか――役職の基礎知識](game-director-producer-role-boundaries.md) 🟢
 - [ゲームの効果音・環境音はどう作られているか](game-sound-effects-ambient-audio-production-practice.md) 🟢
 - [すぎやまこういち評伝：テレビ、ゲーム、競馬、著作権をつないだ「音楽の捧げもの」](koichi-sugiyama-biography-music-games-rights.md) 🟢
 - [ゲームアプリのサブスクとダークパターン――炎上事例・国内外規制から設計指針を考える](game-app-subscription-dark-pattern-regulation-design.md) 🔴
 - [同人ゲームプランナーの個人事業と確定申告――兼業と企業への助っ人参画を分けて考える](indie-game-planner-sole-proprietor-tax-contract-social-insurance.md) 🔴
-- [コミケへの企業ブース参入――理念と流儀、メリットと懸念点](comic-market-corporate-booth-participation-practice.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -333,6 +333,7 @@
 
 ### 👥 労務・組織
 
+- [ディレクターとプロデューサーは何が違うのか――役職の基礎知識](game-director-producer-role-boundaries.md) 🟢
 - [日本のゲーム業界における「クランチ」と労働法制の歴史](game-crunch-labor-law-japan-history.md) 🟡
 - [欧米ゲーム業界で続く大規模レイオフと、日本の労働法制](game-industry-mass-layoffs-japan-labor-law.md) 🟡
 - [ゲームプランナーの転職論――スキルアップか、泥舟から逃げるか](game-planner-career-change-preparation.md) 🟢

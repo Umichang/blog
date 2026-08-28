@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 28 Aug 2026 11:05:48 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 15:46:42 -0000</lastBuildDate>
+    <item>
+      <title>ディレクターとプロデューサーは何が違うのか――役職の基礎知識</title>
+      <link>https://umichang.github.io/blog/game-director-producer-role-boundaries.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-director-producer-role-boundaries.html</guid>
+      <description>ゲームのディレクターとプロデューサーの違いを、プラチナゲームズ、サイバーコネクトツー、バンダイナムコスタジオの実例から、肩書きではなく権限と責任の分け方として読み解く。</description>
+      <pubDate>Fri, 28 Aug 2026 15:46:42 -0000</pubDate>
+    </item>
     <item>
       <title>ゲームの効果音・環境音はどう作られているか</title>
       <link>https://umichang.github.io/blog/game-sound-effects-ambient-audio-production-practice.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/indie-game-planner-sole-proprietor-tax-contract-social-insurance.html</guid>
       <description>会社員の兼業同人ゲーム制作と、個人事業主として企業チームへ参画する助っ人プランナーを分け、所得区分、確定申告、契約、インボイス、社会保険、老後保障の実務を整理する。</description>
       <pubDate>Wed, 26 Aug 2026 11:21:39 -0000</pubDate>
-    </item>
-    <item>
-      <title>コミケへの企業ブース参入――理念と流儀、メリットと懸念点</title>
-      <link>https://umichang.github.io/blog/comic-market-corporate-booth-participation-practice.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/comic-market-corporate-booth-participation-practice.html</guid>
-      <description>コミックマーケットの企業ブースを、単なる物販イベントではなく、全員が参加者であるという理念と会場運営の中で捉える。成立史、同人活動との線引き、収益・ファン接点、安全・表現配慮から出展判断を整理する。</description>
-      <pubDate>Tue, 25 Aug 2026 13:04:34 -0000</pubDate>
     </item>
   </channel>
 </rss>
