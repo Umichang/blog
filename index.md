@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ゲームの効果音・環境音はどう作られているか](game-sound-effects-ambient-audio-production-practice.md) 🟢
 - [すぎやまこういち評伝：テレビ、ゲーム、競馬、著作権をつないだ「音楽の捧げもの」](koichi-sugiyama-biography-music-games-rights.md) 🟢
 - [ゲームアプリのサブスクとダークパターン――炎上事例・国内外規制から設計指針を考える](game-app-subscription-dark-pattern-regulation-design.md) 🔴
 - [同人ゲームプランナーの個人事業と確定申告――兼業と企業への助っ人参画を分けて考える](indie-game-planner-sole-proprietor-tax-contract-social-insurance.md) 🔴
 - [コミケへの企業ブース参入――理念と流儀、メリットと懸念点](comic-market-corporate-booth-participation-practice.md) 🟡
-- [黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか](tacit-tolerance-doujin-ip-enforcement.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -49,6 +49,7 @@
 ### 🔊 サウンド・音声
 
 - [家庭用ゲーム機サウンドの歴史：ピコピコ音から立体音響へ](console-game-sound-history.md) 🟡
+- [ゲームの効果音・環境音はどう作られているか](game-sound-effects-ambient-audio-production-practice.md) 🟢
 - [ゲームにおける環境音と3Dオーディオ — ゲームプランナー実践ガイド](game-ambient-sound-and-3d-audio-planner-guide.md) 🟡
 - [インタラクティブ／アダプティブミュージック――変化するゲーム音楽の設計と実装](interactive-adaptive-music-explained.md) 🟡
 - [UIサウンド・フィードバックSE設計基礎](ui-feedback-sound-effect-design-basics-for-planners.md) 🟡
