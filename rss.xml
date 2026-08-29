@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 29 Aug 2026 00:12:32 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 10:48:28 -0000</lastBuildDate>
+    <item>
+      <title>モーションキャプチャは収録して終わりではない――企画からゲーム内で動くまでの実務工程</title>
+      <link>https://umichang.github.io/blog/motion-capture-production-workflow-from-planning-to-integration.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/motion-capture-production-workflow-from-planning-to-integration.html</guid>
+      <description>モーションキャプチャについて、企画相談、小道具と収録環境の準備、身体と表情の収録、データ整理、リギング、キャラクターへの載せ替えまで、ゲーム内で動くまでの実務を工程順に解説する。</description>
+      <pubDate>Sat, 29 Aug 2026 10:48:28 -0000</pubDate>
+    </item>
     <item>
       <title>パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界</title>
       <link>https://umichang.github.io/blog/publisher-developer-role-differences-bayonetta.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/koichi-sugiyama-biography-music-games-rights.html</guid>
       <description>テレビ演出家、55歳でゲーム音楽へ進んだ作曲家、競馬ファンファーレの作者、そしてネット黎明期に作家の権利を主張したJASRAC理事。すぎやまこういちの複数の顔を、仕事を貫いた一つの姿勢から描く。</description>
       <pubDate>Thu, 27 Aug 2026 16:39:16 -0000</pubDate>
-    </item>
-    <item>
-      <title>ゲームアプリのサブスクとダークパターン――炎上事例・国内外規制から設計指針を考える</title>
-      <link>https://umichang.github.io/blog/game-app-subscription-dark-pattern-regulation-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-app-subscription-dark-pattern-regulation-design.html</guid>
-      <description>RyzaChat:AIとDAZNの料金表示問題を起点に、サブスクのダークパターン類型、日本・米国・EU・韓国の規制段階、無料体験・自動更新・解約・価格表示の設計指針を整理する。</description>
-      <pubDate>Wed, 26 Aug 2026 12:33:46 -0000</pubDate>
     </item>
   </channel>
 </rss>
