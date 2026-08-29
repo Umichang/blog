@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 28 Aug 2026 15:46:42 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 00:12:32 -0000</lastBuildDate>
+    <item>
+      <title>パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界</title>
+      <link>https://umichang.github.io/blog/publisher-developer-role-differences-bayonetta.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/publisher-developer-role-differences-bayonetta.html</guid>
+      <description>ゲームの発売元と開発元はなぜ別会社になり、シリーズ途中で変わるのか。神谷英樹氏の発言とベヨネッタ3作品のクレジットから、資金、開発、販売、権利の役割分担を読み解く。</description>
+      <pubDate>Sat, 29 Aug 2026 00:12:32 -0000</pubDate>
+    </item>
     <item>
       <title>ディレクターとプロデューサーは何が違うのか――役職の基礎知識</title>
       <link>https://umichang.github.io/blog/game-director-producer-role-boundaries.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-app-subscription-dark-pattern-regulation-design.html</guid>
       <description>RyzaChat:AIとDAZNの料金表示問題を起点に、サブスクのダークパターン類型、日本・米国・EU・韓国の規制段階、無料体験・自動更新・解約・価格表示の設計指針を整理する。</description>
       <pubDate>Wed, 26 Aug 2026 12:33:46 -0000</pubDate>
-    </item>
-    <item>
-      <title>同人ゲームプランナーの個人事業と確定申告――兼業と企業への助っ人参画を分けて考える</title>
-      <link>https://umichang.github.io/blog/indie-game-planner-sole-proprietor-tax-contract-social-insurance.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/indie-game-planner-sole-proprietor-tax-contract-social-insurance.html</guid>
-      <description>会社員の兼業同人ゲーム制作と、個人事業主として企業チームへ参画する助っ人プランナーを分け、所得区分、確定申告、契約、インボイス、社会保険、老後保障の実務を整理する。</description>
-      <pubDate>Wed, 26 Aug 2026 11:21:39 -0000</pubDate>
     </item>
   </channel>
 </rss>

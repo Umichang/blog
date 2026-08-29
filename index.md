@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界](publisher-developer-role-differences-bayonetta.md) 🟢
 - [ディレクターとプロデューサーは何が違うのか――役職の基礎知識](game-director-producer-role-boundaries.md) 🟢
 - [ゲームの効果音・環境音はどう作られているか](game-sound-effects-ambient-audio-production-practice.md) 🟢
 - [すぎやまこういち評伝：テレビ、ゲーム、競馬、著作権をつないだ「音楽の捧げもの」](koichi-sugiyama-biography-music-games-rights.md) 🟢
 - [ゲームアプリのサブスクとダークパターン――炎上事例・国内外規制から設計指針を考える](game-app-subscription-dark-pattern-regulation-design.md) 🔴
-- [同人ゲームプランナーの個人事業と確定申告――兼業と企業への助っ人参画を分けて考える](indie-game-planner-sole-proprietor-tax-contract-social-insurance.md) 🔴
 
 <!-- recent-articles:end -->
 
@@ -294,6 +294,7 @@
 
 ### 📊 市場・産業構造・リリース戦略
 
+- [パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界](publisher-developer-role-differences-bayonetta.md) 🟢
 - [No Man's Skyの炎上と復活――期待値管理と運営立て直しの事例](no-mans-sky-expectation-management-case-study.md) 🟢
 - [Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか](hollow-knight-silksong-long-silence-launch-anticipation.md) 🟢
 - [スマートフォンゲーム会社の倒産はなぜ過去最多ペースなのか――2026年の数字から読む開発費・運営費と国内市場](smartphone-game-developer-bankruptcies-2026-structural-costs-market.md) 🟡
