@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [DLC・シーズンパスは実際どう作られているか――本編開発中の仕込みと発売後の判断](how-dlc-and-season-passes-are-planned.md) 🟢
 - [モーションキャプチャは収録して終わりではない――企画からゲーム内で動くまでの実務工程](motion-capture-production-workflow-from-planning-to-integration.md) 🟢
 - [パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界](publisher-developer-role-differences-bayonetta.md) 🟢
 - [ディレクターとプロデューサーは何が違うのか――役職の基礎知識](game-director-producer-role-boundaries.md) 🟢
 - [ゲームの効果音・環境音はどう作られているか](game-sound-effects-ambient-audio-production-practice.md) 🟢
-- [すぎやまこういち評伝：テレビ、ゲーム、競馬、著作権をつないだ「音楽の捧げもの」](koichi-sugiyama-biography-music-games-rights.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -158,6 +158,7 @@
 
 ### 🛠️ 企画・制作プロセス
 
+- [DLC・シーズンパスは実際どう作られているか――本編開発中の仕込みと発売後の判断](how-dlc-and-season-passes-are-planned.md) 🟢
 - [モーションキャプチャは収録して終わりではない――企画からゲーム内で動くまでの実務工程](motion-capture-production-workflow-from-planning-to-integration.md) 🟢
 - [MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計](mmorpg-planning-development-live-operations-basics.md) 🟡
 - [ゲームにおける非機能要件](game-non-functional-requirements.md) 🔴

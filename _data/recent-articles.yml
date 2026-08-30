@@ -1,5 +1,7 @@
 ---
 articles:
+- path: how-dlc-and-season-passes-are-planned.md
+  published_at: '2026-08-30T10:43:20Z'
 - path: motion-capture-production-workflow-from-planning-to-integration.md
   published_at: '2026-08-29T10:48:28Z'
 - path: publisher-developer-role-differences-bayonetta.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-28T15:46:42Z'
 - path: game-sound-effects-ambient-audio-production-practice.md
   published_at: '2026-08-28T11:05:48Z'
-- path: koichi-sugiyama-biography-music-games-rights.md
-  published_at: '2026-08-27T16:39:16Z'
