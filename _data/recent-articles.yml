@@ -1,5 +1,7 @@
 ---
 articles:
+- path: game-development-subcontracting-toriteki-law.md
+  published_at: '2026-08-31T15:33:44Z'
 - path: esports-tournament-prize-gambling-and-amusement-business-law.md
   published_at: '2026-08-31T12:42:05Z'
 - path: how-dlc-and-season-passes-are-planned.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-08-29T10:48:28Z'
 - path: publisher-developer-role-differences-bayonetta.md
   published_at: '2026-08-29T00:12:32Z'
-- path: game-director-producer-role-boundaries.md
-  published_at: '2026-08-28T15:46:42Z'

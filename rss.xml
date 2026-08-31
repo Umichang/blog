@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 31 Aug 2026 12:42:05 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 15:33:44 -0000</lastBuildDate>
+    <item>
+      <title>ゲーム受託開発と取適法――中小デベロッパーの現場で気づく契約リスク</title>
+      <link>https://umichang.github.io/blog/game-development-subcontracting-toriteki-law.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-development-subcontracting-toriteki-law.html</guid>
+      <description>大手パブリッシャーと中小デベロッパーの法人間ゲーム受託開発を対象に、取適法の適用基準、多重委託のしわ寄せ、検収・仕様変更・知的財産・NDAの実務上の兆候を整理する。</description>
+      <pubDate>Mon, 31 Aug 2026 15:33:44 -0000</pubDate>
+    </item>
     <item>
       <title>eスポーツ大会賞金の賭博法制論点――なぜプロゴルフの高額賞金は疑問視されず、eスポーツは賭博を疑われるのか</title>
       <link>https://umichang.github.io/blog/esports-tournament-prize-gambling-and-amusement-business-law.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/publisher-developer-role-differences-bayonetta.html</guid>
       <description>ゲームの発売元と開発元はなぜ別会社になり、シリーズ途中で変わるのか。神谷英樹氏の発言とベヨネッタ3作品のクレジットから、資金、開発、販売、権利の役割分担を読み解く。</description>
       <pubDate>Sat, 29 Aug 2026 00:12:32 -0000</pubDate>
-    </item>
-    <item>
-      <title>ディレクターとプロデューサーは何が違うのか――役職の基礎知識</title>
-      <link>https://umichang.github.io/blog/game-director-producer-role-boundaries.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-director-producer-role-boundaries.html</guid>
-      <description>ゲームのディレクターとプロデューサーの違いを、プラチナゲームズ、サイバーコネクトツー、バンダイナムコスタジオの実例から、肩書きではなく権限と責任の分け方として読み解く。</description>
-      <pubDate>Fri, 28 Aug 2026 15:46:42 -0000</pubDate>
     </item>
   </channel>
 </rss>
