@@ -1,6 +1,6 @@
 ---
 description: "eスポーツ大会の高額賞金をめぐる賭博罪・景品表示法・風営適正化法5号営業の論点を、賞金原資、参加料、会場・機材の設計から企画書へ落とし込める実務向けの形で整理する。"
-category: legal-regulation
+category: law-ip-fanworks
 difficulty: yellow
 ---
 
