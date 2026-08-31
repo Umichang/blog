@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 30 Aug 2026 10:43:20 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 12:42:05 -0000</lastBuildDate>
+    <item>
+      <title>eスポーツ大会賞金の賭博法制論点――なぜプロゴルフの高額賞金は疑問視されず、eスポーツは賭博を疑われるのか</title>
+      <link>https://umichang.github.io/blog/esports-tournament-prize-gambling-and-amusement-business-law.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/esports-tournament-prize-gambling-and-amusement-business-law.html</guid>
+      <description>eスポーツ大会の高額賞金をめぐる賭博罪・景品表示法・風営適正化法5号営業の論点を、賞金原資、参加料、会場・機材の設計から企画書へ落とし込める実務向けの形で整理する。</description>
+      <pubDate>Mon, 31 Aug 2026 12:42:05 -0000</pubDate>
+    </item>
     <item>
       <title>DLC・シーズンパスは実際どう作られているか――本編開発中の仕込みと発売後の判断</title>
       <link>https://umichang.github.io/blog/how-dlc-and-season-passes-are-planned.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-director-producer-role-boundaries.html</guid>
       <description>ゲームのディレクターとプロデューサーの違いを、プラチナゲームズ、サイバーコネクトツー、バンダイナムコスタジオの実例から、肩書きではなく権限と責任の分け方として読み解く。</description>
       <pubDate>Fri, 28 Aug 2026 15:46:42 -0000</pubDate>
-    </item>
-    <item>
-      <title>ゲームの効果音・環境音はどう作られているか</title>
-      <link>https://umichang.github.io/blog/game-sound-effects-ambient-audio-production-practice.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-sound-effects-ambient-audio-production-practice.html</guid>
-      <description>足音だけで1万近いファイルはなぜ必要なのか。身近な物を別の音へ変えるフォーリー、反復を防ぐ量産、容量制約、仮想マイクまで、ゲームの効果音・環境音が生まれる実務を解説する。</description>
-      <pubDate>Fri, 28 Aug 2026 11:05:48 -0000</pubDate>
     </item>
   </channel>
 </rss>
