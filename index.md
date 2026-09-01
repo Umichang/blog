@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史](crane-game-prize-regulation-difficulty-online-history.md) 🟡
 - [パチンコ・パチスロの「抽選」と「演出」はなぜ分かれているのか――遊技機を支える一方向制御](pachinko-pachislot-lottery-performance-separation.md) 🟡
 - [ゲーム受託開発と取適法――中小デベロッパーの現場で気づく契約リスク](game-development-subcontracting-toriteki-law.md) 🟡
 - [eスポーツ大会賞金の賭博法制論点――なぜプロゴルフの高額賞金は疑問視されず、eスポーツは賭博を疑われるのか](esports-tournament-prize-gambling-and-amusement-business-law.md) 🟡
 - [DLC・シーズンパスは実際どう作られているか――本編開発中の仕込みと発売後の判断](how-dlc-and-season-passes-are-planned.md) 🟢
-- [モーションキャプチャは収録して終わりではない――企画からゲーム内で動くまでの実務工程](motion-capture-production-workflow-from-planning-to-integration.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -296,6 +296,7 @@
 
 ### 📊 市場・産業構造・リリース戦略
 
+- [クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史](crane-game-prize-regulation-difficulty-online-history.md) 🟡
 - [パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界](publisher-developer-role-differences-bayonetta.md) 🟢
 - [No Man's Skyの炎上と復活――期待値管理と運営立て直しの事例](no-mans-sky-expectation-management-case-study.md) 🟢
 - [Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか](hollow-knight-silksong-long-silence-launch-anticipation.md) 🟢
