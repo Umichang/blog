@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 31 Aug 2026 15:33:44 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 11:19:41 -0000</lastBuildDate>
+    <item>
+      <title>パチンコ・パチスロの「抽選」と「演出」はなぜ分かれているのか――遊技機を支える一方向制御</title>
+      <link>https://umichang.github.io/blog/pachinko-pachislot-lottery-performance-separation.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/pachinko-pachislot-lottery-performance-separation.html</guid>
+      <description>パチンコ・パチスロで当落と出玉を決める主基板と、液晶・音・役物を動かす演出側がなぜ一方向通信で分離されるのか。法規、型式試験、CPU、演出制作、受託産業の実務から読み解く。</description>
+      <pubDate>Tue, 01 Sep 2026 11:19:41 -0000</pubDate>
+    </item>
     <item>
       <title>ゲーム受託開発と取適法――中小デベロッパーの現場で気づく契約リスク</title>
       <link>https://umichang.github.io/blog/game-development-subcontracting-toriteki-law.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/motion-capture-production-workflow-from-planning-to-integration.html</guid>
       <description>モーションキャプチャについて、企画相談、小道具と収録環境の準備、身体と表情の収録、データ整理、リギング、キャラクターへの載せ替えまで、ゲーム内で動くまでの実務を工程順に解説する。</description>
       <pubDate>Sat, 29 Aug 2026 10:48:28 -0000</pubDate>
-    </item>
-    <item>
-      <title>パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界</title>
-      <link>https://umichang.github.io/blog/publisher-developer-role-differences-bayonetta.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/publisher-developer-role-differences-bayonetta.html</guid>
-      <description>ゲームの発売元と開発元はなぜ別会社になり、シリーズ途中で変わるのか。神谷英樹氏の発言とベヨネッタ3作品のクレジットから、資金、開発、販売、権利の役割分担を読み解く。</description>
-      <pubDate>Sat, 29 Aug 2026 00:12:32 -0000</pubDate>
     </item>
   </channel>
 </rss>
