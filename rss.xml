@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 01 Sep 2026 15:48:34 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 08:37:51 -0000</lastBuildDate>
+    <item>
+      <title>プリクラは「かわいい」の反転をどう生き延びたか――プリントシール機30年史</title>
+      <link>https://umichang.github.io/blog/photo-sticker-machine-30-year-history-trends-technology-subscription.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/photo-sticker-machine-30-year-history-trends-technology-subscription.html</guid>
+      <description>1995年のプリント倶楽部から30年。プリントシール機が反転し続ける『かわいい』へ筐体と画像処理を追従させ、用紙販売と画像取得サービスを収益へ変えてきた歴史をたどる。</description>
+      <pubDate>Wed, 02 Sep 2026 08:37:51 -0000</pubDate>
+    </item>
     <item>
       <title>クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史</title>
       <link>https://umichang.github.io/blog/crane-game-prize-regulation-difficulty-online-history.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/esports-tournament-prize-gambling-and-amusement-business-law.html</guid>
       <description>eスポーツ大会の高額賞金をめぐる賭博罪・景品表示法・風営適正化法5号営業の論点を、賞金原資、参加料、会場・機材の設計から企画書へ落とし込める実務向けの形で整理する。</description>
       <pubDate>Mon, 31 Aug 2026 12:42:05 -0000</pubDate>
-    </item>
-    <item>
-      <title>DLC・シーズンパスは実際どう作られているか――本編開発中の仕込みと発売後の判断</title>
-      <link>https://umichang.github.io/blog/how-dlc-and-season-passes-are-planned.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/how-dlc-and-season-passes-are-planned.html</guid>
-      <description>DLCやシーズンパスはいつ、何を根拠に企画されるのか。本編開発中の仕込み、発売後の初動判断、配信単位の決定、数年にわたる継続開発を『FFXVI』などの実例からやさしく解説する。</description>
-      <pubDate>Sun, 30 Aug 2026 10:43:20 -0000</pubDate>
     </item>
   </channel>
 </rss>
