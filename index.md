@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [メダルゲームは、なぜ何も持ち帰れないのに50年以上続いたのか――風営法と店内循環の産業構造](medal-game-no-cash-prize-industry-structure.md) 🟡
 - [プリクラは「かわいい」の反転をどう生き延びたか――プリントシール機30年史](photo-sticker-machine-30-year-history-trends-technology-subscription.md) 🟡
 - [クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史](crane-game-prize-regulation-difficulty-online-history.md) 🟡
 - [パチンコ・パチスロの「抽選」と「演出」はなぜ分かれているのか――遊技機を支える一方向制御](pachinko-pachislot-lottery-performance-separation.md) 🟡
 - [ゲーム受託開発と取適法――中小デベロッパーの現場で気づく契約リスク](game-development-subcontracting-toriteki-law.md) 🟡
-- [eスポーツ大会賞金の賭博法制論点――なぜプロゴルフの高額賞金は疑問視されず、eスポーツは賭博を疑われるのか](esports-tournament-prize-gambling-and-amusement-business-law.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -296,6 +296,7 @@
 
 ### 📊 市場・産業構造・リリース戦略
 
+- [メダルゲームは、なぜ何も持ち帰れないのに50年以上続いたのか――風営法と店内循環の産業構造](medal-game-no-cash-prize-industry-structure.md) 🟡
 - [クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史](crane-game-prize-regulation-difficulty-online-history.md) 🟡
 - [プリクラは「かわいい」の反転をどう生き延びたか――プリントシール機30年史](photo-sticker-machine-30-year-history-trends-technology-subscription.md) 🟡
 - [パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界](publisher-developer-role-differences-bayonetta.md) 🟢

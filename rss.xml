@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 02 Sep 2026 08:37:51 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 10:27:27 -0000</lastBuildDate>
+    <item>
+      <title>メダルゲームは、なぜ何も持ち帰れないのに50年以上続いたのか――風営法と店内循環の産業構造</title>
+      <link>https://umichang.github.io/blog/medal-game-no-cash-prize-industry-structure.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/medal-game-no-cash-prize-industry-structure.html</guid>
+      <description>換金も景品交換もできないメダルゲームは、なぜ50年以上続いたのか。風営法第23条、メダル預かり、多様な機種を通じて、店内だけで価値を循環させる産業構造を読み解く。</description>
+      <pubDate>Thu, 03 Sep 2026 10:27:27 -0000</pubDate>
+    </item>
     <item>
       <title>プリクラは「かわいい」の反転をどう生き延びたか――プリントシール機30年史</title>
       <link>https://umichang.github.io/blog/photo-sticker-machine-30-year-history-trends-technology-subscription.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-development-subcontracting-toriteki-law.html</guid>
       <description>大手パブリッシャーと中小デベロッパーの法人間ゲーム受託開発を対象に、取適法の適用基準、多重委託のしわ寄せ、検収・仕様変更・知的財産・NDAの実務上の兆候を整理する。</description>
       <pubDate>Mon, 31 Aug 2026 15:33:44 -0000</pubDate>
-    </item>
-    <item>
-      <title>eスポーツ大会賞金の賭博法制論点――なぜプロゴルフの高額賞金は疑問視されず、eスポーツは賭博を疑われるのか</title>
-      <link>https://umichang.github.io/blog/esports-tournament-prize-gambling-and-amusement-business-law.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/esports-tournament-prize-gambling-and-amusement-business-law.html</guid>
-      <description>eスポーツ大会の高額賞金をめぐる賭博罪・景品表示法・風営適正化法5号営業の論点を、賞金原資、参加料、会場・機材の設計から企画書へ落とし込める実務向けの形で整理する。</description>
-      <pubDate>Mon, 31 Aug 2026 12:42:05 -0000</pubDate>
     </item>
   </channel>
 </rss>
