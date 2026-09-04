@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 04 Sep 2026 04:01:19 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 08:41:38 -0000</lastBuildDate>
+    <item>
+      <title>発表されたタイトルに、あとから人が集まる――発表と開発は別のカレンダーで動いている</title>
+      <link>https://umichang.github.io/blog/game-announcement-timing-and-development-calendar.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-announcement-timing-and-development-calendar.html</guid>
+      <description>新作ゲームは、なぜ完成が見えない段階で発表されるのか。『ドラゴンクエストXII』『メトロイドプライム4』などの再始動と開発者の証言から、発表と開発を動かす二つのカレンダーを読み解く。</description>
+      <pubDate>Fri, 04 Sep 2026 08:41:38 -0000</pubDate>
+    </item>
     <item>
       <title>「State of Play 日本」は誰に向けた番組か――地域別ショーケースの設計</title>
       <link>https://umichang.github.io/blog/state-of-play-japan-regional-showcase-design.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/photo-sticker-machine-30-year-history-trends-technology-subscription.html</guid>
       <description>1995年のプリント倶楽部から30年。プリントシール機が反転し続ける『かわいい』へ筐体と画像処理を追従させ、用紙販売と画像取得サービスを収益へ変えてきた歴史をたどる。</description>
       <pubDate>Wed, 02 Sep 2026 08:37:51 -0000</pubDate>
-    </item>
-    <item>
-      <title>クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史</title>
-      <link>https://umichang.github.io/blog/crane-game-prize-regulation-difficulty-online-history.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/crane-game-prize-regulation-difficulty-online-history.html</guid>
-      <description>クレーンゲームはなぜ景品を出せるのか。国産機の誕生から難易度設定、風営法上の賞品規制、オンライン化までを、運営側が握る二つの仕組みから整理する。</description>
-      <pubDate>Tue, 01 Sep 2026 15:48:34 -0000</pubDate>
     </item>
   </channel>
 </rss>

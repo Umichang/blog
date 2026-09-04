@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [発表されたタイトルに、あとから人が集まる――発表と開発は別のカレンダーで動いている](game-announcement-timing-and-development-calendar.md) 🟡
 - [「State of Play 日本」は誰に向けた番組か――地域別ショーケースの設計](state-of-play-japan-regional-showcase-design.md) 🟢
 - [コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき](coin-pusher-multi-stage-lottery-digital-transition.md) 🟡
 - [メダルゲームは、なぜ何も持ち帰れないのに50年以上続いたのか――風営法と店内循環の産業構造](medal-game-no-cash-prize-industry-structure.md) 🟡
 - [プリクラは「かわいい」の反転をどう生き延びたか――プリントシール機30年史](photo-sticker-machine-30-year-history-trends-technology-subscription.md) 🟡
-- [クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史](crane-game-prize-regulation-difficulty-online-history.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -159,6 +159,7 @@
 
 ### 🛠️ 企画・制作プロセス
 
+- [発表されたタイトルに、あとから人が集まる――発表と開発は別のカレンダーで動いている](game-announcement-timing-and-development-calendar.md) 🟡
 - [DLC・シーズンパスは実際どう作られているか――本編開発中の仕込みと発売後の判断](how-dlc-and-season-passes-are-planned.md) 🟢
 - [モーションキャプチャは収録して終わりではない――企画からゲーム内で動くまでの実務工程](motion-capture-production-workflow-from-planning-to-integration.md) 🟢
 - [MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計](mmorpg-planning-development-live-operations-basics.md) 🟡
