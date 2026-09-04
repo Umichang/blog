@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 03 Sep 2026 10:27:27 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 00:15:36 -0000</lastBuildDate>
+    <item>
+      <title>コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき</title>
+      <link>https://umichang.github.io/blog/coin-pusher-multi-stage-lottery-digital-transition.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/coin-pusher-multi-stage-lottery-digital-transition.html</guid>
+      <description>コインプッシャーは、メダルを押し出すだけの機械ではない。物理盤面、チャッカー、内部抽選、救済制御、ジャックポットが重なる多段構造と、スマートフォン・オンラインへの移植で変わったものを読み解く。</description>
+      <pubDate>Fri, 04 Sep 2026 00:15:36 -0000</pubDate>
+    </item>
     <item>
       <title>メダルゲームは、なぜ何も持ち帰れないのに50年以上続いたのか――風営法と店内循環の産業構造</title>
       <link>https://umichang.github.io/blog/medal-game-no-cash-prize-industry-structure.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/pachinko-pachislot-lottery-performance-separation.html</guid>
       <description>パチンコ・パチスロで当落と出玉を決める主基板と、液晶・音・役物を動かす演出側がなぜ一方向通信で分離されるのか。法規、型式試験、CPU、演出制作、受託産業の実務から読み解く。</description>
       <pubDate>Tue, 01 Sep 2026 11:19:41 -0000</pubDate>
-    </item>
-    <item>
-      <title>ゲーム受託開発と取適法――中小デベロッパーの現場で気づく契約リスク</title>
-      <link>https://umichang.github.io/blog/game-development-subcontracting-toriteki-law.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-development-subcontracting-toriteki-law.html</guid>
-      <description>大手パブリッシャーと中小デベロッパーの法人間ゲーム受託開発を対象に、取適法の適用基準、多重委託のしわ寄せ、検収・仕様変更・知的財産・NDAの実務上の兆候を整理する。</description>
-      <pubDate>Mon, 31 Aug 2026 15:33:44 -0000</pubDate>
     </item>
   </channel>
 </rss>

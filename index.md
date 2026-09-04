@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき](coin-pusher-multi-stage-lottery-digital-transition.md) 🟡
 - [メダルゲームは、なぜ何も持ち帰れないのに50年以上続いたのか――風営法と店内循環の産業構造](medal-game-no-cash-prize-industry-structure.md) 🟡
 - [プリクラは「かわいい」の反転をどう生き延びたか――プリントシール機30年史](photo-sticker-machine-30-year-history-trends-technology-subscription.md) 🟡
 - [クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史](crane-game-prize-regulation-difficulty-online-history.md) 🟡
 - [パチンコ・パチスロの「抽選」と「演出」はなぜ分かれているのか――遊技機を支える一方向制御](pachinko-pachislot-lottery-performance-separation.md) 🟡
-- [ゲーム受託開発と取適法――中小デベロッパーの現場で気づく契約リスク](game-development-subcontracting-toriteki-law.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -90,6 +90,7 @@
 
 ### 📐 ゲームデザイン理論
 
+- [コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき](coin-pusher-multi-stage-lottery-digital-transition.md) 🟡
 - [ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く](game-feel-design-theory-for-game-planners.md) 🟡
 - [ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く](variable-ratio-reinforcement-gacha-loot-box-psychology.md) 🟡
 - [MDAフレームワークとは何か――「面白い」をMechanics・Dynamics・Aestheticsに分けて考える](mda-framework-mechanics-dynamics-aesthetics-guide.md) 🟡
