@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [「直接！」はどこから来たのか――ニンテンドーダイレクトの成立と、発表の場が移った十数年](nintendo-direct-origin-and-showcase-shift.md) 🟢
 - [発表されたタイトルに、あとから人が集まる――発表と開発は別のカレンダーで動いている](game-announcement-timing-and-development-calendar.md) 🟡
 - [「State of Play 日本」は誰に向けた番組か――地域別ショーケースの設計](state-of-play-japan-regional-showcase-design.md) 🟢
 - [コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき](coin-pusher-multi-stage-lottery-digital-transition.md) 🟡
 - [メダルゲームは、なぜ何も持ち帰れないのに50年以上続いたのか――風営法と店内循環の産業構造](medal-game-no-cash-prize-industry-structure.md) 🟡
-- [プリクラは「かわいい」の反転をどう生き延びたか――プリントシール機30年史](photo-sticker-machine-30-year-history-trends-technology-subscription.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -298,6 +298,7 @@
 
 ### 📊 市場・産業構造・リリース戦略
 
+- [「直接！」はどこから来たのか――ニンテンドーダイレクトの成立と、発表の場が移った十数年](nintendo-direct-origin-and-showcase-shift.md) 🟢
 - [「State of Play 日本」は誰に向けた番組か――地域別ショーケースの設計](state-of-play-japan-regional-showcase-design.md) 🟢
 - [メダルゲームは、なぜ何も持ち帰れないのに50年以上続いたのか――風営法と店内循環の産業構造](medal-game-no-cash-prize-industry-structure.md) 🟡
 - [クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史](crane-game-prize-regulation-difficulty-online-history.md) 🟡

@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 04 Sep 2026 08:41:38 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 03:35:02 -0000</lastBuildDate>
+    <item>
+      <title>「直接！」はどこから来たのか――ニンテンドーダイレクトの成立と、発表の場が移った十数年</title>
+      <link>https://umichang.github.io/blog/nintendo-direct-origin-and-showcase-shift.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/nintendo-direct-origin-and-showcase-shift.html</guid>
+      <description>ニンテンドーダイレクトの成立を岩田聡の公式説明と当時の記録からたどり、日経報道との時系列、「直接届ける」方針の継承、E3と各社の発表番組の変化、自社で発表の場を持つ責任を読み解く。</description>
+      <pubDate>Sat, 05 Sep 2026 03:35:02 -0000</pubDate>
+    </item>
     <item>
       <title>発表されたタイトルに、あとから人が集まる――発表と開発は別のカレンダーで動いている</title>
       <link>https://umichang.github.io/blog/game-announcement-timing-and-development-calendar.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/medal-game-no-cash-prize-industry-structure.html</guid>
       <description>換金も景品交換もできないメダルゲームは、なぜ50年以上続いたのか。風営法第23条、メダル預かり、多様な機種を通じて、店内だけで価値を循環させる産業構造を読み解く。</description>
       <pubDate>Thu, 03 Sep 2026 10:27:27 -0000</pubDate>
-    </item>
-    <item>
-      <title>プリクラは「かわいい」の反転をどう生き延びたか――プリントシール機30年史</title>
-      <link>https://umichang.github.io/blog/photo-sticker-machine-30-year-history-trends-technology-subscription.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/photo-sticker-machine-30-year-history-trends-technology-subscription.html</guid>
-      <description>1995年のプリント倶楽部から30年。プリントシール機が反転し続ける『かわいい』へ筐体と画像処理を追従させ、用紙販売と画像取得サービスを収益へ変えてきた歴史をたどる。</description>
-      <pubDate>Wed, 02 Sep 2026 08:37:51 -0000</pubDate>
     </item>
   </channel>
 </rss>
