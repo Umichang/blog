@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 05 Sep 2026 03:35:02 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 11:27:05 -0000</lastBuildDate>
+    <item>
+      <title>ボードゲームのルールブックは「書いた人が同席できない仕様書」である</title>
+      <link>https://umichang.github.io/blog/board-game-rulebooks-as-standalone-specifications.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/board-game-rulebooks-as-standalone-specifications.html</guid>
+      <description>作者が同席しない食卓で読まれるボードゲームのルールブック。出版社の用語規約、例外の配置、参照表、改訂の実例から、自分が休んだ日にも使えるゲーム仕様書の作り方を考える。</description>
+      <pubDate>Sat, 05 Sep 2026 11:27:05 -0000</pubDate>
+    </item>
     <item>
       <title>「直接！」はどこから来たのか――ニンテンドーダイレクトの成立と、発表の場が移った十数年</title>
       <link>https://umichang.github.io/blog/nintendo-direct-origin-and-showcase-shift.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/coin-pusher-multi-stage-lottery-digital-transition.html</guid>
       <description>コインプッシャーは、メダルを押し出すだけの機械ではない。物理盤面、チャッカー、内部抽選、救済制御、ジャックポットが重なる多段構造と、スマートフォン・オンラインへの移植で変わったものを読み解く。</description>
       <pubDate>Fri, 04 Sep 2026 00:15:36 -0000</pubDate>
-    </item>
-    <item>
-      <title>メダルゲームは、なぜ何も持ち帰れないのに50年以上続いたのか――風営法と店内循環の産業構造</title>
-      <link>https://umichang.github.io/blog/medal-game-no-cash-prize-industry-structure.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/medal-game-no-cash-prize-industry-structure.html</guid>
-      <description>換金も景品交換もできないメダルゲームは、なぜ50年以上続いたのか。風営法第23条、メダル預かり、多様な機種を通じて、店内だけで価値を循環させる産業構造を読み解く。</description>
-      <pubDate>Thu, 03 Sep 2026 10:27:27 -0000</pubDate>
     </item>
   </channel>
 </rss>

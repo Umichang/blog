@@ -1,5 +1,7 @@
 ---
 articles:
+- path: board-game-rulebooks-as-standalone-specifications.md
+  published_at: '2026-09-05T11:27:05Z'
 - path: nintendo-direct-origin-and-showcase-shift.md
   published_at: '2026-09-05T03:35:02Z'
 - path: game-announcement-timing-and-development-calendar.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-04T04:01:19Z'
 - path: coin-pusher-multi-stage-lottery-digital-transition.md
   published_at: '2026-09-04T00:15:36Z'
-- path: medal-game-no-cash-prize-industry-structure.md
-  published_at: '2026-09-03T10:27:27Z'
