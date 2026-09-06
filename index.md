@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [卓上プロトタイプは「実装を待たずに動かせる仕様書」である](wargame-adjudication-and-tabletop-prototyping.md) 🟡
 - [ボードゲームのルールブックは「書いた人が同席できない仕様書」である](board-game-rulebooks-as-standalone-specifications.md) 🟡
 - [「直接！」はどこから来たのか――ニンテンドーダイレクトの成立と、発表の場が移った十数年](nintendo-direct-origin-and-showcase-shift.md) 🟢
 - [発表されたタイトルに、あとから人が集まる――発表と開発は別のカレンダーで動いている](game-announcement-timing-and-development-calendar.md) 🟡
 - [「State of Play 日本」は誰に向けた番組か――地域別ショーケースの設計](state-of-play-japan-regional-showcase-design.md) 🟢
-- [コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき](coin-pusher-multi-stage-lottery-digital-transition.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -194,6 +194,7 @@
 - [プレイテストの設計・運用方法論](playtest-design-and-operation-methodology-for-planners.md) 🟡
 - [バグなのか仕様なのか——「グレーゾーン」の判断プロセス](bug-or-spec-gray-zone-decision-process.md) 🟡
 - [ボードゲームのルールブックは「書いた人が同席できない仕様書」である](board-game-rulebooks-as-standalone-specifications.md) 🟡
+- [卓上プロトタイプは「実装を待たずに動かせる仕様書」である](wargame-adjudication-and-tabletop-prototyping.md) 🟡
 - [物理シミュレーションの不具合はなぜ根絶しにくいのか――プランナーが仕様書でつくる安全域](physics-simulation-bug-prevention-spec-writing-for-planners.md) 🔴
 - [Cyberpunk 2077 崩壊の構造](cyberpunk-2077-anatomy-of-a-collapse.md) 🟢
 - [FF14旧版（1.0）はなぜ崩壊したのか――大型タイトルが開発で破綻する構造](ffxiv-1-0-failure-anatomy.md) 🟢
