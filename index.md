@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [周回すごろくは、負けている人をどう卓に残すか――貧乏神を動かせる仕様](momotetsu-player-controlled-penalties-and-participation.md) 🟡
 - [卓上プロトタイプは「実装を待たずに動かせる仕様書」である](wargame-adjudication-and-tabletop-prototyping.md) 🟡
 - [ボードゲームのルールブックは「書いた人が同席できない仕様書」である](board-game-rulebooks-as-standalone-specifications.md) 🟡
 - [「直接！」はどこから来たのか――ニンテンドーダイレクトの成立と、発表の場が移った十数年](nintendo-direct-origin-and-showcase-shift.md) 🟢
 - [発表されたタイトルに、あとから人が集まる――発表と開発は別のカレンダーで動いている](game-announcement-timing-and-development-calendar.md) 🟡
-- [「State of Play 日本」は誰に向けた番組か――地域別ショーケースの設計](state-of-play-japan-regional-showcase-design.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -98,6 +98,7 @@
 - [マイクロゲーミフィケーション――ゲームデザイン手法の非ゲーム領域への輸出とその限界](micro-gamification-non-game-design-limitations.md) 🟡
 - [フロー理論はゲームのために生まれたのか――原典・調査手法・反証から読み直す「ちょうどよい挑戦」](flow-theory-psychology-origins-and-game-design.md) 🟡
 - [3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計](intransitive-balance-rock-paper-scissors-game-design.md) 🟡
+- [周回すごろくは、負けている人をどう卓に残すか――貧乏神を動かせる仕様](momotetsu-player-controlled-penalties-and-participation.md) 🟡
 
 ### 🎯 進行・目標・難易度
 
