@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 08 Sep 2026 02:17:01 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 10:52:30 -0000</lastBuildDate>
+    <item>
+      <title>数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計</title>
+      <link>https://umichang.github.io/blog/warhammer-40000-balance-update-containers.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/warhammer-40000-balance-update-containers.html</guid>
+      <description>ウォーハンマー40,000は、書籍と更新されるポイント表を分けてバランスを調整する。第11版のウェブ化と第10版期のPDF運用から、変更対象、差分、更新頻度、既存の軍への措置を設計する判断軸を読む。</description>
+      <pubDate>Tue, 08 Sep 2026 10:52:30 -0000</pubDate>
+    </item>
     <item>
       <title>遊びの仕組みをどう守るか――特許、開放する契約、名前の選択</title>
       <link>https://umichang.github.io/blog/game-mechanics-patents-open-licenses-and-trademarks.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/board-game-rulebooks-as-standalone-specifications.html</guid>
       <description>作者が同席しない食卓で読まれるボードゲームのルールブック。出版社の用語規約、例外の配置、参照表、改訂の実例から、自分が休んだ日にも使えるゲーム仕様書の作り方を考える。</description>
       <pubDate>Sat, 05 Sep 2026 11:27:05 -0000</pubDate>
-    </item>
-    <item>
-      <title>「直接！」はどこから来たのか――ニンテンドーダイレクトの成立と、発表の場が移った十数年</title>
-      <link>https://umichang.github.io/blog/nintendo-direct-origin-and-showcase-shift.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/nintendo-direct-origin-and-showcase-shift.html</guid>
-      <description>ニンテンドーダイレクトの成立を岩田聡の公式説明と当時の記録からたどり、日経報道との時系列、「直接届ける」方針の継承、E3と各社の発表番組の変化、自社で発表の場を持つ責任を読み解く。</description>
-      <pubDate>Sat, 05 Sep 2026 03:35:02 -0000</pubDate>
     </item>
   </channel>
 </rss>
