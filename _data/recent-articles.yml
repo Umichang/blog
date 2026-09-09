@@ -1,5 +1,7 @@
 ---
 articles:
+- path: eliminated-player-rights-as-written-rules.md
+  published_at: '2026-09-09T10:59:01Z'
 - path: warhammer-40000-balance-update-containers.md
   published_at: '2026-09-08T10:52:30Z'
 - path: game-mechanics-patents-open-licenses-and-trademarks.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-07T10:24:29Z'
 - path: wargame-adjudication-and-tabletop-prototyping.md
   published_at: '2026-09-06T11:33:42Z'
-- path: board-game-rulebooks-as-standalone-specifications.md
-  published_at: '2026-09-05T11:27:05Z'

@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 - [数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計](warhammer-40000-balance-update-containers.md) 🟡
 - [遊びの仕組みをどう守るか――特許、開放する契約、名前の選択](game-mechanics-patents-open-licenses-and-trademarks.md) 🟡
 - [周回すごろくは、負けている人をどう卓に残すか――貧乏神を動かせる仕様](momotetsu-player-controlled-penalties-and-participation.md) 🟡
 - [卓上プロトタイプは「実装を待たずに動かせる仕様書」である](wargame-adjudication-and-tabletop-prototyping.md) 🟡
-- [ボードゲームのルールブックは「書いた人が同席できない仕様書」である](board-game-rulebooks-as-standalone-specifications.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -90,6 +90,7 @@
 
 ### 📐 ゲームデザイン理論
 
+- [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 - [コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき](coin-pusher-multi-stage-lottery-digital-transition.md) 🟡
 - [ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く](game-feel-design-theory-for-game-planners.md) 🟡
 - [ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く](variable-ratio-reinforcement-gacha-loot-box-psychology.md) 🟡
