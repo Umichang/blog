@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 09 Sep 2026 10:59:01 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 23:24:43 -0000</lastBuildDate>
+    <item>
+      <title>鼻歌でも、実物のオカリナでもいい ― Switch 2 が音声入力に出した答え</title>
+      <link>https://umichang.github.io/blog/switch2-microphone-voice-and-melody-input-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/switch2-microphone-voice-and-melody-input-design.html</guid>
+      <description>Switch 2 の鼻歌によるオカリナ演奏と、オッチンへの音声指示。マイクの標準搭載、判定対象の絞り込み、ボタンによる代替から、音声入力を無理なく遊びに組み込む条件を考える。</description>
+      <pubDate>Thu, 10 Sep 2026 23:24:43 -0000</pubDate>
+    </item>
     <item>
       <title>負けた人に何を残すか――脱落の扱いを規則として書く</title>
       <link>https://umichang.github.io/blog/eliminated-player-rights-as-written-rules.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/momotetsu-player-controlled-penalties-and-participation.html</guid>
       <description>モノポリーの破産退場と桃太郎電鉄の最終年度を対比し、貧乏神のなすりつけや決算の区切りから、負けている人にも次の判断を渡す設計と、補正の原因をプレイヤーの選択へ紐づける仕様の考え方を読む。</description>
       <pubDate>Mon, 07 Sep 2026 10:24:29 -0000</pubDate>
-    </item>
-    <item>
-      <title>卓上プロトタイプは「実装を待たずに動かせる仕様書」である</title>
-      <link>https://umichang.github.io/blog/wargame-adjudication-and-tabletop-prototyping.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/wargame-adjudication-and-tabletop-prototyping.html</guid>
-      <description>勝敗を人が決めるか、表と手順が決めるか。ウォーゲームの裁定4方式と現行ルールブックを読み、GM役の判断を確定したルールへ移す卓上プロトタイプの使い方を考える。「読める仕様書」第2回。</description>
-      <pubDate>Sun, 06 Sep 2026 11:33:42 -0000</pubDate>
     </item>
   </channel>
 </rss>

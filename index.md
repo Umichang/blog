@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [鼻歌でも、実物のオカリナでもいい ― Switch 2 が音声入力に出した答え](switch2-microphone-voice-and-melody-input-design.md) 🟡
 - [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 - [数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計](warhammer-40000-balance-update-containers.md) 🟡
 - [遊びの仕組みをどう守るか――特許、開放する契約、名前の選択](game-mechanics-patents-open-licenses-and-trademarks.md) 🟡
 - [周回すごろくは、負けている人をどう卓に残すか――貧乏神を動かせる仕様](momotetsu-player-controlled-penalties-and-participation.md) 🟡
-- [卓上プロトタイプは「実装を待たずに動かせる仕様書」である](wargame-adjudication-and-tabletop-prototyping.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -69,6 +69,7 @@
 
 - [ゲームコンソールのボタン配置はなぜ異なるのか――規格分岐の歴史](console-controller-button-layout-history.md) 🟢
 - [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🟢
+- [鼻歌でも、実物のオカリナでもいい ― Switch 2 が音声入力に出した答え](switch2-microphone-voice-and-melody-input-design.md) 🟡
 - [コントローラーの振動とハプティックフィードバック――ゲームプランナーのための企画設計ガイド](controller-haptics-design-guide.md) 🟡
 - [複数入力方式の切り替えUX設計――タッチ・ゲームパッド・キーボード＋マウスを同一セッションでどう共存させるか](multi-input-switching-ux-design.md) 🟡
 - [キャラクター編成・パーティ管理UIの設計](roster-party-ui-ux-design.md) 🟡
