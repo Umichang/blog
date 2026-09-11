@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [「Xbox」はいま、いくつの器を指しているのか ― 作品を出す側が確認すべきこと](xbox-multiple-containers-and-game-pass-supplier-decisions.md) 🟡
 - [鼻歌でも、実物のオカリナでもいい ― Switch 2 が音声入力に出した答え](switch2-microphone-voice-and-melody-input-design.md) 🟡
 - [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 - [数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計](warhammer-40000-balance-update-containers.md) 🟡
 - [遊びの仕組みをどう守るか――特許、開放する契約、名前の選択](game-mechanics-patents-open-licenses-and-trademarks.md) 🟡
-- [周回すごろくは、負けている人をどう卓に残すか――貧乏神を動かせる仕様](momotetsu-player-controlled-penalties-and-participation.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -322,6 +322,7 @@
 - [EA非上場化（LBO）――大型買収の構造とパブリッシャー経営への影響](ea-lbo-take-private-publisher-capital-structure-shift.md) 🔴
 - [Xbox再編から考える、スタジオの「独立・売却・閉鎖」はなぜ分かれるのか](xbox-studio-restructuring-exit-paths-2026.md) 🟡
 - [XboxとPlayStationの「PC後退」は何が違うのか――配信チャネルとコンテンツ選別を分けて読む](xbox-playstation-pc-strategy-channel-content-selection-2026.md) 🟡
+- [「Xbox」はいま、いくつの器を指しているのか ― 作品を出す側が確認すべきこと](xbox-multiple-containers-and-game-pass-supplier-decisions.md) 🟡
 - [eスポーツの歴史とビジネス構造――賞金、リーグ、配信、選手を支える仕組み](esports-history-and-business-structure.md) 🟢
 - [CEDEC2026予習：ゲーム発オリジナルIPのメディアミックス展開に見る企画論点――『アイドルマスター』『ブルーアーカイブ』、そして『ヘブンバーンズレッド』](cedec2026-media-mix-strategy-idolmaster-bluearchive-heaven-burns-red.md) 🟡
 

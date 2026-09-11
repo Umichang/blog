@@ -135,6 +135,8 @@ Ninja Theoryの Senua とUndead Labsの State of Decay 3 は、発表時点で�
 
 プランナーに必要なのは、親会社の意思決定を予言することではない。プロジェクトが所属変更に耐えられるように、権利、承認、データ、マイルストーン、収益源を可視化しておくことである。出口を危機の言葉としてだけでなく、開発継続性を設計する言葉として扱うことが、再編の多い時代の実務になる。
 
+スタジオの所属とは別に、開発中タイトルのパブリッシング先が変わる例として、『PHYSINT』の提携変更を「[「Xbox」はいま、いくつの器を指しているのか](xbox-multiple-containers-and-game-pass-supplier-decisions.md)」で扱う。
+
 ## References
 
 <a id="ref-1"></a>1. [Microsoft cuts 4,800 jobs, about 2% globally, revamps salesforce and launches massive Xbox overhaul][1] - GeekWireによる、Microsoft全体の約4,800人とXboxの当日1,600人・年度内3,200人計画の報道。CEOのAsha Sharma氏によるメモの内容も引用している。

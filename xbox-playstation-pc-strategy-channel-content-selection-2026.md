@@ -134,6 +134,8 @@ PlayStationが示したのは、PCを全面的に閉じる方針ではなく、�
 
 プランナーが持ち帰るべきなのは、PC対応の賛否ではない。「配信チャネルの主導権」と「作品単位のコンテンツ選別」を別々に設計し、そのうえで、見出しの強さではなく情報源の裏付けの強さでニュースを読むことである。
 
+この二つの判断軸の内側で、収録プラン、クラウドの利用条件、PCでの起動経路をどう分けるかは、「[「Xbox」はいま、いくつの器を指しているのか](xbox-multiple-containers-and-game-pass-supplier-decisions.md)」で扱う。
+
 ## References
 
 <a id="ref-1"></a>1. [No, Xbox isn't quitting Steam — but it IS doubling down on PC gaming. Here's how][1] - Jez Corden氏が8月3日に自身のポッドキャスト発言の文脈を訂正し、Steam離脱を否定したWindows Central記事。Battle.net、Xbox PC、Ubisoft・EAとの連携に関する同氏の取材内容も含む。

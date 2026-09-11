@@ -1,5 +1,7 @@
 ---
 articles:
+- path: xbox-multiple-containers-and-game-pass-supplier-decisions.md
+  published_at: '2026-09-11T03:51:13Z'
 - path: switch2-microphone-voice-and-melody-input-design.md
   published_at: '2026-09-10T23:24:43Z'
 - path: eliminated-player-rights-as-written-rules.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-08T10:52:30Z'
 - path: game-mechanics-patents-open-licenses-and-trademarks.md
   published_at: '2026-09-08T02:17:01Z'
-- path: momotetsu-player-controlled-penalties-and-participation.md
-  published_at: '2026-09-07T10:24:29Z'

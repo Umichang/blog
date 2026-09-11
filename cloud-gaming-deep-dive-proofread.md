@@ -45,6 +45,8 @@ Xbox Game Passの加入者数は公式開示が停止されているため推計
 - **基本プレイ無料タイトルの戦略的活用** ── 『Fortnite』をサブスクリプション不要で無料プレイ可能にし、クラウドゲーミングの裾野を広げた。[[17](#ref-17)]
 - **コンテンツ強化のための大型投資** ── Activision Blizzardの約10兆円規模の買収（2023年10月完了）により、『Call of Duty』『ディアブロ』などの超大作IPをGame Passに追加する基盤を整えた。[[18](#ref-18)]
 
+2026年9月には、Xbox Cloud Gamingの通常プランに11月から月間時間枠を設ける変更が発表された。利用時間の条件と作品を供給する側への含意は、「[「Xbox」はいま、いくつの器を指しているのか](xbox-multiple-containers-and-game-pass-supplier-decisions.md)」で扱う。
+
 ***
 
 ### NVIDIA GeForce NOW
