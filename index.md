@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [「製品には入っていません」では、なぜ火が消えないのか ― 生成AI素材の現在地](generative-ai-promotional-assets-player-reception.md) 🟡
 - [「Xbox」はいま、いくつの器を指しているのか ― 作品を出す側が確認すべきこと](xbox-multiple-containers-and-game-pass-supplier-decisions.md) 🟡
 - [鼻歌でも、実物のオカリナでもいい ― Switch 2 が音声入力に出した答え](switch2-microphone-voice-and-melody-input-design.md) 🟡
 - [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 - [数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計](warhammer-40000-balance-update-containers.md) 🟡
-- [遊びの仕組みをどう守るか――特許、開放する契約、名前の選択](game-mechanics-patents-open-licenses-and-trademarks.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -276,6 +276,7 @@
 
 ### 🫂 コミュニティ・ソーシャル・UGC
 
+- [「製品には入っていません」では、なぜ火が消えないのか ― 生成AI素材の現在地](generative-ai-promotional-assets-player-reception.md) 🟡
 - [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🟡
 - [コミケへの企業ブース参入――理念と流儀、メリットと懸念点](comic-market-corporate-booth-participation-practice.md) 🟡
 - [オンラインゲームの有害行動対策はなぜ難しいのか――通報、制裁、誤BAN、理由開示を一つの設計にする](online-game-harassment-moderation-design.md) 🟡

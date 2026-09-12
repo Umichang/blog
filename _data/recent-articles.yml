@@ -1,5 +1,7 @@
 ---
 articles:
+- path: generative-ai-promotional-assets-player-reception.md
+  published_at: '2026-09-12T09:11:23Z'
 - path: xbox-multiple-containers-and-game-pass-supplier-decisions.md
   published_at: '2026-09-11T03:51:13Z'
 - path: switch2-microphone-voice-and-melody-input-design.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-09T10:59:01Z'
 - path: warhammer-40000-balance-update-containers.md
   published_at: '2026-09-08T10:52:30Z'
-- path: game-mechanics-patents-open-licenses-and-trademarks.md
-  published_at: '2026-09-08T02:17:01Z'
