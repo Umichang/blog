@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 12 Sep 2026 09:11:23 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 15:28:47 -0000</lastBuildDate>
+    <item>
+      <title>修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える</title>
+      <link>https://umichang.github.io/blog/monster-hunter-wilds-pc-optimization-trust-recovery.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/monster-hunter-wilds-pc-optimization-trust-recovery.html</guid>
+      <description>『モンスターハンターワイルズ』のPC版最適化後、好評率と好評件数は異なる動きを示した。要求スペック、改善の届け先、再訪のきっかけを分け、不具合対応の完了日と信頼回復の見積もりを考える。</description>
+      <pubDate>Sun, 13 Sep 2026 15:28:47 -0000</pubDate>
+    </item>
     <item>
       <title>「製品には入っていません」では、なぜ火が消えないのか ― 生成AI素材の現在地</title>
       <link>https://umichang.github.io/blog/generative-ai-promotional-assets-player-reception.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/eliminated-player-rights-as-written-rules.html</guid>
       <description>「読める仕様書」シリーズ最終回として、モノポリーの破産処理、軍を保持する救済、部隊の潰走とデジタルゲームの公式資料を読み、脱落後の権限を規則に書くための四つの問いを整理する。</description>
       <pubDate>Wed, 09 Sep 2026 10:59:01 -0000</pubDate>
-    </item>
-    <item>
-      <title>数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計</title>
-      <link>https://umichang.github.io/blog/warhammer-40000-balance-update-containers.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/warhammer-40000-balance-update-containers.html</guid>
-      <description>ウォーハンマー40,000は、書籍と更新されるポイント表を分けてバランスを調整する。第11版のウェブ化と第10版期のPDF運用から、変更対象、差分、更新頻度、既存の軍への措置を設計する判断軸を読む。</description>
-      <pubDate>Tue, 08 Sep 2026 10:52:30 -0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える](monster-hunter-wilds-pc-optimization-trust-recovery.md) 🟡
 - [「製品には入っていません」では、なぜ火が消えないのか ― 生成AI素材の現在地](generative-ai-promotional-assets-player-reception.md) 🟡
 - [「Xbox」はいま、いくつの器を指しているのか ― 作品を出す側が確認すべきこと](xbox-multiple-containers-and-game-pass-supplier-decisions.md) 🟡
 - [鼻歌でも、実物のオカリナでもいい ― Switch 2 が音声入力に出した答え](switch2-microphone-voice-and-melody-input-design.md) 🟡
 - [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
-- [数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計](warhammer-40000-balance-update-containers.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -256,6 +256,7 @@
 
 ### 🧯 障害・不具合対応
 
+- [修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える](monster-hunter-wilds-pc-optimization-trust-recovery.md) 🟡
 - [『スノウブレイク：禁域降臨』長期停止から考える、IPコラボの審査と販売済みコンテンツの変更](snowbreak-collaboration-risk-digital-content-changes.md) 🟡
 - [ライブサービスの障害対応で「誰が指揮を執るか」を先に決める――DeNAの演習事例から学ぶ初動体制の作り方](incident-command-exercises-for-live-service-game-teams.md) 🟡
 - [「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか](live-service-game-incident-compensation-framework.md) 🔴

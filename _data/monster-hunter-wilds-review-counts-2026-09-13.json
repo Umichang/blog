@@ -1,0 +1,125 @@
+{
+  "retrieved_at": "2026-09-13T14:52:55.892140+00:00",
+  "data": [
+    {
+      "range": "tu4_day",
+      "start": "2025-12-16",
+      "end_exclusive": "2025-12-17",
+      "purchase": "steam",
+      "url": "https://store.steampowered.com/appreviews/2246340?json=1&filter=all&language=all&review_type=all&purchase_type=steam&num_per_page=1&filter_offtopic_activity=0&start_date=1765843200&end_date=1765929599&date_range_type=include",
+      "summary": {
+        "num_reviews": 1,
+        "review_score": 4,
+        "review_score_desc": "Mostly Negative",
+        "total_positive": 158,
+        "total_negative": 252,
+        "total_reviews": 410
+      }
+    },
+    {
+      "range": "tu4_day",
+      "start": "2025-12-16",
+      "end_exclusive": "2025-12-17",
+      "purchase": "all",
+      "url": "https://store.steampowered.com/appreviews/2246340?json=1&filter=all&language=all&review_type=all&purchase_type=all&num_per_page=1&filter_offtopic_activity=0&start_date=1765843200&end_date=1765929599&date_range_type=include",
+      "summary": {
+        "num_reviews": 1,
+        "review_score": 4,
+        "review_score_desc": "Mostly Negative",
+        "total_positive": 251,
+        "total_negative": 426,
+        "total_reviews": 677
+      }
+    },
+    {
+      "range": "tu4_week",
+      "start": "2025-12-16",
+      "end_exclusive": "2025-12-23",
+      "purchase": "steam",
+      "url": "https://store.steampowered.com/appreviews/2246340?json=1&filter=all&language=all&review_type=all&purchase_type=steam&num_per_page=1&filter_offtopic_activity=0&start_date=1765843200&end_date=1766447999&date_range_type=include",
+      "summary": {
+        "num_reviews": 1,
+        "review_score": 5,
+        "review_score_desc": "Mixed",
+        "total_positive": 718,
+        "total_negative": 988,
+        "total_reviews": 1706
+      }
+    },
+    {
+      "range": "tu4_week",
+      "start": "2025-12-16",
+      "end_exclusive": "2025-12-23",
+      "purchase": "all",
+      "url": "https://store.steampowered.com/appreviews/2246340?json=1&filter=all&language=all&review_type=all&purchase_type=all&num_per_page=1&filter_offtopic_activity=0&start_date=1765843200&end_date=1766447999&date_range_type=include",
+      "summary": {
+        "num_reviews": 1,
+        "review_score": 4,
+        "review_score_desc": "Mostly Negative",
+        "total_positive": 1097,
+        "total_negative": 1692,
+        "total_reviews": 2789
+      }
+    },
+    {
+      "range": "patch_day",
+      "start": "2026-01-28",
+      "end_exclusive": "2026-01-29",
+      "purchase": "steam",
+      "url": "https://store.steampowered.com/appreviews/2246340?json=1&filter=all&language=all&review_type=all&purchase_type=steam&num_per_page=1&filter_offtopic_activity=0&start_date=1769558400&end_date=1769644799&date_range_type=include",
+      "summary": {
+        "num_reviews": 1,
+        "review_score": 8,
+        "review_score_desc": "Very Positive",
+        "total_positive": 136,
+        "total_negative": 30,
+        "total_reviews": 166
+      }
+    },
+    {
+      "range": "patch_day",
+      "start": "2026-01-28",
+      "end_exclusive": "2026-01-29",
+      "purchase": "all",
+      "url": "https://store.steampowered.com/appreviews/2246340?json=1&filter=all&language=all&review_type=all&purchase_type=all&num_per_page=1&filter_offtopic_activity=0&start_date=1769558400&end_date=1769644799&date_range_type=include",
+      "summary": {
+        "num_reviews": 1,
+        "review_score": 6,
+        "review_score_desc": "Mostly Positive",
+        "total_positive": 230,
+        "total_negative": 59,
+        "total_reviews": 289
+      }
+    },
+    {
+      "range": "patch_week",
+      "start": "2026-01-28",
+      "end_exclusive": "2026-02-04",
+      "purchase": "steam",
+      "url": "https://store.steampowered.com/appreviews/2246340?json=1&filter=all&language=all&review_type=all&purchase_type=steam&num_per_page=1&filter_offtopic_activity=0&start_date=1769558400&end_date=1770163199&date_range_type=include",
+      "summary": {
+        "num_reviews": 1,
+        "review_score": 6,
+        "review_score_desc": "Mostly Positive",
+        "total_positive": 652,
+        "total_negative": 164,
+        "total_reviews": 816
+      }
+    },
+    {
+      "range": "patch_week",
+      "start": "2026-01-28",
+      "end_exclusive": "2026-02-04",
+      "purchase": "all",
+      "url": "https://store.steampowered.com/appreviews/2246340?json=1&filter=all&language=all&review_type=all&purchase_type=all&num_per_page=1&filter_offtopic_activity=0&start_date=1769558400&end_date=1770163199&date_range_type=include",
+      "summary": {
+        "num_reviews": 1,
+        "review_score": 6,
+        "review_score_desc": "Mostly Positive",
+        "total_positive": 1147,
+        "total_negative": 313,
+        "total_reviews": 1460
+      }
+    }
+  ]
+}
