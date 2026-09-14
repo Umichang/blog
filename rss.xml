@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 13 Sep 2026 15:28:47 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 11:09:26 -0000</lastBuildDate>
+    <item>
+      <title>ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する</title>
+      <link>https://umichang.github.io/blog/dice-roll-distributions-and-modifier-value.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/dice-roll-distributions-and-modifier-value.html</guid>
+      <description>同じ「命中＋1」でも、1d20なら成功率は5ポイント、2d6なら目標値によって増加幅が変わる。四つのダイス判定から、分布と修正値、成功度、二個振りの関係を読み解き、成長と装備の刻み幅を考える。</description>
+      <pubDate>Mon, 14 Sep 2026 11:09:26 -0000</pubDate>
+    </item>
     <item>
       <title>修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える</title>
       <link>https://umichang.github.io/blog/monster-hunter-wilds-pc-optimization-trust-recovery.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/switch2-microphone-voice-and-melody-input-design.html</guid>
       <description>Switch 2 の鼻歌によるオカリナ演奏と、オッチンへの音声指示。マイクの標準搭載、判定対象の絞り込み、ボタンによる代替から、音声入力を無理なく遊びに組み込む条件を考える。</description>
       <pubDate>Thu, 10 Sep 2026 23:24:43 -0000</pubDate>
-    </item>
-    <item>
-      <title>負けた人に何を残すか――脱落の扱いを規則として書く</title>
-      <link>https://umichang.github.io/blog/eliminated-player-rights-as-written-rules.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/eliminated-player-rights-as-written-rules.html</guid>
-      <description>「読める仕様書」シリーズ最終回として、モノポリーの破産処理、軍を保持する救済、部隊の潰走とデジタルゲームの公式資料を読み、脱落後の権限を規則に書くための四つの問いを整理する。</description>
-      <pubDate>Wed, 09 Sep 2026 10:59:01 -0000</pubDate>
     </item>
   </channel>
 </rss>

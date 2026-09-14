@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する](dice-roll-distributions-and-modifier-value.md) 🟡
 - [修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える](monster-hunter-wilds-pc-optimization-trust-recovery.md) 🟡
 - [「製品には入っていません」では、なぜ火が消えないのか ― 生成AI素材の現在地](generative-ai-promotional-assets-player-reception.md) 🟡
 - [「Xbox」はいま、いくつの器を指しているのか ― 作品を出す側が確認すべきこと](xbox-multiple-containers-and-game-pass-supplier-decisions.md) 🟡
 - [鼻歌でも、実物のオカリナでもいい ― Switch 2 が音声入力に出した答え](switch2-microphone-voice-and-melody-input-design.md) 🟡
-- [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -91,6 +91,7 @@
 
 ### 📐 ゲームデザイン理論
 
+- [ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する](dice-roll-distributions-and-modifier-value.md) 🟡
 - [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 - [コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき](coin-pusher-multi-stage-lottery-digital-transition.md) 🟡
 - [ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く](game-feel-design-theory-for-game-planners.md) 🟡
