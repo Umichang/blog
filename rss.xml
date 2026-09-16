@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 14 Sep 2026 11:09:26 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:30:05 -0000</lastBuildDate>
+    <item>
+      <title>売上や人気だけでは拾えない価値を、誰が評価するのか――ゲームデザイナーズ大賞が残した制度設計の問い</title>
+      <link>https://umichang.github.io/blog/game-designers-award-evaluation-and-succession.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-designers-award-evaluation-and-succession.html</guid>
+      <description>ゲームデザイナーズ大賞の全17回の受賞結果と講評、公開された選考手続き、終了理由をたどり、売上や一般投票とは別の価値を評価する仕組みと、その継承を考える。</description>
+      <pubDate>Wed, 16 Sep 2026 00:30:05 -0000</pubDate>
+    </item>
     <item>
       <title>ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する</title>
       <link>https://umichang.github.io/blog/dice-roll-distributions-and-modifier-value.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/xbox-multiple-containers-and-game-pass-supplier-decisions.html</guid>
       <description>コンソール、WindowsのXboxモード、クラウド、Game Pass、パブリッシング。2026年9月の公表情報から「Xboxへ出す」の意味を分け、作品を供給する側の契約前の確認事項を整理する。</description>
       <pubDate>Fri, 11 Sep 2026 03:51:13 -0000</pubDate>
-    </item>
-    <item>
-      <title>鼻歌でも、実物のオカリナでもいい ― Switch 2 が音声入力に出した答え</title>
-      <link>https://umichang.github.io/blog/switch2-microphone-voice-and-melody-input-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/switch2-microphone-voice-and-melody-input-design.html</guid>
-      <description>Switch 2 の鼻歌によるオカリナ演奏と、オッチンへの音声指示。マイクの標準搭載、判定対象の絞り込み、ボタンによる代替から、音声入力を無理なく遊びに組み込む条件を考える。</description>
-      <pubDate>Thu, 10 Sep 2026 23:24:43 -0000</pubDate>
     </item>
   </channel>
 </rss>

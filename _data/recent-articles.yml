@@ -1,5 +1,7 @@
 ---
 articles:
+- path: game-designers-award-evaluation-and-succession.md
+  published_at: '2026-09-16T00:30:05Z'
 - path: dice-roll-distributions-and-modifier-value.md
   published_at: '2026-09-14T11:09:26Z'
 - path: monster-hunter-wilds-pc-optimization-trust-recovery.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-12T09:11:23Z'
 - path: xbox-multiple-containers-and-game-pass-supplier-decisions.md
   published_at: '2026-09-11T03:51:13Z'
-- path: switch2-microphone-voice-and-melody-input-design.md
-  published_at: '2026-09-10T23:24:43Z'
