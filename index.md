@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [東京ゲームショウはなぜ5日間なのか——来場者数と会期の設計を読む](tokyo-game-show-duration-business-public-days.md) 🟢
 - [売上や人気だけでは拾えない価値を、誰が評価するのか――ゲームデザイナーズ大賞が残した制度設計の問い](game-designers-award-evaluation-and-succession.md) 🟢
 - [ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する](dice-roll-distributions-and-modifier-value.md) 🟡
 - [修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える](monster-hunter-wilds-pc-optimization-trust-recovery.md) 🟡
 - [「製品には入っていません」では、なぜ火が消えないのか ― 生成AI素材の現在地](generative-ai-promotional-assets-player-reception.md) 🟡
-- [「Xbox」はいま、いくつの器を指しているのか ― 作品を出す側が確認すべきこと](xbox-multiple-containers-and-game-pass-supplier-decisions.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -307,6 +307,7 @@
 
 ### 📊 市場・産業構造・リリース戦略
 
+- [東京ゲームショウはなぜ5日間なのか——来場者数と会期の設計を読む](tokyo-game-show-duration-business-public-days.md) 🟢
 - [売上や人気だけでは拾えない価値を、誰が評価するのか――ゲームデザイナーズ大賞が残した制度設計の問い](game-designers-award-evaluation-and-succession.md) 🟢
 - [「直接！」はどこから来たのか――ニンテンドーダイレクトの成立と、発表の場が移った十数年](nintendo-direct-origin-and-showcase-shift.md) 🟢
 - [「State of Play 日本」は誰に向けた番組か――地域別ショーケースの設計](state-of-play-japan-regional-showcase-design.md) 🟢

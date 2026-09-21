@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 16 Sep 2026 00:30:05 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 22:19:16 -0000</lastBuildDate>
+    <item>
+      <title>東京ゲームショウはなぜ5日間なのか——来場者数と会期の設計を読む</title>
+      <link>https://umichang.github.io/blog/tokyo-game-show-duration-business-public-days.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/tokyo-game-show-duration-business-public-days.html</guid>
+      <description>東京ゲームショウ2026の会期延長と最終日中止を起点に、来場者構成、混雑対策、商談と情報発信の役割を読む。E3の一般公開との比較から、出展目的を日程と成果指標へ落とし込む。</description>
+      <pubDate>Mon, 21 Sep 2026 22:19:16 -0000</pubDate>
+    </item>
     <item>
       <title>売上や人気だけでは拾えない価値を、誰が評価するのか――ゲームデザイナーズ大賞が残した制度設計の問い</title>
       <link>https://umichang.github.io/blog/game-designers-award-evaluation-and-succession.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/generative-ai-promotional-assets-player-reception.html</guid>
       <description>生成AIを使った宣伝素材は、製品への投資量をどう推し量られるのか。レベルファイブとActivisionの事例を、母集団の異なる調査から読み、素材の制作・発注前に決めておくことを整理する。</description>
       <pubDate>Sat, 12 Sep 2026 09:11:23 -0000</pubDate>
-    </item>
-    <item>
-      <title>「Xbox」はいま、いくつの器を指しているのか ― 作品を出す側が確認すべきこと</title>
-      <link>https://umichang.github.io/blog/xbox-multiple-containers-and-game-pass-supplier-decisions.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/xbox-multiple-containers-and-game-pass-supplier-decisions.html</guid>
-      <description>コンソール、WindowsのXboxモード、クラウド、Game Pass、パブリッシング。2026年9月の公表情報から「Xboxへ出す」の意味を分け、作品を供給する側の契約前の確認事項を整理する。</description>
-      <pubDate>Fri, 11 Sep 2026 03:51:13 -0000</pubDate>
     </item>
   </channel>
 </rss>
