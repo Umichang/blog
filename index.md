@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [言葉は取り上げる。連携は取り上げない――League of Legends とポケモンユナイトのコミュニケーション設計](player-communication-design-lol-pokemon-unite.md) 🟢
 - [東京ゲームショウはなぜ5日間なのか——来場者数と会期の設計を読む](tokyo-game-show-duration-business-public-days.md) 🟢
 - [売上や人気だけでは拾えない価値を、誰が評価するのか――ゲームデザイナーズ大賞が残した制度設計の問い](game-designers-award-evaluation-and-succession.md) 🟢
 - [ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する](dice-roll-distributions-and-modifier-value.md) 🟡
 - [修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える](monster-hunter-wilds-pc-optimization-trust-recovery.md) 🟡
-- [「製品には入っていません」では、なぜ火が消えないのか ― 生成AI素材の現在地](generative-ai-promotional-assets-player-reception.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -282,6 +282,7 @@
 - [プレイヤーとともに作るコミュニティ：公式SNS・Discord・フォーラム運営ガイド](community-management-sns-discord-forum-guide.md) 🟡
 - [コミケへの企業ブース参入――理念と流儀、メリットと懸念点](comic-market-corporate-booth-participation-practice.md) 🟡
 - [オンラインゲームの有害行動対策はなぜ難しいのか――通報、制裁、誤BAN、理由開示を一つの設計にする](online-game-harassment-moderation-design.md) 🟡
+- [言葉は取り上げる。連携は取り上げない――League of Legends とポケモンユナイトのコミュニケーション設計](player-communication-design-lol-pokemon-unite.md) 🟢
 - [ソーシャル機能設計の実務――フレンド・ギルドをどう作り、どう運用するか](social-features-friends-guilds-design-practices.md) 🟡
 - [プレイヤーと開発元のコミュニケーション：炎上対応と信頼回復の実践知識](player-developer-communication-crisis-response.md) 🟢
 - [開発者個人のSNS発言はなぜスタジオ全体のリスクになるのか：4事例で考える人事・炎上・ガバナンス](developer-personal-sns-studio-risk-management.md) 🟡

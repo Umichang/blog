@@ -1,5 +1,7 @@
 ---
 articles:
+- path: player-communication-design-lol-pokemon-unite.md
+  published_at: '2026-09-22T09:18:59Z'
 - path: tokyo-game-show-duration-business-public-days.md
   published_at: '2026-09-21T22:19:16Z'
 - path: game-designers-award-evaluation-and-succession.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-14T11:09:26Z'
 - path: monster-hunter-wilds-pc-optimization-trust-recovery.md
   published_at: '2026-09-13T15:28:47Z'
-- path: generative-ai-promotional-assets-player-reception.md
-  published_at: '2026-09-12T09:11:23Z'

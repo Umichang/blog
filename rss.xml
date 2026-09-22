@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 21 Sep 2026 22:19:16 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 09:18:59 -0000</lastBuildDate>
+    <item>
+      <title>言葉は取り上げる。連携は取り上げない――League of Legends とポケモンユナイトのコミュニケーション設計</title>
+      <link>https://umichang.github.io/blog/player-communication-design-lol-pokemon-unite.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/player-communication-design-lol-pokemon-unite.html</guid>
+      <description>『Pokémon UNITE』は年齢で、League of Legends はペナルティで自由な発言を制限しながら、定型文やピンによる連携を残している。両作の公式仕様を比べ、プレイヤー同士の摩擦を「何を送れるようにするか」から考える。</description>
+      <pubDate>Tue, 22 Sep 2026 09:18:59 -0000</pubDate>
+    </item>
     <item>
       <title>東京ゲームショウはなぜ5日間なのか——来場者数と会期の設計を読む</title>
       <link>https://umichang.github.io/blog/tokyo-game-show-duration-business-public-days.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/monster-hunter-wilds-pc-optimization-trust-recovery.html</guid>
       <description>『モンスターハンターワイルズ』のPC版最適化後、好評率と好評件数は異なる動きを示した。要求スペック、改善の届け先、再訪のきっかけを分け、不具合対応の完了日と信頼回復の見積もりを考える。</description>
       <pubDate>Sun, 13 Sep 2026 15:28:47 -0000</pubDate>
-    </item>
-    <item>
-      <title>「製品には入っていません」では、なぜ火が消えないのか ― 生成AI素材の現在地</title>
-      <link>https://umichang.github.io/blog/generative-ai-promotional-assets-player-reception.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/generative-ai-promotional-assets-player-reception.html</guid>
-      <description>生成AIを使った宣伝素材は、製品への投資量をどう推し量られるのか。レベルファイブとActivisionの事例を、母集団の異なる調査から読み、素材の制作・発注前に決めておくことを整理する。</description>
-      <pubDate>Sat, 12 Sep 2026 09:11:23 -0000</pubDate>
     </item>
   </channel>
 </rss>
