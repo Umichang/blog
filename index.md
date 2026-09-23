@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計](game-numeric-limits-for-planners.md) 🟢
 - [言葉は取り上げる。連携は取り上げない――League of Legends とポケモンユナイトのコミュニケーション設計](player-communication-design-lol-pokemon-unite.md) 🟢
 - [東京ゲームショウはなぜ5日間なのか——来場者数と会期の設計を読む](tokyo-game-show-duration-business-public-days.md) 🟢
 - [売上や人気だけでは拾えない価値を、誰が評価するのか――ゲームデザイナーズ大賞が残した制度設計の問い](game-designers-award-evaluation-and-succession.md) 🟢
 - [ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する](dice-roll-distributions-and-modifier-value.md) 🟡
-- [修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える](monster-hunter-wilds-pc-optimization-trust-recovery.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -217,6 +217,7 @@
 
 ### 🧰 技術基盤・データ・アセット
 
+- [ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計](game-numeric-limits-for-planners.md) 🟢
 - [ゲームにおけるプロシージャル生成の技術史と設計論](procedural-content-generation-history-and-design.md) 🟡
 - [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🟢
 - [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🟢

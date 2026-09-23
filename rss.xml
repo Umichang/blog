@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 22 Sep 2026 09:18:59 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 10:46:56 -0000</lastBuildDate>
+    <item>
+      <title>ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計</title>
+      <link>https://umichang.github.io/blog/game-numeric-limits-for-planners.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-numeric-limits-for-planners.html</guid>
+      <description>ゲームの上限値に現れる255、127、21億4748万3647を、ビットと桁のたとえで解説。パズドラ、WoW Classic、Old School RuneScapeの判断から、数値の範囲と上限到達時の挙動を仕様に落とし込む。</description>
+      <pubDate>Wed, 23 Sep 2026 10:46:56 -0000</pubDate>
+    </item>
     <item>
       <title>言葉は取り上げる。連携は取り上げない――League of Legends とポケモンユナイトのコミュニケーション設計</title>
       <link>https://umichang.github.io/blog/player-communication-design-lol-pokemon-unite.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/dice-roll-distributions-and-modifier-value.html</guid>
       <description>同じ「命中＋1」でも、1d20なら成功率は5ポイント、2d6なら目標値によって増加幅が変わる。四つのダイス判定から、分布と修正値、成功度、二個振りの関係を読み解き、成長と装備の刻み幅を考える。</description>
       <pubDate>Mon, 14 Sep 2026 11:09:26 -0000</pubDate>
-    </item>
-    <item>
-      <title>修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える</title>
-      <link>https://umichang.github.io/blog/monster-hunter-wilds-pc-optimization-trust-recovery.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/monster-hunter-wilds-pc-optimization-trust-recovery.html</guid>
-      <description>『モンスターハンターワイルズ』のPC版最適化後、好評率と好評件数は異なる動きを示した。要求スペック、改善の届け先、再訪のきっかけを分け、不具合対応の完了日と信頼回復の見積もりを考える。</description>
-      <pubDate>Sun, 13 Sep 2026 15:28:47 -0000</pubDate>
     </item>
   </channel>
 </rss>

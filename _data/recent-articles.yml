@@ -1,5 +1,7 @@
 ---
 articles:
+- path: game-numeric-limits-for-planners.md
+  published_at: '2026-09-23T10:46:56Z'
 - path: player-communication-design-lol-pokemon-unite.md
   published_at: '2026-09-22T09:18:59Z'
 - path: tokyo-game-show-duration-business-public-days.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-16T00:30:05Z'
 - path: dice-roll-distributions-and-modifier-value.md
   published_at: '2026-09-14T11:09:26Z'
-- path: monster-hunter-wilds-pc-optimization-trust-recovery.md
-  published_at: '2026-09-13T15:28:47Z'
