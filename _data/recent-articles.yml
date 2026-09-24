@@ -1,5 +1,7 @@
 ---
 articles:
+- path: game-name-input-character-rules.md
+  published_at: '2026-09-24T03:15:42Z'
 - path: game-numeric-limits-for-planners.md
   published_at: '2026-09-23T10:46:56Z'
 - path: player-communication-design-lol-pokemon-unite.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-21T22:19:16Z'
 - path: game-designers-award-evaluation-and-succession.md
   published_at: '2026-09-16T00:30:05Z'
-- path: dice-roll-distributions-and-modifier-value.md
-  published_at: '2026-09-14T11:09:26Z'

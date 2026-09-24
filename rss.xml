@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 23 Sep 2026 10:46:56 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 03:15:42 -0000</lastBuildDate>
+    <item>
+      <title>「名前は6文字まで」の裏にある三つの決めごと――ゲームプランナーのための文字と文字コード</title>
+      <link>https://umichang.github.io/blog/game-name-input-character-rules.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-name-input-character-rules.html</guid>
+      <description>「名前は6文字まで」の裏にある、数え方・使える文字・表記の揃え方について、ドラクエ、絵文字、フォント、NGワード判定を題材に、ゲームプランナーが名前入力の仕様で決めることを整理する。</description>
+      <pubDate>Thu, 24 Sep 2026 03:15:42 -0000</pubDate>
+    </item>
     <item>
       <title>ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計</title>
       <link>https://umichang.github.io/blog/game-numeric-limits-for-planners.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-designers-award-evaluation-and-succession.html</guid>
       <description>ゲームデザイナーズ大賞の全17回の受賞結果と講評、公開された選考手続き、終了理由をたどり、売上や一般投票とは別の価値を評価する仕組みと、その継承を考える。</description>
       <pubDate>Wed, 16 Sep 2026 00:30:05 -0000</pubDate>
-    </item>
-    <item>
-      <title>ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する</title>
-      <link>https://umichang.github.io/blog/dice-roll-distributions-and-modifier-value.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/dice-roll-distributions-and-modifier-value.html</guid>
-      <description>同じ「命中＋1」でも、1d20なら成功率は5ポイント、2d6なら目標値によって増加幅が変わる。四つのダイス判定から、分布と修正値、成功度、二個振りの関係を読み解き、成長と装備の刻み幅を考える。</description>
-      <pubDate>Mon, 14 Sep 2026 11:09:26 -0000</pubDate>
     </item>
   </channel>
 </rss>
