@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [「いま何ができるか」を仕様にする――ゲームプランナーのための状態遷移入門](game-state-transitions-for-planners.md) 🟢
 - [「名前は6文字まで」の裏にある三つの決めごと――ゲームプランナーのための文字と文字コード](game-name-input-character-rules.md) 🟢
 - [ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計](game-numeric-limits-for-planners.md) 🟢
 - [言葉は取り上げる。連携は取り上げない――League of Legends とポケモンユナイトのコミュニケーション設計](player-communication-design-lol-pokemon-unite.md) 🟢
 - [東京ゲームショウはなぜ5日間なのか——来場者数と会期の設計を読む](tokyo-game-show-duration-business-public-days.md) 🟢
-- [売上や人気だけでは拾えない価値を、誰が評価するのか――ゲームデザイナーズ大賞が残した制度設計の問い](game-designers-award-evaluation-and-succession.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -219,6 +219,7 @@
 
 - [ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計](game-numeric-limits-for-planners.md) 🟢
 - [「名前は6文字まで」の裏にある三つの決めごと――ゲームプランナーのための文字と文字コード](game-name-input-character-rules.md) 🟢
+- [「いま何ができるか」を仕様にする――ゲームプランナーのための状態遷移入門](game-state-transitions-for-planners.md) 🟢
 - [ゲームにおけるプロシージャル生成の技術史と設計論](procedural-content-generation-history-and-design.md) 🟡
 - [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🟢
 - [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🟢

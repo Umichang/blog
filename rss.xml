@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 24 Sep 2026 03:15:42 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 07:58:32 -0000</lastBuildDate>
+    <item>
+      <title>「いま何ができるか」を仕様にする――ゲームプランナーのための状態遷移入門</title>
+      <link>https://umichang.github.io/blog/game-state-transitions-for-planners.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-state-transitions-for-planners.html</guid>
+      <description>「ジャンプ中はしゃがめない」を、状態と出来事の組で考える。マリオRPG、Celeste、通信切断の事例から、状態の一覧・状態遷移表・中断後の戻り先を仕様書に書く方法を解説する。</description>
+      <pubDate>Thu, 24 Sep 2026 07:58:32 -0000</pubDate>
+    </item>
     <item>
       <title>「名前は6文字まで」の裏にある三つの決めごと――ゲームプランナーのための文字と文字コード</title>
       <link>https://umichang.github.io/blog/game-name-input-character-rules.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/tokyo-game-show-duration-business-public-days.html</guid>
       <description>東京ゲームショウ2026の会期延長と最終日中止を起点に、来場者構成、混雑対策、商談と情報発信の役割を読む。E3の一般公開との比較から、出展目的を日程と成果指標へ落とし込む。</description>
       <pubDate>Mon, 21 Sep 2026 22:19:16 -0000</pubDate>
-    </item>
-    <item>
-      <title>売上や人気だけでは拾えない価値を、誰が評価するのか――ゲームデザイナーズ大賞が残した制度設計の問い</title>
-      <link>https://umichang.github.io/blog/game-designers-award-evaluation-and-succession.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-designers-award-evaluation-and-succession.html</guid>
-      <description>ゲームデザイナーズ大賞の全17回の受賞結果と講評、公開された選考手続き、終了理由をたどり、売上や一般投票とは別の価値を評価する仕組みと、その継承を考える。</description>
-      <pubDate>Wed, 16 Sep 2026 00:30:05 -0000</pubDate>
     </item>
   </channel>
 </rss>
