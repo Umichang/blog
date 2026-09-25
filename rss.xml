@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 24 Sep 2026 23:15:28 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 10:05:31 -0000</lastBuildDate>
+    <item>
+      <title>「敵は最大何体まで？」を仕様にする――数の増え方と1フレームの持ち時間</title>
+      <link>https://umichang.github.io/blog/game-computation-budget-for-planners.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-computation-budget-for-planners.html</guid>
+      <description>敵の数が2倍になると、計算は2倍か約4倍か。ピクミンとFactorioの開発事例、組み合わせの回数表から、1フレームの持ち時間に収めるための上限数・反応範囲・更新頻度の決め方を解説する。</description>
+      <pubDate>Fri, 25 Sep 2026 10:05:31 -0000</pubDate>
+    </item>
     <item>
       <title>「受け取る」を一度だけにする――ゲームプランナーのための連打と通信再試行の話</title>
       <link>https://umichang.github.io/blog/game-concurrent-and-repeated-operations-for-planners.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-numeric-limits-for-planners.html</guid>
       <description>ゲームの上限値に現れる255、127、21億4748万3647を、ビットと桁のたとえで解説。パズドラ、WoW Classic、Old School RuneScapeの判断から、数値の範囲と上限到達時の挙動を仕様に落とし込む。</description>
       <pubDate>Wed, 23 Sep 2026 10:46:56 -0000</pubDate>
-    </item>
-    <item>
-      <title>言葉は取り上げる。連携は取り上げない――League of Legends とポケモンユナイトのコミュニケーション設計</title>
-      <link>https://umichang.github.io/blog/player-communication-design-lol-pokemon-unite.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/player-communication-design-lol-pokemon-unite.html</guid>
-      <description>『Pokémon UNITE』は年齢で、League of Legends はペナルティで自由な発言を制限しながら、定型文やピンによる連携を残している。両作の公式仕様を比べ、プレイヤー同士の摩擦を「何を送れるようにするか」から考える。</description>
-      <pubDate>Tue, 22 Sep 2026 09:18:59 -0000</pubDate>
     </item>
   </channel>
 </rss>
