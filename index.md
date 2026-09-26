@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門](game-logic-circuits-as-play.md) 🟢
 - [「敵は最大何体まで？」を仕様にする――数の増え方と1フレームの持ち時間](game-computation-budget-for-planners.md) 🟢
 - [「受け取る」を一度だけにする――ゲームプランナーのための連打と通信再試行の話](game-concurrent-and-repeated-operations-for-planners.md) 🟢
 - [「いま何ができるか」を仕様にする――ゲームプランナーのための状態遷移入門](game-state-transitions-for-planners.md) 🟢
 - [「名前は6文字まで」の裏にある三つの決めごと――ゲームプランナーのための文字と文字コード](game-name-input-character-rules.md) 🟢
-- [ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計](game-numeric-limits-for-planners.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -91,6 +91,7 @@
 
 ### 📐 ゲームデザイン理論
 
+- [回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門](game-logic-circuits-as-play.md) 🟢
 - [ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する](dice-roll-distributions-and-modifier-value.md) 🟡
 - [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 - [コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき](coin-pusher-multi-stage-lottery-digital-transition.md) 🟡

@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 25 Sep 2026 10:05:31 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 10:00:17 -0000</lastBuildDate>
+    <item>
+      <title>回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門</title>
+      <link>https://umichang.github.io/blog/game-logic-circuits-as-play.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-logic-circuits-as-play.html</guid>
+      <description>AND・OR・NOTをボタンと扉で理解し、Minecraft、Factorio、エンドフィールドの回路づくりを比較する。回路の部品を用意する設計と、物流から回路が生まれる遊びの違い、プランナーが決めるべきことを考える。</description>
+      <pubDate>Sat, 26 Sep 2026 10:00:17 -0000</pubDate>
+    </item>
     <item>
       <title>「敵は最大何体まで？」を仕様にする――数の増え方と1フレームの持ち時間</title>
       <link>https://umichang.github.io/blog/game-computation-budget-for-planners.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-name-input-character-rules.html</guid>
       <description>「名前は6文字まで」の裏にある、数え方・使える文字・表記の揃え方について、ドラクエ、絵文字、フォント、NGワード判定を題材に、ゲームプランナーが名前入力の仕様で決めることを整理する。</description>
       <pubDate>Thu, 24 Sep 2026 03:15:42 -0000</pubDate>
-    </item>
-    <item>
-      <title>ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計</title>
-      <link>https://umichang.github.io/blog/game-numeric-limits-for-planners.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-numeric-limits-for-planners.html</guid>
-      <description>ゲームの上限値に現れる255、127、21億4748万3647を、ビットと桁のたとえで解説。パズドラ、WoW Classic、Old School RuneScapeの判断から、数値の範囲と上限到達時の挙動を仕様に落とし込む。</description>
-      <pubDate>Wed, 23 Sep 2026 10:46:56 -0000</pubDate>
     </item>
   </channel>
 </rss>
