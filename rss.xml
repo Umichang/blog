@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 26 Sep 2026 10:00:17 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 03:28:44 -0000</lastBuildDate>
+    <item>
+      <title>その設定は、どこに書くか――会話・アイテムテキスト・背景・図鑑から語りの置き場所を選ぶ</title>
+      <link>https://umichang.github.io/blog/worldbuilding-lore-narrative-placement.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-narrative-placement.html</guid>
+      <description>会話、カットシーン、クエスト文、アイテムの説明文、背景、図鑑という六つの語りの置き場所を、情報の届き方と変更時の制作負担から比べ、遊ぶのに必要な情報と背景を発見する楽しみを振り分ける考え方を解説する。</description>
+      <pubDate>Sun, 27 Sep 2026 03:28:44 -0000</pubDate>
+    </item>
     <item>
       <title>回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門</title>
       <link>https://umichang.github.io/blog/game-logic-circuits-as-play.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-state-transitions-for-planners.html</guid>
       <description>「ジャンプ中はしゃがめない」を、状態と出来事の組で考える。マリオRPG、Celeste、通信切断の事例から、状態の一覧・状態遷移表・中断後の戻り先を仕様書に書く方法を解説する。</description>
       <pubDate>Thu, 24 Sep 2026 07:58:32 -0000</pubDate>
-    </item>
-    <item>
-      <title>「名前は6文字まで」の裏にある三つの決めごと――ゲームプランナーのための文字と文字コード</title>
-      <link>https://umichang.github.io/blog/game-name-input-character-rules.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-name-input-character-rules.html</guid>
-      <description>「名前は6文字まで」の裏にある、数え方・使える文字・表記の揃え方について、ドラクエ、絵文字、フォント、NGワード判定を題材に、ゲームプランナーが名前入力の仕様で決めることを整理する。</description>
-      <pubDate>Thu, 24 Sep 2026 03:15:42 -0000</pubDate>
     </item>
   </channel>
 </rss>

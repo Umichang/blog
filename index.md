@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その設定は、どこに書くか――会話・アイテムテキスト・背景・図鑑から語りの置き場所を選ぶ](worldbuilding-lore-narrative-placement.md) 🟢
 - [回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門](game-logic-circuits-as-play.md) 🟢
 - [「敵は最大何体まで？」を仕様にする――数の増え方と1フレームの持ち時間](game-computation-budget-for-planners.md) 🟢
 - [「受け取る」を一度だけにする――ゲームプランナーのための連打と通信再試行の話](game-concurrent-and-repeated-operations-for-planners.md) 🟢
 - [「いま何ができるか」を仕様にする――ゲームプランナーのための状態遷移入門](game-state-transitions-for-planners.md) 🟢
-- [「名前は6文字まで」の裏にある三つの決めごと――ゲームプランナーのための文字と文字コード](game-name-input-character-rules.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -142,6 +142,7 @@
 ### 📖 物語・世界設定・謎解き
 
 - [ゲームの世界設定・シナリオとゲームメカニクスの関係](worldbuilding-scenario-and-game-mechanics.md) 🟡
+- [その設定は、どこに書くか――会話・アイテムテキスト・背景・図鑑から語りの置き場所を選ぶ](worldbuilding-lore-narrative-placement.md) 🟢
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🟡
 - [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🟢
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟢
