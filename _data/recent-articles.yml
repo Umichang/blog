@@ -1,5 +1,7 @@
 ---
 articles:
+- path: worldbuilding-lore-fragment-writing.md
+  published_at: '2026-09-28T10:45:49Z'
 - path: worldbuilding-lore-narrative-placement.md
   published_at: '2026-09-27T03:28:44Z'
 - path: game-logic-circuits-as-play.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-25T10:05:31Z'
 - path: game-concurrent-and-repeated-operations-for-planners.md
   published_at: '2026-09-24T23:15:28Z'
-- path: game-state-transitions-for-planners.md
-  published_at: '2026-09-24T07:58:32Z'
