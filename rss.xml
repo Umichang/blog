@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 28 Sep 2026 10:45:49 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 10:45:43 -0000</lastBuildDate>
+    <item>
+      <title>知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法</title>
+      <link>https://umichang.github.io/blog/worldbuilding-lore-unfamiliar-names.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-unfamiliar-names.html</guid>
+      <description>知らない名前が一度に押し寄せる会話を、架空の街の例で書き直す。初出の数え方、役割を先に示す書き方、場面への分散、用語の補足、あらすじを通じて、大量の世界設定を読み手に届ける方法を考える。</description>
+      <pubDate>Tue, 29 Sep 2026 10:45:43 -0000</pubDate>
+    </item>
     <item>
       <title>一つでも読めて、並べると変わる――アイテムの説明文・図鑑・武器の物語で断片を書く技法</title>
       <link>https://umichang.github.io/blog/worldbuilding-lore-fragment-writing.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-computation-budget-for-planners.html</guid>
       <description>敵の数が2倍になると、計算は2倍か約4倍か。ピクミンとFactorioの開発事例、組み合わせの回数表から、1フレームの持ち時間に収めるための上限数・反応範囲・更新頻度の決め方を解説する。</description>
       <pubDate>Fri, 25 Sep 2026 10:05:31 -0000</pubDate>
-    </item>
-    <item>
-      <title>「受け取る」を一度だけにする――ゲームプランナーのための連打と通信再試行の話</title>
-      <link>https://umichang.github.io/blog/game-concurrent-and-repeated-operations-for-planners.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-concurrent-and-repeated-operations-for-planners.html</guid>
-      <description>連打や通信不良で操作が同時に、あるいは二度届いたら何が起きるか。残高の更新と購入の再処理を例に、報酬を一度だけ渡すためのルール、通信エラー時の表示、確認項目を平易に解説する。</description>
-      <pubDate>Thu, 24 Sep 2026 23:15:28 -0000</pubDate>
     </item>
   </channel>
 </rss>

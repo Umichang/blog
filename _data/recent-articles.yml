@@ -1,5 +1,7 @@
 ---
 articles:
+- path: worldbuilding-lore-unfamiliar-names.md
+  published_at: '2026-09-29T10:45:43Z'
 - path: worldbuilding-lore-fragment-writing.md
   published_at: '2026-09-28T10:45:49Z'
 - path: worldbuilding-lore-narrative-placement.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-26T10:00:17Z'
 - path: game-computation-budget-for-planners.md
   published_at: '2026-09-25T10:05:31Z'
-- path: game-concurrent-and-repeated-operations-for-planners.md
-  published_at: '2026-09-24T23:15:28Z'
