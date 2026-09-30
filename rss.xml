@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 29 Sep 2026 10:45:43 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 01:12:08 -0000</lastBuildDate>
+    <item>
+      <title>その台詞は、誰の声か――役割語から始める口調の書き分け</title>
+      <link>https://umichang.github.io/blog/worldbuilding-lore-character-voice.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-character-voice.html</guid>
+      <description>同じ出来事を話す5人の台詞を段階的に書き直し、役割語の効用とステレオタイプへの注意から、語彙、相手との距離、話題、口調表まで、日本語のゲームシナリオで人物の話し方を作り、保つ方法を解説する。</description>
+      <pubDate>Wed, 30 Sep 2026 01:12:08 -0000</pubDate>
+    </item>
     <item>
       <title>知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法</title>
       <link>https://umichang.github.io/blog/worldbuilding-lore-unfamiliar-names.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-logic-circuits-as-play.html</guid>
       <description>AND・OR・NOTをボタンと扉で理解し、Minecraft、Factorio、エンドフィールドの回路づくりを比較する。回路の部品を用意する設計と、物流から回路が生まれる遊びの違い、プランナーが決めるべきことを考える。</description>
       <pubDate>Sat, 26 Sep 2026 10:00:17 -0000</pubDate>
-    </item>
-    <item>
-      <title>「敵は最大何体まで？」を仕様にする――数の増え方と1フレームの持ち時間</title>
-      <link>https://umichang.github.io/blog/game-computation-budget-for-planners.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-computation-budget-for-planners.html</guid>
-      <description>敵の数が2倍になると、計算は2倍か約4倍か。ピクミンとFactorioの開発事例、組み合わせの回数表から、1フレームの持ち時間に収めるための上限数・反応範囲・更新頻度の決め方を解説する。</description>
-      <pubDate>Fri, 25 Sep 2026 10:05:31 -0000</pubDate>
     </item>
   </channel>
 </rss>
