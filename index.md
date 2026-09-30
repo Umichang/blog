@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ](worldbuilding-lore-ongoing-narrative.md) 🟢
 - [その設定は、もう見せたか――書き手のための設定資料の作り方](worldbuilding-lore-working-reference.md) 🟢
 - [その台詞は、誰の声か――役割語から始める口調の書き分け](worldbuilding-lore-character-voice.md) 🟢
 - [知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法](worldbuilding-lore-unfamiliar-names.md) 🟢
 - [一つでも読めて、並べると変わる――アイテムの説明文・図鑑・武器の物語で断片を書く技法](worldbuilding-lore-fragment-writing.md) 🟢
-- [その設定は、どこに書くか――会話・アイテムテキスト・背景・図鑑から語りの置き場所を選ぶ](worldbuilding-lore-narrative-placement.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -147,6 +147,7 @@
 - [知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法](worldbuilding-lore-unfamiliar-names.md) 🟢
 - [その台詞は、誰の声か――役割語から始める口調の書き分け](worldbuilding-lore-character-voice.md) 🟢
 - [その設定は、もう見せたか――書き手のための設定資料の作り方](worldbuilding-lore-working-reference.md) 🟢
+- [終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ](worldbuilding-lore-ongoing-narrative.md) 🟢
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🟡
 - [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🟢
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟢
