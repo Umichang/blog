@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 30 Sep 2026 01:12:08 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 09:53:43 -0000</lastBuildDate>
+    <item>
+      <title>その設定は、もう見せたか――書き手のための設定資料の作り方</title>
+      <link>https://umichang.github.io/blog/worldbuilding-lore-working-reference.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-working-reference.html</guid>
+      <description>疫病の街の架空例を一つの設定資料へ整理し、確定・仮・未決定、プレイヤーへの公開範囲、口調、変更履歴、食い違いを残す方法を解説する。表計算やWikiで始められる、文章を書く人のための資料づくり。</description>
+      <pubDate>Wed, 30 Sep 2026 09:53:43 -0000</pubDate>
+    </item>
     <item>
       <title>その台詞は、誰の声か――役割語から始める口調の書き分け</title>
       <link>https://umichang.github.io/blog/worldbuilding-lore-character-voice.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-narrative-placement.html</guid>
       <description>会話、カットシーン、クエスト文、アイテムの説明文、背景、図鑑という六つの語りの置き場所を、情報の届き方と変更時の制作負担から比べ、遊ぶのに必要な情報と背景を発見する楽しみを振り分ける考え方を解説する。</description>
       <pubDate>Sun, 27 Sep 2026 03:28:44 -0000</pubDate>
-    </item>
-    <item>
-      <title>回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門</title>
-      <link>https://umichang.github.io/blog/game-logic-circuits-as-play.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-logic-circuits-as-play.html</guid>
-      <description>AND・OR・NOTをボタンと扉で理解し、Minecraft、Factorio、エンドフィールドの回路づくりを比較する。回路の部品を用意する設計と、物流から回路が生まれる遊びの違い、プランナーが決めるべきことを考える。</description>
-      <pubDate>Sat, 26 Sep 2026 10:00:17 -0000</pubDate>
     </item>
   </channel>
 </rss>
