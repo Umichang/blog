@@ -34,6 +34,15 @@
 
 <!-- recent-articles:end -->
 
+## ⏰ 特集：世界設定・ロアの書き方
+
+- 第1回：[その設定は、どこに書くか――会話・アイテムテキスト・背景・図鑑から語りの置き場所を選ぶ](worldbuilding-lore-narrative-placement.md) 🟢
+- 第2回：[一つでも読めて、並べると変わる――アイテムの説明文・図鑑・武器の物語で断片を書く技法](worldbuilding-lore-fragment-writing.md) 🟢
+- 第3回：[知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法](worldbuilding-lore-unfamiliar-names.md) 🟢
+- 第4回：[その台詞は、誰の声か――役割語から始める口調の書き分け](worldbuilding-lore-character-voice.md) 🟢
+- 第5回：[その設定は、もう見せたか――書き手のための設定資料の作り方](worldbuilding-lore-working-reference.md) 🟢
+- 第6回：[終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ](worldbuilding-lore-ongoing-narrative.md) 🟢
+
 ## 🎮 ゲーム体験と表現
 
 ### 🎨 ビジュアル・空間表現
