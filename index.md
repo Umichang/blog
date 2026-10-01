@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [山はどこまで登らせるべきか――目印・壁・眺望の三つの顔から考える](open-world-terrain-design-mountains.md) 🟢
 - [地形は遊びに何をさせるか――「見晴らし」と「隠れ場所」から読むオープンワールド](open-world-terrain-design-prospect-refuge.md) 🟢
 - [終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ](worldbuilding-lore-ongoing-narrative.md) 🟢
 - [その設定は、もう見せたか――書き手のための設定資料の作り方](worldbuilding-lore-working-reference.md) 🟢
 - [その台詞は、誰の声か――役割語から始める口調の書き分け](worldbuilding-lore-character-voice.md) 🟢
-- [知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法](worldbuilding-lore-unfamiliar-names.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -55,6 +55,7 @@
 - [ゲームにおけるレイトレーシング——リアルな光表現の可能性と限界](ray-tracing-in-games.md) 🔴
 - [レベルデザイン入門｜ルールではなく空間で体験を組み立てる仕事](level-design-introduction-practical-guide.md) 🟢
 - [地形は遊びに何をさせるか――「見晴らし」と「隠れ場所」から読むオープンワールド](open-world-terrain-design-prospect-refuge.md) 🟢
+- [山はどこまで登らせるべきか――目印・壁・眺望の三つの顔から考える](open-world-terrain-design-mountains.md) 🟢
 
 ### 🔊 サウンド・音声
 

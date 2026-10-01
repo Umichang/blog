@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 01 Oct 2026 03:28:21 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 10:48:44 -0000</lastBuildDate>
+    <item>
+      <title>山はどこまで登らせるべきか――目印・壁・眺望の三つの顔から考える</title>
+      <link>https://umichang.github.io/blog/open-world-terrain-design-mountains.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/open-world-terrain-design-mountains.html</guid>
+      <description>遠くでは目印、近づくと壁、登れば眺望と移動の起点になる山。BotWとGhost of Yōteiの開発事例を対照し、登れる範囲と登った先の発見をどう組み合わせるかを考える。</description>
+      <pubDate>Thu, 01 Oct 2026 10:48:44 -0000</pubDate>
+    </item>
     <item>
       <title>地形は遊びに何をさせるか――「見晴らし」と「隠れ場所」から読むオープンワールド</title>
       <link>https://umichang.github.io/blog/open-world-terrain-design-prospect-refuge.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-character-voice.html</guid>
       <description>同じ出来事を話す5人の台詞を段階的に書き直し、役割語の効用とステレオタイプへの注意から、語彙、相手との距離、話題、口調表まで、日本語のゲームシナリオで人物の話し方を作り、保つ方法を解説する。</description>
       <pubDate>Wed, 30 Sep 2026 01:12:08 -0000</pubDate>
-    </item>
-    <item>
-      <title>知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法</title>
-      <link>https://umichang.github.io/blog/worldbuilding-lore-unfamiliar-names.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-unfamiliar-names.html</guid>
-      <description>知らない名前が一度に押し寄せる会話を、架空の街の例で書き直す。初出の数え方、役割を先に示す書き方、場面への分散、用語の補足、あらすじを通じて、大量の世界設定を読み手に届ける方法を考える。</description>
-      <pubDate>Tue, 29 Sep 2026 10:45:43 -0000</pubDate>
     </item>
   </channel>
 </rss>

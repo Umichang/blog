@@ -1,5 +1,7 @@
 ---
 articles:
+- path: open-world-terrain-design-mountains.md
+  published_at: '2026-10-01T10:48:44Z'
 - path: open-world-terrain-design-prospect-refuge.md
   published_at: '2026-10-01T03:28:21Z'
 - path: worldbuilding-lore-ongoing-narrative.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-09-30T09:53:43Z'
 - path: worldbuilding-lore-character-voice.md
   published_at: '2026-09-30T01:12:08Z'
-- path: worldbuilding-lore-unfamiliar-names.md
-  published_at: '2026-09-29T10:45:43Z'
