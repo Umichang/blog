@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 30 Sep 2026 14:45:41 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 03:28:21 -0000</lastBuildDate>
+    <item>
+      <title>地形は遊びに何をさせるか――「見晴らし」と「隠れ場所」から読むオープンワールド</title>
+      <link>https://umichang.github.io/blog/open-world-terrain-design-prospect-refuge.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/open-world-terrain-design-prospect-refuge.html</guid>
+      <description>オープンワールドの地形が探索を促す仕組みを、BotWの三角形の法則と眺望－隠れ家理論から読み解き、見晴らし、遮蔽、移動の関係を「見せる・隠す・運ぶ」の三つの問いで整理する。</description>
+      <pubDate>Thu, 01 Oct 2026 03:28:21 -0000</pubDate>
+    </item>
     <item>
       <title>終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ</title>
       <link>https://umichang.github.io/blog/worldbuilding-lore-ongoing-narrative.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-unfamiliar-names.html</guid>
       <description>知らない名前が一度に押し寄せる会話を、架空の街の例で書き直す。初出の数え方、役割を先に示す書き方、場面への分散、用語の補足、あらすじを通じて、大量の世界設定を読み手に届ける方法を考える。</description>
       <pubDate>Tue, 29 Sep 2026 10:45:43 -0000</pubDate>
-    </item>
-    <item>
-      <title>一つでも読めて、並べると変わる――アイテムの説明文・図鑑・武器の物語で断片を書く技法</title>
-      <link>https://umichang.github.io/blog/worldbuilding-lore-fragment-writing.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-fragment-writing.html</guid>
-      <description>架空の薬の説明文を章ごとに書き直しながら、裏メモの作成、効果と由来の分離、短文化、語り手、段階的な開示を通じて、単独でも伝わり、複数の断片を並べると意味が変わる短い文章の書き方を解説する。</description>
-      <pubDate>Mon, 28 Sep 2026 10:45:49 -0000</pubDate>
     </item>
   </channel>
 </rss>
