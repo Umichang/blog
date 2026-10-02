@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [何を置かずに残し、何をどこに集めるか――砂漠とオアシスの地形設計](open-world-terrain-design-deserts-oases.md) 🟢
 - [何もない広さを、何で満たすか――草原・平原の地形設計](open-world-terrain-design-grasslands.md) 🟢
 - [川は沿わせるか、渡らせるか――流れの向きから考える地形設計](open-world-terrain-design-rivers.md) 🟢
 - [山はどこまで登らせるべきか――目印・壁・眺望の三つの顔から考える](open-world-terrain-design-mountains.md) 🟢
 - [地形は遊びに何をさせるか――「見晴らし」と「隠れ場所」から読むオープンワールド](open-world-terrain-design-prospect-refuge.md) 🟢
-- [終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ](worldbuilding-lore-ongoing-narrative.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -58,6 +58,7 @@
 - [山はどこまで登らせるべきか――目印・壁・眺望の三つの顔から考える](open-world-terrain-design-mountains.md) 🟢
 - [川は沿わせるか、渡らせるか――流れの向きから考える地形設計](open-world-terrain-design-rivers.md) 🟢
 - [何もない広さを、何で満たすか――草原・平原の地形設計](open-world-terrain-design-grasslands.md) 🟢
+- [何を置かずに残し、何をどこに集めるか――砂漠とオアシスの地形設計](open-world-terrain-design-deserts-oases.md) 🟢
 
 ### 🔊 サウンド・音声
 

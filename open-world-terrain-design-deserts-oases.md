@@ -72,10 +72,9 @@ Karen Moltenbrey氏によるComputer Graphics Worldの2012年6・7月号の記�
 
 この二つを並べると、寄り道の候補を見せる場合と、旅全体の目標を見せる場合を分けて考えられる。これは設計上の考察である。途中の配置をまばらにするときには、何を目指して進むのかも一緒に確かめたい。[第1回の「見せる」](open-world-terrain-design-prospect-refuge.md)と、[第2回の山を目印にする話](open-world-terrain-design-mountains.md)が、ここでつながる。
 
-```
-# 仕上げAIへ画像引用依頼
-『Journey』で、手前の旅人と広い砂地、遠方の目標となる山が同じ画面に見える公式画像を1点。目的は、まばらな砂漠で遠くの目標が進む理由になる配置を本文と対応させること。Computer Graphics Worldの「Mysterious Journey」（References [5]）掲載画像、またはthatgamecompany・PlayStationの公式掲載画像を候補とする。山が目標として判別できるものを選ぶ。出典ページと権利表記を明記し、画像全体を無改変で引用する。条件に合うものがなければ、この依頼ブロックを完全に除去してよい。
-```
+![砂丘に立つ旅人の前方に、光を放つ遠方の山が見える『Journey』の公式画像](image/open-world-deserts-journey-distant-mountain.webp)
+
+出典：[thatgamecompany『Journey』公式ページ](https://thatgamecompany.com/journey/)。© 2012 Sony Interactive Entertainment LLC. Developed by thatgamecompany. Journey is a trademark of Sony Interactive Entertainment LLC.
 
 ***
 
@@ -112,10 +111,9 @@ Karen Moltenbrey氏によるComputer Graphics Worldの2012年6・7月号の記�
 
 前者なら、水のある場所へ向かう理由を考える。後者なら、同じ場所をいつ訪れるか、変化を待つかという判断を考えられる。ここで扱っている時間の変化はゲームの設計であり、現実の砂漠の季節変化をそのまま説明するものではない。
 
-```
-# 仕上げAIへ図表制作依頼
-「場所による偏り」と「時間による偏り」を左右で比較する概念図。背景は白。左は乾いた土地の中の水源と、その周囲に集まる畑・集落を描き、「オアシス」「水のある場所へ」と表示する。水源を持つ一例の模式図であり、全オアシスに共通する形とはしない。右は「隔ての砂原」の同じ地形を「荒廃期」「砂嵐」「豊穣期」の順に並べ、時間によって状態が変わることを矢印で示す。砂嵐には雷を添える。人物や集落が時期ごとに移住する表現は避ける。左右の比較は本文の考察であることが分かる見出しにする。根拠はReferences [6]・[9]・[10]。色だけに意味を持たせず、日本語のラベルを付ける。凡例とaltは日本語。面積、資源量、時間間隔などの数値は示さず、推測で補わない。
-```
+![場所による偏りと時間による偏りの比較。左は水源の周囲に畑と集落が集まるオアシスの一例。右は隔ての砂原の同じ地形が荒廃期、雷を伴う砂嵐、豊穣期の順に変化する模式図](image/open-world-deserts-space-time-resources.webp)
+
+オアシスと環境変化を、資源の偏りという観点から比較した模式図。左は水源を持つ一例であり、右はゲーム画面の再現ではなく、同じ場所の状態変化を示している。[[6](#ref-6)][[9](#ref-9)][[10](#ref-10)]
 
 ***
 
