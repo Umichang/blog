@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 01 Oct 2026 10:48:44 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 01:45:51 -0000</lastBuildDate>
+    <item>
+      <title>川は沿わせるか、渡らせるか――流れの向きから考える地形設計</title>
+      <link>https://umichang.github.io/blog/open-world-terrain-design-rivers.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/open-world-terrain-design-rivers.html</guid>
+      <description>川に沿う旅、川を渡る地域間の移動、ほとりの集落という三つの関わりを、開発者の説明と地形の成り立ちから整理し、川を道にするか境目にするか、渡れる場所や村をどこに置くかを考える。</description>
+      <pubDate>Fri, 02 Oct 2026 01:45:51 -0000</pubDate>
+    </item>
     <item>
       <title>山はどこまで登らせるべきか――目印・壁・眺望の三つの顔から考える</title>
       <link>https://umichang.github.io/blog/open-world-terrain-design-mountains.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-working-reference.html</guid>
       <description>疫病の街の架空例を一つの設定資料へ整理し、確定・仮・未決定、プレイヤーへの公開範囲、口調、変更履歴、食い違いを残す方法を解説する。表計算やWikiで始められる、文章を書く人のための資料づくり。</description>
       <pubDate>Wed, 30 Sep 2026 09:53:43 -0000</pubDate>
-    </item>
-    <item>
-      <title>その台詞は、誰の声か――役割語から始める口調の書き分け</title>
-      <link>https://umichang.github.io/blog/worldbuilding-lore-character-voice.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/worldbuilding-lore-character-voice.html</guid>
-      <description>同じ出来事を話す5人の台詞を段階的に書き直し、役割語の効用とステレオタイプへの注意から、語彙、相手との距離、話題、口調表まで、日本語のゲームシナリオで人物の話し方を作り、保つ方法を解説する。</description>
-      <pubDate>Wed, 30 Sep 2026 01:12:08 -0000</pubDate>
     </item>
   </channel>
 </rss>
