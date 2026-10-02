@@ -1,5 +1,7 @@
 ---
 articles:
+- path: open-world-terrain-design-grasslands.md
+  published_at: '2026-10-02T10:31:13Z'
 - path: open-world-terrain-design-rivers.md
   published_at: '2026-10-02T01:45:51Z'
 - path: open-world-terrain-design-mountains.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-01T03:28:21Z'
 - path: worldbuilding-lore-ongoing-narrative.md
   published_at: '2026-09-30T14:45:41Z'
-- path: worldbuilding-lore-working-reference.md
-  published_at: '2026-09-30T09:53:43Z'
