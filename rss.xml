@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 04 Oct 2026 02:08:59 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 10:02:59 -0000</lastBuildDate>
+    <item>
+      <title>そのメドゥーサは、どの時代の姿か――ギリシャ・ローマ神話の敵は、重なった像から選ぶ</title>
+      <link>https://umichang.github.io/blog/mythology-enemy-design-greek-roman-layers.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-greek-roman-layers.html</guid>
+      <description>「神話から敵をつくる」第2回として、メドゥーサの蛇身やケルベロスの頭の数、敵に回る英雄を例に、ギリシャ・ローマ神話の文献・美術・映画・ゲームに重なる像を分け、敵の企画に採る特徴と創作する部分の整理方法を解説する。</description>
+      <pubDate>Sun, 04 Oct 2026 10:02:59 -0000</pubDate>
+    </item>
     <item>
       <title>その神は、どこから借りてきたか――神話・伝承を敵にする前の5つの点検</title>
       <link>https://umichang.github.io/blog/mythology-enemy-design-five-checks.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/open-world-terrain-design-grasslands.html</guid>
       <description>草原・平原の広さを何で満たし、何で導くか。ステップと阿蘇の草原の成り立ち、Ghostシリーズの風や花による誘導、ELDEN RINGの騎乗から、眺望・密度・移動の速さを組み合わせる設計を考える。</description>
       <pubDate>Fri, 02 Oct 2026 10:31:13 -0000</pubDate>
-    </item>
-    <item>
-      <title>川は沿わせるか、渡らせるか――流れの向きから考える地形設計</title>
-      <link>https://umichang.github.io/blog/open-world-terrain-design-rivers.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/open-world-terrain-design-rivers.html</guid>
-      <description>川に沿う旅、川を渡る地域間の移動、ほとりの集落という三つの関わりを、開発者の説明と地形の成り立ちから整理し、川を道にするか境目にするか、渡れる場所や村をどこに置くかを考える。</description>
-      <pubDate>Fri, 02 Oct 2026 01:45:51 -0000</pubDate>
     </item>
   </channel>
 </rss>
