@@ -1,5 +1,7 @@
 ---
 articles:
+- path: mythology-enemy-design-norse-gaps-symbols.md
+  published_at: '2026-10-05T02:20:29Z'
 - path: mythology-enemy-design-greek-roman-layers.md
   published_at: '2026-10-04T10:02:59Z'
 - path: mythology-enemy-design-five-checks.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-03T05:59:45Z'
 - path: open-world-terrain-design-deserts-oases.md
   published_at: '2026-10-02T22:52:46Z'
-- path: open-world-terrain-design-grasslands.md
-  published_at: '2026-10-02T10:31:13Z'

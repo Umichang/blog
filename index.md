@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [そのロキは、誰が書き足したか――北欧神話の敵は、空白の埋め方と記号の現在を確かめる](mythology-enemy-design-norse-gaps-symbols.md) 🟢
 - [そのメドゥーサは、どの時代の姿か――ギリシャ・ローマ神話の敵は、重なった像から選ぶ](mythology-enemy-design-greek-roman-layers.md) 🟢
 - [その神は、どこから借りてきたか――神話・伝承を敵にする前の5つの点検](mythology-enemy-design-five-checks.md) 🟢
 - [広さは規則で、印象は手で――自然の関係を広げる地形設計](open-world-terrain-design-procedural-rules.md) 🟢
 - [何を置かずに残し、何をどこに集めるか――砂漠とオアシスの地形設計](open-world-terrain-design-deserts-oases.md) 🟢
-- [何もない広さを、何で満たすか――草原・平原の地形設計](open-world-terrain-design-grasslands.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -165,6 +165,7 @@
 - [終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ](worldbuilding-lore-ongoing-narrative.md) 🟢
 - [その神は、どこから借りてきたか――神話・伝承を敵にする前の5つの点検](mythology-enemy-design-five-checks.md) 🟢
 - [そのメドゥーサは、どの時代の姿か――ギリシャ・ローマ神話の敵は、重なった像から選ぶ](mythology-enemy-design-greek-roman-layers.md) 🟢
+- [そのロキは、誰が書き足したか――北欧神話の敵は、空白の埋め方と記号の現在を確かめる](mythology-enemy-design-norse-gaps-symbols.md) 🟢
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🟡
 - [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🟢
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟢
