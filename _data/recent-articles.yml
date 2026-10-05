@@ -1,5 +1,7 @@
 ---
 articles:
+- path: mythology-enemy-design-china-novels-adaptations.md
+  published_at: '2026-10-05T23:36:18Z'
 - path: mythology-enemy-design-japan-living-traditions.md
   published_at: '2026-10-05T11:23:23Z'
 - path: mythology-enemy-design-norse-gaps-symbols.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-04T10:02:59Z'
 - path: mythology-enemy-design-five-checks.md
   published_at: '2026-10-04T02:08:59Z'
-- path: open-world-terrain-design-procedural-rules.md
-  published_at: '2026-10-03T05:59:45Z'
