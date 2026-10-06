@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その神は、敵にしてよい神か――インド・アブラハム系の題材は、敵にする格と、描かないものを先に決める](mythology-enemy-design-india-abrahamic-boundaries.md) 🟢
 - [その妖怪は、どの本から来たか――中国の神話・伝承の敵は、小説と翻案の層を分ける](mythology-enemy-design-china-novels-adaptations.md) 🟢
 - [その神は、今どこで祀られているか――日本の神話・伝承の敵は、内側にいるからこそ確かめる](mythology-enemy-design-japan-living-traditions.md) 🟢
 - [そのロキは、誰が書き足したか――北欧神話の敵は、空白の埋め方と記号の現在を確かめる](mythology-enemy-design-norse-gaps-symbols.md) 🟢
 - [そのメドゥーサは、どの時代の姿か――ギリシャ・ローマ神話の敵は、重なった像から選ぶ](mythology-enemy-design-greek-roman-layers.md) 🟢
-- [その神は、どこから借りてきたか――神話・伝承を敵にする前の5つの点検](mythology-enemy-design-five-checks.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -168,6 +168,7 @@
 - [そのロキは、誰が書き足したか――北欧神話の敵は、空白の埋め方と記号の現在を確かめる](mythology-enemy-design-norse-gaps-symbols.md) 🟢
 - [その神は、今どこで祀られているか――日本の神話・伝承の敵は、内側にいるからこそ確かめる](mythology-enemy-design-japan-living-traditions.md) 🟢
 - [その妖怪は、どの本から来たか――中国の神話・伝承の敵は、小説と翻案の層を分ける](mythology-enemy-design-china-novels-adaptations.md) 🟢
+- [その神は、敵にしてよい神か――インド・アブラハム系の題材は、敵にする格と、描かないものを先に決める](mythology-enemy-design-india-abrahamic-boundaries.md) 🟢
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🟡
 - [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🟢
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟢
