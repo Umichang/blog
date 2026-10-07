@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 07 Oct 2026 10:09:20 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 22:37:57 -0000</lastBuildDate>
+    <item>
+      <title>その神話は、誰の作品か――人工神話の敵は、作者と利用条件から確かめる</title>
+      <link>https://umichang.github.io/blog/mythology-enemy-design-artificial-authors-licenses.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-artificial-authors-licenses.html</guid>
+      <description>「神話から敵をつくる」第9回。クトゥルフ神話とSCP財団を題材に、作者・作品・画像の権利を分け、商標やライセンスを確かめて、敵の要素を借りるか着想にとどめるかを考える。</description>
+      <pubDate>Wed, 07 Oct 2026 22:37:57 -0000</pubDate>
+    </item>
     <item>
       <title>その伝承は、誰が書き残したか――周縁の神話の敵は、記録した手と、受け継ぐ人を確かめる</title>
       <link>https://umichang.github.io/blog/mythology-enemy-design-recorders-living-communities.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-china-novels-adaptations.html</guid>
       <description>「神話から敵をつくる」第5回として、『黒神話：悟空』を軸に中国の神話・明代小説・日本の翻案を分け、敵に残す特徴と加える創作を整理しながら、関羽や哪吒の現在の信仰、実在の宗教建築との関係を考える。</description>
       <pubDate>Mon, 05 Oct 2026 23:36:18 -0000</pubDate>
-    </item>
-    <item>
-      <title>その神は、今どこで祀られているか――日本の神話・伝承の敵は、内側にいるからこそ確かめる</title>
-      <link>https://umichang.github.io/blog/mythology-enemy-design-japan-living-traditions.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-japan-living-traditions.html</guid>
-      <description>「神話から敵をつくる」第4回。八岐大蛇、諏訪の神々、平将門と菅原道真、妖怪画、アイヌと琉球の信仰を通じ、今どこで誰に祀られ、演じられているかを確かめ、敵の立場と戦いの決着へ生かす方法を考える。</description>
-      <pubDate>Mon, 05 Oct 2026 11:23:23 -0000</pubDate>
     </item>
   </channel>
 </rss>
