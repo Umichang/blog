@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 06 Oct 2026 15:18:53 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 10:09:20 -0000</lastBuildDate>
+    <item>
+      <title>その伝承は、誰が書き残したか――周縁の神話の敵は、記録した手と、受け継ぐ人を確かめる</title>
+      <link>https://umichang.github.io/blog/mythology-enemy-design-recorders-living-communities.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-recorders-living-communities.html</guid>
+      <description>「神話から敵をつくる」第8回。ケルトの中世写本、アステカのフィレンツェ写本、ウェンディゴ、『Never Alone』『Mulaka』から、伝承を記録した人と今も受け継ぐ人を確かめ、敵の姿・行動・決着を一緒に考える方法を学ぶ。</description>
+      <pubDate>Wed, 07 Oct 2026 10:09:20 -0000</pubDate>
+    </item>
     <item>
       <title>そのミイラは、誰の体か――古代オリエントの敵は、後世の恐怖を外して、当時の役割を確かめる</title>
       <link>https://umichang.github.io/blog/mythology-enemy-design-ancient-near-east-protectors-remains.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-japan-living-traditions.html</guid>
       <description>「神話から敵をつくる」第4回。八岐大蛇、諏訪の神々、平将門と菅原道真、妖怪画、アイヌと琉球の信仰を通じ、今どこで誰に祀られ、演じられているかを確かめ、敵の立場と戦いの決着へ生かす方法を考える。</description>
       <pubDate>Mon, 05 Oct 2026 11:23:23 -0000</pubDate>
-    </item>
-    <item>
-      <title>そのロキは、誰が書き足したか――北欧神話の敵は、空白の埋め方と記号の現在を確かめる</title>
-      <link>https://umichang.github.io/blog/mythology-enemy-design-norse-gaps-symbols.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-norse-gaps-symbols.html</guid>
-      <description>「神話から敵をつくる」第3回として、バルドルやロキのゲームでの改変を手がかりに、北欧神話の原典に残る空白と後世のイメージを整理し、敵の姿・動機・戦い方への生かし方と、ルーンなどの記号の現代的な文脈を考える。</description>
-      <pubDate>Mon, 05 Oct 2026 02:20:29 -0000</pubDate>
     </item>
   </channel>
 </rss>

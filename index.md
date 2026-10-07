@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その伝承は、誰が書き残したか――周縁の神話の敵は、記録した手と、受け継ぐ人を確かめる](mythology-enemy-design-recorders-living-communities.md) 🟢
 - [そのミイラは、誰の体か――古代オリエントの敵は、後世の恐怖を外して、当時の役割を確かめる](mythology-enemy-design-ancient-near-east-protectors-remains.md) 🟢
 - [その神は、敵にしてよい神か――インド・アブラハム系の題材は、敵にする格と、描かないものを先に決める](mythology-enemy-design-india-abrahamic-boundaries.md) 🟢
 - [その妖怪は、どの本から来たか――中国の神話・伝承の敵は、小説と翻案の層を分ける](mythology-enemy-design-china-novels-adaptations.md) 🟢
 - [その神は、今どこで祀られているか――日本の神話・伝承の敵は、内側にいるからこそ確かめる](mythology-enemy-design-japan-living-traditions.md) 🟢
-- [そのロキは、誰が書き足したか――北欧神話の敵は、空白の埋め方と記号の現在を確かめる](mythology-enemy-design-norse-gaps-symbols.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -170,6 +170,7 @@
 - [その妖怪は、どの本から来たか――中国の神話・伝承の敵は、小説と翻案の層を分ける](mythology-enemy-design-china-novels-adaptations.md) 🟢
 - [その神は、敵にしてよい神か――インド・アブラハム系の題材は、敵にする格と、描かないものを先に決める](mythology-enemy-design-india-abrahamic-boundaries.md) 🟢
 - [そのミイラは、誰の体か――古代オリエントの敵は、後世の恐怖を外して、当時の役割を確かめる](mythology-enemy-design-ancient-near-east-protectors-remains.md) 🟢
+- [その伝承は、誰が書き残したか――周縁の神話の敵は、記録した手と、受け継ぐ人を確かめる](mythology-enemy-design-recorders-living-communities.md) 🟢
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🟡
 - [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🟢
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟢
