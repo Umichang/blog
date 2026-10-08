@@ -32,7 +32,7 @@ difficulty: green
 
 ### 位置の手がかりに、物語の意味を重ねる
 
-都市計画家ケヴィン・リンチ（Kevin Lynch）は、1960年にMIT Pressから刊行された『The Image of the City』で、人が都市を頭の中で把握する手がかりを論じた。[[3](#ref-3)] その五つの要素の一つが、 **目印（landmarks）** である。建物や看板、山など、外から見て位置を確かめる基準になるものを指す。遠方の目印は、いろいろな角度や距離から見え、方向の手がかりにもなる。[[3](#ref-3)]
+都市計画家ケヴィン・リンチ（Kevin Lynch）は、1960年に刊行した『The Image of the City』で、人が都市を頭の中で把握する手がかりを論じた。[[3](#ref-3)] その五つの要素の一つが、 **目印（landmarks）** である。建物や看板、山など、外から見て位置を確かめる基準になるものを指す。遠方の目印は、いろいろな角度や距離から見え、方向の手がかりにもなる。[[3](#ref-3)]
 
 『Ghost of Yōtei』では、羊蹄山に物語上の意味も与えている。コークリエイティブ・ディレクターのNate Fox氏は、2025年5月15日のPlayStation Blogで、現地取材を通じて羊蹄山が開発チームにとって北海道の象徴となり、主人公・篤にとっては失った故郷と家族の象徴になったと説明している。[[4](#ref-4)]
 
@@ -142,7 +142,7 @@ BotWの選択では、広いフィールドに登る・滑空する行動を組�
 
 [2]: https://www.gsi.go.jp/kikaku/tenkei_kazan.html
 
-<a id="ref-3"></a>3. [Kevin Lynch『The Image of the City』][3] — MIT Press、1960年。第3章、pp.46–48の五要素、特にedgesとlandmarksの定義を参照。リンク先は出版社の書籍案内（ペーパーバック版）。
+<a id="ref-3"></a>3. [Kevin Lynch『The Image of the City』][3] — The Technology Press／Harvard University Press、1960年（現在の刊行元はMIT Press）。第3章、pp.46–48の五要素、特にedgesとlandmarksの定義を参照。リンク先は出版社の書籍案内（ペーパーバック版）。
 
 [3]: https://mitpress.mit.edu/9780262620017/the-image-of-the-city/
 
