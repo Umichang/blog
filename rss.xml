@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 07 Oct 2026 22:37:57 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 07:12:16 -0000</lastBuildDate>
+    <item>
+      <title>その存在は、なぜ敵なのか――類型で神話を横断し、敵と味方の境界を決める</title>
+      <link>https://umichang.github.io/blog/mythology-enemy-design-archetypes-enemy-ally-boundaries.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-archetypes-enemy-ally-boundaries.html</guid>
+      <description>「神話から敵をつくる」第10回。竜・巨人・番人・死者・トリックスターを横断し、『真・女神転生』『Hades』『Fate/Grand Order』から敵と味方の境界を考える。全8題材の比較表と企画書のチェックリストでシリーズを締めくくる。</description>
+      <pubDate>Thu, 08 Oct 2026 07:12:16 -0000</pubDate>
+    </item>
     <item>
       <title>その神話は、誰の作品か――人工神話の敵は、作者と利用条件から確かめる</title>
       <link>https://umichang.github.io/blog/mythology-enemy-design-artificial-authors-licenses.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-india-abrahamic-boundaries.html</guid>
       <description>「神話から敵をつくる」第6回。インド・アブラハム系の題材を敵にするとき、物語の中の敵役と信仰の対象を分け、礼拝所・聖典の文言・神や預言者の姿など、描かないものを先に決める判断をゲームの事例から考える。</description>
       <pubDate>Tue, 06 Oct 2026 10:41:28 -0000</pubDate>
-    </item>
-    <item>
-      <title>その妖怪は、どの本から来たか――中国の神話・伝承の敵は、小説と翻案の層を分ける</title>
-      <link>https://umichang.github.io/blog/mythology-enemy-design-china-novels-adaptations.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-china-novels-adaptations.html</guid>
-      <description>「神話から敵をつくる」第5回として、『黒神話：悟空』を軸に中国の神話・明代小説・日本の翻案を分け、敵に残す特徴と加える創作を整理しながら、関羽や哪吒の現在の信仰、実在の宗教建築との関係を考える。</description>
-      <pubDate>Mon, 05 Oct 2026 23:36:18 -0000</pubDate>
     </item>
   </channel>
 </rss>
