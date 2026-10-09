@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [城壁の向こうに、また城壁がある――西洋の城の重なる守りから、奥へ進む段階を設計する](western-castle-concentric-defence-layers.md) 🟢
 - [城の入口は、なぜ曲がっているのか――虎口と枡形から、足を止める入口を設計する](japanese-castle-gate-design-koguchi-masugata.md) 🟢
 - [地図なしで、その街を覚えられるか――リンチの5要素で拠点の街を点検する](castle-town-design-lynch-city-image.md) 🟢
 - [その存在は、なぜ敵なのか――類型で神話を横断し、敵と味方の境界を決める](mythology-enemy-design-archetypes-enemy-ally-boundaries.md) 🟢
 - [その神話は、誰の作品か――人工神話の敵は、作者と利用条件から確かめる](mythology-enemy-design-artificial-authors-licenses.md) 🟢
-- [その伝承は、誰が書き残したか――周縁の神話の敵は、記録した手と、受け継ぐ人を確かめる](mythology-enemy-design-recorders-living-communities.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -62,6 +62,7 @@
 - [広さは規則で、印象は手で――自然の関係を広げる地形設計](open-world-terrain-design-procedural-rules.md) 🟢
 - [地図なしで、その街を覚えられるか――リンチの5要素で拠点の街を点検する](castle-town-design-lynch-city-image.md) 🟢
 - [城の入口は、なぜ曲がっているのか――虎口と枡形から、足を止める入口を設計する](japanese-castle-gate-design-koguchi-masugata.md) 🟢
+- [城壁の向こうに、また城壁がある――西洋の城の重なる守りから、奥へ進む段階を設計する](western-castle-concentric-defence-layers.md) 🟢
 
 ### 🔊 サウンド・音声
 

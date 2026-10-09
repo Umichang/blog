@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 09 Oct 2026 01:13:35 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 10:16:02 -0000</lastBuildDate>
+    <item>
+      <title>城壁の向こうに、また城壁がある――西洋の城の重なる守りから、奥へ進む段階を設計する</title>
+      <link>https://umichang.github.io/blog/western-castle-concentric-defence-layers.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/western-castle-concentric-defence-layers.html</guid>
+      <description>城の門をくぐっても、その先にはまた城壁がある。同心円城の重なる守りと開発者の説明を手がかりに、ゲームで内と外を何段に分け、各段で何を見せ、何を越えさせるかを考える。</description>
+      <pubDate>Fri, 09 Oct 2026 10:16:02 -0000</pubDate>
+    </item>
     <item>
       <title>城の入口は、なぜ曲がっているのか――虎口と枡形から、足を止める入口を設計する</title>
       <link>https://umichang.github.io/blog/japanese-castle-gate-design-koguchi-masugata.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-artificial-authors-licenses.html</guid>
       <description>「神話から敵をつくる」第9回。クトゥルフ神話とSCP財団を題材に、作者・作品・画像の権利を分け、商標やライセンスを確かめて、敵の要素を借りるか着想にとどめるかを考える。</description>
       <pubDate>Wed, 07 Oct 2026 22:37:57 -0000</pubDate>
-    </item>
-    <item>
-      <title>その伝承は、誰が書き残したか――周縁の神話の敵は、記録した手と、受け継ぐ人を確かめる</title>
-      <link>https://umichang.github.io/blog/mythology-enemy-design-recorders-living-communities.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/mythology-enemy-design-recorders-living-communities.html</guid>
-      <description>「神話から敵をつくる」第8回。ケルトの中世写本、アステカのフィレンツェ写本、ウェンディゴ、『Never Alone』『Mulaka』から、伝承を記録した人と今も受け継ぐ人を確かめ、敵の姿・行動・決着を一緒に考える方法を学ぶ。</description>
-      <pubDate>Wed, 07 Oct 2026 10:09:20 -0000</pubDate>
     </item>
   </channel>
 </rss>
