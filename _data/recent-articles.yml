@@ -1,5 +1,7 @@
 ---
 articles:
+- path: walled-city-vs-castle-town-enclosure.md
+  published_at: '2026-10-10T10:25:13Z'
 - path: western-castle-concentric-defence-layers.md
   published_at: '2026-10-09T10:16:02Z'
 - path: japanese-castle-gate-design-koguchi-masugata.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-08T08:51:53Z'
 - path: mythology-enemy-design-archetypes-enemy-ally-boundaries.md
   published_at: '2026-10-08T07:12:16Z'
-- path: mythology-enemy-design-artificial-authors-licenses.md
-  published_at: '2026-10-07T22:37:57Z'
