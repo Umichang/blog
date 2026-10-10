@@ -1,7 +1,7 @@
 
 ゲームデザイン、ゲーム史、AI、サウンド、操作インターフェイス、オンライン技術、ビジネス、法務・規制など、ゲームを作る人・考える人のための実務ガイドです。
 
-<small>記事は最初から順番に読む必要はありません。気になる見出しから読んでも、仕事で困っているテーマだけ拾ってもかまいません。すべての文章は注記がない限りMIT Licenseで提供されていますので、ライセンスに従えば業務利用も可能です。</small>
+<small>記事は最初から順番に読む必要はありません。気になる見出しから読んでも、仕事で困っているテーマだけ拾ってもかまいません。シリーズ記事の「第N回」は読む順番の目安ですので、どの回から読んでもかまいません。すべての文章は注記がない限りMIT Licenseで提供されていますので、ライセンスに従えば業務利用も可能です。</small>
 
 | 表記 | 目安 | 読み方 |
 | --- | --- | --- |
@@ -34,15 +34,6 @@
 
 <!-- recent-articles:end -->
 
-## ⏰ 特集：世界設定・ロアの書き方
-
-- 第1回：[その設定は、どこに書くか――会話・アイテムテキスト・背景・図鑑から語りの置き場所を選ぶ](worldbuilding-lore-narrative-placement.md) 🟢
-- 第2回：[一つでも読めて、並べると変わる――アイテムの説明文・図鑑・武器の物語で断片を書く技法](worldbuilding-lore-fragment-writing.md) 🟢
-- 第3回：[知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法](worldbuilding-lore-unfamiliar-names.md) 🟢
-- 第4回：[その台詞は、誰の声か――役割語から始める口調の書き分け](worldbuilding-lore-character-voice.md) 🟢
-- 第5回：[その設定は、もう見せたか――書き手のための設定資料の作り方](worldbuilding-lore-working-reference.md) 🟢
-- 第6回：[終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ](worldbuilding-lore-ongoing-narrative.md) 🟢
-
 ## 🎮 ゲーム体験と表現
 
 ### 🎨 ビジュアル・空間表現
@@ -54,16 +45,22 @@
 - [Live2D／E-moteを用いたキャラクターアニメーション表現の監修基礎――プランナーが3Dモデル監修とは異なる観察軸で議論するために](live2d-e-mote-animation-supervision-basics-for-planners.md) 🟡
 - [ゲームにおけるレイトレーシング——リアルな光表現の可能性と限界](ray-tracing-in-games.md) 🔴
 - [レベルデザイン入門｜ルールではなく空間で体験を組み立てる仕事](level-design-introduction-practical-guide.md) 🟢
-- [地形は遊びに何をさせるか――「見晴らし」と「隠れ場所」から読むオープンワールド](open-world-terrain-design-prospect-refuge.md) 🟢
-- [山はどこまで登らせるべきか――目印・壁・眺望の三つの顔から考える](open-world-terrain-design-mountains.md) 🟢
-- [川は沿わせるか、渡らせるか――流れの向きから考える地形設計](open-world-terrain-design-rivers.md) 🟢
-- [何もない広さを、何で満たすか――草原・平原の地形設計](open-world-terrain-design-grasslands.md) 🟢
-- [何を置かずに残し、何をどこに集めるか――砂漠とオアシスの地形設計](open-world-terrain-design-deserts-oases.md) 🟢
-- [広さは規則で、印象は手で――自然の関係を広げる地形設計](open-world-terrain-design-procedural-rules.md) 🟢
-- [地図なしで、その街を覚えられるか――リンチの5要素で拠点の街を点検する](castle-town-design-lynch-city-image.md) 🟢
-- [城の入口は、なぜ曲がっているのか――虎口と枡形から、足を止める入口を設計する](japanese-castle-gate-design-koguchi-masugata.md) 🟢
-- [城壁の向こうに、また城壁がある――西洋の城の重なる守りから、奥へ進む段階を設計する](western-castle-concentric-defence-layers.md) 🟢
-- [その街は、壁で囲われているか――城塞都市と城下町から、街の内と外の境目を設計する](walled-city-vs-castle-town-enclosure.md) 🟢
+
+#### 🏜️ オープンワールドの地形設計
+
+- 第1回：[地形は遊びに何をさせるか――「見晴らし」と「隠れ場所」から読むオープンワールド](open-world-terrain-design-prospect-refuge.md) 🟢
+- 第2回：[山はどこまで登らせるべきか――目印・壁・眺望の三つの顔から考える](open-world-terrain-design-mountains.md) 🟢
+- 第3回：[川は沿わせるか、渡らせるか――流れの向きから考える地形設計](open-world-terrain-design-rivers.md) 🟢
+- 第4回：[何もない広さを、何で満たすか――草原・平原の地形設計](open-world-terrain-design-grasslands.md) 🟢
+- 第5回：[何を置かずに残し、何をどこに集めるか――砂漠とオアシスの地形設計](open-world-terrain-design-deserts-oases.md) 🟢
+- 第6回：[広さは規則で、印象は手で――自然の関係を広げる地形設計](open-world-terrain-design-procedural-rules.md) 🟢
+
+#### 🏯 城と街から拠点をつくる
+
+- 第1回：[地図なしで、その街を覚えられるか――リンチの5要素で拠点の街を点検する](castle-town-design-lynch-city-image.md) 🟢
+- 第2回：[城の入口は、なぜ曲がっているのか――虎口と枡形から、足を止める入口を設計する](japanese-castle-gate-design-koguchi-masugata.md) 🟢
+- 第3回：[城壁の向こうに、また城壁がある――西洋の城の重なる守りから、奥へ進む段階を設計する](western-castle-concentric-defence-layers.md) 🟢
+- 第4回：[その街は、壁で囲われているか――城塞都市と城下町から、街の内と外の境目を設計する](walled-city-vs-castle-town-enclosure.md) 🟢
 
 ### 🔊 サウンド・音声
 
@@ -110,9 +107,7 @@
 
 ### 📐 ゲームデザイン理論
 
-- [回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門](game-logic-circuits-as-play.md) 🟢
 - [ダイスの振り方で「＋1」の価値が変わる：成否判定の分布を設計する](dice-roll-distributions-and-modifier-value.md) 🟡
-- [負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 - [コインプッシャーは「押し出すだけ」ではない――多段抽選がデジタルへ越境したとき](coin-pusher-multi-stage-lottery-digital-transition.md) 🟡
 - [ゲームフィールとは何か――「気持ちいい操作」を三つの設計領域から読み解く](game-feel-design-theory-for-game-planners.md) 🟡
 - [ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く](variable-ratio-reinforcement-gacha-loot-box-psychology.md) 🟡
@@ -121,7 +116,6 @@
 - [マイクロゲーミフィケーション――ゲームデザイン手法の非ゲーム領域への輸出とその限界](micro-gamification-non-game-design-limitations.md) 🟡
 - [フロー理論はゲームのために生まれたのか――原典・調査手法・反証から読み直す「ちょうどよい挑戦」](flow-theory-psychology-origins-and-game-design.md) 🟡
 - [3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計](intransitive-balance-rock-paper-scissors-game-design.md) 🟡
-- [周回すごろくは、負けている人をどう卓に残すか――貧乏神を動かせる仕様](momotetsu-player-controlled-penalties-and-participation.md) 🟡
 
 ### 🎯 進行・目標・難易度
 
@@ -161,26 +155,32 @@
 ### 📖 物語・世界設定・謎解き
 
 - [ゲームの世界設定・シナリオとゲームメカニクスの関係](worldbuilding-scenario-and-game-mechanics.md) 🟡
-- [その設定は、どこに書くか――会話・アイテムテキスト・背景・図鑑から語りの置き場所を選ぶ](worldbuilding-lore-narrative-placement.md) 🟢
-- [一つでも読めて、並べると変わる――アイテムの説明文・図鑑・武器の物語で断片を書く技法](worldbuilding-lore-fragment-writing.md) 🟢
-- [知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法](worldbuilding-lore-unfamiliar-names.md) 🟢
-- [その台詞は、誰の声か――役割語から始める口調の書き分け](worldbuilding-lore-character-voice.md) 🟢
-- [その設定は、もう見せたか――書き手のための設定資料の作り方](worldbuilding-lore-working-reference.md) 🟢
-- [終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ](worldbuilding-lore-ongoing-narrative.md) 🟢
-- [その神は、どこから借りてきたか――神話・伝承を敵にする前の5つの点検](mythology-enemy-design-five-checks.md) 🟢
-- [そのメドゥーサは、どの時代の姿か――ギリシャ・ローマ神話の敵は、重なった像から選ぶ](mythology-enemy-design-greek-roman-layers.md) 🟢
-- [そのロキは、誰が書き足したか――北欧神話の敵は、空白の埋め方と記号の現在を確かめる](mythology-enemy-design-norse-gaps-symbols.md) 🟢
-- [その神は、今どこで祀られているか――日本の神話・伝承の敵は、内側にいるからこそ確かめる](mythology-enemy-design-japan-living-traditions.md) 🟢
-- [その妖怪は、どの本から来たか――中国の神話・伝承の敵は、小説と翻案の層を分ける](mythology-enemy-design-china-novels-adaptations.md) 🟢
-- [その神は、敵にしてよい神か――インド・アブラハム系の題材は、敵にする格と、描かないものを先に決める](mythology-enemy-design-india-abrahamic-boundaries.md) 🟢
-- [そのミイラは、誰の体か――古代オリエントの敵は、後世の恐怖を外して、当時の役割を確かめる](mythology-enemy-design-ancient-near-east-protectors-remains.md) 🟢
-- [その伝承は、誰が書き残したか――周縁の神話の敵は、記録した手と、受け継ぐ人を確かめる](mythology-enemy-design-recorders-living-communities.md) 🟢
-- [その神話は、誰の作品か――人工神話の敵は、作者と利用条件から確かめる](mythology-enemy-design-artificial-authors-licenses.md) 🟢
-- [その存在は、なぜ敵なのか――類型で神話を横断し、敵と味方の境界を決める](mythology-enemy-design-archetypes-enemy-ally-boundaries.md) 🟢
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🟡
 - [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🟢
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟢
 - [作品世界を「つなぐ」設計――UGSFと『崩壊3rd』×『崩壊：スターレイル』から考える、後年統合型と意図設計型](shared-universe-design-retrofit-versus-intent.md) 🟡
+
+#### ✍️ 世界設定・ロアの書き方
+
+- 第1回：[その設定は、どこに書くか――会話・アイテムテキスト・背景・図鑑から語りの置き場所を選ぶ](worldbuilding-lore-narrative-placement.md) 🟢
+- 第2回：[一つでも読めて、並べると変わる――アイテムの説明文・図鑑・武器の物語で断片を書く技法](worldbuilding-lore-fragment-writing.md) 🟢
+- 第3回：[知らない名前は、一度にいくつまで――大量の設定を読ませる文章技法](worldbuilding-lore-unfamiliar-names.md) 🟢
+- 第4回：[その台詞は、誰の声か――役割語から始める口調の書き分け](worldbuilding-lore-character-voice.md) 🟢
+- 第5回：[その設定は、もう見せたか――書き手のための設定資料の作り方](worldbuilding-lore-working-reference.md) 🟢
+- 第6回：[終わりの決まっていない物語を、どう書き続けるか――運営型タイトルの伏線・区切り・引き継ぎ](worldbuilding-lore-ongoing-narrative.md) 🟢
+
+#### 🐉 神話から敵をつくる
+
+- 第1回：[その神は、どこから借りてきたか――神話・伝承を敵にする前の5つの点検](mythology-enemy-design-five-checks.md) 🟢
+- 第2回：[そのメドゥーサは、どの時代の姿か――ギリシャ・ローマ神話の敵は、重なった像から選ぶ](mythology-enemy-design-greek-roman-layers.md) 🟢
+- 第3回：[そのロキは、誰が書き足したか――北欧神話の敵は、空白の埋め方と記号の現在を確かめる](mythology-enemy-design-norse-gaps-symbols.md) 🟢
+- 第4回：[その神は、今どこで祀られているか――日本の神話・伝承の敵は、内側にいるからこそ確かめる](mythology-enemy-design-japan-living-traditions.md) 🟢
+- 第5回：[その妖怪は、どの本から来たか――中国の神話・伝承の敵は、小説と翻案の層を分ける](mythology-enemy-design-china-novels-adaptations.md) 🟢
+- 第6回：[その神は、敵にしてよい神か――インド・アブラハム系の題材は、敵にする格と、描かないものを先に決める](mythology-enemy-design-india-abrahamic-boundaries.md) 🟢
+- 第7回：[そのミイラは、誰の体か――古代オリエントの敵は、後世の恐怖を外して、当時の役割を確かめる](mythology-enemy-design-ancient-near-east-protectors-remains.md) 🟢
+- 第8回：[その伝承は、誰が書き残したか――周縁の神話の敵は、記録した手と、受け継ぐ人を確かめる](mythology-enemy-design-recorders-living-communities.md) 🟢
+- 第9回：[その神話は、誰の作品か――人工神話の敵は、作者と利用条件から確かめる](mythology-enemy-design-artificial-authors-licenses.md) 🟢
+- 第10回：[その存在は、なぜ敵なのか――類型で神話を横断し、敵と味方の境界を決める](mythology-enemy-design-archetypes-enemy-ally-boundaries.md) 🟢
 
 ### 🎲 ジャンル・ゲーム文化
 
@@ -233,12 +233,18 @@
 - [「実装後に炎上する仕様書」の共通点——曖昧さの解剖と、書ける仕様書の作り方](game-spec-pitfalls-and-how-to-write-clear-specs.md) 🟡
 - [プレイテストの設計・運用方法論](playtest-design-and-operation-methodology-for-planners.md) 🟡
 - [バグなのか仕様なのか——「グレーゾーン」の判断プロセス](bug-or-spec-gray-zone-decision-process.md) 🟡
-- [ボードゲームのルールブックは「書いた人が同席できない仕様書」である](board-game-rulebooks-as-standalone-specifications.md) 🟡
-- [卓上プロトタイプは「実装を待たずに動かせる仕様書」である](wargame-adjudication-and-tabletop-prototyping.md) 🟡
-- [数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計](warhammer-40000-balance-update-containers.md) 🟡
 - [物理シミュレーションの不具合はなぜ根絶しにくいのか――プランナーが仕様書でつくる安全域](physics-simulation-bug-prevention-spec-writing-for-planners.md) 🔴
 - [Cyberpunk 2077 崩壊の構造](cyberpunk-2077-anatomy-of-a-collapse.md) 🟢
 - [FF14旧版（1.0）はなぜ崩壊したのか――大型タイトルが開発で破綻する構造](ffxiv-1-0-failure-anatomy.md) 🟢
+
+#### 📐 読める仕様書
+
+- 第1回：[ボードゲームのルールブックは「書いた人が同席できない仕様書」である](board-game-rulebooks-as-standalone-specifications.md) 🟡
+- 第2回：[卓上プロトタイプは「実装を待たずに動かせる仕様書」である](wargame-adjudication-and-tabletop-prototyping.md) 🟡
+- 第3回：[周回すごろくは、負けている人をどう卓に残すか――貧乏神を動かせる仕様](momotetsu-player-controlled-penalties-and-participation.md) 🟡
+- 第4回：[遊びの仕組みをどう守るか――特許、開放する契約、名前の選択](game-mechanics-patents-open-licenses-and-trademarks.md) 🟡
+- 第5回：[数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計](warhammer-40000-balance-update-containers.md) 🟡
+- 第6回：[負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
 
 ### 🎬 他メディアIPのゲーム化
 
@@ -253,11 +259,6 @@
 
 ### 🧰 技術基盤・データ・アセット
 
-- [ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計](game-numeric-limits-for-planners.md) 🟢
-- [「名前は6文字まで」の裏にある三つの決めごと――ゲームプランナーのための文字と文字コード](game-name-input-character-rules.md) 🟢
-- [「いま何ができるか」を仕様にする――ゲームプランナーのための状態遷移入門](game-state-transitions-for-planners.md) 🟢
-- [「受け取る」を一度だけにする――ゲームプランナーのための連打と通信再試行の話](game-concurrent-and-repeated-operations-for-planners.md) 🟢
-- [「敵は最大何体まで？」を仕様にする――数の増え方と1フレームの持ち時間](game-computation-budget-for-planners.md) 🟢
 - [ゲームにおけるプロシージャル生成の技術史と設計論](procedural-content-generation-history-and-design.md) 🟡
 - [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🟢
 - [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🟢
@@ -268,6 +269,15 @@
 - [セーブシステムの設計史と実装の落とし穴](save-system-design-history-and-pitfalls.md) 🔴
 - [ゲームプランナーが知っておくべき乱数の話](random-numbers-for-game-planners.md) 🔴
 - [クラウドゲーミングの現在地――サービスの成否と技術的課題](cloud-gaming-deep-dive-proofread.md) 🟡
+
+#### 🖥️ ゲームプランナーのためのコンピュータ科学
+
+- 第1回：[ゲームの上限値はどう決まるのか――255と21億4748万3647から考える仕様設計](game-numeric-limits-for-planners.md) 🟢
+- 第2回：[「名前は6文字まで」の裏にある三つの決めごと――ゲームプランナーのための文字と文字コード](game-name-input-character-rules.md) 🟢
+- 第3回：[「いま何ができるか」を仕様にする――ゲームプランナーのための状態遷移入門](game-state-transitions-for-planners.md) 🟢
+- 第4回：[「受け取る」を一度だけにする――ゲームプランナーのための連打と通信再試行の話](game-concurrent-and-repeated-operations-for-planners.md) 🟢
+- 第5回：[「敵は最大何体まで？」を仕様にする――数の増え方と1フレームの持ち時間](game-computation-budget-for-planners.md) 🟢
+- 番外編：[回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門](game-logic-circuits-as-play.md) 🟢
 
 ### 🧪 品質保証・デバッグ・リリース
 
@@ -384,7 +394,6 @@
 - [小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP](indie-game-publishing-contract-revenue-recoup-ip.md) 🔴
 - [生成AIと著作権法 ― ゲーム業界の実務論点ガイド](generative-ai-copyright-game-industry-guide.md) 🔴
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🟡
-- [遊びの仕組みをどう守るか――特許、開放する契約、名前の選択](game-mechanics-patents-open-licenses-and-trademarks.md) 🟡
 - [『パルワールド』訴訟はゲームデザインをどう動かしたか――特許係争と1.0正式版までの歩み](palworld-nintendo-patent-lawsuit-and-game-design-analysis.md) 🔴
 - [ソニーvsテンセント『Horizon』対『Light of Motiram』訴訟の経緯と決着](sony-tencent-horizon-light-of-motiram-lawsuit.md) 🟡
 - [Modの功罪：ゲーム文化・法律・開発者の視点から読み解く](modding-merits-demerits-culture-law-developers.md) 🟡

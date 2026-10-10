@@ -2,6 +2,7 @@
 
 require 'minitest/autorun'
 require 'tmpdir'
+require 'fileutils'
 require_relative '../scripts/lib/recommendation_sync'
 
 class RecommendationSyncTest < Minitest::Test
@@ -82,6 +83,113 @@ class RecommendationSyncTest < Minitest::Test
       posts = RecommendationSync::XArchive.new(directory).posts
       assert_equal ['10'], posts.map(&:id)
       assert_equal 'https://umichang.github.io/blog/one.html', RecommendationSync.normalized_blog_url(posts.first.urls.first)
+    end
+  end
+
+  def test_catalog_records_series_subheading_separately_from_category
+    Dir.mktmpdir do |directory|
+      File.write(File.join(directory, '_config.yaml'), "url: https://umichang.github.io\nbaseurl: /blog\n", encoding: 'UTF-8')
+      %w[one two three].each do |name|
+        File.write(File.join(directory, "#{name}.md"), "---\ndescription: #{name}\n---\n# #{name}\n", encoding: 'UTF-8')
+      end
+      File.write(File.join(directory, 'index.md'), <<~MARKDOWN, encoding: 'UTF-8')
+        ## 🎮 設計
+        ### 🎨 UI
+        - [記事一](one.md) 🟢
+
+        #### 🏯 連載
+        - 第1回：[記事二](two.md) 🟢
+        - 番外編：[記事三](three.md) 🟡
+
+        ### 🔊 音
+      MARKDOWN
+
+      articles = RecommendationSync::ArticleCatalog.new(directory).articles.to_h { |article| [article.path, article] }
+
+      assert_equal ['🎨 UI'], articles.fetch('two.md').categories
+      assert_equal '🏯 連載', articles.fetch('two.md').series
+      assert_equal '🟡', articles.fetch('three.md').difficulty
+      assert_equal '🏯 連載', articles.fetch('three.md').series
+      assert_nil articles.fetch('one.md').series
+      assert_equal '記事二', articles.fetch('two.md').title
+    end
+  end
+
+  def test_catalog_ignores_numbered_links_under_headings_missing_from_ledger
+    with_catalog do |directory|
+      FileUtils.mkdir_p(File.join(directory, 'data'))
+      File.write(File.join(directory, 'data', 'article-categories.yml'), <<~YAML, encoding: 'UTF-8')
+        schema_version: 1
+        categories:
+          - slug: ui
+            heading: "🎨 UI"
+            parent_group: "🎮 設計"
+            display_order: 10
+      YAML
+      index = File.join(directory, 'index.md')
+      File.write(index, File.read(index, encoding: 'UTF-8').sub("## 🎮 設計", "## ⏰ 特集：連載\n- 第1回：[記事二](two.md) 🟡\n\n## 🎮 設計"), encoding: 'UTF-8')
+
+      articles = RecommendationSync::ArticleCatalog.new(directory).articles.to_h { |article| [article.path, article] }
+
+      assert_equal ['🎨 UI'], articles.fetch('two.md').categories
+    end
+  end
+
+  def test_sync_articles_adds_missing_series_property_and_writes_series
+    with_catalog do |directory|
+      config = Struct.new(:articles_data_source_id, :posts_data_source_id).new('articles', 'posts')
+      client = FakeNotion.new
+      added = []
+      client.define_singleton_method(:retrieve_data_source) { |_id| { 'properties' => {} } }
+      client.define_singleton_method(:update_data_source) { |id, properties| added << [id, properties] }
+
+      RecommendationSync::Synchronizer.new(client, config).sync_articles(RecommendationSync::ArticleCatalog.new(directory))
+
+      assert_equal [['articles', { 'シリーズ' => { 'rich_text' => {} } }]], added
+      properties = client.created_pages.first.last.fetch('properties')
+      assert_equal [], properties.dig('シリーズ', 'rich_text')
+    end
+  end
+
+  def test_sync_articles_skips_pages_whose_values_are_unchanged
+    with_catalog do |directory|
+      config = Struct.new(:articles_data_source_id, :posts_data_source_id).new('articles', 'posts')
+      catalog = RecommendationSync::ArticleCatalog.new(directory)
+      synchronizer = RecommendationSync::Synchronizer.new(FakeNotion.new, config)
+      current = catalog.articles.map do |article|
+        properties = synchronizer.send(:article_properties, article).transform_values do |value|
+          next value unless value.key?('title') || value.key?('rich_text')
+
+          key = value.key?('title') ? 'title' : 'rich_text'
+          { key => value[key].map { |entry| { 'plain_text' => entry.dig('text', 'content') } } }
+        end
+        { 'id' => "page-#{article.path}", 'properties' => properties }
+      end
+      current.last['properties']['カテゴリ'] = { 'rich_text' => [{ 'plain_text' => '旧分類' }] }
+      client = FakeNotion.new(article_pages: current)
+      client.define_singleton_method(:retrieve_data_source) { |_id| { 'properties' => { 'シリーズ' => {} } } }
+
+      summary, = RecommendationSync::Synchronizer.new(client, config).sync_articles(catalog)
+
+      assert_equal({ created: 0, updated: 1, unchanged: 1 }, summary)
+      assert_equal 'page-two.md', client.updated_pages.first.first
+    end
+  end
+
+  def test_client_retries_after_rate_limit
+    responses = [
+      Struct.new(:code, :body) { def [](_name) = '0.5' }.new('429', '{"message":"rate limited"}'),
+      Struct.new(:code, :body) { def [](_name) = nil; def is_a?(klass) = klass == Net::HTTPSuccess || super }.new('200', '{"ok":true}')
+    ]
+    waits = []
+    original = Net::HTTP.method(:start)
+    Net::HTTP.define_singleton_method(:start) { |*_args, **_options, &_block| responses.shift }
+    begin
+      client = RecommendationSync::NotionClient.new('token', sleeper: ->(seconds) { waits << seconds })
+      assert_equal({ 'ok' => true }, client.retrieve_data_source('articles'))
+      assert_equal [0.5], waits
+    ensure
+      Net::HTTP.define_singleton_method(:start, original)
     end
   end
 

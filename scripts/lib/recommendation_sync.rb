@@ -23,7 +23,7 @@ module RecommendationSync
     end
   end
 
-  Article = Struct.new(:title, :path, :url, :difficulty, :categories, keyword_init: true)
+  Article = Struct.new(:title, :path, :url, :difficulty, :categories, :series, keyword_init: true)
   Post = Struct.new(:id, :text, :created_at, :urls, keyword_init: true)
 
   module Text
@@ -78,7 +78,8 @@ module RecommendationSync
 
   class ArticleCatalog
     NON_CATEGORY_HEADINGS = ['📌 まず読む記事', '🆕 新着記事'].freeze
-    LINK = /^- \[(?<title>.+?)\]\((?<path>[^)]+\.md)\)(?:\s+(?<difficulty>🟢|🟡|🔴))?\s*$/.freeze
+    # シリーズ小見出し（H4）の配下では、行頭に「第N回：」または「番外編：」を置ける。
+    LINK = /^- (?:(?<label>第[0-9]+回|番外編)：)?\[(?<title>.+?)\]\((?<path>[^)]+\.md)\)(?:\s+(?<difficulty>🟢|🟡|🔴))?\s*$/.freeze
 
     def initialize(root)
       @root = Pathname(root)
@@ -90,7 +91,9 @@ module RecommendationSync
       categories = {}
       titles = {}
       difficulties = {}
+      series = {}
       headings = {}
+      ledger = category_ledger_headings
 
       (@root / 'index.md').each_line(encoding: 'UTF-8') do |line|
         if (heading = line.match(/\A(?<marks>\#{2,4})\s+(?<title>.+?)\s*\z/))
@@ -106,14 +109,19 @@ module RecommendationSync
         path = match[:path]
         next unless local_article?(path)
 
-        category = headings[headings.keys.max]
-        in_category = !category.nil? && !NON_CATEGORY_HEADINGS.include?(category)
+        # カテゴリはH2・H3の分類名を使い、H4はシリーズ小見出しとして別に記録する。
+        category_levels = headings.keys.select { |level| level <= 3 }
+        category = category_levels.empty? ? nil : headings[category_levels.max]
+        series_name = headings[4]
+        # 分類台帳があれば、台帳にある見出しだけを分類として扱う（特集欄などを分類と取り違えないため）。
+        in_category = !category.nil? && !NON_CATEGORY_HEADINGS.include?(category) && (ledger.nil? || ledger.include?(category))
 
         # 分類セクションの記載を正とする。📌／🆕の記載は、分類セクションに現れない記事の補完にだけ使う。
         # 新着記事欄は分類セクションより前にあり、難易度を後から変更しても追従しないため、先勝ちにしない。
         if in_category
           titles[path] = match[:title]
           difficulties[path] = match[:difficulty]
+          series[path] = series_name if series_name
         else
           titles[path] ||= match[:title]
           difficulties[path] ||= match[:difficulty]
@@ -129,12 +137,21 @@ module RecommendationSync
           path: path,
           url: "#{base_url}/#{path.sub(/\.md\z/, '.html')}",
           difficulty: difficulties[path],
-          categories: categories.fetch(path, [])
+          categories: categories.fetch(path, []),
+          series: series[path]
         )
       end.sort_by(&:path)
     end
 
     private
+
+    def category_ledger_headings
+      path = @root / 'data' / 'article-categories.yml'
+      return nil unless path.file?
+
+      data = YAML.safe_load(path.read(encoding: 'UTF-8'), aliases: false) || {}
+      data.fetch('categories', []).map { |item| item.fetch('heading') }
+    end
 
     def local_article?(path)
       candidate = (@root / path).expand_path
@@ -214,11 +231,16 @@ module RecommendationSync
   class NotionClient
     API_URI = URI('https://api.notion.com/v1/')
 
-    def initialize(token, base_uri: API_URI)
+    # 429（呼び出し回数の上限）と一時的な5xxは、待ってから再試行する。
+    MAX_RETRIES = 6
+    RETRYABLE_STATUSES = %w[429 500 502 503 504].freeze
+
+    def initialize(token, base_uri: API_URI, sleeper: ->(seconds) { sleep(seconds) })
       raise Error, 'NOTION_TOKEN を設定してください。' if token.to_s.empty?
 
       @token = token
       @base_uri = base_uri
+      @sleeper = sleeper
     end
 
     def create_database(parent_page_id, title, properties)
@@ -278,7 +300,16 @@ module RecommendationSync
       request['Content-Type'] = 'application/json'
       request.body = JSON.generate(body) if body
 
-      response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https') { |http| http.request(request) }
+      response = nil
+      attempts = 0
+      loop do
+        response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https') { |http| http.request(request) }
+        break unless RETRYABLE_STATUSES.include?(response.code.to_s) && attempts < MAX_RETRIES
+
+        attempts += 1
+        retry_after = response['Retry-After'].to_f
+        @sleeper.call(retry_after.positive? ? retry_after : 2**attempts)
+      end
       parsed = JSON.parse(response.body)
       return parsed if response.is_a?(Net::HTTPSuccess)
 
@@ -330,6 +361,7 @@ module RecommendationSync
         'Markdownパス' => { 'rich_text' => {} },
         '難易度' => { 'select' => { 'options' => DIFFICULTIES.map { |name| { 'name' => name } } } },
         'カテゴリ' => { 'rich_text' => {} },
+        'シリーズ' => { 'rich_text' => {} },
         '紹介除外' => { 'checkbox' => {} }
       }
     end
@@ -365,7 +397,8 @@ module RecommendationSync
     end
 
     def sync_articles(catalog)
-      summary = { created: 0, updated: 0 }
+      summary = { created: 0, updated: 0, unchanged: 0 }
+      ensure_series_property
       existing = @client.query_all(@config.articles_data_source_id)
       by_path = existing.each_with_object({}) do |page, result|
         path = Text.value(page.fetch('properties')['Markdownパス'])
@@ -376,7 +409,10 @@ module RecommendationSync
       catalog.articles.each do |article|
         properties = article_properties(article)
         page = by_path[article.path]
-        if page
+        if page && unchanged?(page, properties)
+          summary[:unchanged] += 1
+          pages_by_url[article.url] = page.fetch('id')
+        elsif page
           @client.update_page(page.fetch('id'), properties)
           summary[:updated] += 1
           pages_by_url[article.url] = page.fetch('id')
@@ -389,6 +425,31 @@ module RecommendationSync
       [summary, pages_by_url]
     rescue ApiError => error
       raise Error, "記事同期は途中で失敗しました（新規 #{summary[:created] || 0}件、更新 #{summary[:updated] || 0}件）: #{error.message}"
+    end
+
+    # 既存ページの値が同期しようとする値と同じなら、更新の呼び出しを省く（呼び出し回数の上限対策）。
+    def unchanged?(page, properties)
+      current = page.fetch('properties', {})
+      properties.all? do |name, expected|
+        actual = current[name]
+        if expected.key?('url')
+          actual&.fetch('url', nil) == expected['url']
+        elsif expected.key?('select')
+          actual&.dig('select', 'name') == expected.dig('select', 'name')
+        elsif expected.key?('title') || expected.key?('rich_text')
+          Text.value(actual) == Text.value(expected)
+        else
+          false
+        end
+      end
+    end
+
+    # 2026年10月に追加した「シリーズ」欄が既存の記事台帳になければ作る。
+    def ensure_series_property
+      source = @client.retrieve_data_source(@config.articles_data_source_id)
+      return if source.fetch('properties', {}).key?('シリーズ')
+
+      @client.update_data_source(@config.articles_data_source_id, { 'シリーズ' => { 'rich_text' => {} } })
     end
 
     def import_posts(posts, pages_by_url)
@@ -424,7 +485,8 @@ module RecommendationSync
         '記事URL' => { 'url' => article.url },
         'Markdownパス' => { 'rich_text' => Text.rich_text(article.path) },
         '難易度' => { 'select' => article.difficulty ? { 'name' => article.difficulty } : nil },
-        'カテゴリ' => { 'rich_text' => Text.rich_text(article.categories.join('／')) }
+        'カテゴリ' => { 'rich_text' => Text.rich_text(article.categories.join('／')) },
+        'シリーズ' => { 'rich_text' => Text.rich_text(article.series) }
       }
     end
 

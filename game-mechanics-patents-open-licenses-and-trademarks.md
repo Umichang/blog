@@ -1,6 +1,6 @@
 ---
 description: "米国の紙のゲームの特許とその期限、D&DのOGL変更騒動、商標の役割を通じて、遊びの仕組みを守る対象、権利化の費用、開放が生む信用を整理し、自社に合う権利と契約の使い方を考える。"
-category: law-ip-fanworks
+category: spec-quality-judgment
 difficulty: yellow
 ---
 

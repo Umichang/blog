@@ -101,6 +101,20 @@ class ArticleIndexTest(unittest.TestCase):
         self.assertEqual(entries["extra.md"].category.slug, "extras")
         self.assertEqual({article.filename for article in articles}, {"bank.md", "loot.md", "extra.md"})
 
+    def test_series_subheading_with_episode_labels_keeps_parent_category(self) -> None:
+        self.write_article("ep1.md", "連載一", "連載の第1回", "systems", "green")
+        self.write_article("ep2.md", "連載二", "連載の番外編", "systems", "yellow")
+        path = self.root / "index.md"
+        text = path.read_text(encoding="utf-8").replace(
+            "- [ガチャの設計](loot.md) 🟡\n\n## ✨ 番外編",
+            "- [ガチャの設計](loot.md) 🟡\n\n#### 🏯 連載\n\n- 第1回：[連載一](ep1.md) 🟢\n- 番外編：[連載二](ep2.md) 🟡\n\n## ✨ 番外編",
+        )
+        path.write_text(text, encoding="utf-8")
+        _, entries, _ = article_index.collect_articles(self.root)
+        self.assertEqual(entries["ep1.md"].category.slug, "systems")
+        self.assertEqual(entries["ep2.md"].difficulty, "yellow")
+        self.assertEqual(entries["extra.md"].category.slug, "extras")
+
     def test_build_and_short_japanese_search(self) -> None:
         db = self.build()
         with article_index.database_connection(db) as connection:

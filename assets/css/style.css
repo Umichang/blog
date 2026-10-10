@@ -304,6 +304,8 @@ img { max-width: 100%; }
    （縮めるとhttps://drafts.csswg.org/css-flexbox/の自動最小サイズにより
    絵文字1個ぶん未満にはならないため、詰まっても改行は起きない）。 */
 .post-index li a { flex: 1 1 auto; }
+.post-index li[hidden] { display: none; }
+.catalog-series-label { flex: 0 0 auto; white-space: nowrap; }
 
 @media (max-width: 520px) {
   .index-catalog-actions { margin-bottom: var(--space-6); }

@@ -34,7 +34,8 @@ FRONTMATTER_RE = re.compile(r"\A---\r?\n(?P<content>.*?)\r?\n---\r?\n", re.DOTAL
 H1_RE = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
 H2_RE = re.compile(r"^##\s+(.+?)\s*$")
 H3_RE = re.compile(r"^###\s+(.+?)\s*$")
-LINK_RE = re.compile(r"^- \[(?P<title>.+?)\]\((?P<path>[^)]+\.md)\)(?P<suffix>.*?)\s*$")
+# シリーズ小見出し（H4）の配下では、行頭に「第N回：」または「番外編：」を置ける。
+LINK_RE = re.compile(r"^- (?:(?P<label>第[0-9]+回|番外編)：)?\[(?P<title>.+?)\]\((?P<path>[^)]+\.md)\)(?P<suffix>.*?)\s*$")
 
 
 class IndexError(Exception):

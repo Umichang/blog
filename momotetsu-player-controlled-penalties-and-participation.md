@@ -1,6 +1,6 @@
 ---
 description: "モノポリーの破産退場と桃太郎電鉄の最終年度を対比し、貧乏神のなすりつけや決算の区切りから、負けている人にも次の判断を渡す設計と、補正の原因をプレイヤーの選択へ紐づける仕様の考え方を読む。"
-category: game-design-theory
+category: spec-quality-judgment
 difficulty: yellow
 ---
 

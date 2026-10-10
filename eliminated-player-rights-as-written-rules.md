@@ -1,6 +1,6 @@
 ---
 description: "「読める仕様書」シリーズ最終回として、モノポリーの破産処理、軍を保持する救済、部隊の潰走とデジタルゲームの公式資料を読み、脱落後の権限を規則に書くための四つの問いを整理する。"
-category: game-design-theory
+category: spec-quality-judgment
 difficulty: yellow
 ---
 

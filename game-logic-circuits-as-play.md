@@ -1,6 +1,6 @@
 ---
 description: "AND・OR・NOTをボタンと扉で理解し、Minecraft、Factorio、エンドフィールドの回路づくりを比較する。回路の部品を用意する設計と、物流から回路が生まれる遊びの違い、プランナーが決めるべきことを考える。"
-category: game-design-theory
+category: tech-foundation-data-assets
 difficulty: green
 ---
 

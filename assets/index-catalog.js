@@ -70,6 +70,16 @@
 
   const sections = Array.from(root.querySelectorAll('.catalog-section'));
   const groups = Array.from(root.querySelectorAll('.catalog-group'));
+  const series = Array.from(root.querySelectorAll('.catalog-section__content > h4'))
+    .map((heading) => {
+      const items = [];
+      let node = heading.nextElementSibling;
+      while (node && !/^H[1-4]$/.test(node.tagName)) {
+        items.push(...node.querySelectorAll('li'));
+        node = node.nextElementSibling;
+      }
+      return { heading, items };
+    });
   const buildSearchData = (value) => {
     const characters = Array.from(value);
     const normalizedCharacters = [];
@@ -88,6 +98,14 @@
     .map((item) => {
       const link = item.querySelector('a');
       if (!link) return null;
+
+      const prefix = item.firstChild;
+      if (prefix?.nodeType === Node.TEXT_NODE && /^(第\d+回|番外編)：$/.test(prefix.textContent.trim())) {
+        const label = document.createElement('span');
+        label.className = 'catalog-series-label';
+        label.textContent = prefix.textContent.trim();
+        prefix.replaceWith(label);
+      }
 
       return {
         item,
@@ -145,6 +163,7 @@
       section.open = false;
     });
     groups.forEach((group) => { group.hidden = false; });
+    series.forEach(({ heading }) => { heading.hidden = false; });
     status.textContent = `全${articles.length}件の記事から検索できます。`;
   };
   const setVisibleSections = (open) => {
@@ -176,6 +195,9 @@
       }
     });
 
+    series.forEach(({ heading, items }) => {
+      heading.hidden = !items.some((item) => !item.hidden);
+    });
     sections.forEach((section) => {
       const hasMatch = Boolean(section.querySelector('li:not([hidden])'));
       section.hidden = !hasMatch;

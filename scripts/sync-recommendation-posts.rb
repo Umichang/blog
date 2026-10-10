@@ -28,14 +28,14 @@ begin
     RecommendationSync::Setup.new(client, ENV['NOTION_PARENT_PAGE_ID'], config).run
     puts "Notion台帳を作成しました。設定を保存しました: #{config_path}"
     article_summary, = RecommendationSync::Synchronizer.new(client, config).sync_articles(RecommendationSync::ArticleCatalog.new(root))
-    puts "記事を同期しました: 新規 #{article_summary[:created]}件、更新 #{article_summary[:updated]}件"
+    puts "記事を同期しました: 新規 #{article_summary[:created]}件、更新 #{article_summary[:updated]}件、変更なし #{article_summary[:unchanged]}件"
     puts 'DBビューは docs/recommendation-posts.md の手順でNotion上に作成します。'
   else
     raise RecommendationSync::Error, "初期化が必要です: #{config_path}" unless config.configured?
 
     synchronizer = RecommendationSync::Synchronizer.new(client, config)
     article_summary, pages_by_url = synchronizer.sync_articles(RecommendationSync::ArticleCatalog.new(root))
-    puts "記事を同期しました: 新規 #{article_summary[:created]}件、更新 #{article_summary[:updated]}件"
+    puts "記事を同期しました: 新規 #{article_summary[:created]}件、更新 #{article_summary[:updated]}件、変更なし #{article_summary[:unchanged]}件"
     if options[:archive]
       post_summary = synchronizer.import_posts(RecommendationSync::XArchive.new(options[:archive]).posts, pages_by_url)
       puts "おすすめ投稿を取り込みました: 新規 #{post_summary[:imported]}件、既存 #{post_summary[:skipped]}件、要確認 #{post_summary[:needs_review]}件"

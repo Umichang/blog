@@ -183,7 +183,8 @@ abort_with_usage("記事ファイルが見つかりません: #{article_path}") 
 index_file = File.join(root, 'index.md')
 index = File.read(index_file, encoding: 'UTF-8')
 unless difficulty
-  matched_difficulties = index.scan(/^- \[.*?\]\(#{Regexp.escape(article_path)}\) (#{VALID_DIFFICULTIES.join('|')})\s*$/).flatten.uniq
+  # シリーズ小見出しの配下では、行頭に「第N回：」または「番外編：」が付く。
+  matched_difficulties = index.scan(/^- (?:(?:第[0-9]+回|番外編)：)?\[.*?\]\(#{Regexp.escape(article_path)}\) (#{VALID_DIFFICULTIES.join('|')})\s*$/).flatten.uniq
   abort_with_usage('通常の分類へのリンクが見つかりません。読みやすさを明示してください。') if matched_difficulties.empty?
   abort_with_usage('通常の分類で読みやすさが一致しません。読みやすさを明示してください。') if matched_difficulties.length > 1
 
