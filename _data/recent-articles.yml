@@ -1,5 +1,7 @@
 ---
 articles:
+- path: post-towns-villages-why-people-gather.md
+  published_at: '2026-10-11T03:04:59Z'
 - path: walled-city-vs-castle-town-enclosure.md
   published_at: '2026-10-10T10:25:13Z'
 - path: western-castle-concentric-defence-layers.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-09T01:13:35Z'
 - path: castle-town-design-lynch-city-image.md
   published_at: '2026-10-08T08:51:53Z'
-- path: mythology-enemy-design-archetypes-enemy-ally-boundaries.md
-  published_at: '2026-10-08T07:12:16Z'
