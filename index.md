@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その体の形は、何をするための形か――職業から生き物の体を描き起こす](ecology-body-shape-function-convergence.md) 🟢
 - [その生き物の「職業」は何か――ニッチと食物網から居場所と役目を決める](ecology-niche-food-web-creature-jobs.md) 🟢
 - [人が作ったのに、なぜ迷うのか――迷宮と地下から、帰り道の手がかりを設計する](labyrinths-underground-way-back.md) 🟢
 - [ここは、何だったのか――廃墟に残る形から、かつての用途を読ませる](ruins-former-use-traces-layers.md) 🟢
 - [その集落は、なぜそこにあるのか――宿場町と村から、人が集まる理由を設計する](post-towns-villages-why-people-gather.md) 🟢
-- [その街は、壁で囲われているか――城塞都市と城下町から、街の内と外の境目を設計する](walled-city-vs-castle-town-enclosure.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -188,6 +188,7 @@
 #### 🌿 生態学から生き物をつくる
 
 - 第1回：[その生き物の「職業」は何か――ニッチと食物網から居場所と役目を決める](ecology-niche-food-web-creature-jobs.md) 🟢
+- 第2回：[その体の形は、何をするための形か――職業から生き物の体を描き起こす](ecology-body-shape-function-convergence.md) 🟢
 
 ### 🎲 ジャンル・ゲーム文化
 
