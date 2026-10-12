@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 12 Oct 2026 13:35:13 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 23:34:58 -0000</lastBuildDate>
+    <item>
+      <title>プレイヤーは、食物連鎖のどこにいるか――捕食者と被食者から遊びの関係を決める</title>
+      <link>https://umichang.github.io/blog/ecology-predator-prey-player-in-the-food-chain.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/ecology-predator-prey-player-in-the-food-chain.html</guid>
+      <description>プレイヤーを食物連鎖の間に置くと、狩る遊びと逃げる遊びが同じ世界に生まれる。捕食者と被食者の関係、Rain Worldの開発例から、生き物同士の暮らしと予測しやすさの釣り合いを考える。「生態学から生き物をつくる」第3回。</description>
+      <pubDate>Mon, 12 Oct 2026 23:34:58 -0000</pubDate>
+    </item>
     <item>
       <title>その体の形は、何をするための形か――職業から生き物の体を描き起こす</title>
       <link>https://umichang.github.io/blog/ecology-body-shape-function-convergence.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/ruins-former-use-traces-layers.html</guid>
       <description>草に埋もれた土台や窪んだ道から、かつての暮らしをどう想像するか。ポンペイとイングランドの廃村、ゲーム開発者の説明を手がかりに、元の用途・失われた理由・今の使われ方を重ねて廃墟を設計する。</description>
       <pubDate>Sun, 11 Oct 2026 10:59:20 -0000</pubDate>
-    </item>
-    <item>
-      <title>その集落は、なぜそこにあるのか――宿場町と村から、人が集まる理由を設計する</title>
-      <link>https://umichang.github.io/blog/post-towns-villages-why-people-gather.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/post-towns-villages-why-people-gather.html</guid>
-      <description>街道沿いの宿場町と水を得られる場所にできた村の立地や役割を、歴史・地理とゲーム開発者の説明からたどり、人が集まる理由をゲームの集落の施設、旅と休息の間隔、町並みの形へ結びつける考え方を解説する。</description>
-      <pubDate>Sun, 11 Oct 2026 03:04:59 -0000</pubDate>
     </item>
   </channel>
 </rss>
