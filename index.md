@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [人が作ったのに、なぜ迷うのか――迷宮と地下から、帰り道の手がかりを設計する](labyrinths-underground-way-back.md) 🟢
 - [ここは、何だったのか――廃墟に残る形から、かつての用途を読ませる](ruins-former-use-traces-layers.md) 🟢
 - [その集落は、なぜそこにあるのか――宿場町と村から、人が集まる理由を設計する](post-towns-villages-why-people-gather.md) 🟢
 - [その街は、壁で囲われているか――城塞都市と城下町から、街の内と外の境目を設計する](walled-city-vs-castle-town-enclosure.md) 🟢
 - [城壁の向こうに、また城壁がある――西洋の城の重なる守りから、奥へ進む段階を設計する](western-castle-concentric-defence-layers.md) 🟢
-- [城の入口は、なぜ曲がっているのか――虎口と枡形から、足を止める入口を設計する](japanese-castle-gate-design-koguchi-masugata.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -63,6 +63,7 @@
 - 第4回：[その街は、壁で囲われているか――城塞都市と城下町から、街の内と外の境目を設計する](walled-city-vs-castle-town-enclosure.md) 🟢
 - 第5回：[その集落は、なぜそこにあるのか――宿場町と村から、人が集まる理由を設計する](post-towns-villages-why-people-gather.md) 🟢
 - 第6回：[ここは、何だったのか――廃墟に残る形から、かつての用途を読ませる](ruins-former-use-traces-layers.md) 🟢
+- 第7回：[人が作ったのに、なぜ迷うのか――迷宮と地下から、帰り道の手がかりを設計する](labyrinths-underground-way-back.md) 🟢
 
 ### 🔊 サウンド・音声
 
