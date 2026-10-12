@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その生き物の「職業」は何か――ニッチと食物網から居場所と役目を決める](ecology-niche-food-web-creature-jobs.md) 🟢
 - [人が作ったのに、なぜ迷うのか――迷宮と地下から、帰り道の手がかりを設計する](labyrinths-underground-way-back.md) 🟢
 - [ここは、何だったのか――廃墟に残る形から、かつての用途を読ませる](ruins-former-use-traces-layers.md) 🟢
 - [その集落は、なぜそこにあるのか――宿場町と村から、人が集まる理由を設計する](post-towns-villages-why-people-gather.md) 🟢
 - [その街は、壁で囲われているか――城塞都市と城下町から、街の内と外の境目を設計する](walled-city-vs-castle-town-enclosure.md) 🟢
-- [城壁の向こうに、また城壁がある――西洋の城の重なる守りから、奥へ進む段階を設計する](western-castle-concentric-defence-layers.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -184,6 +184,10 @@
 - 第8回：[その伝承は、誰が書き残したか――周縁の神話の敵は、記録した手と、受け継ぐ人を確かめる](mythology-enemy-design-recorders-living-communities.md) 🟢
 - 第9回：[その神話は、誰の作品か――人工神話の敵は、作者と利用条件から確かめる](mythology-enemy-design-artificial-authors-licenses.md) 🟢
 - 第10回：[その存在は、なぜ敵なのか――類型で神話を横断し、敵と味方の境界を決める](mythology-enemy-design-archetypes-enemy-ally-boundaries.md) 🟢
+
+#### 🌿 生態学から生き物をつくる
+
+- 第1回：[その生き物の「職業」は何か――ニッチと食物網から居場所と役目を決める](ecology-niche-food-web-creature-jobs.md) 🟢
 
 ### 🎲 ジャンル・ゲーム文化
 
