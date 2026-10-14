@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 14 Oct 2026 07:34:17 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 13:54:50 -0000</lastBuildDate>
+    <item>
+      <title>その分類は、誰が分けたのか――『鼻行類』と『Encyclopaedia Eorzea』から架空の分類体系をつくる</title>
+      <link>https://umichang.github.io/blog/ecology-fictional-taxonomy-who-classifies.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/ecology-fictional-taxonomy-who-classifies.html</guid>
+      <description>図鑑の分類から、その世界の学問や文化、政治を描く。『鼻行類』と『Encyclopaedia Eorzea』を手がかりに、誰が何を基準に分けるか、例外や発見をどう受け止めるかを考える。「生態学から生き物をつくる」第7回（最終回）。</description>
+      <pubDate>Wed, 14 Oct 2026 13:54:50 -0000</pubDate>
+    </item>
     <item>
       <title>その生き物がいなくなると、土地はどう変わるか――生態系エンジニアとキーストーン種から、場所を変える生き物を考える</title>
       <link>https://umichang.github.io/blog/ecology-ecosystem-engineers-keystone-species-changing-land.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/ecology-predator-prey-player-in-the-food-chain.html</guid>
       <description>プレイヤーを食物連鎖の間に置くと、狩る遊びと逃げる遊びが同じ世界に生まれる。捕食者と被食者の関係、Rain Worldの開発例から、生き物同士の暮らしと予測しやすさの釣り合いを考える。「生態学から生き物をつくる」第3回。</description>
       <pubDate>Mon, 12 Oct 2026 23:34:58 -0000</pubDate>
-    </item>
-    <item>
-      <title>その体の形は、何をするための形か――職業から生き物の体を描き起こす</title>
-      <link>https://umichang.github.io/blog/ecology-body-shape-function-convergence.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/ecology-body-shape-function-convergence.html</guid>
-      <description>生き物の職業から歯、目、くちばし、体つきを考える。相似と収斂、Horizon Zero Dawnの制作例を手がかりに、暮らしを支える形と、攻撃を当てる面や弱点として遊びを支える形を重ねる方法を解説する。「生態学から生き物をつくる」第2回。</description>
-      <pubDate>Mon, 12 Oct 2026 13:35:13 -0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,7 @@
 ---
 articles:
+- path: ecology-fictional-taxonomy-who-classifies.md
+  published_at: '2026-10-14T13:54:50Z'
 - path: ecology-ecosystem-engineers-keystone-species-changing-land.md
   published_at: '2026-10-14T07:34:17Z'
 - path: ecology-warning-colors-mimicry-readable-danger.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-13T04:12:48Z'
 - path: ecology-predator-prey-player-in-the-food-chain.md
   published_at: '2026-10-12T23:34:58Z'
-- path: ecology-body-shape-function-convergence.md
-  published_at: '2026-10-12T13:35:13Z'
