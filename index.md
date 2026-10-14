@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その生き物がいなくなると、土地はどう変わるか――生態系エンジニアとキーストーン種から、場所を変える生き物を考える](ecology-ecosystem-engineers-keystone-species-changing-land.md) 🟢
 - [その見た目で、危険は伝わるか――警告色と擬態で、学ばせる見た目とだます見た目を決める](ecology-warning-colors-mimicry-readable-danger.md) 🟢
 - [一匹か、群れか――群れの崩し方と、縄張りで守る場所を決める](ecology-herds-territories-how-to-break-and-guard.md) 🟢
 - [プレイヤーは、食物連鎖のどこにいるか――捕食者と被食者から遊びの関係を決める](ecology-predator-prey-player-in-the-food-chain.md) 🟢
 - [その体の形は、何をするための形か――職業から生き物の体を描き起こす](ecology-body-shape-function-convergence.md) 🟢
-- [その生き物の「職業」は何か――ニッチと食物網から居場所と役目を決める](ecology-niche-food-web-creature-jobs.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -192,6 +192,7 @@
 - 第3回：[プレイヤーは、食物連鎖のどこにいるか――捕食者と被食者から遊びの関係を決める](ecology-predator-prey-player-in-the-food-chain.md) 🟢
 - 第4回：[一匹か、群れか――群れの崩し方と、縄張りで守る場所を決める](ecology-herds-territories-how-to-break-and-guard.md) 🟢
 - 第5回：[その見た目で、危険は伝わるか――警告色と擬態で、学ばせる見た目とだます見た目を決める](ecology-warning-colors-mimicry-readable-danger.md) 🟢
+- 第6回：[その生き物がいなくなると、土地はどう変わるか――生態系エンジニアとキーストーン種から、場所を変える生き物を考える](ecology-ecosystem-engineers-keystone-species-changing-land.md) 🟢
 
 ### 🎲 ジャンル・ゲーム文化
 
