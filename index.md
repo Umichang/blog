@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その変化は、遊びの何を変えるか――昼夜と季節を、現実の速さで流すか、縮めて回すか](weather-season-time-cycles-real-or-compressed.md) 🟢
 - [その分類は、誰が分けたのか――『鼻行類』と『Encyclopaedia Eorzea』から架空の分類体系をつくる](ecology-fictional-taxonomy-who-classifies.md) 🟢
 - [その生き物がいなくなると、土地はどう変わるか――生態系エンジニアとキーストーン種から、場所を変える生き物を考える](ecology-ecosystem-engineers-keystone-species-changing-land.md) 🟢
 - [その見た目で、危険は伝わるか――警告色と擬態で、学ばせる見た目とだます見た目を決める](ecology-warning-colors-mimicry-readable-danger.md) 🟢
 - [一匹か、群れか――群れの崩し方と、縄張りで守る場所を決める](ecology-herds-territories-how-to-break-and-guard.md) 🟢
-- [プレイヤーは、食物連鎖のどこにいるか――捕食者と被食者から遊びの関係を決める](ecology-predator-prey-player-in-the-food-chain.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -119,6 +119,10 @@
 - [マイクロゲーミフィケーション――ゲームデザイン手法の非ゲーム領域への輸出とその限界](micro-gamification-non-game-design-limitations.md) 🟡
 - [フロー理論はゲームのために生まれたのか――原典・調査手法・反証から読み直す「ちょうどよい挑戦」](flow-theory-psychology-origins-and-game-design.md) 🟡
 - [3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計](intransitive-balance-rock-paper-scissors-game-design.md) 🟡
+
+#### 🌦️ 天気と季節から時間をつくる
+
+- 第1回：[その変化は、遊びの何を変えるか――昼夜と季節を、現実の速さで流すか、縮めて回すか](weather-season-time-cycles-real-or-compressed.md) 🟢
 
 ### 🎯 進行・目標・難易度
 

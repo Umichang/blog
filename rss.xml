@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 14 Oct 2026 13:54:50 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 23:44:40 -0000</lastBuildDate>
+    <item>
+      <title>その変化は、遊びの何を変えるか――昼夜と季節を、現実の速さで流すか、縮めて回すか</title>
+      <link>https://umichang.github.io/blog/weather-season-time-cycles-real-or-compressed.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/weather-season-time-cycles-real-or-compressed.html</guid>
+      <description>昼夜や季節を現実と同じ速さで流すか、縮めて回すか。『どうぶつの森』とMinecraftから、出会い・店・危険に変化を与える設計を考える。「天気と季節から時間をつくる」第1回。</description>
+      <pubDate>Wed, 14 Oct 2026 23:44:40 -0000</pubDate>
+    </item>
     <item>
       <title>その分類は、誰が分けたのか――『鼻行類』と『Encyclopaedia Eorzea』から架空の分類体系をつくる</title>
       <link>https://umichang.github.io/blog/ecology-fictional-taxonomy-who-classifies.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/ecology-herds-territories-how-to-break-and-guard.html</guid>
       <description>一匹か群れかで、生き物との出会いは変わる。ワイルズなどの開発例と生態学の辞典を手がかりに、群れの崩し方、縄張りの知らせ方、踏み込んだときの反応を考える。「生態学から生き物をつくる」第4回。</description>
       <pubDate>Tue, 13 Oct 2026 04:12:48 -0000</pubDate>
-    </item>
-    <item>
-      <title>プレイヤーは、食物連鎖のどこにいるか――捕食者と被食者から遊びの関係を決める</title>
-      <link>https://umichang.github.io/blog/ecology-predator-prey-player-in-the-food-chain.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/ecology-predator-prey-player-in-the-food-chain.html</guid>
-      <description>プレイヤーを食物連鎖の間に置くと、狩る遊びと逃げる遊びが同じ世界に生まれる。捕食者と被食者の関係、Rain Worldの開発例から、生き物同士の暮らしと予測しやすさの釣り合いを考える。「生態学から生き物をつくる」第3回。</description>
-      <pubDate>Mon, 12 Oct 2026 23:34:58 -0000</pubDate>
     </item>
   </channel>
 </rss>
