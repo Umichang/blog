@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 13 Oct 2026 04:12:48 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 01:58:50 -0000</lastBuildDate>
+    <item>
+      <title>その見た目で、危険は伝わるか――警告色と擬態で、学ばせる見た目とだます見た目を決める</title>
+      <link>https://umichang.github.io/blog/ecology-warning-colors-mimicry-readable-danger.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/ecology-warning-colors-mimicry-readable-danger.html</guid>
+      <description>警告色は危険を学ばせ、擬態はその学びを利用する。ミミックロジック、スプラトゥーン、Valveの開発例から、だます見た目と気づける手がかりを考える。「生態学から生き物をつくる」第5回。</description>
+      <pubDate>Wed, 14 Oct 2026 01:58:50 -0000</pubDate>
+    </item>
     <item>
       <title>一匹か、群れか――群れの崩し方と、縄張りで守る場所を決める</title>
       <link>https://umichang.github.io/blog/ecology-herds-territories-how-to-break-and-guard.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/ecology-niche-food-web-creature-jobs.html</guid>
       <description>「生態学から生き物をつくる」第1回として、ニッチと食物網を手がかりに生き物の職業を居場所と食べ物から一文で定め、ゲーム内の行動、出現場所、数、ほかの生き物との関係へ落とし込む方法を解説する。</description>
       <pubDate>Mon, 12 Oct 2026 10:36:59 -0000</pubDate>
-    </item>
-    <item>
-      <title>人が作ったのに、なぜ迷うのか――迷宮と地下から、帰り道の手がかりを設計する</title>
-      <link>https://umichang.github.io/blog/labyrinths-underground-way-back.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/labyrinths-underground-way-back.html</guid>
-      <description>一本道の迷宮と分岐のある迷路の違い、下水道や坑道の用途に沿った規則を手がかりに、ゲームの地下で帰り道を推測できる設計を考え、「城と街から拠点をつくる」全7回の判断軸を振り返る。</description>
-      <pubDate>Mon, 12 Oct 2026 05:17:30 -0000</pubDate>
     </item>
   </channel>
 </rss>
