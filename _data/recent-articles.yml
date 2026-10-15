@@ -1,5 +1,7 @@
 ---
 articles:
+- path: weather-season-time-night-what-grows-what-fades.md
+  published_at: '2026-10-15T08:02:10Z'
 - path: weather-season-time-cycles-real-or-compressed.md
   published_at: '2026-10-14T23:44:40Z'
 - path: ecology-fictional-taxonomy-who-classifies.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-14T07:34:17Z'
 - path: ecology-warning-colors-mimicry-readable-danger.md
   published_at: '2026-10-14T01:58:50Z'
-- path: ecology-herds-territories-how-to-break-and-guard.md
-  published_at: '2026-10-13T04:12:48Z'

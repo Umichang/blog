@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [夜になると、何が増え、何が減るか――薄明と夜の住人から、昼と夜の遊びを分ける](weather-season-time-night-what-grows-what-fades.md) 🟢
 - [その変化は、遊びの何を変えるか――昼夜と季節を、現実の速さで流すか、縮めて回すか](weather-season-time-cycles-real-or-compressed.md) 🟢
 - [その分類は、誰が分けたのか――『鼻行類』と『Encyclopaedia Eorzea』から架空の分類体系をつくる](ecology-fictional-taxonomy-who-classifies.md) 🟢
 - [その生き物がいなくなると、土地はどう変わるか――生態系エンジニアとキーストーン種から、場所を変える生き物を考える](ecology-ecosystem-engineers-keystone-species-changing-land.md) 🟢
 - [その見た目で、危険は伝わるか――警告色と擬態で、学ばせる見た目とだます見た目を決める](ecology-warning-colors-mimicry-readable-danger.md) 🟢
-- [一匹か、群れか――群れの崩し方と、縄張りで守る場所を決める](ecology-herds-territories-how-to-break-and-guard.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -123,6 +123,7 @@
 #### 🌦️ 天気と季節から時間をつくる
 
 - 第1回：[その変化は、遊びの何を変えるか――昼夜と季節を、現実の速さで流すか、縮めて回すか](weather-season-time-cycles-real-or-compressed.md) 🟢
+- 第2回：[夜になると、何が増え、何が減るか――薄明と夜の住人から、昼と夜の遊びを分ける](weather-season-time-night-what-grows-what-fades.md) 🟢
 
 ### 🎯 進行・目標・難易度
 
