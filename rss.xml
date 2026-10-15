@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 15 Oct 2026 08:02:10 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:56:33 -0000</lastBuildDate>
+    <item>
+      <title>その雨は、何段階で降るか――気象庁の「雨の強さと降り方」から、雨の効き目を決める</title>
+      <link>https://umichang.github.io/blog/weather-season-time-rain-intensity-levels.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/weather-season-time-rain-intensity-levels.html</guid>
+      <description>「天気と季節から時間をつくる」第3回では、気象庁の「雨の強さと降り方」とポケモン、ゼルダの事例を手がかりに、雨の段階ごとに加わる影響と続く影響を整理し、プレイヤーの行動につなげる設計を考える。</description>
+      <pubDate>Thu, 15 Oct 2026 09:56:33 -0000</pubDate>
+    </item>
     <item>
       <title>夜になると、何が増え、何が減るか――薄明と夜の住人から、昼と夜の遊びを分ける</title>
       <link>https://umichang.github.io/blog/weather-season-time-night-what-grows-what-fades.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/ecology-ecosystem-engineers-keystone-species-changing-land.html</guid>
       <description>生態系エンジニアとキーストーン種を手がかりに、生き物が残す地形の痕跡、倒す・守る選択による変化、場所どうしのつながりを考える。「生態学から生き物をつくる」第6回。</description>
       <pubDate>Wed, 14 Oct 2026 07:34:17 -0000</pubDate>
-    </item>
-    <item>
-      <title>その見た目で、危険は伝わるか――警告色と擬態で、学ばせる見た目とだます見た目を決める</title>
-      <link>https://umichang.github.io/blog/ecology-warning-colors-mimicry-readable-danger.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/ecology-warning-colors-mimicry-readable-danger.html</guid>
-      <description>警告色は危険を学ばせ、擬態はその学びを利用する。ミミックロジック、スプラトゥーン、Valveの開発例から、だます見た目と気づける手がかりを考える。「生態学から生き物をつくる」第5回。</description>
-      <pubDate>Wed, 14 Oct 2026 01:58:50 -0000</pubDate>
     </item>
   </channel>
 </rss>

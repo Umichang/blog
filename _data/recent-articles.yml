@@ -1,5 +1,7 @@
 ---
 articles:
+- path: weather-season-time-rain-intensity-levels.md
+  published_at: '2026-10-15T09:56:33Z'
 - path: weather-season-time-night-what-grows-what-fades.md
   published_at: '2026-10-15T08:02:10Z'
 - path: weather-season-time-cycles-real-or-compressed.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-14T13:54:50Z'
 - path: ecology-ecosystem-engineers-keystone-species-changing-land.md
   published_at: '2026-10-14T07:34:17Z'
-- path: ecology-warning-colors-mimicry-readable-danger.md
-  published_at: '2026-10-14T01:58:50Z'
