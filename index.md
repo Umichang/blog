@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その時間は、戻せるか――『ムジュラの仮面』の３日間から、巻き戻せる時間を設計する](weather-season-time-closed-loop-can-time-rewind.md) 🟢
 - [その変化は、先に知らせるか――天気予報の信頼度と「備える判断」から、ゲームの予報を設計する](weather-season-time-forecast-tell-before-change.md) 🟢
 - [季節が変わると、何が戻り、何が去るか――四季の区切りと「去るもの」から、季節の遊びを決める](weather-season-time-seasons-what-returns-what-leaves.md) 🟢
 - [その風は、何を伝えるか――風・霧・雷に、向き・距離・規則を語らせる](weather-season-time-wind-fog-thunder-what-it-tells.md) 🟢
 - [その雨は、何段階で降るか――気象庁の「雨の強さと降り方」から、雨の効き目を決める](weather-season-time-rain-intensity-levels.md) 🟢
-- [夜になると、何が増え、何が減るか――薄明と夜の住人から、昼と夜の遊びを分ける](weather-season-time-night-what-grows-what-fades.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -128,6 +128,7 @@
 - 第4回：[その風は、何を伝えるか――風・霧・雷に、向き・距離・規則を語らせる](weather-season-time-wind-fog-thunder-what-it-tells.md) 🟢
 - 第5回：[季節が変わると、何が戻り、何が去るか――四季の区切りと「去るもの」から、季節の遊びを決める](weather-season-time-seasons-what-returns-what-leaves.md) 🟢
 - 第6回：[その変化は、先に知らせるか――天気予報の信頼度と「備える判断」から、ゲームの予報を設計する](weather-season-time-forecast-tell-before-change.md) 🟢
+- 第7回：[その時間は、戻せるか――『ムジュラの仮面』の３日間から、巻き戻せる時間を設計する](weather-season-time-closed-loop-can-time-rewind.md) 🟢
 
 ### 🎯 進行・目標・難易度
 
