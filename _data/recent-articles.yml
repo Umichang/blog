@@ -1,5 +1,7 @@
 ---
 articles:
+- path: weather-season-time-forecast-tell-before-change.md
+  published_at: '2026-10-16T08:17:07Z'
 - path: weather-season-time-seasons-what-returns-what-leaves.md
   published_at: '2026-10-16T07:43:25Z'
 - path: weather-season-time-wind-fog-thunder-what-it-tells.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-15T09:56:33Z'
 - path: weather-season-time-night-what-grows-what-fades.md
   published_at: '2026-10-15T08:02:10Z'
-- path: weather-season-time-cycles-real-or-compressed.md
-  published_at: '2026-10-14T23:44:40Z'

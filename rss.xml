@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 16 Oct 2026 07:43:25 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 08:17:07 -0000</lastBuildDate>
+    <item>
+      <title>その変化は、先に知らせるか――天気予報の信頼度と「備える判断」から、ゲームの予報を設計する</title>
+      <link>https://umichang.github.io/blog/weather-season-time-forecast-tell-before-change.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/weather-season-time-forecast-tell-before-change.html</guid>
+      <description>「天気と季節から時間をつくる」第6回。気象庁の確率予報、FFXIVの天気予報士、Stardew Valleyのテレビを手がかりに、変化をどこまで先に、どれだけ確かに知らせるかを考える。</description>
+      <pubDate>Fri, 16 Oct 2026 08:17:07 -0000</pubDate>
+    </item>
     <item>
       <title>季節が変わると、何が戻り、何が去るか――四季の区切りと「去るもの」から、季節の遊びを決める</title>
       <link>https://umichang.github.io/blog/weather-season-time-seasons-what-returns-what-leaves.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/weather-season-time-night-what-grows-what-fades.html</guid>
       <description>「天気と季節から時間をつくる」第2回として、薄明の段階とMinecraft、『どうぶつの森』、『Dying Light』の事例から、昼夜で変わる危険・出会い・視界・店と、夜に備える夕方の予告を設計する考え方を解説する。</description>
       <pubDate>Thu, 15 Oct 2026 08:02:10 -0000</pubDate>
-    </item>
-    <item>
-      <title>その変化は、遊びの何を変えるか――昼夜と季節を、現実の速さで流すか、縮めて回すか</title>
-      <link>https://umichang.github.io/blog/weather-season-time-cycles-real-or-compressed.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/weather-season-time-cycles-real-or-compressed.html</guid>
-      <description>昼夜や季節を現実と同じ速さで流すか、縮めて回すか。『どうぶつの森』とMinecraftから、出会い・店・危険に変化を与える設計を考える。「天気と季節から時間をつくる」第1回。</description>
-      <pubDate>Wed, 14 Oct 2026 23:44:40 -0000</pubDate>
     </item>
   </channel>
 </rss>
