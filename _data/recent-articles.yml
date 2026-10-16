@@ -1,5 +1,7 @@
 ---
 articles:
+- path: weather-season-time-wind-fog-thunder-what-it-tells.md
+  published_at: '2026-10-16T01:03:55Z'
 - path: weather-season-time-rain-intensity-levels.md
   published_at: '2026-10-15T09:56:33Z'
 - path: weather-season-time-night-what-grows-what-fades.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-14T23:44:40Z'
 - path: ecology-fictional-taxonomy-who-classifies.md
   published_at: '2026-10-14T13:54:50Z'
-- path: ecology-ecosystem-engineers-keystone-species-changing-land.md
-  published_at: '2026-10-14T07:34:17Z'
