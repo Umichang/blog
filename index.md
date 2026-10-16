@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [「毎日5時にリセット」は、どの時計の5時か――うるう秒の廃止から考える、ゲームの時間と時計](game-time-and-clocks-for-planners.md) 🟢
 - [その時間は、戻せるか――『ムジュラの仮面』の３日間から、巻き戻せる時間を設計する](weather-season-time-closed-loop-can-time-rewind.md) 🟢
 - [その変化は、先に知らせるか――天気予報の信頼度と「備える判断」から、ゲームの予報を設計する](weather-season-time-forecast-tell-before-change.md) 🟢
 - [季節が変わると、何が戻り、何が去るか――四季の区切りと「去るもの」から、季節の遊びを決める](weather-season-time-seasons-what-returns-what-leaves.md) 🟢
 - [その風は、何を伝えるか――風・霧・雷に、向き・距離・規則を語らせる](weather-season-time-wind-fog-thunder-what-it-tells.md) 🟢
-- [その雨は、何段階で降るか――気象庁の「雨の強さと降り方」から、雨の効き目を決める](weather-season-time-rain-intensity-levels.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -301,6 +301,7 @@
 - 第4回：[「受け取る」を一度だけにする――ゲームプランナーのための連打と通信再試行の話](game-concurrent-and-repeated-operations-for-planners.md) 🟢
 - 第5回：[「敵は最大何体まで？」を仕様にする――数の増え方と1フレームの持ち時間](game-computation-budget-for-planners.md) 🟢
 - 番外編：[回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門](game-logic-circuits-as-play.md) 🟢
+- 第6回：[「毎日5時にリセット」は、どの時計の5時か――うるう秒の廃止から考える、ゲームの時間と時計](game-time-and-clocks-for-planners.md) 🟢
 
 ### 🧪 品質保証・デバッグ・リリース
 

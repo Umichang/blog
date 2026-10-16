@@ -1,5 +1,7 @@
 ---
 articles:
+- path: game-time-and-clocks-for-planners.md
+  published_at: '2026-10-16T14:07:47Z'
 - path: weather-season-time-closed-loop-can-time-rewind.md
   published_at: '2026-10-16T08:46:48Z'
 - path: weather-season-time-forecast-tell-before-change.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-16T07:43:25Z'
 - path: weather-season-time-wind-fog-thunder-what-it-tells.md
   published_at: '2026-10-16T01:03:55Z'
-- path: weather-season-time-rain-intensity-levels.md
-  published_at: '2026-10-15T09:56:33Z'
