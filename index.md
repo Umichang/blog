@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [季節が変わると、何が戻り、何が去るか――四季の区切りと「去るもの」から、季節の遊びを決める](weather-season-time-seasons-what-returns-what-leaves.md) 🟢
 - [その風は、何を伝えるか――風・霧・雷に、向き・距離・規則を語らせる](weather-season-time-wind-fog-thunder-what-it-tells.md) 🟢
 - [その雨は、何段階で降るか――気象庁の「雨の強さと降り方」から、雨の効き目を決める](weather-season-time-rain-intensity-levels.md) 🟢
 - [夜になると、何が増え、何が減るか――薄明と夜の住人から、昼と夜の遊びを分ける](weather-season-time-night-what-grows-what-fades.md) 🟢
 - [その変化は、遊びの何を変えるか――昼夜と季節を、現実の速さで流すか、縮めて回すか](weather-season-time-cycles-real-or-compressed.md) 🟢
-- [その分類は、誰が分けたのか――『鼻行類』と『Encyclopaedia Eorzea』から架空の分類体系をつくる](ecology-fictional-taxonomy-who-classifies.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -126,6 +126,7 @@
 - 第2回：[夜になると、何が増え、何が減るか――薄明と夜の住人から、昼と夜の遊びを分ける](weather-season-time-night-what-grows-what-fades.md) 🟢
 - 第3回：[その雨は、何段階で降るか――気象庁の「雨の強さと降り方」から、雨の効き目を決める](weather-season-time-rain-intensity-levels.md) 🟢
 - 第4回：[その風は、何を伝えるか――風・霧・雷に、向き・距離・規則を語らせる](weather-season-time-wind-fog-thunder-what-it-tells.md) 🟢
+- 第5回：[季節が変わると、何が戻り、何が去るか――四季の区切りと「去るもの」から、季節の遊びを決める](weather-season-time-seasons-what-returns-what-leaves.md) 🟢
 
 ### 🎯 進行・目標・難易度
 
