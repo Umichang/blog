@@ -300,8 +300,8 @@
 - 第3回：[「いま何ができるか」を仕様にする――ゲームプランナーのための状態遷移入門](game-state-transitions-for-planners.md) 🟢
 - 第4回：[「受け取る」を一度だけにする――ゲームプランナーのための連打と通信再試行の話](game-concurrent-and-repeated-operations-for-planners.md) 🟢
 - 第5回：[「敵は最大何体まで？」を仕様にする――数の増え方と1フレームの持ち時間](game-computation-budget-for-planners.md) 🟢
-- 番外編：[回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門](game-logic-circuits-as-play.md) 🟢
 - 第6回：[「毎日5時にリセット」は、どの時計の5時か――うるう秒の廃止から考える、ゲームの時間と時計](game-time-and-clocks-for-planners.md) 🟢
+- 番外編：[回路を組むと、遊びが増える――ゲームプランナーのためのAND・OR・NOT入門](game-logic-circuits-as-play.md) 🟢
 
 ### 🧪 品質保証・デバッグ・リリース
 
