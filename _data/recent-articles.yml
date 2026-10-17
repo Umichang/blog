@@ -1,5 +1,7 @@
 ---
 articles:
+- path: tactics-strategy-levels-what-player-decides.md
+  published_at: '2026-10-17T03:18:09Z'
 - path: game-time-and-clocks-for-planners.md
   published_at: '2026-10-16T14:07:47Z'
 - path: weather-season-time-closed-loop-can-time-rewind.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-16T08:17:07Z'
 - path: weather-season-time-seasons-what-returns-what-leaves.md
   published_at: '2026-10-16T07:43:25Z'
-- path: weather-season-time-wind-fog-thunder-what-it-tells.md
-  published_at: '2026-10-16T01:03:55Z'

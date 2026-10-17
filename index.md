@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その判断は、どの階層のものか――戦略・作戦・戦術から、プレイヤーに任せる決断を選ぶ](tactics-strategy-levels-what-player-decides.md) 🟢
 - [「毎日5時にリセット」は、どの時計の5時か――うるう秒の廃止から考える、ゲームの時間と時計](game-time-and-clocks-for-planners.md) 🟢
 - [その時間は、戻せるか――『ムジュラの仮面』の３日間から、巻き戻せる時間を設計する](weather-season-time-closed-loop-can-time-rewind.md) 🟢
 - [その変化は、先に知らせるか――天気予報の信頼度と「備える判断」から、ゲームの予報を設計する](weather-season-time-forecast-tell-before-change.md) 🟢
 - [季節が変わると、何が戻り、何が去るか――四季の区切りと「去るもの」から、季節の遊びを決める](weather-season-time-seasons-what-returns-what-leaves.md) 🟢
-- [その風は、何を伝えるか――風・霧・雷に、向き・距離・規則を語らせる](weather-season-time-wind-fog-thunder-what-it-tells.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -144,6 +144,10 @@
 - [対戦ゲームのマッチメイキングとレーティング――仕組みと設計トレードオフ](competitive-game-matchmaking-rating-explained.md) 🔴
 - [トレーディングカードゲームのデジタル化とデッキ構築設計の実務](tcg-digital-deck-building-design-practices.md) 🔴
 - [RPGバトル設計の落とし穴：割合ダメージを軸に学ぶ「萎え」の原因と対策](rpg-battle-design-pitfalls-percentage-damage.md) 🟡
+
+#### 戦術と兵法からバトルをつくる
+
+- 第1回：[その判断は、どの階層のものか――戦略・作戦・戦術から、プレイヤーに任せる決断を選ぶ](tactics-strategy-levels-what-player-decides.md) 🟢
 
 ### 🔍 タイトル別・体験設計の分析
 
