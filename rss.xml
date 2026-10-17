@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 17 Oct 2026 03:18:09 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:16:59 -0000</lastBuildDate>
+    <item>
+      <title>その地形は、誰に何を貸すか――『孫子』の高所と難地から、地形の有利と代償を設計する</title>
+      <link>https://umichang.github.io/blog/tactics-terrain-high-ground-what-it-lends.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/tactics-terrain-high-ground-what-it-lends.html</guid>
+      <description>『孫子』の高所と難地を手掛かりに、タクティクスオウガ、FEエンゲージ、FFTの例から、地形の有利の大きさ・取りやすさ・代償を分けて考え、開始配置やユニット性能、カメラまで含めた地形設計の点検方法を解説する。</description>
+      <pubDate>Sat, 17 Oct 2026 08:16:59 -0000</pubDate>
+    </item>
     <item>
       <title>その判断は、どの階層のものか――戦略・作戦・戦術から、プレイヤーに任せる決断を選ぶ</title>
       <link>https://umichang.github.io/blog/tactics-strategy-levels-what-player-decides.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/weather-season-time-forecast-tell-before-change.html</guid>
       <description>「天気と季節から時間をつくる」第6回。気象庁の確率予報、FFXIVの天気予報士、Stardew Valleyのテレビを手がかりに、変化をどこまで先に、どれだけ確かに知らせるかを考える。</description>
       <pubDate>Fri, 16 Oct 2026 08:17:07 -0000</pubDate>
-    </item>
-    <item>
-      <title>季節が変わると、何が戻り、何が去るか――四季の区切りと「去るもの」から、季節の遊びを決める</title>
-      <link>https://umichang.github.io/blog/weather-season-time-seasons-what-returns-what-leaves.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/weather-season-time-seasons-what-returns-what-leaves.html</guid>
-      <description>「天気と季節から時間をつくる」第5回。四季と雨季・乾季、どうぶつの森、Forza Horizon、Stardew Valleyを手がかりに、戻るものと去るものを組にして季節の遊びを設計する。</description>
-      <pubDate>Fri, 16 Oct 2026 07:43:25 -0000</pubDate>
     </item>
   </channel>
 </rss>
