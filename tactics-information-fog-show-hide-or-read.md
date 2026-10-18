@@ -112,7 +112,7 @@ GDC 2019でMatthew Davis（Subset Games）が行った「'Into the Breach' Desig
 
 ## 隠して、しるしから読ませる――ファミコンウォーズの霧と『孫子』行軍篇
 
-ファミコンウォーズの流れを汲む『Advance Wars』と『Advance Wars 2: Black Hole Rising』は、日本では2004年に『ゲームボーイウォーズアドバンス1+2』としてセットで発売された。そのSwitch版リメイクが『Advance Wars 1+2: Re-Boot Camp』である。[[7](#ref-7)]作品の紹介は[第3回](tactics-concentration-numbers-widen-or-narrow.md)も参照してほしい。
+ファミコンウォーズの流れを汲む『Advance Wars』と『Advance Wars 2: Black Hole Rising』は、日本では2004年に『ゲームボーイウォーズアドバンス1+2』としてセットで発売された。そのSwitch版リメイクが『Advance Wars 1+2: Re-Boot Camp』である。[[7](#ref-7)] 作品の紹介は[第3回](tactics-concentration-numbers-widen-or-narrow.md)も参照してほしい。
 
 英国任天堂の紹介記事は、四つ目のヒントで、戦場の霧によって視界が隠れたときの観察を勧めている。遠距離部隊から攻撃を受けたら、戦闘アニメーションの背景を見るのである。[[8](#ref-8)]
 
