@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その包囲は、相手に逃げ道を残すか――カンナエと『孫子』から、側面・挟撃・包囲を設計する](tactics-flank-encirclement-leave-a-way-out.md) 🟢
 - [その仕組みは、数の差を広げるか、縮めるか――ランチェスターと『孫子』から、集中攻撃と数の有利を設計する](tactics-concentration-numbers-widen-or-narrow.md) 🟢
 - [その地形は、誰に何を貸すか――『孫子』の高所と難地から、地形の有利と代償を設計する](tactics-terrain-high-ground-what-it-lends.md) 🟢
 - [その判断は、どの階層のものか――戦略・作戦・戦術から、プレイヤーに任せる決断を選ぶ](tactics-strategy-levels-what-player-decides.md) 🟢
 - [「毎日5時にリセット」は、どの時計の5時か――うるう秒の廃止から考える、ゲームの時間と時計](game-time-and-clocks-for-planners.md) 🟢
-- [その時間は、戻せるか――『ムジュラの仮面』の３日間から、巻き戻せる時間を設計する](weather-season-time-closed-loop-can-time-rewind.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -150,6 +150,7 @@
 - 第1回：[その判断は、どの階層のものか――戦略・作戦・戦術から、プレイヤーに任せる決断を選ぶ](tactics-strategy-levels-what-player-decides.md) 🟢
 - 第2回：[その地形は、誰に何を貸すか――『孫子』の高所と難地から、地形の有利と代償を設計する](tactics-terrain-high-ground-what-it-lends.md) 🟢
 - 第3回：[その仕組みは、数の差を広げるか、縮めるか――ランチェスターと『孫子』から、集中攻撃と数の有利を設計する](tactics-concentration-numbers-widen-or-narrow.md) 🟢
+- 第4回：[その包囲は、相手に逃げ道を残すか――カンナエと『孫子』から、側面・挟撃・包囲を設計する](tactics-flank-encirclement-leave-a-way-out.md) 🟢
 
 ### 🔍 タイトル別・体験設計の分析
 

@@ -5,12 +5,19 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 17 Oct 2026 11:02:44 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 05:51:48 -0000</lastBuildDate>
+    <item>
+      <title>その包囲は、相手に逃げ道を残すか――カンナエと『孫子』から、側面・挟撃・包囲を設計する</title>
+      <link>https://umichang.github.io/blog/tactics-flank-encirclement-leave-a-way-out.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/tactics-flank-encirclement-leave-a-way-out.html</guid>
+      <description>タクティクスオウガとトライアングルストラテジー、カンナエの戦いと『孫子』を手掛かりに、側面・背後の有利、挟撃の条件、包囲された相手の振る舞いと逃げ道を残す判断を考える。「戦術と兵法からバトルをつくる」第4回。</description>
+      <pubDate>Sun, 18 Oct 2026 05:51:48 -0000</pubDate>
+    </item>
     <item>
       <title>その仕組みは、数の差を広げるか、縮めるか――ランチェスターと『孫子』から、集中攻撃と数の有利を設計する</title>
       <link>https://umichang.github.io/blog/tactics-concentration-numbers-widen-or-narrow.html</link>
       <guid isPermaLink="true">https://umichang.github.io/blog/tactics-concentration-numbers-widen-or-narrow.html</guid>
-      <description>「戦術と兵法からバトルをつくる」第3回では、ランチェスターの二つの法則と『孫子』を手掛かりに、Advance WarsとFEエンゲージの例から、集中攻撃・損害と火力・狭い通路・合流が数の有利をどう変えるかを考える。</description>
+      <description>ランチェスターの二つの法則と『孫子』を手掛かりに、Advance WarsとFEエンゲージの例から、集中攻撃・損害と火力・狭い通路・合流が数の有利をどう変えるかを考える。「戦術と兵法からバトルをつくる」第3回。</description>
       <pubDate>Sat, 17 Oct 2026 11:02:44 -0000</pubDate>
     </item>
     <item>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-time-and-clocks-for-planners.html</guid>
       <description>うるう秒の実質廃止を入口に、日付と時刻を示す時計と経過時間を測る時計、タイムゾーンや夏時間の違いを整理し、「毎日5時」と「24時間後」をゲームの仕様に落とし込むための判断点を解説する。</description>
       <pubDate>Fri, 16 Oct 2026 14:07:47 -0000</pubDate>
-    </item>
-    <item>
-      <title>その時間は、戻せるか――『ムジュラの仮面』の３日間から、巻き戻せる時間を設計する</title>
-      <link>https://umichang.github.io/blog/weather-season-time-closed-loop-can-time-rewind.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/weather-season-time-closed-loop-can-time-rewind.html</guid>
-      <description>「天気と季節から時間をつくる」第7回・最終回。『ムジュラの仮面』の３日間から、巻き戻す周期の長さ、持ち越すもの、出来事の知らせ方、残す緊張を考え、全7回の判断軸をまとめる。</description>
-      <pubDate>Fri, 16 Oct 2026 08:46:48 -0000</pubDate>
     </item>
   </channel>
 </rss>

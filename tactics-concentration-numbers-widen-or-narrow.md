@@ -1,5 +1,5 @@
 ---
-description: "「戦術と兵法からバトルをつくる」第3回では、ランチェスターの二つの法則と『孫子』を手掛かりに、Advance WarsとFEエンゲージの例から、集中攻撃・損害と火力・狭い通路・合流が数の有利をどう変えるかを考える。"
+description: "ランチェスターの二つの法則と『孫子』を手掛かりに、Advance WarsとFEエンゲージの例から、集中攻撃・損害と火力・狭い通路・合流が数の有利をどう変えるかを考える。「戦術と兵法からバトルをつくる」第3回。"
 category: battle-competitive-deckbuilding
 difficulty: green
 ---
