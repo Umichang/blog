@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [AIで「勝手移植」が速くなる時代――速く作れることは、出してよい理由になるか](unauthorized-ports-ai-speed-is-not-permission.md) 🟡
 - [その手番は、先手をどう回すか――『孫子』とタクティクスRPGから、行動順と主導権を設計する](tactics-initiative-passing-the-first-move.md) 🟢
 - [その消耗は、どこで補えるか――兵站と『孫子』から、補給と消耗を設計する](tactics-supply-where-losses-are-restored.md) 🟢
 - [その情報は、見せるか、隠すか、読ませるか――戦場の霧と『孫子』から、予告・危険範囲・兆候を設計する](tactics-information-fog-show-hide-or-read.md) 🟢
 - [その包囲は、相手に逃げ道を残すか――カンナエと『孫子』から、側面・挟撃・包囲を設計する](tactics-flank-encirclement-leave-a-way-out.md) 🟢
-- [その仕組みは、数の差を広げるか、縮めるか――ランチェスターと『孫子』から、集中攻撃と数の有利を設計する](tactics-concentration-numbers-widen-or-narrow.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -427,6 +427,7 @@
 - [黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか](tacit-tolerance-doujin-ip-enforcement.md) 🟡
 - [小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP](indie-game-publishing-contract-revenue-recoup-ip.md) 🔴
 - [生成AIと著作権法 ― ゲーム業界の実務論点ガイド](generative-ai-copyright-game-industry-guide.md) 🔴
+- [AIで「勝手移植」が速くなる時代――速く作れることは、出してよい理由になるか](unauthorized-ports-ai-speed-is-not-permission.md) 🟡
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🟡
 - [『パルワールド』訴訟はゲームデザインをどう動かしたか――特許係争と1.0正式版までの歩み](palworld-nintendo-patent-lawsuit-and-game-design-analysis.md) 🔴
 - [ソニーvsテンセント『Horizon』対『Light of Motiram』訴訟の経緯と決着](sony-tencent-horizon-light-of-motiram-lawsuit.md) 🟡
