@@ -1,5 +1,7 @@
 ---
 articles:
+- path: tactics-supply-where-losses-are-restored.md
+  published_at: '2026-10-19T03:29:44Z'
 - path: tactics-information-fog-show-hide-or-read.md
   published_at: '2026-10-18T13:55:28Z'
 - path: tactics-flank-encirclement-leave-a-way-out.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-17T11:02:44Z'
 - path: tactics-terrain-high-ground-what-it-lends.md
   published_at: '2026-10-17T08:16:59Z'
-- path: tactics-strategy-levels-what-player-decides.md
-  published_at: '2026-10-17T03:18:09Z'

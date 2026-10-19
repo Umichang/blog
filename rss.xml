@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 18 Oct 2026 13:55:28 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 03:29:44 -0000</lastBuildDate>
+    <item>
+      <title>その消耗は、どこで補えるか――兵站と『孫子』から、補給と消耗を設計する</title>
+      <link>https://umichang.github.io/blog/tactics-supply-where-losses-are-restored.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/tactics-supply-where-losses-are-restored.html</guid>
+      <description>兵站と『孫子』作戦篇を手掛かりに、ファミコンウォーズの輸送車・都市とFEエンゲージの武器耐久値から、部隊の何を消耗させ、どこでどう補わせるかという設計判断を考える。「戦術と兵法からバトルをつくる」第6回。</description>
+      <pubDate>Mon, 19 Oct 2026 03:29:44 -0000</pubDate>
+    </item>
     <item>
       <title>その情報は、見せるか、隠すか、読ませるか――戦場の霧と『孫子』から、予告・危険範囲・兆候を設計する</title>
       <link>https://umichang.github.io/blog/tactics-information-fog-show-hide-or-read.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/tactics-terrain-high-ground-what-it-lends.html</guid>
       <description>『孫子』の高所と難地を手掛かりに、タクティクスオウガ、FEエンゲージ、FFTの例から、地形の有利の大きさ・取りやすさ・代償を分け、配置やカメラまで含めて点検する。「戦術と兵法からバトルをつくる」第2回。</description>
       <pubDate>Sat, 17 Oct 2026 08:16:59 -0000</pubDate>
-    </item>
-    <item>
-      <title>その判断は、どの階層のものか――戦略・作戦・戦術から、プレイヤーに任せる決断を選ぶ</title>
-      <link>https://umichang.github.io/blog/tactics-strategy-levels-what-player-decides.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/tactics-strategy-levels-what-player-decides.html</guid>
-      <description>国の方針と、目の前の一手。戦略・作戦・戦術の階層を手掛かりに、『XCOM: Enemy Unknown』とタクティクスRPGから、プレイヤーに任せる判断と結果のつなぎ方を考える。「戦術と兵法からバトルをつくる」第1回。</description>
-      <pubDate>Sat, 17 Oct 2026 03:18:09 -0000</pubDate>
     </item>
   </channel>
 </rss>
