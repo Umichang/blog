@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その手番は、先手をどう回すか――『孫子』とタクティクスRPGから、行動順と主導権を設計する](tactics-initiative-passing-the-first-move.md) 🟢
 - [その消耗は、どこで補えるか――兵站と『孫子』から、補給と消耗を設計する](tactics-supply-where-losses-are-restored.md) 🟢
 - [その情報は、見せるか、隠すか、読ませるか――戦場の霧と『孫子』から、予告・危険範囲・兆候を設計する](tactics-information-fog-show-hide-or-read.md) 🟢
 - [その包囲は、相手に逃げ道を残すか――カンナエと『孫子』から、側面・挟撃・包囲を設計する](tactics-flank-encirclement-leave-a-way-out.md) 🟢
 - [その仕組みは、数の差を広げるか、縮めるか――ランチェスターと『孫子』から、集中攻撃と数の有利を設計する](tactics-concentration-numbers-widen-or-narrow.md) 🟢
-- [その地形は、誰に何を貸すか――『孫子』の高所と難地から、地形の有利と代償を設計する](tactics-terrain-high-ground-what-it-lends.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -153,6 +153,7 @@
 - 第4回：[その包囲は、相手に逃げ道を残すか――カンナエと『孫子』から、側面・挟撃・包囲を設計する](tactics-flank-encirclement-leave-a-way-out.md) 🟢
 - 第5回：[その情報は、見せるか、隠すか、読ませるか――戦場の霧と『孫子』から、予告・危険範囲・兆候を設計する](tactics-information-fog-show-hide-or-read.md) 🟢
 - 第6回：[その消耗は、どこで補えるか――兵站と『孫子』から、補給と消耗を設計する](tactics-supply-where-losses-are-restored.md) 🟢
+- 第7回：[その手番は、先手をどう回すか――『孫子』とタクティクスRPGから、行動順と主導権を設計する](tactics-initiative-passing-the-first-move.md) 🟢
 
 ### 🔍 タイトル別・体験設計の分析
 
