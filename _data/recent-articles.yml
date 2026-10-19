@@ -1,5 +1,7 @@
 ---
 articles:
+- path: vr-xr-planning-reason-to-wear-a-headset.md
+  published_at: '2026-10-19T23:27:05Z'
 - path: unauthorized-ports-ai-speed-is-not-permission.md
   published_at: '2026-10-19T23:12:45Z'
 - path: tactics-initiative-passing-the-first-move.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-19T03:29:44Z'
 - path: tactics-information-fog-show-hide-or-read.md
   published_at: '2026-10-18T13:55:28Z'
-- path: tactics-flank-encirclement-leave-a-way-out.md
-  published_at: '2026-10-18T05:51:48Z'
