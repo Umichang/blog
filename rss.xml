@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 20 Oct 2026 05:47:33 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 10:02:50 -0000</lastBuildDate>
+    <item>
+      <title>その情報は、見え方の違うプレイヤーにも届くか――VR・XRの見え方と読みやすさを考える</title>
+      <link>https://umichang.github.io/blog/vr-xr-vision-legibility-different-eyes.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/vr-xr-vision-legibility-different-eyes.html</guid>
+      <description>編者の見え方を出発点に、視力の統計、ヘッドセットの補正手段、文字とUI、文字以外の手がかりを整理し、「その情報は、見え方の違うプレイヤーにも届くか」を企画書で点検する。「VR・XRを企画することになったら」第3回。</description>
+      <pubDate>Tue, 20 Oct 2026 10:02:50 -0000</pubDate>
+    </item>
     <item>
       <title>その動きを、身体は先に予想できるか――VRの身体と酔いを、移動の設計から考える</title>
       <link>https://umichang.github.io/blog/vr-xr-body-motion-sickness-predictable-movement.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/tactics-initiative-passing-the-first-move.html</guid>
       <description>『孫子』の主導権を手掛かりに、フェーズ制・素早さ順・CTを比べ、先手をどう回し、行動順をどう見せるかという設計判断を考え、全7回の問いを振り返る。「戦術と兵法からバトルをつくる」第7回（最終回）。</description>
       <pubDate>Mon, 19 Oct 2026 08:32:31 -0000</pubDate>
-    </item>
-    <item>
-      <title>その消耗は、どこで補えるか――兵站と『孫子』から、補給と消耗を設計する</title>
-      <link>https://umichang.github.io/blog/tactics-supply-where-losses-are-restored.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/tactics-supply-where-losses-are-restored.html</guid>
-      <description>兵站と『孫子』作戦篇を手掛かりに、ファミコンウォーズの輸送車・都市とFEエンゲージの武器耐久値から、部隊の何を消耗させ、どこでどう補わせるかという設計判断を考える。「戦術と兵法からバトルをつくる」第6回。</description>
-      <pubDate>Mon, 19 Oct 2026 03:29:44 -0000</pubDate>
     </item>
   </channel>
 </rss>
