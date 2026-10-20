@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その動きを、身体は先に予想できるか――VRの身体と酔いを、移動の設計から考える](vr-xr-body-motion-sickness-predictable-movement.md) 🟢
 - [その体験は、ヘッドセットを被る理由になるか――Metaの12年と市場の現在地から、VR・XRの企画を始める](vr-xr-planning-reason-to-wear-a-headset.md) 🟢
 - [AIで「勝手移植」が速くなる時代――速く作れることは、出してよい理由になるか](unauthorized-ports-ai-speed-is-not-permission.md) 🟡
 - [その手番は、先手をどう回すか――『孫子』とタクティクスRPGから、行動順と主導権を設計する](tactics-initiative-passing-the-first-move.md) 🟢
 - [その消耗は、どこで補えるか――兵站と『孫子』から、補給と消耗を設計する](tactics-supply-where-losses-are-restored.md) 🟢
-- [その情報は、見せるか、隠すか、読ませるか――戦場の霧と『孫子』から、予告・危険範囲・兆候を設計する](tactics-information-fog-show-hide-or-read.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -103,6 +103,7 @@
 #### VR・XRを企画することになったら
 
 - 第1回：[その体験は、ヘッドセットを被る理由になるか――Metaの12年と市場の現在地から、VR・XRの企画を始める](vr-xr-planning-reason-to-wear-a-headset.md) 🟢
+- 第2回：[その動きを、身体は先に予想できるか――VRの身体と酔いを、移動の設計から考える](vr-xr-body-motion-sickness-predictable-movement.md) 🟢
 
 ### 🌐 オンライン・ネットワーク
 

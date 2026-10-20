@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 19 Oct 2026 23:27:05 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 05:47:33 -0000</lastBuildDate>
+    <item>
+      <title>その動きを、身体は先に予想できるか――VRの身体と酔いを、移動の設計から考える</title>
+      <link>https://umichang.github.io/blog/vr-xr-body-motion-sickness-predictable-movement.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/vr-xr-body-motion-sickness-predictable-movement.html</guid>
+      <description>VRの身体と酔いを、編者の『グランツーリスモ7』体験から考える。感覚の食い違い、移動方式の選択、姿勢と休憩の設計を通じて「その動きを、身体は先に予想できるか」を点検する「VR・XRを企画することになったら」第2回。</description>
+      <pubDate>Tue, 20 Oct 2026 05:47:33 -0000</pubDate>
+    </item>
     <item>
       <title>その体験は、ヘッドセットを被る理由になるか――Metaの12年と市場の現在地から、VR・XRの企画を始める</title>
       <link>https://umichang.github.io/blog/vr-xr-planning-reason-to-wear-a-headset.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/tactics-supply-where-losses-are-restored.html</guid>
       <description>兵站と『孫子』作戦篇を手掛かりに、ファミコンウォーズの輸送車・都市とFEエンゲージの武器耐久値から、部隊の何を消耗させ、どこでどう補わせるかという設計判断を考える。「戦術と兵法からバトルをつくる」第6回。</description>
       <pubDate>Mon, 19 Oct 2026 03:29:44 -0000</pubDate>
-    </item>
-    <item>
-      <title>その情報は、見せるか、隠すか、読ませるか――戦場の霧と『孫子』から、予告・危険範囲・兆候を設計する</title>
-      <link>https://umichang.github.io/blog/tactics-information-fog-show-hide-or-read.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/tactics-information-fog-show-hide-or-read.html</guid>
-      <description>戦場の霧と『孫子』を手掛かりに、Into the Breachの行動予告、FE覚醒の危険範囲、ファミコンウォーズの兆候から、敵の位置や次の行動を見せる・隠す・読ませる判断を考える。「戦術と兵法からバトルをつくる」第5回。</description>
-      <pubDate>Sun, 18 Oct 2026 13:55:28 -0000</pubDate>
     </item>
   </channel>
 </rss>
