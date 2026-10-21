@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 20 Oct 2026 10:02:50 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:02:38 -0000</lastBuildDate>
+    <item>
+      <title>その操作は、その部屋とその身体で続けられるか――VR・XRの入力と空間を考える</title>
+      <link>https://umichang.github.io/blog/vr-xr-input-space-room-and-body.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/vr-xr-input-space-room-and-body.html</guid>
+      <description>VR・XRの入力を、コントローラー・手・視線の違い、腕の疲れ、UIの距離と大きさ、遊ぶ部屋と身体の違いから考える。「その操作は、その部屋とその身体で続けられるか」を企画書で点検する。「VR・XRを企画することになったら」第4回。</description>
+      <pubDate>Wed, 21 Oct 2026 01:02:38 -0000</pubDate>
+    </item>
     <item>
       <title>その情報は、見え方の違うプレイヤーにも届くか――VR・XRの見え方と読みやすさを考える</title>
       <link>https://umichang.github.io/blog/vr-xr-vision-legibility-different-eyes.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/unauthorized-ports-ai-speed-is-not-permission.html</guid>
       <description>AIで古いゲームの解析・移植が速くなっても、公開の許諾は別に必要となる。2026年秋の動きと過去のファン作品、エムツー代表の発言から、公式展開との衝突とプランナーが備えるべきことを考える。</description>
       <pubDate>Mon, 19 Oct 2026 23:12:45 -0000</pubDate>
-    </item>
-    <item>
-      <title>その手番は、先手をどう回すか――『孫子』とタクティクスRPGから、行動順と主導権を設計する</title>
-      <link>https://umichang.github.io/blog/tactics-initiative-passing-the-first-move.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/tactics-initiative-passing-the-first-move.html</guid>
-      <description>『孫子』の主導権を手掛かりに、フェーズ制・素早さ順・CTを比べ、先手をどう回し、行動順をどう見せるかという設計判断を考え、全7回の問いを振り返る。「戦術と兵法からバトルをつくる」第7回（最終回）。</description>
-      <pubDate>Mon, 19 Oct 2026 08:32:31 -0000</pubDate>
     </item>
   </channel>
 </rss>
