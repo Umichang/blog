@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その場所は、目的がなくても安心して居られるか――ゲームではない場所、ソーシャルVRを考える](vr-xr-social-vr-safe-place-without-goal.md) 🟢
 - [その操作は、その部屋とその身体で続けられるか――VR・XRの入力と空間を考える](vr-xr-input-space-room-and-body.md) 🟢
 - [その情報は、見え方の違うプレイヤーにも届くか――VR・XRの見え方と読みやすさを考える](vr-xr-vision-legibility-different-eyes.md) 🟢
 - [その動きを、身体は先に予想できるか――VRの身体と酔いを、移動の設計から考える](vr-xr-body-motion-sickness-predictable-movement.md) 🟢
 - [その体験は、ヘッドセットを被る理由になるか――Metaの12年と市場の現在地から、VR・XRの企画を始める](vr-xr-planning-reason-to-wear-a-headset.md) 🟢
-- [AIで「勝手移植」が速くなる時代――速く作れることは、出してよい理由になるか](unauthorized-ports-ai-speed-is-not-permission.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -106,6 +106,7 @@
 - 第2回：[その動きを、身体は先に予想できるか――VRの身体と酔いを、移動の設計から考える](vr-xr-body-motion-sickness-predictable-movement.md) 🟢
 - 第3回：[その情報は、見え方の違うプレイヤーにも届くか――VR・XRの見え方と読みやすさを考える](vr-xr-vision-legibility-different-eyes.md) 🟢
 - 第4回：[その操作は、その部屋とその身体で続けられるか――VR・XRの入力と空間を考える](vr-xr-input-space-room-and-body.md) 🟢
+- 第5回：[その場所は、目的がなくても安心して居られるか――ゲームではない場所、ソーシャルVRを考える](vr-xr-social-vr-safe-place-without-goal.md) 🟢
 
 ### 🌐 オンライン・ネットワーク
 

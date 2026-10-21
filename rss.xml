@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 21 Oct 2026 01:02:38 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 06:05:36 -0000</lastBuildDate>
+    <item>
+      <title>その場所は、目的がなくても安心して居られるか――ゲームではない場所、ソーシャルVRを考える</title>
+      <link>https://umichang.github.io/blog/vr-xr-social-vr-safe-place-without-goal.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/vr-xr-social-vr-safe-place-without-goal.html</guid>
+      <description>ソーシャルVRを、目的がなくても安心して居られる場所として考える。VRChatの利用統計、身体性を伴うハラスメントの研究、距離・表示・年齢の保護から、新人プランナーの点検項目を整理する。「VR・XRを企画することになったら」第5回。</description>
+      <pubDate>Wed, 21 Oct 2026 06:05:36 -0000</pubDate>
+    </item>
     <item>
       <title>その操作は、その部屋とその身体で続けられるか――VR・XRの入力と空間を考える</title>
       <link>https://umichang.github.io/blog/vr-xr-input-space-room-and-body.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/vr-xr-planning-reason-to-wear-a-headset.html</guid>
       <description>Metaの12年とVR・XR市場の現在地をたどり、ヘッドセットで増える体験と装着の負担を比べながら、初めて企画を任された人が「被る理由」を問い直す判断軸と点検表を示す「VR・XRを企画することになったら」第1回。</description>
       <pubDate>Mon, 19 Oct 2026 23:27:05 -0000</pubDate>
-    </item>
-    <item>
-      <title>AIで「勝手移植」が速くなる時代――速く作れることは、出してよい理由になるか</title>
-      <link>https://umichang.github.io/blog/unauthorized-ports-ai-speed-is-not-permission.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/unauthorized-ports-ai-speed-is-not-permission.html</guid>
-      <description>AIで古いゲームの解析・移植が速くなっても、公開の許諾は別に必要となる。2026年秋の動きと過去のファン作品、エムツー代表の発言から、公式展開との衝突とプランナーが備えるべきことを考える。</description>
-      <pubDate>Mon, 19 Oct 2026 23:12:45 -0000</pubDate>
     </item>
   </channel>
 </rss>

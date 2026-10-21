@@ -1,5 +1,7 @@
 ---
 articles:
+- path: vr-xr-social-vr-safe-place-without-goal.md
+  published_at: '2026-10-21T06:05:36Z'
 - path: vr-xr-input-space-room-and-body.md
   published_at: '2026-10-21T01:02:38Z'
 - path: vr-xr-vision-legibility-different-eyes.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-20T05:47:33Z'
 - path: vr-xr-planning-reason-to-wear-a-headset.md
   published_at: '2026-10-19T23:27:05Z'
-- path: unauthorized-ports-ai-speed-is-not-permission.md
-  published_at: '2026-10-19T23:12:45Z'
