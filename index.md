@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その堀と石垣は、越えるまでの時間を作っているか――日本の城から、進路と代償を設計する](japanese-castle-moats-stone-walls-time-to-cross.md) 🟢
 - [明日もヘッドセットを被りたくなる理由を、作れるか――VR・XRの出口を、遊び終えた後から設計する](vr-xr-exit-design-reason-to-wear-tomorrow.md) 🟢
 - [その場所は、目的がなくても安心して居られるか――ゲームではない場所、ソーシャルVRを考える](vr-xr-social-vr-safe-place-without-goal.md) 🟢
 - [その操作は、その部屋とその身体で続けられるか――VR・XRの入力と空間を考える](vr-xr-input-space-room-and-body.md) 🟢
 - [その情報は、見え方の違うプレイヤーにも届くか――VR・XRの見え方と読みやすさを考える](vr-xr-vision-legibility-different-eyes.md) 🟢
-- [その動きを、身体は先に予想できるか――VRの身体と酔いを、移動の設計から考える](vr-xr-body-motion-sickness-predictable-movement.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -64,6 +64,7 @@
 - 第5回：[その集落は、なぜそこにあるのか――宿場町と村から、人が集まる理由を設計する](post-towns-villages-why-people-gather.md) 🟢
 - 第6回：[ここは、何だったのか――廃墟に残る形から、かつての用途を読ませる](ruins-former-use-traces-layers.md) 🟢
 - 第7回：[人が作ったのに、なぜ迷うのか――迷宮と地下から、帰り道の手がかりを設計する](labyrinths-underground-way-back.md) 🟢
+- 番外編：[その堀と石垣は、越えるまでの時間を作っているか――日本の城から、進路と代償を設計する](japanese-castle-moats-stone-walls-time-to-cross.md) 🟢
 
 ### 🔊 サウンド・音声
 
