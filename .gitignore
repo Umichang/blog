@@ -19,6 +19,9 @@ ARTICLES.md
 .jekyll-metadata
 .cache/
 
+# アドベントカレンダー2026の書きため原稿（公開日に2026adv/へ移してコミットする）
+_adv-drafts/
+
 # Python bytecode cache
 __pycache__/
 *.py[cod]
