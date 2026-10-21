@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 21 Oct 2026 06:05:36 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 06:44:36 -0000</lastBuildDate>
+    <item>
+      <title>明日もヘッドセットを被りたくなる理由を、作れるか――VR・XRの出口を、遊び終えた後から設計する</title>
+      <link>https://umichang.github.io/blog/vr-xr-exit-design-reason-to-wear-tomorrow.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/vr-xr-exit-design-reason-to-wear-tomorrow.html</guid>
+      <description>編者のVR開発経験とMetaの時間設計の指針から、満足して終え、また戻れる1回を考える。平らな画面版へのVR追加や複数端末の往来も含め、明日も被りたくなる理由を企画書で点検する。「VR・XRを企画することになったら」第6回。</description>
+      <pubDate>Wed, 21 Oct 2026 06:44:36 -0000</pubDate>
+    </item>
     <item>
       <title>その場所は、目的がなくても安心して居られるか――ゲームではない場所、ソーシャルVRを考える</title>
       <link>https://umichang.github.io/blog/vr-xr-social-vr-safe-place-without-goal.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/vr-xr-body-motion-sickness-predictable-movement.html</guid>
       <description>VRの身体と酔いを、編者の『グランツーリスモ7』体験から考える。感覚の食い違い、移動方式の選択、姿勢と休憩の設計を通じて「その動きを、身体は先に予想できるか」を点検する「VR・XRを企画することになったら」第2回。</description>
       <pubDate>Tue, 20 Oct 2026 05:47:33 -0000</pubDate>
-    </item>
-    <item>
-      <title>その体験は、ヘッドセットを被る理由になるか――Metaの12年と市場の現在地から、VR・XRの企画を始める</title>
-      <link>https://umichang.github.io/blog/vr-xr-planning-reason-to-wear-a-headset.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/vr-xr-planning-reason-to-wear-a-headset.html</guid>
-      <description>Metaの12年とVR・XR市場の現在地をたどり、ヘッドセットで増える体験と装着の負担を比べながら、初めて企画を任された人が「被る理由」を問い直す判断軸と点検表を示す「VR・XRを企画することになったら」第1回。</description>
-      <pubDate>Mon, 19 Oct 2026 23:27:05 -0000</pubDate>
     </item>
   </channel>
 </rss>
