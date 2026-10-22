@@ -1,5 +1,7 @@
 ---
 articles:
+- path: php-emergency-maintenance-who-decides-to-stop.md
+  published_at: '2026-10-22T01:48:04Z'
 - path: japanese-castle-moats-stone-walls-time-to-cross.md
   published_at: '2026-10-21T08:09:09Z'
 - path: vr-xr-exit-design-reason-to-wear-tomorrow.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-21T06:05:36Z'
 - path: vr-xr-input-space-room-and-body.md
   published_at: '2026-10-21T01:02:38Z'
-- path: vr-xr-vision-legibility-different-eyes.md
-  published_at: '2026-10-20T10:02:50Z'

@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その停止は、誰が、いつ、何を根拠に決めるか――PHPの重大な脆弱性から考える緊急メンテナンスの段取り](php-emergency-maintenance-who-decides-to-stop.md) 🟡
 - [その堀と石垣は、越えるまでの時間を作っているか――日本の城から、進路と代償を設計する](japanese-castle-moats-stone-walls-time-to-cross.md) 🟢
 - [明日もヘッドセットを被りたくなる理由を、作れるか――VR・XRの出口を、遊び終えた後から設計する](vr-xr-exit-design-reason-to-wear-tomorrow.md) 🟢
 - [その場所は、目的がなくても安心して居られるか――ゲームではない場所、ソーシャルVRを考える](vr-xr-social-vr-safe-place-without-goal.md) 🟢
 - [その操作は、その部屋とその身体で続けられるか――VR・XRの入力と空間を考える](vr-xr-input-space-room-and-body.md) 🟢
-- [その情報は、見え方の違うプレイヤーにも届くか――VR・XRの見え方と読みやすさを考える](vr-xr-vision-legibility-different-eyes.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -355,6 +355,7 @@
 - [修復の完了日と、信頼の回復日――『モンスターハンターワイルズ』のPC版最適化から考える](monster-hunter-wilds-pc-optimization-trust-recovery.md) 🟡
 - [『スノウブレイク：禁域降臨』長期停止から考える、IPコラボの審査と販売済みコンテンツの変更](snowbreak-collaboration-risk-digital-content-changes.md) 🟡
 - [ライブサービスの障害対応で「誰が指揮を執るか」を先に決める――DeNAの演習事例から学ぶ初動体制の作り方](incident-command-exercises-for-live-service-game-teams.md) 🟡
+- [その停止は、誰が、いつ、何を根拠に決めるか――PHPの重大な脆弱性から考える緊急メンテナンスの段取り](php-emergency-maintenance-who-decides-to-stop.md) 🟡
 - [「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか](live-service-game-incident-compensation-framework.md) 🔴
 - [個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと](personal-data-breach-first-48-hours-game-company.md) 🔴
 - [残高がマイナスになる日――ブルーアーカイブ“負債石”事件にみる、誤配布通貨の回収とプレイヤー公平性の衝突](negative-currency-recovery-bluearchive-fgo-case.md) 🟡
