@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その判定は、AIに任せるか、ルールで固めるか――『RyzaChat』とSpiralLLMから考えるAIゲームマスターの設計](ryzachat-spiralllm-ai-game-master-design.md) 🟡
 - [その停止は、誰が、いつ、何を根拠に決めるか――PHPの重大な脆弱性から考える緊急メンテナンスの段取り](php-emergency-maintenance-who-decides-to-stop.md) 🟡
 - [その堀と石垣は、越えるまでの時間を作っているか――日本の城から、進路と代償を設計する](japanese-castle-moats-stone-walls-time-to-cross.md) 🟢
 - [明日もヘッドセットを被りたくなる理由を、作れるか――VR・XRの出口を、遊び終えた後から設計する](vr-xr-exit-design-reason-to-wear-tomorrow.md) 🟢
 - [その場所は、目的がなくても安心して居られるか――ゲームではない場所、ソーシャルVRを考える](vr-xr-social-vr-safe-place-without-goal.md) 🟢
-- [その操作は、その部屋とその身体で続けられるか――VR・XRの入力と空間を考える](vr-xr-input-space-room-and-body.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -84,6 +84,7 @@
 - [ターン制RPGの戦闘AIを構築するためのガンビットシステム](gambit-system-for-turn-based-rpg-combat-ai.md) 🟡
 - [『高機動幻想ガンパレード・マーチ』はなぜNPCが生きて見えたのか――カレル2から学ぶ、再現できる設計と再現できない条件](gunparade-march-karel2-npc-design-planners.md) 🟡
 - [『ドラゴンクエストX』おしゃべりスラミィに学ぶ、生成AIコンパニオンの「自由を絞る」設計](dragon-quest-x-slamy-generative-ai-companion-design.md) 🟡
+- [その判定は、AIに任せるか、ルールで固めるか――『RyzaChat』とSpiralLLMから考えるAIゲームマスターの設計](ryzachat-spiralllm-ai-game-master-design.md) 🟡
 
 ### 🎮 操作・インターフェイス
 
