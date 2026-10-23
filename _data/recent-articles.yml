@@ -1,5 +1,7 @@
 ---
 articles:
+- path: game-accessibility-case-studies-senses-and-controls.md
+  published_at: '2026-10-23T14:49:35Z'
 - path: ryzachat-spiralllm-ai-game-master-design.md
   published_at: '2026-10-23T07:37:35Z'
 - path: php-emergency-maintenance-who-decides-to-stop.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-21T08:09:09Z'
 - path: vr-xr-exit-design-reason-to-wear-tomorrow.md
   published_at: '2026-10-21T06:44:36Z'
-- path: vr-xr-social-vr-safe-place-without-goal.md
-  published_at: '2026-10-21T06:05:36Z'
