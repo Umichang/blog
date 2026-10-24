@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 24 Oct 2026 03:54:28 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 04:35:44 -0000</lastBuildDate>
+    <item>
+      <title>その画面は、開いても閉じても同じ遊びになるか――iPhone Duoから考える、折りたたみ端末のゲーム画面設計</title>
+      <link>https://umichang.github.io/blog/iphone-duo-foldable-game-screen-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/iphone-duo-foldable-game-screen-design.html</guid>
+      <description>iPhone Duoの開閉で変わる画面に、ゲームは何を保つべきか。2027年4月の提出要件を整理し、縦横比、HUD、操作の継続、テーブルトップ姿勢を仕様に落とす判断をAndroidの指針とともに考える。</description>
+      <pubDate>Sat, 24 Oct 2026 04:35:44 -0000</pubDate>
+    </item>
     <item>
       <title>その確率表示は、誰が確かめられるか――オンラインオリパと日本トレーディングカード協会から考える、くじ型商品の信頼</title>
       <link>https://umichang.github.io/blog/online-oripa-probability-disclosure-industry-trust.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/php-emergency-maintenance-who-decides-to-stop.html</guid>
       <description>PHPの重大な脆弱性に伴う2026年10月21日夜の緊急メンテナンスから、誰が、いつ、何を根拠に停止と再開を決めるかを考える。プランナーとエンジニアの作業を修正版公開時刻から逆算し、告知・ゲーム内の期限・外部連動まで整理する。</description>
       <pubDate>Thu, 22 Oct 2026 01:48:04 -0000</pubDate>
-    </item>
-    <item>
-      <title>その堀と石垣は、越えるまでの時間を作っているか――日本の城から、進路と代償を設計する</title>
-      <link>https://umichang.github.io/blog/japanese-castle-moats-stone-walls-time-to-cross.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/japanese-castle-moats-stone-walls-time-to-cross.html</guid>
-      <description>横堀・竪堀・堀切が止める移動の違いと、石垣の積み方を読み解く。アクションと攻城戦の事例から、越える身体・時間・代償を考える。「城と街から拠点をつくる」番外編。</description>
-      <pubDate>Wed, 21 Oct 2026 08:09:09 -0000</pubDate>
     </item>
   </channel>
 </rss>

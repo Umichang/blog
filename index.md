@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その画面は、開いても閉じても同じ遊びになるか――iPhone Duoから考える、折りたたみ端末のゲーム画面設計](iphone-duo-foldable-game-screen-design.md) 🟡
 - [その確率表示は、誰が確かめられるか――オンラインオリパと日本トレーディングカード協会から考える、くじ型商品の信頼](online-oripa-probability-disclosure-industry-trust.md) 🔴
 - [その情報は、目・耳・手のどれか一つだけに預けていないか――色覚・聞こえ・操作のアクセシビリティを事例で読む](game-accessibility-case-studies-senses-and-controls.md) 🟡
 - [その判定は、AIに任せるか、ルールで固めるか――『RyzaChat』とSpiralLLMから考えるAIゲームマスターの設計](ryzachat-spiralllm-ai-game-master-design.md) 🟡
 - [その停止は、誰が、いつ、何を根拠に決めるか――PHPの重大な脆弱性から考える緊急メンテナンスの段取り](php-emergency-maintenance-who-decides-to-stop.md) 🟡
-- [その堀と石垣は、越えるまでの時間を作っているか――日本の城から、進路と代償を設計する](japanese-castle-moats-stone-walls-time-to-cross.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -96,6 +96,7 @@
 - [キャラクター編成・パーティ管理UIの設計](roster-party-ui-ux-design.md) 🟡
 - [『大神』の操作系デザインは、なぜ二度違う形で再解釈されたのか――Wii版とPS3『大神 絶景版』に学ぶコントロール再設計](okami-control-redesign-wii-ps3-hd.md) 🟡
 - [ゲームのHUDデザイン――情報量と没入感を両立する設計原則](game-hud-design-guide.md) 🟡
+- [その画面は、開いても閉じても同じ遊びになるか――iPhone Duoから考える、折りたたみ端末のゲーム画面設計](iphone-duo-foldable-game-screen-design.md) 🟡
 - [なぜ3Dゲームのカメラは難しいのか――「後ろからついてくるだけ」では済まない制御設計](game-camera-design-challenges.md) 🟡
 - [『サイレントヒル2』は、なぜカメラを変えるだけでは済まなかったのか――視点変更が連鎖させた体験設計の再構築](silent-hill-2-camera-change-design-rebuild.md) 🟡
 - [ゲームのアクセシビリティ設計――「遊べない」を減らす企画・実装・検証の実務](game-accessibility-design-guide.md) 🟡
