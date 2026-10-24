@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その確率表示は、誰が確かめられるか――オンラインオリパと日本トレーディングカード協会から考える、くじ型商品の信頼](online-oripa-probability-disclosure-industry-trust.md) 🔴
 - [その情報は、目・耳・手のどれか一つだけに預けていないか――色覚・聞こえ・操作のアクセシビリティを事例で読む](game-accessibility-case-studies-senses-and-controls.md) 🟡
 - [その判定は、AIに任せるか、ルールで固めるか――『RyzaChat』とSpiralLLMから考えるAIゲームマスターの設計](ryzachat-spiralllm-ai-game-master-design.md) 🟡
 - [その停止は、誰が、いつ、何を根拠に決めるか――PHPの重大な脆弱性から考える緊急メンテナンスの段取り](php-emergency-maintenance-who-decides-to-stop.md) 🟡
 - [その堀と石垣は、越えるまでの時間を作っているか――日本の城から、進路と代償を設計する](japanese-castle-moats-stone-walls-time-to-cross.md) 🟢
-- [明日もヘッドセットを被りたくなる理由を、作れるか――VR・XRの出口を、遊び終えた後から設計する](vr-xr-exit-design-reason-to-wear-tomorrow.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -469,6 +469,7 @@
 - [コンビニのニンテンドーカード、なぜ2種類あるのか――資金決済法から読むゲーム課金の「前払い」](nintendo-prepaid-download-cards-payment-services-act.md) 🟢
 - [プレイ時間の上限は誰が決めるのか――各国の時間規制から考えるコンテンツ消費設計](game-play-time-limits-content-consumption-design.md) 🔴
 - [ガチャは違法になったのか？ コンプガチャ規制から確率表示までの歴史](gacha-regulation-japan-history.md) 🟡
+- [その確率表示は、誰が確かめられるか――オンラインオリパと日本トレーディングカード協会から考える、くじ型商品の信頼](online-oripa-probability-disclosure-industry-trust.md) 🔴
 - [日本におけるRMTの歴史――なぜゲームはリアルマネートレードを禁止し続けるのか](rmt-history-japan-why-games-ban-real-money-trading.md) 🟡
 - [NEXT Bayは日本のライブサービスに何を持ち込むか――LINE NEXTのUSDT建てRMT仲介を警戒する理由](next-bay-rmt-crypto-regulatory-friction.md) 🔴
 - [スキンギャンブリングの歴史とプラットフォーム責任：CS:GOから2026年のValve訴訟まで](skin-gambling-third-party-ecosystem.md) 🔴
