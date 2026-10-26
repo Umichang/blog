@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 25 Oct 2026 11:07:18 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 01:05:30 -0000</lastBuildDate>
+    <item>
+      <title>物語は残し、課金の器は作り直す――運営型ゲームをコンシューマで売り直すとき、プランナーが分けるもの</title>
+      <link>https://umichang.github.io/blog/live-service-story-premium-rpg-reconstruction.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/live-service-story-premium-rpg-reconstruction.html</guid>
+      <description>FFBEの物語を下敷きに、戦闘・探索・仲間の入手を作り直した『ファイナルファンタジー レゾナンス』。残せる資産と課金・運営に結び付いた仕組みを分け、買い切り作品へ再設計する判断軸を整理する。</description>
+      <pubDate>Mon, 26 Oct 2026 01:05:30 -0000</pubDate>
+    </item>
     <item>
       <title>監修を『割り込み』から『予定された作業』に変える――自社ゲームのグッズ・音源監修とプランナーの制作進行</title>
       <link>https://umichang.github.io/blog/goods-soundtrack-supervision-production-planning.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-accessibility-case-studies-senses-and-controls.html</guid>
       <description>色覚・聞こえ・操作のアクセシビリティを、ゲームと専用コントローラーの事例から読む。情報の伝え方と入力の条件を洗い出し、プランナーが確かめることと仕様に書くことを整理する。</description>
       <pubDate>Fri, 23 Oct 2026 14:49:35 -0000</pubDate>
-    </item>
-    <item>
-      <title>その判定は、AIに任せるか、ルールで固めるか――『RyzaChat』とSpiralLLMから考えるAIゲームマスターの設計</title>
-      <link>https://umichang.github.io/blog/ryzachat-spiralllm-ai-game-master-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/ryzachat-spiralllm-ai-game-master-design.html</guid>
-      <description>『RyzaChat』とSpiralLLMを題材に、AIゲームマスターへ任せる判断と、ルールで守る状態を整理する。判定基準、断り方、記憶、設定資料、安全、検証の観点から、ゲームプランナーが用意する仕様を考える。</description>
-      <pubDate>Fri, 23 Oct 2026 07:37:35 -0000</pubDate>
     </item>
   </channel>
 </rss>

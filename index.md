@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [物語は残し、課金の器は作り直す――運営型ゲームをコンシューマで売り直すとき、プランナーが分けるもの](live-service-story-premium-rpg-reconstruction.md) 🟡
 - [監修を『割り込み』から『予定された作業』に変える――自社ゲームのグッズ・音源監修とプランナーの制作進行](goods-soundtrack-supervision-production-planning.md) 🟡
 - [その画面は、開いても閉じても同じ遊びになるか――iPhone Duoから考える、折りたたみ端末のゲーム画面設計](iphone-duo-foldable-game-screen-design.md) 🟡
 - [その確率表示は、誰が確かめられるか――オンラインオリパと日本トレーディングカード協会から考える、くじ型商品の信頼](online-oripa-probability-disclosure-industry-trust.md) 🔴
 - [その情報は、目・耳・手のどれか一つだけに預けていないか――色覚・聞こえ・操作のアクセシビリティを事例で読む](game-accessibility-case-studies-senses-and-controls.md) 🟡
-- [その判定は、AIに任せるか、ルールで固めるか――『RyzaChat』とSpiralLLMから考えるAIゲームマスターの設計](ryzachat-spiralllm-ai-game-master-design.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -270,6 +270,7 @@
 - [カービィのエアライダーとStar Foxは帰ってきた。F-ZEROに残る23年目の空白から読む、任天堂の休眠IP再起動](nintendo-dormant-ip-revival-f-zero-kirby-star-fox.md) 🟡
 - [『スプラトゥーン4』ではなくスピンオフを選んだ理由――『スプラトゥーン レイダース』の二つの方向転換から学ぶ設計判断](splatoon-raiders-spin-off-development-design-lessons.md) 🟡
 - [ゲームのリマスターとリメイク：ゲームプランナーが押さえるべき設計思想](game-remaster-remake-design-philosophy.md) 🟡
+- [物語は残し、課金の器は作り直す――運営型ゲームをコンシューマで売り直すとき、プランナーが分けるもの](live-service-story-premium-rpg-reconstruction.md) 🟡
 - [『ペルソナ3』は18年・4バージョンで何を変え、何を変えなかったか――再解釈と追加販売を設計として読む](persona3-four-version-design-and-edition-strategy.md) 🟡
 - [『ゼノブレイド』は、なぜ四世代のハードを渡れたのか](xenoblade-design-across-four-hardware-generations.md) 🟡
 
