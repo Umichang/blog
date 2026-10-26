@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [同じ値段で、何が飛び抜けていたのか――ファミコンの性能を、同時代の機械とカートリッジから読む](famicom-price-performance-cartridge-expansion.md) 🟡
 - [物語は残し、課金の器は作り直す――運営型ゲームをコンシューマで売り直すとき、プランナーが分けるもの](live-service-story-premium-rpg-reconstruction.md) 🟡
 - [監修を『割り込み』から『予定された作業』に変える――自社ゲームのグッズ・音源監修とプランナーの制作進行](goods-soundtrack-supervision-production-planning.md) 🟡
 - [その画面は、開いても閉じても同じ遊びになるか――iPhone Duoから考える、折りたたみ端末のゲーム画面設計](iphone-duo-foldable-game-screen-design.md) 🟡
 - [その確率表示は、誰が確かめられるか――オンラインオリパと日本トレーディングカード協会から考える、くじ型商品の信頼](online-oripa-probability-disclosure-industry-trust.md) 🔴
-- [その情報は、目・耳・手のどれか一つだけに預けていないか――色覚・聞こえ・操作のアクセシビリティを事例で読む](game-accessibility-case-studies-senses-and-controls.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -489,6 +489,7 @@
 ### 🕹️ コンソール・プラットフォーム史
 
 - [セガのコンソール史：SG-1000からドリームキャストまで](sega-console-history.md) 🟢
+- [同じ値段で、何が飛び抜けていたのか――ファミコンの性能を、同時代の機械とカートリッジから読む](famicom-price-performance-cartridge-expansion.md) 🟡
 - [WiiとWii Uはなぜゲームデザイン史の中心から外れやすいのか](wii-wii-u-design-language-and-legacy.md) 🟢
 - [プレイステーション、セガサターン、NINTENDO64――次世代32/64ビット機戦争を市場から読む](playstation-saturn-n64-market-war-history.md) 🟢
 - [レポート：PCゲームと家庭用コンソールのゲームの性能比較](pc-vs-console-gaming-performance-report.md) 🟡
