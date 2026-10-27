@@ -238,4 +238,10 @@ else
   puts "更新しました: #{changed_files.join('、')}"
 end
 
-fail_update('Notion記事台帳を同期できませんでした。') unless sync_notion_articles(root)
+# 自動公開（GitHub Actions）など Notion の認証がない環境では、SKIP_NOTION_SYNC=1 で同期を省く。
+# 省いた記事は、あとで scripts/sync-notion-articles.rb を手元で実行して台帳へ反映する。
+if ENV['SKIP_NOTION_SYNC'] == '1'
+  puts 'Notion記事台帳の同期を省略しました（SKIP_NOTION_SYNC=1）。'
+else
+  fail_update('Notion記事台帳を同期できませんでした。') unless sync_notion_articles(root)
+end

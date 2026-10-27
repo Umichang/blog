@@ -1,0 +1,86 @@
+# アドベントカレンダー2026の自動公開（毎朝7時47分 JST）。
+# 非公開リポジトリの原稿を公開日に限ってコピーし、index.md・RSSを更新して push する。
+# 手順の本体は scripts/advent-publish.rb（Macからも同じコマンドで手動公開できる）。
+name: advent-publish
+
+on:
+  schedule:
+    - cron: '47 22 * * *' # UTC 22:47 = JST 7:47。期間外の日はスクリプトが何もしない
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '日本時間の日付（例 2026-12-01）。空なら今日'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: advent-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TZ: Asia/Tokyo
+      DRAFTS_REPO: Umichang/blog-adv-drafts
+    steps:
+      - name: ブログを取り出す
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 下書き（非公開）を取り出す
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.DRAFTS_REPO }}
+          token: ${{ secrets.ADVENT_DRAFTS_TOKEN }}
+          path: drafts
+
+      - name: Ruby を用意する
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      - name: 公開する
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          before=$(git rev-parse HEAD)
+          if [ -n "${{ inputs.date }}" ]; then
+            ruby scripts/advent-publish.rb --drafts drafts --date "${{ inputs.date }}" --commit
+          else
+            ruby scripts/advent-publish.rb --drafts drafts --commit
+          fi
+          git diff --name-only "$before" HEAD -- 2026adv > published.txt || true
+          cat published.txt
+
+      - name: push して Pages を再ビルドする
+        if: hashFiles('published.txt') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -s published.txt ]; then echo '公開した回はありません。'; exit 0; fi
+          git push origin HEAD
+          # GITHUB_TOKEN による push では Pages のビルドが始まらないため、明示的に依頼する
+          gh api -X POST "repos/${{ github.repository }}/pages/builds"
+
+      - name: 公開ページが開けるか確かめる
+        if: hashFiles('published.txt') != ''
+        run: |
+          if [ ! -s published.txt ]; then exit 0; fi
+          while read -r path; do
+            url="https://umichang.github.io/blog/${path%.md}.html"
+            for i in $(seq 1 30); do
+              code=$(curl -s -o /dev/null -w '%{http_code}' "$url")
+              if [ "$code" = "200" ]; then echo "OK $url"; break; fi
+              sleep 20
+            done
+            if [ "$code" != "200" ]; then echo "開けません（$code）: $url"; exit 1; fi
+          done < published.txt
