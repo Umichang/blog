@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 26 Oct 2026 02:12:50 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 02:01:46 -0000</lastBuildDate>
+    <item>
+      <title>その結末は、大きな物語の中で一つに決められるか――『スター・ウォーズ』の正史・レジェンズとゲームの関係</title>
+      <link>https://umichang.github.io/blog/star-wars-canon-legends-and-games.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/star-wars-canon-legends-and-games.html</guid>
+      <description>『スター・ウォーズ』のゲームと正史の関係を、映画の名場面を遊んだ時代から、EUとHolocron、2014年の正史・レジェンズの線引き、ストーリーグループとの共同制作まで、結末を一つに決められるかという軸で整理する。</description>
+      <pubDate>Tue, 27 Oct 2026 02:01:46 -0000</pubDate>
+    </item>
     <item>
       <title>同じ値段で、何が飛び抜けていたのか――ファミコンの性能を、同時代の機械とカートリッジから読む</title>
       <link>https://umichang.github.io/blog/famicom-price-performance-cartridge-expansion.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/iphone-duo-foldable-game-screen-design.html</guid>
       <description>iPhone Duoの開閉で変わる画面に、ゲームは何を保つべきか。2027年4月の提出要件を整理し、縦横比、HUD、操作の継続、テーブルトップ姿勢を仕様に落とす判断をAndroidの指針とともに考える。</description>
       <pubDate>Sat, 24 Oct 2026 04:35:44 -0000</pubDate>
-    </item>
-    <item>
-      <title>その確率表示は、誰が確かめられるか――オンラインオリパと日本トレーディングカード協会から考える、くじ型商品の信頼</title>
-      <link>https://umichang.github.io/blog/online-oripa-probability-disclosure-industry-trust.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/online-oripa-probability-disclosure-industry-trust.html</guid>
-      <description>オンラインオリパの確率表示を、景品規制・不当表示・賭博の論点から整理する。日本トレーディングカード協会の声明と批判、ゲームのガチャ規制の歴史を通じ、表示を裏付ける記録と検証の担い手を考える。</description>
-      <pubDate>Sat, 24 Oct 2026 03:54:28 -0000</pubDate>
     </item>
   </channel>
 </rss>

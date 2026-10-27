@@ -1,5 +1,5 @@
 ---
-description: "『スター・ウォーズ』のゲームは正史に入るのか。映画の名場面を遊んだ時代から、EUとHolocron、2014年の正史・レジェンズの線引き、ストーリーグループとの共同制作までを、結末を一つに決められるかという軸で整理する。"
+description: "『スター・ウォーズ』のゲームと正史の関係を、映画の名場面を遊んだ時代から、EUとHolocron、2014年の正史・レジェンズの線引き、ストーリーグループとの共同制作まで、結末を一つに決められるかという軸で整理する。"
 category: series-ip-strategy
 difficulty: yellow
 ---
@@ -66,10 +66,9 @@ Holocronは、人物や場所の名前を集めるだけでなく、作品間の
 
 読者の側から言えば、レジェンズを楽しむことと、新作の予習として読むことは目的が違う。その作品の中で完結する冒険は楽しめる。一方、そこに登場した人物の運命が、新しい映像作品でも同じになるとは限らない。区分を知ることは、どの作品を好きになってよいかを決めることではなく、何を次の作品へ持ち越せるかを知ることだ。
 
-```
-# 仕上げAIへ図表制作依頼
-年表を1点。背景は白。日本語の見出し・凡例・altを用い、一つの時間軸を古い年から新しい年へ進める。1983年：アタリのアーケード版／1996年：EUの媒体横断企画『スター・ウォーズ 帝国の影』／2000年：Holocronの構築開始／2012年10月30日：ディズニーが買収合意を発表／2014年4月25日：正史とレジェンズの整理を発表／2017年：『スター・ウォーズ バトルフロントII』の正史キャンペーン／2019年：『Star Wars ジェダイ：フォールン・オーダー』／2021年1月：Lucasfilm GamesのブランドとUbisoft提携を発表。出典は本文のReferences [1]、[5]、[7]〜[9]、[11]、[12]、[18]、[19]。2014年を区切りとして強調するが、それ以前に設定管理がなかったとは描かない。年の間隔を省略する場合は等間隔の節目の年表と分かる構成にし、数量グラフのような厳密な時間距離を示さない。項目や年を推測で追加しない。
-```
+![1983年のアタリ版から2021年のLucasfilm Gamesまで、8つの節目を年代順に並べた年表。2000年のHolocron構築と2014年の正史・レジェンズ整理を示す](image/star-wars-canon-legends-games-timeline.webp)
+
+*節目は等間隔で配置しており、年の隔たりは距離に対応しない。出典：[[1](#ref-1)]、[[5](#ref-5)]、[[7](#ref-7)]〜[[9](#ref-9)]、[[11](#ref-11)]、[[12](#ref-12)]、[[18](#ref-18)]、[[19](#ref-19)]。*
 
 ***
 
@@ -162,7 +161,7 @@ Holocronは、人物や場所の名前を集めるだけでなく、作品間の
 
 ## References
 
-<a id="ref-1"></a>1. [Ryan Lambie「Atari’s Star Wars 1983 coin-op | remembering a masterpiece of arcade tech」][1] — Film Stories、2023年5月4日。Mike Hally氏の回想を掲載。
+<a id="ref-1"></a>1. [Ryan Lambie「Atari’s Star Wars 1983 coin-op ｜ remembering a masterpiece of arcade tech」][1] — Film Stories、2023年5月4日。Mike Hally氏の回想を掲載。
 
 [1]: https://filmstories.co.uk/features/atari-star-wars-1983-coin-op-a-masterpiece-of-arcade-tech/
 
@@ -170,7 +169,7 @@ Holocronは、人物や場所の名前を集めるだけでなく、作品間の
 
 [2]: https://onitama.tv/gamemachine/pdf/19831101p.pdf
 
-<a id="ref-3"></a>3. [Time Extension「Star Wars: Attack on the Death Star (1991) | Sharp X68000 Game」][3] — Time Extension、日付記載なし。発売日、発売元、開発元を参照。確認日：2026年10月27日。
+<a id="ref-3"></a>3. [Time Extension「Star Wars: Attack on the Death Star (1991) ｜ Sharp X68000 Game」][3] — Time Extension、日付記載なし。発売日、発売元、開発元を参照。確認日：2026年10月27日。
 
 [3]: https://www.timeextension.com/games/x68000/star_wars_attack_on_the_death_star
 
