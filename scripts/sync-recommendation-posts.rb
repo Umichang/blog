@@ -10,12 +10,13 @@ parser = OptionParser.new do |opts|
   opts.on('--init', 'Notionに記事・おすすめ投稿履歴DBを作成する') { options[:init] = true }
   opts.on('--sync-articles', 'index.mdの公開記事をNotionへ同期する') { options[:sync_articles] = true }
   opts.on('--import-x-archive PATH', 'XアーカイブZIPまたは展開済みディレクトリを取り込む') { |path| options[:archive] = path }
+  opts.on('--import-posts-json PATH', 'X APIで投稿した記録（JSON配列）を取り込む') { |path| options[:posts_json] = path }
   opts.on('--config PATH', 'git管理外のローカル設定ファイル') { |path| options[:config] = path }
   opts.on('-h', '--help', 'このヘルプを表示する') { puts opts; exit }
 end
 parser.parse!
 
-selected = [options[:init], options[:sync_articles], options[:archive]].compact.length
+selected = [options[:init], options[:sync_articles], options[:archive], options[:posts_json]].compact.length
 abort parser.to_s unless selected == 1
 
 begin
@@ -36,8 +37,17 @@ begin
     synchronizer = RecommendationSync::Synchronizer.new(client, config)
     article_summary, pages_by_url = synchronizer.sync_articles(RecommendationSync::ArticleCatalog.new(root))
     puts "記事を同期しました: 新規 #{article_summary[:created]}件、更新 #{article_summary[:updated]}件、変更なし #{article_summary[:unchanged]}件"
-    if options[:archive]
-      post_summary = synchronizer.import_posts(RecommendationSync::XArchive.new(options[:archive]).posts, pages_by_url)
+    if options[:archive] || options[:posts_json]
+      posts =
+        if options[:archive]
+          RecommendationSync::XArchive.new(options[:archive]).posts
+        else
+          JSON.parse(File.read(options[:posts_json], encoding: 'UTF-8')).map do |entry|
+            RecommendationSync::Post.new(id: entry.fetch('id').to_s, text: entry.fetch('text'), created_at: entry.fetch('created_at'),
+                                         urls: Array(entry.fetch('urls')), source: entry['source'], title: entry['title'])
+          end
+        end
+      post_summary = synchronizer.import_posts(posts, pages_by_url)
       puts "おすすめ投稿を取り込みました: 新規 #{post_summary[:imported]}件、既存 #{post_summary[:skipped]}件、要確認 #{post_summary[:needs_review]}件"
     end
   end

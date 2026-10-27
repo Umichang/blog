@@ -24,7 +24,8 @@ module RecommendationSync
   end
 
   Article = Struct.new(:title, :path, :url, :difficulty, :categories, :series, keyword_init: true)
-  Post = Struct.new(:id, :text, :created_at, :urls, keyword_init: true)
+  # source と title は自動投稿（X API）で使う。アーカイブ取り込みでは nil のままでよい。
+  Post = Struct.new(:id, :text, :created_at, :urls, :source, :title, keyword_init: true)
 
   module Text
     module_function
@@ -492,14 +493,14 @@ module RecommendationSync
 
     def post_properties(post, article_ids, needs_review)
       {
-        '投稿' => Text.title("おすすめ投稿 #{post.id}"),
+        '投稿' => Text.title(post.title || "おすすめ投稿 #{post.id}"),
         '本文' => { 'rich_text' => Text.rich_text(post.text) },
         '状態' => { 'select' => { 'name' => needs_review ? '要確認' : '投稿済み' } },
         '投稿日' => { 'date' => { 'start' => post.created_at } },
         '紹介済み' => { 'checkbox' => !needs_review },
         'X URL' => { 'url' => "https://x.com/i/web/status/#{post.id}" },
         'X投稿ID' => { 'rich_text' => Text.rich_text(post.id) },
-        '登録元' => { 'select' => { 'name' => 'アーカイブ' } },
+        '登録元' => { 'select' => { 'name' => post.source || 'アーカイブ' } },
         '記事' => { 'relation' => article_ids.map { |id| { 'id' => id } } }
       }
     end

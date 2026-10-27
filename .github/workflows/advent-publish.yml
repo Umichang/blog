@@ -12,6 +12,10 @@ on:
         description: '日本時間の日付（例 2026-12-01）。空なら今日'
         required: false
         default: ''
+      check_x_auth:
+        description: 'X API の認証だけを確かめる（公開も投稿もしない）'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,7 +38,19 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: X API の認証を確かめる（手動実行で指定したときだけ）
+        if: ${{ inputs.check_x_auth }}
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          ruby scripts/advent-post-x.rb --check-auth
+          echo 'stop=1' >> "$GITHUB_ENV"
+
       - name: 下書き（非公開）を取り出す
+        if: env.stop != '1'
         uses: actions/checkout@v4
         with:
           repository: ${{ env.DRAFTS_REPO }}
@@ -42,11 +58,13 @@ jobs:
           path: drafts
 
       - name: Ruby を用意する
+        if: env.stop != '1'
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
 
       - name: Notion の設定を書き出す
+        if: env.stop != '1'
         env:
           ARTICLES_ID: ${{ vars.NOTION_ARTICLES_DATA_SOURCE_ID }}
           POSTS_ID: ${{ vars.NOTION_POSTS_DATA_SOURCE_ID }}
@@ -57,6 +75,7 @@ jobs:
           fi
 
       - name: 公開する
+        if: env.stop != '1'
         env:
           # NOTION_TOKEN があれば、新着更新と同時に Notion 記事台帳へ同期する（なければ同期を省く）
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
@@ -95,6 +114,30 @@ jobs:
             done
             if [ "$code" != "200" ]; then echo "開けません（$code）: $url"; exit 1; fi
           done < published.txt
+
+      - name: X に紹介ポストを投稿する
+        if: hashFiles('published.txt') != ''
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: |
+          if [ ! -s published.txt ]; then exit 0; fi
+          # 公開とページの確認が済んだ日だけを投稿する。記録は1件ごとに書くので、途中で止まっても二重投稿しない
+          status=0
+          ruby scripts/advent-post-x.rb --tweets drafts/tweets-2026adv.md --notion-json x-posts.json || status=$?
+          if ! git diff --quiet -- _data/advent-x-posts.yml; then
+            git add _data/advent-x-posts.yml
+            git commit -m 'アドベントカレンダーの紹介ポストを記録'
+            git push origin HEAD
+          fi
+          # Notion「おすすめ投稿履歴」へ取り込む。失敗しても投稿は取り消さず、印を残す
+          if [ -s x-posts.json ] && [ -n "$NOTION_TOKEN" ] && [ -f .notion-recommendation-sync.yml ]; then
+            ruby scripts/sync-recommendation-posts.rb --import-posts-json x-posts.json || echo 'おすすめ投稿履歴の取り込みに失敗しました。' >> notion-sync-failed.txt
+          fi
+          exit $status
 
       - name: Notion 同期の失敗を知らせる
         if: hashFiles('notion-sync-failed.txt') != ''
