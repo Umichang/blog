@@ -109,10 +109,8 @@ published = []
   section = section.sub(cell, "| [#{n}](2026adv/#{file} \"#{title}\") ")
   File.write(index_path, head + sep + section + nxt + tail, encoding: 'UTF-8')
 
-  # 新着欄・RSS・掲載日時（Notion同期は環境変数で制御）
-  env = {}
-  env['SKIP_NOTION_SYNC'] = '1' unless ENV['NOTION_TOKEN'] && !ENV['NOTION_TOKEN'].empty?
-  run!(env, RbConfig.ruby, 'scripts/update-recent-articles.rb', "2026adv/#{file}", '🟢')
+  # 新着欄・RSS・掲載日時。Notion同期はここでは省き、公開の成否と切り離して後で行う
+  run!({ 'SKIP_NOTION_SYNC' => '1' }, RbConfig.ruby, 'scripts/update-recent-articles.rb', "2026adv/#{file}", '🟢')
   run!({}, 'python3', 'scripts/article_index.py', 'validate')
 
   if options[:commit]
@@ -124,3 +122,15 @@ published = []
 end
 
 puts published.empty? ? '公開する回はありませんでした。' : "今回公開: #{published.join('、')}"
+
+# Notion記事台帳への同期（新着欄に載っている記事が対象）。失敗しても公開は取り消さず、印を残して知らせる
+if !published.empty? && ENV['NOTION_TOKEN'].to_s != '' && File.file?(File.join(ROOT, '.notion-recommendation-sync.yml'))
+  out, status = Open3.capture2e(RbConfig.ruby, 'scripts/sync-notion-articles.rb', chdir: ROOT)
+  puts out unless out.empty?
+  unless status.success?
+    File.write(File.join(ROOT, 'notion-sync-failed.txt'), out, encoding: 'UTF-8')
+    warn 'Notion記事台帳の同期に失敗しました（公開は完了しています）。手元で scripts/sync-notion-articles.rb を実行してください。'
+  end
+elsif !published.empty?
+  puts 'Notionの設定がないため、記事台帳の同期を省きました。'
+end

@@ -46,8 +46,19 @@ jobs:
         with:
           ruby-version: '3.3'
 
+      - name: Notion の設定を書き出す
+        env:
+          ARTICLES_ID: ${{ vars.NOTION_ARTICLES_DATA_SOURCE_ID }}
+          POSTS_ID: ${{ vars.NOTION_POSTS_DATA_SOURCE_ID }}
+        run: |
+          # sync-recommendation-posts.rb が読む設定ファイル（git管理外）。IDが未登録なら書かない
+          if [ -n "$ARTICLES_ID" ] && [ -n "$POSTS_ID" ]; then
+            printf 'articles_data_source_id: "%s"\nposts_data_source_id: "%s"\n' "$ARTICLES_ID" "$POSTS_ID" > .notion-recommendation-sync.yml
+          fi
+
       - name: 公開する
         env:
+          # NOTION_TOKEN があれば、新着更新と同時に Notion 記事台帳へ同期する（なければ同期を省く）
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         run: |
           git config user.name 'github-actions[bot]'
@@ -84,3 +95,10 @@ jobs:
             done
             if [ "$code" != "200" ]; then echo "開けません（$code）: $url"; exit 1; fi
           done < published.txt
+
+      - name: Notion 同期の失敗を知らせる
+        if: hashFiles('notion-sync-failed.txt') != ''
+        run: |
+          echo '記事は公開済みですが、Notion記事台帳の同期に失敗しました。'
+          cat notion-sync-failed.txt
+          exit 1
