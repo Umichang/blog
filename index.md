@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [国が線を引かないとき、その線は誰が引くか――1986年の国会答弁から、PCゲームの自主規制が生まれるまで](diet-1986-177-and-pc-game-self-regulation.md) 🟡
 - [その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図](game-and-government-regulation-map.md) 🟡
 - [その結末は、大きな物語の中で一つに決められるか――『スター・ウォーズ』の正史・レジェンズとゲームの関係](star-wars-canon-legends-and-games.md) 🟡
 - [同じ値段で、何が飛び抜けていたのか――ファミコンの性能を、同時代の機械とカートリッジから読む](famicom-price-performance-cartridge-expansion.md) 🟡
 - [物語は残し、課金の器は作り直す――運営型ゲームをコンシューマで売り直すとき、プランナーが分けるもの](live-service-story-premium-rpg-reconstruction.md) 🟡
-- [監修を『割り込み』から『予定された作業』に変える――自社ゲームのグッズ・音源監修とプランナーの制作進行](goods-soundtrack-supervision-production-planning.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -104,7 +104,7 @@
 - [ゲームの演出と光過敏性発作――「でんのうせんしポリゴン」事件が残した数値基準をVFX仕様へ落とし込む](game-photosensitivity-vfx-safety-standards.md) 🟡
 - [ゲームの入力遅延――発生要因と削減・隠蔽の技術](game-input-lag-guide.md) 🟡
 
-#### VR・XRを企画することになったら
+#### 🥽 VR・XRを企画することになったら
 
 - 第1回：[その体験は、ヘッドセットを被る理由になるか――Metaの12年と市場の現在地から、VR・XRの企画を始める](vr-xr-planning-reason-to-wear-a-headset.md) 🟢
 - 第2回：[その動きを、身体は先に予想できるか――VRの身体と酔いを、移動の設計から考える](vr-xr-body-motion-sickness-predictable-movement.md) 🟢
@@ -158,7 +158,7 @@
 - [トレーディングカードゲームのデジタル化とデッキ構築設計の実務](tcg-digital-deck-building-design-practices.md) 🔴
 - [RPGバトル設計の落とし穴：割合ダメージを軸に学ぶ「萎え」の原因と対策](rpg-battle-design-pitfalls-percentage-damage.md) 🟡
 
-#### 戦術と兵法からバトルをつくる
+#### ♟️ 戦術と兵法からバトルをつくる
 
 - 第1回：[その判断は、どの階層のものか――戦略・作戦・戦術から、プレイヤーに任せる決断を選ぶ](tactics-strategy-levels-what-player-decides.md) 🟢
 - 第2回：[その地形は、誰に何を貸すか――『孫子』の高所と難地から、地形の有利と代償を設計する](tactics-terrain-high-ground-what-it-lends.md) 🟢
@@ -462,6 +462,7 @@
 #### 🏛️ ゲームと行政のあいだ
 
 - 第1回：[その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図](game-and-government-regulation-map.md) 🟡
+- 第2回：[国が線を引かないとき、その線は誰が引くか――1986年の国会答弁から、PCゲームの自主規制が生まれるまで](diet-1986-177-and-pc-game-self-regulation.md) 🟡
 
 ### 👥 労務・組織
 

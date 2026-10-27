@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 27 Oct 2026 08:21:42 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:31:38 -0000</lastBuildDate>
+    <item>
+      <title>国が線を引かないとき、その線は誰が引くか――1986年の国会答弁から、PCゲームの自主規制が生まれるまで</title>
+      <link>https://umichang.github.io/blog/diet-1986-177-and-pc-game-self-regulation.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/diet-1986-177-and-pc-game-self-regulation.html</guid>
+      <description>1986年の国会で『177』に問われた対応を、通産省・警察庁・文部省の答弁から読む。『沙織』の摘発と18禁シール、ソフ倫発足をたどり、作り手と流通が引く線を企画の判断につなぐ。「ゲームと行政のあいだ」第2回。</description>
+      <pubDate>Tue, 27 Oct 2026 10:31:38 -0000</pubDate>
+    </item>
     <item>
       <title>その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図</title>
       <link>https://umichang.github.io/blog/game-and-government-regulation-map.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/live-service-story-premium-rpg-reconstruction.html</guid>
       <description>FFBEの物語を下敷きに、戦闘・探索・仲間の入手を作り直した『ファイナルファンタジー レゾナンス』。残せる資産と課金・運営に結び付いた仕組みを分け、買い切り作品へ再設計する判断軸を整理する。</description>
       <pubDate>Mon, 26 Oct 2026 01:05:30 -0000</pubDate>
-    </item>
-    <item>
-      <title>監修を『割り込み』から『予定された作業』に変える――自社ゲームのグッズ・音源監修とプランナーの制作進行</title>
-      <link>https://umichang.github.io/blog/goods-soundtrack-supervision-production-planning.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/goods-soundtrack-supervision-production-planning.html</guid>
-      <description>自社ゲームのグッズ・音源監修を、担当者への突発的な依頼から予定された作業へ変える。窓口の一本化、段階別の締切、判断基準、承認記録を軸に、プランナーの制作進行を整理する。</description>
-      <pubDate>Sun, 25 Oct 2026 11:07:18 -0000</pubDate>
     </item>
   </channel>
 </rss>
