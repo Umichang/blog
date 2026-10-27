@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 27 Oct 2026 02:01:46 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 08:21:42 -0000</lastBuildDate>
+    <item>
+      <title>その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図</title>
+      <link>https://umichang.github.io/blog/game-and-government-regulation-map.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-and-government-regulation-map.html</guid>
+      <description>ゲームの仕様が法律・条例・自主規制・決済規約でどう読まれるかを、国会・省庁・自治体・業界団体・決済網の役割から整理し、企画段階でルールとの接点を見積もる判断軸と点検表を示す。「ゲームと行政のあいだ」第1回。</description>
+      <pubDate>Tue, 27 Oct 2026 08:21:42 -0000</pubDate>
+    </item>
     <item>
       <title>その結末は、大きな物語の中で一つに決められるか――『スター・ウォーズ』の正史・レジェンズとゲームの関係</title>
       <link>https://umichang.github.io/blog/star-wars-canon-legends-and-games.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/goods-soundtrack-supervision-production-planning.html</guid>
       <description>自社ゲームのグッズ・音源監修を、担当者への突発的な依頼から予定された作業へ変える。窓口の一本化、段階別の締切、判断基準、承認記録を軸に、プランナーの制作進行を整理する。</description>
       <pubDate>Sun, 25 Oct 2026 11:07:18 -0000</pubDate>
-    </item>
-    <item>
-      <title>その画面は、開いても閉じても同じ遊びになるか――iPhone Duoから考える、折りたたみ端末のゲーム画面設計</title>
-      <link>https://umichang.github.io/blog/iphone-duo-foldable-game-screen-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/iphone-duo-foldable-game-screen-design.html</guid>
-      <description>iPhone Duoの開閉で変わる画面に、ゲームは何を保つべきか。2027年4月の提出要件を整理し、縦横比、HUD、操作の継続、テーブルトップ姿勢を仕様に落とす判断をAndroidの指針とともに考える。</description>
-      <pubDate>Sat, 24 Oct 2026 04:35:44 -0000</pubDate>
     </item>
   </channel>
 </rss>

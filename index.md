@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図](game-and-government-regulation-map.md) 🟡
 - [その結末は、大きな物語の中で一つに決められるか――『スター・ウォーズ』の正史・レジェンズとゲームの関係](star-wars-canon-legends-and-games.md) 🟡
 - [同じ値段で、何が飛び抜けていたのか――ファミコンの性能を、同時代の機械とカートリッジから読む](famicom-price-performance-cartridge-expansion.md) 🟡
 - [物語は残し、課金の器は作り直す――運営型ゲームをコンシューマで売り直すとき、プランナーが分けるもの](live-service-story-premium-rpg-reconstruction.md) 🟡
 - [監修を『割り込み』から『予定された作業』に変える――自社ゲームのグッズ・音源監修とプランナーの制作進行](goods-soundtrack-supervision-production-planning.md) 🟡
-- [その画面は、開いても閉じても同じ遊びになるか――iPhone Duoから考える、折りたたみ端末のゲーム画面設計](iphone-duo-foldable-game-screen-design.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -458,6 +458,10 @@
 - [Steam成人向け規制と国内銀行の入金拒否――インディー開発を止める二重の資金ボトルネック](steam-adult-content-payment-banking-bottlenecks.md) 🔴
 - [Steamのライブ生成AI審査とEpic Games Storeの異なる哲学――『Instantale』が示した配信設計の新条件](instantale-steam-live-generated-ai-review-epic-policy.md) 🔴
 - [App Store / Google Playにおけるゲーム表現の審査基準と対策](app-store-google-play-game-content-review-guide.md) 🟡
+
+#### 🏛️ ゲームと行政のあいだ
+
+- 第1回：[その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図](game-and-government-regulation-map.md) 🟡
 
 ### 👥 労務・組織
 
