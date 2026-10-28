@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [同じ問いに、別の国はどの道具で答えたか――米国・ドイツ・英国・フランスから、ゲームと行政のあいだを見直す](game-government-overseas-comparison-us-germany-uk-france.md) 🟡
 - [その支援は、何を目標にし、何で測られているか――クールジャパン機構からIP360まで、振興策の物差しを並べる](content-industry-support-policies-what-they-measure.md) 🟡
 - [その代金は、誰の規約を通って届くか――国内プラットフォームの決済停止と、政治・行政の関わり](payment-network-invisible-regulation-japan-platforms.md) 🟡
 - [罰則のない決まりは、誰に何を求めているか――香川県のゲーム条例、制定の過程と訴訟、その後](kagawa-game-ordinance-process-lawsuit-aftermath.md) 🟡
 - [その仕組みは、提供の方法で読まれるか、表示で読まれるか――コンプガチャを止めた行政の道具と、その後の措置命令](complete-gacha-administrative-tools-and-display-enforcement.md) 🟡
-- [その年齢表示は、目安か、販売の条件か――CEROの設立からGTA IIIの有害図書指定、Z区分と条例の連動まで](cero-z-rating-gta3-ordinance-link.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -468,6 +468,7 @@
 - 第5回：[罰則のない決まりは、誰に何を求めているか――香川県のゲーム条例、制定の過程と訴訟、その後](kagawa-game-ordinance-process-lawsuit-aftermath.md) 🟡
 - 第6回：[その代金は、誰の規約を通って届くか――国内プラットフォームの決済停止と、政治・行政の関わり](payment-network-invisible-regulation-japan-platforms.md) 🟡
 - 第7回：[その支援は、何を目標にし、何で測られているか――クールジャパン機構からIP360まで、振興策の物差しを並べる](content-industry-support-policies-what-they-measure.md) 🟡
+- 番外編：[同じ問いに、別の国はどの道具で答えたか――米国・ドイツ・英国・フランスから、ゲームと行政のあいだを見直す](game-government-overseas-comparison-us-germany-uk-france.md) 🟡
 
 ### 👥 労務・組織
 
