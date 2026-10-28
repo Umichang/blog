@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その代金は、誰の規約を通って届くか――国内プラットフォームの決済停止と、政治・行政の関わり](payment-network-invisible-regulation-japan-platforms.md) 🟡
 - [罰則のない決まりは、誰に何を求めているか――香川県のゲーム条例、制定の過程と訴訟、その後](kagawa-game-ordinance-process-lawsuit-aftermath.md) 🟡
 - [その仕組みは、提供の方法で読まれるか、表示で読まれるか――コンプガチャを止めた行政の道具と、その後の措置命令](complete-gacha-administrative-tools-and-display-enforcement.md) 🟡
 - [その年齢表示は、目安か、販売の条件か――CEROの設立からGTA IIIの有害図書指定、Z区分と条例の連動まで](cero-z-rating-gta3-ordinance-link.md) 🟡
 - [国が線を引かないとき、その線は誰が引くか――1986年の国会答弁から、PCゲームの自主規制が生まれるまで](diet-1986-177-and-pc-game-self-regulation.md) 🟡
-- [その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図](game-and-government-regulation-map.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -466,6 +466,7 @@
 - 第3回：[その年齢表示は、目安か、販売の条件か――CEROの設立からGTA IIIの有害図書指定、Z区分と条例の連動まで](cero-z-rating-gta3-ordinance-link.md) 🟡
 - 第4回：[その仕組みは、提供の方法で読まれるか、表示で読まれるか――コンプガチャを止めた行政の道具と、その後の措置命令](complete-gacha-administrative-tools-and-display-enforcement.md) 🟡
 - 第5回：[罰則のない決まりは、誰に何を求めているか――香川県のゲーム条例、制定の過程と訴訟、その後](kagawa-game-ordinance-process-lawsuit-aftermath.md) 🟡
+- 第6回：[その代金は、誰の規約を通って届くか――国内プラットフォームの決済停止と、政治・行政の関わり](payment-network-invisible-regulation-japan-platforms.md) 🟡
 
 ### 👥 労務・組織
 

@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 28 Oct 2026 07:56:08 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:28:58 -0000</lastBuildDate>
+    <item>
+      <title>その代金は、誰の規約を通って届くか――国内プラットフォームの決済停止と、政治・行政の関わり</title>
+      <link>https://umichang.github.io/blog/payment-network-invisible-regulation-japan-platforms.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/payment-network-invisible-regulation-japan-platforms.html</guid>
+      <description>国内プラットフォームの決済停止・再開を、代金の経路と政治・行政の記録からたどる。公表された説明と見えない判断基準を分け、同人・インディー作品の販売先選びと決済手段の備えを考える。「ゲームと行政のあいだ」第6回。</description>
+      <pubDate>Wed, 28 Oct 2026 08:28:58 -0000</pubDate>
+    </item>
     <item>
       <title>罰則のない決まりは、誰に何を求めているか――香川県のゲーム条例、制定の過程と訴訟、その後</title>
       <link>https://umichang.github.io/blog/kagawa-game-ordinance-process-lawsuit-aftermath.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/diet-1986-177-and-pc-game-self-regulation.html</guid>
       <description>1986年の国会で『177』に問われた対応を、通産省・警察庁・文部省の答弁から読む。『沙織』の摘発と18禁シール、ソフ倫発足をたどり、作り手と流通が引く線を企画の判断につなぐ。「ゲームと行政のあいだ」第2回。</description>
       <pubDate>Tue, 27 Oct 2026 10:31:38 -0000</pubDate>
-    </item>
-    <item>
-      <title>その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図</title>
-      <link>https://umichang.github.io/blog/game-and-government-regulation-map.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-and-government-regulation-map.html</guid>
-      <description>ゲームの仕様が法律・条例・自主規制・決済規約でどう読まれるかを、国会・省庁・自治体・業界団体・決済網の役割から整理し、企画段階でルールとの接点を見積もる判断軸と点検表を示す。「ゲームと行政のあいだ」第1回。</description>
-      <pubDate>Tue, 27 Oct 2026 08:21:42 -0000</pubDate>
     </item>
   </channel>
 </rss>
