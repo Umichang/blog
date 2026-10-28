@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 27 Oct 2026 10:31:38 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:22:07 -0000</lastBuildDate>
+    <item>
+      <title>その年齢表示は、目安か、販売の条件か――CEROの設立からGTA IIIの有害図書指定、Z区分と条例の連動まで</title>
+      <link>https://umichang.github.io/blog/cero-z-rating-gta3-ordinance-link.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/cero-z-rating-gta3-ordinance-link.html</guid>
+      <description>CEROの年齢表示は、購入の目安から販売の条件へどう変わったのか。GTA IIIの有害図書指定、業界の自主規制、国会質疑、Z区分と条例の連動をたどり、企画で確かめる接点を考える。「ゲームと行政のあいだ」第3回。</description>
+      <pubDate>Wed, 28 Oct 2026 00:22:07 -0000</pubDate>
+    </item>
     <item>
       <title>国が線を引かないとき、その線は誰が引くか――1986年の国会答弁から、PCゲームの自主規制が生まれるまで</title>
       <link>https://umichang.github.io/blog/diet-1986-177-and-pc-game-self-regulation.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/famicom-price-performance-cartridge-expansion.html</guid>
       <description>14,800円で発売されたファミコンについて、同時代のカセットビジョン、SG-1000、MSX1との価格・性能比較から、描画専用回路とカートリッジ拡張が生んだ強み、長寿命につながった設計を読み解く。</description>
       <pubDate>Mon, 26 Oct 2026 02:12:50 -0000</pubDate>
-    </item>
-    <item>
-      <title>物語は残し、課金の器は作り直す――運営型ゲームをコンシューマで売り直すとき、プランナーが分けるもの</title>
-      <link>https://umichang.github.io/blog/live-service-story-premium-rpg-reconstruction.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/live-service-story-premium-rpg-reconstruction.html</guid>
-      <description>FFBEの物語を下敷きに、戦闘・探索・仲間の入手を作り直した『ファイナルファンタジー レゾナンス』。残せる資産と課金・運営に結び付いた仕組みを分け、買い切り作品へ再設計する判断軸を整理する。</description>
-      <pubDate>Mon, 26 Oct 2026 01:05:30 -0000</pubDate>
     </item>
   </channel>
 </rss>
