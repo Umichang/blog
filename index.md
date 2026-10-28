@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その仕組みは、提供の方法で読まれるか、表示で読まれるか――コンプガチャを止めた行政の道具と、その後の措置命令](complete-gacha-administrative-tools-and-display-enforcement.md) 🟡
 - [その年齢表示は、目安か、販売の条件か――CEROの設立からGTA IIIの有害図書指定、Z区分と条例の連動まで](cero-z-rating-gta3-ordinance-link.md) 🟡
 - [国が線を引かないとき、その線は誰が引くか――1986年の国会答弁から、PCゲームの自主規制が生まれるまで](diet-1986-177-and-pc-game-self-regulation.md) 🟡
 - [その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図](game-and-government-regulation-map.md) 🟡
 - [その結末は、大きな物語の中で一つに決められるか――『スター・ウォーズ』の正史・レジェンズとゲームの関係](star-wars-canon-legends-and-games.md) 🟡
-- [同じ値段で、何が飛び抜けていたのか――ファミコンの性能を、同時代の機械とカートリッジから読む](famicom-price-performance-cartridge-expansion.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -464,6 +464,7 @@
 - 第1回：[その仕様は、誰のルールで止まるか――国会・省庁・自治体・業界団体・決済網から見るゲーム規制の地図](game-and-government-regulation-map.md) 🟡
 - 第2回：[国が線を引かないとき、その線は誰が引くか――1986年の国会答弁から、PCゲームの自主規制が生まれるまで](diet-1986-177-and-pc-game-self-regulation.md) 🟡
 - 第3回：[その年齢表示は、目安か、販売の条件か――CEROの設立からGTA IIIの有害図書指定、Z区分と条例の連動まで](cero-z-rating-gta3-ordinance-link.md) 🟡
+- 第4回：[その仕組みは、提供の方法で読まれるか、表示で読まれるか――コンプガチャを止めた行政の道具と、その後の措置命令](complete-gacha-administrative-tools-and-display-enforcement.md) 🟡
 
 ### 👥 労務・組織
 
