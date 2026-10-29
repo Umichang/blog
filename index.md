@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その「影響はありません」は、誰が、何を確かめて言えるのか――カプコンの4回の発表から、情シスの説明をプレイヤーの言葉にする](it-team-to-players-no-impact-statement-capcom-2020.md) 🟡
 - [同じ問いに、別の国はどの道具で答えたか――米国・ドイツ・英国・フランスから、ゲームと行政のあいだを見直す](game-government-overseas-comparison-us-germany-uk-france.md) 🟡
 - [その支援は、何を目標にし、何で測られているか――クールジャパン機構からIP360まで、振興策の物差しを並べる](content-industry-support-policies-what-they-measure.md) 🟡
 - [その代金は、誰の規約を通って届くか――国内プラットフォームの決済停止と、政治・行政の関わり](payment-network-invisible-regulation-japan-platforms.md) 🟡
 - [罰則のない決まりは、誰に何を求めているか――香川県のゲーム条例、制定の過程と訴訟、その後](kagawa-game-ordinance-process-lawsuit-aftermath.md) 🟡
-- [その仕組みは、提供の方法で読まれるか、表示で読まれるか――コンプガチャを止めた行政の道具と、その後の措置命令](complete-gacha-administrative-tools-and-display-enforcement.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -367,6 +367,10 @@
 - [残高がマイナスになる日――ブルーアーカイブ“負債石”事件にみる、誤配布通貨の回収とプレイヤー公平性の衝突](negative-currency-recovery-bluearchive-fgo-case.md) 🟡
 - [期待値が良くても、なぜ燃えるのか――『ブルーアーカイブ』「呼び出しチャージ」への変更を確率と信頼から読む](bluearchive-recruitment-charge-probability-player-trust.md) 🟡
 - [English: Why Can Better Expected Value Still Spark a Backlash? — Blue Archive’s Recruitment Charge Change Through Probability and Trust](bluearchive-recruitment-charge-probability-player-trust-en.md) 🟡
+
+#### 情シスとプレイヤーのあいだを走る
+
+- 第1回：[その「影響はありません」は、誰が、何を確かめて言えるのか――カプコンの4回の発表から、情シスの説明をプレイヤーの言葉にする](it-team-to-players-no-impact-statement-capcom-2020.md) 🟡
 
 ### 🪦 サービス終了・撤退
 

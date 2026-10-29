@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 28 Oct 2026 22:24:37 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 22:24:30 -0000</lastBuildDate>
+    <item>
+      <title>その「影響はありません」は、誰が、何を確かめて言えるのか――カプコンの4回の発表から、情シスの説明をプレイヤーの言葉にする</title>
+      <link>https://umichang.github.io/blog/it-team-to-players-no-impact-statement-capcom-2020.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/it-team-to-players-no-impact-statement-capcom-2020.html</guid>
+      <description>カプコンの不正アクセス被害に関する4回の発表から、「影響なし」の範囲と根拠、確認済みの事実と調査中の情報を読み解く。情シスの説明をプレイヤーの判断に役立つ言葉へつなぐための総論。「情シスとプレイヤーのあいだを走る」第1回。</description>
+      <pubDate>Thu, 29 Oct 2026 22:24:30 -0000</pubDate>
+    </item>
     <item>
       <title>同じ問いに、別の国はどの道具で答えたか――米国・ドイツ・英国・フランスから、ゲームと行政のあいだを見直す</title>
       <link>https://umichang.github.io/blog/game-government-overseas-comparison-us-germany-uk-france.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/kagawa-game-ordinance-process-lawsuit-aftermath.html</guid>
       <description>香川県のゲーム条例は、罰則を設けず保護者と事業者に何を求めるのか。条文、意見募集、訴訟と判決、その後の県議会の議論をたどり、自主規制と家庭のルールづくりをゲーム企画の判断につなぐ。「ゲームと行政のあいだ」第5回。</description>
       <pubDate>Wed, 28 Oct 2026 07:56:08 -0000</pubDate>
-    </item>
-    <item>
-      <title>その仕組みは、提供の方法で読まれるか、表示で読まれるか――コンプガチャを止めた行政の道具と、その後の措置命令</title>
-      <link>https://umichang.github.io/blog/complete-gacha-administrative-tools-and-display-enforcement.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/complete-gacha-administrative-tools-and-display-enforcement.html</guid>
-      <description>2012年のコンプガチャ規制を実現した会見・見解・通達と、その後の措置命令をたどる。景品の提供方法と表示の正しさを分け、企画・実装・運用で確かめる事項と検証の負担を考える。「ゲームと行政のあいだ」第4回。</description>
-      <pubDate>Wed, 28 Oct 2026 07:18:01 -0000</pubDate>
     </item>
   </channel>
 </rss>
