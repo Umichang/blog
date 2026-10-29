@@ -368,7 +368,7 @@
 - [期待値が良くても、なぜ燃えるのか――『ブルーアーカイブ』「呼び出しチャージ」への変更を確率と信頼から読む](bluearchive-recruitment-charge-probability-player-trust.md) 🟡
 - [English: Why Can Better Expected Value Still Spark a Backlash? — Blue Archive’s Recruitment Charge Change Through Probability and Trust](bluearchive-recruitment-charge-probability-player-trust-en.md) 🟡
 
-#### 情シスとプレイヤーのあいだを走る
+#### 🛡️ 情シスとプレイヤーのあいだを走る
 
 - 第1回：[その「影響はありません」は、誰が、何を確かめて言えるのか――カプコンの4回の発表から、情シスの説明をプレイヤーの言葉にする](it-team-to-players-no-impact-statement-capcom-2020.md) 🟡
 
