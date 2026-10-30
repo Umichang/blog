@@ -552,4 +552,4 @@
 
 ## ✨ 番外編
 
-- [番外編：生成AIと一緒に、このブログを作るまで（三訂版）](making-this-blog-with-ai-tools.md) 🟢
+- [番外編：生成AIと一緒に、このブログを作るまで（四訂版）](making-this-blog-with-ai-tools.md) 🟢

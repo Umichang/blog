@@ -91,4 +91,4 @@ HDR対応ゲームは2016年前後にゲーム機・テレビ・映像規格が�
 
 ----
 
-この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
+この文書は、Perplexity、Claude、ChatGPT の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

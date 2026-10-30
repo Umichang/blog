@@ -189,4 +189,4 @@ Appleは、障害、空間の制約、環境などによって誰もが特定の
 
 ----
 
-この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
+この文書は、Perplexity、Claude、ChatGPT の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

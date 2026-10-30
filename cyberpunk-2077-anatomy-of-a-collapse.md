@@ -252,4 +252,4 @@ Cyberpunk 2077の事例が示すのは、「技術的な失敗」以上に **「
 
 ----
 
-この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
+この文書は、Perplexity、Claude、ChatGPT の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

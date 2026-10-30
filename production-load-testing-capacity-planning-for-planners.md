@@ -378,4 +378,4 @@ SREの資料は、開発と運用が異なる語彙やリスク認識を持つ�
 
 ----
 
-この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
+この文書は、Perplexity、Claude、ChatGPT の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

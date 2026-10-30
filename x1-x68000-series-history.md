@@ -182,4 +182,4 @@ X1とX68000の歴史は、主流標準と文化的記憶が必ずしも一致し
 
 ----
 
-この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
+この文書は、Perplexity、Claude、ChatGPT の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

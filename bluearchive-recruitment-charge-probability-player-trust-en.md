@@ -262,4 +262,4 @@ To earn acceptance for a design change, presenting the favorable mean is not eno
 
 ----
 
-This document was written with the assistance of Perplexity, Claude, and OpenAI Codex. Except for quoted images, it is provided under the MIT License.
+This document was written with the assistance of Perplexity, Claude, and ChatGPT. Except for quoted images, it is provided under the MIT License.

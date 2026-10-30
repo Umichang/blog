@@ -200,4 +200,4 @@ AUTOMATONは2026年4月、Redditのr/gamingに投稿された「ゲームの発�
 [15]: https://bethesda.net/en-US/news/fallout-4-why-details-matter
 ----
 
-この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
+この文書は、Perplexity、Claude、ChatGPT の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

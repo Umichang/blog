@@ -339,4 +339,4 @@ NVIDIAは2023年5月のCOMPUTEXで、生成AIでNPCに命を吹き込むクラ�
 
 ----
 
-この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
+この文書は、Perplexity、Claude、ChatGPT の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。

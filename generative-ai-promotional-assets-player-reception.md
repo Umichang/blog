@@ -160,7 +160,7 @@ Bazzaz氏とCooper氏は600件のレビューを質的に分析し、生成AIの
 
 ## この記事もまた、生成AIの支援を受けて書かれている
 
-本ブログのフッターには、Perplexity・Claude・OpenAI Codexの支援を受けて著述している旨を記している。制作工程については、既刊[「番外編：生成AIと一緒に、このブログを作るまで」](making-this-blog-with-ai-tools.md)に記載している。
+本ブログのフッターには、Perplexity・Claude・ChatGPTの支援を受けて著述している旨を記している。制作工程については、既刊[「番外編：生成AIと一緒に、このブログを作るまで」](making-this-blog-with-ai-tools.md)に記載している。
 
 本稿もまた、受け手から投資量を推し量られる対象である。ここで扱った、生成AIの使用から手間や関与を読むという見方は、本稿自身にも当てはまる。
 
@@ -220,4 +220,4 @@ Bazzaz氏とCooper氏は600件のレビューを質的に分析し、生成AIの
 
 ----
 
-この文書は、Perplexity、Claude、OpenAI Codex の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
+この文書は、Perplexity、Claude、ChatGPT の3つのAIの支援を受けて著述されたものです。引用画像を除き、MIT License にて提供されています。
