@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 29 Oct 2026 22:24:30 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 05:18:53 -0000</lastBuildDate>
+    <item>
+      <title>その機能は、悪意のある人にとって何の役に立つか――Steamの取引保留と運営ツールの事件から、仕様書に悪用ケースの欄を設ける</title>
+      <link>https://umichang.github.io/blog/abuse-case-column-in-game-specs.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/abuse-case-column-in-game-specs.html</guid>
+      <description>Steamの取引保留と、ラグナロクオンライン・ログレスの運営ツールをめぐる事件の再発防止策から、仕様書に悪用ケースの欄を設ける考え方を整理する。権限、画面表示、操作記録を新人プランナーの持ち場から考える。「情シスとプレイヤーのあいだを走る」第2回。</description>
+      <pubDate>Fri, 30 Oct 2026 05:18:53 -0000</pubDate>
+    </item>
     <item>
       <title>その「影響はありません」は、誰が、何を確かめて言えるのか――カプコンの4回の発表から、情シスの説明をプレイヤーの言葉にする</title>
       <link>https://umichang.github.io/blog/it-team-to-players-no-impact-statement-capcom-2020.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/payment-network-invisible-regulation-japan-platforms.html</guid>
       <description>国内プラットフォームの決済停止・再開を、代金の経路と政治・行政の記録からたどる。公表された説明と見えない判断基準を分け、同人・インディー作品の販売先選びと決済手段の備えを考える。「ゲームと行政のあいだ」第6回。</description>
       <pubDate>Wed, 28 Oct 2026 08:28:58 -0000</pubDate>
-    </item>
-    <item>
-      <title>罰則のない決まりは、誰に何を求めているか――香川県のゲーム条例、制定の過程と訴訟、その後</title>
-      <link>https://umichang.github.io/blog/kagawa-game-ordinance-process-lawsuit-aftermath.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/kagawa-game-ordinance-process-lawsuit-aftermath.html</guid>
-      <description>香川県のゲーム条例は、罰則を設けず保護者と事業者に何を求めるのか。条文、意見募集、訴訟と判決、その後の県議会の議論をたどり、自主規制と家庭のルールづくりをゲーム企画の判断につなぐ。「ゲームと行政のあいだ」第5回。</description>
-      <pubDate>Wed, 28 Oct 2026 07:56:08 -0000</pubDate>
     </item>
   </channel>
 </rss>
