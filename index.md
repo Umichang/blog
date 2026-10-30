@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [止まっている間、何を残し、どの時計を止めるか――ニコニコの段階的な再開とFFXIVの自動撤去停止から、停止中の仕様を考える](degraded-operation-what-to-keep-which-clocks-to-stop.md) 🟡
 - [そのゲームは、誰が止まると止まるのか――PSN・AWS・物流委託の停止から、外部依存を棚卸しする](external-dependency-inventory-when-partners-stop.md) 🟡
 - [その機能は、悪意のある人にとって何の役に立つか――Steamの取引保留と運営ツールの事件から、仕様書に悪用ケースの欄を設ける](abuse-case-column-in-game-specs.md) 🟡
 - [その「影響はありません」は、誰が、何を確かめて言えるのか――カプコンの4回の発表から、情シスの説明をプレイヤーの言葉にする](it-team-to-players-no-impact-statement-capcom-2020.md) 🟡
 - [同じ問いに、別の国はどの道具で答えたか――米国・ドイツ・英国・フランスから、ゲームと行政のあいだを見直す](game-government-overseas-comparison-us-germany-uk-france.md) 🟡
-- [その支援は、何を目標にし、何で測られているか――クールジャパン機構からIP360まで、振興策の物差しを並べる](content-industry-support-policies-what-they-measure.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -373,6 +373,7 @@
 - 第1回：[その「影響はありません」は、誰が、何を確かめて言えるのか――カプコンの4回の発表から、情シスの説明をプレイヤーの言葉にする](it-team-to-players-no-impact-statement-capcom-2020.md) 🟡
 - 第2回：[その機能は、悪意のある人にとって何の役に立つか――Steamの取引保留と運営ツールの事件から、仕様書に悪用ケースの欄を設ける](abuse-case-column-in-game-specs.md) 🟡
 - 第3回：[そのゲームは、誰が止まると止まるのか――PSN・AWS・物流委託の停止から、外部依存を棚卸しする](external-dependency-inventory-when-partners-stop.md) 🟡
+- 第4回：[止まっている間、何を残し、どの時計を止めるか――ニコニコの段階的な再開とFFXIVの自動撤去停止から、停止中の仕様を考える](degraded-operation-what-to-keep-which-clocks-to-stop.md) 🟡
 
 ### 🪦 サービス終了・撤退
 

@@ -1,5 +1,7 @@
 ---
 articles:
+- path: degraded-operation-what-to-keep-which-clocks-to-stop.md
+  published_at: '2026-10-30T13:24:08Z'
 - path: external-dependency-inventory-when-partners-stop.md
   published_at: '2026-10-30T07:22:02Z'
 - path: abuse-case-column-in-game-specs.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-29T22:24:30Z'
 - path: game-government-overseas-comparison-us-germany-uk-france.md
   published_at: '2026-10-28T22:24:37Z'
-- path: content-industry-support-policies-what-they-measure.md
-  published_at: '2026-10-28T13:12:27Z'

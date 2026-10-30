@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 30 Oct 2026 07:22:02 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 13:24:08 -0000</lastBuildDate>
+    <item>
+      <title>止まっている間、何を残し、どの時計を止めるか――ニコニコの段階的な再開とFFXIVの自動撤去停止から、停止中の仕様を考える</title>
+      <link>https://umichang.github.io/blog/degraded-operation-what-to-keep-which-clocks-to-stop.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/degraded-operation-what-to-keep-which-clocks-to-stop.html</guid>
+      <description>ニコニコの段階的な再開とFFXIVのハウジング自動撤去停止から、障害中に残す機能と止める期限を考え、エンジニアと決める縮退運転の範囲、ゲーム内の時計の棚卸し、再開時の告知までを整理する。「情シスとプレイヤーのあいだを走る」第4回。</description>
+      <pubDate>Fri, 30 Oct 2026 13:24:08 -0000</pubDate>
+    </item>
     <item>
       <title>そのゲームは、誰が止まると止まるのか――PSN・AWS・物流委託の停止から、外部依存を棚卸しする</title>
       <link>https://umichang.github.io/blog/external-dependency-inventory-when-partners-stop.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/game-government-overseas-comparison-us-germany-uk-france.html</guid>
       <description>米国の公聴会と最高裁判決、ドイツの解釈変更と利用リスク、英仏のゲーム税制と評価を、日本の事例に対応させて読む。海外展開で確かめたい年齢区分や支援条件も整理し、制度の前提と測定の限界を考える。「ゲームと行政のあいだ」番外編。</description>
       <pubDate>Wed, 28 Oct 2026 22:24:37 -0000</pubDate>
-    </item>
-    <item>
-      <title>その支援は、何を目標にし、何で測られているか――クールジャパン機構からIP360まで、振興策の物差しを並べる</title>
-      <link>https://umichang.github.io/blog/content-industry-support-policies-what-they-measure.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/content-industry-support-policies-what-they-measure.html</guid>
-      <description>クールジャパン機構、J-LOP、eスポーツ賞金の照会、IP360と創風を、目標・成果の物差し・検証主体で並べる。支援を使う開発者と報道を読むプレイヤーに向け、数字の意味と応募条件を考える。「ゲームと行政のあいだ」第7回。</description>
-      <pubDate>Wed, 28 Oct 2026 13:12:27 -0000</pubDate>
     </item>
   </channel>
 </rss>
