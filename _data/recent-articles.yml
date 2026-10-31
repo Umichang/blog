@@ -1,5 +1,7 @@
 ---
 articles:
+- path: government-cyber-policy-what-it-asks-of-game-companies.md
+  published_at: '2026-10-31T02:23:11Z'
 - path: account-takeover-phishing-how-login-proves-identity.md
   published_at: '2026-10-31T01:37:53Z'
 - path: degraded-operation-what-to-keep-which-clocks-to-stop.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-30T07:22:02Z'
 - path: abuse-case-column-in-game-specs.md
   published_at: '2026-10-30T05:18:53Z'
-- path: it-team-to-players-no-impact-statement-capcom-2020.md
-  published_at: '2026-10-29T22:24:30Z'
