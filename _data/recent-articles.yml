@@ -1,5 +1,7 @@
 ---
 articles:
+- path: account-takeover-phishing-how-login-proves-identity.md
+  published_at: '2026-10-31T01:37:53Z'
 - path: degraded-operation-what-to-keep-which-clocks-to-stop.md
   published_at: '2026-10-30T13:24:08Z'
 - path: external-dependency-inventory-when-partners-stop.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-30T05:18:53Z'
 - path: it-team-to-players-no-impact-statement-capcom-2020.md
   published_at: '2026-10-29T22:24:30Z'
-- path: game-government-overseas-comparison-us-germany-uk-france.md
-  published_at: '2026-10-28T22:24:37Z'

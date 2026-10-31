@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 30 Oct 2026 13:24:08 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 01:37:53 -0000</lastBuildDate>
+    <item>
+      <title>そのログインは、本人であることを何で確かめているか――任天堂の不正ログインとFFXIVのワンタイムパスワード特典から、乗っ取りと復旧を設計する</title>
+      <link>https://umichang.github.io/blog/account-takeover-phishing-how-login-proves-identity.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/account-takeover-phishing-how-login-proves-identity.html</guid>
+      <description>他社から流出した認証情報や運営を装う連絡が、ゲームのアカウント乗っ取りにつながる。任天堂の2020年の不正ログインとFFXIVのワンタイムパスワード特典から、ログインの入口、安全な行動への見返り、復旧の流れを考える。「情シスとプレイヤーのあいだを走る」第5回。</description>
+      <pubDate>Sat, 31 Oct 2026 01:37:53 -0000</pubDate>
+    </item>
     <item>
       <title>止まっている間、何を残し、どの時計を止めるか――ニコニコの段階的な再開とFFXIVの自動撤去停止から、停止中の仕様を考える</title>
       <link>https://umichang.github.io/blog/degraded-operation-what-to-keep-which-clocks-to-stop.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/it-team-to-players-no-impact-statement-capcom-2020.html</guid>
       <description>カプコンの不正アクセス被害に関する4回の発表から、「影響なし」の範囲と根拠、確認済みの事実と調査中の情報を読み解く。情シスの説明をプレイヤーの判断に役立つ言葉へつなぐための総論。「情シスとプレイヤーのあいだを走る」第1回。</description>
       <pubDate>Thu, 29 Oct 2026 22:24:30 -0000</pubDate>
-    </item>
-    <item>
-      <title>同じ問いに、別の国はどの道具で答えたか――米国・ドイツ・英国・フランスから、ゲームと行政のあいだを見直す</title>
-      <link>https://umichang.github.io/blog/game-government-overseas-comparison-us-germany-uk-france.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-government-overseas-comparison-us-germany-uk-france.html</guid>
-      <description>米国の公聴会と最高裁判決、ドイツの解釈変更と利用リスク、英仏のゲーム税制と評価を、日本の事例に対応させて読む。海外展開で確かめたい年齢区分や支援条件も整理し、制度の前提と測定の限界を考える。「ゲームと行政のあいだ」番外編。</description>
-      <pubDate>Wed, 28 Oct 2026 22:24:37 -0000</pubDate>
     </item>
   </channel>
 </rss>
