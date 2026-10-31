@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [「通信エラー」は、どの層の話か——ゲームプランナーのためのネットワーク入門①](planner-network-intro-01-which-layer-is-the-error.md) 🟢
 - [飯野賢治評伝——見せないことで遊ばせ、作品の外側まで設計した人](kenji-eno-biography-what-to-remove-beyond-the-game.md) 🟢
 - [その対策は、義務か、努力か、取引の条件か――サイバー対処能力強化法から不正アクセス禁止法まで、国がゲーム会社に求めるものを並べる](government-cyber-policy-what-it-asks-of-game-companies.md) 🟡
 - [そのログインは、本人であることを何で確かめているか――任天堂の不正ログインとFFXIVのワンタイムパスワード特典から、乗っ取りと復旧を設計する](account-takeover-phishing-how-login-proves-identity.md) 🟡
 - [止まっている間、何を残し、どの時計を止めるか――ニコニコの段階的な再開とFFXIVの自動撤去停止から、停止中の仕様を考える](degraded-operation-what-to-keep-which-clocks-to-stop.md) 🟡
-- [そのゲームは、誰が止まると止まるのか――PSN・AWS・物流委託の停止から、外部依存を棚卸しする](external-dependency-inventory-when-partners-stop.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -120,6 +120,10 @@
 - [家庭用ゲーム機のネット対戦――物理的遅延の構造と遅延を隠す技術](console-online-multiplayer-latency-techniques.md) 🟡
 - [オンラインゲームのアンチチート技術：歴史・現状・開発者の判断軸](online-game-anti-cheat-technology-history.md) 🔴
 - [『モンスターハンターポータブル 3rd』が「持ち寄って狩る」文化の集大成になった理由](monster-hunter-portable-3rd-local-multiplayer-culture-peak.md) 🟡
+
+#### 📡 ゲームプランナーのためのネットワーク入門
+
+- 第1回：[「通信エラー」は、どの層の話か——ゲームプランナーのためのネットワーク入門①](planner-network-intro-01-which-layer-is-the-error.md) 🟢
 
 ### 📐 ゲームデザイン理論
 

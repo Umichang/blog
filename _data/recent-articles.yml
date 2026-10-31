@@ -1,5 +1,7 @@
 ---
 articles:
+- path: planner-network-intro-01-which-layer-is-the-error.md
+  published_at: '2026-10-31T15:24:28Z'
 - path: kenji-eno-biography-what-to-remove-beyond-the-game.md
   published_at: '2026-10-31T09:05:46Z'
 - path: government-cyber-policy-what-it-asks-of-game-companies.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-31T01:37:53Z'
 - path: degraded-operation-what-to-keep-which-clocks-to-stop.md
   published_at: '2026-10-30T13:24:08Z'
-- path: external-dependency-inventory-when-partners-stop.md
-  published_at: '2026-10-30T07:22:02Z'
