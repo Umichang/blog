@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [飯野賢治評伝——見せないことで遊ばせ、作品の外側まで設計した人](kenji-eno-biography-what-to-remove-beyond-the-game.md) 🟢
 - [その対策は、義務か、努力か、取引の条件か――サイバー対処能力強化法から不正アクセス禁止法まで、国がゲーム会社に求めるものを並べる](government-cyber-policy-what-it-asks-of-game-companies.md) 🟡
 - [そのログインは、本人であることを何で確かめているか――任天堂の不正ログインとFFXIVのワンタイムパスワード特典から、乗っ取りと復旧を設計する](account-takeover-phishing-how-login-proves-identity.md) 🟡
 - [止まっている間、何を残し、どの時計を止めるか――ニコニコの段階的な再開とFFXIVの自動撤去停止から、停止中の仕様を考える](degraded-operation-what-to-keep-which-clocks-to-stop.md) 🟡
 - [そのゲームは、誰が止まると止まるのか――PSN・AWS・物流委託の停止から、外部依存を棚卸しする](external-dependency-inventory-when-partners-stop.md) 🟡
-- [その機能は、悪意のある人にとって何の役に立つか――Steamの取引保留と運営ツールの事件から、仕様書に悪用ケースの欄を設ける](abuse-case-column-in-game-specs.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -552,6 +552,7 @@
 - [岩田聡評伝——プログラマー社長が経営した「危機」と「対話」](satoru-iwata-crisis-management-and-dialogue.md) 🟢
 - [大賀典雄評伝——CDからPlayStationへ、「規格と供給」を一体で考えた経営者](norio-ohga-cd-to-playstation-platform-biography.md) 🟢
 - [中村雅哉――電動木馬から『パックマン』へ、ナムコを育てた企業家](masaya-nakamura-namco-founder-biography.md) 🟢
+- [飯野賢治評伝——見せないことで遊ばせ、作品の外側まで設計した人](kenji-eno-biography-what-to-remove-beyond-the-game.md) 🟢
 - [miHoYo／HoYoverse企業史：創業からグローバル展開まで](mihoyo-hoyoverse-company-history-global-expansion.md) 🟢
 - [東亜プランの企業史：消えた組織から、複数のシューティング設計文化が生まれるまで](toaplan-company-history-design-culture.md) 🟡
 

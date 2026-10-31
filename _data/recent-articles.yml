@@ -1,5 +1,7 @@
 ---
 articles:
+- path: kenji-eno-biography-what-to-remove-beyond-the-game.md
+  published_at: '2026-10-31T09:05:46Z'
 - path: government-cyber-policy-what-it-asks-of-game-companies.md
   published_at: '2026-10-31T02:23:11Z'
 - path: account-takeover-phishing-how-login-proves-identity.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-30T13:24:08Z'
 - path: external-dependency-inventory-when-partners-stop.md
   published_at: '2026-10-30T07:22:02Z'
-- path: abuse-case-column-in-game-specs.md
-  published_at: '2026-10-30T05:18:53Z'

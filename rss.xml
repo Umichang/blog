@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 31 Oct 2026 02:23:11 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 09:05:46 -0000</lastBuildDate>
+    <item>
+      <title>飯野賢治評伝——見せないことで遊ばせ、作品の外側まで設計した人</title>
+      <link>https://umichang.github.io/blog/kenji-eno-biography-what-to-remove-beyond-the-game.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/kenji-eno-biography-what-to-remove-beyond-the-game.html</guid>
+      <description>セーブ、敵の姿、画面、作者の名前。飯野賢治が取り除いたものから作品を読み、発表の演出やセガとの約束、WARPという会社の形まで含めて、その仕事をたどる。</description>
+      <pubDate>Sat, 31 Oct 2026 09:05:46 -0000</pubDate>
+    </item>
     <item>
       <title>その対策は、義務か、努力か、取引の条件か――サイバー対処能力強化法から不正アクセス禁止法まで、国がゲーム会社に求めるものを並べる</title>
       <link>https://umichang.github.io/blog/government-cyber-policy-what-it-asks-of-game-companies.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/external-dependency-inventory-when-partners-stop.html</guid>
       <description>PSN、AWS、無印良品ネットストアの停止から、ゲームの機能と外部依存のつながりを整理する。依存先、その先の基盤、預けるデータ、連絡窓口を棚卸しし、復旧の優先順位を関係部署と決める材料を作る。「情シスとプレイヤーのあいだを走る」第3回。</description>
       <pubDate>Fri, 30 Oct 2026 07:22:02 -0000</pubDate>
-    </item>
-    <item>
-      <title>その機能は、悪意のある人にとって何の役に立つか――Steamの取引保留と運営ツールの事件から、仕様書に悪用ケースの欄を設ける</title>
-      <link>https://umichang.github.io/blog/abuse-case-column-in-game-specs.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/abuse-case-column-in-game-specs.html</guid>
-      <description>Steamの取引保留と、ラグナロクオンライン・ログレスの運営ツールをめぐる事件の再発防止策から、仕様書に悪用ケースの欄を設ける考え方を整理する。権限、画面表示、操作記録を新人プランナーの持ち場から考える。「情シスとプレイヤーのあいだを走る」第2回。</description>
-      <pubDate>Fri, 30 Oct 2026 05:18:53 -0000</pubDate>
     </item>
   </channel>
 </rss>
