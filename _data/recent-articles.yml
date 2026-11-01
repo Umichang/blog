@@ -1,5 +1,7 @@
 ---
 articles:
+- path: planner-network-intro-03-ip-nat-ports.md
+  published_at: '2026-11-01T07:12:29Z'
 - path: planner-network-intro-02-physical-layer-and-local-play.md
   published_at: '2026-11-01T01:28:11Z'
 - path: planner-network-intro-01-which-layer-is-the-error.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-31T09:05:46Z'
 - path: government-cyber-policy-what-it-asks-of-game-companies.md
   published_at: '2026-10-31T02:23:11Z'
-- path: account-takeover-phishing-how-login-proves-identity.md
-  published_at: '2026-10-31T01:37:53Z'
