@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ケーブルか、電波か——ゲームプランナーのためのネットワーク入門②](planner-network-intro-02-physical-layer-and-local-play.md) 🟢
 - [「通信エラー」は、どの層の話か——ゲームプランナーのためのネットワーク入門①](planner-network-intro-01-which-layer-is-the-error.md) 🟢
 - [飯野賢治評伝——見せないことで遊ばせ、作品の外側まで設計した人](kenji-eno-biography-what-to-remove-beyond-the-game.md) 🟢
 - [その対策は、義務か、努力か、取引の条件か――サイバー対処能力強化法から不正アクセス禁止法まで、国がゲーム会社に求めるものを並べる](government-cyber-policy-what-it-asks-of-game-companies.md) 🟡
 - [そのログインは、本人であることを何で確かめているか――任天堂の不正ログインとFFXIVのワンタイムパスワード特典から、乗っ取りと復旧を設計する](account-takeover-phishing-how-login-proves-identity.md) 🟡
-- [止まっている間、何を残し、どの時計を止めるか――ニコニコの段階的な再開とFFXIVの自動撤去停止から、停止中の仕様を考える](degraded-operation-what-to-keep-which-clocks-to-stop.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -124,6 +124,7 @@
 #### 📡 ゲームプランナーのためのネットワーク入門
 
 - 第1回：[「通信エラー」は、どの層の話か——ゲームプランナーのためのネットワーク入門①](planner-network-intro-01-which-layer-is-the-error.md) 🟢
+- 第2回：[ケーブルか、電波か——ゲームプランナーのためのネットワーク入門②](planner-network-intro-02-physical-layer-and-local-play.md) 🟢
 
 ### 📐 ゲームデザイン理論
 
