@@ -1,5 +1,7 @@
 ---
 articles:
+- path: planner-network-intro-04-tcp-and-udp.md
+  published_at: '2026-11-01T11:02:49Z'
 - path: planner-network-intro-03-ip-nat-ports.md
   published_at: '2026-11-01T07:12:29Z'
 - path: planner-network-intro-02-physical-layer-and-local-play.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-10-31T15:24:28Z'
 - path: kenji-eno-biography-what-to-remove-beyond-the-game.md
   published_at: '2026-10-31T09:05:46Z'
-- path: government-cyber-policy-what-it-asks-of-game-companies.md
-  published_at: '2026-10-31T02:23:11Z'

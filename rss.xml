@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 01 Nov 2026 07:12:29 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:02:49 -0000</lastBuildDate>
+    <item>
+      <title>届くこと、順番、新しさのどれを守るか——ゲームプランナーのためのネットワーク入門④</title>
+      <link>https://umichang.github.io/blog/planner-network-intro-04-tcp-and-udp.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-04-tcp-and-udp.html</guid>
+      <description>位置情報は新しさ、チャットは届くことと順番。TCP・UDPとゲームエンジンの配送設定を手がかりに、送るデータごとに守る約束を仕様へ書き分ける。「ゲームプランナーのためのネットワーク入門」第4回。</description>
+      <pubDate>Sun, 01 Nov 2026 11:02:49 -0000</pubDate>
+    </item>
     <item>
       <title>なぜ友だちとつながらないのか——ゲームプランナーのためのネットワーク入門③</title>
       <link>https://umichang.github.io/blog/planner-network-intro-03-ip-nat-ports.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/kenji-eno-biography-what-to-remove-beyond-the-game.html</guid>
       <description>セーブ、敵の姿、画面、作者の名前。飯野賢治が取り除いたものから作品を読み、発表の演出やセガとの約束、WARPという会社の形まで含めて、その仕事をたどる。</description>
       <pubDate>Sat, 31 Oct 2026 09:05:46 -0000</pubDate>
-    </item>
-    <item>
-      <title>その対策は、義務か、努力か、取引の条件か――サイバー対処能力強化法から不正アクセス禁止法まで、国がゲーム会社に求めるものを並べる</title>
-      <link>https://umichang.github.io/blog/government-cyber-policy-what-it-asks-of-game-companies.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/government-cyber-policy-what-it-asks-of-game-companies.html</guid>
-      <description>国がゲーム会社に求めるサイバー対策を、義務、努力義務、取引先を通じて届く制度、情報と呼びかけの4段で整理する。決済、認証、基幹インフラ、SCS評価制度から、法律と運営判断の接点を読む。「情シスとプレイヤーのあいだを走る」番外編。</description>
-      <pubDate>Sat, 31 Oct 2026 02:23:11 -0000</pubDate>
     </item>
   </channel>
 </rss>
