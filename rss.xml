@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 02 Nov 2026 10:03:08 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 14:18:37 -0000</lastBuildDate>
+    <item>
+      <title>何GBを、いつ、何分で運ぶか——ゲームプランナーのためのネットワーク入門 番外編</title>
+      <link>https://umichang.github.io/blog/planner-network-intro-extra-data-size-and-transfer-time.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-extra-data-size-and-transfer-time.html</guid>
+      <description>ストアからの導入後に、何GBを、いつ、どの回線で運ぶか。5GB・40GBの転送時間を四則演算で求め、初回ダウンロード、容量の開示、中断と再開の仕様へつなぐネットワーク入門の番外編・最終回。</description>
+      <pubDate>Mon, 02 Nov 2026 14:18:37 -0000</pubDate>
+    </item>
     <item>
       <title>届かない、断られる、分からない——ゲームプランナーのためのネットワーク入門⑥</title>
       <link>https://umichang.github.io/blog/planner-network-intro-06-mobile-game-http.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-04-tcp-and-udp.html</guid>
       <description>位置情報は新しさ、チャットは届くことと順番。TCP・UDPとゲームエンジンの配送設定を手がかりに、送るデータごとに守る約束を仕様へ書き分ける。「ゲームプランナーのためのネットワーク入門」第4回。</description>
       <pubDate>Sun, 01 Nov 2026 11:02:49 -0000</pubDate>
-    </item>
-    <item>
-      <title>なぜ友だちとつながらないのか——ゲームプランナーのためのネットワーク入門③</title>
-      <link>https://umichang.github.io/blog/planner-network-intro-03-ip-nat-ports.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-03-ip-nat-ports.html</guid>
-      <description>インターネットにはつながるのに、特定の友だちと遊べないのはなぜか。IPアドレス、NAT、ポートの役割と、双方の家庭環境が接続に与える影響を整理し、ゲームの接続方式とサポートの案内を考える。「ゲームプランナーのためのネットワーク入門」第3回。</description>
-      <pubDate>Sun, 01 Nov 2026 07:12:29 -0000</pubDate>
     </item>
   </channel>
 </rss>
