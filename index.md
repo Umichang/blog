@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [自国にない機種へ出す——HoYoverse『プチプラネット』Switch 2版が示すパブリッシング判断](hoyoverse-petit-planet-switch2-overseas-publishing.md) 🟡
 - [届くこと、順番、新しさのどれを守るか——ゲームプランナーのためのネットワーク入門④](planner-network-intro-04-tcp-and-udp.md) 🟡
 - [なぜ友だちとつながらないのか——ゲームプランナーのためのネットワーク入門③](planner-network-intro-03-ip-nat-ports.md) 🟡
 - [ケーブルか、電波か——ゲームプランナーのためのネットワーク入門②](planner-network-intro-02-physical-layer-and-local-play.md) 🟢
 - [「通信エラー」は、どの層の話か——ゲームプランナーのためのネットワーク入門①](planner-network-intro-01-which-layer-is-the-error.md) 🟢
-- [飯野賢治評伝——見せないことで遊ばせ、作品の外側まで設計した人](kenji-eno-biography-what-to-remove-beyond-the-game.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -434,6 +434,7 @@
 - [クレーンゲームはなぜ景品を出せるのか――難易度設定・風営法・オンライン化の歴史](crane-game-prize-regulation-difficulty-online-history.md) 🟡
 - [プリクラは「かわいい」の反転をどう生き延びたか――プリントシール機30年史](photo-sticker-machine-30-year-history-trends-technology-subscription.md) 🟡
 - [パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界](publisher-developer-role-differences-bayonetta.md) 🟢
+- [自国にない機種へ出す——HoYoverse『プチプラネット』Switch 2版が示すパブリッシング判断](hoyoverse-petit-planet-switch2-overseas-publishing.md) 🟡
 - [No Man's Skyの炎上と復活――期待値管理と運営立て直しの事例](no-mans-sky-expectation-management-case-study.md) 🟢
 - [Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか](hollow-knight-silksong-long-silence-launch-anticipation.md) 🟢
 - [スマートフォンゲーム会社の倒産はなぜ過去最多ペースなのか――2026年の数字から読む開発費・運営費と国内市場](smartphone-game-developer-bankruptcies-2026-structural-costs-market.md) 🟡
