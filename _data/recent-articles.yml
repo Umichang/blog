@@ -1,5 +1,7 @@
 ---
 articles:
+- path: planner-network-intro-05-cellular-4g-5g.md
+  published_at: '2026-11-02T06:42:04Z'
 - path: hoyoverse-petit-planet-switch2-overseas-publishing.md
   published_at: '2026-11-02T02:09:46Z'
 - path: planner-network-intro-04-tcp-and-udp.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-01T07:12:29Z'
 - path: planner-network-intro-02-physical-layer-and-local-play.md
   published_at: '2026-11-01T01:28:11Z'
-- path: planner-network-intro-01-which-layer-is-the-error.md
-  published_at: '2026-10-31T15:24:28Z'

@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [途中で変わる回線を前提にする——ゲームプランナーのためのネットワーク入門⑤](planner-network-intro-05-cellular-4g-5g.md) 🟡
 - [自国にない機種へ出す——HoYoverse『プチプラネット』Switch 2版が示すパブリッシング判断](hoyoverse-petit-planet-switch2-overseas-publishing.md) 🟡
 - [届くこと、順番、新しさのどれを守るか——ゲームプランナーのためのネットワーク入門④](planner-network-intro-04-tcp-and-udp.md) 🟡
 - [なぜ友だちとつながらないのか——ゲームプランナーのためのネットワーク入門③](planner-network-intro-03-ip-nat-ports.md) 🟡
 - [ケーブルか、電波か——ゲームプランナーのためのネットワーク入門②](planner-network-intro-02-physical-layer-and-local-play.md) 🟢
-- [「通信エラー」は、どの層の話か——ゲームプランナーのためのネットワーク入門①](planner-network-intro-01-which-layer-is-the-error.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -127,6 +127,7 @@
 - 第2回：[ケーブルか、電波か——ゲームプランナーのためのネットワーク入門②](planner-network-intro-02-physical-layer-and-local-play.md) 🟢
 - 第3回：[なぜ友だちとつながらないのか——ゲームプランナーのためのネットワーク入門③](planner-network-intro-03-ip-nat-ports.md) 🟡
 - 第4回：[届くこと、順番、新しさのどれを守るか——ゲームプランナーのためのネットワーク入門④](planner-network-intro-04-tcp-and-udp.md) 🟡
+- 第5回：[途中で変わる回線を前提にする——ゲームプランナーのためのネットワーク入門⑤](planner-network-intro-05-cellular-4g-5g.md) 🟡
 
 ### 📐 ゲームデザイン理論
 
