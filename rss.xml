@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 02 Nov 2026 06:42:04 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 10:03:08 -0000</lastBuildDate>
+    <item>
+      <title>届かない、断られる、分からない——ゲームプランナーのためのネットワーク入門⑥</title>
+      <link>https://umichang.github.io/blog/planner-network-intro-06-mobile-game-http.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-06-mobile-game-http.html</guid>
+      <description>スマホゲームのHTTP通信を「届かなかった」「エラーが返ってきた」「結果が分からない」に分け、待ち時間、メンテナンス表示、再試行と結果確認を仕様にする。「ゲームプランナーのためのネットワーク入門」第6回・本編最終回。</description>
+      <pubDate>Mon, 02 Nov 2026 10:03:08 -0000</pubDate>
+    </item>
     <item>
       <title>途中で変わる回線を前提にする——ゲームプランナーのためのネットワーク入門⑤</title>
       <link>https://umichang.github.io/blog/planner-network-intro-05-cellular-4g-5g.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-03-ip-nat-ports.html</guid>
       <description>インターネットにはつながるのに、特定の友だちと遊べないのはなぜか。IPアドレス、NAT、ポートの役割と、双方の家庭環境が接続に与える影響を整理し、ゲームの接続方式とサポートの案内を考える。「ゲームプランナーのためのネットワーク入門」第3回。</description>
       <pubDate>Sun, 01 Nov 2026 07:12:29 -0000</pubDate>
-    </item>
-    <item>
-      <title>ケーブルか、電波か——ゲームプランナーのためのネットワーク入門②</title>
-      <link>https://umichang.github.io/blog/planner-network-intro-02-physical-layer-and-local-play.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-02-physical-layer-and-local-play.html</guid>
-      <description>近くの本体どうしで遊ぶ通信を、ケーブルと電波、アクセスポイントの有無から整理する。任天堂のLANプレイを例に、参加人数・必要機材・バージョン条件を仕様書へ落とし込む「ゲームプランナーのためのネットワーク入門」第2回。</description>
-      <pubDate>Sun, 01 Nov 2026 01:28:11 -0000</pubDate>
     </item>
   </channel>
 </rss>
