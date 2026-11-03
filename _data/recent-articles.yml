@@ -1,5 +1,7 @@
 ---
 articles:
+- path: long-running-mmorpg-ffxi-dqx-continuing-operations.md
+  published_at: '2026-11-03T15:30:31Z'
 - path: why-mario-could-not-go-back-left.md
   published_at: '2026-11-03T10:54:08Z'
 - path: planner-network-intro-extra-data-size-and-transfer-time.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-02T10:03:08Z'
 - path: planner-network-intro-05-cellular-4g-5g.md
   published_at: '2026-11-02T06:42:04Z'
-- path: hoyoverse-petit-planet-switch2-overseas-publishing.md
-  published_at: '2026-11-02T02:09:46Z'

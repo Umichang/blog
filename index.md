@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [終わらなかったMMORPG――FFXIとドラゴンクエストXに学ぶ「続ける」運営](long-running-mmorpg-ffxi-dqx-continuing-operations.md) 🟡
 - [なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト](why-mario-could-not-go-back-left.md) 🟢
 - [何GBを、いつ、何分で運ぶか——ゲームプランナーのためのネットワーク入門 番外編](planner-network-intro-extra-data-size-and-transfer-time.md) 🟢
 - [届かない、断られる、分からない——ゲームプランナーのためのネットワーク入門⑥](planner-network-intro-06-mobile-game-http.md) 🟡
 - [途中で変わる回線を前提にする——ゲームプランナーのためのネットワーク入門⑤](planner-network-intro-05-cellular-4g-5g.md) 🟡
-- [自国にない機種へ出す——HoYoverse『プチプラネット』Switch 2版が示すパブリッシング判断](hoyoverse-petit-planet-switch2-overseas-publishing.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -391,6 +391,7 @@
 ### 🪦 サービス終了・撤退
 
 - [サービス終了をどう設計するか――オンラインゲームを破綻なく畳む実務](service-shutdown-design-and-practice.md) 🔴
+- [終わらなかったMMORPG――FFXIとドラゴンクエストXに学ぶ「続ける」運営](long-running-mmorpg-ffxi-dqx-continuing-operations.md) 🟡
 - [ゲームはどこまで保存できるのか――博物館に残せる作品と、戻らないライブサービスの「お祭り」](game-preservation-playable-archives-and-live-service-limits.md) 🟡
 - [『文豪ストレイドッグス 迷ヰ犬怪奇譚』――告知から実質1日、廃業と「異能石」払戻し拒否が突いた法とサービス終了設計の隙間](bungo-stray-dogs-mayoi-inu-bankruptcy-shutdown-refund-gap.md) 🔴
 - [『BLUE PROTOCOL』はなぜ美しいまま終わったのか――絵が集めた客層と、設計が想定した客層のずれ](blue-protocol-visual-success-and-live-service-failure.md) 🟡

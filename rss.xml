@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 03 Nov 2026 10:54:08 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 15:30:31 -0000</lastBuildDate>
+    <item>
+      <title>終わらなかったMMORPG――FFXIとドラゴンクエストXに学ぶ「続ける」運営</title>
+      <link>https://umichang.github.io/blog/long-running-mmorpg-ffxi-dqx-continuing-operations.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/long-running-mmorpg-ffxi-dqx-continuing-operations.html</guid>
+      <description>FFXIとドラゴンクエストXを中心に、長期運営MMORPGが「続ける」ために選んできた施策を読む。物語の完結、ソロ対応、仲間との関係、機器更新、不正対策から、規模に合わせた運営の判断軸を整理する。</description>
+      <pubDate>Tue, 03 Nov 2026 15:30:31 -0000</pubDate>
+    </item>
     <item>
       <title>なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト</title>
       <link>https://umichang.github.io/blog/why-mario-could-not-go-back-left.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-05-cellular-4g-5g.html</guid>
       <description>スマホでは遊んでいる途中で回線の経路と品質が変わる。事業者内のアドレス変換、回線切り替え、5G、データ容量を整理し、中断と復帰、案内、QAの仕様へつなぐネットワーク入門第5回。</description>
       <pubDate>Mon, 02 Nov 2026 06:42:04 -0000</pubDate>
-    </item>
-    <item>
-      <title>自国にない機種へ出す——HoYoverse『プチプラネット』Switch 2版が示すパブリッシング判断</title>
-      <link>https://umichang.github.io/blog/hoyoverse-petit-planet-switch2-overseas-publishing.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/hoyoverse-petit-planet-switch2-overseas-publishing.html</guid>
-      <description>HoYoverse『プチプラネット』のSwitch 2版発表から、自国で公式販売されていない機種へ展開する判断を読む。海外需要、ジャンルとの相性、ESRBの公開情報を整理し、『原神』への展開は編者の想定として考える。</description>
-      <pubDate>Mon, 02 Nov 2026 02:09:46 -0000</pubDate>
     </item>
   </channel>
 </rss>
