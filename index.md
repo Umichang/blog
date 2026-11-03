@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト](why-mario-could-not-go-back-left.md) 🟢
 - [何GBを、いつ、何分で運ぶか——ゲームプランナーのためのネットワーク入門 番外編](planner-network-intro-extra-data-size-and-transfer-time.md) 🟢
 - [届かない、断られる、分からない——ゲームプランナーのためのネットワーク入門⑥](planner-network-intro-06-mobile-game-http.md) 🟡
 - [途中で変わる回線を前提にする——ゲームプランナーのためのネットワーク入門⑤](planner-network-intro-05-cellular-4g-5g.md) 🟡
 - [自国にない機種へ出す——HoYoverse『プチプラネット』Switch 2版が示すパブリッシング判断](hoyoverse-petit-planet-switch2-overseas-publishing.md) 🟡
-- [届くこと、順番、新しさのどれを守るか——ゲームプランナーのためのネットワーク入門④](planner-network-intro-04-tcp-and-udp.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -241,6 +241,7 @@
 ### 🎲 ジャンル・ゲーム文化
 
 - [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md) 🟢
+- [なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト](why-mario-could-not-go-back-left.md) 🟢
 - [オープンワールドゲームの歴史：萌芽から革新へ](open-world-games-history.md) 🟢
 - [『マリオカート ワールド』は、なぜオープンワールドを「競技の一部」にしたのか](mario-kart-world-open-world-design-vs-forza-horizon.md) 🟡
 - [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🟢
