@@ -1,298 +1,315 @@
 ---
-description: "ゲームコントローラーのボタン配置が任天堂・PlayStation・Xboxで異なる背景には、約50年にわたるハードウェア設計思想の分岐、企業間の競争と影響関係、そして日本と欧米の文化的差異がある。"
+description: "任天堂の右A、Xboxの下A、PlayStationの○と×はどう分かれたのか。1970年代の1ボタンからPS5の決定ボタン統一、Switch 2までをたどり、プランナーが役割と位置で操作仕様を書く意味を考える。"
 category: controls-interface
 difficulty: green
 ---
 
 # ゲームコンソールのボタン配置はなぜ異なるのか――規格分岐の歴史
 
-## エグゼクティブサマリー
+## はじめに：同じ「決定」に3つの流儀がある
 
-ゲームコントローラーのボタン配置が任天堂・PlayStation・Xboxで異なる背景には、約50年にわたるハードウェア設計思想の分岐、企業間の競争と影響関係、そして日本と欧米の文化的差異がある。1977年のAtariジョイスティック（ボタン1個）から始まり、1983年のファミコンで「右からA・B」の慣例が生まれ、1990年のスーパーファミコンで「ABXYダイヤモンド配置＋LRショルダーボタン」という現代コントローラーの原型が確立された。2017年のNintendo Switchでも、Joy-ConとProコントローラーは任天堂式ABXYを継承した。その後、セガ・ソニー・マイクロソフトがそれぞれ独自の文脈でボタン名称・配列・決定/キャンセルの割り当てを決めた結果、現在のSwitch、PlayStation、Xboxで「3つの流儀」が並存する状況が生まれた。
+メニューで項目を選び、決定する。その操作だけでも、ゲーム機を持ち替えると指が迷うことがある。任天堂では右のA、Xboxでは下のAが基本である。PlayStationは日本で右の○を決定に使ってきたが、PS5では世界で下の×に統一された。[[1](#ref-1)]
 
----- 
+この3つの流儀には、異なる分岐が重なっている。任天堂ではファミコンの右A・左Bから、スーパーファミコンのひし形4ボタンへと構成が広がった。PlayStationは独自の記号を採用し、さらに日本と欧米で決定の割り当てが分かれた。Xboxは任天堂と同じABXYを使いながら、各文字を別の位置に置いた。[[1](#ref-1)]
 
-## 第1章：黎明期 ― ジョイスティックと1ボタンの時代（1970年代）
+歴史を読む鍵は、 **ボタンの表記、物理的な位置、操作の役割を分けること** にある。「Aを押す」と「下を押す」と「決定する」は、それぞれ別の情報なのだ。
+
+----
+
+## 第1章：1ボタンの時代――Atariのジョイスティック
 
 ![斜め前から見たAtari CX40ジョイスティック](image/atari-cx40.webp)
 *画像出典（引用）：Evan-Amos, [Atari-2600-Joystick.jpg](https://commons.wikimedia.org/wiki/File:Atari-2600-Joystick.jpg), Wikimedia Commons, Public Domain / CX40ジョイスティックのスティック部分と1ボタン構成を示す資料として引用。WebP変換。*
 
-ゲームコントローラーの歴史は、1977年にAtari Video Computer System（のちのAtari 2600）とともに発売されたCX10ジョイスティックに始まる。このコントローラーはジョイスティック1本と発射ボタン1個というシンプルな構成で、翌年にはより安価なCX40に置き換えられた。ボタンが1つしかないため、配置の「違い」は存在しなかった。しかし、ジョイスティックを長時間握り続けることによる「ジョイスティック・サム」と呼ばれる疲労が問題視され、より快適な操作手段が求められるようになる。[[1](#ref-1)]
+Atari 2600は1977年に発売された。Science Museum Groupの所蔵品には、1978年の標準ジョイスティックCX40が含まれる。写真の構成は、方向を入力するスティックと、赤いボタン1個である。[[2](#ref-2)]
 
-このシンプルな入力体系は、ゲームの複雑化とともに限界を迎える。第3世代のゲーム機（NES、マスターシステムなど）では2個以上のアクションボタンが搭載されるようになり、ボタンに名前を付ける必要が生じた。ここから各メーカーの設計思想が分かれ始める。[[1](#ref-1)]
+ボタンが1個なら、複数のアクションボタンのうち「どれを決定にするか」という配置の違いは生まれようがない。本稿で追う分岐は、ボタンが増え、それぞれに名前や役割を割り当てる段階から始まる。
 
----- 
+----
 
-## 第2章：任天堂の確立 ― 十字ボタンとA・Bの誕生（1980年代）
+## 第2章：十字ボタンと、右A・左B
 
-### 十字ボタン（D-Pad）の発明
+### 1982年6月、ゲーム＆ウオッチ『ドンキーコング』
 
-1980年、任天堂は携帯ゲーム機「ゲーム＆ウオッチ」シリーズにおいて、十字型の方向入力パッド（D-Pad）を導入した。ジョイスティックに代わるこの薄型入力装置は、のちのあらゆるゲーム機コントローラーに受け継がれる基本設計となった。[[2](#ref-2)][[3](#ref-3)]
+ゲーム＆ウオッチの発売は1980年である。十字ボタンを初めて採用したのは、その後の1982年6月発売『ドンキーコング』だった。任天堂の「社長が訊く」で、<ruby>出石武宏<rt>いずし たけひろ</rt></ruby>氏がこの採用を振り返っている。公式の歴史ページでも、マルチスクリーンのシリーズから十字キーが登場したと説明されている。[[3](#ref-3)][[4](#ref-4)]
 
-### ファミリーコンピュータ（1983年）
+その形は試作を重ねて磨かれた。開発陣は横井軍平氏に触ってもらい、その感触を受けて作り直したという。方向入力をひとまとまりの十字にする設計には、実際に指で扱ったときの確かさを探る過程があった。[[4](#ref-4)]
 
-![Famicom controller I](image/famicom-controllers.webp)
+### ファミコンの2ボタンと、家庭での使われ方
+
+![ファミコンIコントローラーの右A・左Bの配置](image/famicom-controllers.webp)
 *画像出典（引用）：Evan-Amos, [Nintendo-Famicom-Controller-I-FR.jpg](https://commons.wikimedia.org/wiki/File:Nintendo-Famicom-Controller-I-FR.jpg), Wikimedia Commons, Public Domain / ファミコンIコントローラーのA・Bボタン配置を示す資料として引用。WebP変換。*
 
-1983年発売のファミコンは、十字ボタン＋A・Bの2ボタン＋SELECT・STARTという構成を採用した。注目すべきは、A・Bボタンの配置が「右からA、左にB」であった点である。他社（セガのマスターシステムなど）がボタンに「1・2」やローマ数字「I・II」と番号を振ったのに対し、任天堂はアルファベットの「A」「B」を選んだ。[[4](#ref-4)][[5](#ref-5)][[6](#ref-6)]
+1983年発売のファミリーコンピュータは、十字ボタン、A・B、SELECT・STARTという構成を採った。写真では右がA、左がBである。後の任天堂式配列を読むとき、まず覚えておきたい左右関係だ。[[5](#ref-5)]
 
-この「右がメイン（A）、左がサブ（B）」という配置は、ファミコン以前の「GAME A」「GAME B」という難易度選択の名残とする説もある。製造コストの観点からボタン数は十字ボタン相当の4＋通常2＋特殊2＝8ビットに収まるよう設計された。初期のファミコンではA・Bボタンが四角形だったが、筐体に引っかかる問題が発生し、丸型に変更された。[[7](#ref-7)][[6](#ref-6)]
+発売後には、四角いボタンが戻らなくなる問題が起きた。<ruby>上村雅之<rt>うえむら まさゆき</rt></ruby>氏は打鍵テストを100万回行っていたと述べている。それでも家庭で強く押される使われ方を十分には見込めず、問題は四角を丸くすることで解決した。[[6](#ref-6)]
 
-### セガの対抗：左始点の配列
+これは、作り手が家庭でどれほど強く遊ばれるかを見誤った例でもある。部品を何回押せるかという試験と、夢中になった人がどう押すかという現実には隔たりがあった。
 
-![Sega Genesis 3 button controller](image/mega-drive-controllers.webp)
+----
+
+## 第3章：セガのA・B・Cは左から並ぶ
+
+![左からA・B・Cが並ぶGenesis（海外版メガドライブ）の3ボタンパッド](image/mega-drive-controllers.webp)
 *画像出典（引用）：Evan-Amos, [Sega-Genesis-3But-Cont.jpg](https://commons.wikimedia.org/wiki/File:Sega-Genesis-3But-Cont.jpg), Wikimedia Commons, Public Domain / セガ系3ボタンの左始点配置を示す資料として引用。WebP変換。*
 
-一方、セガはメガドライブ（1988年、海外名Genesis）でA・B・Cの3ボタンを採用した。セガのボタンは「左からA→B→C」と、任天堂とは逆方向に並んでいた。この「左始点」の配列は、のちにセガサターン、ドリームキャスト、そしてXboxへと受け継がれていく重要な分岐点である。[[5](#ref-5)][[8](#ref-8)]
+メガドライブは1988年10月29日に発売された。付属パッドの3ボタンは、写真のとおり左からA・B・Cと並ぶ。ファミコンと同じA・Bという文字があっても、並ぶ向きは異なる。[[7](#ref-7)]
 
----- 
-
-## 第3章：スーパーファミコン ― 現代コントローラーの原型（1990年）
-
-### ABXYダイヤモンド配置の誕生
-
-![Super Famicom controller](image/super-famicom-controller.webp)
-*画像出典（引用）：Evan-Amos, [Super-Famicom-Controller.jpg](https://commons.wikimedia.org/wiki/File:Super-Famicom-Controller.jpg), Wikimedia Commons, Public Domain / スーパーファミコンのABXYダイヤモンド配置を示す資料として引用。WebP変換。*
-
-1990年発売のスーパーファミコンは、ファミコンの2ボタンに「X」「Y」を追加し、ひし形（ダイヤモンド）に4つのボタンを配置した。時計回りにX・A・B・Yと並ぶこの配列は、現代のほぼすべてのコントローラーの原型となった。さらにL・Rショルダーボタンも初めて搭載され、人差し指での操作という新たな入力手段が生まれた。[[9](#ref-9)][[10](#ref-10)][[11](#ref-11)]
-
-### なぜ「C・D」ではなく「X・Y」なのか
-
-新ボタンの命名が「C・D」ではなく「X・Y」となった理由には複数の説がある。
-
-- **CAD座標系説**：当時の任天堂アメリカのプロダクトデザイナーが、CAD（コンピュータ支援設計）で使われるX軸・Y軸の座標系に由来すると語っていたとされる。[[12](#ref-12)][[4](#ref-4)]
-- **将来拡張への備え説**：ABCDの順だと、将来ボタンを追加した際にCが移動し、既存ゲームとの互換性に問題が生じる。X・Yなら追加しても配列の混乱が起きにくい。[[13](#ref-13)][[4](#ref-4)]
-- **音の区別説**：BとDは発音が似ており、口頭で指示する際に混同しやすい。X・Yなら明確に区別できる。[[13](#ref-13)]
-
-### 地域ごとのデザイン差異
-
-スーパーファミコンのコントローラーには、日本/欧州版と北米版で興味深い違いがあった。日本/欧州版ではA（赤）・B（黄）・X（青）・Y（緑）と4色の凸ボタンが使われたが、北米版ではX・Yが凹型、A・Bが凸型とし、触感だけで上下段を区別できるよう工夫された。[[11](#ref-11)][[14](#ref-14)]
-
----- 
-
-## 第4章：セガの6ボタンと格闘ゲームの影響（1993年）
-
-![Sega Genesis 6 button controller](image/sega-genesis-6button.webp)
+![下段A・B・Cと上段X・Y・Zが並ぶGenesisの6ボタンパッド](image/sega-genesis-6button.webp)
 *画像出典（引用）：Evan-Amos, [Sega-Genesis-6But-Cont.jpg](https://commons.wikimedia.org/wiki/File:Sega-Genesis-6But-Cont.jpg), Wikimedia Commons, Public Domain / セガ6ボタン構成を示す資料として引用。WebP変換。*
 
-1991年のアーケード版「ストリートファイターII」のブームは、家庭用コントローラーに大きな影響を与えた。パンチ・キック各3段階の計6ボタンが必要となり、セガは1993年にメガドライブ用の「ファイティングパッド6B」を発売。従来のA・B・Cの上段にX・Y・Zを追加した6ボタン構成となった。[[15](#ref-15)][[16](#ref-16)][[8](#ref-8)]
+6ボタンのパッドでは、下段にA・B・C、上段にX・Y・Zが並ぶ。同じ6個でも、後に見るひし形4ボタンとは配置のまとまり方が違う。写真からは、セガが正面のボタンを横2段に増やした姿を読み取れる。
 
-セガサターン（1994年）はこの6ボタンパッドをベースに、L・Rショルダーボタンを加えた構成を標準とした。セガのボタン配列は一貫して左始点（左からA→B→C）であり、この方向性はドリームキャストを経てXboxに引き継がれることになる。[[17](#ref-17)][[8](#ref-8)][[15](#ref-15)]
+セガサターンの発売は1994年11月22日である。1990年代前半には、任天堂のひし形、セガの横2段、そしてPlayStationの記号という、異なる構成が並ぶことになる。[[8](#ref-8)]
 
----- 
+----
 
-## 第5章：PlayStationのシンボルボタン ― 文化的分岐の始まり（1994年）
+## 第4章：スーパーファミコンのひし形とL・R
 
-![PlayStation controller set](image/ps1-controller-set.webp)
+![上X・右A・下B・左Yのひし形配置を持つスーパーファミコンのコントローラー](image/super-famicom-controller.webp)
+*画像出典（引用）：Evan-Amos, [Super-Famicom-Controller.jpg](https://commons.wikimedia.org/wiki/File:Super-Famicom-Controller.jpg), Wikimedia Commons, Public Domain / スーパーファミコンのABXYダイヤモンド配置を示す資料として引用。WebP変換。*
+
+1990年発売のスーパーファミコンでは、A・BにX・Yが加わり、正面がひし形の4ボタンになった。写真の上がX、右がA、下がB、左がYである。上辺にはL・Rもあり、正面の4ボタンと、別の指で扱うボタンを組み合わせる構成が見える。[[5](#ref-5)]
+
+右A・左Bというファミコンの2ボタンから、右A・下Bを含むひし形へと変わった。ここでできた4文字と位置の組み合わせは、後のSwitchにも残る。
+
+### なぜ追加された文字はX・Yなのか
+
+X・Yという命名について、任天堂の設計者による公式の説明は確認できない。報じられている説の一つに、CAD（コンピュータ支援設計）の座標軸にちなむというものがある。
+
+Damien McFerran氏によるTime Extensionの2025年9月27日付記事は、1993年のNintendo Power誌の読者欄でそのように回答されたとする説を紹介している。ただし、記事の根拠はSasha's RetrobytesによるBluesky投稿であり、誌面の回答の原文は確認されていない。命名の確定した由来として扱える段階ではない。[[9](#ref-9)]
+
+----
+
+## 第5章：PlayStationは文字から記号へ
+
+![初代PlayStation本体と△・○・×・□の記号ボタンを持つコントローラー](image/ps1-controller-set.webp)
 *画像出典（引用）：Evan-Amos, [PlayStation-SCPH-1000-with-Controller.jpg](https://commons.wikimedia.org/wiki/File:PlayStation-SCPH-1000-with-Controller.jpg), Wikimedia Commons, Public Domain / 初代PlayStationコントローラーの記号ボタンを示す資料として引用。WebP変換。*
 
-### 記号ボタンの誕生
+初代PlayStationは、日本で1994年12月3日、北米で1995年9月9日、欧州で1995年9月29日に発売された。正面の4ボタンには△・○・×・□が置かれ、この記号は以後のPlayStationにも続く。[[10](#ref-10)]
 
-1994年に発売された初代PlayStationのコントローラーは、文字ではなく「△○×□」の4つの記号をボタンに採用した。この設計を担当したのは<ruby>後藤禎祐<rt>ごとう ていゆう</rt></ruby>氏で、「他のゲーム会社がアルファベットや色を使っている中、言語に依存しない記号を選んだ」と語っている。各記号には明確な意味が込められていた。[[18](#ref-18)]
+### 記号に与えられた意味
 
-| 記号  | 意味            | 色   |
-| --- | ------------- | --- |
-| △   | 視点・方向（頭を表す）   | 緑   |
-| ○   | YES・肯定        | 赤   |
-| ×   | NO・否定         | 青   |
-| □   | メニュー・文書（紙を表す） | ピンク |
+デザインを担当した<ruby>後藤禎祐<rt>ごとう ていゆう</rt></ruby>氏は、2010年に報じられたインタビューで、それぞれに意味と色を与えたと説明している。Gematsuが伝えた対応は次のとおりである。[[11](#ref-11)]
 
-[[19](#ref-19)][[18](#ref-18)]
+| 記号 | 意味 | 色 |
+| --- | --- | --- |
+| △ | 視点。頭や方向を表す | 緑 |
+| □ | 紙。メニューや文書を表す | 桃色 |
+| ○ | 「はい」という判断 | 赤 |
+| × | 「いいえ」という判断 | 青 |
 
-この大胆なデザインは社内でも議論を呼んだが、当時のソニー社長・<ruby>大賀典雄<rt>おおが のりお</rt></ruby>が「航空機の操縦桿に似たグリップ」を含むデザイン全体を支持し、採用が決定した。[[19](#ref-19)]
+グリップ付きの形も、開発時から支持が一致していたわけではない。ソニー上層部がSFCに似た平らな形を求めるなか、後藤氏と当時の社長・<ruby>大賀典雄<rt>おおが のりお</rt></ruby>氏はグリップ付きの試作を支持した。[[12](#ref-12)]
 
-### SFCの配置を踏襲した理由
+### 同じ記号でも、地域で役割が変わった
 
-PlayStationのボタン配置自体は、スーパーファミコンのレイアウト（左に十字ボタン、右にひし形4ボタン、LR）を色濃く踏襲している。これはPlayStationの企画がもともとスーパーファミコン用CD-ROMアダプタとして始まったことに由来する。開発途中のプロトタイプには、6ボタン配置案や○と×の位置が逆の案も検討されていた。[[20](#ref-20)][[15](#ref-15)][[5](#ref-5)]
+日本では○が決定、×がキャンセルとして使われた。一方、欧米では×が決定、○がキャンセルだった。右の○と下の×という物理的な位置も、ボタンに印刷された記号も同じでありながら、地域によって役割が入れ替わったのである。[[1](#ref-1)]
 
-### 日本と欧米の決定ボタン問題
+ここには、機種間の表記の違いに加え、 **同じ機種の地域差** という別の分岐がある。記号に与えた意味と、メニューで実際に使う操作の慣習は、分けて考える必要がある。
 
-日本では「○＝YES＝決定」「×＝NO＝キャンセル」として定着した。これはSFCの「右ボタン（A）＝決定」を踏襲した自然な流れだった。[[15](#ref-15)][[5](#ref-5)]
+----
 
-しかし欧米では事情が異なった。欧米文化では「○」に特に肯定的な意味はなく、むしろ「×」がチェックマーク（✓）に近い形として「了解」「確認」の意味を持つ。北米ローンチ時、SCEAは×ボタンを決定に割り当てた。この判断は、開発当初「ほとんどリサーチが行われなかった」ともされている。[[21](#ref-21)][[5](#ref-5)][[15](#ref-15)]
+## 第6章：アナログ入力が加わった1990年代
 
----- 
-
-## 第6章：N64 ― アナログ入力とボタン再配置（1996年）
-
-![Nintendo 64 controller](image/nintendo64-controller.webp)
+![NINTENDO64本体と中央に3Dスティックを備えたコントローラー](image/nintendo64-controller.webp)
 *画像出典（引用）：Evan-Amos, [Nintendo-64-wController-L.jpg](https://commons.wikimedia.org/wiki/File:Nintendo-64-wController-L.jpg), Wikimedia Commons, Public Domain / NINTENDO64コントローラーのA・B・Cボタン配置を示す資料として引用。WebP変換。*
 
-NINTENDO64（1996年）は、3つのグリップを持つ独特の形状に、アナログスティック（3Dスティック）を標準搭載した最初の主要コンソールとなった。A・Bボタンの配置もSFCから変更され、Aが下・Bが左となった。これにより「下のボタンで決定」と「Aボタンで決定」が初めて両立した。[[10](#ref-10)][[15](#ref-15)]
+1996年発売のNINTENDO64では、中央のグリップに3Dスティックが置かれた。写真では右側にA・Bと4個の黄色いボタンが見え、SFCのひし形4ボタンとは異なる配置である。任天堂のコントローラーも、世代ごとに同じ外形を保ってきたわけではない。[[5](#ref-5)]
 
-また、C（カメラ）ボタンユニットとして4つの黄色い方向ボタンが搭載され、3Dゲームでのカメラ操作に使用された。背面にはZトリガーボタンも配置され、「奥方向のZ軸」に由来するとされる。N64の振動パックは家庭用コントローラー初の振動機能であり、のちのDualShockに影響を与えた。[[22](#ref-22)][[15](#ref-15)]
-
----- 
-
-## 第7章：Xbox ― セガの遺産と欧米標準の確立（2001年）
-
-![Original Xbox Duke controller](image/xbox-duke-controller.webp)
-*画像出典（引用）：Evan-Amos, [Xbox-Controller-Duke-FL.jpg](https://commons.wikimedia.org/wiki/File:Xbox-Controller-Duke-FL.jpg), Wikimedia Commons, Public Domain / 初代Xbox DukeコントローラーのABXY配置を示す資料として引用。WebP変換。*
-
-### ドリームキャストからXboxへ
-
-2001年にマイクロソフトが発売した初代Xboxのコントローラーは、セガ・ドリームキャストの強い影響下で設計された。Xbox共同開発者のシーマス・ブラックリーは「当時はDreamcast was king（ドリームキャストが王者だった）。影響を受けた」と明言している。初期のプロトタイプはドリームキャストのコントローラーに酷似しており、VMU型の周辺機器まで検討されていた。[[23](#ref-23)][[24](#ref-24)]
-
-### ABXY配列の「逆転」
-
-XboxのABXYボタンは、セガの伝統に従い「左からA→B」「下からX→Y」と配置されている。これは任天堂の「右からA→B」とは完全に逆であり、同じABXYの文字を使いながら位置が入れ替わるという混乱の原因となった。[[16](#ref-16)][[25](#ref-25)][[9](#ref-9)][[5](#ref-5)]
-
-| 配置比較                  | 右ボタン     | 下ボタン     | 左ボタン | 上ボタン |
-| --------------------- | -------- | -------- | ---- | ---- |
-| 任天堂（SFC/Switch）       | A（決定）    | B（キャンセル） | Y    | X    |
-| Xbox                  | B        | A（決定）    | X    | Y    |
-| PlayStation（日本）       | ○（決定）    | ×（キャンセル） | □    | △    |
-| PlayStation（欧米/PS5以降） | ○（キャンセル） | ×（決定）    | □    | △    |
-
-[[26](#ref-26)][[9](#ref-9)][[5](#ref-5)][[28](#ref-28)][[29](#ref-29)]
-
-重要なのは、Xboxの「A（決定）」が配置される「下」の位置は、欧米PlayStationで「×（決定）」が置かれる位置と一致している点である。つまり欧米のゲーマーにとっては、XboxでもPlayStationでも「下のボタンで決定」という統一感があった。[[26](#ref-26)][[5](#ref-5)]
-
----- 
-
-## 第8章：アナログスティックの配置問題
-
-![PSX DualShock controller](image/psx-dualshock.webp)
+![2本のアナログスティックが左右の下側に並ぶDUALSHOCK](image/psx-dualshock.webp)
 *画像出典（引用）：Evan-Amos, [PSX-DualShock-Controller.jpg](https://commons.wikimedia.org/wiki/File:PSX-DualShock-Controller.jpg), Wikimedia Commons, Public Domain / DualShockの左右対称スティック配置を示す資料として引用。WebP変換。*
 
-ボタン名称だけでなく、アナログスティックの配置もメーカーによって異なる。PlayStationのDualShockは左右対称に2本のスティックを下部に配置したのに対し、Xboxは左スティックを上部・右スティックを下部と非対称に配置した。[[15](#ref-15)]
+PlayStationでは1997年4月にアナログコントローラ、同年11月にDUALSHOCKが登場した。公式の歴史ページは、DUALSHOCKの振動モーターと長軸のアナログスティックを紹介している。[[10](#ref-10)]
 
-DualShockの設計は、既存の十字ボタン＋4ボタン構成にスティックを「後付け」した経緯に由来する。1997年にN64のアナログスティックと振動機能の影響を受けて開発されたが、左スティックが手の自然な位置からやや離れるという指摘もある。一方Xboxは、「左手の親指の自然な位置」にスティックを置くことを重視した設計となっている。[[15](#ref-15)]
+写真では、DUALSHOCKの2本のスティックは左右の下側に並ぶ。NINTENDO64の中央のスティックとは位置が違う。方向入力の手段が増えても、正面のボタンをどの位置に置き、どう名付けるかという違いは残った。
 
----- 
+----
 
-## 第9章：Switch ― 分離入力でも維持された任天堂式ABXY（2017年）
+## 第7章：Xbox――ドリームキャストの影響と下のA
+
+![下A・右B・左X・上Yの配置を持つ初代XboxのDukeコントローラー](image/xbox-duke-controller.webp)
+*画像出典（引用）：Evan-Amos, [Xbox-Controller-Duke-FL.jpg](https://commons.wikimedia.org/wiki/File:Xbox-Controller-Duke-FL.jpg), Wikimedia Commons, Public Domain / 初代Xbox DukeコントローラーのABXY配置を示す資料として引用。WebP変換。*
+
+Xboxは2001年11月15日に北米で発売された。[[13](#ref-13)]
+
+開発に関わったシーマス・ブラックリー氏は、後にコントローラーの試作図を公開している。GameSpotは同氏の「Dreamcast was king. Influence.」という発言を紹介した。当時のドリームキャストが試作に影響を与えたという説明であり、図にもVMUを思わせる要素が見える。[[14](#ref-14)]
+
+Xboxの4ボタンは、下がA、右がB、左がX、上がYである。この対応はUnityとSDLのドキュメントでも確認できる。任天堂と同じ4文字を使いながら、AとB、XとYの位置がそれぞれ入れ替わっている。[[15](#ref-15)][[16](#ref-16)]
+
+Xboxで基本となる下のAによる決定は、欧米のPlayStationで使われてきた下の×と位置が一致する。一方、任天堂の右Aとは「A」という名前が一致する。同じ位置を頼りにするか、同じ文字を頼りにするかで、指の行き先が変わる。[[1](#ref-1)]
+
+初代Xboxの写真では、左スティックが上側、右スティックが下側にある。DUALSHOCKの写真と比べると、この配置の違いも見て取れる。
+
+----
+
+## 第8章：SwitchとSwitch 2に続くABXY
 
 ![Nintendo Switch Proコントローラー](image/nintendo-switch-pro-controller.webp)
 *画像出典（引用）：Evan-Amos, [Nintendo-Switch-Pro-Controller-FL.jpg](https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Pro-Controller-FL.jpg), Wikimedia Commons, Public Domain / Nintendo Switch ProコントローラーのABXY配置を示す資料として引用。WebP変換。*
 
-Nintendo Switchは、コントローラーの形を一つに固定しなかった。Joy-Conを本体左右に取り付ければ携帯ゲーム機のように使え、左右を外せば2つの小型コントローラーにもなり、Joy-Conグリップに取り付ければ従来型のゲームパッドに近づく。さらに、TVモードやテーブルモードで長時間遊ぶための別売コントローラーとしてNintendo Switch Proコントローラーも用意された。[[28](#ref-28)][[29](#ref-29)][[30](#ref-30)]
+2017年発売のNintendo Switchでは、Joy-ConとProコントローラーがABXYを維持した。公式仕様にはJoy-Con（R）のA/B/X/Yと、ProコントローラーのABXYボタンが記載されている。Proコントローラーの写真でも、右A・下B・左Y・上Xという並びが確認できる。[[5](#ref-5)][[17](#ref-17)][[18](#ref-18)]
 
-しかし入力形態が増えても、任天堂のABXY配列そのものは変わらなかった。任天堂公式仕様では、Joy-Con（R）がA/B/X/Yボタンを持ち、ProコントローラーもABXYボタン、十字ボタン、左右スティック、L/R/ZL/ZRボタンを備える。つまりSwitch世代の任天堂は、携帯・分離・据え置き風の複数形態を横断しながら、スーパーファミコン以来の「右A・下B・左Y・上X」を維持したことになる。[[28](#ref-28)][[29](#ref-29)]
+Joy-Conを分離して使う形、Joy-Conグリップに取り付ける形、別売のProコントローラーなど、Switchでは持ち方の選択肢が広がった。そのなかでも、通常の両手持ちで使うABXYの並びはSFCと共通している。[[19](#ref-19)]
 
-この点が、現代の混乱を理解するうえで重要である。Xboxは同じABXYの文字を使いながら「下A・右B」へ進み、PlayStationは記号ボタンを使いつつ、地域差を経てPS5で「下の×＝決定」に統一した。一方、任天堂はSwitchでも「右のA」を保った。したがって、現在の問題は単に昔のSFCとXboxの違いではなく、いま手元にあるSwitch、PlayStation、Xboxのコントローラーで、同じ位置にあるボタンの名前と意味がずれる問題なのである。[[5](#ref-5)][[9](#ref-9)]
+Switch 2のJoy-Con 2にもA/B/X/Yがある。任天堂サポートの図には、これらに加えてCボタンも示されている。新しいボタンが加わっても、ABXYという4文字は引き継がれている。[[20](#ref-20)]
 
 ----
 
-## 第10章：PS5のグローバル統一 ― ○×問題の終着点（2020年）
+## 第9章：PS5の決定ボタン統一と、残った境界
 
-![DualSense wireless controller](image/playstation-dualsense-controller.webp)
+![右に○、下に×を備えたPS5のDualSense ワイヤレスコントローラー](image/playstation-dualsense-controller.webp)
 *画像出典（引用）：Alex Cochrane, [Playstation DualSense Controller.png](https://commons.wikimedia.org/wiki/File:Playstation_DualSense_Controller.png), Wikimedia Commons, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / PS5標準のDualSense ワイヤレスコントローラーを示す資料として引用。WebP変換。*
 
-2020年11月発売のPlayStation 5で、SIE（ソニー・インタラクティブエンタテインメント）は全世界で「×＝決定、○＝キャンセル」に統一した。その理由として「複数の国のゲームがプレイされる環境になり、システムとゲームの間で使うボタンが変わることを避ける」ことが挙げられた。[[27](#ref-27)][[5](#ref-5)]
+PS5では、日本でも下の×が決定になった。PlayStation公式サポートは、×を「選んだ項目を決定」、○を「操作を取り消す」ためのボタンとして説明している。[[21](#ref-21)]
 
-25年以上にわたって「○で決定」に慣れた日本のユーザーには大きな議論を呼んだが、PCゲーム市場ではXboxコントローラーがデファクトスタンダードとなり「下ボタン決定」が主流化していたこと、欧米市場の規模がビジネス上無視できないことが背景にある。[[5](#ref-5)]
+### 広報説明と、市場の変化を読む解釈
 
----- 
+VGCの2020年10月5日付報道によると、広報担当者はこの変更を「globally unify」、すなわち世界で操作を統一するためだと説明した。これは地域差をそろえるという説明である。[[22](#ref-22)]
 
-## 第11章：ボタン配置が統一されなかった構造的理由
+一方、Impress Watchの西田宗千佳氏は、欧米の慣習に沿うPCゲームが日本でも増えたことを背景として挙げている。こちらは西田氏による解釈であり、SIEが示した変更理由とは区別して読む必要がある。[[1](#ref-1)]
 
-各社のボタン配置が異なったまま現在に至った理由は、単一の原因ではなく複数の要因の重なりである。
+統一後も境界は残る。西田氏は、PS4用ソフトには統一が100%及ばないと指摘する。PS5で遊んでいても、PS4用ソフトに入ると決定ボタンが変わり得るため、本体側の統一だけで操作の混乱がすべて解消するわけではない。[[1](#ref-1)]
 
-![ゲームコントローラーのボタン配置まとめ](image/game_controller.webp)
+### Steamで使われるコントローラー
 
-- **先行者の慣習**：任天堂が1983年に確立した「右からA・B」は、SFCを経てSwitchのJoy-Con/Proコントローラーにも残った。一方、北米ではセガのGenesis（メガドライブ）がSNES（スーパーファミコン）より先に発売されており、「左からA・B」にも馴染みがあった。[[5](#ref-5)][[28](#ref-28)][[29](#ref-29)]
-- **ブランドアイデンティティ**：PlayStationのシンボルボタンは、どのゲーム機か一目でわかるブランドの象徴として機能し、変更するインセンティブが低かった。[[19](#ref-19)]
-- **文化的な記号の解釈差**：○と×の肯定/否定が日本と欧米で逆であるという文化的差異が、決定/キャンセル問題の根本原因となった。[[21](#ref-21)][[5](#ref-5)]
-- **業界標準化の不在**：コントローラーのボタン配置に関する業界横断的な標準化は試みられず、各社が独自にデファクトスタンダードを築いた。[[5](#ref-5)]
+Valveの2024年6月26日付発表によれば、Steamでコントローラーを使ったセッションの59%がXbox、26%がPlayStation、10%がSteam Deckだった。これは全PC利用者の所有率ではなく、Steamのコントローラー使用セッションにおける割合である。Xbox系の配置に接する機会の多さを示す数字として読める。[[23](#ref-23)]
 
-<ruby>後藤禎祐<rt>ごとう ていゆう</rt></ruby>氏がPlayStationのシンボルを設計した際、「まさか記号の文化的解釈の違いがUIに影響を与えるとは思っていなかっただろう」と指摘されている。コントローラーの決定ボタンを巡る混乱は、技術的・商業的・文化的な条件の重ね合わせによって生まれたものであり、今なお完全には解消されていない。Switch、PlayStation、Xboxを行き来する現代のプレイヤーにとって、それは過去の規格史ではなく、画面の「決定してください」という一言で毎回表面化する実用上の問題なのである。[[5](#ref-5)]
+この数字はPS5の変更後の集計であり、その変更の原因を直接証明するものではない。それでも、家庭用機とPCをまたいで操作を設計するとき、異なる表記のコントローラーを同じゲームが受け入れる状況はよく見えてくる。
 
----
+----
+
+## 第10章：プランナーは何で仕様を書くか
+
+### 位置を扱う仕組みと、画面に見せるラベル
+
+Unity Input Systemでは、ひし形の下のボタンを`buttonSouth`と呼ぶ。XboxならA、PlayStationなら×に相当する。同様に`buttonEast`は右、`buttonWest`は左、`buttonNorth`は上である。ボタンに書かれた文字よりも、位置を共通の扱いにしている。[[15](#ref-15)]
+
+SDL3にもSOUTH・EAST・WEST・NORTHという区分がある。ひし形の下・右・左・上に対応し、表示ラベルは`SDL_GetGamepadButtonLabel()`で取得する。入力の位置と、画面に見せる表記を分けられる仕組みである。[[16](#ref-16)]
+
+ただし、下のボタンを共通に扱えることと、すべての機種で下を決定にすべきことは別の判断である。任天堂の右Aで決定する慣習まで含めて設計するには、位置の上に「決定」「キャンセル」という役割を置くと整理しやすい。[[1](#ref-1)]
+
+### 仕様書では役割を先に書く
+
+たとえば、仕様書の本文には「決定で選択中の項目を実行する」「キャンセルで一つ前の画面へ戻る」と書く。そのうえで、機種ごとにボタンの位置・表記・表示するアイコンを対応させる。
+
+次は架空のゲームのメニュー仕様例である。各機種の全ソフトに共通する規則を示す表ではない。PS4欄は日本向けの従来の割り当てを採る例とする。
+
+| 役割 | 任天堂（Switch） | Xbox | PlayStation（日本向けPS4） | PlayStation（PS5） |
+| --- | --- | --- | --- | --- |
+| 決定：選択項目を実行 | 右のA／Aアイコン | 下のA／Aアイコン | 右の○／○アイコン | 下の×／×アイコン |
+| キャンセル：前の画面へ戻る | 下のB／Bアイコン | 右のB／Bアイコン | 下の×／×アイコン | 右の○／○アイコン |
+
+この分け方なら、「決定の処理」を変えずに、割り当てと案内表示を機種に合わせられる。仕様変更の際も、処理の変更なのか、割り当ての変更なのか、アイコンの変更なのかを明示できる。
+
+![任天堂は右Aが決定・下Bがキャンセル、Xboxは下Aが決定・右Bがキャンセル、日本向けPS4までのPlayStationは右○が決定・下×がキャンセル、PS5は下×が決定・右○がキャンセルとなる基本的な慣習の比較](image/controller-button-position-role-comparison.webp)
+
+図はメニューの基本的な慣習を示す。ゲームごとの例外、PS4用ソフト、ボタン割り当て変更は別とする。[[1](#ref-1)][[15](#ref-15)][[16](#ref-16)][[20](#ref-20)][[21](#ref-21)]
+
+PCなどでプレイ中にコントローラーとキーボードを行き来する場合は、現在の入力に応じて案内を切り替える設計も必要になる。この点は既刊の[複数入力の切り替え](multi-input-switching-ux-design.md)で扱っている。
+
+----
+
+## まとめ：名前・位置・役割を分けて受け継ぐ
+
+1ボタンのジョイスティックから、A・B、ひし形のABXY、PlayStationの記号へ。ボタンが増える過程で、先行者の慣習、ブランドの記号、地域の慣習が重なり、現在の3つの流儀が生まれた。
+
+任天堂の右A、Xboxの下A、そして日本の右○から世界の下×へ移ったPlayStation。その違いは、いまもSwitch・PlayStation・Xboxを行き来するたびに表面化する。PS5の統一も、任天堂とXboxの文字配置までそろえるものではない。
+
+プランナーが尊重すべきなのは、プレイヤーがそれぞれの機種で身に付けた操作の感覚である。仕様書ではまず「何をするか」という役割を定め、次に位置と表記を対応させる。その整理が、異なるコントローラーでも迷わず遊べる操作と案内につながる。
 
 ## References
 
-<a id="ref-1"></a>1. [Atari CX40 joystick - Wikipedia][1] - The original CX10 was released with the Atari Video Computer System (later renamed the Atari 2600) i...
+<a id="ref-1"></a>1. [西田宗千佳「PS5のボタンはなぜ「×で決定」に変わったのか」][1] — Impress Watch、2020年11月16日。市場環境についての解釈とPS4用ソフトの例外を参照。
 
-<a id="ref-2"></a>2. [How Gunpei Yokoi Reinvented Nintendo - VICE][2] - It was the distinctive cross-shaped control pad included on later models—the inspiration for every N...
+[1]: https://www.watch.impress.co.jp/docs/series/nishida/1289191.html
 
-<a id="ref-3"></a>3. [The Industry's Finest - Gunpei Yokoi - VGChartz][3] - Thus, the “Nintendo Beam Gun” game was created, packaged with several shoot-able targets, and was so...
+<a id="ref-2"></a>2. [Science Museum Group「Atari 2600 Video Computer System」][2] — Science Museum Group Collection、日付記載なし。CX40の所蔵品説明を含む。
 
-<a id="ref-4"></a>4. [Why is it common for video game controllers to use abxy buttons ...][4] - When the SNES was released in Japan in 1990 they added X and Y to the mix, and rotated it slightly. ...
+[2]: https://collection.sciencemuseumgroup.org.uk/objects/co8225511/atari-2600-video-computer-system
 
-<a id="ref-5"></a>5. [PS5のボタンはなぜ「×で決定」に変わったのか - Impress Watch][5] - これまでは国によってメジャーなコントローラーによって「決定」ボタンの位置が違っており、さらにはPlayStationの場合、国によって違う。ゲーム機を複数 ...
+<a id="ref-3"></a>3. [任天堂「HISTORY｜ゲーム&ウオッチ スーパーマリオブラザーズ」][3] — 任天堂、日付記載なし。
 
-<a id="ref-6"></a>6. [NES Controller - Wikitroid - Fandom][6] - The controllers utilized the cross-shaped joypad designed Gunpei Yokoi for Nintendo Game & Watch sys...
+[3]: https://www.nintendo.co.jp/hardware/gamewatch/history.html
 
-<a id="ref-7"></a>7. [ファミコンではわざと押しにくくされていた!?    「スタートボタン ...][7] - ファミコンのコントローラーで、セレクト・スタート両ボタンの周囲が凹んでいるのは、このデザインを受け継いでいたわけだ。 もっともファミコンの ...
+<a id="ref-4"></a>4. [任天堂「社長が訊く『ゲーム＆ウオッチ』5. 30年前の『ボール』を忠実に復刻」][4] — 任天堂、2010年。十字ボタンの試作と『ドンキーコング』の発売月の注記を参照。
 
-<a id="ref-8"></a>8. [A Brief History of A & B - The Quixotic Engineer][8] - The NES had A and B buttons, so the Genesis added a C \*. When the SNES added the X and Y buttons, Se...
+[4]: https://www.nintendo.co.jp/n10/interview/game_and_watch/vol1/index5.html
 
-<a id="ref-9"></a>9. [なぜXとYなのか？ スーファミから始まったABXYボタンの謎][9] - 任天堂とXboxではAとB、XとYの配置が逆になっていますが、この4文字自体は共通しています。 「A・B」ボタンはファミコン用コントローラーから受け継がれ ...
+<a id="ref-5"></a>5. [任天堂「会社の沿革」][5] — 任天堂、日付記載なし。各ゲーム機の発売年を参照。
 
-<a id="ref-10"></a>10. [Evolution of Video Game Controller Design - The ANSI Blog][10] - Background on the design of video game controllers over time, spanning all eight generations of vide...
+[5]: https://www.nintendo.co.jp/corporate/history/index.html
 
-<a id="ref-11"></a>11. [Super Nintendo Entertainment System controller - Fandom][11] - Another addition was the "L" and "R" shoulder buttons, which have been imitated by most controllers ...
+<a id="ref-6"></a>6. [任天堂「社長が訊く『スーパーマリオ25周年』ファミコンとマリオ 篇 3. トラブル続きだったファミコン黎明期」][6] — 任天堂、2010年。
 
-<a id="ref-12"></a>12. [[SNES Mystery] Button layout...The hidden new reason behind XY][12] - [SNES Mystery] Button layout...The hidden new reason behind XY · Comments.
+[6]: https://www.nintendo.co.jp/n10/interview/mario25th/vol2/index3.html
 
-<a id="ref-13"></a>13. [ABXY - Etymology Blog][13] - Our history begins in 1983 when the Nintendo NES controller was released, containing just a directio...
+<a id="ref-7"></a>7. [セガ「メガドライブ」][7] — セガハード大百科、日付記載なし。
 
-<a id="ref-14"></a>14. [Super NES design, color choices, and more…explained!][14] - On the Famicom (Family Computer) controller, B was on the left for “Back” and A was on the right for...
+[7]: https://sega.jp/history/hard/megadrive/
 
-<a id="ref-15"></a>15. [ゲーム機のコントローラーのボタン配置と決定ボタンの変遷（その2）][15] - コントローラーのボタン配置と決定ボタンがどう変わっていったのかをまとめてみました。今回はDUALSHOCKの話まで。
+<a id="ref-8"></a>8. [セガ「セガサターン」][8] — セガハード大百科、日付記載なし。
 
-<a id="ref-16"></a>16. [ELI5: Why does xbox use the letters ABXY on their controllers?][16] - The Xbox uses the colour-scheme of the Gamecube controller (where A was green and B was red) and the...
+[8]: https://sega.jp/history/hard/segasaturn/
 
-<a id="ref-17"></a>17. [Dreamcast controller inspired xbox design - Facebook][17] - Sega was left to right from the very beginning. The ABXY layout goes back to the 6 button Genesis co...
+<a id="ref-9"></a>9. [Damien McFerran「Here's Why Controllers Have 'A, B, X & Y' Buttons, And Not 'A, B, C & D'」][9] — Time Extension、2025年9月27日。Nintendo Power読者欄に関するBluesky投稿を紹介した記事。命名説の紹介として参照。
 
-<a id="ref-18"></a>18. [Playstation users in shock after discovering what the controller ...][18] - "We wanted something simple to remember, which is why we went with icons or symbols, and I came up w...
+[9]: https://www.timeextension.com/news/2025/09/heres-why-controllers-have-a-b-x-and-y-buttons-and-not-a-b-c-and-d
 
-<a id="ref-19"></a>19. [Story behind PlayStation's decision to go with symbols over ABXY ...][19] - The decision to go with symbols - triangle, circle, cross, and square was not just about looking dif...
+<a id="ref-10"></a>10. [ソニー・インタラクティブエンタテインメント「PlayStation 1994｜PlayStationの歴史年表」][10] — PlayStationの歴史年表、日付記載なし。各地域の発売日、1997年のコントローラーを参照。
 
-<a id="ref-20"></a>20. [@tamayan2nd コントローラーの歴史的な話があって 任天堂 ソニー ...][20] - コントローラーの歴史的な話があって 任天堂 ソニーはおそらくボタン配置まで寄せてるんです プレイステーションの企画が元々スーファミの拡張機能 ...
+[10]: https://www.playstation.com/ja-jp/playstation-history/1994-ps-one/
 
-<a id="ref-21"></a>21. [Please teach me! I'm Japanese. Is it true that the “×” button ="YES"??][21] - In Japan (perhaps Asia) when we play games on the Play Station (PS), “circle(○)” button = "YES"(cont...
+<a id="ref-11"></a>11. [Sal Romano「PlayStation’s iconic face buttons explained」][11] — Gematsu、2010年8月26日。後藤氏の発言を紹介。記事の出典表記は1UP via Gizmodo。発言の大意は本稿による日本語訳。
 
-<a id="ref-22"></a>22. [The Game Controller: From the Beginning - Brown University][22] - The button configuration when using the Nunchuk was different from more traditional video games, but...
+[11]: https://gematsu.com/2010/08/playstations-iconic-face-buttons-explained
 
-<a id="ref-23"></a>23. [Look at These Dreamcast-Inspired Original Xbox Controller Prototypes][23] - Xbox co-creator says "Dreamcast was king" and influenced the design of these prototypes, which Micro...
+<a id="ref-12"></a>12. [Randy Nelson「PS1 designer on the fight for controller handles, what the button icons really mean」][12] — Engadget、2010年8月25日。ファミ通インタビューの1UPによる英訳を紹介。
 
-<a id="ref-24"></a>24. [Former Xbox designer shares some concept art of the original ...][24] - Former Xbox designer shares some concept art of the original controller that resembles the Dreamcast...
+[12]: https://www.engadget.com/2010-08-25-ps1-designer-on-the-fight-for-controller-handles-what-the-butto.html
 
-<a id="ref-25"></a>25. [Aftermarket Nintendo Switch controller with Xbox ABXY layout?][25] - Since the ABXY buttons on nintendo controller are in reverse, The Big N's Y Button was made to be th...
+<a id="ref-13"></a>13. [Microsoft「Xbox Erupts on the Scene」][13] — Microsoft、2001年11月15日。
 
-<a id="ref-26"></a>26. [A Brief History of the Playstation's Confirm And Cancel Buttons][26] - When Nintendo introduced the SNES, they added the X and Y buttons to the A and B buttons. This four-...
+[13]: https://news.microsoft.com/source/2001/11/15/xbox-erupts-on-the-scene/
 
-<a id="ref-27"></a>27. [PS5、〇ボタンがキャンセル、×ボタンが決定の意味に変更される][27] - ちなみに、このように変更されるのは、ソニーがそのようなルール作りをしたからであり、「複数の国のゲームがプレイされる環境になり、システムとゲームの ...
+<a id="ref-14"></a>14. [Eddie Makuch「Look at These Dreamcast-Inspired Original Xbox Controller Prototypes」][14] — GameSpot、2016年6月28日。ブラックリー氏による試作図と発言を紹介。
 
-<a id="ref-28"></a>28. [Nintendo Switch｜任天堂 Joy-Con(L)/(R)の主な仕様][28] - Joy-Con(L)は方向入力系、Joy-Con(R)はA/B/X/Yボタンを備える。左右それぞれのボタン、通信機能、センサー、バッテリー仕様を確認できる。
+[14]: https://www.gamespot.com/articles/look-at-these-dreamcast-inspired-original-xbox-con/1100-6441308/
 
-<a id="ref-29"></a>29. [Nintendo Switch Proコントローラーの主な仕様｜任天堂][29] - ProコントローラーのABXYボタン、十字ボタン、左右スティック、L/R/ZL/ZRなどの構成と仕様を確認できる。
+<a id="ref-15"></a>15. [Unity Technologies「Gamepad」][15] — Unity Input System 1.11マニュアル、日付記載なし。
 
-<a id="ref-30"></a>30. [周辺機器 ｜ Nintendo Switch｜任天堂][30] - Joy-Con(L)/(R)、Joy-Conグリップ、Nintendo Switch Proコントローラーなど、Switch周辺機器の位置づけと用途を確認できる。
+[15]: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/Gamepad.html
 
+<a id="ref-16"></a>16. [SDL「SDL_GamepadButton」][16] — SDL3 Wiki、日付記載なし。位置と表示ラベルの区別を参照。
 
-[1]: https://en.wikipedia.org/wiki/Atari_CX40_joystick
-[2]: https://www.vice.com/en/article/how-gunpei-yokoi-reinvented-nintendo/
-[3]: https://www.vgchartz.com/article/5145/the-industrys-finest-gunpei-yokoi/
-[4]: https://www.reddit.com/r/explainlikeimfive/comments/9ijqr6/eli5_why_is_it_common_for_video_game_controllers/
-[5]: https://www.watch.impress.co.jp/docs/series/nishida/1289191.html
-[6]: https://metroid.fandom.com/wiki/NES_Controller
-[7]: https://news.denfaminicogamer.jp/kikakuthetower/221012c/2
-[8]: https://gangles.ca/2008/09/16/a-brief-history-of-a-b/
-[9]: https://news.yahoo.co.jp/expert/articles/c3bdca5d752fe973c5fe3ef46fb609601b4079b5
-[10]: https://blog.ansi.org/ansi/evolution-of-video-game-controller/
-[11]: https://nintendo.fandom.com/wiki/Super_Nintendo_Entertainment_System_controller
-[12]: https://www.youtube.com/watch?v=burrovUfzDE
-[13]: https://www.etymologynerd.com/blog/abxy
-[14]: http://paulgalenetwork.com/home/2024/01/07/design-decisions-behind-the-snes-and-why-north-americas-version-differs-from-the-rest-of-the-worlds/
-[15]: https://u-mid.hateblo.jp/entry/2020/11/21/131015
-[16]: https://www.reddit.com/r/explainlikeimfive/comments/4dnvqg/eli5_why_does_xbox_use_the_letters_abxy_on_their/
-[17]: https://www.facebook.com/groups/retrobitsbobs/posts/1869147943717688/
-[18]: https://www.uniladtech.com/gaming/playstation/playstation-users-are-only-discovering-what-controller-buttons-mean-544533-20241205
-[19]: https://tech.hindustantimes.com/tech/news/story-behind-playstation-s-decision-to-go-with-symbols-over-abxy-buttons-on-its-controllers-71756727763683.html
-[20]: https://x.com/damel_san/status/2022710342745493911
-[21]: https://www.reddit.com/r/PS4/comments/bv33lh/please_teach_me_im_japanese_is_it_true_that_the/
-[22]: https://webhelper.brown.edu/joukowsky/courses/13things/7643.html
-[23]: https://www.gamespot.com/articles/look-at-these-dreamcast-inspired-original-xbox-con/1100-6441308/
-[24]: https://www.seganerds.com/2016/06/30/former-xbox-designer-shares-some-concept-art-of-the-original-controller-that-resembles-the-dreamcast/
-[25]: https://www.facebook.com/groups/thenintendoswitch/posts/9025670454164814/
-[26]: https://thewiredfishnetwork.com/2012/02/10/a-brief-history-of-the-playstations-confirm-and-cancel-buttons/
-[27]: https://ga-m.com/n/ps5-maru-button-cancel-batu-kettei-imi-henkou/
-[28]: https://www.nintendo.com/jp/hardware/switch/modal/specs/joy-con.html?width=960
-[29]: https://www.nintendo.com/jp/hardware/switch/accessories/procon.html?width=960
-[30]: https://www.nintendo.com/jp/hardware/switch/accessories/index.html
+[16]: https://wiki.libsdl.org/SDL3/SDL_GamepadButton
+
+<a id="ref-17"></a>17. [任天堂「Joy-Con(L)/(R)の主な仕様」][17] — 任天堂、日付記載なし。
+
+[17]: https://www.nintendo.com/jp/hardware/switch/modal/specs/joy-con.html?width=960
+
+<a id="ref-18"></a>18. [任天堂「Nintendo Switch Proコントローラーの主な仕様」][18] — 任天堂、日付記載なし。
+
+[18]: https://www.nintendo.com/jp/hardware/switch/accessories/procon.html?width=960
+
+<a id="ref-19"></a>19. [任天堂「周辺機器｜Nintendo Switch」][19] — 任天堂、日付記載なし。
+
+[19]: https://www.nintendo.com/jp/hardware/switch/accessories/index.html
+
+<a id="ref-20"></a>20. [Nintendo「Joy-Con 2 Diagram」][20] — Nintendo Support、日付記載なし。A/B/X/Y ButtonとC Buttonを参照。
+
+[20]: https://en-americas-support.nintendo.com/app/answers/detail/a_id/68499
+
+<a id="ref-21"></a>21. [ソニー・インタラクティブエンタテインメント「PS5のボタンの機能」][21] — PlayStationサポート、日付記載なし。
+
+[21]: https://www.playstation.com/ja-jp/support/hardware/ps5-button-functions/
+
+<a id="ref-22"></a>22. [Andy Robinson「After 26 years, PS5 will make ‘X’ its default select button in Japan」][22] — VGC、2020年10月5日。広報担当者の説明を紹介。
+
+[22]: https://videogameschronicle.com/news/after-26-years-ps5-will-make-x-its-default-select-button-in-japan
+
+<a id="ref-23"></a>23. [Valve「Steam入力とコントローラのサポートに関するアップデート」][23] — Steam、2024年6月26日。コントローラーを使ったセッションの機種別割合を参照。
+
+[23]: https://steamcommunity.com/games/593110/announcements/detail/4142827237888316812
 
 ----
 
