@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ゼルダの「あたりまえ」は二度見直された――時のオカリナとブレス オブ ザ ワイルド](zelda-ocarina-botw-rethinking-conventions.md) 🟡
 - [終わらなかったMMORPG――FFXIとドラゴンクエストXに学ぶ「続ける」運営](long-running-mmorpg-ffxi-dqx-continuing-operations.md) 🟡
 - [なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト](why-mario-could-not-go-back-left.md) 🟢
 - [何GBを、いつ、何分で運ぶか——ゲームプランナーのためのネットワーク入門 番外編](planner-network-intro-extra-data-size-and-transfer-time.md) 🟢
 - [届かない、断られる、分からない——ゲームプランナーのためのネットワーク入門⑥](planner-network-intro-06-mobile-game-http.md) 🟡
-- [途中で変わる回線を前提にする——ゲームプランナーのためのネットワーク入門⑤](planner-network-intro-05-cellular-4g-5g.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -197,6 +197,8 @@
 - [『二ノ国 白き聖灰の女王』は「ジブリらしさ」をどうゲームへ翻訳したか](ni-no-kuni-ghibli-direction-game-design-translation.md) 🟡
 - [『アンチャーテッド 黄金刀と消えた船団』が実現した「操作できる映画」――四つの核設計](uncharted-2-active-cinematic-experience-core-design.md) 🟡
 - [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
+
+- [ゼルダの「あたりまえ」は二度見直された――時のオカリナとブレス オブ ザ ワイルド](zelda-ocarina-botw-rethinking-conventions.md) 🟡
 
 ### 📖 物語・世界設定・謎解き
 

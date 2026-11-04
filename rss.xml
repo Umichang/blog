@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 03 Nov 2026 15:30:31 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 02:00:32 -0000</lastBuildDate>
+    <item>
+      <title>ゼルダの「あたりまえ」は二度見直された――時のオカリナとブレス オブ ザ ワイルド</title>
+      <link>https://umichang.github.io/blog/zelda-ocarina-botw-rethinking-conventions.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/zelda-ocarina-botw-rethinking-conventions.html</guid>
+      <description>『時のオカリナ』のZ注目とオートジャンプ、『ブレス オブ ザ ワイルド』の自由な移動と複数の解法を開発者の言葉からたどり、残したい遊びの核を定めて「あたりまえ」を見直す判断を考える。</description>
+      <pubDate>Wed, 04 Nov 2026 02:00:32 -0000</pubDate>
+    </item>
     <item>
       <title>終わらなかったMMORPG――FFXIとドラゴンクエストXに学ぶ「続ける」運営</title>
       <link>https://umichang.github.io/blog/long-running-mmorpg-ffxi-dqx-continuing-operations.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-06-mobile-game-http.html</guid>
       <description>スマホゲームのHTTP通信を「届かなかった」「エラーが返ってきた」「結果が分からない」に分け、待ち時間、メンテナンス表示、再試行と結果確認を仕様にする。「ゲームプランナーのためのネットワーク入門」第6回・本編最終回。</description>
       <pubDate>Mon, 02 Nov 2026 10:03:08 -0000</pubDate>
-    </item>
-    <item>
-      <title>途中で変わる回線を前提にする——ゲームプランナーのためのネットワーク入門⑤</title>
-      <link>https://umichang.github.io/blog/planner-network-intro-05-cellular-4g-5g.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-05-cellular-4g-5g.html</guid>
-      <description>スマホでは遊んでいる途中で回線の経路と品質が変わる。事業者内のアドレス変換、回線切り替え、5G、データ容量を整理し、中断と復帰、案内、QAの仕様へつなぐネットワーク入門第5回。</description>
-      <pubDate>Mon, 02 Nov 2026 06:42:04 -0000</pubDate>
     </item>
   </channel>
 </rss>
