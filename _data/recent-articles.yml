@@ -1,5 +1,7 @@
 ---
 articles:
+- path: ue6-blueprint-removal-planner-impact.md
+  published_at: '2026-11-04T23:45:21Z'
 - path: zelda-ocarina-botw-rethinking-conventions.md
   published_at: '2026-11-04T02:00:32Z'
 - path: long-running-mmorpg-ffxi-dqx-continuing-operations.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-03T10:54:08Z'
 - path: planner-network-intro-extra-data-size-and-transfer-time.md
   published_at: '2026-11-02T14:18:37Z'
-- path: planner-network-intro-06-mobile-game-http.md
-  published_at: '2026-11-02T10:03:08Z'
