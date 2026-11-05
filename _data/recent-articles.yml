@@ -1,5 +1,7 @@
 ---
 articles:
+- path: game-font-selection-license-implementation-for-planners.md
+  published_at: '2026-11-05T06:42:03Z'
 - path: ue6-blueprint-removal-planner-impact.md
   published_at: '2026-11-04T23:45:21Z'
 - path: zelda-ocarina-botw-rethinking-conventions.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-03T15:30:31Z'
 - path: why-mario-could-not-go-back-left.md
   published_at: '2026-11-03T10:54:08Z'
-- path: planner-network-intro-extra-data-size-and-transfer-time.md
-  published_at: '2026-11-02T14:18:37Z'

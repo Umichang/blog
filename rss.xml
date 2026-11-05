@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 04 Nov 2026 23:45:21 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 06:42:03 -0000</lastBuildDate>
+    <item>
+      <title>ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと</title>
+      <link>https://umichang.github.io/blog/game-font-selection-license-implementation-for-planners.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/game-font-selection-license-implementation-for-planners.html</guid>
+      <description>書体を選ぶデザイナーの判断を、プランナーはどう支えるか。文章量とUIの枠、対応言語と文字セット、ライセンス、文字表示の仕組みを、制作の段階ごとの確認事項につなげて解説する。</description>
+      <pubDate>Thu, 05 Nov 2026 06:42:03 -0000</pubDate>
+    </item>
     <item>
       <title>UE6でブループリントがなくなる――自分で組むプランナーは何を失い、何を持ち越せるか</title>
       <link>https://umichang.github.io/blog/ue6-blueprint-removal-planner-impact.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/why-mario-could-not-go-back-left.html</guid>
       <description>初代マリオで通り過ぎた場所へ戻れない理由を、地形の設計図と遊んだ結果の違いから読み解き、開発者の証言と実装分析を分けながら、制限のなかで何を守り、何を諦めるかという仕様づくりへつなげる。</description>
       <pubDate>Tue, 03 Nov 2026 10:54:08 -0000</pubDate>
-    </item>
-    <item>
-      <title>何GBを、いつ、何分で運ぶか——ゲームプランナーのためのネットワーク入門 番外編</title>
-      <link>https://umichang.github.io/blog/planner-network-intro-extra-data-size-and-transfer-time.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/planner-network-intro-extra-data-size-and-transfer-time.html</guid>
-      <description>ストアからの導入後に、何GBを、いつ、どの回線で運ぶか。5GB・40GBの転送時間を四則演算で求め、初回ダウンロード、容量の開示、中断と再開の仕様へつなぐネットワーク入門の番外編・最終回。</description>
-      <pubDate>Mon, 02 Nov 2026 14:18:37 -0000</pubDate>
     </item>
   </channel>
 </rss>

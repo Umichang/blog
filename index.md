@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと](game-font-selection-license-implementation-for-planners.md) 🟡
 - [UE6でブループリントがなくなる――自分で組むプランナーは何を失い、何を持ち越せるか](ue6-blueprint-removal-planner-impact.md) 🟡
 - [ゼルダの「あたりまえ」は二度見直された――時のオカリナとブレス オブ ザ ワイルド](zelda-ocarina-botw-rethinking-conventions.md) 🟡
 - [終わらなかったMMORPG――FFXIとドラゴンクエストXに学ぶ「続ける」運営](long-running-mmorpg-ffxi-dqx-continuing-operations.md) 🟡
 - [なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト](why-mario-could-not-go-back-left.md) 🟢
-- [何GBを、いつ、何分で運ぶか——ゲームプランナーのためのネットワーク入門 番外編](planner-network-intro-extra-data-size-and-transfer-time.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -325,6 +325,7 @@
 - [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🟢
 - [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🟢
 - [GitやSVNだけではなぜ苦しくなるのか――ゲーム開発のバージョン管理・アセット管理実務](version-control-and-asset-management-for-game-development.md) 🔴
+- [ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと](game-font-selection-license-implementation-for-planners.md) 🟡
 - [Unity Runtime Fee騒動から2026年のマルチエンジン時代へ――Godot台頭とゲームエンジン選定戦略](unity-runtime-fee-controversy-godot-multi-engine-era.md) 🟡
 - [CEDEC2026予習：Unity AIとバイブコーディングが変えるゲーム企画の検証工程](cedec2026-unity-ai-prototyping-planner-vibe-coding.md) 🟡
 - [UE6でブループリントがなくなる――自分で組むプランナーは何を失い、何を持ち越せるか](ue6-blueprint-removal-planner-impact.md) 🟡
