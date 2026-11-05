@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [そのムービー、動画で流すか、ゲームの中で動かすか――プリレンダーとリアルタイムの判断をプランナーが支える](prerendered-vs-realtime-cutscenes-for-planners.md) 🟡
 - [ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと](game-font-selection-license-implementation-for-planners.md) 🟡
 - [UE6でブループリントがなくなる――自分で組むプランナーは何を失い、何を持ち越せるか](ue6-blueprint-removal-planner-impact.md) 🟡
 - [ゼルダの「あたりまえ」は二度見直された――時のオカリナとブレス オブ ザ ワイルド](zelda-ocarina-botw-rethinking-conventions.md) 🟡
 - [終わらなかったMMORPG――FFXIとドラゴンクエストXに学ぶ「続ける」運営](long-running-mmorpg-ffxi-dqx-continuing-operations.md) 🟡
-- [なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト](why-mario-could-not-go-back-left.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -261,6 +261,7 @@
 - [発表されたタイトルに、あとから人が集まる――発表と開発は別のカレンダーで動いている](game-announcement-timing-and-development-calendar.md) 🟡
 - [DLC・シーズンパスは実際どう作られているか――本編開発中の仕込みと発売後の判断](how-dlc-and-season-passes-are-planned.md) 🟢
 - [モーションキャプチャは収録して終わりではない――企画からゲーム内で動くまでの実務工程](motion-capture-production-workflow-from-planning-to-integration.md) 🟢
+- [そのムービー、動画で流すか、ゲームの中で動かすか――プリレンダーとリアルタイムの判断をプランナーが支える](prerendered-vs-realtime-cutscenes-for-planners.md) 🟡
 - [MMORPG企画の基礎――World of Warcraft、ファイナルファンタジーXIV、黒い砂漠、ファンタシースターオンライン2から学ぶ「運営を作る」設計](mmorpg-planning-development-live-operations-basics.md) 🟡
 - [ゲームにおける非機能要件](game-non-functional-requirements.md) 🔴
 - [本番想定の負荷試験・キャパシティプランニングの実務](production-load-testing-capacity-planning-for-planners.md) 🔴

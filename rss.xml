@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 05 Nov 2026 06:42:03 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 11:17:44 -0000</lastBuildDate>
+    <item>
+      <title>そのムービー、動画で流すか、ゲームの中で動かすか――プリレンダーとリアルタイムの判断をプランナーが支える</title>
+      <link>https://umichang.github.io/blog/prerendered-vs-realtime-cutscenes-for-planners.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/prerendered-vs-realtime-cutscenes-for-planners.html</guid>
+      <description>ムービーを動画で再生するか、ゲーム内で描くかという選択が、装備の反映、修正、ローカライズ、容量、移植、スキップの仕様にどう及ぶかを、開発事例からプランナー向けに整理する。</description>
+      <pubDate>Thu, 05 Nov 2026 11:17:44 -0000</pubDate>
+    </item>
     <item>
       <title>ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと</title>
       <link>https://umichang.github.io/blog/game-font-selection-license-implementation-for-planners.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/long-running-mmorpg-ffxi-dqx-continuing-operations.html</guid>
       <description>FFXIとドラゴンクエストXを中心に、長期運営MMORPGが「続ける」ために選んできた施策を読む。物語の完結、ソロ対応、仲間との関係、機器更新、不正対策から、規模に合わせた運営の判断軸を整理する。</description>
       <pubDate>Tue, 03 Nov 2026 15:30:31 -0000</pubDate>
-    </item>
-    <item>
-      <title>なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト</title>
-      <link>https://umichang.github.io/blog/why-mario-could-not-go-back-left.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/why-mario-could-not-go-back-left.html</guid>
-      <description>初代マリオで通り過ぎた場所へ戻れない理由を、地形の設計図と遊んだ結果の違いから読み解き、開発者の証言と実装分析を分けながら、制限のなかで何を守り、何を諦めるかという仕様づくりへつなげる。</description>
-      <pubDate>Tue, 03 Nov 2026 10:54:08 -0000</pubDate>
     </item>
   </channel>
 </rss>
