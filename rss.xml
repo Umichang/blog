@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 05 Nov 2026 11:17:44 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 22:59:04 -0000</lastBuildDate>
+    <item>
+      <title>文字で遊ぶゲームを、別の文字で作り直す――『文字遊戯』日本語化の3年</title>
+      <link>https://umichang.github.io/blog/word-game-mojiyugi-japanese-localization.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/word-game-mojiyugi-japanese-localization.html</guid>
+      <description>文字そのものが遊びになる『文字遊戯』を、日本語でどう作り直したのか。1万枚超の画面記録、原作側との合意、文字を扱う実装の改修、独立した日本語版の発売まで、約3年の工程を追う。</description>
+      <pubDate>Thu, 05 Nov 2026 22:59:04 -0000</pubDate>
+    </item>
     <item>
       <title>そのムービー、動画で流すか、ゲームの中で動かすか――プリレンダーとリアルタイムの判断をプランナーが支える</title>
       <link>https://umichang.github.io/blog/prerendered-vs-realtime-cutscenes-for-planners.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/zelda-ocarina-botw-rethinking-conventions.html</guid>
       <description>『時のオカリナ』のZ注目とオートジャンプ、『ブレス オブ ザ ワイルド』の自由な移動と複数の解法を開発者の言葉からたどり、残したい遊びの核を定めて「あたりまえ」を見直す判断を考える。</description>
       <pubDate>Wed, 04 Nov 2026 02:00:32 -0000</pubDate>
-    </item>
-    <item>
-      <title>終わらなかったMMORPG――FFXIとドラゴンクエストXに学ぶ「続ける」運営</title>
-      <link>https://umichang.github.io/blog/long-running-mmorpg-ffxi-dqx-continuing-operations.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/long-running-mmorpg-ffxi-dqx-continuing-operations.html</guid>
-      <description>FFXIとドラゴンクエストXを中心に、長期運営MMORPGが「続ける」ために選んできた施策を読む。物語の完結、ソロ対応、仲間との関係、機器更新、不正対策から、規模に合わせた運営の判断軸を整理する。</description>
-      <pubDate>Tue, 03 Nov 2026 15:30:31 -0000</pubDate>
     </item>
   </channel>
 </rss>

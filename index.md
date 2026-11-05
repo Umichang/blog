@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [文字で遊ぶゲームを、別の文字で作り直す――『文字遊戯』日本語化の3年](word-game-mojiyugi-japanese-localization.md) 🟢
 - [そのムービー、動画で流すか、ゲームの中で動かすか――プリレンダーとリアルタイムの判断をプランナーが支える](prerendered-vs-realtime-cutscenes-for-planners.md) 🟡
 - [ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと](game-font-selection-license-implementation-for-planners.md) 🟡
 - [UE6でブループリントがなくなる――自分で組むプランナーは何を失い、何を持ち越せるか](ue6-blueprint-removal-planner-impact.md) 🟡
 - [ゼルダの「あたりまえ」は二度見直された――時のオカリナとブレス オブ ザ ワイルド](zelda-ocarina-botw-rethinking-conventions.md) 🟡
-- [終わらなかったMMORPG――FFXIとドラゴンクエストXに学ぶ「続ける」運営](long-running-mmorpg-ffxi-dqx-continuing-operations.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -356,6 +356,7 @@
 ### 🌏 ローカライズ・音声制作
 
 - [ゲームローカライズの工程と実践](game-localization-guide.md) 🟢
+- [文字で遊ぶゲームを、別の文字で作り直す――『文字遊戯』日本語化の3年](word-game-mojiyugi-japanese-localization.md) 🟢
 - [声優キャスティングとローカライズ収録の実務](voice-casting-and-localized-recording-guide.md) 🟡
 - [CEDEC2026フォローアップ：音声なしでキャラクターを再創造する――『ウマ娘』英語版に学ぶ、テキストだけの創造的ローカライズ](cedec2026-umamusume-text-only-creative-localization.md) 🟡
 

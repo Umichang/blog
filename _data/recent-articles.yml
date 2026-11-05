@@ -1,5 +1,7 @@
 ---
 articles:
+- path: word-game-mojiyugi-japanese-localization.md
+  published_at: '2026-11-05T22:59:04Z'
 - path: prerendered-vs-realtime-cutscenes-for-planners.md
   published_at: '2026-11-05T11:17:44Z'
 - path: game-font-selection-license-implementation-for-planners.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-04T23:45:21Z'
 - path: zelda-ocarina-botw-rethinking-conventions.md
   published_at: '2026-11-04T02:00:32Z'
-- path: long-running-mmorpg-ffxi-dqx-continuing-operations.md
-  published_at: '2026-11-03T15:30:31Z'
