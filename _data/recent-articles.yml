@@ -1,5 +1,7 @@
 ---
 articles:
+- path: production-coordination-01-role-and-visibility.md
+  published_at: '2026-11-06T13:24:05Z'
 - path: bluearchive-japan-publisher-transfer-yostar-nexon.md
   published_at: '2026-11-06T07:07:39Z'
 - path: word-game-mojiyugi-japanese-localization.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-05T11:17:44Z'
 - path: game-font-selection-license-implementation-for-planners.md
   published_at: '2026-11-05T06:42:03Z'
-- path: ue6-blueprint-removal-planner-impact.md
-  published_at: '2026-11-04T23:45:21Z'

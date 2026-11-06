@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [進行を任されたら、何が変わるのか——制作進行を任されたら①](production-coordination-01-role-and-visibility.md) 🟡
 - [『ブルーアーカイブ』はなぜネクソンへ移るのか――パブリッシャーを開発元に戻すとき、プレイヤーに何が起きるか](bluearchive-japan-publisher-transfer-yostar-nexon.md) 🟡
 - [文字で遊ぶゲームを、別の文字で作り直す――『文字遊戯』日本語化の3年](word-game-mojiyugi-japanese-localization.md) 🟢
 - [そのムービー、動画で流すか、ゲームの中で動かすか――プリレンダーとリアルタイムの判断をプランナーが支える](prerendered-vs-realtime-cutscenes-for-planners.md) 🟡
 - [ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと](game-font-selection-license-implementation-for-planners.md) 🟡
-- [UE6でブループリントがなくなる――自分で組むプランナーは何を失い、何を持ち越せるか](ue6-blueprint-removal-planner-impact.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -273,6 +273,10 @@
 - [スクラムの振り返り会で新人ゲームプランナーができること――KPTを「儀式」で終わらせない参加者の実践](agile-scrum-kpt-retrospective-for-junior-planners.md) 🟢
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🟡
 - [『スチームパイロッツ』の資金・契約トラブルから学ぶ――インディーゲームのクラウドファンディング・ガバナンス](steam-pilots-crowdfunding-governance-lessons.md) 🟡
+
+#### 🗓️ 制作進行を任されたら——中堅プランナーへの足掛かりとして
+
+- 第1回：[進行を任されたら、何が変わるのか——制作進行を任されたら①](production-coordination-01-role-and-visibility.md) 🟡
 
 ### 🔁 シリーズ・IP運用戦略
 
