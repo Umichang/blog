@@ -1,4 +1,5 @@
 # アドベントカレンダー2026の自動公開（毎朝7時47分 JST）。
+# 12月は8時47分から21時47分まで1時間おきにも動かし、Pagesの反映が遅れて投稿できなかった日を再試行する。
 # 非公開リポジトリの原稿を公開日に限ってコピーし、index.md・RSSを更新して push する。
 # 手順の本体は scripts/advent-publish.rb（Macからも同じコマンドで手動公開できる）。
 name: advent-publish
@@ -6,6 +7,9 @@ name: advent-publish
 on:
   schedule:
     - cron: '47 22 * * *' # UTC 22:47 = JST 7:47。期間外の日はスクリプトが何もしない
+    # 再試行（JST 8:47〜21:47）。12月1日の8:47はUTCでは11月30日になるため、別に書く
+    - cron: '47 23 30 11 *'
+    - cron: '47 0-12,23 * 12 *'
   workflow_dispatch:
     inputs:
       date:
@@ -36,6 +40,8 @@ jobs:
       - name: ブログを取り出す
         uses: actions/checkout@v4
         with:
+          # 再実行（Re-run）でも、起動時のコミットではなく最新の状態から始める
+          ref: main
           fetch-depth: 1
 
       - name: X API の認証を確かめる（手動実行で指定したときだけ）
@@ -101,22 +107,24 @@ jobs:
           # GITHUB_TOKEN による push では Pages のビルドが始まらないため、明示的に依頼する
           gh api -X POST "repos/${{ github.repository }}/pages/builds"
 
-      - name: 公開ページが開けるか確かめる
-        if: hashFiles('published.txt') != ''
+      - name: 反映が遅れている日があれば、Pages の再ビルドを依頼する
+        if: env.stop != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          if [ ! -s published.txt ]; then exit 0; fi
-          while read -r path; do
-            url="https://umichang.github.io/blog/${path%.md}.html"
-            for i in $(seq 1 30); do
-              code=$(curl -s -o /dev/null -w '%{http_code}' "$url")
-              if [ "$code" = "200" ]; then echo "OK $url"; break; fi
-              sleep 20
-            done
-            if [ "$code" != "200" ]; then echo "開けません（$code）: $url"; exit 1; fi
-          done < published.txt
+          # 今回公開した日は直前に依頼済み。以前に公開して、まだ開けない日がある場合だけ依頼し直す
+          if [ -s published.txt ]; then exit 0; fi
+          for url in $(ruby scripts/advent-post-x.rb --list-pending); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "$url")
+            echo "$code $url"
+            if [ "$code" != "200" ]; then
+              gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+              break
+            fi
+          done
 
       - name: X に紹介ポストを投稿する
-        if: hashFiles('published.txt') != ''
+        if: env.stop != '1'
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -124,10 +132,13 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         run: |
-          if [ ! -s published.txt ]; then exit 0; fi
-          # 公開とページの確認が済んだ日だけを投稿する。記録は1件ごとに書くので、途中で止まっても二重投稿しない
+          # 公開済みで未投稿の日を、公開ページが開けることを確かめてから投稿する（今回公開した日に限らない）。
+          # 開けない日は投稿せずにジョブを失敗させ、メールで知らせる。次の回で再試行する。
+          # 記録は1件ごとに書くので、途中で止まっても二重投稿しない
+          wait=5
+          if [ -s published.txt ]; then wait=10; fi
           status=0
-          ruby scripts/advent-post-x.rb --tweets drafts/tweets-2026adv.md --notion-json x-posts.json || status=$?
+          ruby scripts/advent-post-x.rb --tweets drafts/tweets-2026adv.md --notion-json x-posts.json --wait-minutes "$wait" || status=$?
           if ! git diff --quiet -- _data/advent-x-posts.yml; then
             git add _data/advent-x-posts.yml
             git commit -m 'アドベントカレンダーの紹介ポストを記録'

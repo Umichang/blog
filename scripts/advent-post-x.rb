@@ -11,6 +11,9 @@
 #     --dry-run      投稿せず、文字数と内容の点検だけを行う
 #     --notion-json  投稿した記録を、Notion「おすすめ投稿履歴」へ取り込むためのJSONとして書き出す
 #     --check-auth   投稿せず、認証が通るかだけを確かめる（自分のアカウント名を表示）
+#     --wait-minutes 公開ページが開けるようになるまで、1日分につき最大何分待つか（既定0＝待たない）
+#     --list-pending 公開済みで未投稿の日の公開URLを1行ずつ表示して終わる（投稿しない）
+# 投稿の前に、その日の公開ページが200を返すかを必ず確かめる。開けない日は投稿せずに飛ばし、最後に失敗で終える。
 # 認証（環境変数）: X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET（OAuth 1.0a、Read and Write）
 
 require 'base64'
@@ -80,6 +83,30 @@ def check_auth
   exit 0
 end
 
+# 公開ページのHTTPステータス（通信できなければ 'error'）
+def page_status(url)
+  uri = URI(url)
+  http = Net::HTTP.new(uri.host, uri.port)
+  http.use_ssl = true
+  http.open_timeout = 10
+  http.read_timeout = 20
+  http.request(Net::HTTP::Get.new(uri)).code
+rescue StandardError => e
+  "error: #{e.class}"
+end
+
+# 開けるようになるまで最大 minutes 分、20秒おきに確かめる
+def wait_until_live(url, minutes)
+  deadline = Time.now + minutes * 60
+  loop do
+    code = page_status(url)
+    return [true, code] if code == '200'
+    return [false, code] if Time.now + 20 > deadline
+
+    sleep 20
+  end
+end
+
 def post_tweet(text)
   http = Net::HTTP.new(ENDPOINT.host, ENDPOINT.port)
   http.use_ssl = true
@@ -99,13 +126,15 @@ OptionParser.new do |opts|
   opts.on('--dry-run') { options[:dry_run] = true }
   opts.on('--check-auth') { options[:check_auth] = true }
   opts.on('--notion-json PATH') { |v| options[:notion_json] = File.expand_path(v, Dir.pwd) }
+  opts.on('--wait-minutes N') { |v| options[:wait_minutes] = Float(v) }
+  opts.on('--list-pending') { options[:list_pending] = true }
 end.parse!
 check_auth if options[:check_auth]
-fail!('--tweets を指定してください。') unless options[:tweets] && File.file?(options[:tweets])
+fail!('--tweets を指定してください。') unless options[:list_pending] || (options[:tweets] && File.file?(options[:tweets]))
 
 # 紹介文の一覧を読む（「## N日目」の直後のコードブロック）
 texts = {}
-File.read(options[:tweets], encoding: 'UTF-8').scan(/^## (\d+)日目[^\n]*\n+```\n(.*?)\n```/m) { |d, body| texts[d.to_i] = body.strip }
+options[:tweets] && File.read(options[:tweets], encoding: 'UTF-8').scan(/^## (\d+)日目[^\n]*\n+```\n(.*?)\n```/m) { |d, body| texts[d.to_i] = body.strip }
 
 records = File.file?(RECORD) ? (YAML.safe_load(File.read(RECORD, encoding: 'UTF-8')) || {}) : {}
 records['posts'] ||= []
@@ -120,7 +149,14 @@ else
   days.select! { |d| published.key?(d) }
 end
 
+page_url = ->(d) { "#{SITE}2026adv/#{published[d].sub(/\.md\z/, '.html')}" }
+if options[:list_pending]
+  days.each { |d| puts page_url.call(d) }
+  exit 0
+end
+
 imported = []
+not_live = []
 days.each do |d|
   text = texts[d] or fail!("#{d}日目の紹介文が見つかりません。")
   len = weighted_length(text)
@@ -136,6 +172,15 @@ days.each do |d|
     next
   end
 
+  # 公開ページが開けることを確かめてから投稿する（Pagesの反映が遅れている日は、次の回に回す）
+  # 一度開けない日が出たら、後の日は待たずに確かめるだけにする（ジョブの制限時間を超えないため）
+  live, code = wait_until_live(expected, not_live.empty? ? options.fetch(:wait_minutes, 0) : 0)
+  unless live
+    warn "#{d}日目は公開ページがまだ開けないため、投稿しませんでした（#{code}）: #{expected}"
+    not_live << d
+    next
+  end
+
   id = post_tweet(text)
   now = Time.now.utc.iso8601
   records['posts'] << { 'day' => d, 'id' => id, 'url' => "https://x.com/i/web/status/#{id}", 'posted_at' => now }
@@ -146,3 +191,7 @@ end
 
 File.write(options[:notion_json], JSON.pretty_generate(imported), encoding: 'UTF-8') if options[:notion_json] && !imported.empty?
 puts '投稿する日はありませんでした。' if days.empty?
+unless not_live.empty?
+  warn "公開ページが開けず、投稿できなかった日があります: #{not_live.map { |d| "#{d}日目" }.join('、')}。次の回で再試行します。"
+  exit 1
+end
