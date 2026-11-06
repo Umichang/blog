@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [『ブルーアーカイブ』はなぜネクソンへ移るのか――パブリッシャーを開発元に戻すとき、プレイヤーに何が起きるか](bluearchive-japan-publisher-transfer-yostar-nexon.md) 🟡
 - [文字で遊ぶゲームを、別の文字で作り直す――『文字遊戯』日本語化の3年](word-game-mojiyugi-japanese-localization.md) 🟢
 - [そのムービー、動画で流すか、ゲームの中で動かすか――プリレンダーとリアルタイムの判断をプランナーが支える](prerendered-vs-realtime-cutscenes-for-planners.md) 🟡
 - [ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと](game-font-selection-license-implementation-for-planners.md) 🟡
 - [UE6でブループリントがなくなる――自分で組むプランナーは何を失い、何を持ち越せるか](ue6-blueprint-removal-planner-impact.md) 🟡
-- [ゼルダの「あたりまえ」は二度見直された――時のオカリナとブレス オブ ザ ワイルド](zelda-ocarina-botw-rethinking-conventions.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -363,6 +363,7 @@
 ### 🔄 ライブサービス・継続施策
 
 - [ライブ運営の実務――リリース後90日から継続運営まで](live-ops-operations-from-launch-to-sustained-growth.md) 🔴
+- [『ブルーアーカイブ』はなぜネクソンへ移るのか――パブリッシャーを開発元に戻すとき、プレイヤーに何が起きるか](bluearchive-japan-publisher-transfer-yostar-nexon.md) 🟡
 - [期間限定イベント設計の実務――目的、報酬、救済、終了処理を一枚の仕様へ落とす](limited-time-event-design-practices.md) 🟡
 - [世界展開するライブサービスゲームの季節イベント設計――宗教・文化の摩擦と訴求力をどう選ぶか](live-service-seasonal-event-cultural-calendar-design.md) 🟡
 - [スタミナ・AP（行動力）システムの設計実務](stamina-energy-system-design-practices.md) 🔴
