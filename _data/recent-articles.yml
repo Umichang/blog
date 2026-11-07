@@ -1,5 +1,7 @@
 ---
 articles:
+- path: voice-input-history-in-console-games.md
+  published_at: '2026-11-07T07:49:50Z'
 - path: production-coordination-01-role-and-visibility.md
   published_at: '2026-11-06T13:24:05Z'
 - path: bluearchive-japan-publisher-transfer-yostar-nexon.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-05T22:59:04Z'
 - path: prerendered-vs-realtime-cutscenes-for-planners.md
   published_at: '2026-11-05T11:17:44Z'
-- path: game-font-selection-license-implementation-for-planners.md
-  published_at: '2026-11-05T06:42:03Z'

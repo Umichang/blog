@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🟢
 - [進行を任されたら、何が変わるのか——制作進行を任されたら①](production-coordination-01-role-and-visibility.md) 🟡
 - [『ブルーアーカイブ』はなぜネクソンへ移るのか――パブリッシャーを開発元に戻すとき、プレイヤーに何が起きるか](bluearchive-japan-publisher-transfer-yostar-nexon.md) 🟡
 - [文字で遊ぶゲームを、別の文字で作り直す――『文字遊戯』日本語化の3年](word-game-mojiyugi-japanese-localization.md) 🟢
 - [そのムービー、動画で流すか、ゲームの中で動かすか――プリレンダーとリアルタイムの判断をプランナーが支える](prerendered-vs-realtime-cutscenes-for-planners.md) 🟡
-- [ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと](game-font-selection-license-implementation-for-planners.md) 🟡
 
 <!-- recent-articles:end -->
 

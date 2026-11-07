@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 06 Nov 2026 13:24:05 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 07:49:50 -0000</lastBuildDate>
+    <item>
+      <title>かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史</title>
+      <link>https://umichang.github.io/blog/voice-input-history-in-console-games.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/voice-input-history-in-console-games.html</guid>
+      <description>ファミコン2コンの叫びから、決まった言葉の認識、本体の音声操作、AIとの自由対話へ。約40年の歩みをたどり、2026年のSwitch 2で広がる声と音の遊びまでを紹介する。</description>
+      <pubDate>Sat, 07 Nov 2026 07:49:50 -0000</pubDate>
+    </item>
     <item>
       <title>進行を任されたら、何が変わるのか——制作進行を任されたら①</title>
       <link>https://umichang.github.io/blog/production-coordination-01-role-and-visibility.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/prerendered-vs-realtime-cutscenes-for-planners.html</guid>
       <description>ムービーを動画で再生するか、ゲーム内で描くかという選択が、装備の反映、修正、ローカライズ、容量、移植、スキップの仕様にどう及ぶかを、開発事例からプランナー向けに整理する。</description>
       <pubDate>Thu, 05 Nov 2026 11:17:44 -0000</pubDate>
-    </item>
-    <item>
-      <title>ゲームの文字は誰が決めるのか――デザイナーの判断を支えるために、プランナーが知っておくこと</title>
-      <link>https://umichang.github.io/blog/game-font-selection-license-implementation-for-planners.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/game-font-selection-license-implementation-for-planners.html</guid>
-      <description>書体を選ぶデザイナーの判断を、プランナーはどう支えるか。文章量とUIの枠、対応言語と文字セット、ライセンス、文字表示の仕組みを、制作の段階ごとの確認事項につなげて解説する。</description>
-      <pubDate>Thu, 05 Nov 2026 06:42:03 -0000</pubDate>
     </item>
   </channel>
 </rss>
