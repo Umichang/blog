@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 07 Nov 2026 07:49:50 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 10:36:54 -0000</lastBuildDate>
+    <item>
+      <title>工程表を作る——制作進行を任されたら②</title>
+      <link>https://umichang.github.io/blog/production-coordination-02-building-the-schedule.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-02-building-the-schedule.html</guid>
+      <description>タスクの一覧に受け渡しのつながりと余裕を加え、家庭用ゲームの開発の節目と運営型タイトルの更新周期を工程表で確かめる方法を考える。「制作進行を任されたら」第2回。</description>
+      <pubDate>Sat, 07 Nov 2026 10:36:54 -0000</pubDate>
+    </item>
     <item>
       <title>かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史</title>
       <link>https://umichang.github.io/blog/voice-input-history-in-console-games.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/word-game-mojiyugi-japanese-localization.html</guid>
       <description>文字そのものが遊びになる『文字遊戯』を、日本語でどう作り直したのか。1万枚超の画面記録、原作側との合意、文字を扱う実装の改修、独立した日本語版の発売まで、約3年の工程を追う。</description>
       <pubDate>Thu, 05 Nov 2026 22:59:04 -0000</pubDate>
-    </item>
-    <item>
-      <title>そのムービー、動画で流すか、ゲームの中で動かすか――プリレンダーとリアルタイムの判断をプランナーが支える</title>
-      <link>https://umichang.github.io/blog/prerendered-vs-realtime-cutscenes-for-planners.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/prerendered-vs-realtime-cutscenes-for-planners.html</guid>
-      <description>ムービーを動画で再生するか、ゲーム内で描くかという選択が、装備の反映、修正、ローカライズ、容量、移植、スキップの仕様にどう及ぶかを、開発事例からプランナー向けに整理する。</description>
-      <pubDate>Thu, 05 Nov 2026 11:17:44 -0000</pubDate>
     </item>
   </channel>
 </rss>
