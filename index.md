@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ゲーム機の音は、何が鳴らしてきたのか——ゲーム機サウンドの歴史①](console-game-sound-history.md) 🟢
 - [工程表を作る——制作進行を任されたら②](production-coordination-02-building-the-schedule.md) 🟡
 - [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🟢
 - [進行を任されたら、何が変わるのか——制作進行を任されたら①](production-coordination-01-role-and-visibility.md) 🟡
 - [『ブルーアーカイブ』はなぜネクソンへ移るのか――パブリッシャーを開発元に戻すとき、プレイヤーに何が起きるか](bluearchive-japan-publisher-transfer-yostar-nexon.md) 🟡
-- [文字で遊ぶゲームを、別の文字で作り直す――『文字遊戯』日本語化の3年](word-game-mojiyugi-japanese-localization.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -68,13 +68,16 @@
 
 ### 🔊 サウンド・音声
 
-- [家庭用ゲーム機サウンドの歴史：ピコピコ音から立体音響へ](console-game-sound-history.md) 🟡
 - [ゲームの効果音・環境音はどう作られているか](game-sound-effects-ambient-audio-production-practice.md) 🟢
 - [ゲームにおける環境音と3Dオーディオ — ゲームプランナー実践ガイド](game-ambient-sound-and-3d-audio-planner-guide.md) 🟡
 - [インタラクティブ／アダプティブミュージック――変化するゲーム音楽の設計と実装](interactive-adaptive-music-explained.md) 🟡
 - [UIサウンド・フィードバックSE設計基礎](ui-feedback-sound-effect-design-basics-for-planners.md) 🟡
 - [劇伴制作の進行管理実務――ゲームプランナーが担う発注・スポッティング・実装橋渡し](game-music-commissioning-and-production-management-for-planners.md) 🟡
 - [CEDEC2026フォローアップ：ゲーム音楽の権利をどこに置くか――買い取り・自社管理・信託・委嘱の制度を読む](game-music-copyright-ownership-buyout-trust-commissioning.md) 🔴
+
+#### 🎛️ ゲーム機サウンドの歴史
+
+- 第1回：[ゲーム機の音は、何が鳴らしてきたのか——ゲーム機サウンドの歴史①](console-game-sound-history.md) 🟢
 
 ### 🧠 AI・ゲーム内知性
 

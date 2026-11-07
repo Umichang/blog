@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 07 Nov 2026 10:36:54 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 15:01:56 -0000</lastBuildDate>
+    <item>
+      <title>ゲーム機の音は、何が鳴らしてきたのか——ゲーム機サウンドの歴史①</title>
+      <link>https://umichang.github.io/blog/console-game-sound-history.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history.html</guid>
+      <description>ピコピコ音から立体音響へ。ゲーム機が波を作り、録った音や曲を再生し、ソフトウェアで混ぜ、音の位置を描くまでを、作曲の条件の変化とともにたどる。「ゲーム機サウンドの歴史」第1回。</description>
+      <pubDate>Sat, 07 Nov 2026 15:01:56 -0000</pubDate>
+    </item>
     <item>
       <title>工程表を作る——制作進行を任されたら②</title>
       <link>https://umichang.github.io/blog/production-coordination-02-building-the-schedule.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/bluearchive-japan-publisher-transfer-yostar-nexon.html</guid>
       <description>『ブルーアーカイブ』日本版は2027年1月、Yostarからネクソンへ運営・配信を移す。公式FAQと対談から、アカウント、青輝石、翻訳、ゲーム外施策の継承と、プレイヤーに必要な準備を整理する。</description>
       <pubDate>Fri, 06 Nov 2026 07:07:39 -0000</pubDate>
-    </item>
-    <item>
-      <title>文字で遊ぶゲームを、別の文字で作り直す――『文字遊戯』日本語化の3年</title>
-      <link>https://umichang.github.io/blog/word-game-mojiyugi-japanese-localization.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/word-game-mojiyugi-japanese-localization.html</guid>
-      <description>文字そのものが遊びになる『文字遊戯』を、日本語でどう作り直したのか。1万枚超の画面記録、原作側との合意、文字を扱う実装の改修、独立した日本語版の発売まで、約3年の工程を追う。</description>
-      <pubDate>Thu, 05 Nov 2026 22:59:04 -0000</pubDate>
     </item>
   </channel>
 </rss>
