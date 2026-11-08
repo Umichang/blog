@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 07 Nov 2026 15:01:56 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 01:15:01 -0000</lastBuildDate>
+    <item>
+      <title>上流を固める——制作進行を任されたら③</title>
+      <link>https://umichang.github.io/blog/production-coordination-03-locking-the-upstream.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-03-locking-the-upstream.html</guid>
+      <description>仕様の確定を、固定する範囲と以後に受け付ける変更で言い表し、未定事項、確定前の疑問、変更の窓口と記録を次の工程へ渡せる形に整える。「制作進行を任されたら」第3回。</description>
+      <pubDate>Sun, 08 Nov 2026 01:15:01 -0000</pubDate>
+    </item>
     <item>
       <title>ゲーム機の音は、何が鳴らしてきたのか——ゲーム機サウンドの歴史①</title>
       <link>https://umichang.github.io/blog/console-game-sound-history.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-01-role-and-visibility.html</guid>
       <description>制作進行を任されたプランナーに向けて、仕様を考える仕事から工程の前後を見る仕事への変化と、止まっている場所や次の担当への影響が分かる「進捗の見える状態」を整理する。「制作進行を任されたら」第1回。</description>
       <pubDate>Fri, 06 Nov 2026 13:24:05 -0000</pubDate>
-    </item>
-    <item>
-      <title>『ブルーアーカイブ』はなぜネクソンへ移るのか――パブリッシャーを開発元に戻すとき、プレイヤーに何が起きるか</title>
-      <link>https://umichang.github.io/blog/bluearchive-japan-publisher-transfer-yostar-nexon.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/bluearchive-japan-publisher-transfer-yostar-nexon.html</guid>
-      <description>『ブルーアーカイブ』日本版は2027年1月、Yostarからネクソンへ運営・配信を移す。公式FAQと対談から、アカウント、青輝石、翻訳、ゲーム外施策の継承と、プレイヤーに必要な準備を整理する。</description>
-      <pubDate>Fri, 06 Nov 2026 07:07:39 -0000</pubDate>
     </item>
   </channel>
 </rss>

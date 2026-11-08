@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [上流を固める——制作進行を任されたら③](production-coordination-03-locking-the-upstream.md) 🟡
 - [ゲーム機の音は、何が鳴らしてきたのか——ゲーム機サウンドの歴史①](console-game-sound-history.md) 🟢
 - [工程表を作る——制作進行を任されたら②](production-coordination-02-building-the-schedule.md) 🟡
 - [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🟢
 - [進行を任されたら、何が変わるのか——制作進行を任されたら①](production-coordination-01-role-and-visibility.md) 🟡
-- [『ブルーアーカイブ』はなぜネクソンへ移るのか――パブリッシャーを開発元に戻すとき、プレイヤーに何が起きるか](bluearchive-japan-publisher-transfer-yostar-nexon.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -281,6 +281,7 @@
 
 - 第1回：[進行を任されたら、何が変わるのか——制作進行を任されたら①](production-coordination-01-role-and-visibility.md) 🟡
 - 第2回：[工程表を作る——制作進行を任されたら②](production-coordination-02-building-the-schedule.md) 🟡
+- 第3回：[上流を固める——制作進行を任されたら③](production-coordination-03-locking-the-upstream.md) 🟡
 
 ### 🔁 シリーズ・IP運用戦略
 
