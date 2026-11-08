@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 08 Nov 2026 06:58:42 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:09:06 -0000</lastBuildDate>
+    <item>
+      <title>下流へ流し込む（1）テキスト・ローカライズ・音声——制作進行を任されたら④</title>
+      <link>https://umichang.github.io/blog/production-coordination-04-text-localization-voice.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-04-text-localization-voice.html</guid>
+      <description>確定したテキストに文脈や表示条件を添え、翻訳・音声収録・実装へ渡す方法を考える。名前の衝突、文字あふれ、原文変更の取りこぼしを、担当間の調整と受け渡しの記録で解く。「制作進行を任されたら」第4回。</description>
+      <pubDate>Sun, 08 Nov 2026 11:09:06 -0000</pubDate>
+    </item>
     <item>
       <title>決まった波を選ぶか、波の形を描くか——ゲーム機サウンドの歴史②</title>
       <link>https://umichang.github.io/blog/console-game-sound-history-02-pulse-and-wavetable.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-02-building-the-schedule.html</guid>
       <description>タスクの一覧に受け渡しのつながりと余裕を加え、家庭用ゲームの開発の節目と運営型タイトルの更新周期を工程表で確かめる方法を考える。「制作進行を任されたら」第2回。</description>
       <pubDate>Sat, 07 Nov 2026 10:36:54 -0000</pubDate>
-    </item>
-    <item>
-      <title>かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史</title>
-      <link>https://umichang.github.io/blog/voice-input-history-in-console-games.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/voice-input-history-in-console-games.html</guid>
-      <description>ファミコン2コンの叫びから、決まった言葉の認識、本体の音声操作、AIとの自由対話へ。約40年の歩みをたどり、2026年のSwitch 2で広がる声と音の遊びまでを紹介する。</description>
-      <pubDate>Sat, 07 Nov 2026 07:49:50 -0000</pubDate>
     </item>
   </channel>
 </rss>

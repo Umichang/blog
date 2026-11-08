@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [下流へ流し込む（1）テキスト・ローカライズ・音声——制作進行を任されたら④](production-coordination-04-text-localization-voice.md) 🟡
 - [決まった波を選ぶか、波の形を描くか——ゲーム機サウンドの歴史②](console-game-sound-history-02-pulse-and-wavetable.md) 🟢
 - [上流を固める——制作進行を任されたら③](production-coordination-03-locking-the-upstream.md) 🟡
 - [ゲーム機の音は、何が鳴らしてきたのか——ゲーム機サウンドの歴史①](console-game-sound-history.md) 🟢
 - [工程表を作る——制作進行を任されたら②](production-coordination-02-building-the-schedule.md) 🟡
-- [かつて僕らは「ハドソーン！」と叫んだ — 家庭用ゲーム機における音声入力の歴史](voice-input-history-in-console-games.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -283,6 +283,7 @@
 - 第1回：[進行を任されたら、何が変わるのか——制作進行を任されたら①](production-coordination-01-role-and-visibility.md) 🟡
 - 第2回：[工程表を作る——制作進行を任されたら②](production-coordination-02-building-the-schedule.md) 🟡
 - 第3回：[上流を固める——制作進行を任されたら③](production-coordination-03-locking-the-upstream.md) 🟡
+- 第4回：[下流へ流し込む（1）テキスト・ローカライズ・音声——制作進行を任されたら④](production-coordination-04-text-localization-voice.md) 🟡
 
 ### 🔁 シリーズ・IP運用戦略
 
