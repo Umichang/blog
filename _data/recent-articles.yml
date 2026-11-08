@@ -1,5 +1,7 @@
 ---
 articles:
+- path: console-game-sound-history-03-fm-synthesis.md
+  published_at: '2026-11-08T11:59:19Z'
 - path: production-coordination-04-text-localization-voice.md
   published_at: '2026-11-08T11:09:06Z'
 - path: console-game-sound-history-02-pulse-and-wavetable.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-08T01:15:01Z'
 - path: console-game-sound-history.md
   published_at: '2026-11-07T15:01:56Z'
-- path: production-coordination-02-building-the-schedule.md
-  published_at: '2026-11-07T10:36:54Z'

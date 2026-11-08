@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [波で波を揺らして、音色を作る——ゲーム機サウンドの歴史③](console-game-sound-history-03-fm-synthesis.md) 🟢
 - [下流へ流し込む（1）テキスト・ローカライズ・音声——制作進行を任されたら④](production-coordination-04-text-localization-voice.md) 🟡
 - [決まった波を選ぶか、波の形を描くか——ゲーム機サウンドの歴史②](console-game-sound-history-02-pulse-and-wavetable.md) 🟢
 - [上流を固める——制作進行を任されたら③](production-coordination-03-locking-the-upstream.md) 🟡
 - [ゲーム機の音は、何が鳴らしてきたのか——ゲーム機サウンドの歴史①](console-game-sound-history.md) 🟢
-- [工程表を作る——制作進行を任されたら②](production-coordination-02-building-the-schedule.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -79,6 +79,7 @@
 
 - 第1回：[ゲーム機の音は、何が鳴らしてきたのか——ゲーム機サウンドの歴史①](console-game-sound-history.md) 🟢
 - 第2回：[決まった波を選ぶか、波の形を描くか——ゲーム機サウンドの歴史②](console-game-sound-history-02-pulse-and-wavetable.md) 🟢
+- 第3回：[波で波を揺らして、音色を作る——ゲーム機サウンドの歴史③](console-game-sound-history-03-fm-synthesis.md) 🟢
 
 ### 🧠 AI・ゲーム内知性
 

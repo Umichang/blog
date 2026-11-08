@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:09:06 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:59:19 -0000</lastBuildDate>
+    <item>
+      <title>波で波を揺らして、音色を作る——ゲーム機サウンドの歴史③</title>
+      <link>https://umichang.github.io/blog/console-game-sound-history-03-fm-synthesis.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-03-fm-synthesis.html</guid>
+      <description>波どうしを作用させて音色を作るFM音源。その発見と実用化、キャリアとモジュレーターの仕組みから、マークIII／マスターシステム、MSX、ファミコンの拡張音源、メガドライブの音をたどる。「ゲーム機サウンドの歴史」第3回。</description>
+      <pubDate>Sun, 08 Nov 2026 11:59:19 -0000</pubDate>
+    </item>
     <item>
       <title>下流へ流し込む（1）テキスト・ローカライズ・音声——制作進行を任されたら④</title>
       <link>https://umichang.github.io/blog/production-coordination-04-text-localization-voice.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history.html</guid>
       <description>ピコピコ音から立体音響へ。ゲーム機が波を作り、録った音や曲を再生し、ソフトウェアで混ぜ、音の位置を描くまでを、作曲の条件の変化とともにたどる。「ゲーム機サウンドの歴史」第1回。</description>
       <pubDate>Sat, 07 Nov 2026 15:01:56 -0000</pubDate>
-    </item>
-    <item>
-      <title>工程表を作る——制作進行を任されたら②</title>
-      <link>https://umichang.github.io/blog/production-coordination-02-building-the-schedule.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-02-building-the-schedule.html</guid>
-      <description>タスクの一覧に受け渡しのつながりと余裕を加え、家庭用ゲームの開発の節目と運営型タイトルの更新周期を工程表で確かめる方法を考える。「制作進行を任されたら」第2回。</description>
-      <pubDate>Sat, 07 Nov 2026 10:36:54 -0000</pubDate>
     </item>
   </channel>
 </rss>
