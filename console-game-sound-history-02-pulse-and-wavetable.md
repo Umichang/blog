@@ -26,17 +26,9 @@ difficulty: green
 
 この編成で曲を演奏している途中にも、ゲームは効果音を鳴らす必要がある。Copettiが紹介するのは、矩形波の一方で旋律を、もう一方で伴奏を鳴らし、効果音が必要な間だけ、伴奏のチャンネルを効果音へ回す方法だ。効果音が終わると、その枠は伴奏へ戻る。旋律を続けながら、ゲームの出来事を知らせられるのである。[[1](#ref-1)] たとえば、演奏中の小さな合奏で、伴奏者が一瞬だけ合図の音を担当し、その後に演奏へ戻る場面を思い浮かべるとよい。聞き手には曲と効果音が同時にあるように聞こえても、その裏では担当の交代が起きている。楽譜に音符を置くことに加え、出来事が割り込んだときに、どの担当を譲るかまで考える必要があった。
 
-```
-# 仕上げAIへ図表制作依頼
-ファミコン本体のチャンネルの分け合いを説明する概念図。背景は白。ラベルとaltは日本語。
-横方向は時間の進行。横に長い4本の帯を上下に並べ、上から「矩形波1」「矩形波2」「三角波」「ノイズ」とする。
-矩形波1は「旋律」が途切れずに続く。矩形波2は「伴奏」→「効果音」→「伴奏」と、中央の短い区間だけ担当が切り替わる。三角波は「低音」、ノイズは「打楽器」が途切れずに続く。録音のチャンネルは描かない。
-効果音の区間だけ色を変え、文字でも役割の切り替わりを示す。時間の数値や実際の長さは付けず、推測で補わない。
-図の下に「効果音の間だけ伴奏を効果音に回し、旋律は途切れさせない」と添える。出典は本文のRodrigo Copetti「NES / Famicom Architecture」[[1](#ref-1)]。
-「特定の作品の譜面ではなく、手法を説明する概念図」と注記する。
-alt案：旋律・低音・打楽器が続く間、伴奏のチャンネルだけが短時間の効果音を担当してから伴奏へ戻る概念図。
-ファイル名：famicom-sound-channel-sharing.webp
-```
+![旋律・低音・打楽器が続く間、伴奏のチャンネルだけが短時間の効果音を担当してから伴奏へ戻る概念図](image/famicom-sound-channel-sharing.webp)
+
+Rodrigo Copetti「NES / Famicom Architecture」の説明をもとに作成。[[1](#ref-1)] 特定の作品の譜面ではなく、手法を説明する概念図である。
 
 同じ時代には、簡単な波やノイズを、プログラムから音程や音量を指定して鳴らす **PSG** という音源も広く使われた。PSGはProgrammable Sound Generatorの略である。MSXの標準的なPSGであるAY-3-8910系は3声、つまり3つの発音枠を持ち、各声で音程のある音とノイズを切り替えられる。[[2](#ref-2)] 一方、1985年10月20日発売のセガ・マークIIIは、公式仕様でPSG音源3音とノイズ1音を備える。[[3](#ref-3)] どちらも小さな編成だが、ノイズを独立した枠で使うか、ほかの音と枠を分け合うかという違いがある。機種名の横に「3音」「4音」と並んでいても、その数だけで同じ編成とはいえない。マークIIIに後から加わるFMサウンドユニットは、第3回で扱う。
 
@@ -50,6 +42,30 @@ PSGという名前は、プログラムから制御する音源を広く指す�
 
 コナミのVRC6は、矩形波2チャンネルとのこぎり波1チャンネルを加える。のこぎり波は、斜めに上がって急に落ちる形を繰り返す波で、矩形波や三角波とは異なる響きを持つ。追加の矩形波は幅を8段階で設定でき、本体より細かく音色を選べる。[[4](#ref-4)] コナミが独自に開発したVRC6を最初に導入した作品が、1989年の『悪魔城伝説』である。[[5](#ref-5)] 本体の音にさらに別の担当を重ねられる一方、北米版『Castlevania III』は、この拡張を使わず、本体の5チャンネルだけで音を鳴らしている。[[1](#ref-1)] 同じ系列の作品を地域違いで見比べても、音を出す側の編成が一致するとは限らなかった。
 
+<div style="aspect-ratio: 16 / 9; width: 100%; margin: 1.5rem 0;">
+  <iframe
+    src="https://www.youtube.com/embed/8FJd-qBKiZE"
+    title="悪魔城伝説（FC）Beginning（教会、町、墓場ステージ）"
+    style="width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+*『悪魔城伝説』（ファミコン版、VRC6使用）「Beginning（教会、町、墓場ステージ）」。配信元：Konami Kukeiha Club - Topic（『ミュージックフロム 悪魔城ドラキュラ 黒』、℗ 2021 Konami Digital Entertainment）。<https://www.youtube.com/watch?v=8FJd-qBKiZE>*
+
+<div style="aspect-ratio: 16 / 9; width: 100%; margin: 1.5rem 0;">
+  <iframe
+    src="https://www.youtube.com/embed/916OqKkrjfY"
+    title="Castlevania III Dracula's Curse（NES）Beginning"
+    style="width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+*同じ曲の北米NES版『Castlevania III: Dracula's Curse』。拡張音源を使わず、本体の5チャンネルで鳴らしている。配信元：Konami Kukeiha Club - Topic（『ミュージックフロム 悪魔城ドラキュラ 黒』、℗ 2021 Konami Digital Entertainment）。<https://www.youtube.com/watch?v=916OqKkrjfY>*
+
 別の例が、サンソフトのSunsoft 5Bである。これはMSXのPSGと同じAY-3-8910系の音源で、矩形波を3チャンネル追加する。採用された作品は『ギミック!』だけだ。[[6](#ref-6)] 『ギミック!』は1992年に日本で発売され、北欧向けのNES版『Mr. Gimmick』は追加の音源チップを使わずに作られた。[[7](#ref-7)] その音楽は、本体の5チャンネルに合わせて編曲し直されている。[[8](#ref-8)] これは、音源の追加が「同じ曲を別の音色で鳴らす」だけにとどまらない例である。枠が減れば、同時に置いていた音をどう収めるかから考え直すことになる。曲を載せる先の条件が、編曲を変えるのである。
 
 追加する音源にも、異なる方向があった。ナムコのNamco 163は、波の形を書き込める波形メモリ音源で、最大8チャンネルを扱う。ただし、チャンネルを増やすほど出力の順番待ちが長くなり、音が低くなるうえ、雑音も生じるため、多くの作品は4チャンネルで使った。[[9](#ref-9)] 任天堂のMMC5は、本体とほぼ同じ矩形波を2チャンネル加える。[[10](#ref-10)] 拡張音源という同じ呼び名でも、使い慣れた種類の音を増やすものと、波形そのものを作れるものがある。次章の波形メモリは、本体の設計としても、追加の音源としても選ばれた方式なのだ。
@@ -62,9 +78,33 @@ PSGという名前は、プログラムから制御する音源を広く指す�
 
 1986年発売のファミリーコンピュータ ディスクシステムは、この方法の音源を1チャンネル加えた。[[12](#ref-12)] 1周期を64個の値で描き、それぞれの高さは6bitで表す。6bitとは、高さを64段階から選べるという意味だ。横方向にいくつの点を並べられるかと、縦方向の高さを何段階で選べるかは、別の条件になる。さらにディスクシステムには、波形とは別の表を使って、音の高さを揺らす変調の仕組みがある。[[13](#ref-13)] ファミコン本体の矩形波や三角波に、輪郭を描ける担当がひとつ加わったのである。追加されたのはひとつの枠でも、その枠が使える音の形は、本体に用意された形から広がっていた。
 
+<div style="aspect-ratio: 16 / 9; width: 100%; margin: 1.5rem 0;">
+  <iframe
+    src="https://www.youtube.com/embed/Kch3uUciCZ8"
+    title="ドラキュラII 呪いの封印（FDS）Bloody Tears（昼の道BGM）"
+    style="width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+*ディスクシステムの拡張音源を使った『ドラキュラII 呪いの封印』（1987年）「Bloody Tears（昼の道BGM）」。配信元：Konami Kukeiha Club - Topic（『ミュージックフロム 悪魔城ドラキュラ 黒』、℗ 2021 Konami Digital Entertainment）。<https://www.youtube.com/watch?v=Kch3uUciCZ8>*
+
 1987年発売のPCエンジンでは、本体の6チャンネルが波形メモリを中心に組み立てられている。1周期は32個の5bitの値、つまり32の位置に対して、高さを32段階で書く。最後の2チャンネルはノイズにも使え、2番目のチャンネルで1番目の音の高さを揺らす機能も持つ。また、波形を繰り返す方法に加え、録音の値を直接書き込んで鳴らす方法もあった。[[11](#ref-11)] ここで扱っているのは、HuCARDのゲームが使う本体音源である。6つの枠すべてについて音色の輪郭を用意できることは、ディスクシステムのように描ける担当を追加する構成との大きな違いだ。一方、ノイズへ切り替えた枠は、その間ノイズの担当になる。選べる役割が増えても、ひとつの枠を何に使うかという判断は残る。
 
 1989年発売のゲームボーイは、矩形波2チャンネル、波形メモリ1チャンネル、ノイズ1チャンネルを組み合わせた。[[14](#ref-14)] 波形メモリは1周期が32個の4bitの値で、高さを16段階から選べる。左右に音を振り分けるステレオにも対応するが、左右の違いを聞けるのはヘッドホンで、本体のスピーカーはモノラルである。そして『ポケットモンスター 赤・緑』では、ポケモンの鳴き声が音楽のチャンネルをすべて使う。[[15](#ref-15)] 第1章では伴奏の担当だけを効果音へ回したが、こちらは曲全体の枠を鳴き声へ渡す例だ。携帯機でも、音色を工夫することと、曲と効果音の間で枠を分けることは、並んで存在していた。
+
+<div style="aspect-ratio: 16 / 9; width: 100%; margin: 1.5rem 0;">
+  <iframe
+    src="https://www.youtube.com/embed/Q53CDIGPJ58"
+    title="Pokémon Game Sound Library『ポケモン 赤・緑』BGM集"
+    style="width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+*『ポケットモンスター 赤・緑』のBGM集（全45曲）。配信元：ポケモン公式YouTubeチャンネル「Pokémon Game Sound Library」。<https://www.youtube.com/watch?v=Q53CDIGPJ58>*
 
 MSXでは、コナミが1987年の『グラディウス2』のゲームROMに、SCCという「ウェーブ音源LSI」、つまり波形を使って音を作る回路を載せ、標準のPSGと組み合わせて鳴らした。[[16](#ref-16)][[17](#ref-17)] SCCは5チャンネルを持ち、波形は1周期を32バイトで記憶する。ただし、4番目と5番目のチャンネルは同じ波形を共有し、後継のSCC+では独立した。[[18](#ref-18)] ここでは「5つの枠」と「それぞれに別の波の形を与えられるか」が分かれる。下の表で比較すると、波形メモリという同じ方法でも、描ける担当の数、形を描くための値の数、ほかに使える音に違いがあることが分かる。音源の名前だけでなく、その組み合わせまでが演奏の条件となった。
 
@@ -76,6 +116,18 @@ MSXでは、コナミが1987年の『グラディウス2』のゲームROMに、
 | SCC（MSX用『グラディウス2』搭載） | 1987年 | 5（4番目と5番目は波形を共有） | 32個（32バイト）・値の細かさは— | MSX本体のPSG3声と併用 |
 
 出典は本文を参照。発売年は日本での発売年で、SCCの行は『グラディウス2』の発売年。「—」は値の細かさを示していない項目である。
+
+<div style="aspect-ratio: 16 / 9; width: 100%; margin: 1.5rem 0;">
+  <iframe
+    src="https://www.youtube.com/embed/wxJVzRBiEDo"
+    title="MSX RACING SPIRIT サウンドトラック（MSX版）MSX Racing Shuffle（タイトル）"
+    style="width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+*SCCを搭載した同じコナミのMSX作品『F-1スピリット』（1987年）の「MSX Racing Shuffle（タイトル）」。収録アルバムは商標の都合で『MSX RACING SPIRIT サウンドトラック（MSX版）』と改題されている。配信元：Konami Kukeiha Club - Topic（℗ Konami Digital Entertainment）。<https://www.youtube.com/watch?v=wxJVzRBiEDo>*
 
 ***
 

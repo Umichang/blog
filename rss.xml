@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 08 Nov 2026 01:15:01 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 06:58:42 -0000</lastBuildDate>
+    <item>
+      <title>決まった波を選ぶか、波の形を描くか——ゲーム機サウンドの歴史②</title>
+      <link>https://umichang.github.io/blog/console-game-sound-history-02-pulse-and-wavetable.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-02-pulse-and-wavetable.html</guid>
+      <description>ファミコンの矩形波やノイズから、ディスクシステム、PCエンジン、ゲームボーイ、MSXの波形メモリへ。音色の作り方と、旋律・伴奏・効果音で限られた発音枠を分け合う工夫をたどる。「ゲーム機サウンドの歴史」第2回。</description>
+      <pubDate>Sun, 08 Nov 2026 06:58:42 -0000</pubDate>
+    </item>
     <item>
       <title>上流を固める——制作進行を任されたら③</title>
       <link>https://umichang.github.io/blog/production-coordination-03-locking-the-upstream.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/voice-input-history-in-console-games.html</guid>
       <description>ファミコン2コンの叫びから、決まった言葉の認識、本体の音声操作、AIとの自由対話へ。約40年の歩みをたどり、2026年のSwitch 2で広がる声と音の遊びまでを紹介する。</description>
       <pubDate>Sat, 07 Nov 2026 07:49:50 -0000</pubDate>
-    </item>
-    <item>
-      <title>進行を任されたら、何が変わるのか——制作進行を任されたら①</title>
-      <link>https://umichang.github.io/blog/production-coordination-01-role-and-visibility.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-01-role-and-visibility.html</guid>
-      <description>制作進行を任されたプランナーに向けて、仕様を考える仕事から工程の前後を見る仕事への変化と、止まっている場所や次の担当への影響が分かる「進捗の見える状態」を整理する。「制作進行を任されたら」第1回。</description>
-      <pubDate>Fri, 06 Nov 2026 13:24:05 -0000</pubDate>
     </item>
   </channel>
 </rss>

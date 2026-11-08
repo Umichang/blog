@@ -1,5 +1,7 @@
 ---
 articles:
+- path: console-game-sound-history-02-pulse-and-wavetable.md
+  published_at: '2026-11-08T06:58:42Z'
 - path: production-coordination-03-locking-the-upstream.md
   published_at: '2026-11-08T01:15:01Z'
 - path: console-game-sound-history.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-07T10:36:54Z'
 - path: voice-input-history-in-console-games.md
   published_at: '2026-11-07T07:49:50Z'
-- path: production-coordination-01-role-and-visibility.md
-  published_at: '2026-11-06T13:24:05Z'
