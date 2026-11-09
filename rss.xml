@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:59:19 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:17:53 -0000</lastBuildDate>
+    <item>
+      <title>下流へ流し込む（2）アセット・サウンド・映像——制作進行を任されたら⑤</title>
+      <link>https://umichang.github.io/blog/production-coordination-05-assets-sound-video.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-05-assets-sound-video.html</guid>
+      <description>絵・音・映像の受け渡しを、次の担当者が作業を始められる状態から考える。仮素材の差し替え、発注前の資料と確認窓口、変更が波及する範囲、受け取りから組み込み・確認までを追い、運営型の更新と告知映像の締め切りにつなぐ。「制作進行を任されたら」第5回。</description>
+      <pubDate>Mon, 09 Nov 2026 02:17:53 -0000</pubDate>
+    </item>
     <item>
       <title>波で波を揺らして、音色を作る——ゲーム機サウンドの歴史③</title>
       <link>https://umichang.github.io/blog/console-game-sound-history-03-fm-synthesis.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-03-locking-the-upstream.html</guid>
       <description>仕様の確定を、固定する範囲と以後に受け付ける変更で言い表し、未定事項、確定前の疑問、変更の窓口と記録を次の工程へ渡せる形に整える。「制作進行を任されたら」第3回。</description>
       <pubDate>Sun, 08 Nov 2026 01:15:01 -0000</pubDate>
-    </item>
-    <item>
-      <title>ゲーム機の音は、何が鳴らしてきたのか——ゲーム機サウンドの歴史①</title>
-      <link>https://umichang.github.io/blog/console-game-sound-history.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history.html</guid>
-      <description>ピコピコ音から立体音響へ。ゲーム機が波を作り、録った音や曲を再生し、ソフトウェアで混ぜ、音の位置を描くまでを、作曲の条件の変化とともにたどる。「ゲーム機サウンドの歴史」第1回。</description>
-      <pubDate>Sat, 07 Nov 2026 15:01:56 -0000</pubDate>
     </item>
   </channel>
 </rss>
