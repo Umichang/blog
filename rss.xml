@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 09 Nov 2026 02:17:53 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:54:03 -0000</lastBuildDate>
+    <item>
+      <title>録った音を、小さく詰めて鳴らす——ゲーム機サウンドの歴史④</title>
+      <link>https://umichang.github.io/blog/console-game-sound-history-04-pcm-sampling.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-04-pcm-sampling.html</guid>
+      <description>録音した音を数値として持つPCMは、限られた容量でどう楽器になるのか。スーパーファミコンの圧縮と専用音源、ゲームボーイアドバンスのCPUによるミキシングを、同じ曲の聴き比べとともにたどる。「ゲーム機サウンドの歴史」第4回。</description>
+      <pubDate>Mon, 09 Nov 2026 02:54:03 -0000</pubDate>
+    </item>
     <item>
       <title>下流へ流し込む（2）アセット・サウンド・映像——制作進行を任されたら⑤</title>
       <link>https://umichang.github.io/blog/production-coordination-05-assets-sound-video.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-02-pulse-and-wavetable.html</guid>
       <description>ファミコンの矩形波やノイズから、ディスクシステム、PCエンジン、ゲームボーイ、MSXの波形メモリへ。音色の作り方と、旋律・伴奏・効果音で限られた発音枠を分け合う工夫をたどる。「ゲーム機サウンドの歴史」第2回。</description>
       <pubDate>Sun, 08 Nov 2026 06:58:42 -0000</pubDate>
-    </item>
-    <item>
-      <title>上流を固める——制作進行を任されたら③</title>
-      <link>https://umichang.github.io/blog/production-coordination-03-locking-the-upstream.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-03-locking-the-upstream.html</guid>
-      <description>仕様の確定を、固定する範囲と以後に受け付ける変更で言い表し、未定事項、確定前の疑問、変更の窓口と記録を次の工程へ渡せる形に整える。「制作進行を任されたら」第3回。</description>
-      <pubDate>Sun, 08 Nov 2026 01:15:01 -0000</pubDate>
     </item>
   </channel>
 </rss>
