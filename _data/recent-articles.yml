@@ -1,5 +1,7 @@
 ---
 articles:
+- path: production-coordination-06-qa-and-release.md
+  published_at: '2026-11-09T23:46:08Z'
 - path: console-game-sound-history-04-pcm-sampling.md
   published_at: '2026-11-09T02:54:03Z'
 - path: production-coordination-05-assets-sound-video.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-08T11:59:19Z'
 - path: production-coordination-04-text-localization-voice.md
   published_at: '2026-11-08T11:09:06Z'
-- path: console-game-sound-history-02-pulse-and-wavetable.md
-  published_at: '2026-11-08T06:58:42Z'

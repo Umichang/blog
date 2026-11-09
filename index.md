@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [QAとリリースへつなぐ——制作進行を任されたら⑥](production-coordination-06-qa-and-release.md) 🟡
 - [録った音を、小さく詰めて鳴らす——ゲーム機サウンドの歴史④](console-game-sound-history-04-pcm-sampling.md) 🟢
 - [下流へ流し込む（2）アセット・サウンド・映像——制作進行を任されたら⑤](production-coordination-05-assets-sound-video.md) 🟡
 - [波で波を揺らして、音色を作る——ゲーム機サウンドの歴史③](console-game-sound-history-03-fm-synthesis.md) 🟢
 - [下流へ流し込む（1）テキスト・ローカライズ・音声——制作進行を任されたら④](production-coordination-04-text-localization-voice.md) 🟡
-- [決まった波を選ぶか、波の形を描くか——ゲーム機サウンドの歴史②](console-game-sound-history-02-pulse-and-wavetable.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -287,6 +287,7 @@
 - 第3回：[上流を固める——制作進行を任されたら③](production-coordination-03-locking-the-upstream.md) 🟡
 - 第4回：[下流へ流し込む（1）テキスト・ローカライズ・音声——制作進行を任されたら④](production-coordination-04-text-localization-voice.md) 🟡
 - 第5回：[下流へ流し込む（2）アセット・サウンド・映像——制作進行を任されたら⑤](production-coordination-05-assets-sound-video.md) 🟡
+- 第6回：[QAとリリースへつなぐ——制作進行を任されたら⑥](production-coordination-06-qa-and-release.md) 🟡
 
 ### 🔁 シリーズ・IP運用戦略
 
