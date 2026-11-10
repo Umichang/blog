@@ -1,5 +1,7 @@
 ---
 articles:
+- path: console-game-sound-history-06-software-audio.md
+  published_at: '2026-11-10T14:44:58Z'
 - path: production-coordination-extra-delays-and-shared-words.md
   published_at: '2026-11-10T13:40:17Z'
 - path: console-game-sound-history-05-cd-era.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-09T23:46:08Z'
 - path: console-game-sound-history-04-pcm-sampling.md
   published_at: '2026-11-09T02:54:03Z'
-- path: production-coordination-05-assets-sound-video.md
-  published_at: '2026-11-09T02:17:53Z'

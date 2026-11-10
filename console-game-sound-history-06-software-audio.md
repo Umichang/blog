@@ -1,5 +1,5 @@
 ---
-description: "NINTENDO64からPlayStation 3、Xbox 360まで、音を鳴らす担当が専用音源からプログラムへ移る流れをたどる。PS2、ゲームキューブ、DS、PSPの異なる道を、処理時間とメモリ、聴き比べから見る。「ゲーム機サウンドの歴史」第6回。"
+description: "NINTENDO64からPlayStation 3、Xbox 360まで、音を鳴らす担当が専用音源からプログラムへ移る流れと、PS2、ゲームキューブ、DS、PSPの異なる道を、処理時間とメモリ、聴き比べからたどる。「ゲーム機サウンドの歴史」第6回。"
 category: sound-audio
 difficulty: green
 ---
