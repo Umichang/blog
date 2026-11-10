@@ -1,5 +1,7 @@
 ---
 articles:
+- path: production-coordination-extra-delays-and-shared-words.md
+  published_at: '2026-11-10T13:40:17Z'
 - path: console-game-sound-history-05-cd-era.md
   published_at: '2026-11-10T00:23:44Z'
 - path: production-coordination-06-qa-and-release.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-09T02:54:03Z'
 - path: production-coordination-05-assets-sound-video.md
   published_at: '2026-11-09T02:17:53Z'
-- path: console-game-sound-history-03-fm-synthesis.md
-  published_at: '2026-11-08T11:59:19Z'

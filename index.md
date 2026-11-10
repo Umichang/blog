@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [遅れを伝える、共通の言葉を作る——制作進行を任されたら（番外編）](production-coordination-extra-delays-and-shared-words.md) 🟡
 - [録音を流すか、その場で鳴らすか——ゲーム機サウンドの歴史⑤](console-game-sound-history-05-cd-era.md) 🟢
 - [QAとリリースへつなぐ——制作進行を任されたら⑥](production-coordination-06-qa-and-release.md) 🟡
 - [録った音を、小さく詰めて鳴らす——ゲーム機サウンドの歴史④](console-game-sound-history-04-pcm-sampling.md) 🟢
 - [下流へ流し込む（2）アセット・サウンド・映像——制作進行を任されたら⑤](production-coordination-05-assets-sound-video.md) 🟡
-- [波で波を揺らして、音色を作る——ゲーム機サウンドの歴史③](console-game-sound-history-03-fm-synthesis.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -289,6 +289,7 @@
 - 第4回：[下流へ流し込む（1）テキスト・ローカライズ・音声——制作進行を任されたら④](production-coordination-04-text-localization-voice.md) 🟡
 - 第5回：[下流へ流し込む（2）アセット・サウンド・映像——制作進行を任されたら⑤](production-coordination-05-assets-sound-video.md) 🟡
 - 第6回：[QAとリリースへつなぐ——制作進行を任されたら⑥](production-coordination-06-qa-and-release.md) 🟡
+- 番外編：[遅れを伝える、共通の言葉を作る——制作進行を任されたら（番外編）](production-coordination-extra-delays-and-shared-words.md) 🟡
 
 ### 🔁 シリーズ・IP運用戦略
 
