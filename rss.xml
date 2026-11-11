@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 11 Nov 2026 02:14:00 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 10:32:36 -0000</lastBuildDate>
+    <item>
+      <title>ゲームソフトはどう店に届いたか——初心会からプレイステーションの直取引、中古裁判まで</title>
+      <link>https://umichang.github.io/blog/japan-game-software-distribution-shoshinkai-to-playstation.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/japan-game-software-distribution-shoshinkai-to-playstation.html</guid>
+      <description>ファミコンの初心会からプレイステーションの直取引、中古ゲームソフト裁判まで、発注の時期と売れ残りの負担から日本の家庭用ゲーム流通をたどる。</description>
+      <pubDate>Wed, 11 Nov 2026 10:32:36 -0000</pubDate>
+    </item>
     <item>
       <title>制約を、選んで鳴らす——ゲーム機サウンドの歴史 番外編</title>
       <link>https://umichang.github.io/blog/console-game-sound-history-extra-chiptune.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-extra-delays-and-shared-words.html</guid>
       <description>遅れを小さいうちに伝え、判断に必要な見込みと影響、選べる手を揃える。報告を受け取る側の振る舞いと、完了や確定の意味を共有する一覧を、講演の事例と架空の現場から考える。次の工程への受け渡しを支える「制作進行を任されたら」番外編。</description>
       <pubDate>Tue, 10 Nov 2026 13:40:17 -0000</pubDate>
-    </item>
-    <item>
-      <title>録音を流すか、その場で鳴らすか——ゲーム機サウンドの歴史⑤</title>
-      <link>https://umichang.github.io/blog/console-game-sound-history-05-cd-era.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-05-cd-era.html</guid>
-      <description>CDから録音した曲を流す方法と、本体の音源でその場で演奏する方法。PCエンジンCD-ROM²、メガCD、セガサターン、PlayStationが備えた選択肢を、容量と読み込み、聴き比べからたどる。「ゲーム機サウンドの歴史」第5回。</description>
-      <pubDate>Tue, 10 Nov 2026 00:23:44 -0000</pubDate>
     </item>
   </channel>
 </rss>

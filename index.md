@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ゲームソフトはどう店に届いたか——初心会からプレイステーションの直取引、中古裁判まで](japan-game-software-distribution-shoshinkai-to-playstation.md) 🟡
 - [制約を、選んで鳴らす——ゲーム機サウンドの歴史 番外編](console-game-sound-history-extra-chiptune.md) 🟢
 - [音を、どこから聞かせるか——ゲーム機サウンドの歴史⑦](console-game-sound-history-07-spatial-audio.md) 🟢
 - [音源チップから、プログラムへ——ゲーム機サウンドの歴史⑥](console-game-sound-history-06-software-audio.md) 🟢
 - [遅れを伝える、共通の言葉を作る——制作進行を任されたら（番外編）](production-coordination-extra-delays-and-shared-words.md) 🟡
-- [録音を流すか、その場で鳴らすか——ゲーム機サウンドの歴史⑤](console-game-sound-history-05-cd-era.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -475,6 +475,7 @@
 - [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md) 🟢
 - [「その国のスポーツ人気」だけでスポーツゲームの売上は語れるか](sports-game-localization-national-popularity-myth.md) 🟡
 - [アタリショックとは何だったのか——1983年の北米ゲーム市場の崩壊と、任天堂の答え](atari-shock-market-structure-history.md) 🟢
+- [ゲームソフトはどう店に届いたか——初心会からプレイステーションの直取引、中古裁判まで](japan-game-software-distribution-shoshinkai-to-playstation.md) 🟡
 - [PlayStation物理ディスク版生産終了が示すゲーム業界の構造転換](playstation-disc-discontinuation-industry-structure.md) 🟢
 - [EA非上場化（LBO）――大型買収の構造とパブリッシャー経営への影響](ea-lbo-take-private-publisher-capital-structure-shift.md) 🔴
 - [Xbox再編から考える、スタジオの「独立・売却・閉鎖」はなぜ分かれるのか](xbox-studio-restructuring-exit-paths-2026.md) 🟡
