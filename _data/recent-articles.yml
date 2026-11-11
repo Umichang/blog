@@ -1,5 +1,7 @@
 ---
 articles:
+- path: console-game-sound-history-extra-chiptune.md
+  published_at: '2026-11-11T02:14:00Z'
 - path: console-game-sound-history-07-spatial-audio.md
   published_at: '2026-11-11T01:37:39Z'
 - path: console-game-sound-history-06-software-audio.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-10T13:40:17Z'
 - path: console-game-sound-history-05-cd-era.md
   published_at: '2026-11-10T00:23:44Z'
-- path: production-coordination-06-qa-and-release.md
-  published_at: '2026-11-09T23:46:08Z'
