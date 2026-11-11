@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [音を、どこから聞かせるか——ゲーム機サウンドの歴史⑦](console-game-sound-history-07-spatial-audio.md) 🟢
 - [音源チップから、プログラムへ——ゲーム機サウンドの歴史⑥](console-game-sound-history-06-software-audio.md) 🟢
 - [遅れを伝える、共通の言葉を作る——制作進行を任されたら（番外編）](production-coordination-extra-delays-and-shared-words.md) 🟡
 - [録音を流すか、その場で鳴らすか——ゲーム機サウンドの歴史⑤](console-game-sound-history-05-cd-era.md) 🟢
 - [QAとリリースへつなぐ——制作進行を任されたら⑥](production-coordination-06-qa-and-release.md) 🟡
-- [録った音を、小さく詰めて鳴らす——ゲーム機サウンドの歴史④](console-game-sound-history-04-pcm-sampling.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -83,6 +83,7 @@
 - 第4回：[録った音を、小さく詰めて鳴らす——ゲーム機サウンドの歴史④](console-game-sound-history-04-pcm-sampling.md) 🟢
 - 第5回：[録音を流すか、その場で鳴らすか——ゲーム機サウンドの歴史⑤](console-game-sound-history-05-cd-era.md) 🟢
 - 第6回：[音源チップから、プログラムへ——ゲーム機サウンドの歴史⑥](console-game-sound-history-06-software-audio.md) 🟢
+- 第7回：[音を、どこから聞かせるか——ゲーム機サウンドの歴史⑦](console-game-sound-history-07-spatial-audio.md) 🟢
 
 ### 🧠 AI・ゲーム内知性
 

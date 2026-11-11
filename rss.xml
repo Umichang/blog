@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 10 Nov 2026 14:44:58 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 01:37:39 -0000</lastBuildDate>
+    <item>
+      <title>音を、どこから聞かせるか——ゲーム機サウンドの歴史⑦</title>
+      <link>https://umichang.github.io/blog/console-game-sound-history-07-spatial-audio.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-07-spatial-audio.html</guid>
+      <description>スピーカーへ音を割り振るサラウンドから、音の位置を渡すオブジェクトベース、PS5のTempest、Nintendo Switch 2まで、音をどこから聞かせるかを担う機材の変化をたどる。「ゲーム機サウンドの歴史」第7回。</description>
+      <pubDate>Wed, 11 Nov 2026 01:37:39 -0000</pubDate>
+    </item>
     <item>
       <title>音源チップから、プログラムへ——ゲーム機サウンドの歴史⑥</title>
       <link>https://umichang.github.io/blog/console-game-sound-history-06-software-audio.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-06-qa-and-release.html</guid>
       <description>QAへ渡すビルドと変更内容、検証に必要な準備を揃え、報告を修正と再確認へつなぐ。工程表で守る期間、判断する人へ渡す材料、公開後に原因の情報を戻す流れを、次の工程が受け取れる状態から考える。本編最終回となる「制作進行を任されたら」第6回。</description>
       <pubDate>Mon, 09 Nov 2026 23:46:08 -0000</pubDate>
-    </item>
-    <item>
-      <title>録った音を、小さく詰めて鳴らす——ゲーム機サウンドの歴史④</title>
-      <link>https://umichang.github.io/blog/console-game-sound-history-04-pcm-sampling.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-04-pcm-sampling.html</guid>
-      <description>録音した音を数値として持つPCMは、限られた容量でどう楽器になるのか。スーパーファミコンの圧縮と専用音源、ゲームボーイアドバンスのCPUによるミキシングを、同じ曲の聴き比べとともにたどる。「ゲーム機サウンドの歴史」第4回。</description>
-      <pubDate>Mon, 09 Nov 2026 02:54:03 -0000</pubDate>
     </item>
   </channel>
 </rss>
