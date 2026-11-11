@@ -1,582 +1,261 @@
 ---
-description: "任天堂は1983年のファミリーコンピュータ発売以来、40年以上にわたり海賊版・未承認ソフト対策を進化させてきた。"
+description: "北米NESの10NESからSwitch 2のオンライン利用制限まで、任天堂の海賊版対策を本体・ゲーム・法の三つからたどる。正規のプレイヤーを巻き込んだ事例から、検出と救済の設計を考える。"
 category: hardware-tech-protection
 difficulty: yellow
 ---
 
-# 任天堂ハードウェアの海賊版・未承認ソフト対策史
+# 海賊版をどう止め、正規のプレイヤーをどう守るか——任天堂の対策史を、本体・ゲーム・法の三つの手段で読む
 
-## エグゼクティブサマリー
+> 2026年11月12日改版：記事全体を全面的に書き直しました。内容の変更はGitの履歴から追えます。
 
-任天堂は1983年のファミリーコンピュータ発売以来、40年以上にわたり海賊版・未承認ソフト対策を進化させてきた。初期のハードウェアロックアウトチップ（10NES/CIC）から始まり、物理メディアの独自仕様化、ソフトウェアレベルでの巧妙な検知、暗号化技術の高度化、そしてオンラインサーバーサイド認証へと、対策は世代を重ねるごとに多層化・高度化している。本レポートでは、NES/ファミコンからNintendo Switchまでの全9プラットフォームにおけるハードウェア・ソフトウェア両面のアンチパイラシー技術を体系的に分析する。
+## はじめに
 
----
+ゲーム機にカートリッジを差すと、本体はゲームを始める前に、そのソフトを起動してよいか確かめることがある。北米のNintendo Entertainment System（NES）では、この確認が無断複製品の抑止と、ライセンスを通じてソフトの品質や発売を管理する仕組みの両方を支えた。[[1](#ref-1)]
 
-## 時系列比較表
+任天堂の対策史を、本体・ゲーム・法の三つの手段からたどる。本体はソフトの起動やサービスへの接続を制御する。ゲームはプレイ中にも異常を確かめ、挙動を変えられる。法律は装置やサービスの流通に働きかけ、利用規約は運営が接続を制限する際の根拠になる。どの手段でも、対象の線引きや判定を誤れば、正規に遊ぶ人に影響が及ぶ。
 
-| 世代   | ハード      | 発売年     | 主要ハードウェア対策            | 主要ソフトウェア対策            | 代表的事例                    |
-| ---- | -------- | ------- | --------------------- | --------------------- | ------------------------ |
-| 第3世代 | NES/FC   | 1983/85 | 10NES (CIC) ロックアウトチップ | 限定的チェックサム             | Batman Returns: ダメージ倍増   |
-| 第4世代 | SNES/SFC | 1990/91 | CICチップ改良版 + SRAM検知    | 多層コピープロテクション          | EarthBound: 5層防御         |
-| 第5世代 | N64      | 1996    | CIC + PIF バス認証        | CICチャレンジ・レスポンス暗号化     | スマブラ: 69回起動で全員マリオ        |
-| 第6世代 | GameCube | 2001    | miniDVD + BCA物理マーキング  | ディスクID検証              | BCA偽造不可能設計               |
-| 携帯機  | DS       | 2004    | カートリッジ認証              | APチェック（多数のゲーム）        | ポケモンBW: 赤外線通信チェック        |
-| 第7世代 | Wii      | 2006    | 独自光ディスク + IOS暗号化      | FWアップデート + HBC削除      | System Menu 4.3: HBC自動削除 |
-| 携帯機  | 3DS      | 2011    | AES暗号化 + RSA署名        | チケット認証バックポート          | FW 11.8: Switch式認証導入     |
-| 第8世代 | Wii U    | 2012    | AESディスク暗号化 + 認証       | オンライン検証               | ドライブ認証リバースエンジニアリング       |
-| 第9世代 | Switch   | 2017    | TrustZone + 固有証明書     | dauth/aauth サーバーサイド認証 | RSA-2048チケット完全検証         |
+```
+# 仕上げAIへ図表制作依頼
+本体・ゲーム・法の三つの手段を3段に並べ、左から右へ進む共通の年代軸を1本置いた年表風の概念図。
+1980年代：本体「1985年 北米NESの10NES」。
+1990年代：ゲーム「北米版MOTHER2」「N64の初代スマブラ」、法「1992年 10NES訴訟」「1999年 日本で回避装置を規制」。
+2000年代：本体「ゲームキューブのディスク」「2009年 Wii本体更新4.2」、法「2009年 R4の輸入・販売差止め」。
+2010年代：本体「2018年 Switchの起動時の脆弱性・3DSのオンライン照合」、法「2011年 刑事罰導入」「2018年 回避サービスも規制」。
+2020年代：本体「2025年 Switch 2のオンライン利用制限」、法「2024年 Yuzu訴訟の和解」「2025年 米国版利用規約の更新」。
+同年代内の出来事は順序が読み取れるように配置する。2018年の本体欄では、Switchの脆弱性の公表を3DSの更新より左に置く。出典は本文の各参照。本文にない年や件数は補わない。背景は白。ラベルとaltは日本語。
+```
 
----
+***
 
-## 第3世代: NES / ファミリーコンピュータ (1983-1985)
+## 本体が鍵を確かめる
 
-### ハードウェアレベル対策
+### 北米NESの「ロック」と「キー」
 
-#### 10NES (CIC) ロックアウトチップ
+1985年に北米で発売されたNESには、10NESと呼ばれる仕組みがあった。本体側のチップが「ロック」、カートリッジ側のチップが「キー」を担い、両者の通信で承認済みのカートリッジかどうかを確かめる。確認を通らなければゲームは起動しない。日本のファミリーコンピュータには、この仕組みはなかった。[[1](#ref-1)]
 
-1983年に発売されたファミリーコンピュータにはロックアウトチップが搭載されていなかった。これにより、アジア市場を中心に無許可カートリッジが氾濫し、1983年の北米ビデオゲーム市場崩壊（アタリショック）の一因となった。この反省から、1985年の北米・欧州向けNESには**10NES**（CIC: Checking Integrated Circuit）と呼ばれるロックアウトチップが実装された[[1](#ref-1)]。
+アタリゲームズとその子会社テンゲンは、任天堂の許諾を得ずにNES向けカートリッジを販売するため、互換チップを開発した。その過程でアタリ側は、米著作権局に虚偽の情報を申告して10NESのソースコードの写しを入手した。1992年、米連邦巡回区控訴裁判所は、任天堂の著作権侵害の主張が本案で認められる見込みがあると判断し、仮差止めを維持した。本体に組み込んだ鍵を、裁判では鍵を動かすプログラムの著作権が支えたのである。[[2](#ref-2)]
 
-10NESシステムの仕組み:
-- **ロック（本体側）**: Sharp 4ビット SM590マイクロコントローラ
-- **キー（カートリッジ側）**: 対応する認証チップ
-- **認証プロセス**: キーチップがロックチップにコードを送信、認証に失敗するとCPUを1Hzで繰り返しリセット
-- **特許**: U.S. Patent 4,799,635（2006年1月24日失効）
-- **ソースコード**: 著作権保護下、任天堂のみが製造可能
+### ディスクの検証と、本体更新による対策
 
-NES-001モデルでは認証失敗時に画面と電源LEDが1Hzで点滅する現象が発生した。正規カートリッジでも接触不良で頻繁に認証失敗が起きたため、ピン4をカットしてCICを無効化する改造が一般的に行われた。後期のトップローディングNES-101には10NESチップが搭載されていない[[2](#ref-2)]。
+2000年代のゲームキューブでは、任天堂独自の光ディスクを本体が検証した。Hackadayの報告によれば、周辺機器メーカーは、その検証の弱点を突いて、任天堂の承認を経ない自社製ディスクを起動させた。物理的に複製しにくいディスクを採用しても、本体が正規品と判定する条件に弱点があれば、そこで制限を破られうる。[[3](#ref-3)]
 
-#### ファミコンディスクシステム
+本体のプログラムを更新できるようになると、出荷後にも検査の内容を変えられるようになった。Wiiの本体更新4.2は、無許可で追加されたチャンネルなどを検出し、取り除く処理を含んでいた。ニンテンドー3DSでは2018年7月の本体更新11.8で、Switchと同様に、オンラインでソフトの利用資格を照合する仕組みが加わったとNeowinが報じた。本体の中だけで完結していた確認の一部を、サービス側でも行えるようになった。[[4](#ref-4)][[5](#ref-5)]
 
-ディスクシステムのディスク底面には「NINTENDO」の文字が刻印されており、「I」と2番目の「N」が認証スイッチを作動させていた。海賊版業者は「NINFENDO」「NINTEN」「NINJENDO」「INTEND」など様々な変形版を使用してこれを回避しようとした[[3](#ref-3)]。
+### 出荷後に書き換えられない部分
 
-### 回避手法
+2018年4月、初期のNintendo Switchに搭載されたTegra X1というチップの起動用ROMに、脆弱性があると公表された。起動用ROMは電源を入れた直後に動くプログラムを収めた書き換え不能な領域で、出荷済みの本体では更新によってこの欠陥自体を修正できない。同年7月、対策済みの本体が出荷され始めたとGame Developerが報じた。[[6](#ref-6)][[7](#ref-7)]
 
-| 手法               | 詳細                                       |
-| ---------------- | ---------------------------------------- |
-| 電圧スパイク           | 認証前にCICをシャットダウンする回路                      |
-| ドングル方式           | 正規カートリッジのCICを借用（HES社等）                   |
-| Tengen Rabbitチップ | 米国著作権局から入手したコードを元にCICを複製[[4](#ref-4)] |
-| ピン4カット           | NES-001内部のCICのピン4を切断して無効化                |
+出荷済みの本体に修正できない弱点が残っても、サービス側で利用資格を照合したり、違反と判断した本体やアカウントの利用を制限したりする余地はある。このような利用制限を **BAN** と呼ぶ。回避装置の流通に対しては、法的手段も残る。2025年6月には、複製したゲームデータを読み込めるカートリッジ型の機器である **フラッシュカート（マジコン）** を使ったSwitch 2で、本体からオンラインサービスに接続できなくなったと報じられた。[[7](#ref-7)][[8](#ref-8)]
 
-### ソフトウェアレベルの個別タイトル対策
+***
 
-NES時代のソフトウェアレベル対策は限定的だったが、いくつかの注目すべき例がある:
+## ゲームの中で気づかせる
 
-- **Batman Returns**: 著作権表示を改変するとバットマンの被ダメージが2倍に増加、パスワードが無効化、ステージ3-1の窓が開かず進行不能になる[[5](#ref-5)]
-- **Final Fantasy**: オープニングクレジットの「PROGRAMMED BY NASIR」を改変すると起動時にフリーズ
-- **EarthBound Beginnings**（英語版プロトタイプ）: チェックサムが失敗すると「unauthorized copy」画面を表示してフリーズ[[6](#ref-6)]
-- **Parodius**: 著作権コード改変で最初のステージが永遠にループ
-- **StarTropics**: 物理マニュアルに同封された「手紙」に記載の3桁コードが必要（物理メディアベースの認証）
+1990年代に発売された『MOTHER2』の北米版『EarthBound』には、コピー機器を検出すると敵の出現を増やし、要所でセーブデータを消す仕掛けがあると報じられている。報道が紹介した映像では、クリア目前でセーブデータが消えている。起動時に通過できても、プレイの途中や終盤で対策が発動しうる例である。[[9](#ref-9)]
 
----
+NINTENDO 64の『大乱闘スマッシュブラザーズ』にも、起動回数に応じて段階的に挙動を変える仕掛けがあったと、解析を基に報じられた。対策が発動する条件下では、吹っ飛び方が変わるといった変化が起き、69回目の起動以降は、どのキャラクターを選んでもマリオになるとされる。[[10](#ref-10)][[11](#ref-11)]
 
-## 第4世代: SNES / スーパーファミコン (1990-1991)
+### 仕掛けを遅らせる理由
 
-### ハードウェアレベル対策
+PlayStation向けの『Spyro: Year of the Dragon』（2000年）で対策を手がけたInsomniac Gamesのギャビン・ドッド氏は、発売直後の販売を守るために、対策の解除までの時間を稼ぐことを目指した。起動後に発動する仕掛けを重ねれば、起動できた時点で対策を外し終えたと解読者が判断しやすい。ドッド氏によると、前作の『Spyro 2』は約1週間で解読されたが、今作では正常に動作する解除用の修正データが出るまで2か月以上かかった。[[12](#ref-12)]
 
-#### CICチップ改良版
+ドッド氏が最大の懸念に挙げたのは誤検知だった。仕掛けによる挙動は普通の不具合と見分けにくい。そこでチームは、発動しうる場所ごとに、何を確認するか、何が起きるまで待つかを一覧にして検証した。信頼性に確信が持てない場合に備え、製品用のプログラムを組み立てる段階で対策全体を無効にできる設定も用意した。[[12](#ref-12)]
 
-スーパーファミコン/SNESには10NESの改良版であるCICチップが搭載された。NESとは異なる命令セットとコードを使用しており、NESのリバースエンジニアリング成果は流用できなかった。主な用途はリージョンロックだった[[7](#ref-7)]。
+海賊版対策を題材にしたファンの創作も広まった。『マリオパーティDS』で海賊版を検知すると恐ろしい警告が出る、という映像はその一つで、ゲーム内に実在する警告画面として受け取られた。[[13](#ref-13)]
 
-CICチップは最終的に2010年にSuper CIC modとして完全にリバースエンジニアリングされた。
+***
 
-#### SRAM検知技術
+## 法で止める
 
-1994年以降、ディスクコピアへの対策として**SRAM容量チェック**が導入された。ディスクコピアは256KBのSRAMを内蔵しているのに対し、多くのカートリッジは8KB以下のSRAMしか持たない（または全く持たない）。この差を検知することで、コピアからの起動を識別した[[8](#ref-8)]。
+### 日本：装置の販売から、回避サービスの提供まで
 
-### 代表的なソフトウェア対策事例
+ソフトの起動や複製を技術で制限する仕組みを、不正競争防止法では **技術的制限手段** という。1999年の改正で、その制限を回避する装置などの提供が不正競争に加えられ、差止めや損害賠償を求める対象になった。[[14](#ref-14)]
 
-#### EarthBound（MOTHER 2）— 史上最も巧妙な5層防御
+任天堂とソフトメーカー54社は、ニンテンドーDS向けのマジコン「R4」の輸入・販売業者を提訴した。2009年2月27日、東京地裁は輸入・販売の差止めを認めた。本体で起動を制限する仕組みを設けた上で、その制限を回避する装置の流通を裁判で止めた事例である。[[15](#ref-15)][[16](#ref-16)]
 
-EarthBoundは歴代ゲーム史上最も精巧なアンチパイラシーシステムの一つとして知られる。5つの層が段階的に機能する[[9](#ref-9)][[10](#ref-10)]:
+2011年の改正では、回避以外の機能を併せ持つ装置にも規制の対象が広がり、回避装置の提供に刑事罰が導入された。関税法も改正され、対象となる装置は輸入禁制品になった。2012年2月にはWiiの改造を代行した業者に有罪判決が言い渡され、同年5月にはマジコン販売業者に対する初の刑事摘発があった。[[17](#ref-17)][[18](#ref-18)][[19](#ref-19)]
 
-| 層   | 内容                    | 効果                                                                |
-| --- | --------------------- | ----------------------------------------------------------------- |
-| 第1層 | PALコンソール検知            | 「This game is not designed for your Super Famicom or Super NES」表示 |
-| 第2層 | SRAMサイズチェック（8KB以外で発動） | アンチパイラシー警告画面を表示してフリーズ                                             |
-| 第3層 | チェックサム検証（第1・2層の回避検知）  | 敵エンカウント率が異常に増加、通常出現しないエリアにも敵が出現                                   |
-| 第4層 | SRAM関連チェック（プレイ中6回実行）  | 詳細不明だが進行を妨害                                                       |
-| 第5層 | 最終ボス戦での罠              | ギーグ戦中にゲームがフリーズ → リセット後に**全セーブデータを完全消去**                           |
+別のマジコン訴訟では、2013年7月9日、東京地裁が輸入・販売の差止めに加え、任天堂に総額9,562万5,000円を賠償するよう命じた。2016年1月12日に最高裁が上告を棄却し、上告審として受理しないと決定したことで判決は確定した。任天堂の発表は同月19日である。[[20](#ref-20)][[21](#ref-21)]
 
-この設計の巧妙さは、クラッカーに「対策を突破した」と思わせてプレイを継続させ、最終ボス直前で全てを失わせるという心理的トラップにある。
+2018年の改正では、技術的制限手段を回避するサービス（役務）の提供も不正競争に加わった。また、2025年1月には、改造したNintendo Switchを販売した男性が商標法違反の疑いで逮捕され、改造Switchの販売をめぐる同法での摘発は全国初と報じられた。装置やサービスを対象とする不正競争防止法に加え、改造品を販売する際の商標の扱いも争点になりうる。[[22](#ref-22)][[23](#ref-23)]
 
-#### Donkey Kong Country シリーズ
+### 米国：刑事事件と民事訴訟
 
-DKCシリーズ全3作品にSRAMチェックが実装されていた:
-- **DKC1**: コピア検知時に青い「copying is illegal」スクリーンを表示
-- **DKC2**: ゲームオーバー画面を流用した「カートリッジの異常を検知」警告。さらにSRAMセーブファイル内に「A PIRATE」の文字列を埋め込む
-- **DKC3**: 同様のゲームオーバー画面ベースの警告
+2022年2月、米連邦地裁は、海賊版の利用を可能にする機器を販売していたTeam Xecuterのゲイリー・ボウザー氏に禁錮40か月を言い渡した。販売や広報を担った人物が刑事責任を問われた例である。[[24](#ref-24)]
 
-約12本のSNESゲームにSRAMチェックが実装されたが、Super Punch-Out!!やKiller Instinctなども含まれていた[[11](#ref-11)]。
+2024年3月には、ゲーム機の動作を別の機器上で再現するソフトウェアである **エミュレータ** の一つ、Nintendo Switch向けの「Yuzu」を開発したTropic Hazeが、任天堂に240万ドルを支払う条件で和解し、配布を停止した。この件では、任天堂がYuzuによる保護機能の回避を問題とし、当事者の合意を受けて裁判所が配布などを禁じる命令を出した。[[25](#ref-25)][[26](#ref-26)]
 
-#### その他のSNES対策事例
+2025年9月には、改造したSwitch本体などを販売したライアン・デイリー氏に対し、米連邦地裁が当事者の合意に基づいて200万ドルの支払いを命じ、対象機器の販売などを恒久的に禁じた。[[27](#ref-27)][[28](#ref-28)]
 
-- **Mega Man X**: コピア上で動作時、アイテム/アップグレードの消失、射撃やアイテム取得でイントロにリセット、ランダム入力の追加、即死判定など多数の妨害が発動[[12](#ref-12)]
-- **Super Metroid**: コピア検知でアンチパイラシーメッセージ表示後、セーブデータを削除
-- **Super Mario All-Stars**: 無許可コピーメッセージを表示
+### 利用規約で定める措置
 
----
+2025年5月、任天堂はニンテンドーアカウント利用規約を更新した。米国版では、無許可の複製や保護機能の回避などに関する制限に違反すると、アカウントサービスや対象の任天堂機器の全部または一部が恒久的に使えなくなりうる、と明記された。日本版にも知的財産権や禁止事項に関する条項がある一方、米国版には仲裁など独自の条項もある。本体の使用不能に言及しているのは米国版の規約上の措置であり、先に触れたSwitch 2の報道で確認された影響はオンラインサービスの停止である。[[8](#ref-8)][[29](#ref-29)][[30](#ref-30)][[31](#ref-31)]
 
-## 第5世代: Nintendo 64 (1996)
+***
 
-### ハードウェアレベル対策
+## 正規のプレイヤーを巻き込むとき
 
-#### CIC + PIF バス認証システム
+2009年のWii本体更新4.2では、改造していないとする利用者からも、本体が起動しなくなったという報告が出た。米国任天堂は、改造されていない本体で更新後に問題が起きた場合、無償で修理すると表明した。異常の原因が判定処理にあったかどうかとは別に、改造への対策を含む更新によって、正規の利用者にも本体を使えない時間が生じた。[[4](#ref-4)][[32](#ref-32)]
 
-N64はCICチップを継承しつつ、実装を大幅に変更した。N64本体にはCICチップの代わりに**PIFバス**（Peripheral Interface）が搭載された。PIFバスはシステムの初期ブートコード処理、コントローラ入力処理に加え、カートリッジのCICチップの正当性を検証するセキュリティ機能を担った[[13](#ref-13)]。
+2025年7月には、中古で買った初代Switch用のゲームカードをSwitch 2で遊んだ利用者が、本体のオンライン利用を止められたと報じられた。購入の証拠を任天堂のサポートに示したところ、制限は解除されたという。報道は、前の持ち主がカードのデータを複製してから売った可能性を指摘している。停止の判定に使われた条件は公表されていない。[[33](#ref-33)][[34](#ref-34)]
 
-N64のCICチップバリアント:
-- NTSC: CIC-NUS-6101, CIC-NUS-6102, CIC-NUS-6105
-- PAL: CIC-NUS-7101, CIC-NUS-7102, CIC-NUS-7105
+ドッド氏が誤検知を最も恐れた理由は、正規に遊ぶ人の画面にも対策の副作用が現れうるからだ。『Spyro』の開発チームは、発売前に発動箇所を確かめ、仕掛けを外せるようにした。Wiiの修理や中古カード利用者の制限解除では、発売後にサポートが遊べる状態へ戻す役割を担った。対策を動かす条件と、影響を受けた人を元に戻す手段の両方が、プレイヤーの体験を左右する。[[12](#ref-12)][[32](#ref-32)][[33](#ref-33)]
 
-特に**CIC-NUS-6105/7105**はチャレンジ・レスポンス機能を持ち、ゲーム実行中に繰り返し認証を要求できるため、より強固な保護を提供した。
+***
 
-### 代表的なソフトウェア対策事例
+## プランナーが持ち帰れること
 
-#### 大乱闘スマッシュブラザーズ — 「遅延発動型」アンチパイラシー
+### 検出と措置を別々に決める
 
-スマブラのアンチパイラシーは「遅延発動」型として設計されており、海賊版プレイヤーに偽りの安心感を与える仕組みだった。Supper Mario Brothが報告した4段階のトリガー[[14](#ref-14)][[15](#ref-15)]:
+何を異常とみなすか、検出後にどの機能を止めるか、誤って発動した場合にどう戻すか。この三つは、仕様の段階で決めておきたい。たとえばカードに関する異常だけで本体全体のオンライン利用を止めるなら、正規の中古購入者にも影響が及ぶ可能性を考える必要がある。サポートが購入記録を受け付け、判定を見直し、制限を解除できるところまでが、対策の設計範囲に入る。
 
-| 起動回数 | モード     | 効果                             |
-| ---- | ------- | ------------------------------ |
-| 22回  | VS Mode | 全ファイターのノックバック値がランダム化（運ゲー化）     |
-| 69回  | VS Mode | **選択した全キャラがマリオに変化（永久）**        |
-| 43回  | 1P Mode | コントロールスティックの入力範囲が半減（操作が極めて困難に） |
-| 93回  | 1P Mode | VS Modeで全ステージがピーチ城に固定          |
+### 止めるか、時間を稼ぐか
 
-セーブデータを完全に削除しない限り解除不可能。この「じわじわ劣化」する設計は、単純なブロックよりもクラッカーが原因を特定しにくい点で効果的だった。GameSharkデバイスでも誤発動する事例が報告されている。
+ドッド氏の目的は、発売直後の販売を守れるだけの時間を稼ぐことだった。オンライン運営でも、検出と同時にBANするか、追加の確認を待ってから措置を取るかは、目的によって変わる。待つあいだに不正利用が広がるなら、影響のある機能を一時的に制限する余地がある。判定が曖昧で、止めた際の影響が大きいなら、確認を重ねてから措置の範囲を決める方が、正規の利用者への影響を抑えやすい。[[12](#ref-12)]
 
-#### Banjo-Tooie — N64最強のコピープロテクション
+### 強い措置ほど、見直せる仕組みを持つ
 
-Rare社が開発したBanjo-Tooieは、N64ライブラリ全体で最もコピー保護が厳重なタイトルとされる。ROMは発売から**12年以上経過した2012年12月**にようやく完全にクラックされた[[16](#ref-16)]。
-
-多層防御:
-1. **セーブタイプ検証**: 2KB EEPROMの正当性をチェック。不正な場合「NO CONTROLLER」表示
-2. **CICチップ検証**: CIC-NUS-6105（NTSC）/ CIC-NUS-7105（PAL）のチャレンジ・レスポンス認証を**ゲームプレイ中に268回実行**
-3. **アセット暗号化**: CICのレスポンスデータを使用してゲームアセットを復号。チェック失敗時はデータ復号不可能→クラッシュ
-
-#### Perfect Dark — 多彩な挙動異常
-
-Perfect Darkには数多くのアンチパイラシーチェックが埋め込まれており、特定のゲーム内アクション時にトリガーされた[[17](#ref-17)]:
-- 起動時: ゲームが起動しない
-- チートメニュー: ゲームクラッシュ
-- ドア開閉: ドアが開かなくなるようコードを書き換え
-- マルチプレイでアイテム取得: 全ガードが壁越しに透視可能に
-- 手榴弾投擲: 無限爆発が発生
-- ガラス破壊: 音声周波数が異常に高い値に変更
-- 爆発発生: 全爆発が巨大化
-
-#### ゼルダの伝説 時のオカリナ
-
-CIC-NUS-6105/7105の正当性チェックが失敗すると:
-- 釣りミニゲームの挙動が異常になる
-- その他の複数箇所でゲームプレイに支障が発生
-
-#### Diddy Kong Racing
-
-CICチップの種類が異なる場合、ゲームは完全に起動するが、プレイ中にランダムでセーブデータが予告なく削除される。
-
----
-
-## 第6世代: Nintendo GameCube (2001)
-
-### ハードウェアレベル対策
-
-#### miniDVD + BCA 物理マーキングシステム
-
-GameCubeは任天堂初の光ディスクベースコンソールであり、物理メディア保護に大きく舵を切った。保護の核心は、独自仕様の8cm miniDVDとBCA（Burst Cutting Area）物理マーキングの組み合わせにある[[18](#ref-18)][[19](#ref-19)]。
-
-技術的詳細:
-1. **独自DVDフォーマット**: 標準DVDとほぼ同一だが、セクターレベルのエンコーディングが微妙に異なる。PCのDVDドライブではディスク挿入を認識すらしない
-2. **BCA（バースト・カッティング・エリア）**: YAGレーザーでディスク内周に焼き付けられるバーコード状のデータ。通常のDVDライターのレーザーダイオードよりはるかに強力なレーザーが必要
-3. **6箇所の物理マーキング**: 任天堂がBCA外周にほぼ等間隔で6つの放射状マークをカット。各マークはトラック上の約50ビットを破壊
-4. **サブミクロン精度の検証**: マークの位置（セクターヘッダからの距離と幅）がビット単位で測定され、署名されてBCAに書き込まれる
-5. **署名**: マーク位置データは秘密鍵で署名（RSA）。BCAの複製は可能だが、マークを同一位置に再現することは物理的にほぼ不可能
-
-ただし、キー署名の概念がなかったため、ハッカーがコード実行に成功した場合、システムは任意のコードを実行可能だった。
-
-#### Datel社によるBCA回避手法
-
-英国のDatel社（Action Replay/Freeloader）は、BCAのデータ検証の弱点を突いた。GameCubeのドライブは物理マークの実在を確認するのではなく、読み取り後のデータストリームのみを検証していた。Datel社はBCAデータとマーク読み取り結果を模擬するビットストリームを通常のデータ領域に書き込むことで、コンシューマー用機器でディスクを作成した[[20](#ref-20)]。
-
-### モッドチップの歴史
-
-| 年代   | チップ            | 方式                                    |
-| ---- | -------------- | ------------------------------------- |
-| 2004 | Viper GC       | IPL（BIOS）置換型。DVDドライブロック解除、ネットワークブート対応 |
-| 後期   | Qoob / Ripper3 | IPL置換型の後継                             |
-| 後期   | Xeno GC        | ドライブチップ型（オープンソース）。DVDドライブに直接介入        |
-
----
-
-## 携帯機: Nintendo DS (2004)
-
-### ハードウェアレベル対策
-
-DS自体のハードウェア保護は比較的限定的だったが、DSi（2008年）ではホワイトリストとRSA署名によるフラッシュカート排除が導入された[[21](#ref-21)]。
-
-### ソフトウェアレベルのAPチェック
-
-DS世代では、個別タイトルへのソフトウェアAPチェック実装が大幅に増加した。フラッシュカート（R4、Acecard等）の普及に対応するため、多くのパブリッシャーがゲームごとに独自のアンチパイラシーを組み込んだ。
-
-#### 代表的な対策事例
-
-| タイトル                                     | 対策内容                                                                                            |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **ポケモン ブラック・ホワイト**                       | カートリッジ内蔵赤外線通信モジュールをチェック。フラッシュカートには赤外線ハードウェアが存在しないため、経験値獲得不可能に[[22](#ref-22)] |
-| **ポケモン ハートゴールド・ソウルシルバー**                 | フラッシュカート/エミュレータでフリーズ、戦闘開始時にモンスターボールが永遠に回転                                                       |
-| **マリオパーティDS**                            | ※有名な「PIRACY IS NO PARTY」画面は**フェイク**（ファンメイド）。実際のゲームには存在しない[[23](#ref-23)]                 |
-| **マリオ&ルイージRPG3**                         | ファイルセレクトでロック、チュートリアル戦闘で進行不能（クッパが攻撃しない等）                                                         |
-| **Ghost Trick**                          | 全テキストが空白に                                                                                       |
-| **Club Penguin: Herbert's Revenge**      | パフルホイッスルが使用不可に→全ミッション進行不能[[24](#ref-24)]                                     |
-| **逆転裁判**                                 | テキストが部分的に文字化け（×マークの連続に置換）、証拠品やキャラプロフィールの説明が破壊                                                   |
-| **Michael Jackson The Experience**       | 全楽曲にブブゼラ音が上乗せ[[25](#ref-25)]                                                                        |
-| **FF Crystal Chronicles: Ring of Fates** | 20分タイマー後「Thank you for playing!!」表示で終了（海賊版がデモ版化）[[26](#ref-26)]                             |
-| **ゼルダの伝説 大地の汽笛**                         | 列車操作のタッチパネルが出現せず進行不能                                                                            |
-| **流星のロックマン オペレーティング・シューティングスター**         | フォルダ編集不可、インターネットで1歩ごとにメットール戦                                                                    |
-
-#### R4カート禁止の法的対策
-
-任天堂は2008年、スクウェア・エニックスやカプコン等54社と共同で東京地方裁判所にR4カートの販売禁止を申し立て、勝訴。その後Magikon等他ブランドにも訴訟を拡大した[[27](#ref-27)]。
-
----
-
-## 第7世代: Wii (2006)
-
-### ハードウェアレベル対策
-
-#### 独自光ディスク + IOS暗号化基盤
-
-WiiのディスクはGameCubeと類似の独自DVDフォーマットを採用。ディスクのBCA（バースト・カッティング・エリア）パターン（オフセット0x34）を検証し、不一致の場合は3〜10分後に「エラーが発生しました」でフリーズする[[28](#ref-28)]。
-
-Wiiのセキュリティ基盤:
-- **暗号化**: AES-128-CBC（共通鍵暗号）
-- **署名**: RSAおよびECC（楕円曲線暗号）
-- **セーブデータ保護**: SD-keyで暗号化 + 本体固有ECC秘密鍵で署名
-- **バーチャルコンソール**: コンソールIDで暗号化・スタンプ。他の本体では動作しない
-
-しかし、暗号鍵が16個のヌルバイトで構成されていたことや、IOS（Internal Operating System）の署名検証バグ（Trucha Bug）が発見されたことで、これらの保護は比較的早期に突破された[[29](#ref-29)]。
-
-### ファームウェアアップデートによる対策の進化
-
-Wiiは歴代任天堂ハードの中で最も積極的なファームウェアアップデートによるホームブリュー/海賊版対策を実施した[[30](#ref-30)]:
-
-| バージョン | 日付      | 主要対策                                                                    |
-| ----- | ------- | ----------------------------------------------------------------------- |
-| 3.0   | 2007/08 | 複数のモッドチップ・ブートデバイスを無効化                                                   |
-| 3.3   | 2008/06 | Twilight Hack修正（失敗）、IOS署名検証バグ修正、Tweezer Attack阻止                        |
-| 3.4   | 2008/11 | Twilight Hack2度目の修正（再び失敗）、IOS権限昇格バグ修正                                   |
-| 4.0   | 2009/03 | Twilight Hack正式修正、IOS16スタブ化、「バックアップディスク」検知でブート拒否                        |
-| 4.2   | 2009/09 | boot2上書き、**Homebrew Channel自動削除**（ID: HAXX）、Bannerbomb修正試行。一部未改造本体もブリック |
-| 4.3   | 2010/06 | HBC ID「JODI」も削除対象に追加、Bannerbomb完全修正、IOSダウングレード対策、IOS80への移行              |
-
-バージョン4.2では未改造Wiiのブリック事例が多数報告され、任天堂が無償修理対応を発表するなど、対策の副作用も問題となった[[31](#ref-31)]。
-
-### Korean Wii問題
-
-韓国版Wiiでは暗号鍵が変更されたが、System Menu 4.2/4.3でリージョン変更された韓国版Wiiに「Error: 003, Unauthorized device Detected」が表示されて完全にブリックする問題が発生。BootMii as boot2も上書きされるため復旧が極めて困難だった[[32](#ref-32)]。
-
----
-
-## 携帯機: Nintendo 3DS (2011)
-
-### ハードウェアレベル対策
-
-3DSではAES暗号化とRSA署名が本格導入された。ゲームカートリッジのヘッダデータが共有可能だったDS時代の脆弱性を反映し、より強固な認証が実装された。
-
-### ファームウェア 11.8 — Switch式認証のバックポート
-
-2018年8月、3DSのファームウェア11.8アップデートで、Switch向けに開発されたアンチパイラシーシステムが**バックポート**された。SciresM氏の発見により、ネットワーク通信時にアプリチケットの暗号化コピーがサーバーに送信されるようになり、任天堂は非正規アクセスを完全に検知し任意のタイミングでBAN可能になった[[33](#ref-33)][[34](#ref-34)]。
-
-3DSのライフサイクル末期の導入だったため実際の影響は限定的だったが、任天堂のアンチパイラシー姿勢の一貫性を示す事例となった。
-
-### ソフトウェアレベルの対策
-
-- **ポケモン X/Y**: デジタル版がシステムID + カードIDでスタンプされ、別SDカードへのコピーでセーブが破損・再起動を強制[[35](#ref-35)]
-- **レイトンシリーズ**: ボーナスパスワードが本体IDに紐付け。他人のパスワードやサイト掲載のものは使用不可
-
----
-
-## 第8世代: Wii U (2012)
-
-### ハードウェアレベル対策
-
-Wii Uはディスク暗号化（AES）、ドライブ認証、ファイルシステム暗号化の三層構造を採用。Wii時代の教訓を反映し、より強固な暗号化が実装された。
-
-しかし2013年4月、あるハッキンググループがWii Uのドライブ認証、ディスク暗号化、ファイルシステムを完全にリバースエンジニアリングしたと主張。「光学ドライブエミュレータ」を使用してUSBメディアからWii U/Wiiゲームを実行できるとされた[[36](#ref-36)]。
-
-任天堂は声明で「Wii Uモードで不正ゲームが動作した報告はない」と述べつつ、「すべての脅威を継続的に監視」すると表明。Wiiのバックドアを経由した攻撃であった可能性が示唆されている[[37](#ref-37)]。
-
----
-
-## 第9世代: Nintendo Switch (2017)
-
-### ハードウェアレベル対策
-
-#### TrustZone + 固有証明書体系
-
-Switchは任天堂史上最も高度なアンチパイラシーシステムを実装している。そのセキュリティは以下の要素で構成される[[38](#ref-38)][[39](#ref-39)]:
-
-**固有クライアント証明書**: 
-- 工場出荷時に書き込まれるコンソール固有の証明書
-- 秘密鍵はTrustZone（隔離されたセキュリティCPUコア）の暗号化APIでのみ復号可能
-- 全てのサーバー通信（bugyo以外）がクライアント証明書認証を要求
-
-### 4段階オンライン認証プロセス
-
-SciresM氏の詳細な分析によると、Switch のオンライン認証は4段階で構成される:
-
-#### ステップ1: インターネット接続確認
-「ctest.cdn.nintendo.net」に接続し、レスポンスヘッダに「X-Organization: Nintendo」が存在するか確認。
-
-#### ステップ2: デバイス認証トークン取得（dauth）
-1. dauth サーバーの「/challenge」エンドポイントにマスターキーリビジョンを送信
-2. サーバーからランダムチャレンジ文字列と定数データを受信
-3. データ文字列をBase64デコードし、**TrustZone専用鍵データ**で変換してAESキースロットに格納
-4. `challenge=%s&client_id=%016x&key_generation=%d&system_version=%s` 形式で認証リクエストデータを生成
-5. TrustZone鍵でAES-128 CMACを計算、MACを付加して送信
-6. 検証成功でデバイストークン返却（**BAN済み本体はエラー**）
-
-#### ステップ3: アカウント認証
-
-#### ステップ4: アプリケーション認証トークン取得（aauth）
-
-ここが最も重要なセキュリティ層である:
-
-**ゲームカードの場合**:
-- カートリッジ固有の証明書（Nintendo が RSA-2048-PKCS#1 で署名）をaauth に送信
-- 証明書にはゲーム情報と暗号化された追加データを含む
-- ゴールドポイント交換時にNintendo Accountに紐付け → 証明書共有を検知可能
-
-**デジタルゲームの場合**:
-- コンソールのチケット（Title ID、Device ID、Nintendo Account ID を含む）を使用
-- チケットは **RSA-2048** で署名（偽造不可能）
-- チケットは **AES-128-CBC** で暗号化（ランダム生成鍵）、鍵自体は **RSA-OAEP 2048** で暗号化
-- **任天堂のみが復号可能**な一方向暗号化
-
-この設計により、デジタルゲームの海賊版オンライン接続は**理論的に完全に防止**される。デバイスIDとチケットのデバイスID照合、アカウントIDの照合により、不正アクセスは即座にBAN対象となる[[40](#ref-40)]。
-
-### Tegra X1 脆弱性（Fusée Gelée）
-
-2018年4月、Kate Temkin氏（ReSwitched）とfail0verflow チームが独立にNvidia Tegra X1のBoot ROMにある脆弱性「Fusée Gelée（ShofEL2）」を発見・公開した[[41](#ref-41)][[42](#ref-42)]。
-
-| 項目     | 詳細                                             |
-| ------ | ---------------------------------------------- |
-| 脆弱性の場所 | Tegra X1 Boot ROM（RCMモード内）                     |
-| 攻撃手法   | USB経由の不正形式パケットで最大65,535バイトの任意コードを実行            |
-| パッチ可能性 | **不可能**（Boot ROMは読み取り専用。製造工程でのみ修正可能）           |
-| 影響範囲   | 初期出荷の全Switch本体が恒久的に脆弱                          |
-| 検知可能性  | ブート時バグのためeMMCに触れず、**既存ソフトウェアで検知不可能**           |
-| 任天堂の対応 | 後期モデル（Mariko/Tegra X1+）でハードウェア修正、モッドチップ対策の法的措置 |
-
-### BAN措置
-
-- オンラインゲーム（Nintendo サーバー）、NSO、eShopからブロック
-- アップデートダウンロードとローカルプレイは継続可能
-- テレメトリデータがインターネット接続時に送信され、異常が記録される
-- カスタムアイコン使用でBAN（カスタム背景はBAN対象外）
-- 2枚のゲームカードを同時使用すると両方BAN
-- 2025年5月: プライバシーポリシー改定で改造ソフトウェア検知時の本体無効化権を主張[[43](#ref-43)]
-
----
-
-## 「フェイク」アンチパイラシースクリーン現象
-
-### Mario Party DS アンチパイラシースクリーン
-
-2020年末に広まった「PIRACY IS NO PARTY」スクリーン（マリオたちが牢獄に入れられている画像）は**完全にファンメイドの捏造**であり、実際のMario Party DSには存在しない。YouTuber Joey Perleoni が制作した偽のアンチパイラシースクリーンが「信じられるほどリアル」だったため、インターネット上でミーム化した[[44](#ref-44)]。
-
-このフェイクは実在するNintendo DSゲームのアンチパイラシー機能（不気味な音楽と大きなテキスト）にインスパイアされており、同様のフェイク動画がGameCube、Wii、スーパーマリオギャラクシーなど多数のタイトルで制作される「アンチパイラシースクリーン」トレンドの火付け役となった[[45](#ref-45)]。
-
----
-
-## 技術進化の分析
-
-### 対策パラダイムの転換
-
-任天堂のアンチパイラシーは40年間で4つの主要パラダイムを経てきた:
-
-**第1期: ハードウェアロック時代（1985-2001）**
-- CIC/10NESによる物理的なロック&キー認証
-- メリット: 実装がシンプル、一般ユーザーには効果的
-- 限界: チップの複製・無効化が可能、ソフトウェアレベルの保護なし
-
-**第2期: 物理メディア時代（2001-2006）**
-- 独自光ディスクフォーマット + BCA物理マーキング
-- メリット: 一般的な機器では複製不可能
-- 限界: ハードウェアモッド（モッドチップ）で回避可能
-
-**第3期: ソフトウェア・暗号化時代（2006-2017）**
-- AES/RSA暗号化 + ファームウェアアップデート + ソフトウェアAPチェック
-- メリット: アップデートで継続的に対策強化可能
-- 限界: ホームブリュー開発者との「いたちごっこ」が激化
-
-**第4期: サーバーサイド認証時代（2017-現在）**
-- TrustZone + オンライン認証 + RSA-2048チケット
-- メリット: デジタルゲームの海賊版オンライン接続を理論的に完全防止
-- 限界: Tegra X1のBoot ROM脆弱性（ハードウェアリビジョンで対応）
-
-### 各世代の評価
-
-| ハード      | 保護の有効期間                | 突破難易度                    | 総合評価  |
-| -------- | ---------------------- | ------------------------ | ----- |
-| NES      | 約3-5年                  | 低（ピンカット/電圧スパイク）          | ★★☆☆☆ |
-| SNES     | 約5年                    | 中（SRAM検知は効果的だが限定的）       | ★★★☆☆ |
-| N64      | 約10年以上（一部タイトル）         | 中〜高（CIC 6105が特に強力）       | ★★★★☆ |
-| GameCube | 約3年                    | 中（BCA物理保護は優秀だがモッドチップで突破） | ★★★☆☆ |
-| DS       | 限定的                    | 低（フラッシュカートが容易に入手可能）      | ★★☆☆☆ |
-| Wii      | 約1-2年                  | 低〜中（IOS脆弱性が多数）           | ★★☆☆☆ |
-| 3DS      | 約2-3年                  | 中（ただしライフサイクル末期に強化）       | ★★★☆☆ |
-| Wii U    | 約1年                    | 中（Wii互換モードが弱点）           | ★★☆☆☆ |
-| Switch   | オフライン保護は初期に突破、オンラインは堅牢 | 高（オンライン認証は現在も有効）         | ★★★★★ |
-
----
-
-## 結論
-
-任天堂の海賊版対策は、単純なハードウェアロックから多層的なサーバーサイド認証へと劇的に進化した。特にSwitchのdauth/aauth認証システムは、RSA-2048署名とTrustZoneベースの暗号化により、デジタルゲームの不正オンライン接続を理論上完全に防止するという、過去40年間の集大成とも言える設計となっている。
-
-一方で、EarthBoundの5層防御やスマブラの「69回起動で全員マリオ」のような創造的なソフトウェアレベルの対策は、単なるセキュリティ技術を超えた「芸術作品」として、ゲーム文化の中で独自の地位を築いている。技術的進歩とクリエイティブなアプローチの両面において、任天堂のアンチパイラシー史は、デジタルコンテンツ保護技術の縮図とも言える。
+出荷済みの本体に修正できない弱点があれば、装置の流通には法が、サービスの利用には規約が対策を支える。規約上の措置が重くなるほど、一度の誤判定でプレイヤーが失うものも大きくなる。どこまで止めるかを決めるときは、解除の条件、問い合わせ先、プレイを再開できるまでの時間も合わせて考えたい。
 
 ## References
 
-<a id="ref-1"></a>1. [CIC (Nintendo) - Wikipedia][1]
+<a id="ref-1"></a>1. [Casey O'Donnell「The Nintendo Entertainment System and the 10NES Chip: Carving the Video Game Industry in Silicon」][1] — Games and Culture 6(1)、2011年。
 
-<a id="ref-2"></a>2. [CIC (Nintendo) - Wikipedia][2]
+[1]: https://doi.org/10.1177/1555412010377319
 
-<a id="ref-3"></a>3. [Copy Protection / Nintendo - TV Tropes][3]
+<a id="ref-2"></a>2. [米国著作権局「Atari Games Corp. v. Nintendo of Am. Inc., 975 F.2d 832 (Fed. Cir. 1992)」][2] — Fair Use Index、1992年9月10日の判決の要約。
 
-<a id="ref-4"></a>4. [CIC (Nintendo) - Wikipedia][4]
+[2]: https://www.copyright.gov/fair-use/summaries/atari-nintendo-fedcir1992.pdf
 
-<a id="ref-5"></a>5. [Copy Protection / Nintendo - TV Tropes][5]
+<a id="ref-3"></a>3. [Hackaday「How One Company Cracked The GameCube Disc Protection」][3] — Hackaday、2019年2月4日。
 
-<a id="ref-6"></a>6. [Anti-piracy in the Mother series - WikiBound][6]
+[3]: https://hackaday.com/2019/02/04/how-one-company-cracked-the-gamecube-disc-protection/
 
-<a id="ref-7"></a>7. [How Nintendo's Copy Protection Worked - MVG][7]
+<a id="ref-4"></a>4. [Nintendo of America「Historique des mises à jour du menu système pour Wii」][4] — 任天堂サポート（フランス語版）、バージョン4.2の項。日本語版の更新履歴には、不正なデータの削除についての記載がない。
 
-<a id="ref-8"></a>8. [How Nintendo's Copy Protection Worked - MVG][8]
+[4]: https://fr-americas-support.nintendo.com/app/answers/detail/a_id/14539/p/604/c/898
 
-<a id="ref-9"></a>9. [EarthBound Anti-Piracy - STARMEN.NET][9]
+<a id="ref-5"></a>5. [Neowin「Nintendo's anti-piracy measures arrive on the 3DS with the latest update」][5] — Neowin、2018年。
 
-<a id="ref-10"></a>10. [Anti-piracy in the Mother series - WikiBound][10]
+[5]: https://www.neowin.net/news/nintendos-anti-piracy-measures-arrive-on-the-3ds-with-the-latest-update/
 
-<a id="ref-11"></a>11. [How Nintendo's Copy Protection Worked - MVG][11]
+<a id="ref-6"></a>6. [Cisco「NVIDIA TX1 Boot ROM Vulnerability」][6] — Cisco Security Advisory、2018年6月20日。
 
-<a id="ref-12"></a>12. [Copy Protection / Nintendo - TV Tropes][12]
+[6]: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180620-nvidia-tx1-rom
 
-<a id="ref-13"></a>13. [DidYouKnowGaming - YouTube][13]
+<a id="ref-7"></a>7. [Game Developer「Nintendo reportedly rolls out hardware patch following Switch exploit」][7] — Game Developer、2018年7月11日。
 
-<a id="ref-14"></a>14. [Super Smash Bros. anti-piracy measure - GamesRadar+][14]
+[7]: https://www.gamedeveloper.com/production/nintendo-reportedly-rolls-out-hardware-patch-following-switch-exploit
 
-<a id="ref-15"></a>15. [Super Smash Bros. N64 piracy - Kotaku][15]
+<a id="ref-8"></a>8. [Nintendo Life「Nintendo Reportedly Banning Switch 2's Using MIG Cartridges」][8] — Nintendo Life、2025年6月。
 
-<a id="ref-16"></a>16. [DidYouKnowGaming - YouTube][16]
+[8]: https://www.nintendolife.com/news/2025/06/nintendo-reportedly-banning-switch-2s-using-mig-cartridges
 
-<a id="ref-17"></a>17. [DidYouKnowGaming - YouTube][17]
+<a id="ref-9"></a>9. [Siliconera Staff「Earthbound punishes pirates by deleting game saves」][9] — Siliconera。
 
-<a id="ref-18"></a>18. [GameCube copy protection - MVG][18]
+[9]: https://www.siliconera.com/earthbound-punishes-pirates-by-deleting-game-saves/
 
-<a id="ref-19"></a>19. [How One Company Cracked The Gamecube Disc Protection - Hackaday][19]
+<a id="ref-10"></a>10. [Kosuke Takenaka「初代『スマブラ』実は海賊版対策に“遅延式おしおき”満載だった」][10] — AUTOMATON、2025年9月22日。ゲームの解析を紹介した報道。
 
-<a id="ref-20"></a>20. [How One Company Cracked The Gamecube Disc Protection - Hackaday][20]
+[10]: https://automaton-media.com/articles/newsjp/super-smash-bros-20250922-358658/
 
-<a id="ref-21"></a>21. [DS Quick Start Guide - Flashcarts Wiki][21]
+<a id="ref-11"></a>11. [John Walker「Super Smash Bros. On N64 Had A Very Funny Anti-Piracy Trick」][11] — Kotaku、2025年9月。
 
-<a id="ref-22"></a>22. [DidYouKnowGaming - YouTube][22]
+[11]: https://kotaku.com/super-smash-bros-n64-piracy-nintendo-2000627887
 
-<a id="ref-23"></a>23. [Mario Party DS Anti-Piracy Screen - Know Your Meme][23]
+<a id="ref-12"></a>12. [Gavin Dodd「Keeping the Pirates at Bay」][12] — Game Developer（旧Gamasutra）、2001年10月17日。
 
-<a id="ref-24"></a>24. [DidYouKnowGaming - YouTube][24]
+[12]: https://www.gamedeveloper.com/business/keeping-the-pirates-at-bay
 
-<a id="ref-25"></a>25. [Eight Of The Most Hilarious Anti-Piracy Measures In Video Games - IGN][25]
+<a id="ref-13"></a>13. [AUTOMATON「任天堂が『マリオパーティDS』にて“恐ろしい海賊版対策”を施していたという噂が広まる」][13] — AUTOMATON、2021年1月12日。
 
-<a id="ref-26"></a>26. [Funny Anti-Piracy Tricks In Video Games - Screen Rant][26]
+[13]: https://automaton-media.com/articles/newsjp/20210112-148761/
 
-<a id="ref-27"></a>27. [DidYouKnowGaming - YouTube][27]
+<a id="ref-14"></a>14. [安田和史「ゲーム市場の動向と平成23年不正競争防止法改正」][14] — 日本大学法学部『知財ジャーナル』第8号、2015年。
 
-<a id="ref-28"></a>28. [Copy Protection / Nintendo - TV Tropes][28]
+[14]: https://www.publication.law.nihon-u.ac.jp/pdf/property/property_8/each/08.pdf
 
-<a id="ref-29"></a>29. [How the Nintendo Wii Security Was Defeated - 0x7D0 Blog][29]
+<a id="ref-15"></a>15. [任天堂「ニンテンドーDS用装置に対する訴訟について」][15] — 任天堂ニュースリリース、2009年2月27日。
 
-<a id="ref-30"></a>30. [Wii System Update - Wii Wiki][30]
+[15]: https://www.nintendo.co.jp/corporate/release/2009/090227.html
 
-<a id="ref-31"></a>31. [Wii System Update Reportedly Bricking Consoles - IGN][31]
+<a id="ref-16"></a>16. [東京地方裁判所「平成20年（ワ）第20886号・第35745号 不正競争行為差止等請求事件」][16] — 裁判所ウェブサイト「裁判例検索」、2009年2月27日判決。
 
-<a id="ref-32"></a>32. [Bricks - Wii Hacks Guide][32]
+[16]: https://www.courts.go.jp/hanrei/37392/detail7/index.html
 
-<a id="ref-33"></a>33. [Nintendo's anti-piracy measures arrive on the 3DS - Neowin][33]
+<a id="ref-17"></a>17. [経済産業省「不正競争防止法の概要」][17] — 経済産業省。平成以降の主な法律改正の項。
 
-<a id="ref-34"></a>34. [Nintendo 3DS puts the kibosh on piracy - TechRadar][34]
+[17]: https://www.meti.go.jp/policy/economy/chizai/chiteki/pdf/unfaircompetition_textbook.pdf
 
-<a id="ref-35"></a>35. [Copy Protection / Nintendo - TV Tropes][35]
+<a id="ref-18"></a>18. [任天堂「ニンテンドーDS用装置の販売者に対する刑事摘発について」][18] — 任天堂ニュースリリース、2012年5月30日。Wii改造代行事件の有罪判決にも言及。
 
-<a id="ref-36"></a>36. [Wii U copy protection hacked, claims modding group - GameSpot][36]
+[18]: https://www.nintendo.co.jp/corporate/release/2012/120530.html
 
-<a id="ref-37"></a>37. [Wii U Copy Protection Hacked - RVG Forum][37]
+<a id="ref-19"></a>19. [GameBusiness.jp「任天堂、『マジコン』販売者に対して初の刑事摘発」][19] — GameBusiness.jp、2012年5月30日。
 
-<a id="ref-38"></a>38. [Strong anti-piracy measures implemented by Nintendo - Reddit/SciresM][38]
+[19]: https://www.gamebusiness.jp/article/2012/05/30/6177.html
 
-<a id="ref-39"></a>39. [Nintendo Switch anti-piracy - MobileSyrup][39]
+<a id="ref-20"></a>20. [任天堂「ニンテンドーDS用装置に対する訴訟について」][20] — 任天堂ニュースリリース、2013年7月9日。
 
-<a id="ref-40"></a>40. [Nintendo implements strict new anti-piracy measures for the Switch - KitGuru][40]
+[20]: https://www.nintendo.co.jp/corporate/release/2013/130709.html
 
-<a id="ref-41"></a>41. [ShofEL2 - fail0verflow][41]
+<a id="ref-21"></a>21. [任天堂「ニンテンドーDS用装置に対する訴訟について」][21] — 任天堂ニュースリリース、2016年1月19日。最高裁の決定日は同月12日。
 
-<a id="ref-42"></a>42. [Unstoppable exploit in Nintendo Switch - TechCrunch][42]
+[21]: https://www.nintendo.co.jp/corporate/release/2016/160119.html
 
-<a id="ref-43"></a>43. [Nintendo privacy policy discussion - Reddit][43]
+<a id="ref-22"></a>22. [経済産業省「不正競争防止法（平成30年改正）の概要」][22] — 経済産業省。技術的制限手段の効果を妨げる行為に、サービスの提供等を追加した項。
 
-<a id="ref-44"></a>44. [Mario Party DS Anti-Piracy Screen - Know Your Meme][44]
+[22]: https://www.meti.go.jp/policy/economy/chizai/chiteki/180613meti2.pdf
 
-<a id="ref-45"></a>45. [Mario Party DS Anti-Piracy Screen - YouTube][45]
+<a id="ref-23"></a>23. [電ファミニコゲーマー「『Nintendo Switch』を改造・販売した男性が商標法違反疑いで逮捕。全国初の摘発」][23] — 電ファミニコゲーマー、2025年1月16日。
 
-[1]:	https://en.wikipedia.org/wiki/CIC_(Nintendo)
-[2]:	https://en.wikipedia.org/wiki/CIC_(Nintendo)
-[3]:	https://tvtropes.org/pmwiki/pmwiki.php/CopyProtection/Nintendo
-[4]:	https://en.wikipedia.org/wiki/CIC_(Nintendo)
-[5]:	https://tvtropes.org/pmwiki/pmwiki.php/CopyProtection/Nintendo
-[6]:	https://wikibound.info/wiki/Anti-piracy_in_the_Mother_series
-[7]:	https://www.youtube.com/watch?v=KLyK1FMwc8Q
-[8]:	https://www.youtube.com/watch?v=KLyK1FMwc8Q
-[9]:	http://starmen.net/mother2/gameinfo/antipiracy/
-[10]:	https://wikibound.info/wiki/Anti-piracy_in_the_Mother_series
-[11]:	https://www.youtube.com/watch?v=KLyK1FMwc8Q
-[12]:	https://tvtropes.org/pmwiki/pmwiki.php/CopyProtection/Nintendo
-[13]:	https://www.youtube.com/watch?v=fR4lD1jhawA
-[14]:	https://www.gamesradar.com/games/super-smash-bros/if-you-play-a-pirated-super-smash-bros-exactly-69-times-on-n64-nintendos-sneaky-anti-piracy-measure-will-lull-the-illegitimate-user-into-a-false-sense-of-security-and-trap-you-as-mario-forever/
-[15]:	https://kotaku.com/super-smash-bros-n64-piracy-nintendo-2000627887
-[16]:	https://www.youtube.com/watch?v=fR4lD1jhawA
-[17]:	https://www.youtube.com/watch?v=fR4lD1jhawA
-[18]:	https://www.youtube.com/watch?v=Uxjl_kD3imQ
-[19]:	https://hackaday.com/2019/02/04/how-one-company-cracked-the-gamecube-disc-protection/
-[20]:	https://hackaday.com/2019/02/04/how-one-company-cracked-the-gamecube-disc-protection/
-[21]:	https://www.flashcarts.net/ds-quick-start-guide.html
-[22]:	https://www.youtube.com/watch?v=QiTene7mHpc
-[23]:	https://knowyourmeme.com/memes/mario-party-ds-anti-piracy-screen
-[24]:	https://www.youtube.com/watch?v=QiTene7mHpc
-[25]:	https://www.ign.com/articles/2013/04/29/eight-of-the-most-hilarious-anti-piracy-measures-in-video-games
-[26]:	https://screenrant.com/anti-piracy-video-games-funny/
-[27]:	https://www.youtube.com/watch?v=SvL93pNRbfY
-[28]:	https://tvtropes.org/pmwiki/pmwiki.php/CopyProtection/Nintendo
-[29]:	https://blog.0x7d0.dev/history/how-the-nintendo-wii-security-was-defeated/
-[30]:	https://wii.fandom.com/wiki/Wii_System_Update
-[31]:	https://www.ign.com/articles/2009/10/01/wii-system-update-reportedly-bricking-consoles
-[32]:	https://wii.hacks.guide/bricks
-[33]:	https://www.neowin.net/news/nintendos-anti-piracy-measures-arrive-on-the-3ds-with-the-latest-update/
-[34]:	https://www.techradar.com/news/nintendo-3ds-puts-the-kibosh-on-piracy-with-latest-software-update
-[35]:	https://tvtropes.org/pmwiki/pmwiki.php/CopyProtection/Nintendo
-[36]:	https://www.gamespot.com/articles/wii-u-copy-protection-hacked-claims-modding-group/1100-6407737/
-[37]:	https://www.retrovideogamer.co.uk/community/modern-gaming/wii-u-copy-protection-hacked/
-[38]:	https://www.reddit.com/r/SwitchHacks/comments/8rxg26/psa_strong_antipiracy_measures_implemented_by/
-[39]:	https://mobilesyrup.com/2018/06/25/nintendo-switch-anti-piracy/
-[40]:	https://www.kitguru.net/tech-news/featured-tech-news/matthew-wilson/nintendo-implements-strict-new-anti-piracy-measures-for-the-switch/
-[41]:	https://fail0verflow.com/blog/2018/shofel2/
-[42]:	https://techcrunch.com/2018/04/23/unstoppable-exploit-in-nintendo-switch-opens-door-to-homebrew-and-piracy/
-[43]:	https://www.reddit.com/r/fucknintendo/comments/1o9d4x8/nintendos_history_with_anticonsumer_practices/
-[44]:	https://knowyourmeme.com/memes/mario-party-ds-anti-piracy-screen
-[45]:	https://www.youtube.com/watch?v=ZZN0t6bwYHY
+[23]: https://news.denfaminicogamer.jp/news/2501162h
 
-[image-1]:	https://d2z0o16i8xm8ak.cloudfront.net/4948e170-5a1a-4fea-a873-5f23bfcea31c/c5cb5bbe-a4d3-4879-8797-c477bfdfa331/nintendo-antipiracy-timeline.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kMnowbzE2aTh4bThhay5jbG91ZGZyb250Lm5ldC80OTQ4ZTE3MC01YTFhLTRmZWEtYTg3My01ZjIzYmZjZWEzMWMvYzVjYjViYmUtYTRkMy00ODc5LTg3OTctYzQ3N2JmZGZhMzMxL25pbnRlbmRvLWFudGlwaXJhY3ktdGltZWxpbmUucG5nPyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NzY0NzQ5ODJ9fX1dfQ__&Signature=PHXYXAqsJmZ60dQF6MOv7AK7gaz5M9TUl~L~yOJSPq5Ku06yNXxiY3fmo3TvTGDf3v4a4rp4DMkxqsRw4hNY5UeHW9J6T7Df737B7cF5kC2ZbW904KggzAal8WymNlXPpAIcR2At3gvN2ndWky-ZjqHzQC4hhdL1RUvN-9aCLoknO55nc2pAU7nFPD3nwUxJLwKlJt0I7ZohcWpbVPuuTD9209U3ALQGEA-GtTvBQfrxjLVaXuniMPqClF5ZlWQyJT~Ru6hf5UGGpFf2t19pFhrmgVgrGxOQM63p-ADxI4jd56itpohkMApgkr8Og97H9QkUmXvIR5PSXWaK0zUAuQ__&Key-Pair-Id=K1BF7XGXAIMYNX
+<a id="ref-24"></a>24. [米司法省ワシントン州西部地区連邦検事局「Public voice and principal salesperson for notorious videogame piracy group sentenced to 3+ years in prison for conspiracy」][24] — 米司法省、2022年2月10日。
+
+[24]: https://www.justice.gov/usao-wdwa/pr/public-voice-and-principal-salesperson-notorious-videogame-piracy-group-sentenced-3
+
+<a id="ref-25"></a>25. [Game Developer「Switch emulator Yuzu reaches $2.4 million settlement with Nintendo」][25] — Game Developer、2024年3月4日。
+
+[25]: https://www.gamedeveloper.com/business/switch-emulator-yuzu-reaches-2-4-million-settlement-with-nintendo
+
+<a id="ref-26"></a>26. [米ロードアイランド地区連邦地裁「Nintendo of America Inc. v. Tropic Haze LLC」][26] — Justia掲載の訴訟記録、2024年3月6日の終局判決・恒久的差止命令の項。
+
+[26]: https://dockets.justia.com/docket/rhode-island/ridce/1:2024cv00082/56980
+
+<a id="ref-27"></a>27. [米ワシントン州西部地区連邦地裁「Nintendo of America Inc. v. Daly — Final Judgment and Permanent Injunction」][27] — 2025年9月26日登録、TorrentFreak掲載の判決文。
+
+[27]: https://torrentfreak.com/images/nintendo-daly197112005041.pdf
+
+<a id="ref-28"></a>28. [AUTOMATON「任天堂に訴えられたNintendo Switch本体改造業者、賠償金『約3億円』など命じられる」][28] — AUTOMATON、2025年9月8日。当事者の合意を報道。
+
+[28]: https://automaton-media.com/articles/newsjp/nintendo-switch-20250908-356797/
+
+<a id="ref-29"></a>29. [任天堂「ニンテンドーアカウント利用規約/プライバシーポリシーの更新について」][29] — 任天堂サポート、2025年5月7日。
+
+[29]: https://support.nintendo.com/jp/information/2025/0507/index.html
+
+<a id="ref-30"></a>30. [K.K.@Game*Spark「ニンテンドーアカウント規約変更―米国内向けは海賊版および不正改造への対応強化明記」][30] — GameBusiness.jp、2025年5月10日。
+
+[30]: https://www.gamebusiness.jp/article/2025/05/10/24226.html
+
+<a id="ref-31"></a>31. [Jackson Chen「Nintendo grants itself the power to brick Switches with pirated games」][31] — Engadget、2025年5月10日。米国版の規約文言を引用。
+
+[31]: https://www.engadget.com/gaming/nintendo/nintendo-grants-itself-the-power-to-brick-switches-with-pirated-games-162129077.html
+
+<a id="ref-32"></a>32. [Brendan Sinclair「Wii 4.2 update bricking some systems」][32] — GameSpot、2009年10月5日。
+
+[32]: https://www.gamespot.com/articles/wii-42-update-bricking-some-systems/1100-6230816/
+
+<a id="ref-33"></a>33. [Jackson Chen「Switch 2 user warns about accidental ban after playing preowned game cards」][33] — Engadget、2025年7月12日。利用者の申告をもとにした報道。
+
+[33]: https://www.engadget.com/gaming/nintendo/nintendo-reportedly-bans-switch-2-user-playing-preowned-game-cards-192452163.html
+
+<a id="ref-34"></a>34. [Tom's Hardware「Nintendo bans Switch 2 owner after they played used Switch 1 games」][34] — Tom's Hardware、2025年7月12日。同じ利用者の申告を扱った報道。
+
+[34]: https://www.tomshardware.com/video-games/handheld-gaming/nintendo-bans-switch-2-owner-after-they-played-used-switch-1-games-decision-eventually-reversed-after-proving-innocence
+
+英語資料の説明は、本稿で日本語に要約した。
 
 ----
 
