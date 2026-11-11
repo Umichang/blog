@@ -474,7 +474,7 @@
 - [GTA6再延期はなぜ海外を揺らし、日本では温度差が見えるのか――メガタイトルの「重力圏」と発売時期の設計](gta6-delay-japan-overseas-perception-gap.md) 🟢
 - [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md) 🟢
 - [「その国のスポーツ人気」だけでスポーツゲームの売上は語れるか](sports-game-localization-national-popularity-myth.md) 🟡
-- [アタリショックからプレイステーション流通革命まで：ゲーム市場構造の変遷](atari-shock-market-structure-history.md) 🟢
+- [アタリショックとは何だったのか——1983年の北米ゲーム市場の崩壊と、任天堂の答え](atari-shock-market-structure-history.md) 🟢
 - [PlayStation物理ディスク版生産終了が示すゲーム業界の構造転換](playstation-disc-discontinuation-industry-structure.md) 🟢
 - [EA非上場化（LBO）――大型買収の構造とパブリッシャー経営への影響](ea-lbo-take-private-publisher-capital-structure-shift.md) 🔴
 - [Xbox再編から考える、スタジオの「独立・売却・閉鎖」はなぜ分かれるのか](xbox-studio-restructuring-exit-paths-2026.md) 🟡
