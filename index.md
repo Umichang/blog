@@ -506,7 +506,7 @@
 
 - [CEDEC2026予習：ゲーム企画者のための文化盗用リスク管理](cedec2026-cultural-appropriation-risk-management-for-game-planners.md) 🟡
 - [ゲームプレイの配信と二次創作：ルール設計の実践ガイド](game-streaming-fan-creation-guideline-design.md) 🟡
-- [ゲームにおける各国の審査機関のレギュレーション](game-global-rating-regulations.md) 🟡
+- [ゲームの審査は何を見て、何を拒むのか——各国のレーティングが表現から課金と交流の仕組みへ広げた線](game-global-rating-regulations.md) 🟡
 - [Steam成人向け規制と国内銀行の入金拒否――インディー開発を止める二重の資金ボトルネック](steam-adult-content-payment-banking-bottlenecks.md) 🔴
 - [Steamのライブ生成AI審査とEpic Games Storeの異なる哲学――『Instantale』が示した配信設計の新条件](instantale-steam-live-generated-ai-review-epic-policy.md) 🔴
 - [App Store / Google Playにおけるゲーム表現の審査基準と対策](app-store-google-play-game-content-review-guide.md) 🟡
