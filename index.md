@@ -196,7 +196,6 @@
 - [『バイオハザード4』と『バイオRE:4』——変えた設計、変えなかった設計](re4-vs-re4remake-game-design.md) 🟡
 - [『風ノ旅ビト』から『Sky 星を紡ぐ子どもたち』へ――非言語コミュニケーションを持続する関係へ翻訳する設計](journey-sky-nonverbal-communication-live-service-design.md) 🟡
 - [CEDEC2026予習：対話をメカニクスとして設計する――マーダーミステリー、TRPG、人狼、デジタルゲームの系譜](cedec2026-communication-games-murder-mystery-dialogue-mechanics.md) 🟡
-- [表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線](restricted-symbols-red-cross-swastika-free-expression.md) 🟡
 - [『ICO』と『ワンダと巨像』は、なぜ20年を経ても代わりが作りにくいのか――「持続する接触」を中心に据えた上田文人氏の設計判断](ico-shadow-of-the-colossus-sustained-contact-design.md) 🟡
 - [『ELDEN RING』はなぜ死にゲーをマスマーケットへ運べたのか――難易度を下げず、関所に迂回路を作るオープンワールド設計](elden-ring-open-world-detour-design.md) 🟡
 - [『ドラゴンズドグマ』はなぜ「不便さ」を捨てなかったのか――ポーン、移動、よじ登り、ヴォケーションで読む核設計](dragons-dogma-core-design-friction-pawns-vocations.md) 🟡
@@ -506,6 +505,7 @@
 ### 🎨 表現・配信・レーティング
 
 - [CEDEC2026予習：ゲーム企画者のための文化盗用リスク管理](cedec2026-cultural-appropriation-risk-management-for-game-planners.md) 🟡
+- [表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線](restricted-symbols-red-cross-swastika-free-expression.md) 🟡
 - [ゲームプレイの配信と二次創作：ルール設計の実践ガイド](game-streaming-fan-creation-guideline-design.md) 🟡
 - [ゲームの審査は何を見て、何を拒むのか——各国のレーティングが表現から課金と交流の仕組みへ広げた線](game-global-rating-regulations.md) 🟡
 - [Steam成人向け規制と国内銀行の入金拒否――インディー開発を止める二重の資金ボトルネック](steam-adult-content-payment-banking-bottlenecks.md) 🔴
