@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 12 Nov 2026 12:46:14 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 23:08:47 -0000</lastBuildDate>
+    <item>
+      <title>フアン氏が去ったNVIDIAと、ゲームの行方——GeForceの会社がAIの会社になったあとで</title>
+      <link>https://umichang.github.io/blog/nvidia-ceo-transition-2026-gaming-impact.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/nvidia-ceo-transition-2026-gaming-impact.html</guid>
+      <description>ジェンスン・フアン氏の辞任を受けたNVIDIAの暫定体制と独立調査の経緯と、売上の約9割をデータセンターが占める同社での経営の優先順位がGeForceの供給や価格、ゲーム向け技術、任天堂との次世代機での協業にどう関わりうるかを、各媒体の見方から整理する。</description>
+      <pubDate>Thu, 12 Nov 2026 23:08:47 -0000</pubDate>
+    </item>
     <item>
       <title>表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線</title>
       <link>https://umichang.github.io/blog/restricted-symbols-red-cross-swastika-free-expression.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/japan-game-software-distribution-shoshinkai-to-playstation.html</guid>
       <description>ファミコンの初心会からプレイステーションの直取引、中古ゲームソフト裁判まで、発注の時期と売れ残りの負担から日本の家庭用ゲーム流通をたどる。</description>
       <pubDate>Wed, 11 Nov 2026 10:32:36 -0000</pubDate>
-    </item>
-    <item>
-      <title>制約を、選んで鳴らす——ゲーム機サウンドの歴史 番外編</title>
-      <link>https://umichang.github.io/blog/console-game-sound-history-extra-chiptune.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-extra-chiptune.html</guid>
-      <description>ファミコンやゲームボーイの音で曲を作る道具を紹介し、『原神』の聴き比べと『ショベルナイト』を通じて、かつての音源の制約が選び取る表現に変わるところをたどる。「ゲーム機サウンドの歴史」番外編。</description>
-      <pubDate>Wed, 11 Nov 2026 02:14:00 -0000</pubDate>
     </item>
   </channel>
 </rss>

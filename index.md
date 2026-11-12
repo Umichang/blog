@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [フアン氏が去ったNVIDIAと、ゲームの行方——GeForceの会社がAIの会社になったあとで](nvidia-ceo-transition-2026-gaming-impact.md) 🟡
 - [表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線](restricted-symbols-red-cross-swastika-free-expression.md) 🟡
 - [OpenTracks（旧DOVA-SYNDROME）の音源をゲームで使うには――音楽ゲームの利用条件と配布時の組み込み方](opentracks-dova-syndrome-game-embedding-music-game-terms.md) 🟡
 - [ゲームセンターの台はなぜ止まったのか——ALL.Net・Aimeの停止と、店が台を動かし続ける条件](allnet-aime-outage-arcade-operators-network-dependency.md) 🟡
 - [ゲームソフトはどう店に届いたか——初心会からプレイステーションの直取引、中古裁判まで](japan-game-software-distribution-shoshinkai-to-playstation.md) 🟡
-- [制約を、選んで鳴らす——ゲーム機サウンドの歴史 番外編](console-game-sound-history-extra-chiptune.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -353,7 +353,7 @@
 - [ゲームプランナーが知っておくべきデータベースの基礎](database-basics-for-game-planners.md) 🔴
 - [セーブシステムの設計史と実装の落とし穴](save-system-design-history-and-pitfalls.md) 🔴
 - [ゲームプランナーが知っておくべき乱数の話](random-numbers-for-game-planners.md) 🔴
-- [クラウドゲーミングの現在地――サービスの成否と技術的課題](cloud-gaming-deep-dive-proofread.md) 🟡
+- [クラウドゲーミングのサーバー代は誰が払うのか——定額・無制限から時間で売る形へ、各社の選択をたどる](cloud-gaming-deep-dive-proofread.md) 🟡
 
 #### 🖥️ ゲームプランナーのためのコンピュータ科学
 
@@ -472,6 +472,7 @@
 - [Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか](hollow-knight-silksong-long-silence-launch-anticipation.md) 🟢
 - [スマートフォンゲーム会社の倒産はなぜ過去最多ペースなのか――2026年の数字から読む開発費・運営費と国内市場](smartphone-game-developer-bankruptcies-2026-structural-costs-market.md) 🟡
 - [AI需要による半導体価格高騰がコンソールゲーム業界に与える影響](ai-demand-semiconductor-price-surge-console-industry-impact.md) 🟡
+- [フアン氏が去ったNVIDIAと、ゲームの行方——GeForceの会社がAIの会社になったあとで](nvidia-ceo-transition-2026-gaming-impact.md) 🟡
 - [GTA6再延期はなぜ海外を揺らし、日本では温度差が見えるのか――メガタイトルの「重力圏」と発売時期の設計](gta6-delay-japan-overseas-perception-gap.md) 🟢
 - [体験版戦略の功罪——コンソールゲームとSteam早期アクセスから考える](game-demo-strategy-console-vs-early-access.md) 🟢
 - [「その国のスポーツ人気」だけでスポーツゲームの売上は語れるか](sports-game-localization-national-popularity-myth.md) 🟡

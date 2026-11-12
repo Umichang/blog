@@ -1,390 +1,246 @@
 ---
-description: "クラウドゲーミングとは、ゲームの演算処理をユーザーのデバイスではなく、インターネット上の強力なサーバーで行い、その映像をリアルタイムにストリーミング配信する技術だ。プレイヤーが操作したボタン入力はサーバーに送られ、サーバー側でゲームが動作し、圧縮された映像がプレイヤーの端末へ返ってくる。"
+description: "クラウドゲーミングの課金方式、2025〜2026年に定額に時間枠や追加購入が組み込まれた動き、サービス終了後に購入者に残るものを整理し、作品を配信する際の確認点をまとめる。"
 category: tech-foundation-data-assets
 difficulty: yellow
 ---
 
-# クラウドゲーミングの現在地――サービスの成否と技術的課題
-## ゲームの未来はクラウドにある？ ——成功と失敗から学ぶ業界の現在地
+# クラウドゲーミングのサーバー代は誰が払うのか——定額・無制限から時間で売る形へ、各社の選択をたどる
+
+> 2026年11月12日改版：記事全体を全面的に書き直しました。内容の変更はGitの履歴から追えます。
+
+> 料金・プラン・提供状況は2026年11月時点の情報です。
+
+## 1. はじめに
+
+同じゲームを買った二人がいる。片方は自分の本体にインストールし、もう片方はクラウドで遊ぶ。クラウドでは、操作を受け取ったサーバーがゲームを動かし、その映像を端末へ送る。手元に高性能な本体や大きな空き容量がなくても遊べる代わりに、プレイしている間は提供側のサーバーに実行枠が要る。
+
+会費や作品の価格が同じでも、短時間で切り上げる人と毎晩何時間も遊ぶ人では、使う実行枠の時間が違う。サーバーの維持には固定費もあるが、利用時間やピーク時の同時接続が増えれば、提供側はそれを支える容量を確保する必要がある。クラウドで作品を届けるには、 **遊ばれた時間に応じて増えやすい費用を、誰が、どの支払いから賄うか** を決めることになる。
+
+操作の反応が遅れる仕組みは [ゲームの入力遅延](game-input-lag-guide.md)、通信による遅れを目立ちにくくする技術は [家庭用ゲーム機のネット対戦](console-online-multiplayer-latency-techniques.md) で扱う。
 
 ***
 
-## 第1章：クラウドゲーミングとは何か
+## 2. 代金の払い方の型
 
-クラウドゲーミングとは、ゲームの演算処理をユーザーのデバイスではなく、インターネット上の強力なサーバーで行い、その映像をリアルタイムにストリーミング配信する技術だ。プレイヤーが操作したボタン入力はサーバーに送られ、サーバー側でゲームが動作し、圧縮された映像がプレイヤーの端末へ返ってくる。この仕組みにより、スマートフォンや低スペックPCでも高品質なゲームを動かせる。[[1](#ref-1)][[2](#ref-2)]
+### 会員サービスに同梱する
 
-2025年時点でクラウドゲーミング市場は約43億ドル規模とも推計されており、今後10年で爆発的な成長が見込まれている。BCGの2025年版ゲーミングレポートによると、プレイヤーの60%がクラウドゲーミングを試した経験を持ち、そのうち80%がポジティブな体験だったと回答している。[[3](#ref-3)][[4](#ref-4)]
+PlayStation Plus プレミアムでは、ゲームカタログやオンラインマルチプレイなどと一緒にクラウドストリーミングを提供する。PS5向けタイトルのクラウドストリーミングは2023年10月に始まり、2025年11月6日にはPlayStation Portalにも正式実装された。Portalではカタログの対象作に加え、PlayStation Storeで購入済みの対応PS5ダウンロード版も配信できる。作品をすでに持っていても、クラウドで動かす機能を利用するにはプレミアム会費が要る。[[1](#ref-1)][[2](#ref-2)][[3](#ref-3)]
 
-***
+### 定額でライブラリを利用する
 
-## 第2章：成功しているサービスとその要因
+Xboxは2025年10月1日にGame Passのプランを刷新した。Xbox Cloud Gamingはベータを終え、Essential、Premium、Ultimateの全3プランで利用できるようになった。会員はプランに応じたカタログの対象作を遊べるほか、購入済みの対象作もストリーミングできる。PlayStation Plusと重なる部分はあるが、ここでは、個々の作品を買わずにカタログから選んで遊べる点に着目する。[[4](#ref-4)][[5](#ref-5)]
 
-### PlayStation Plus プレミアムのクラウドゲーミング
+### 購入済みの作品を持ち込む
 
-ソニーはPlayStation NowとPlayStation Plusを2022年6月に統合し、3プラン制の新しいPlayStation Plus（エッセンシャル・エクストラ・プレミアム）として再スタートを切った。最上位のプレミアムプランでは、クラシックスカタログに加え、PS5・PS4タイトルのクラウドストリーミングが利用できる。[[5](#ref-5)][[6](#ref-6)]
+GeForce NOWでは、SteamやEpic Games Storeなどで入手した対応作品をNVIDIAのサーバーで動かす。有料会員が支払うのはクラウドで動かすための会費であり、買い切り作品の代金は購入元のストアへ払う。ストアで購入済みでも、そのストア版がGeForce NOWの配信対象かどうかで利用の可否が変わる。[[6](#ref-6)][[7](#ref-7)]
 
-2023年10月にはPS5ゲームのクラウドストリーミングが世界展開され、2025年11月にはPlayStation Portal リモートプレーヤー向けのクラウドストリーミングが正式リリースされた。PlayStation Plus全体の加入者は約5,000万人に達しており、そのうち約22%（約1,100万人）が最上位のプレミアムプラン加入者だ（FY2024時点）。プレミアム層は最も成長率の高い層で、直近12か月で約18%の成長を見せている。[[7](#ref-7)][[8](#ref-8)][[9](#ref-9)][[6](#ref-6)]
+### 配信サービスのストアで作品を個別に買う
 
-**成功の要因：**
-- **既存エコシステムとの統合** ── すでにPS5を持つユーザーが追加投資なしに使えるため、導入障壁が低い。
-- **コンテンツの厚み** ── PlayStation Studiosの独占タイトルやサードパーティの大作が揃い、ライブラリが充実している。
-- **段階的な展開** ── まずはPS4タイトル→PS5タイトルと、技術面の安定を確認しながら拡充する慎重な姿勢を取っている。[[10](#ref-10)]
-- **ハードウェアとの連携** ── PlayStation Portal リモートプレーヤーという専用端末を用意し、クラウドゲーミングとの組み合わせで新しい利用シーンを創出している。[[11](#ref-11)]
+Google Stadiaでは、プレイヤーがStadiaストアで作品を個別に購入できた。別に会員制のStadia Proがあり、個別購入した作品はProを解約しても、Stadiaのサービスが続く間は遊べた。作品を買う店と、作品を動かすクラウドを同じサービスが提供していた。[[8](#ref-8)]
 
-***
+### クラウド版を作品単位で売る
 
-### Xbox Cloud Gaming（Game Pass）
+Nintendo Switchでは、他社の配信技術を使ったクラウド版が作品ごとに販売されてきた。たとえば『Control Ultimate Edition – Cloud Version』ではUbitusが505 Gamesと組んで配信した。これらのクラウド版では、任天堂のストアが販売の窓口となり、外部の事業者がゲームを動かす基盤を担う。[[9](#ref-9)]
 
-マイクロソフトのXbox Cloud Gamingは、Game Passサブスクリプションにバンドルされており、コンソール・PC・スマートフォン・タブレット・スマートTV・ブラウザとあらゆるデバイスで利用できる。2025年10月にはサービス構成を刷新し、ベータ版を脱却。EssentialからUltimateまでの全プランでクラウドゲーミングが利用可能となった。[[12](#ref-12)][[13](#ref-13)]
+2018年に日本で配信された『バイオハザード7 レジデント イービル クラウドバージョン』では、180日プレイ券が2,000円だった。180日は利用券の有効期間である。2022年2月10日には『キングダム ハーツ』シリーズのSwitch向けクラウド版が発売され、作品別の購入やセット購入ができた。[[10](#ref-10)][[11](#ref-11)][[12](#ref-12)]
 
-Xbox Game Passの加入者数は公式開示が停止されているため推計値となるが、2025年前半時点で約3,500〜3,700万人と見られている。マイクロソフトは5,000万人到達を2025年末〜2027年初頭の目標として掲げている。[[14](#ref-14)][[15](#ref-15)]
+### プレイ時間を売る
 
-**成功の要因：**
-- **Game Passファースト戦略** ── 月額定額で500本以上にアクセスでき、発売日から新作も遊べるGame Pass Ultimateが圧倒的なコストパフォーマンスを提供している。[[13](#ref-13)]
-- **クロスプラットフォーム対応** ── コンソールを持っていないユーザーでも、スマートフォンやブラウザから即プレイできる。[[16](#ref-16)]
-- **基本プレイ無料タイトルの戦略的活用** ── 『Fortnite』をサブスクリプション不要で無料プレイ可能にし、クラウドゲーミングの裾野を広げた。[[17](#ref-17)]
-- **コンテンツ強化のための大型投資** ── Activision Blizzardの約10兆円規模の買収（2023年10月完了）により、『Call of Duty』『ディアブロ』などの超大作IPをGame Passに追加する基盤を整えた。[[18](#ref-18)]
+HoYoverseの『Genshin Impact · Cloud』では、有料の残高から支払う場合、プレイ1分につき10 Cloud Coinsを消費する。一定期間使えるCloud Passもあり、パスが有効な間はパスが優先され、パスがなければ無料時間、Cloud Coinsの順で使う。公式告知の対象は米国・カナダと東南アジア・南アジアの一部で、日本は対象に含まれない。[[13](#ref-13)][[14](#ref-14)][[15](#ref-15)]
 
-2026年9月には、Xbox Cloud Gamingの通常プランに11月から月間時間枠を設ける変更が発表された。利用時間の条件と作品を供給する側への含意は、「[「Xbox」はいま、いくつの器を指しているのか](xbox-multiple-containers-and-game-pass-supplier-decisions.md)」で扱う。
+日本では、同じHoYoverseの『ゼンレスゾーンゼロ』クラウド版が2026年2月6日に正式リリースされた。配信時の案内では初回ログインで10時間の体験時間が付与され、30日分のフリーパスは2,600円だった。作品内の課金とは別に、クラウドで遊ぶ時間や期間に料金を設定した例である。[[16](#ref-16)]
 
-***
+![クラウドゲーミングの六つの課金方式を、会費で回収する型、作品やライセンスを購入する型、時間で支払う型に整理した図。購入済み作品の持ち込みでは作品代とクラウド利用料が別になる](image/cloud-gaming-payment-models.webp)
 
-### NVIDIA GeForce NOW
+六つの型は、プレイヤーから見て何に代金を払うかで分けたものだ。会費と作品代、定額と時間枠のように、複数の型を組み合わせるサービスもある。事業者間で費用をどう分けるかは、購入画面からは分からない。
 
-GeForce NOWはNVIDIAが提供するクラウドゲーミングサービスで、ユーザーがすでにSteam・Epic Games・GOG・Ubisoft Connectなどで購入したゲームを、NVIDIAのクラウドサーバーで動かして遊べる「持ち込み型」モデルが最大の特徴だ。[[19](#ref-19)]
-
-2022年8月時点で2,000万人の登録ユーザーを突破しており、2025年初頭にはサービスのUltimateおよびPerformanceプランが売り切れ状態になるほどの需要急増が報告された。UltimateプランではRTX 4080クラスのサーバーを使用し、4K/120FPS、または1080p・1440p/240FPSという圧倒的な映像品質を実現している。[[20](#ref-20)][[19](#ref-19)]
-
-**成功の要因：**
-- **既存ゲームライブラリの活用** ── ゲームを買い直す必要がなく、既存の購入済みタイトルをそのまま高性能ハードで動かせる。
-- **技術的優位性** ── AV1コーデックの採用とNVIDIA Reflex技術の統合により、40ms未満のクリックから画面反映までの遅延を、データセンターとの往復15ms程度のネット環境で達成している。[[21](#ref-21)]
-- **段階的な課金モデル** ── 無料の基本プラン（セッション制限あり）から月額9.99ドルのPerformance（1440p対応）、月額19.99ドルのUltimate（RTX 4080クラス）まで、ユーザーのニーズに合わせた選択肢がある。[[19](#ref-19)]
+| 型と例 | 誰が何にいくら払うか | プレイ時間の上限・利用期限 |
+| --- | --- | --- |
+| 会員サービスに同梱（PS Plus プレミアム） | プレイヤーが会員特典一式に月1,550円（日本、1か月利用権）[[17](#ref-17)]。購入済み作品を使う場合の作品代は別 | 公式プラン案内に月間枠の記載なし。会員資格が必要 [[3](#ref-3)] |
+| 定額ライブラリ（Game Pass） | プレイヤーがカタログなどに月会費。日本ではEssentialが850円、Premiumが1,300円、Ultimateが1,550円 | 通常3プランに月間枠あり。追加時間は別売り [[18](#ref-18)][[19](#ref-19)] |
+| 購入済み作品の持ち込み（GeForce NOW） | プレイヤーが作品代を外部ストアに、クラウドの有料会費をNVIDIAに支払う。日本でのUltimate提供開始時は月3,580円。無料プランもある | PerformanceとUltimateは月100時間。1回の接続にもプラン別の上限がある [[6](#ref-6)][[7](#ref-7)] |
+| 個別購入（Stadia、終了済み） | プレイヤーがStadiaストアに作品ごとの代金を支払う。Proは任意で、カナダ向け公式ブログでは月9.99ドル | 当時の購入案内に月間枠の記載なし。サービス終了で配信終了 [[8](#ref-8)] |
+| 作品単位（Switch向けクラウド版） | プレイヤーが作品ごとの代金を支払う。『バイオハザード7』の180日券は2,000円。『キングダム ハーツ』の単品は発売時5,280円から | 『バイオハザード7』の旧券は180日の有効期限。『キングダム ハーツ』は販売終了後のプレイ期限あり [[10](#ref-10)][[11](#ref-11)][[12](#ref-12)] |
+| 時間単位（Genshin Impact · Cloud） | プレイヤーが有料分を1分10 Cloud Coinsで支払う。Cloud Passも選べる | 無料時間・コイン残高またはパスの有効期間による [[13](#ref-13)] |
 
 ***
 
-## 第3章：失敗から学ぶ ——GoogleとAmazonの教訓
+## 3. 2025〜2026年、「無制限」が後退した
 
-### Google Stadia：技術は優秀でも、ゲームビジネスを理解していなかった
+**GeForce NOW** は2025年9月10日、Ultimate向けにGeForce RTX 5080クラスのサーバーを順次導入し始めた。一方、PerformanceとUltimateの定額料金に含まれるプレミアム利用時間は月100時間となった。未使用分は最大15時間を翌月に繰り越せ、超過分は15時間単位で追加購入できる。[[6](#ref-6)][[20](#ref-20)][[21](#ref-21)]
 
-2019年に鳴り物入りでローンチしたGoogle Stadiaは、2023年1月にサービスを終了した。技術的な基盤は堅固であったにもかかわらず、なぜ失敗したのか。その主な理由は3つに集約できる。[[22](#ref-22)][[23](#ref-23)]
+月間枠は2025年から導入され、対象の既存会員には2026年1月まで無制限で使える経過措置があった。NVIDIAの現行FAQでは、無制限の旧プランの権利を持つ会員の移行時期を、2026年1月15日以降の最初の請求日としている。基本のFounders会員には、資格を維持する限り無制限の例外もある。NVIDIAは月間枠を導入した理由として、品質や応答性を保ち、待ち時間を短くすることを挙げている。[[6](#ref-6)][[21](#ref-21)]
 
-**1. 独自ゲームコンテンツの欠如**
-スタジオ内製部門「Stadia Games and Entertainment」を立ち上げ、約150人のゲーム開発者を雇用したものの、2021年2月、ゲーム開発に本格参入してから約2年で全スタジオを閉鎖した。ゲーム開発には数年単位の時間が必要であることを見誤っており、結果として独占タイトルをほとんど生み出せないままプラットフォームは魅力に欠けるコンテンツしか持てなかった。[[24](#ref-24)][[25](#ref-25)]
+**Amazon Luna** は2026年4月10日、ゲームストア、個別購入、他社サブスクリプションの取り扱いを終了した。購入済みの対象作品や持ち込んだ外部ライブラリは6月10日までLunaで遊べた。ここで変わったのは、外部ストアで持っているゲームをLunaの実行枠で遊べる範囲である。[[22](#ref-22)][[23](#ref-23)][[24](#ref-24)]
 
-**2. 混乱したビジネスモデル**
-Stadiaは「サブスクリプション料金を払いつつ、さらにゲームを個別に購入する」という二重課金モデルを取っていた。XboxのGame Passが「定額で無制限のゲームライブラリ」という分かりやすい価値提案を打ち出している中で、Stadiaは既存のゲームストアと何ら変わらない体験しか提供できなかった。[[26](#ref-26)][[27](#ref-27)]
+**Xbox** は2026年11月からGame Passの通常3プランに月間クラウド時間枠を設けた。日本のXbox公式ストアにも時間枠が表示されている。Xboxの発表では、枠を使い切った後は追加時間を購入できる。Xboxは、利用者が増え、プレイが長くなるほど提供コストが増えると説明している。会員資格を持たない人が時間を買う仕組みも発表され、10月にはInsider向けに試験提供が始まった。プランごとの枠と作品を供給する側への影響は [「Xbox」はいま、いくつの器を指しているのか](xbox-multiple-containers-and-game-pass-supplier-decisions.md) で扱う。[[18](#ref-18)][[19](#ref-19)][[25](#ref-25)]
 
-**3. プラットフォームへの移植コストの高さ**
-Stadiaのゲームエンジン対応は限定的で、既存のゲームをStadiaに移植するコストが非常に高かった。これがサードパーティパブリッシャーの参入を妨げ、ライブラリの貧弱さに直結した。[[28](#ref-28)]
-
-Googleはサービス終了にあたって全購入者に返金を実施したが、一度失ったユーザーの信頼はそう簡単には取り戻せない。Stadia最大の教訓は、「優れた配信技術があっても、プレイしたいゲームがなければプラットフォームは成立しない」という当たり前の事実だ。[[23](#ref-23)][[29](#ref-29)]
+三つの変更が重なったことで、クラウド利用の条件がどこで決まるかが見えやすくなった。GeForce NOWとXboxは、会費で遊べる時間に枠を置き、さらに遊ぶ人から追加料金を受け取る。Lunaは、外部ライブラリにクラウドの実行枠を提供する仕組みを閉じた。時間枠を設けると、事業者は会費に含める利用量を定められ、プレイヤーは残り時間や追加料金を考えて遊ぶことになる。毎月の支払いが同じでも、遊ぶ時間の長い人ほどこの変更の影響を受けやすい。
 
 ***
 
-### Amazon Luna：Amazonエコシステムへの過信と迷走
+## 4. サービスが終わるとき、購入者に何が残るか
 
-AmazonのLunaはAmazonプライム会員向けにバンドルされた独自のクラウドゲーミングサービスとして2022年に全米展開された。Amazonプライム会員であれば追加費用なしに一定のゲームライブラリが利用できるという戦略は合理的に見えたが、複数の問題が重なっていた。[[30](#ref-30)]
+**Stadiaでは返金が行われた。** Googleは2022年9月29日に終了を発表し、2023年1月18日にサービスを終えた。Google Storeで購入した対象のハードウェアと、Stadiaストアで購入した作品や追加コンテンツが返金対象となった。Stadia Proの会費は返金対象外だった。[[26](#ref-26)][[27](#ref-27)]
 
-**ライブラリの薄さ**
-2023年のレビュー時点でも「ライブラリが依然として初期段階にある」という評価が続いており、主要AAAタイトルへのアクセスは限定的で、Ubisoft+などのサードパーティチャンネルを追加契約する仕組みも複雑だった。[[30](#ref-30)]
+**Lunaでは購入元のストアに作品が残った。** EA、Ubisoft、GOGなどのストアで買った作品は、Lunaでの配信終了後も購入元のサービスで利用できた。対象作品のセーブデータは6月10日の配信終了から90日間ダウンロードできた。Amazonの案内によれば、持ち出したデータが他のサービスで使えるかは作品や移行先に依存する。[[23](#ref-23)][[24](#ref-24)]
 
-**ビジネスモデルの迷走**
-2026年4月、AmazonはLunaからゲームの個別販売とサードパーティストアのホスティングを廃止することを発表した。これは2025年にGOG・EA・Ubisoft対応を追加して拡充した方向性を一転させる決断であり、戦略の一貫性のなさを露呈した。購入済みのゲームは2026年6月10日以降プレイ不可となり、既存ユーザーへの損害も大きい。[[31](#ref-31)][[32](#ref-32)]
+**『キングダム ハーツ』では、割引購入とセーブの引き継ぎが用意された。** Switch向けクラウド版は2026年6月9日に販売を終了し、購入者は2027年6月9日までプレイできる。2026年10月8日には本体で動くSwitch 2版が発売され、『KINGDOM HEARTS -HD 1.5+2.5 ReMIX-』にはSwitch版も出た。クラウド版の所有者は対応するダウンロード版をニンテンドーeショップで割引購入し、セーブデータを引き継げる。移行先のダウンロード版は別途購入が必要で、パッケージ版は割引対象外である。[[28](#ref-28)][[29](#ref-29)]
 
-**Stadia・Lunaの失敗に共通する構造的問題**
-
-| 比較軸 | Google Stadia | Amazon Luna |
-|---|---|---|
-| 失敗時期 | 2023年1月終了 | 現在も継続も迷走中 |
-| ゲームライブラリ | 独占なし・ポート困難 | 薄い・主要AAA不足[[30](#ref-30)] |
-| ビジネスモデル | 二重課金で不明瞭[[26](#ref-26)] | 戦略変更を繰り返す[[31](#ref-31)] |
-| 既存エコシステム | Android連携は強いがゲームなし | Amazonプライムはあるがゲームとの親和性薄い |
-| ファーストパーティ | 開発中止[[25](#ref-25)] | 独自ゲームなし |
-| 主な教訓 | コンテンツ戦略の欠如 | エコシステム頼みの限界 |
-
-両社の失敗の根本には、「クラウドゲーミングはゲームビジネスである」という認識の甘さがある。Netflixの動画配信やSpotifyの音楽配信と異なり、ゲームはIPごとの付加価値が桁違いに大きい。自社IPを持つか、有力IPを大量に確保しなければ、いかに配信インフラが優れていてもユーザーには振り向いてもらえない。
+購入した作品へのアクセス、支払った代金、プレイの進行状況は、それぞれ別に扱われる。返金で戻るのは代金であり、購入元に作品が残っても、続きから遊ぶにはセーブデータの互換性が要る。終了に向けた準備や告知は [サービス終了をどう設計するか](service-shutdown-design-and-practice.md) で扱う。
 
 ***
 
-## 第4章：タイトル特化型クラウドゲーミングという潮流
+## 5. 作品をクラウドに載せるとき、プランナーが確かめること
 
-プラットフォーム包括型だけでなく、特定のゲームタイトルに特化したクラウドゲーミングも注目を集めている。
+### 操作のどこで遅れが響くか
 
-### Fortnite × Xbox Cloud Gaming：基本プレイ無料とクラウドの最強タッグ
+アクションや対戦では、攻撃を見てから回避する場面や、相手の動きに合わせて入力する場面で遅れが響きやすい。入力を急がないコマンド選択型の作品は比較的許容しやすい。ジャンル名で判断を終えると、コマンド選択型に含まれるタイミング入力や、アクションでも落ち着いて操作できる場面を見落とす。チュートリアル、戦闘、対戦など、具体的な場面を対象地域の回線と端末で遊んで確かめる。
 
-2022年5月、マイクロソフトはGame Pass契約不要で『Fortnite』をXbox Cloud Gaming上で無料プレイ可能にした。これはソニー・任天堂のハードウェア購入なしに、ブラウザだけでPS5・Xbox Series X相当のゲームを遊べることを意味し、クラウドゲーミングの「コンソール不要」という価値を体感させる最高のデモンストレーションとなった。その後もRocket Racingなど他の基本プレイ無料タイトルがXbox Cloud Gamingに追加されており、ゲームの入口を広げる戦略として機能している。[[33](#ref-33)][[17](#ref-17)]
+### 1回のプレイをどこで区切れるか
 
-### Genshin Impact · Cloud（HoYoverse）：タイトル専用クラウドの独自路線
+月間枠、1回の接続上限、再接続時の待ち行列は、それぞれ違う形でプレイに影響する。たとえばボス戦の直前しかセーブできない作品では、接続が切れると再び順番を待ち、戦闘をやり直すことになる。1回のプレイの長さとセーブまでの間隔を照らし合わせ、残り時間が少ない状態でも進行を保存できるか、切断後にどこから再開できるかを確認する。
 
-HoYoverseは2024年6月、自社ゲーム「原神」の公式クラウドバージョン「Genshin Impact · Cloud」をiOS・Android・PC向けにオープンベータとして開始した。同サービスは、重量級のゲームデータを端末にインストールすることなく、クリックするだけで原神の世界に入れる手軽さを訴求している。[[34](#ref-34)][[35](#ref-35)]
+### どこで配信し、どこにつながるか
 
-課金モデルは独特で、新規ユーザーには5時間の無料トライアルが提供され、以降は「Cloud Coins（10コイン/分）」を消費するか、月額$19.99の「Cloud Pass」を購入するかを選べる。Cloud Passや未使用のコインがあれば接続優先権が与えられる仕組みも導入されている。このモデルは、基本プレイ無料×ガチャ課金のゲーム本編の収益構造とは独立したサービス層を追加することで、ユーザーの「いつでもどこでも原神を遊びたい」という需要に応えている点が巧みだ。[[36](#ref-36)]
+ストアで入手できる地域と、接続できるサーバーは別の条件である。『ゼンレスゾーンゼロ』の国内向けクラウド版は、案内上の接続先がAsiaのみで、サーバー切り替えにも対応しない。このAsia表記から物理的な配信拠点までは分からない。配信先を決める際は、提供事業者にストリーミングを処理する拠点と対象地域を確かめ、プレイヤーが実際に使う回線で接続や混雑時の待ち時間を試す。[[16](#ref-16)]
 
-ただし注意したいのは、Genshin Impact · Cloudの提供地域が米国・カナダおよびシンガポール・マレーシア・タイ・フィリピンなどの一部東南アジア諸国に限られており、 **日本からは利用できない** 点だ。日本のユーザーが原神を含むHoYoverse作品をクラウドで遊ぶには、後述する別タイトルのクラウド版を待つ必要があった。
+### 購入者に何を約束するか
 
-### ゼンレスゾーンゼロ・クラウド版（HoYoverse）：日本でも遊べるタイトル専用クラウド
-
-同じHoYoverseのタイトルでも、日本から利用できる例として登場したのが「ゼンレスゾーンゼロ・クラウド版」だ。HoYoverseは2026年1月30日に告知し、同年2月6日（Ver.2.6アップデート後）に日本国内向けに正式リリースした。PC（Windows/macOS）・iOS・Androidに対応し、約20GB超とされる完全版をダウンロードすることなく、高画質・高フレームレートのアクションをそのまま遊べる点を訴求している。[[49](#ref-49)][[50](#ref-50)]
-
-基本プレイ無料の都市ファンタジーアクションRPGである本編同様、クラウド版もHoYoverse通行証（アカウント）を通じて他プラットフォームと進行状況が同期される。初回ログイン時には10時間分の体験時間が付与される。接続先サーバーはAsiaのみで、日本国内でのプレイが推奨されている。[[49](#ref-49)][[50](#ref-50)]
-
-Genshin Impact · Cloudが日本非対応だったのに対し、後発のゼンレスゾーンゼロ・クラウド版が日本市場を正式にカバーしたことは、HoYoverseがタイトルごとに提供地域やサーバー構成を切り分けて展開していることを示している。パリィ主体のアクション性が高いゼンレスゾーンゼロにおいて、Asiaサーバー限定・国内プレイ推奨という設計は、遅延に敏感なジャンルでの体験品質を確保するための現実的な判断といえる。
-
-### タイトル特化型の意義
-
-タイトル特化型クラウドゲーミングの利点は、特定のゲームに最適化したサーバー構成や遅延チューニングを施せる点にある。特にガチャ・ソーシャル要素の強いオンラインゲームは、プレイヤーがデバイスを変えても同じアカウントで継続できることへの需要が高く、クラウドとの親和性が高い。今後は基本プレイ無料の大型タイトルを中心に、この形態がさらに広がると考えられる。
+ストアや購入画面で伝えるべきなのは、何を買うのか、いつまで使えるのか、配信を終えた後に何を続けられるのかである。購入元で遊び続けられる場合でも、手元に対応端末があるかで利用できる人は変わる。別の版へ移行できる場合は、セーブを引き継げる版、追加購入の要否、引き継ぎに使うアカウントを確かめる。配信事業者と作品の販売元が異なる場合は、購入履歴やセーブを誰が管理し、終了時に誰が対応するかも確認しておく。
 
 ***
 
-## 第5章：技術コラム ——クラウドゲーミングを支える技術
+## 6. むすび
 
-> 🔧 **ここはゲームプランナー・技術に興味を持つプレイヤー向けの掘り下げセクションです。**
+配信先を選ぶときは、作品にいくら払ってもらうかに加え、遊ぶ時間が増えたときに誰の負担が増えるかを見ておきたい。契約や販売ページで確認する項目は、プレイヤーが買うものによって変わる。
 
-### クラウドゲーミングの遅延はなぜ問題になるのか
-
-クラウドゲーミングにおける遅延（レイテンシ）は、以下のステップを経る累積時間として発生する。
-
-1. **コントローラー入力** → OS受付（1〜5ms）
-2. **データをサーバーへ送信**（ネットワーク往路：5〜30ms）
-3. **サーバー側でゲームエンジンが処理・レンダリング**（15〜30ms）
-4. **映像をエンコード**（H.264/H.265/AV1により 5〜20ms）
-5. **映像データをクライアントへ送信**（ネットワーク復路：5〜30ms）
-6. **クライアント側でデコード・ディスプレイ表示**（5〜15ms）
-
-合計すると現実的な環境では **50〜120ms** の入力遅延が発生し、これがローカルプレイ（ローカルのPCやコンソールでの平均10〜30ms）との大きな差となる。一般に「100ms未満であれば多くのゲームは快適にプレイできる」とされ、競争性の低いアクションRPG・ストラテジー・アドベンチャーなら現在の技術で十分実用的だ。[[37](#ref-37)][[38](#ref-38)]
-
-***
-
-### 映像ストリーミングの核心：コーデックの進化
-
-サーバーからクライアントへ映像を届けるために使われる **動画コーデック** は、画質・帯域・遅延のトレードオフを決定する重要な要素だ。
-
-| コーデック | 特徴 | クラウドゲーミングでの採用 |
-|---|---|---|
-| **H.264（AVC）** | 最も普及。デコードは全端末対応 | Xbox Cloud Gaming（HLS上のH.264 SVC）[[39](#ref-39)] |
-| **H.265（HEVC）** | H.264比で約50%の帯域削減。ゲーム向けに広く普及 | 多くのサービスが採用 |
-| **AV1** | 最高効率。H.265比さらに30〜50%削減 | GeForce NOW（2023年より採用）[[21](#ref-21)] |
-| **VP9** | Googleが開発。YouTubeで普及 | Stadia（廃止） |
-
-AV1は圧縮効率が非常に高く帯域削減に優れる反面、ソフトウェアエンコードでは処理負荷がH.264の数百〜数千倍に達することがある。NVIDIAはGPUのハードウェアAV1エンコーダー（RTX 40シリーズ以降）を活用し、GeForce NOWでAV1を実用レベルに到達させた。[[40](#ref-40)][[21](#ref-21)]
-
-また、クラウドゲーミング特有の課題として、ゲーム映像は通常の動画と異なり **フレームごとの変化が極めて激しい**（パーティクルエフェクト・高速スクロールなど）ため、通常の動画ストリーミング向けコーデック設定そのままでは破綻しやすい。そのため、各サービスは **定期イントラリフレッシュ（PIR）** など、ゲーム映像に最適化した独自のエンコードパラメーターを用いている。[[39](#ref-39)]
-
-もう一つの鍵は **アダプティブビットレートストリーミング（ABR）** だ。ユーザーの回線状況をリアルタイムに監視し、帯域が下がれば解像度・ビットレートを自動的に下げて安定性を優先する。これにより、回線が不安定な環境でも接続が切れにくい体験を実現している。[[1](#ref-1)]
-
-***
-
-### 遅延隠蔽技術：知覚遅延を最小化する工夫
-
-物理的な遅延を完全にゼロにすることは不可能でも、 **ユーザーが遅延を「感じにくくする」** 技術は大きく進歩している。
-
-#### NVIDIA Reflex と Frame Warp（Reflex 2）
-
-NVIDIAが2020年に公開した **NVIDIA Reflex** は、CPUとGPUのパイプラインを同期させてレンダリングキューのバックプレッシャーを除去することで、ローカル環境でもクラウド環境でも入力遅延を平均50%程度削減する。GeForce NOWの40ms未満という低遅延達成にも、このReflexが貢献している。さらに2025年1月のCES 2025で発表された **Reflex 2（Frame Warp）** では、マウスやコントローラーの最新入力をもとにGPUが描画を終えた後の最終ステップでフレームを「ワープ（変形）」し、最新の視点角度を反映させることで、約1フレーム分の遅延をさらに削減する。NVIDIAはReflex 2によってPC遅延が最大75%削減されると謳っているが、当初対応予定とされた『THE FINALS』『VALORANT』を含め、2026年時点でも実ゲームへの本格的な展開には至っていない。[[41](#ref-41)][[42](#ref-42)][[21](#ref-21)]
-
-```
-[フレームレンダリング完了]
-       ↓
-  最新マウス入力をサンプリング
-       ↓
-  フレームをワープ（カメラ角度を最新状態に更新）
-       ↓
-  ディスプレイへ送出
-```
-
-#### エッジコンピューティングと5G
-
-遅延の大部分を占めるのは「データがどれだけ遠くのサーバーを往復するか」という物理的距離だ。データセンターまでの光速の限界として、300km先のサーバーまでのラウンドトリップは理論上最低でも2ms程度かかるが、実際のネットワーク経路は複数のルーターを経由するため大幅に増加する。[[37](#ref-37)]
-
-この問題を解決するのが **エッジコンピューティング** だ。ゲームの処理を行うサーバーをユーザーの近く（地域のエッジノードや基地局付近）に分散配置することで、往復時間を大幅に短縮できる。5Gの広帯域・超低遅延（理論値1ms）との組み合わせにより、モバイル回線でも20ms以下という目標値に近づくことが可能になりつつある。[[2](#ref-2)][[43](#ref-43)][[44](#ref-44)]
-
-#### 予測的入力処理（スペキュラティブ実行）
-
-一部のシステムでは、ネットワーク遅延の間にユーザーの次の入力を予測し、サーバーからの応答が届く前に表示上の動作を先行させる「予測的処理」が研究されている。これはネットワークゲームにおける「クライアント予測（Client-side Prediction）」と同様の考え方をクラウドゲーミングに応用するものだ。特に慣性のある動き（キャラクターの移動など）では予測が当たりやすく、「ラグによるカクつき」の感覚を大幅に緩和できる。[[45](#ref-45)]
-
-***
-
-## 第6章：成功と失敗の要因を整理する
-
-| 要因 | PS Plus プレミアム | Xbox Game Pass | GeForce NOW | Google Stadia | Amazon Luna |
-|---|---|---|---|---|---|
-| コンテンツ戦略 | ◎ 強力な自社IP | ◎ 発売日Game Pass + Activision | ○ 既存ゲームを活用 | ✕ 独占なし[[29](#ref-29)] | △ 薄い/不安定[[30](#ref-30)] |
-| ビジネスモデル | ◎ 既存Plus強化 | ◎ 定額無制限モデル | ○ 段階課金 | ✕ 二重課金[[26](#ref-26)] | ✕ 迷走[[31](#ref-31)] |
-| 既存エコシステム | ◎ PS5/PSハード | ◎ Windows/Xbox | ○ Steam等PCゲーム | △ Androidのみ | △ Amazonプライムのみ |
-| 技術品質 | ○ 4K/60fps/HDR[[6](#ref-6)] | ○ 1440p（Ultimate）[[12](#ref-12)] | ◎ 4K/240fps[[20](#ref-20)] | ○ 技術自体は優秀 | △ 過去に帯域問題[[46](#ref-46)] |
-| ファーストパーティ強さ | ◎ 『ゴッド・オブ・ウォー』など | ◎ Halo/Forzaなど+Activision | ー（プラットフォーム非保有） | ✕ スタジオ閉鎖[[25](#ref-25)] | ✕ なし |
-
-成功しているサービスに共通するのは、 **「クラウドはゲームへのアクセス方法の一つ」** という位置づけを一貫させていることだ。PSもXboxも、クラウドは自社の巨大なゲームエコシステムの入口に過ぎず、豊富なコンテンツが前提として存在する。GeForce NOWは逆に「コンテンツは持たないが、技術で最高の体験を提供する」と割り切った設計が機能している。失敗した両社は、クラウド配信技術を「それ自体が価値を持つ製品」と誤解し、コンテンツへの投資を怠った点で軌を一にしている。
-
-***
-
-## 第7章：今後の展望
-
-クラウドゲーミング市場は、調査会社によって予測幅は大きいものの、2030年代前半までに1,500億〜2,000億ドル超規模への成長が見込まれており、cloudbase.ggが2024〜2025年に既存クラウドゲーマー22,665人を対象に行った調査では、回答者の47%が「すべてのゲームをクラウドでプレイしている」と回答するなど、ヘビーユーザー層では完全クラウド移行が進みつつある。[[47](#ref-47)][[48](#ref-48)]
-
-今後の鍵となる技術・トレンドは以下の通りだ。
-
-- **AV1コーデックのさらなる普及** ── ハードウェアデコーダー対応端末の増加により、高品質×低帯域のストリーミングが標準化へ。[[21](#ref-21)]
-- **エッジコンピューティングの拡充** ── 地域分散型サーバーにより物理遅延を20ms未満に抑える環境整備が進む。[[44](#ref-44)]
-- **AIを活用した超解像・フレーム補間** ── NVIDIAのDLSS・インテルのXeSSのような技術をクラウドに応用し、低ビットレートでも高画質を維持する試みが加速する。
-- **基本プレイ無料タイトル×クラウドのさらなる融合** ── 『Fortnite』や原神が示したように、クラウドは基本プレイ無料の大型タイトルが最もコスト効率よく新規プレイヤーを獲得できるチャネルになりうる。
-
-ゲームプランナーとしては、「クラウドで遊ぶプレイヤー」の行動特性（より短いセッション・より多様なデバイス・より低い導入コスト）を設計段階から意識することが、今後のゲームデザインにおいて重要な視点となるだろう。
-
----
+| 課金の型 | 作品を載せる前に確かめること |
+| --- | --- |
+| 会員サービスに同梱 | どの会員・端末が対象か。カタログ収録と購入済み作品の配信で、利用できる条件はどう違うか |
+| 定額ライブラリ | カタログ掲載が終わった後も購入版で続けられるか。会費内の時間枠で一つの遊びを区切れるか |
+| 購入済み作品の持ち込み | 対応するストア・エディション・追加コンテンツはどれか。購入元の本体版とセーブが同期するか |
+| ストアで個別購入 | 購入した権利がどのサービスにひも付くか。終了時に返金や別の版への移行を誰が扱うか |
+| クラウド版を作品単位で販売 | 利用券の有効期限と配信終了日はいつか。本体で動く版へ移る場合に、購入やセーブはどう扱われるか |
+| 時間単位で販売 | 時間の計測はいつ始まり、いつ止まるか。待機や切断が残高にどう影響し、時間切れの前に保存できるか |
 
 ## References
 
-<a id="ref-1"></a>1. [Cloud Gaming: Current Trends and Future Prospects][1] - Cloud gaming providers are constantly working to improve their infrastructure and streaming technolo...
+<a id="ref-1"></a>1. [ソニー・インタラクティブエンタテインメント「PS5®のクラウドストリーミングが『PlayStation®Plusプレミアム』加入者を対象に今月サービス開始！」][1] — PlayStation.Blog 日本語、2023年10月12日。
 
-<a id="ref-2"></a>2. [The Role of 5G in Shaping the Future of Cloud Gaming ...][2] - 5G reduces latency to as low as 1 ms, ensuring responsive and immersive gameplay. Enhanced connectiv...
+[1]: https://blog.ja.playstation.com/2023/10/12/20231012-ps5/
 
-<a id="ref-3"></a>3. [Cloud Gaming Market Size, Share Analysis 2032][3] - The Cloud Gaming Market was valued at USD 4.23 billion in 2025 and is expected to reach USD 176.81 b...
+<a id="ref-2"></a>2. [ソニー・インタラクティブエンタテインメント「PS Portalのクラウドストリーミング機能が明日11月6日より正式実装！ PS Storeで購入したダウンロード版PS5®ゲームもストリーミング可能に」][2] — PlayStation.Blog 日本語、2025年11月5日。
 
-<a id="ref-4"></a>4. [Video Gaming Report 2026: The Next Era of Growth][4] - In BCG's 2025 Gaming Survey, 60% of players said that they had tried cloud gaming, and 80% reported ...
+[2]: https://blog.ja.playstation.com/2025/11/05/20251105-psportal/
 
-<a id="ref-5"></a>5. [Sony merges PS Now & PS Plus to take on Xbox Game Pass][5] - Sony has today announced that PlayStation Plus and PlayStation Now will merge into an all-new PlaySt...
+<a id="ref-3"></a>3. [ソニー・インタラクティブエンタテインメント「PlayStation Plus サービス内容・プラン」][3] — PlayStation公式、2026年11月12日確認。
 
-<a id="ref-6"></a>6. [PlayStation 5 Cloud Streaming Comes to PlayStation Plus ...][6] - PlayStation will make Cloud Streaming for PlayStation 5 titles available globally this month as part...
+[3]: https://www.playstation.com/ja-jp/ps-plus/
 
-<a id="ref-7"></a>7. [Cloud Streaming officially arrives on PlayStation Portal ...][7] - PlayStation Plus premium members can now use cloud streaming for compatible digital PS five games th...
+<a id="ref-4"></a>4. [Xbox Wire「Updates to Xbox Game Pass: Introducing Essential, Premium, and Ultimate Plans」][4] — Xbox Wire、2025年10月1日。
 
-<a id="ref-8"></a>8. [Playstation Statistics And User Trends 2026][8] - PlayStation Plus Premium subscriptions reached 23.7 million in 2025, showing 9% year-over-year incre...
+[4]: https://news.xbox.com/en-us/2025/10/01/xbox-game-pass-ultimate-premium-essential-plans
 
-<a id="ref-9"></a>9. [PlayStation Statistics And User Trends 2026][9] - PlayStation Plus Premium subscriptions reached 23.7 million in 2025, reflecting a 9% year-over-year ...
+<a id="ref-5"></a>5. [Xbox Wire「Getting Started with Xbox Cloud Gaming」][5] — Xbox Wire、2025年12月19日。
 
-<a id="ref-10"></a>10. [PlayStation confident in PS Plus strategy as it readies PS5 ...][10] - PlayStation is testing cloud streaming with PS5 games, and will make it available to PS Plus Premium...
+[5]: https://news.xbox.com/en-us/2025/12/19/getting-started-with-xbox-cloud-gaming/
 
-<a id="ref-11"></a>11. [PlayStation Portal Major update! ｜ Cloud Streaming ｜ April 2025][11] - PlayStation Portal is getting hit with a massive update TODAY! Dive into the video with me as I go t...
+<a id="ref-6"></a>6. [NVIDIA「GeForce NOW に関するよくある質問 (FAQ)」][6] — NVIDIA公式。対応ストア、月間枠、超過時の選択肢、経過措置。
 
-<a id="ref-12"></a>12. [RESEARCH NOTE: Microsoft Xbox Game Pass Raises the ...][12] - Microsoft's shift in strategy appears to be aimed at expanding its cloud gaming user base while stil...
+[6]: https://www.nvidia.com/ja-jp/geforce-now/faq/
 
-<a id="ref-13"></a>13. [Xbox Game Pass Review: It's a Little Pricier, but Still ...][13] - Xbox Game Pass Review: It's a Little Pricier, but Still a Great Gaming Deal ... This service makes P...
+<a id="ref-7"></a>7. [NVIDIA「NVIDIA、GeForce NOW を日本で提供開始」][7] — NVIDIA公式、2024年4月。日本提供開始時の料金。
 
-<a id="ref-14"></a>14. [Xbox Game Pass][14] - Microsoft unveiled a revamped Xbox Game Pass tier structure on October 1, 2025 ... The upfront appro...
+[7]: https://www.nvidia.com/ja-jp/about-nvidia/press-releases/2024/geforce-now-japan-launch/
 
-<a id="ref-15"></a>15. [Trend Xbox Game Pass Ultimate: 2026 Growth Analysis][15] - The company aims to reach 50 million subscribers between late 2025 and early 2027, potentially throu...
+<a id="ref-8"></a>8. [Phil Harrison「Play Stadia Pro for free, starting today」][8] — Google Canada Blog、2020年4月8日。個別購入とStadia Proの条件。
 
-<a id="ref-16"></a>16. [Xbox Cloud Gaming Review - The Perfect To-Go Solution?][16] - The Xbox Cloud Gaming service offered by microsoft includes a vast library of games. But is it worth...
+[8]: https://blog.google/intl/en-ca/products/devices-services/play-stadia-pro-for-free-starting-today/
 
-<a id="ref-17"></a>17. [Fortnite is the first title playable in Cloud Gaming without ...][17] - We remind you that Xbox Cloud Gaming allows anyone to play without owning a console, and is accessib...
+<a id="ref-9"></a>9. [Ubitus「Ubitus Partners with 505 Games to Release “Control Ultimate Edition – Cloud Version” on Nintendo Switch™」][9] — Ubitus公式、2020年10月28日。
 
-<a id="ref-18"></a>18. [Microsoft to acquire Activision Blizzard to bring the joy and ...][18] - This acquisition will accelerate the growth in Microsoft's gaming business across mobile, PC, consol...
+[9]: https://ubitus.ai/?p=516
 
-<a id="ref-19"></a>19. [Nvidia's GeForce Now Game-Streaming Service Tops 20 ...][19] - Nvidia's GeForce Now game-streaming service now has over 20 million registered users, up from over a...
+<a id="ref-10"></a>10. [カプコン「利用手順を教えてください（バイオハザード7 レジデント イービル クラウドバージョン）」][10] — カプコン公式サポート。180日利用券の案内。
 
-<a id="ref-20"></a>20. [GeForce NOW Tiers Are Selling Out As Cloud Gaming ...][20] - Cloud gaming is rapidly gaining popularity, as evidenced by several GeForce NOW tiers being sold out...
+[10]: https://www.capcom.co.jp/support/faq/platform_switch_bh7cloud_0141277.html
 
-<a id="ref-21"></a>21. [GeForce NOW Begins Using AV1 Codec and Promises ...][21] - NVIDIA touted that it is bringing its Reflex technology to the GFN cloud service. This is a way to g...
+<a id="ref-11"></a>11. [ファミ通.com「『バイオハザード7』“クラウドバージョン”がSwitchで配信開始　2000円で180日間、全内容をプレイ可」][11] — ファミ通.com、2018年5月24日。2,000円の税込・税別表記は当時の報道に差があるため、本文では2,000円という金額のみを記載。
 
-<a id="ref-22"></a>22. [Google Stadia — 3 big reasons why it failed][22] - I identified three key issues that kept Stadia from succeeding: A shoddy launch, a lack of unique se...
+[11]: https://www.famitsu.com/news/201805/24157801.html
 
-<a id="ref-23"></a>23. [A message about Stadia and our long term streaming ...][23] - We've made the difficult decision to begin winding down our Stadia streaming service.
+<a id="ref-12"></a>12. [スクウェア・エニックス「『キングダムハーツ』シリーズ Nintendo Switch クラウドバージョン 2022年2月10日（木）発売決定」][12] — スクウェア・エニックス公式、2022年1月18日。
 
-<a id="ref-24"></a>24. [How Google's Grand Plan to Make Its Own Games Fell Apart][24] - The tech giant hired 150 game developers for Stadia Games and Entertainment, only to lay them all of...
+[12]: https://www.jp.square-enix.com/company/ja/news/2022/html/3bd7aaba631ed475d66920cb5a81fb19aeccc881.html
 
-<a id="ref-25"></a>25. [Google Stadia Shutting Down Internal Game Studios][25] - Google Stadia Shutting Down Internal Game Studios. Despite the hype, Stadia failed to compete for fi...
+<a id="ref-13"></a>13. [HoYoverse「Genshin Impact · Cloud FAQ」][13] — Genshin Impact · Cloud 公式。課金順序と1分あたりの消費量。
 
-<a id="ref-26"></a>26. [Aakash Gupta - Why Google Stadia failed][26] - Why Google Stadia failed: 1. Starting tech first 2. Lacking exclusives 3. Making it hard to port 4. ...
+[13]: https://cloudgenshin.hoyoverse.com/en-us/faq
 
-<a id="ref-27"></a>27. [Google STADIA][27] - This stupid pricing model, a lack of exciting games, and a confusing marketing campaign meant Stadia...
+<a id="ref-14"></a>14. [HoYoverse「Genshin Impact · Cloud US & Canada Open Beta on iOS, Android, and PC Now Available!」][14] — Genshin Impact · Cloud 公式。
 
-<a id="ref-28"></a>28. [Why Google Stadia failed - by Aakash Gupta - Product Growth][28] - Why Google Stadia failed · 1. Starting tech first · 2. Lacking exclusives · 3. Making it hard to por...
+[14]: https://cloudgenshin.hoyoverse.com/en-us/news/124125
 
-<a id="ref-29"></a>29. [The fall of Stadia][29] - Couple this with Google's history of cutting off projects which they deem to have failed, and it is ...
+<a id="ref-15"></a>15. [HoYoverse「Genshin Impact · Cloud: Indonesia, Thailand, Philippines, Laos, Cambodia, Bangladesh, Myanmar Open Beta Now Available!」][15] — Genshin Impact · Cloud 公式。
 
-<a id="ref-30"></a>30. [Amazon Luna in 2023 — is it worth it?][30] - I wanted to check in on the Luna and see how it's doing, and whether it makes sense to subscribe to ...
+[15]: https://cloudgenshin.hoyoverse.com/en-us/news/122943
 
-<a id="ref-31"></a>31. [In Latest Pivot, Amazon Luna to Drop Game Purchases ...][31] - The Luna game-streaming service is getting an overhaul, with Amazon pulling the plug on game purchas...
+<a id="ref-16"></a>16. [Keiichi Yokoyama「『ゼンレスゾーンゼロ』クラウド版、国内向けに2月6日正式リリースへ。高画質・高フレームレートで爽快アクションが遊べる」][16] — AUTOMATON、2026年1月30日。HoYoverseの配信告知に基づく報道。
 
-<a id="ref-32"></a>32. [Amazon LUNA Just CANCELLED Third-Party Games – What ...][32] - Amazon Luna made so much progress in the past year. We got GOG game support, EA support, and a big u...
+[16]: https://automaton-media.com/articles/newsjp/zzz-20260130-414736/
 
-<a id="ref-33"></a>33. [Xbox Cloud Gaming ｜ Xbox][33] - Xbox Cloud Gaming allows you to play hundreds of console games on the devices you already have. Play...
+<a id="ref-17"></a>17. [GIGAZINE「プレステのオンラインゲームでは必須の有料サブスク「PlayStation Plus」が値上げ」][17] — GIGAZINE、2026年5月19日。日本の各プランの料金と、日本が値上げの対象外であることの確認に使用。
 
-<a id="ref-34"></a>34. [GENSHIN IMPACT launched its OWN CLOUD GAMING Service!][34] - The Genshin Impact Cloud app dropped in beta on June 12th according to their news post. It is availa...
+[17]: https://gigazine.net/news/20260519-playstation-plus-price-raising
 
-<a id="ref-35"></a>35. [Genshin Impact · Cloud – Step into a different world anytime ...][35] - Genshin Impact Cloud is a cloud version of HoYoverse's Genshin Impact. Real-time cloud technology al...
+<a id="ref-18"></a>18. [Microsoft「XBOX Game Pass Essential — XBOX Game Pass Essential 1 か月間」][18] — Xbox公式ストア、2026年11月12日確認。通常3プランの日本での月額とクラウド時間枠。
 
-<a id="ref-36"></a>36. [Genshin Impact now seem to have an official Cloud ...][36] - If you have cloud coins or the cloud pass you get priority entrance. Players without them have to li...
+[18]: https://www.xbox.com/ja-JP/games/store/p/CFQ7TTC0K5DJ/000C
 
-<a id="ref-37"></a>37. [Moonlight vs Cloud Gaming Latency - LifeTips - Alibaba.com][37] - Reduce cloud gaming latency by 40–60ms with local Moonlight streaming. Works on any modern GPU and a...
+<a id="ref-19"></a>19. [Team XBOX「XBOX Cloud Gaming の今後の変更について」][19] — Xbox Wire Japan、2026年9月4日。
 
-<a id="ref-38"></a>38. [Cloud Gaming Experience: Opportunities for Telcos and OTTs?][38] - Decoding and rendering: Cloud gaming device will take another ~15 ms for decoding and rendering. Lat...
+[19]: https://news.xbox.com/ja-jp/2026/09/04/xbox-cloud-gaming-changes/
 
-<a id="ref-39"></a>39. [Xbox Cloud Streamingのビデオコーデック？][39] - それで、xbox game pass ultimateとゲームストリーミングを試しているときに、カクつきとかデータドロップみたいなのがあ ...
+<a id="ref-20"></a>20. [GeForce NOW Community「Paint It Blackwell: GeForce RTX 5080 SuperPOD Rollout Begins」][20] — NVIDIA Blog、2025年9月10日。
 
-<a id="ref-40"></a>40. [AV1 Encoding -Not ready for Live Streaming][40] - Studies indicate AV1 encoding can be hundreds of times slower than H.264, leading to latency issues ...
+[20]: https://blogs.nvidia.com/blog/geforce-now-thursday-blackwell-rtx-launch/
 
-<a id="ref-41"></a>41. [NVIDIA Reflex SDK][41] - NVIDIA Reflex SDK enables game developers to optimize and measure latency, and reduce input lag for ...
+<a id="ref-21"></a>21. [NVIDIA「GeForce NOW Performance へようこそ: Priority メンバーは即座にアップグレード」][21] — NVIDIAブログ、2024年11月。月間枠の当初発表と追加購入の単位。
 
-<a id="ref-42"></a>42. [NVIDIA Reflex 2 ｜ Introducing New Frame Warp Technology][42] - Learn more about how Reflex 2 lowers latency: https://www.nvidia.com/en-us/geforce/news/reflex-2-eve...
+[21]: https://blogs.nvidia.co.jp/blog/geforce-now-thursday-performance-membership/
 
-<a id="ref-43"></a>43. [5G's Impact on Cloud Gaming Performance ｜ PDF ｜ 4 G][43] - 5G technology enhances cloud gaming through ultra-low latency, higher bandwidth, and improved device...
+<a id="ref-22"></a>22. [Video Games Chronicle「Amazon Luna has stopped offering individual games and subscriptions from third-party stores」][22] — VGC、2026年4月10日。Amazonの案内を掲載。
 
-<a id="ref-44"></a>44. [The Future of Gaming: Eliminating Lag with Edge Computing][44] - Edge computing moves the game-processing power closer to the end user, significantly reducing latenc...
+[22]: https://www.videogameschronicle.com/news/amazon-luna-has-stopped-offering-individual-games-and-subscriptions-from-third-party-stores/
 
-<a id="ref-45"></a>45. [Characterizing Latency Impact on Rendering Accuracy in ...][45] - Cloud gaming enables users to play virtually on any device by offloading the computa- tionally inten...
+<a id="ref-23"></a>23. [GOG「Important update: Amazon Luna on GOG」][23] — GOG公式、2026年4月。GOGライブラリの扱い。
 
-<a id="ref-46"></a>46. [Amazon's Cloud Gaming Is Still a Work in Progress, but It ...][46] - Luna could be too data-hungry right now, causing bandwidth saturation, when all available bandwidth ...
+[23]: https://www.gog.com/en/news/important_update_amazon_luna_on_gog
 
-<a id="ref-47"></a>47. [Cloud Gaming Market Size and Trends Forecast: 2026 - 2033][47] - Cloud Gaming Market size is estimated to be valued at USD 14.00 Bn in 2026 and is expected to expand...
+<a id="ref-24"></a>24. [Lincoln Carpenter「Amazon's Luna cloud gaming service is ending support for game purchases and subscriptions from third-party stores, and users will lose streaming access to purchased third-party games in June」][24] — PC Gamer、2026年4月10日。Amazonの案内に基づく報道。保存データのダウンロード期間と互換性。
 
-<a id="ref-48"></a>48. [Cloud Gaming Report 2025: 47% play exclusively in the ...][48] - Based on 22665 players, the Cloud Gaming Report 2025 uncovers how gamers use, value, & pay for cloud...
+[24]: https://www.pcgamer.com/software/platforms/amazons-luna-cloud-gaming-service-is-ending-support-for-game-purchases-and-subscriptions-from-third-party-stores-and-users-will-lose-streaming-access-to-purchased-third-party-games-in-june/
 
-<a id="ref-49"></a>49. [『ゼンレスゾーンゼロ』クラウド版、国内向けに2月6日正式リリースへ][49] - HoYoverseは1月30日、『ゼンレスゾーンゼロ』クラウド版を2月6日に配信すると告知した。クラウド版はVer.2.6のアップデート後、日本で正式リリース予定...
+<a id="ref-25"></a>25. [Team XBOX「Cloud Playtime Now Available to Test with XBOX Insiders」][25] — Xbox Wire、2026年10月21日。
 
-<a id="ref-50"></a>50. [ゼンレスゾーンゼロ・クラウド版アプリ - App Store][50] - 『ゼンレスゾーンゼロ・クラウド版』は、HoYoverseのクラウド技術を採用し、『ゼンレスゾーンゼロ』のゲーム特性に合わせて最適化された公式クラウドゲーム...
+[25]: https://news.xbox.com/en-us/2026/10/21/cloud-playtime-now-available-to-test-with-xbox-insiders/
 
-[1]: https://www.ijsat.org/papers/2022/3/6305.pdf
-[2]: https://www.longdom.org/open-access/the-role-of-5g-in-shaping-the-future-of-cloud-gaming-experiences-1100965.html
-[3]: https://www.snsinsider.com/reports/cloud-gaming-market-2798
-[4]: https://www.bcg.com/publications/2025/video-gaming-report-2026-next-era-of-growth
-[5]: https://www.flatpanelshd.com/news.php?subaction=showfull&id=1648556403
-[6]: https://www.gtplanet.net/ps5-streaming-psplus-premium-20231011/
-[7]: https://www.linkedin.com/posts/sony-interactive-entertainment-llc_cloud-streaming-officially-arrives-on-playstation-activity-7391865882043441152-lqGu
-[8]: https://rec0ded88.com/statistics/playstation/
-[9]: https://icon-era.com/statistics/playstation/
-[10]: https://www.gamesindustry.biz/playstation-confident-in-ps-plus-strategy-as-it-readies-ps5-game-streaming
-[11]: https://www.youtube.com/watch?v=89UPzhWbbx8
-[12]: https://moorinsightsstrategy.com/research-notes/research-note-microsoft-xbox-game-pass-raises-the-standards-and-the-price/
-[13]: https://www.cnet.com/tech/gaming/xbox-game-pass-review/
-[14]: https://en.wikipedia.org/wiki/Xbox_Game_Pass
-[15]: https://www.accio.com/business/trend-of-xbox-game-pass-ultimate
-[16]: https://www.youtube.com/watch?v=7321i7aD-ZU
-[17]: https://www.mondoxbox.com/en/news/69636/fortnite-is-the-first-title-playable-in-cloud-gaming-without-subscription.html
-[18]: https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/
-[19]: https://www.pcmag.com/news/nvidias-geforce-now-game-streaming-service-tops-20-million-users
-[20]: https://hothardware.com/news/geforce-now-tiers-are-selling-out-as-coud-gaming-demand
-[21]: https://clouddosage.com/geforce-now-av1/
-[22]: https://www.tomsguide.com/opinion/google-stadia-shutdown-analysis
-[23]: https://blog.google/products-and-platforms/products/stadia/message-on-stadia-streaming-strategy/
-[24]: https://www.wired.com/story/google-stadia-games-entertainment-collapse/
-[25]: https://www.ign.com/articles/google-stadia-reportedly-shutting-down-internal-game-studios
-[26]: https://www.linkedin.com/posts/aagupta_why-google-stadia-failed-1-starting-tech-activity-6982064119348658177-hNEV
-[27]: https://museumoffailure.com/exhibition/google-stadia
-[28]: https://www.news.aakashg.com/p/why-google-stadia-failed
-[29]: https://www.midiaresearch.com/blog/the-fall-of-stadia
-[30]: https://gamingtrend.com/impressions/amazon-luna-in-2023-is-it-worth-it/
-[31]: https://www.pcmag.com/news/in-latest-pivot-amazon-luna-to-drop-game-purchases-third-party-stores
-[32]: https://www.youtube.com/watch?v=Yp5kCS7iCDM
-[33]: https://www.xbox.com/en-US/cloud-gaming
-[34]: https://www.youtube.com/watch?v=OsFt8ZoSfvA
-[35]: https://cloudgenshin.hoyoverse.com
-[36]: https://www.reddit.com/r/Genshin_Impact/comments/1dergrg/genshin_impact_now_seem_to_have_an_official_cloud/
-[37]: https://lifetips.alibaba.com/tech-efficiency/moonlight-vs-cloud-gaming-latency
-[38]: https://medux.com/blog/cloud-gaming-experience-opportunities-for-telcos-and-otts
-[39]: https://www.reddit.com/r/VIDEOENGINEERING/comments/ungdzv/xbox_cloud_streaming_video_codec/
-[40]: https://www.linkedin.com/pulse/av1-encoding-not-ready-live-streaming-sudeep-kumar-gnrmf
-[41]: https://developer.nvidia.com/performance-rendering-tools/reflex
-[42]: https://www.youtube.com/watch?v=zpDxo2m6Sko
-[43]: https://www.scribd.com/document/963451591/5G-Technology-and-Its-Impact-on-Cloud-Gaming-by-Paras-Rawat
-[44]: https://www.spirent.com/blogs/the-future-of-gaming-eliminating-lag-with-edge-computing
-[45]: https://summit.sfu.ca/_flysystem/fedora/2025-09/etd23909.pdf
-[46]: https://gizmodo.com/amazons-cloud-gaming-is-still-a-work-in-progress-but-i-1845712676
-[47]: https://www.coherentmarketinsights.com/market-insight/cloud-gaming-market-4600
-[48]: https://cloudbase.gg/cloud-gaming-report-2025/
-[49]: https://automaton-media.com/articles/newsjp/zzz-20260130-414736/
-[50]: https://apps.apple.com/jp/app/id6748930656
+<a id="ref-26"></a>26. [Phil Harrison「A message about Stadia and our long term streaming strategy」][26] — The Keyword、2022年9月29日。
+
+[26]: https://blog.google/products-and-platforms/products/stadia/message-on-stadia-streaming-strategy/
+
+<a id="ref-27"></a>27. [Google「Stadia Announcement FAQ」][27] — Stadia Help。返金対象とStadia Pro会費の扱い。
+
+[27]: https://support.google.com/stadia/answer/12790109?hl=en
+
+<a id="ref-28"></a>28. [スクウェア・エニックス「『KINGDOM HEARTS Switch Cloud Version』販売終了及びサービス終了のお知らせ(6/10)」][28] — スクウェア・エニックス サポートセンター、2026年6月10日。
+
+[28]: https://support.jp.square-enix.com/news.php?drt=1781017200&id=19066&la=0&n=2&tag=ab4073e28135a1345b861beefd8b6a2c459e1ed4
+
+<a id="ref-29"></a>29. [スクウェア・エニックス「KINGDOM HEARTS Collection [I〜III]」][29] — スクウェア・エニックス公式。発売日と対応機種。
+
+[29]: https://www.jp.square-enix.com/kingdom/collection/
 
 ----
 
