@@ -91,7 +91,7 @@
 - [AIの登場するゲームたち ― 日本のプレイヤーが知っている名作で読み解く「もう一つの知性」 ―](ai-in-games-for-japanese-players.md) 🟢
 - [ゲームのAIは何のために賢くなってきたのか——『パックマン』から生成AIまで、ゲームAIの役割の変遷](history-of-ai-in-video-games.md) 🟡
 - [敵AI設計の実務――FSM・ビヘイビアツリー・GOAP・Utility AIをどう選び、どう運用するか](enemy-ai-design-practices.md) 🟡
-- [ターン制RPGの戦闘AIを構築するためのガンビットシステム](gambit-system-for-turn-based-rpg-combat-ai.md) 🟡
+- [仲間に任せるとき、プレイヤーは何を決めるのか——FF12のガンビットが開いた「AIを組む遊び」と、開発の道具としてのその後](gambit-system-for-turn-based-rpg-combat-ai.md) 🟡
 - [『高機動幻想ガンパレード・マーチ』はなぜNPCが生きて見えたのか――カレル2から学ぶ、再現できる設計と再現できない条件](gunparade-march-karel2-npc-design-planners.md) 🟡
 - [『ドラゴンクエストX』おしゃべりスラミィに学ぶ、生成AIコンパニオンの「自由を絞る」設計](dragon-quest-x-slamy-generative-ai-companion-design.md) 🟡
 - [その判定は、AIに任せるか、ルールで固めるか――『RyzaChat』とSpiralLLMから考えるAIゲームマスターの設計](ryzachat-spiralllm-ai-game-master-design.md) 🟡
