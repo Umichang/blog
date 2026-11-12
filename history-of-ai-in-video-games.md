@@ -1,354 +1,207 @@
 ---
-description: "コンピューターゲームにおける人工知能（AI）の歴史は、ハードウェア制約の中でいかにリアルなキャラクター行動を実現するかという実装工学として始まり、やがて深層強化学習によってゲーム環境そのものが研究の場となり、2020年代にはLLMとの融合という新段階へと進化してきた。"
+description: "『パックマン』の敵から生成AIで話す仲間まで、ゲームAIがプレイヤーに対して担ってきた役割を、代表作と開発資料からたどる。"
 category: game-ai
 difficulty: yellow
 ---
 
-# コンピューターゲームにおけるAIの歴史
+# ゲームのAIは何のために賢くなってきたのか——『パックマン』から生成AIまで、ゲームAIの役割の変遷
 
-## 概要
+> 2026年11月12日改版：記事全体を全面的に書き直しました。内容の変更はGitの履歴から追えます。
 
-コンピューターゲームにおける人工知能（AI）の歴史は、ハードウェア制約の中でいかにリアルなキャラクター行動を実現するかという実装工学として始まり、やがて深層強化学習によってゲーム環境そのものが研究の場となり、2020年代にはLLMとの融合という新段階へと進化してきた。「制約が創造性を生む」という一貫したテーマが、半世紀にわたるゲームAI史の底流を流れている。
+## 1. はじめに
 
----- 
+迷路で追いかけてくるモンスターも、作戦を伝えると自分で呪文を選ぶ仲間も、ゲームでは「AI」と呼ばれてきた。40年以上前から、ゲーム開発者はプレイヤーの操作に応じてキャラクターや展開を動かす仕組みを作っていた。一方で、ゲームは機械学習の研究にも使われる。こちらでは、画面を手がかりに攻略法を学べるか、人間の名手に勝てるかといった問いが出発点になる。本稿では、ゲーム内の仕組みとゲームを題材にした研究の両方を、「プレイヤーに対して何をするために作られたか」という問いでたどる。
 
-## 1. 黎明期：制約から生まれたAI (1970年代〜1980年代)
+スクウェア・エニックスで『ファイナルファンタジーXV』などのAIに携わった開発者・研究者の三宅陽一郎氏は、ゲームAIを三つの役割から捉え、互いに連携させる「MCS-AI動的連携モデル」を提案している。個々のキャラクターが何をするかを決めるのが「キャラクターAI」、地形を把握して通れる経路などを扱うのが「スパーシャルAI（ナビゲーションAI）」、ゲーム全体を見渡して展開を調整するのが「メタAI」である。[[1](#ref-1)][[2](#ref-2)]協力ゲームなら、味方が救助を決めるのはキャラクターAI、倒れた仲間までの経路を扱うのはスパーシャルAI、次に敵の群れが現れるタイミングを決めるのはメタAI、という具合だ。
 
-### パックマンと有限状態機械 (1980)
+***
 
-家庭用ゲームAIの最初期の代表格がナムコの『パックマン』（1980年）だ。ゴーストたちはそれぞれ「追跡（Blinky）」「待ち伏せ（Pinky）」「気まぐれ（Inky）」「おとぼけ（Clyde）」という異なる個性を持ち、 **有限状態機械（FSM: Finite State Machine）** で実装されていた。FSMとは「現在の状態」と「遷移条件」をあらかじめ定義し、イベントに応じて状態を切り替えることでキャラクターの行動を表現する手法で、黎明期のゲームAIの大半がこれを採用した。「追う→逃げる→死ぬ→復活」という状態遷移はその典型例で、実装はシンプルながらプレイヤーには「AIが思考している」という感覚を与えた。[[1](#ref-1)][[2](#ref-2)]
+## 2. 賢く見せる——『パックマン』
 
-![パックマンの4ゴーストに共通するFSMと追跡個性の違い](image/game-ai-pacman-fsm.webp)
+敵の役割は、追われる緊張と、そこから逃れたときの安堵を作ることだった。
 
+ナムコの業務用（アーケード）ゲーム『パックマン』（1980年）では、プレイヤーは迷路でエサを食べながらモンスターをかわす。開発者の岩谷徹氏は、経営学の研究者で聞き手を務めた生稲史彦氏らのオーラル・ヒストリーで、モンスターを恐ろしげな見た目から遠ざけ、憎めない存在にしようとした経緯を語っている。初期のモンスターは全員赤だった。[[3](#ref-3)][[4](#ref-4)]
 
-パックマン以降、FSMはあらゆるジャンルに波及した。アドベンチャーゲームのNPCが昼夜のサイクルで行動を変える仕組み、RPGの敵が「待機→発見→攻撃→撤退」と状態を切り替えるパターンなど、1990年代末にいたるまでFSMはゲームAIの事実上の標準技術だった。しかし、ゲームの複雑化とともに「状態の数が膨大になり蜘蛛の巣のように複雑化する」という問題が露呈していくことになる。[[3](#ref-3)]
+追いかけっこを成立させる工夫は、モンスターの動きと迷路の両方にあった。袋小路をなくし、迷路の反対側へ抜けられるワープトンネルを設けた。パワーエサを取れば、一時的にパックマンが追う側に回れる。モンスターにも、まとまって攻め寄せては散る動きが加わった。岩谷氏によれば、こうした工夫にはプレイヤーのフラストレーションをためない狙いがあった。[[4](#ref-4)]
 
-### MSX2『メタルギア』と視野・聴覚のAI設計 (1987)
+![迷路中央のパックマンと、周囲の通路に分散した4体のモンスターが写る業務用パックマンのゲーム画面](image/history-ai-pacman-arcade-maze.webp)
 
-1987年7月13日、コナミはMSX2向けに小島秀夫監督作品『メタルギア』をリリースした。MSX2は同時表示できるスプライト数に厳しい制限があり、プレイヤーキャラクター・敵兵・銃弾を同時に画面に出すことさえ困難だった。この技術的制約に直面した小島監督は「敵との戦闘を極力避ける」というステルスゲームの概念を着想する。[[4](#ref-4)]
+*画像出典（引用）：ゲーム文化保存研究所「[パックマン](https://igcc.jp/database/pac-man/)」。画像提供：バンダイナムコエンターテインメント。迷路の通路とモンスターの位置関係を示すゲーム画面。*
 
-ゲームデザインの観点から見ると、MSX2版メタルギアの敵NPCは「視野（field of vision）」という概念を導入した初期の事例だ。スクロールもバックグラウンドローディングも持てないMSX2の制約の中で、敵がプレイヤーを発見した瞬間に攻撃するシンプルなアルゴリズムが採用された。これは「ゲームの制約がAI設計を生み出した」という歴史的事例として特筆に値する。[[5](#ref-5)]
+モンスターが寄ってくると、プレイヤーは先の曲がり角まで考える。モンスターが散れば、さっきまで通れなかった道へ向かえる。敵の賢さは、プレイヤーがその動きをどう読み、どんな切り抜け方を思いつくかに表れる。次にRPGでAIに求められたのは、その判断力をプレイヤーの味方として発揮することだった。
 
-![MSX2版『メタルギア2 ソリッドスネーク』の潜入場面](image/metal-gear-2-msx-gameplay-konami.webp)
+***
 
-*出典：[METAL GEAR 2 SOLID SNAKE｜METAL GEAR PORTAL SITE](https://www.konami.com/mg/history/jp/ja/mg2) ©Konami Digital Entertainment*
+## 3. 任せられる仲間になる——『ドラゴンクエストIV 導かれし者たち』
 
+仲間の役割は、プレイヤーが決めた方針を具体的な行動に移すことだった。
 
-続編の『メタルギア2 ソリッドスネーク』（MSX2, 1990年7月20日）では敵AIが大幅強化された。視界が直線から45度の扇形に進化し、「聴覚」という概念が加わって足音やノックを敵が感知するようになった。さらに「危険モード」「警戒モード」「通常モード」という状態遷移が整備され、現代のステルスゲームの原型となるAI設計が確立された。「制約から生まれたステルス」というアイデアが、状態遷移AIの成熟によって本格的なゲームプレイへと昇華した瞬間だった。[[6](#ref-6)]
+エニックスが1990年にファミコン向けに発売した『ドラゴンクエストIV 導かれし者たち』では、第5章から、主人公以外の仲間が「作戦」に従って自動で行動する。主人公には引き続きプレイヤーが直接命令する。作戦は「みんながんばれ」「ガンガンいこうぜ」「いのちだいじに」「じゅもんせつやく」「じゅもんつかうな」「いろいろやろうぜ」の6種類だ。攻勢に出るか、仲間の生存を優先するかをプレイヤーが決め、誰がどの呪文を使うかは仲間に委ねる。[[5](#ref-5)]
 
-![メタルギアシリーズにおける視野と聴覚AIの進化](image/game-ai-metal-gear-senses-evolution.webp)
+その委任を語るときに今も引き合いに出されるのが、即死呪文が効かないボスにクリフトがザラキを繰り返す場面だ。発売35周年の回顧記事でも、仲間の判断に任せるもどかしさを象徴するエピソードとして取り上げられている。[[5](#ref-5)]
 
+任せる仕組みでは、期待が外れたときにプレイヤーが取れる手も設計の一部になる。「じゅもんつかうな」に切り替えればザラキを止められるが、有用な呪文まで止まる。どこまで細かく介入できるかによって、同じ自動戦闘でも任せやすさは変わる。『ファイナルファンタジーXII』でプレイヤーが仲間の行動条件を組む方式は、[ターン制RPGの戦闘AIを構築するためのガンビットシステム](gambit-system-for-turn-based-rpg-combat-ai.md)で扱っている。
 
----- 
+***
 
-## 2. ルールベースAIの成熟：ドラゴンクエストIVの衝撃 (1990)
+## 4. 複雑さに耐える設計へ——『Halo 2』と『F.E.A.R.』
 
-### AI戦闘システムの誕生
+敵の役割は、戦況の変化に応じて動き、プレイヤーにその場での判断を求めることだった。
 
-1990年2月11日、エニックスからファミコン向けに発売された『ドラゴンクエストIV 導かれし者たち』は、日本のゲーム史において「AI」という言葉を一般プレイヤーに普及させた作品として特筆される。シリーズ初のAI戦闘システムとして、第5章以降では主人公以外の仲間キャラクターが、プレイヤーが選んだ「作戦」に基づいてAIで自動行動する仕組みが採用された。第1章〜第4章まではNPCのみAIが担当するという段階的な導入がなされており、プレイヤーに少しずつAIの挙動を体験させる設計だった。[[7](#ref-7)][[8](#ref-8)][[9](#ref-9)]
+2000年代のアクション・シューティングで、敵に攻撃、退避、援護といった行動を増やすと、開発側では切り替えの管理が難しくなる。たとえば「攻撃中に危険が迫ったら退避する」という条件は、援護中や移動中にも必要になり得る。有限状態機械（FSM）は、現在の状態と切り替えの条件で振る舞いを記述する仕組みだが、状態ごとに遷移を手で書き並べると、行動を足すたびに確認箇所が増える。開発者は、振る舞いを増やしても扱える構造を求めた。[[6](#ref-6)][[7](#ref-7)]
 
-プレイヤーが選べる作戦はファミコン版オリジナルで「ガンガンいこうぜ」「みんながんばれ」「いろいろやろうぜ」「じゅもんをせつやく」「じゅもんつかうな」「いのちだいじに」の6種類だった。このシステムの全体構想を主導したのはシナリオ・ゲームデザイン担当の堀井雄二氏で、AIの実装プログラミングを担ったのは山名学氏だ。1988年6月に目処が立ち、完成まで約1年を要した。設計者たちが込めた思想は「最善の選択＝敵集団の恐怖度を削り取る、効率の最も高い行動」であり、当時のファミコン本体のメモリ容量わずか2KBの中でこのロジックを実装することは技術的快挙だった。[[10](#ref-10)][[11](#ref-11)][[12](#ref-12)][[7](#ref-7)]
+Bungieの『Halo 2』（2004年）では、振る舞いを階層にまとめた。Damian Isla氏はGDC 2005の発表録で、この構造を階層型の有限状態機械、あるいはビヘイビアツリーとして説明している。ビヘイビアツリーは、条件や優先順位に沿って枝をたどり、キャラクターの振る舞いを選ぶ仕組みだ。中核のグラフには約50の振る舞いがあった。同じ振る舞いを複数の枝から参照するため、厳密には、向きのある接続をたどって元に戻る経路がない「有向非巡回グラフ」である。[[6](#ref-6)]
 
-![ドラゴンクエストIVのAI戦闘における意思決定フロー](image/game-ai-dragon-quest-iv-decision-flow.webp)
+Monolith Productionsの『F.E.A.R.』（2005年）では、実行する状態を「移動する」「アニメーションを再生する」「スマートオブジェクトを使う」の三つに絞った。スマートオブジェクトとは、キャラクターに利用方法を伝えられるゲーム内の物や設備である。どの行動をどの順に取るかは、目標から逆算して手順を組むGOAPで、ゲームの実行中に決める。Jeff Orkin氏はGDC 2006で、経路探索に用いられるA*で行動の組み合わせも探索し、学術分野の計画手法ではSTRIPSに最も近いと説明した。[[7](#ref-7)]
 
+階層から振る舞いを選ぶ方法と、目標に向けて行動の順序を組み立てる方法は、どちらも戦況に応じて敵が動いているとプレイヤーに感じさせるための設計だ。技法ごとの違いと選び方は、[敵AI設計の実務――FSM・ビヘイビアツリー・GOAP・Utility AIをどう選び、どう運用するか](enemy-ai-design-practices.md)で扱っている。個々の敵がうまく動くようになると、次に問われるのは、敵がいつ、どれだけ続けて現れると面白いかである。
 
-### AIが「学習」した仕組み
+***
 
-技術的な詳細を見ると、AIは「敵の耐性」をレベル0〜3の4段階で学習する仕組みを持っていた（ランダムなターン経過で蓄積し、期待値7ターンでレベル0→3に到達）。一方で敵のHPや攻撃手段は初見から完全把握済みで、メラで倒せる敵をメラゾーマでオーバーキルするような非効率は取らない設計になっていた。また、ボス戦（逃走不可の戦闘）では「みんながんばれ」「ガンガンいこうぜ」のどちらを選んでも、裏では共通の「対ボス戦」作戦に自動切替するという実装も、後の解析で判明している。[[13](#ref-13)]
+## 5. 体験を演出する——『ザナック』から『Left 4 Dead』へ
 
-![ドラゴンクエストIVのAI戦闘における敵耐性学習の推移](image/game-ai-dragon-quest-iv-resistance-learning.webp)
+ゲーム全体を見渡すAIの役割は、プレイヤーの行動や戦況に応じて、挑戦の強さや緊張の間隔を変えることだった。
 
+その早い例が、コンパイルのMSX用シューティング『ザナック』（1986年）である。現行の配信元D4エンタープライズは、連射の多さや要塞の破壊など、プレイスタイルに応じて難度が変わる「ALC（自動難易度調整機能）」を本作の魅力に挙げている。個々の敵が何をするかに加え、プレイヤーの行動にゲーム全体がどう応じるかを設計していた例だ。[[8](#ref-8)]
 
-実プレイでは、クリフトがボスにも「ザラキ（即死呪文）」を連発するなどの問題も話題となった。これはAIに例外ルールを追加するほどのメモリ余裕がなかったためで、 **制約から生まれるAIの「愛嬌」** として今も語り継がれている。[[9](#ref-9)]
+Valveの協力型サバイバルゲーム『Left 4 Dead』（2008年）では、AI Directorが襲撃と休息の間隔を調整した。Michael Booth氏の2009年の講演資料は、本作のAI全体の目標に、さまざまな状況でも安定して振る舞うこと、人間の代わりを務められる味方を用意すること、繰り返し遊べること、劇的なペース配分を作ることの四つを挙げている。敵やアイテムは一定の構造を保ちながら、どこに出るかに変化を持たせた。Booth氏はこれを「Structured Unpredictability」と呼んでいる。[[9](#ref-9)]
 
----- 
+AI Directorは、受けたダメージや近くで倒れた敵などを手がかりに、生存者ごとの「感情の高ぶり」を推定する。高ぶりが十分に上がるとピークを短く維持し、その後は大きな脅威の投入を抑える。戦闘が沈静化し、小休止を挟むと、再び盛り上げに入る。この「Adaptive Dramatic Pacing」が変えるのは、脅威を投入する頻度、つまりペースだとBooth氏は説明している。脅威の難しさに当たる振幅は、この仕組みの調整対象から外れている。[[9](#ref-9)]
 
-## 3. 動的難易度調整の黎明期：ゲームがプレイヤーを「観察」し始めた (1986〜2000年代)
+次の襲撃までに立て直す時間を作ることと、襲撃そのものを易しくすることでは、プレイヤーに起こる変化が違う。前者が『Left 4 Dead』のペース配分であり、後者を含む難度調整の実務は、[難易度設計とダイナミックディフィカルティ――「ちょうどよい挑戦」を壊さず運用する実務](difficulty-design-and-dynamic-adjustment.md)で扱っている。
 
-「プレイヤーの腕前を見て難易度を自動調整する」技術は、Dynamic Difficulty Adjustment（DDA）と呼ばれ、ビヘイビアツリーよりも早く、1980年代に萌芽を見せていた。
+三宅陽一郎氏・水野勇太氏・里井大輝氏の論文は、ゲーム全体を動的に制御する「メタAI」の発想を1980年代の開発にさかのぼって捉えている。「メタAI」の呼称が使われるのは2005年以降で、2008年以降は、近い意味で「AI Director」も使われるようになったという。個体の判断に加えて、ゲーム全体の展開を調整する役割にも名前がついたのである。[[10](#ref-10)]
 
-### ザナックのALC (1986)
+***
 
-コンパイルが1986年7月にリリースした『ザナック』は、MSX向けを皮切りにファミコンディスクシステム版（同年11月）、翌年には北米NES版もリリースされたシューティングゲームだ。タイトル画面に堂々と「**A.I.**」と記載し、「A.L.C.（Auto Level Control／自動難易度調整）」システムをゲームの主要なセールスポイントとして打ち出した。コンパイル社長の仁井谷正充氏自身が「多分、世界で初めて『AI』という言葉を使ったゲームだと思います」と語っており、ゲームAIの名称的な起点とも言える作品だ。[[14](#ref-14)][[15](#ref-15)][[16](#ref-16)]
+## 6. 人間に勝つ研究から、遊び相手へ
 
-ALCの仕組みは現在のビューで見てもユニークだ。プレイヤーが **弾を高速連射する** ・ **偵察機（ゾルバグ）を見逃す** ・ **特殊アイテムを取得する** といった行動を判断し、それに応じて敵の攻撃パターンや出現数がリアルタイムで劇的に変化する。難易度は画面右上に16進数で常時表示されており、プレイヤーが自分でALC値を確認しながらゲームを進めることができた。一方で「うまくないプレイヤーほど難易度が上がってしまう傾向がある」という逆説的な問題も内包していた。偵察機を逃したり弾を外したりするのが初心者の典型的なミスであるため、意図せずALC値が上がるケースがあったのだ。[[17](#ref-17)][[18](#ref-18)][[16](#ref-16)]
+研究では人間の腕前がAIを測る基準になり、製品ではプレイヤーが競い合える相手を作ることが目標になった。
 
-![MSX版『ザナック』の画面右上に表示された16進数のALC値](image/zanac-msx-alc-display-egg-console.webp)
+ゲームには、操作の結果がスコアや勝敗として返ってくるという研究上の利点がある。強化学習は、行動の結果として得られる報酬を手がかりに、より良い行動の選び方を学ぶ方法だ。DeepMindが2015年2月に『Nature』で発表したDQNは、画面のピクセルとスコアから得られる報酬だけを手がかりに、同じアルゴリズムと設定でAtari 2600の49本を学習した。43本で従来の機械学習手法を上回り、半数以上でプロのテスターの75%以上の水準に達した。研究が測ったのは、共通の学習方法で多様なゲームを攻略できるかどうかだった。[[11](#ref-11)][[12](#ref-12)]
 
-*出典：[ZANAC（MSX）｜EGGコンソール](https://www.amusement-center.com/project/egg/console/detail.php?date=20250225&id=ecsw0052&lang=en) ©2025 D4Enterprise Co.,Ltd.*
+2019年4月13日には、OpenAI Fiveが『Dota 2』の世界王者OGに勝利した。OpenAIによれば、eスポーツの世界王者に勝った初のAIである。同年10月30日に発表されたDeepMindのAlphaStarは、『StarCraft II』の全3種族でグランドマスターに達し、Battle.netでプレイヤーの99.8%を上回った。最終版はカメラの表示範囲と操作頻度にプロ選手の承認を得た制限を設け、人間に近づけた条件で対戦した。[[13](#ref-13)][[14](#ref-14)]
 
+Sony AIとポリフォニー・デジタルらが開発したGT Sophyは、研究から遊び相手への橋渡しを示す。成果は2022年2月10日発行の『Nature』に掲載された。その後は、人間に近い運転操作やペナルティを避ける走り方も学ばせた。2023年2月には『グランツーリスモ7』の期間限定モード「Race Together」で、一般のプレイヤーが初めて対戦できるようになった。[[15](#ref-15)][[16](#ref-16)]
 
+![グランツーリスモ7のRace Togetherで、Sophy VerteなどのAI車両を追うプレイヤー視点のレース画面](image/history-ai-gt-sophy-race-together.webp)
 
-![ザナックのALCによる動的難易度調整のフィードバックループ](image/game-ai-zanac-alc-feedback-loop.webp)
+*画像出典（引用）：グランツーリスモ・ドットコム「[グランツーリスモ・ソフィーとのレースが体験できる新イベント『レース・トゥギャザー』を期間限定で開催！](https://www.gran-turismo.com/jp/gt7/news/00_5962264.html)」、2023年2月20日。© Sony Interactive Entertainment Inc. Developed by Polyphony Digital Inc.*
 
-### スーパーアレスタの難易度調整 (1992)
+速い相手を作ることと、競って楽しい相手を作ることには、それぞれ設計の手間がかかる。レースなら、ラップタイムに加えて、並走や追い越しのときに相手がどう振る舞うかが遊びの質を左右する。
 
-コンパイルのSTGシリーズ後継作として1992年にSFCで発売された『スーパーアレスタ』もまた、難易度自動調整機能を搭載していた。広告でも「AIを搭載した難易度自動調節」を前面に押し出しており、ザナックで確立したコンパイルのDDAの哲学がSFCへ受け継がれた形だ。ただし詳細な実装の一次資料は現時点では確認できておらず、ALCのような数値表示が維持されたかどうかは不明である。[[19](#ref-19)][[20](#ref-20)]
+***
 
-### バイオハザード4とLeft 4 Dead：DDAの成熟 (2005〜2008)
+## 7. 話す——生成AIの時代
 
-三上真司監督の『バイオハザード4』（2005年）では「Difficulty Scale」という非公開システム（1〜10段階の評価値）が内部で稼働しており、プレイヤーの死亡回数・クリティカル成功率などに基づいて敵の行動と耐久力をリアルタイムに調整していた。このシステムは公式には非公開とされており、プレイヤーが意識しないところで「ちょうど良い難しさ」を作り出す設計思想だった。翌年2006年にリリースされた同社の『ゴッドハンド』（Capcom）では逆に、難易度メーターを画面上にリアルタイム表示し、プレイヤーが難易度の変化を直視する設計を採用した。「見えないDDA」と「見えるDDA」という対照的な設計哲学が相次いで登場したことは興味深い。[[21](#ref-21)][[22](#ref-22)]
+NPCの役割は、プレイヤー自身の言葉を受け取り、その場の会話や行動に反映することへ広がった。
 
-2008年のValve『Left 4 Dead』は、DDAの概念を「**メタAI**」の形で結実させた。「AIディレクター」は4人の生存者それぞれの「感情強度（Intensity）」を常時監視し、ゾンビの出現数・配置・アイテムの場所・BGMまでを動的に制御する。「ビルドアップ→ピーク→リラックス」のリズムを繰り返すことで、毎回異なる体験を生み出しながらも、つねに「絶妙な難しさ」をプレイヤーに与えることに成功した。AIディレクターは目に見えない存在でありながら、プレイ体験全体を演出する黒幕として機能した。[[23](#ref-23)][[24](#ref-24)][[25](#ref-25)]
+Ubisoftが2024年3月のGDCで公開した「NEO NPC」は、同社初のプレイヤー向け生成AIの試作である。プレイヤーは声でNPCと会話する。開発チームはInworld AIの技術を使い、NPCごとに背景、知っていること、話し方を設定した。NVIDIA ACEに含まれるAudio2Faceは、発話に合わせて表情をリアルタイムに動かす。会話の内容と、話している人物としての見え方を組み合わせた試作だ。[[17](#ref-17)][[18](#ref-18)]
 
-![Left 4 DeadのAIディレクターが制御する感情強度の波形](image/game-ai-left-4-dead-director-pacing.webp)
+![NEO NPCの試作で、NPCのBloomがプレイヤーに話しかけ、会話字幕と関係性の表示が出ている画面](image/history-ai-neo-npc-bloom-conversation.webp)
 
+*画像出典（引用）：Ubisoft「[How Ubisoft’s New Generative AI Prototype Changes the Narrative for NPCs](https://news.ubisoft.com/en-gb/article/5qXdxhshJBXoanFZApdG3L)」、2024年3月19日。© Ubisoft Entertainment. 会話相手の表情と字幕、関係性の表示を示す試作画面。*
 
----- 
+同社が2025年11月21日に発表した「Teammates」は、プレイヤーが声で味方のNPCに指示を出す、実際に遊べる研究プロジェクトだ。声で伝えた意図が味方の行動に反映される点で、『ドラゴンクエストIV』の作戦と同じく実行を任せる仕組みであり、方針を伝える方法が広がっている。[[19](#ref-19)]
 
-## 4. FSMからビヘイビアツリー・GOAPへ：NPCAIの設計革命 (2000年代)
+プレイヤーが自由に話せるほど、NPCには想定外の問いかけも届く。まだ知り得ない出来事を尋ねられたとき、何を知っていて、どう答える人物なのか。声で命令されたとき、どこまで実行するのか。自由な入力を受け入れながら、物語とキャラクターの一貫性を保つことが設計課題になる。国内の事例は、[『ドラゴンクエストX』おしゃべりスラミィに学ぶ、生成AIコンパニオンの「自由を絞る」設計](dragon-quest-x-slamy-generative-ai-companion-design.md)で扱っている。
 
-### ビヘイビアツリーの普及 (Halo 2, 2004)
+***
 
-ゲームの複雑化とともに、FSMだけでは「状態の数が膨大になり蜘蛛の巣のように複雑化する」という限界が露呈した。そこでゲームAIに急速に浸透したのが **ビヘイビアツリー（Behavior Tree）** だ。ロボティクス分野で培われてきたこの手法を商用ゲームに本格的に実装・普及させたのが、BungieのDamian Isla氏だ。氏は『Halo 2』（2004年）のAI設計にビヘイビアツリーを導入し、2005年のGDC講演「Handling Complexity in the Halo 2 AI」でその知見を業界に広く共有した。ツリー状の非循環グラフで行動の優先順位と条件分岐を管理するこの手法は、拡張性と可読性の高さから業界標準となった。現在のゲームのキャラクターAIの約7割がビヘイビアツリーで作られているとも言われ、Unreal EngineやUnityの標準機能として搭載されている。なお、FSMとビヘイビアツリーは対立するものではなく、現代の実装では「上層でFSMが状態管理を行い、下層のビヘイビアツリーが具体的な挙動を担う」という組み合わせも一般的だ。[[26](#ref-26)][[2](#ref-2)][[27](#ref-27)][[3](#ref-3)]
+## 8. むすび
 
-![FSMとビヘイビアツリーによるNPC行動制御の構造比較](image/game-ai-fsm-vs-behavior-tree.webp)
+ここまでの流れを表にまとめる。
 
+| 年代 | 代表例 | プレイヤーに対するAIの役割 |
+| --- | --- | --- |
+| 1980年 | 『パックマン』 | 追われる緊張と逃げ切る機会を作る |
+| 1990年 | 『ドラゴンクエストIV 導かれし者たち』 | 作戦を受け取り、仲間の行動を決める |
+| 2004〜2005年 | 『Halo 2』『F.E.A.R.』 | 戦況に応じて動き、プレイヤーに判断を迫る |
+| 1986年・2008年 | 『ザナック』『Left 4 Dead』 | プレイに応じて難度や襲撃のペースを変える |
+| 2015〜2023年 | DQN、OpenAI Five、AlphaStar、GT Sophy | 人間の成績を研究の基準にし、製品では競い合う相手になる |
+| 2024〜2025年 | NEO NPC、Teammates | 声で伝えた言葉に応じて話し、指示を行動に移す |
 
-### GOAP：F.E.A.R.の目標指向型AI (2005)
+ゲームAIを作る前に、プレイヤーに対して何をする役かを決める。敵なら振る舞いがどう見えるか、仲間なら何を任せられるか、ゲーム全体を扱うならどこで緊張を高め、どこで休ませるかを考える。
 
-ビヘイビアツリーと並行して生まれたもう一つの革新がGOAP（Goal-Oriented Action Planning／ゴール指向型アクションプランニング）だ。当時Monolith ProductionsのAIリードだったJeff Orkin氏が『F.E.A.R.』（2005年）に導入し、敵兵士が「ゴール（目標）から逆算して行動計画を立てる」という人間的な思考プロセスをリアルタイムの意思決定（1/60秒単位）で実現した。なお、Orkin氏はF.E.A.R.の開発を終えた2005年以降にMIT Media Labの博士課程に進み、2013年に博士号を取得している。[[28](#ref-28)][[26](#ref-26)]
-
-GOAPの特徴は、敵NPCがただ「プレイヤーを攻撃する」のではなく、掩蔽物を利用したカバー取得、火力制圧中の仲間との連携、死角からの迂回攻撃、弾切れ時の戦術変更といった複数のアクションを状況に応じて動的に組み合わせることができる点だ。F.E.A.R.のFSMが「わずか3状態」でGOAPと組み合わされていたことは、「GOAPがFSMを置き換えた」のではなく「GOAPがFSMを補完・拡張した」という歴史的経緯を示している。後にMiddle-earth: Shadow of MordorやTomb Raiderといった作品もGOAPを採用しており、ゲームAIの重要な技術系譜として定着している。[[29](#ref-29)][[30](#ref-30)]
-
-![GOAPがゴールから逆算して戦術を組み立てるプランニング過程](image/game-ai-goap-planning-process.webp)
-
-
----- 
-
-## 5. 深層強化学習とコンピューターゲーム (2013〜現在)
-
-ボードゲームではなく、 **コンピューターゲームそのもの** を対象とした深層強化学習（Deep Reinforcement Learning）の研究は、2013年以降に急速に進展した。
-
-### DeepMind DQNとAtariゲーム (2013〜2015)
-
-2013年、DeepMindが発表した「DQN（Deep Q-Network）」論文は、Atari 2600の7タイトル（ブロック崩し、ピンポンなど）をピクセル画像のみから自律的に学習し、うち6タイトルで先行手法を超えるスコアを達成し、3タイトルで人間のスコアを上回ることを示した。Q学習（行動の価値を評価する強化学習手法）と深層CNN（畳み込みニューラルネットワーク）を組み合わせた手法で、ゲームのルールを一切教えずとも、報酬（スコア）のみを手がかりに戦略を習得するという点が革命的だった。
-
-2015年にはNature誌への掲載版論文（Human-level control through deep reinforcement learning）として拡張され、49タイトルでテストを実施。先行RL手法を43タイトルで上回り、29タイトルで人間スコアの75%以上を達成するという大幅に強化された結果が示された。この一連のDQN研究が現代の深層強化学習ブームの起点となった。[[31](#ref-31)][[32](#ref-32)][[33](#ref-33)][[34](#ref-34)][[35](#ref-35)]
-
-![DQNがゲーム画面から各行動のQ値を学習するアーキテクチャ](image/game-ai-dqn-architecture.webp)
-
-
-### AlphaStarとStarCraft II (2019)
-
-DeepMindのAlphaStarは、ブリザードのリアルタイムストラテジーゲーム「StarCraft II」に対して、2019年1月の公開発表イベントで世界トッププレイヤーを相手に通算10-1のスコアを記録し衝撃を与えた。その後さらに訓練を重ねた改良版AlphaStarは、2019年10月に公式ゲームサーバーBattle.netで匿名でプレイし、人間プレイヤー上位0.2%にランクインするグランドマスターレベルを達成した。[[36](#ref-36)][[37](#ref-37)]
-
-注目すべきは「より人間らしい条件での制約設定」だ。以前のバージョンはゲームデータを直接読み込んでいたが、改良版はカメラを通じて画面を見る形式に制限され、行動頻度にも人間と同等の上限が課された。これにより「人間と全く同じ条件下でも勝てる」ことが証明された。AlphaStarは教師あり学習（人間の棋譜模倣）と強化学習によるセルフプレイ、マルチエージェント学習を組み合わせる手法を採用しており、ゲーム環境は汎用的な機械学習研究のベンチマークとして機能した。[[38](#ref-38)][[36](#ref-36)]
-
-![AlphaStarの模倣学習・セルフプレイ・リーグ学習の3段階](image/game-ai-alphastar-training-pipeline.webp)
-
-
-### OpenAI FiveとDota 2 (2018〜2019)
-
-同時期にOpenAIもDota 2を対象とした「OpenAI Five」を開発した。2018年6月には制限ルール下でアマチュア〜セミプロレベルのチームへの5対5チーム戦勝利を達成し、2019年4月にはDota 2世界チャンピオンチーム「Team OG」を2-0で破った。OpenAI Fiveは訓練初期には1日に180年分相当のゲームプレイを学習しており（最終段階では1日250年分超に拡大）、256台のGPUと12万8000個のCPUコアを投入した大規模なインフラで訓練されていた。StarCraft IIとDota 2という二大eスポーツ両方でAIが世界チャンピオンを超えたことで、2019年は深層強化学習の「頂点到達の年」として記憶されている。[[39](#ref-39)][[40](#ref-40)][[41](#ref-41)]
-
-### Gran Turismo Sophy (2022)
-
-コンピューターゲームを舞台にした深層強化学習の成果として、2022年にポリフォニー・デジタルとSony AIが発表した「Gran Turismo Sophy（GTソフィー）」も特筆に値する。1000台以上のPS4を学習環境に投入し、累計走行距離30万km相当の学習を経て、グランツーリスモの世界トップドライバーと対等に競争できるAIへと成長した。[[42](#ref-42)][[43](#ref-43)]
-
-GTソフィーが他のゲームAI研究と異なるのは、「速さ」だけでなく「フェア精神」も学習対象としたことだ。初期のSophyは他のレーサーにぶつかることも辞さない荒れた走りだったが、報酬設計に「レースとしてのフェアさ」を加味することで、人間と協調し参加者が「楽しい」と感じられるAIへと変化した。これはゲームAIが「勝利の最大化」だけでなく「体験の共創」を目標に設計されうることを示す事例だ。[[43](#ref-43)]
-
-![Gran Turismo Sophyの報酬設計が速さ重視から体験共創へ進化した比較](image/game-ai-sophy-reward-evolution.webp)
-
-
----- 
-
-## 6. LLM×ゲームという新潮流 (2023〜現在)
-
-### ゲームAIが直面していた課題
-
-2015年以降のオープンワールド化の波により、ビヘイビアツリーは肥大化の限界を迎えつつあった。また従来のNPCは「決められたセリフをループする存在」に過ぎず、プレイヤーとの本質的な会話や関係構築は不可能だった。この問題を解決する可能性として注目を集めているのが、大規模言語モデル（LLM）のゲームへの統合である。[[26](#ref-26)]
-
-![従来NPCとLLM搭載NPCの入出力・対話モデルの比較](image/game-ai-traditional-vs-llm-npc.webp)
-
-
-### NVIDIA ACE (2023〜)
-
-NVIDIAは2023年、NPCに知性をもたらす「NVIDIA ACE（Avatar Cloud Engine）for Games」を発表した。音声認識（NVIDIA Riva）・LLMによる対話生成（NeMo）・リアルタイム表情アニメーション（Audio2Face）を組み合わせ、プレイヤーが自然言語でNPCと会話できる基盤を提供する。2025年CESではさらに「自律型ゲームキャラクター」への拡張が発表され、PUBG向けAIチームメイト「PUBG Ally」（Mistral-Nemo-Minitron-8Bモデル使用）、NARAKA: BLADEPOINT MobileへのACE搭載AIチームメイト（2025年3月リリース）が具体化した。GDC 2025で発表された殺人ミステリーゲーム「Dead Meat」では、容疑者NPCとの自由対話をクラウドではなくオンデバイスのSLM（小規模言語モデル）で実現する技術も披露されている。[[44](#ref-44)][[45](#ref-45)][[46](#ref-46)]
-
-![NVIDIA ACEで音声入力からNPC応答を生成する技術スタック](image/game-ai-nvidia-ace-stack.webp)
-
-
-### Ubisoft NEO NPCとTeammates (2024〜2025)
-
-Ubisoftのパリスタジオは2024年3月、GDCにて「NEO NPC」プロジェクトを発表した。Inworld AIのLLMとNVIDIA Audio2Faceを活用し、プレイヤーの音声にリアルタイムで反応して即興対話を行うNPCを開発中だ。NPCには独自の性格・背景・目標・感情が設定され、プレイヤーとの対話がゲームプレイの進行に直接影響する仕組みを目指している。[[47](#ref-47)][[48](#ref-48)][[49](#ref-49)]
-
-2025年11月にはさらに進化した「Teammates」プロジェクトが発表された。FPS環境でAIチームメイト「Pablo」と「Sofia」がプレイヤーの音声コマンドに反応して射撃・援護・戦術議論をリアルタイムで行うという体験を実現し、GoogleのGeminiと自社ミドルウェアを組み合わせた約80人のチームが開発した。Ubisoftは「生成AIがゲームに与えるインパクトは3Dへの移行に匹敵する」とその重要性を強調している。[[50](#ref-50)][[51](#ref-51)]
-
-![NVIDIA ACE for GamesのKairosデモで会話するNPC](image/nvidia-ace-kairos-demo.webp)
-
-*出典：[Introducing NVIDIA ACE For Games - Spark Life Into Virtual Characters With Generative AI](https://www.nvidia.com/en-us/geforce/news/nvidia-ace-for-games-generative-ai-npcs/) ©NVIDIA Corporation*
-
-
-### 進行中の課題と展望
-
-LLMとゲームの融合はまだ実験段階だ。Ubisoftのナラティブディレクターは「LLMが物語制作を楽にするという誤解がある。実際にはキャラクターの設定資料（バイブル）が丸ごとプレイヤーにさらされるリスクが生じ、ガードレールの設計が複雑になる」と指摘する。技術面ではクラウドベースLLMの遅延・コスト・オフライン環境での制限という問題を、SLMのオンデバイス動作で解決しようとする動きが進んでいる。[[52](#ref-52)][[46](#ref-46)][[53](#ref-53)]
-
-FSMから始まり、DDA・メタAI・ビヘイビアツリー・GOAP・深層強化学習、そしてLLMへ。ゲームAIの歴史は技術的制約を創造性に変え続けてきた。1987年のMSX2の画面制限がステルスゲームを生み、2KBのファミコンが「AI戦闘」という概念を世に送り出したように、制約と工夫の積み重ねの延長線上に、今日のLLM統合型ゲームキャラクターが立っている。
-
-![1980年から2025年までのゲームAI技術を5系統で示した年表](image/game-ai-technology-timeline.webp)
-
-
----
+判断を任せる仕組みには、期待が外れたときに方針を切り替えられる手段も用意する。対戦相手を作るときは、どれだけ強いかと、プレイヤーがどんな駆け引きを楽しめるかをそれぞれ確かめる。その役割が決まれば、AIにどんな賢さが要るかも具体的になる。
 
 ## References
 
-<a id="ref-1"></a>1. [AIゲームとは何か知りたい方必見！仕組みをわかりやすく紹介][1] - 有限オートマトン（FSM）, あらかじめ定義した状態を条件に応じて切り替える, 敵キャラが「待機→発見→追跡→攻撃」と状態遷移する ; ビヘイビアツリー, 行動を ...
+<a id="ref-1"></a>1. [GAME Watch「スクエニ・三宅陽一郎氏、2020年度人工知能学会論文賞を受賞」][1] — GAME Watch、2021年6月22日。
 
-<a id="ref-2"></a>2. [Halo2 におけるHFSM(階層型有限状態マシン) - t-pot][2] - ゲームAIでは、意思決定に状態を使用する。 イベントによって内部状態が変化 例 パックマンの敵AIでは、「追う」、「逃げる」、「死ぬ」、「復活」の状態を遷移 （実際 ...
+[1]: https://game.watch.impress.co.jp/docs/news/1333156.html
 
-<a id="ref-3"></a>3. [AI最前線の現場から【スクウェア・エニックス】ゲーム ...][3] - ビヘイビア・ツリーは「Halo2」（Bungie, 2004）で新しく開発された技術で、現在ではゲーム産業で最も使用されている手法です。現在のゲームのキャラクター ...
+<a id="ref-2"></a>2. [三宅陽一郎「デジタルゲームにおける人工知能の動的連携モデルとその実装」][2] — 東京大学、2021年。博士論文。
 
-<a id="ref-4"></a>4. [メタルギアシリーズ - Wikipedia][4] - 小島秀夫監督作品 · メタルギア （1987年7月13日・MSX2） · メタルギア2 ソリッドスネーク （1990年7月20日・MSX2） · メタルギアソリッド （1998年9月3日・PS / 2...
+[2]: https://repository.dl.itc.u-tokyo.ac.jp/records/2006149
 
-<a id="ref-5"></a>5. [[PDF] T H E C O M P L E T E O F F I C I ...](https://www.piggyback.com/us/wp-content/uploads/sites/6/2020/04/MGSV\_UE\_003-055\_150903\_ML.pdf) - Metal Gear made its first appearance on the MSX2 hardware 28 years ago. That was the era of the "sho...
+<a id="ref-3"></a>3. [バンダイナムコエンターテインメント「HISTORY」][3] — PAC-MAN公式サイト。
 
-<a id="ref-6"></a>6. [[Metal Gear Solid] The Birth and Evolution of Stealth Action - YouTube](https://www.youtube.com/watch?v=hBSz4MaxV7I) - 元々、メタルギアはアクションゲームとして作っていたのですが、msx2の処理能力では弾を1度に4つ以上表示できなかったので、あえて弾を撃たない、撃て ...
+[3]: https://www.pacman.com/en/history/
 
-<a id="ref-7"></a>7. [ドラクエIVからChatGPTまで：AIの歴史をスライム並みにやさしく ...][5] - 1990年、ファミコン用ソフト『ドラゴンクエストIV』において、「AI戦闘システム」という新しい仕組みが登場しました。中でも「ガンガンいこうぜ」 ...
+<a id="ref-4"></a>4. [生稲史彦・福田一史・鴫原盛之「岩谷徹 第3回インタビュー前半：『キューティQ』『パックマン』におけるゲーム開発・企画の手法」][4] — 一橋大学イノベーション研究センター、IIR Working Paper WP#19-07、2019年2月。pp. 34–36、40、44–45。
 
-<a id="ref-8"></a>8. [ドラゴンクエストIV 導かれし者たち - Wikipedia][6] - 戦闘時のAIシステムに関しては、最大8人のキャラクターが混在してもスムーズに行えるといった意見や、戦闘シーンが快適であったなど肯定的な意見が散見された。
+[4]: https://pubs.iir.hit-u.ac.jp/admin/ja/pdfs/file/2245
 
-<a id="ref-9"></a>9. [「ドラクエ4」35周年！ 延々とザラキを唱えるクリフトにぐぬぬ。AI ...][7] - 第1章～4章までは手動でコマンド入力を行ない、キャラクターの行動を指示するバトルなのだが（NPCはAI）、第5章からは主人公を除く味方キャラクターたちは、 ...
+<a id="ref-5"></a>5. [アサミリナ「「ドラクエ4」35周年！ 延々とザラキを唱えるクリフトにぐぬぬ。AI戦闘やキャラクター、カジノなど今でも愛される要素満載の名作RPG」][5] — GAME Watch、2025年2月11日。ファミコン版の回顧記事。
 
-<a id="ref-10"></a>10. [ドラクエIVからChatGPTまで：AIの歴史をスライム並みにやさしく ...][8] - 『ドラゴンクエストIV』のAI戦闘システム、覚えてますか？ 1990年、ファミコン版で初登場したこのシステム ...
+[5]: https://game.watch.impress.co.jp/docs/kikaku/1660147.html
 
-<a id="ref-11"></a>11. [[DQ4] The reason for introducing the AI ​​system and ... - YouTube](https://www.youtube.com/watch?v=yD537GTjH5s) - [DQ4] The reason for introducing the AI ​​system and Clift's verification [Part 2 of 128 - Game N......
+<a id="ref-6"></a>6. [Damian Isla「GDC 2005 Proceeding: Handling Complexity in the Halo 2 AI」][6] — Game Developer、2005年3月11日。
 
-<a id="ref-12"></a>12. [【解析】ドラクエ4のAI戦闘 - med A - はてなブログ][9] - 今から30年以上前の話となります。 人工知能をテーマとして取り上げ. そのコンセプトをゲームに組み込んだことが. 当時、話題になりました。
+[6]: https://www.gamedeveloper.com/programming/gdc-2005-proceeding-handling-complexity-in-the-i-halo-2-i-ai
 
-<a id="ref-13"></a>13. [ドラクエ4のAI戦闘と作戦、完全に理解した｜frenchbread - note][10] - 30年ぶりにファミコン版ドラクエ4をプレイしたので、AI戦闘の仕様についてまとめます。ソースは主に下の記事と自分でプレイした検証結果です。
+<a id="ref-7"></a>7. [Jeff Orkin「Three States and a Plan: The A.I. of F.E.A.R.」][7] — Game Developers Conference、2006年。著者の旧公開先は現在リンク切れのため、講演論文のミラーを参照。講演はGDC Vaultに収録。
 
-<a id="ref-14"></a>14. [仁井谷正充氏に訊く『ザナック』にAIが導入された理由][11] - 『ザナック』とは、どのようなゲームだったのか？「多分、世界で初めて『AI』という言葉を使ったゲームだと思います.
+[7]: https://www.gamedevs.org/uploads/three-states-plan-ai-of-fear.pdf
 
-<a id="ref-15"></a>15. [ザナック (シューティングゲーム)とは？ わかりやすく解説][12] - A.L.C.（Auto Level Control/自動難易度調整）というシステムを採用しており、プレイする都度に、またプレイヤーの技量次第で展開と難易度が変化するようになっている。MSX版 ...
+<a id="ref-8"></a>8. [D4エンタープライズ「EGGコンソール ザナック MSX」][8] — EGGコンソール公式サイト、2025年1月23日配信。配信元による商品説明。
 
-<a id="ref-16"></a>16. [「ゲームニクス」で考えるゲームの魅力 第三十八回 ゲームAI][13] - そこで、例えば敵キャラの思考レベルやパラメーターを、最初は低めに設定して段階的に上げていく、あるいはプレイヤーの実力を自動で見定めて難易度を調整 ...
+[8]: https://www.amusement-center.com/project/egg/console/detail.php?date=20250220&id=ecsw0052
 
-<a id="ref-17"></a>17. [『ZANAC』の真髄：自動難易度調整 - YouTube][14] - 『ZANAC』の真髄：自動難易度調整.
+<a id="ref-9"></a>9. [Michael Booth「The AI Systems of Left 4 Dead」][9] — Valve、2009年。講演資料の「Goals of Left 4 Dead AI」「Structured Unpredictability」「Adaptive Dramatic Pacing」を参照。
 
-<a id="ref-18"></a>18. [『ザナック』快適な高速スクロールと人工知能による自動難易度 ...][15] - ちなみにALCの値は特定の敵を見逃してしまう、特殊なアイテムを使用するなどの行動により大きく上昇しましたが、プレイヤーが弾を連射する事でも徐々に ...
+[9]: https://cdn.fastly.steamstatic.com/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf
 
-<a id="ref-19"></a>19. [COMPILE - SMS Power!][16] - メインショットと8種類のサブウエポンを駆使して12ステージ（だったかな）を戦います。 このゲーム、当時では珍しくウリの一つでもあった難易度自動調節（AI）のゲームで、
+<a id="ref-10"></a>10. [三宅陽一郎・水野勇太・里井大輝「「メタAI」と「AI Director」の歴史的発展」][10] — デジタルゲーム学研究、13巻2号、pp. 1–12、2020年。
 
-<a id="ref-20"></a>20. [COMPILE][17] - メインショットと8種類のサブウエポンを駆使して12ステージを戦います。 このゲームのウリの一つでもあった、当時では珍しい難易度自動調節機能（広告などではAIって呼んで ...
+[10]: https://www.jstage.jst.go.jp/article/digraj/13/2/13_1/_article/-char/ja
 
-<a id="ref-21"></a>21. [Game Changers: Dynamic Difficulty - Game Developer][18] - A breakdown of some different approaches to dynamic difficulty adjustment, including one neat exampl...
+<a id="ref-11"></a>11. [Volodymyr Mnihほか「Human-level control through deep reinforcement learning」][11] — Nature、518巻、2015年2月26日号。
 
-<a id="ref-22"></a>22. [Dynamic game difficulty balancing - Wikipedia][19] - The aim of dynamic difficulty balancing is to maintain the player's interest throughout the game by ...
+[11]: https://pubmed.ncbi.nlm.nih.gov/25719670/
 
-<a id="ref-23"></a>23. [【UE4】L4DのAIDirectorを真似てメタAIを作ってみる その1][20] - Left 4 Deadシリーズ（L4D）ではAIDirector · ルールに基づいた敵の出現（スポーニング） · ドラマチックなペースの生成（ペーシング） · 障害物の配置（ルート作成）
+<a id="ref-12"></a>12. [Dharshan Kumaran・Demis Hassabis「From Pixels to Actions: Human-level control through Deep Reinforcement Learning」][12] — Google Research、2015年2月25日。
 
-<a id="ref-24"></a>24. [Counter-Strike」から「Left 4 Dead」へ 協力プレイ、リプレイ性][21] - AIディレクターは、ご存じのとおり、本作のゲーム展開を制御する人工知能だ。これについて、巷では「毎回異なるシチュエーションを演出してくれる」こと ...
+[12]: https://research.google/blog/from-pixels-to-actions-human-level-control-through-deep-reinforcement-learning/
 
-<a id="ref-25"></a>25. [バルブのLeft 4 DeadのAIディレクターとは？][22] - AIディレクターは、プレイヤーのストレスレベルやプレイの強度を測定し、ゲームワールドを変更してプレイヤーを刺激します。ディレクターは、ゾンビの出現 ...
+<a id="ref-13"></a>13. [OpenAI「OpenAI Five defeats Dota 2 world champions」][13] — OpenAI、2019年4月15日。試合は4月13日。
 
-<a id="ref-26"></a>26. [【記事更新】私のブックマーク「ディジタルゲームの人工知能の ...][23] - ... ゲーム産業にもたらしたDamian Isla氏の仕事と，「ゴール指向型アクションプランニング」（GOAP：Goal-Oriented Action Planning）を導入した Jef Ork...
+[13]: https://openai.com/index/openai-five-defeats-dota-2-world-champions/
 
-<a id="ref-27"></a>27. [【ゲーム開発】プレイヤーAIを制御する方法の紹介｜トイロジック][24] - FSMとBTの組み合わせは、AIの制御を柔軟かつ効果的に行うために適しています。 具体例を挙げて説明します.
+<a id="ref-14"></a>14. [DeepMind「AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning」][14] — DeepMind、2019年10月30日。
 
-<a id="ref-28"></a>28. [GOAP（ゴール指向プランニング） - hasht's notes - はてなブログ][25] - ... GOAP（ゴール指向プランニング、Goal-Oriented Action Planning）と呼ばれるが、起源は「F.E.A.R.」にあるようだ。 元々人工知能分野でプランニング ...
+[14]: https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/
 
-<a id="ref-29"></a>29. [FEAR基于GOAP的AI系统GDC分享（中英双语）][26]
+<a id="ref-15"></a>15. [Sony AI「Sony AI Showcases the Latest Evolution of Gran Turismo Sophy at Gran Turismo World Series 2022 Exhibition Race」][15] — Sony AI、2022年11月28日。
 
-<a id="ref-30"></a>30. [Gamasutra: Building the AI of F.E.A.R. with Goal Oriented Action Planning][27]
+[15]: https://ai.sony/news/sonyai017
 
-<a id="ref-31"></a>31. [Playing Atari with Deep Reinforcement Learning(2013) - Blanket][28] - 概要. 深層強化学習をAtari2600の7つのゲームに応用し、うち6つについて先行手法の性能を超えたDeep Q-Networks(DQN)を提案した論文である。
+<a id="ref-16"></a>16. [Sony AI「Sony AI in Partnership with Polyphony Digital Announces First Global Release of Gran Turismo Sophy for Gran Turismo 7」][16] — Sony AI、2023年2月20日。
 
-<a id="ref-32"></a>32. [【5分講義・深層強化学習#1】深層強化学習そしてDQN手法][29] - 深層強化学習の圧倒的に代表的な手法は DeepMind社が開発したDQN（Deep Q-Network）です。DQNは、従来の強化学習モデルにおけるQ学習を基本的な思想 ...
+[16]: https://ai.sony/news/sonyai018
 
-<a id="ref-33"></a>33. [【強化学習】表形式Q学習とDQNの違い - Qiita][30] - DQNは、Q学習の考え方を拡張し、Q値をニューラルネットワークで近似する手法です。2013年にDeepMind社の研究チームによって発表され、2015年には「Nature ...
+<a id="ref-17"></a>17. [Ubisoft「How Ubisoft's New Generative AI Prototype Changes the Narrative for NPCs」][17] — Ubisoft News、2024年3月。
 
-<a id="ref-34"></a>34. [これさえ読めばすぐに理解できる強化学習の導入と実践 - DeepAge][31] - DeepMind社が有名になったのは、2013年にAtariのゲームを攻略する論文を公開してからです。この論文では、Atariの6ゲームで人間の能力を上回ることが示 ...
+[17]: https://news.ubisoft.com/en-gb/article/5qXdxhshJBXoanFZApdG3L
 
-<a id="ref-35"></a>35. [DQN ｜ AI主要論文 ｜ hatohato.jp][32] - DQN（Deep Q-Network）は、CNNを用いてQ関数を近似し、生の画像入力からAtariゲームをプレイする深層強化学習手法である。Experience ReplayとTarget ...
+<a id="ref-18"></a>18. [Ubisoft「Ubisoft Unveils ‘NEO NPCs’, its First Prototype For GenAI-powered Characters and Gameplay」][18] — Ubisoft、2024年3月19日。GDCでの発表に合わせたプレスリリース。
 
-<a id="ref-36"></a>36. [AlphaStar : マルチエージェント強化学習を使用したStarCraft IIの ...][33] - 「AlphaStar」は、「ニューラルネットワーク」「強化学習によるセルフプレイ」「マルチエージェント学習」「模倣学習」などの汎用機械学習手法を使用して ...
+[18]: https://staticctf.ubisoft.com/8aefmxkxpxwl/Mw2s4KjssknqHHh1VIf8V/720296810ecc3deae51778a219732c7f/PRESS_RELEASE_GDC_UbisoftUnveilsNEONPC_190324.pdf
 
-<a id="ref-37"></a>37. [プロゲーマーに大勝したAI「AlphaStar」が「スタークラフト2」で ...][34] - しかし、今回DeepMindが発表した新しいAlphaStarは、マルチエージェント強化学習 ... AlphaStarの3つのエージェントはすべてグランドマスターリーグに昇格。
+<a id="ref-19"></a>19. [Ubisoft「Ubisoft Reveals Teammates – An AI Experiment to Change the Game」][19] — Ubisoft News、2025年11月21日。
 
-<a id="ref-38"></a>38. [AlphaStar: Mastering the real-time strategy game StarCraft II][35] - AlphaStar's behaviour is generated by a deep neural network that receives input data from the raw ga...
-
-<a id="ref-39"></a>39. [How StarCraft and Dota were stepping stones for Reinforcement ...][36] - In 2019, DeepMind's AlphaStar achieved grandmaster status in StarCraft II, decisively beating some o...
-
-<a id="ref-40"></a>40. [Dota 2で人間チームに勝利したOpenAIの人工知能「OpenAI Five ...][37] - Dota 2で人間チームに勝利したOpenAIの人工知能「OpenAI Five」が今度は著名プレイヤーチームと対戦することを発表.
-
-<a id="ref-41"></a>41. [OpenAIの人工知能「OpenAI Five」がDota 2の5対5バトルで人間 ...][38] - OpenAI Fiveは180日間毎日Dota 2をプレイし続けた ...
-
-<a id="ref-42"></a>42. [深層強化学習によって進化したレーシングAIエージェント「Gran ...][39] - このAIエージェントを、実時間での 判断や意思決定が絶えず求められるリアルなレースシミュレーションに導入することで、機械学習を次のレベルへと ...
-
-<a id="ref-43"></a>43. [1000台超のPS4で強化学習。ソニーのAI「Sophy」は何がすごい ...][40] - レースゲームAIとSophyとの大きな違いと言っていい。 グランツーリスモを開発する、ポリフォニー・デジタル 代表の山内一典氏は、「グランツーリスモのAI ...
-
-<a id="ref-44"></a>44. [NVIDIA Redefines Game AI With ACE Autonomous Game ...][41] - NVIDIA is now expanding ACE from conversational NPCs to autonomous game characters that use AI to pe...
-
-<a id="ref-45"></a>45. [NVIDIA、NPCに命を吹き込む新たな生成AIサービスを発表][42] - 「ACE for Games」は、AIを活用した自然言語によるやり取りを通じてNPCに知性をもたらすサービスだ。
-
-<a id="ref-46"></a>46. [Bringing AI NPCs to Life On-Device With NVIDIA ACE ...][43] - Watch a replay of our GDC 2025 Session, presented by Meaning Machine. Dead Meat is a murder mystery ...
-
-<a id="ref-47"></a>47. [How Ubisoft's New Generative AI Prototype Changes the Narrative ...][44] - Project NEO NPC is only a prototype, and there's still a way to go before it can be implemented in a...
-
-<a id="ref-48"></a>48. [生成AIで自然に対話できるNPCを作る技術「NEO NPC」をUbisoftが ...][45] - NEO NPCは，ゲーム用途向けAI対話生成エンジンを開発するInworldの大規模言語モデル（LLM）や，NVIDIAの音声および表情合成技術「Audio2Face」を利用して， ...
-
-<a id="ref-49"></a>49. [プレイヤーがキャラと協力して強盗を計画もーーUbisoft、生成 AI を ...][46] - Ubisoft の Gen AI を搭載した Neo NPC が、会話を創発的でダイナミックなゲームプレイに変える。
-
-<a id="ref-50"></a>50. [Ubisoft debuts playable generative AI experiment - Game Developer][47] - "In the initial prototype from 2024, Neo NPCs displayed novel cognitive and natural language abiliti...
-
-<a id="ref-51"></a>51. [ユービーアイ、NPCへの音声指示や会話ができる生成AI研究 ...][48] - なお2024年3月には「NEO NPC」が同社より発表されていました。「NEO NPC」はプレイヤーと対話が行えるNPC技術と説明されていました。
-
-<a id="ref-52"></a>52. [Ubisoft's 'Teammates' Demo & Their New Generative AI Push ｜ 26/11 ...][49] - Ubisoft lays out their new generative AI technology stack.
-
-<a id="ref-53"></a>53. [NVIDIA Develops ACE AI Models for Autonomous Game ...][50] - NVIDIA Develops ACE AI Models for Autonomous Game Characters; PUBG, inZOI, NARAKA to Utilize ACE in ...
-
-[1]:	https://www.blooktecpc-support.com/useful/ai_game/
-[2]:	https://t-pot.com/program/140_GameAISeminar4/index.html
-[3]:	https://thinkit.co.jp/article/10012
-[4]:	https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%AE%E3%82%A2%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA
-[5]:	https://kantanstart.com/entry/dragonquest4-ai-history
-[6]:	https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88IV_%E5%B0%8E%E3%81%8B%E3%82%8C%E3%81%97%E8%80%85%E3%81%9F%E3%81%A1
-[7]:	https://game.watch.impress.co.jp/docs/kikaku/1660147.html
-[8]:	https://kantanstart.com/entry/dragonquest4-ai-30years
-[9]:	https://774buya.hatenablog.com/entry/2023/12/13/083000
-[10]:	https://note.com/frenchbread/n/n7bf90335f5eb
-[11]:	https://morikatron.ai/2020/05/gameai_history_02/
-[12]:	https://www.weblio.jp/content/%E3%82%B6%E3%83%8A%E3%83%83%E3%82%AF+(%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0)
-[13]:	https://igcc.jp/game-nics-38/
-[14]:	https://www.youtube.com/watch?v=9gYzqDI2rWA
-[15]:	https://towerofclassicgame.com/zanac_remake
-[16]:	https://www.smspower.org/sites/Momochi-20030921/untiku/u_comp.htm
-[17]:	https://www.higenekodo.jp/untiku/u_comp.htm
-[18]:	https://www.gamedeveloper.com/design/game-changers-dynamic-difficulty
-[19]:	https://en.wikipedia.org/wiki/Dynamic_game_difficulty_balancing
-[20]:	https://qiita.com/Dv7Pavilion/items/cd263f844a56cb168180
-[21]:	https://game.watch.impress.co.jp/docs/news/080051.html
-[22]:	https://www.toolify.ai/ja/ai-news-jp/left-4-deadai-1513323
-[23]:	https://www.ai-gakkai.or.jp/resource/my-bookmark/my-bookmark_vol37-no6/
-[24]:	https://note.com/toylogic/n/nf6d1a676f80e
-[25]:	https://hasht.hatenablog.com/entry/2019/05/24/200613
-[26]:	https://www.lfzxb.top/gdc-sharing-of-ai-system-based-on-goap-in-fear-simple-cn/
-[27]:	https://www.reddit.com/r/gamedev/comments/gfppla/gamasutra_building_the_ai_of_fear_with_goal/
-[28]:	https://ryotaro.dev/posts/playing_atari_with_deep_reinforcement_learning/
-[29]:	https://gri.jp/media/entry/733
-[30]:	https://qiita.com/yonaka15/items/517592497d8c921c02ae
-[31]:	https://deepage.net/machine_learning/2017/08/10/reinforcement-learning.html
-[32]:	https://hatohato.jp/ai/papers/detail/dqn.php
-[33]:	https://note.com/npaka/n/nb719e603b4aa
-[34]:	https://gigazine.net/news/20191031-alphastar-grandmaster-starcraft-ii/
-[35]:	https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/
-[36]:	https://www.warburg.ai/blog/how-starcraft-is-informing-financial-ai
-[37]:	https://gigazine.net/news/20180719-openai-five-benchmark/
-[38]:	https://gigazine.net/news/20180626-openai-five-dota-2-defeating/
-[39]:	https://www.gran-turismo.com/jp/news/00_1704246.html
-[40]:	https://www.businessinsider.jp/article/250516/
-[41]:	https://www.nvidia.com/en-us/geforce/news/nvidia-ace-autonomous-ai-companions-pubg-naraka-bladepoint/
-[42]:	https://news.denfaminicogamer.jp/news/230530f
-[43]:	https://www.youtube.com/watch?v=F_Tpfn1LxEA
-[44]:	https://news.ubisoft.com/en-us/article/5qXdxhshJBXoanFZApdG3L/how-ubisofts-new-generative-ai-prototype-changes-the-narrative-for-npcs
-[45]:	https://www.4gamer.net/games/999/G999902/20240320007/
-[46]:	https://thebridge.jp/2024/03/ubisoft-neo-npcs-nvidia-inworldai-gdc
-[47]:	https://www.gamedeveloper.com/business/ubisoft-s-first-playable-generative-ai-experience-is-an-r-d-experiment-called-teammates-
-[48]:	https://www.gamespark.jp/article/2025/11/22/159780.html
-[49]:	https://www.aiandgames.com/p/ubisofts-teammates-demo-and-their
-[50]:	https://www.reddit.com/r/pcgaming/comments/1i9sq34/nvidia_develops_ace_ai_models_for_autonomous_game/
+[19]: https://news.ubisoft.com/en-gb/article/3mWlITIuWuu0MoVuR6o8ps/ubisoft-reveals-teammates--an-ai-experiment-to-change-the-game
 
 ----
 

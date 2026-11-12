@@ -89,7 +89,7 @@
 ### 🧠 AI・ゲーム内知性
 
 - [AIの登場するゲームたち ― 日本のプレイヤーが知っている名作で読み解く「もう一つの知性」 ―](ai-in-games-for-japanese-players.md) 🟢
-- [コンピューターゲームにおけるAIの歴史](history-of-ai-in-video-games.md) 🟡
+- [ゲームのAIは何のために賢くなってきたのか——『パックマン』から生成AIまで、ゲームAIの役割の変遷](history-of-ai-in-video-games.md) 🟡
 - [敵AI設計の実務――FSM・ビヘイビアツリー・GOAP・Utility AIをどう選び、どう運用するか](enemy-ai-design-practices.md) 🟡
 - [ターン制RPGの戦闘AIを構築するためのガンビットシステム](gambit-system-for-turn-based-rpg-combat-ai.md) 🟡
 - [『高機動幻想ガンパレード・マーチ』はなぜNPCが生きて見えたのか――カレル2から学ぶ、再現できる設計と再現できない条件](gunparade-march-karel2-npc-design-planners.md) 🟡
