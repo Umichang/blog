@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線](restricted-symbols-red-cross-swastika-free-expression.md) 🟡
 - [OpenTracks（旧DOVA-SYNDROME）の音源をゲームで使うには――音楽ゲームの利用条件と配布時の組み込み方](opentracks-dova-syndrome-game-embedding-music-game-terms.md) 🟡
 - [ゲームセンターの台はなぜ止まったのか——ALL.Net・Aimeの停止と、店が台を動かし続ける条件](allnet-aime-outage-arcade-operators-network-dependency.md) 🟡
 - [ゲームソフトはどう店に届いたか——初心会からプレイステーションの直取引、中古裁判まで](japan-game-software-distribution-shoshinkai-to-playstation.md) 🟡
 - [制約を、選んで鳴らす——ゲーム機サウンドの歴史 番外編](console-game-sound-history-extra-chiptune.md) 🟢
-- [音を、どこから聞かせるか——ゲーム機サウンドの歴史⑦](console-game-sound-history-07-spatial-audio.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -196,6 +196,7 @@
 - [『バイオハザード4』と『バイオRE:4』——変えた設計、変えなかった設計](re4-vs-re4remake-game-design.md) 🟡
 - [『風ノ旅ビト』から『Sky 星を紡ぐ子どもたち』へ――非言語コミュニケーションを持続する関係へ翻訳する設計](journey-sky-nonverbal-communication-live-service-design.md) 🟡
 - [CEDEC2026予習：対話をメカニクスとして設計する――マーダーミステリー、TRPG、人狼、デジタルゲームの系譜](cedec2026-communication-games-murder-mystery-dialogue-mechanics.md) 🟡
+- [表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線](restricted-symbols-red-cross-swastika-free-expression.md) 🟡
 - [『ICO』と『ワンダと巨像』は、なぜ20年を経ても代わりが作りにくいのか――「持続する接触」を中心に据えた上田文人氏の設計判断](ico-shadow-of-the-colossus-sustained-contact-design.md) 🟡
 - [『ELDEN RING』はなぜ死にゲーをマスマーケットへ運べたのか――難易度を下げず、関所に迂回路を作るオープンワールド設計](elden-ring-open-world-detour-design.md) 🟡
 - [『ドラゴンズドグマ』はなぜ「不便さ」を捨てなかったのか――ポーン、移動、よじ登り、ヴォケーションで読む核設計](dragons-dogma-core-design-friction-pawns-vocations.md) 🟡
