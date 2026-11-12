@@ -151,6 +151,11 @@ def check(text)
   problems << 'ブログ記事のURLがありません' if urls.empty?
   problems << "ブログ記事のURLが#{urls.length}個あります（1個にする）" if urls.length > 1
   problems << 'URLの直後に文字が続いています（URLの後ろは改行か空白にする）' if text =~ %r{https://umichang\.github\.io/blog/\S*[^\x00-\x7F]}
+  # 「ALL.Net」のように、Xがドメインと見なして自動でリンクにする語（23字と数えられ、無関係なサイトへのリンクになる）
+  bare = text.gsub(%r{https?://\S+}, ' ').scan(/(?<![A-Za-z0-9@.\-])[A-Za-z0-9][A-Za-z0-9\-]*(?:\.[A-Za-z0-9\-]+)*\.(?:com|net|org|jp|io|co|me|tv|gg|app|dev|info|biz|ai|us|uk|tokyo)(?![A-Za-z0-9\-])/i)
+  unless bare.empty?
+    problems << "Xがリンクにしてしまう語があります: #{bare.uniq.join('、')}（「.」を「․」（U+2024）に置き換えるなどして避ける）"
+  end
   article = nil
   if urls.length == 1
     normalized = RecommendationSync.normalized_blog_url(urls.first)
