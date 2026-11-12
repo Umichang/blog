@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 11 Nov 2026 10:32:36 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 04:21:09 -0000</lastBuildDate>
+    <item>
+      <title>ゲームセンターの台はなぜ止まったのか——ALL.Net・Aimeの停止と、店が台を動かし続ける条件</title>
+      <link>https://umichang.github.io/blog/allnet-aime-outage-arcade-operators-network-dependency.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/allnet-aime-outage-arcade-operators-network-dependency.html</guid>
+      <description>セガ フェイブのALL.Net・Aime停止で、通信対戦やカードを使ったプレイに加え、一部のゲーム機はオフラインでも稼働できなくなった。2026年11月12日時点の状況を整理し、店が台を置き続ける判断と、ネットワークが止まったときに残す機能を考える。</description>
+      <pubDate>Thu, 12 Nov 2026 04:21:09 -0000</pubDate>
+    </item>
     <item>
       <title>ゲームソフトはどう店に届いたか——初心会からプレイステーションの直取引、中古裁判まで</title>
       <link>https://umichang.github.io/blog/japan-game-software-distribution-shoshinkai-to-playstation.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-06-software-audio.html</guid>
       <description>NINTENDO64からPlayStation 3、Xbox 360まで、音を鳴らす担当が専用音源からプログラムへ移る流れと、PS2、ゲームキューブ、DS、PSPの異なる道を、処理時間とメモリ、聴き比べからたどる。「ゲーム機サウンドの歴史」第6回。</description>
       <pubDate>Tue, 10 Nov 2026 14:44:58 -0000</pubDate>
-    </item>
-    <item>
-      <title>遅れを伝える、共通の言葉を作る——制作進行を任されたら（番外編）</title>
-      <link>https://umichang.github.io/blog/production-coordination-extra-delays-and-shared-words.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/production-coordination-extra-delays-and-shared-words.html</guid>
-      <description>遅れを小さいうちに伝え、判断に必要な見込みと影響、選べる手を揃える。報告を受け取る側の振る舞いと、完了や確定の意味を共有する一覧を、講演の事例と架空の現場から考える。次の工程への受け渡しを支える「制作進行を任されたら」番外編。</description>
-      <pubDate>Tue, 10 Nov 2026 13:40:17 -0000</pubDate>
     </item>
   </channel>
 </rss>
