@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 12 Nov 2026 04:21:09 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 05:29:03 -0000</lastBuildDate>
+    <item>
+      <title>OpenTracks（旧DOVA-SYNDROME）の音源をゲームで使うには――音楽ゲームの利用条件と配布時の組み込み方</title>
+      <link>https://umichang.github.io/blog/opentracks-dova-syndrome-game-embedding-music-game-terms.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/opentracks-dova-syndrome-game-embedding-music-game-terms.html</guid>
+      <description>OpenTracks（旧DOVA-SYNDROME）のゲーム向け音源利用条件を、音楽ゲームでの用途と配布時の組み込み方に分けて整理する。既存作品への経過措置の範囲、暗号化の位置づけ、RPGツクール作品を含む配布物の確認手順を公式資料と報道からたどる。</description>
+      <pubDate>Thu, 12 Nov 2026 05:29:03 -0000</pubDate>
+    </item>
     <item>
       <title>ゲームセンターの台はなぜ止まったのか——ALL.Net・Aimeの停止と、店が台を動かし続ける条件</title>
       <link>https://umichang.github.io/blog/allnet-aime-outage-arcade-operators-network-dependency.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-07-spatial-audio.html</guid>
       <description>スピーカーへ音を割り振るサラウンドから、音の位置を渡すオブジェクトベース、PS5のTempest、Nintendo Switch 2まで、音をどこから聞かせるかを担う機材の変化をたどる。「ゲーム機サウンドの歴史」第7回。</description>
       <pubDate>Wed, 11 Nov 2026 01:37:39 -0000</pubDate>
-    </item>
-    <item>
-      <title>音源チップから、プログラムへ——ゲーム機サウンドの歴史⑥</title>
-      <link>https://umichang.github.io/blog/console-game-sound-history-06-software-audio.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/console-game-sound-history-06-software-audio.html</guid>
-      <description>NINTENDO64からPlayStation 3、Xbox 360まで、音を鳴らす担当が専用音源からプログラムへ移る流れと、PS2、ゲームキューブ、DS、PSPの異なる道を、処理時間とメモリ、聴き比べからたどる。「ゲーム機サウンドの歴史」第6回。</description>
-      <pubDate>Tue, 10 Nov 2026 14:44:58 -0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [OpenTracks（旧DOVA-SYNDROME）の音源をゲームで使うには――音楽ゲームの利用条件と配布時の組み込み方](opentracks-dova-syndrome-game-embedding-music-game-terms.md) 🟡
 - [ゲームセンターの台はなぜ止まったのか——ALL.Net・Aimeの停止と、店が台を動かし続ける条件](allnet-aime-outage-arcade-operators-network-dependency.md) 🟡
 - [ゲームソフトはどう店に届いたか——初心会からプレイステーションの直取引、中古裁判まで](japan-game-software-distribution-shoshinkai-to-playstation.md) 🟡
 - [制約を、選んで鳴らす——ゲーム機サウンドの歴史 番外編](console-game-sound-history-extra-chiptune.md) 🟢
 - [音を、どこから聞かせるか——ゲーム機サウンドの歴史⑦](console-game-sound-history-07-spatial-audio.md) 🟢
-- [音源チップから、プログラムへ——ゲーム機サウンドの歴史⑥](console-game-sound-history-06-software-audio.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -494,6 +494,7 @@
 - [その配信、PRですか？――ステルスマーケティング規制とゲーム実況・VTuberタイアップの実務](stealth-marketing-game-streaming-vtuber-pr-disclosure.md) 🟡
 - [黙認という法的・商慣習的グレーゾーン――版元はなぜルールを明文化しないのか](tacit-tolerance-doujin-ip-enforcement.md) 🟡
 - [小規模インディーのパブリッシング契約――比率より先に読むリクープ・分配原資・IP](indie-game-publishing-contract-revenue-recoup-ip.md) 🔴
+- [OpenTracks（旧DOVA-SYNDROME）の音源をゲームで使うには――音楽ゲームの利用条件と配布時の組み込み方](opentracks-dova-syndrome-game-embedding-music-game-terms.md) 🟡
 - [生成AIと著作権法 ― ゲーム業界の実務論点ガイド](generative-ai-copyright-game-industry-guide.md) 🔴
 - [AIで「勝手移植」が速くなる時代――速く作れることは、出してよい理由になるか](unauthorized-ports-ai-speed-is-not-permission.md) 🟡
 - [ゲームシステムに関わる特許：プランナーが知るべき特許リスクと取得戦略](game-system-patents-risks-and-strategy-for-planners.md) 🟡
