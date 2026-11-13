@@ -1,319 +1,193 @@
 ---
-description: "プロシージャル生成（Procedural Content Generation：PCG）とは、コンテンツをあらかじめ手作業で作るのではなく、アルゴリズムによってその場で自動的に生み出す 手法である。初期のゲームにとってこれは「容量制約への苦肉の策」だった。"
+description: "Eliteから『No Man's Sky』までの事例を通じて、シードによる再現、遊べる地形の保証、手作りの部品と制作ツールの役割、生成の規模と遊びの変化の関係を整理する。"
 category: tech-foundation-data-assets
 difficulty: yellow
 ---
 
-# ゲームにおけるプロシージャル生成の技術史と設計論
+# 乱数に何を任せ、何を保証するのか——Eliteから『No Man's Sky』まで、プロシージャル生成の約束と限界
 
-## はじめに：「無限」はどこから来たのか
+> 2026年11月13日改版：記事全体を全面的に書き直しました。内容の変更はGitの履歴から追えます。
 
-プロシージャル生成（Procedural Content Generation：PCG）とは、コンテンツをあらかじめ手作業で作るのではなく、**アルゴリズムによってその場で自動的に生み出す** 手法である。初期のゲームにとってこれは「容量制約への苦肉の策」だった。しかしいまや、それは「無限の体験」を設計するための積極的な選択肢へと変貌した。[[1](#ref-1)][[2](#ref-2)]
+## はじめに
 
-本稿では **1970–1999年・2000–2010年・2011年–現在** の3時代に区切り、歴史的変遷をたどりながら、各時代の代表的アルゴリズムと設計指針を整理する。
+プロシージャル生成とは、規則と乱数を使って、地形やダンジョン、敵やアイテムの配置などを自動で作る方法である。たとえばダンジョンでは、宝箱の場所は毎回変えてよい。一方、出口へ続く道は、どの回にも必要である。同じフロアの中でも、乱数に任せる場所と、作り手が成立を保証する場所がある。
 
-***
-
-## 第一時代（1970–1999）：制約への解答
-
-### 黎明期——容量という壁
-
-1970年代後半、コンピュータの主記憶はKB単位だった。豊富なマップや多彩なコンテンツをあらかじめ保存しておく余裕など存在しない。プロシージャル生成が最初に採用されたのは、こうした **絶対的なハードウェア制約** に応えるためだった。[[1](#ref-1)]
-
-**1978年：Beneath Apple Manor**（Don Worth）がApple IIで登場した。これは初期パソコン向けのコンピュータRPGで、PCGを使った最初期のゲームのひとつとして記録されている。プレイヤーが「黄金のリンゴ」を求めてランダム生成されたダンジョンを潜る構造は、後のローグライクすべての原型だ。[[3](#ref-3)][[4](#ref-4)]
-
-### Rogue（1980）——ジャンルの始祖
-
-1980年、Michael Toy・Glenn Wichman・Ken Arnoldの3人が *Rogue* をリリースした。アスキーアートで描かれたダンジョンは、階段を下りるたびに新規生成される。アイテム・モンスター・部屋の配置すべてがアルゴリズムで決まる。**「コンピュータ自身が冒険を生み出す」** というコンセプトは革命的であり、当時の米国大学コンピュータ学科で爆発的に広まった。ローグライクというジャンル名そのものがこのゲームから来ており、「手続き型レベル生成」「永続死（パーマデス）」「共通ルールセット」が以降の後継作品すべての柱となった。[[5](#ref-5)][[6](#ref-6)][[7](#ref-7)] ローグライクという言葉の定義や、日本での「不思議のダンジョン」系作品への受容については、別記事「[結局ローグライクってなんなのさ？](what-is-a-roguelike.md)」でも整理している。
-
-### Elite（1984）——6バイトの宇宙
-
-*Elite* は、宇宙を舞台に交易と戦闘を繰り広げる自由度の高いスペースシミュレーションで、いま「オープンワールド」と呼ばれるゲームの始祖的存在だ（日本では動作ハードが流通せず、ほとんど知られていない）。そのハードであるBBCマイクロは、英Acorn Computers社が1981年に「BBCコンピュータ普及プロジェクト」のために開発したイギリス製のマイクロコンピュータ（家庭用パーソナルコンピュータとも位置づけられる）で、英国の学校に広く普及した——米国におけるApple IIのような存在である。そのRAMはわずか32KB。*Elite* はゲーム全体をそのうち22KBに収めて動作したことで、PCG史上最も有名なエンジニアリングの逸話を残した。ケンブリッジ大学の学生Ian BellとDavid Brabenは、8つの銀河・2,048の惑星系・それぞれの名前・経済・政治体制・人口——すべてを **たった6バイトのシードから決定論的に生成** することに成功した。[[8](#ref-8)][[9](#ref-9)]
-
-アルゴリズムの核は **Tribonacci数列**（3項フィボナッチ）。`s2' = s0 + s1 + s2` という単純な漸化式を繰り返すことで、惑星ごとに固有の「乱数列」を生み出す。惑星名は二文字ペア（ダイグラム）を3〜4個連結して生成される——「LAVE」（開始惑星）も「LA」+「VE」の組み合わせに過ぎない。[[9](#ref-9)]
-
-> *「6バイトから2,048の惑星系が全て決定論的に生成される」*[[9](#ref-9)]
-
-このゲームは2015年にギネス世界記録から「手続き型生成の世界を搭載した最初のゲーム」として認定された。ゲーム全体が22KBに収まっているが、その中に3Dワイヤーフレームレンダリング・経済システム・戦闘AIまで内包されていた。[[10](#ref-10)][[11](#ref-11)][[12](#ref-12)][[9](#ref-9)]
-
-### Hack / NetHack / Angband（1980〜90年代）——PCGの深化
-
-Rogueは多くの後継作を生んだ。いずれもアスキー画面でダンジョンを探索するRPGだ。Rogueの直接の影響を受けてJay FenlasonがHackを作り、そこから現在も開発が続く NetHack が派生した。別系統では、トールキンの『指輪物語』に着想を得たMoriaがAngbandへと進化する。これらはRogueより複雑なダンジョン生成と、より豊富なアイテム・モンスターバリエーションを実現した。なかでもAngbandのランダム生成に「多大な影響を受けた」と公言するBlizzard NorthのDavid Brevikが、のちにDiablo（1996）を作ることになる。[[13](#ref-13)][[5](#ref-5)]
-
-### Diablo（1996）——PCGの商業化
-
-*Diablo* は、ローグライクを一般向け商業タイトルへと昇華させた転換点だ。開発者Brevikが取ったアプローチは **「段階分離」**——まず部屋の配置（プレダンジョン）を生成し、次に実際のタイル・装飾・テーマルームを適用するという2段構えの構造だ。[[13](#ref-13)]
-
-Cathedral・Catacombs・Caves・Hellの4ステージそれぞれに専用のアルゴリズムが用意されており、Cathedralでは **再帰的バジェット（Recursive Budding）**、CatacombsではBSPに近い **再帰的分割（CreateRoom）**、Cavesでは **有機的侵食ルーチン** と、ステージごとにまったく異なる雰囲気を作り出した。さらに **セットピース**（手作業で設計したクエスト専用マップ）を手続き生成の中に「埋め込む」手法を確立し、「ランダム性」と「デザインの意図」を共存させた。[[13](#ref-13)]
+何を変えると遊びが広がり、何が変わると遊びが壊れるのか。本稿では、星系の再現からダンジョンの通り道、惑星探索の手応えまで、この線引きを事例でたどる。Rogueと日本の「不思議のダンジョン」の系譜は、[結局ローグライクってなんなのさ？](what-is-a-roguelike.md) を参照してほしい。
 
 ***
 
-## 第二時代（2000–2010）：多様化とジャンルの確立
+## 同じ世界を再現する——シードの約束
 
-### Dwarf Fortress（2006）——歴史を持つ世界
+David Braben氏とIan Bell氏が作ったBBC Micro版の『Elite』（1984年）は、使えるメモリが限られるなか、8つの銀河に計2,048の星系を収めた。星系のデータを一覧として保存する代わりに、16ビットの数3つを種にし、トリボナッチ数列を使って星系ごとの種を求める。そこから座標などの情報を必要なときに計算し直せるため、同じ星系を参照すれば同じ情報が得られる。[[1](#ref-1)][[2](#ref-2)]
 
-*Dwarf Fortress*（Bay 12 Games）は、アスキー記号で描かれる極めて複雑なドワーフ集落運営シミュレーションで、PCGを「レベル生成ツール」から「**世界シミュレーション**」へと拡張した作品だ。プレイ前に数百〜数千年分の歴史が自動生成される——文明の興亡、戦争、英雄の誕生と死、伝説のアイテム。この生成された「歴史」はLegendsモードで閲覧でき、プレイヤーが介入する以前から世界に固有のストーリーが存在している。[[14](#ref-14)]
+生成の出発点になる値を **シード** と呼ぶ。『Elite』では、シードから同じ星系を再現できることがメモリの節約につながった。『Minecraft』では、同じ版・同じ生成設定でシードをそろえれば同じ初期ワールドを作れるため、プレイヤーが気に入った地形を別の人に紹介できる。疑似乱数とシードの仕組みは、[ゲームプランナーが知っておくべき乱数の話](random-numbers-for-game-planners.md) で詳しく扱っている。[[3](#ref-3)]
 
-設計の根幹は **「現実世界のアナロジーに基づく」** こと。シミュレーションが破綻したとき、現実の物理・社会モデルに立ち返ることで修正できる、というアプローチだ。Dwarf Fortressの影響は現代まで続き、「創発的なナラティブ（Emergent Narrative）」という概念そのものをゲームデザイン界に普及させた。[[14](#ref-14)]
+2021年の「Caves & Cliffs: Part II」（1.18）では、地上世界の生成方式が全面的に変わった。公式のBedrock版告知によれば、以前のシードを1.18で使って新規ワールドを作ると、以前と同じ位置からは始まらない。旧版に固定した環境では、以前の生成結果を再現できる。一方、すでに遊んでいるワールドには、新たに生成する地形を既存の地形につなぎ、境目を自然に見せる「World Blending」が用意された。[[3](#ref-3)][[4](#ref-4)]
 
-### Spelunky（2008）——「覚えゲー」からの解放
-
-Derek Yuの *Spelunky*（フリー版2008年、HD版2012年）は、洞窟を探索しながら罠や敵を避け、宝を集めて奥へ進む2Dアクションゲームで、PCGの **設計哲学** において重要な転換を示す。Yuがプロシージャル生成を採用した動機は明快だ——「**プラットフォーマーがパターン記憶ゲームになることを防ぐため**」。固定マップを持つゲームでは、プレイヤーはやがてレベルを丸暗記し、スキルよりも知識に頼って進む。PCGはその「攻略本問題」を根本から排除する。[[15](#ref-15)]
-
-SpelunkyのPCGアルゴリズムは **グリッドベースのルームシステム** だ。各レベルは4×4のグリッドで構成され、スタートからゴールへの「必ず通れるパス」がまず確定される。それ以外のグリッドはプールから選んだ手作りルームで埋められ、宝や敵の配置はルールベースで決まる。たとえばジャイアントスパイダーは「2×2の空白スペースが特定の条件を満たすときに40分の1の確率で出現し、かつ1レベルに1体しか出ない」といった具体的な制約が設けられている。[[16](#ref-16)][[17](#ref-17)]
-
-### Minecraft（2009）——「無限の箱庭」の誕生
-
-*Minecraft* がPCG史に残す最大の功績は、「探索の喜び」を **無限スケール** で提供したことだ。Notchが採用したのは **Perlin Noiseを含むノイズ関数** による地形生成。[[18](#ref-18)][[19](#ref-19)]
-
-技術的な仕組みはシンプルだ——プレイヤーがワールドを新規作成すると、ゲームは「シード値」という一つの数字を起点として疑似乱数列を生成する。この数列に決してランダムではない **数学的な構造** を与えるのがPerlin Noiseで、格子点上にランダムなグラディエントベクトルを置き、それを滑らかに補間することで「自然に見えるデコボコ」を生み出す。低周波のノイズが大陸規模の起伏を作り、高周波のノイズが岩場の細かな凹凸を作る——この多重重ね合わせ（オクターブ）によってリアルな地形が実現する。[[20](#ref-20)][[21](#ref-21)][[22](#ref-22)]
-
-**決定論的ランダム性（Deterministic Randomness）** が鍵だ。同じシード値からは必ず同じワールドが生成される。64ビット符号付き整数では約1,800京通り（≒1.8×10¹⁹）ものシードが存在し、実質的に無限のバリエーションを誇る。ワールドは「保存されている」のではなく、プレイヤーが近づいたときに **リアルタイムで計算されて存在するようになる**。[[20](#ref-20)]
+シードの約束は、版ごとの約束でもある。以前と同じ初期ワールドを作りたい人には、シードと生成規則の版が要る。建物を残して探索を続けたい人には、既存のセーブデータをどう引き継ぐかが重要になる。同じ更新でも、どちらを支えるかで必要な仕組みは変わる。作品全体の設計については、[Minecraftはなぜ17年近く売れ続けるのか](minecraft-endless-design-java-bedrock-strategy.md) を参照してほしい。
 
 ***
 
-## 第三時代（2011年–現在）：「無限の体験」の追求と限界
+## 必ず遊べることを保証する
 
-### The Binding of Isaac（2011）——ビルド構築ゲームとPCGの融合
+Derek Yu氏が作った『Spelunky』は、足場を渡り、罠をよけながら出口を目指すプラットフォーマーである。フロアを毎回生成することで、決まった配置を暗記して進む遊びから、その場の足場や罠を見て進み方を選ぶ遊びへと重心を移している。初代の生成では、格子状に並ぶ部屋のうち、まずスタートからゴールまでの通り道を決める。道沿いの部屋には必要な方向に出入口がある手作りのパターンを選び、残りの部屋も別の候補から埋める。通り道の形は変わるが、通り道があることは生成の手順で保証する。[[5](#ref-5)][[6](#ref-6)]
 
-Edmund McMillenの *The Binding of Isaac* は、地下室を舞台に部屋を移動しながら敵を倒し、アイテムで能力を変化させていく見下ろし型アクションゲームで、PCGを「レベル構造」だけでなく **「ビルドそのもの」** に組み込んだ作品だ。マップは「Zelda風グリッド」——フロアプランを生成してから特殊部屋を配置し、最後に各部屋の内容をプールから選択するという3段階構造を取る。[[23](#ref-23)][[24](#ref-24)]
+![格子状の部屋でスタートからゴールへの通り道を先に決め、道沿いの部屋と残りの部屋にそれぞれ手作りのパターンを当てはめる図](image/procedural-generation-path-room-patterns.webp)
 
-特筆すべきはアイテムシステムだ。数百種のアイテムが互いに作用し合い、意図しなかったシナジー（壊れた強さのビルド）や最悪の組み合わせをランダムに生み出す。「今回のプレイがどんなビルドになるかわからない」という **不確実性そのものが楽しさの源泉** となっている。「スクリプトされた挑戦より、カオスで予測不能なシステムでの選択」がゲームの核心だ。[[23](#ref-23)]
+『Diablo』（1996年）は、まず床や出入口など、どこを歩けるかを示す下地を作り、その後で見た目を担うタイルや装飾を当てる。ステージによって生成方法は異なる。たとえば大聖堂（Cathedral）では、通路でつないだ部屋を起点に、部屋から芽を出すように新しい部屋を増やす「Recursive Budding」を使う。増やした部屋は元の部屋につながり、歩ける床が規定の広さに達しなければ下地を作り直す。後から壁で区切るときにも、出入口を設けて通れるようにする。別のフロアへ進む階段を配置できなかった場合も作り直す。[[7](#ref-7)]
 
-### No Man's Sky（2016）——1,800京の惑星と「空虚さ」の教訓
-
-Hello GamesのSean Murrayが作った *No Man's Sky* は、PCGの「夢の限界」を示した作品としても記録されている。**1,800京（18×10¹⁸）の惑星** がわずか6GBのディスクに収まっており、その技術的背景はEliteの直系だ——Murray自身も、1984年のEliteを直接の源流として繰り返し挙げている。[[25](#ref-25)][[26](#ref-26)][[9](#ref-9)]
-
-惑星の地形はドメインワーピング（ノイズ関数の座標を別のノイズ関数でゆがめる技術）でオーバーハングや洞窟を生成し、バイオームルールが植物・動物の出現を決定する。生物は数百〜数千のベーステンプレートから骨格スケーリング・行動タグ・ポーズを再帰的に組み合わせて生成され、「L-システム」を使った植物生成も含まれる。音楽すら手続き的に生成される。[[27](#ref-27)][[28](#ref-28)]
-
-しかしリリース直後の批判は痛烈だった——**「1,800京の惑星があっても、どれも同じに見える」**。PCGが「バリエーション」を生み出せても、「プレイヤーが感動する一期一会の光景」を保証するわけではない。後のアップデートで大幅な改善が行われたが、「手続き的に生成されたコンテンツは、人間が意図を込めて作ったコンテンツに比べ記憶に残りにくい」という本質的問題は今も議論される。[[29](#ref-29)][[30](#ref-30)]
-
-### Hades（2020）——「手続き的なナラティブ」の到達点
-
-Supergiant Gamesの *Hades* は、ローグライクのPCGをナラティブ領域へと拡張した。通常ローグライクはストーリーの語りと相性が悪い（プレイ順がランダムなため、台詞を出す文脈が定まらない）が、Hadesは **「ランダム性をむしろ受け入れる」** 設計を取った。[[31](#ref-31)]
-
-システムは4つの要素で成り立つ——膨大な台本・優先度システム・ゲームプレイ観察・コンテキスト条件。「今回のランで何を達成したか」「直前のプレイで誰と何を話したか」「重要なストーリーイベントが発生したか」によって次に出る台詞が動的に決まる。重大なストーリーイベントが起きたとき、キャラクターは「いい武器を手に入れたね」ではなく必ずそのイベントについて語る——これを優先度システムが保証する。[[31](#ref-31)]
-
-Supergiant Gamesは、ローグライクという形式の反復性やランダム性を、ナラティブ設計にも取り込んだ。[[31](#ref-31)]
-
-Dead Cells（2018）は別方向のアプローチを示す。**「手作り×手続き」ハイブリッド** だ。世界の全体マップと区画間の接続は固定デザイン。その中を埋める「タイル」は手作りの部屋群から選ばれ、さらに敵配置のみが手続き的に決まる。6段階のプロセス（固定要素配置→手作りタイル設計→バイオームグラフ作成→PCGによるタイル配置→モンスター数量算出→ルートドロップ生成）で、「毎回変わる」と「一貫したクオリティ」を両立した。[[32](#ref-32)][[33](#ref-33)]
+通行を保証する方法には、つながった道から作り始める方法と、できた地図を調べて条件を外れたものを作り直す方法がある。後者で出口への到達を保証するなら、床の広さに加えて、入口から出口まで実際に移動できるかを確かめる必要がある。鍵が要るフロアなら、鍵を先に取れることまでが条件になる。何をもって「遊べる」とするかは、そのゲームでプレイヤーが取れる行動から決まる。
 
 ***
 
-## アルゴリズム別テクニカルガイド
+## 手作りの部品を混ぜる
 
-PCGに使われるアルゴリズムは多岐にわたる。主要なものを用途・特徴・代表的な採用例と共に整理する。
+『Diablo』では、クエスト用に手作りした区画を「セットピース」として、生成したフロアに組み込む。たとえば「ブッチャーのねぐら」は、周囲の道順が変わっても作り手が用意した区画として現れる。『Spelunky』の部屋パターンも手作りだが、こちらは進行方向に合わせて選ぶ部品である。前者では特定の場面を残すために、後者では部屋の中で成立する足場や出入口の組み合わせを持たせるために、手作りを使っている。[[7](#ref-7)][[6](#ref-6)]
 
-| アルゴリズム | 主な生成対象 | 特徴 | 代表採用例 |
-|---|---|---|---|
-| **Fibonacci / Tribonacci 数列** | 惑星系・番号・名前 | 超軽量。6バイトで銀河全体を記述可能 | Elite (1984) |
-| **BSP（二分空間分割）** | ダンジョン部屋 | 均等に区切った空間に部屋を配置。整然とした印象 | Diablo Catacombs、NetHack系 |
-| **再帰的バジェット** | 部屋の増殖 | 既存部屋から「芽吹くように」新部屋を追加 | Diablo Cathedral |
-| **Drunkard's Walk（酔歩）** | 洞窟・迷路 | ランダムに掘り進む。有機的でいびつな形状 | 洞窟系ローグライク全般 |
-| **セルオートマトン** | 洞窟・地形 | 「生命ゲーム」的ルールで自然な洞窟を生成 | 洞窟系、地形生成 |
-| **Perlin Noise / Simplex Noise** | 地形・テクスチャ・バイオーム | 「滑らかなランダム性」。自然な地形の基盤 | Minecraft、No Man's Sky |
-| **グリッドベースルームシステム** | ダンジョン間取り | 通過ルートを先に確保し残りをプールで充填 | Spelunky、Binding of Isaac |
-| **L-システム** | 植物・枝・フラクタル | 再帰的な置き換えルールで有機的形状を生成 | No Man's Sky（植物）、各種CGツール |
-| **WFC（波動関数崩壊）** | タイルマップ・構造物 | 制約伝播でサンプル画像と「同じ見た目」を生成 | 建物生成、タイルベース地形 |
-| **Priority Queue + 条件付き台本** | ナラティブ・台詞 | 「条件が合う最高優先度のイベント」を動的に選択 | Hades |
+『Dead Cells』では、全体地図と区画どうしのつながりを固定し、区画の内側では手作りのタイルを選んで並べる。敵の配置も生成するが、戦闘に使える場所の広さや、敵の種類ごとの配置条件を考慮する。全体の進行、区画内の道順、個々の戦闘という異なる単位で、固定するものと変えるものを決めている。[[8](#ref-8)]
 
-### Perlin Noiseの仕組みをもう少し詳しく
-
-Perlin Noiseは1982年、Ken Perlinが映画 *Tron* の制作中に開発したアルゴリズムだ。格子点にランダムな「グラディエントベクトル」を置き、任意の座標でそのベクトルとの内積を計算、周辺の格子点の値を滑らかに補間することで「連続的なランダムさ」を生み出す。[[21](#ref-21)][[22](#ref-22)]
-
-重要なのは「**白色雑音とは違う**」ことだ。白色雑音は各点が完全にランダムで、隣り合う値に相関がない。Perlin Noiseは近くの点が近い値を持ちながらも、全体的にはランダムに見える——これが「自然に見える地形」を作り出せる理由だ。複数のスケール（オクターブ）を重ね合わせることで、大陸スケールの起伏から岩場の細部まで表現できる。[[21](#ref-21)][[20](#ref-20)]
-
-### Wave Function Collapse（WFC）
-
-比較的新しいアルゴリズムで、「数独を解くような」制約伝播で動作する。サンプル画像から「どのタイルが隣接できるか」のルールを自動学習し、最もエントロピーが低いセル（選択肢が少ないセル）から順に「崩壊」させる。建物や都市のタイルベース生成に特に有効で、人間が「雰囲気」のサンプルを1枚提供するだけで、同じ雰囲気を持つ無数のバリエーションを生成できる。[[34](#ref-34)][[35](#ref-35)]
+手作りの比率を考えるときは、まず、どの単位を固定すれば狙った体験が残るかを決める。クエストの場面を見せたいなら区画を、各回で進み方を考えさせたいなら部屋どうしの組み合わせを設計する。地形での分担は、[広さは規則で、印象は手で――自然の関係を広げる地形設計](open-world-terrain-design-procedural-rules.md) で扱っている。
 
 ***
 
-## 設計指針：事例比較で整理する
+## 規則を作る道具になる
 
-PCGを実際に設計する際の原則を、事例と共に整理する。
+『Dwarf Fortress』は、プレイヤーが遊び始める前に、地形に加えて世界の歴史まで生成する。標高や降水量などから土地の性質が決まり、川や生き物が生まれる。そこから文明のシミュレーションが始まり、集落が築かれ、交易路ができ、戦争が起こる。プレイヤーは、その過程を経た世界に入る。[[9](#ref-9)]
 
-### 原則1：「骨格は手作り、肉付けにPCG」
+開発者のTarn Adams氏は、複雑さを必要な箇所に絞り、現実に対応する仕組みを手がかりにモデルを作ることを勧めている。たとえば川が不自然に流れたとき、高い場所から低い場所へ流れるという前提があれば、標高のデータと流れを決める規則から原因を調べられる。出力を一件ずつ直す代わりに、どの規則がその結果を生んだかを追えることが、生成を制作に使ううえで重要になる。[[9](#ref-9)]
 
-> *「プレイヤー体験の『骨格』は手動で設計し、『肉付け』をPCGで行うのが現実的」*[[29](#ref-29)]
-
-| ゲーム | 手作り部分 | PCG部分 |
-|---|---|---|
-| Dead Cells | 世界マップ、区画間の接続、個別部屋タイル | タイルの配置順序、敵の配置 |
-| Spelunky | 通路ルートの確保、個別ルームの手作り設計 | ルームの選択と配置、アイテム・敵の出現 |
-| Diablo | クエストのセットピース、各ステージのアルゴリズム設計 | 部屋の具体的形状・接続、アイテムドロップ |
-| Hades | キャラクター関係・ストーリーの骨格、台本全体 | 台詞の出現順序、ルームの組み合わせ |
-
-Dead Cellsのチームが明示したように、「まず固定要素を配置し、PCGはその枠内で動く」構造が現実的なクオリティを保証する。[[33](#ref-33)][[32](#ref-32)]
-
-### 原則2：評価基準を先に定義する
-
-PCGを導入する前に「**何をもって良い生成とするか**」を決める必要がある。最低限4つを検討すること：[[29](#ref-29)]
-
-1. **プレイアビリティ** — 生成コンテンツはプレイ可能か（出口のないダンジョンは致命的）
-2. **多様性** — 十分なバリエーションがあるか
-3. **制御性** — デザイナーが意図を反映できるか
-4. **速度** — 要件を満たす時間で生成できるか[[29](#ref-29)]
-
-Diabloはこれをコードレベルでも保証し、「フロアが完全に走破可能かどうか」を毎回フラッドフィルでチェックし、失敗なら再生成する。Spelunkyも「ゴールまでの経路確保」をアルゴリズムの最初のステップに置いた。[[16](#ref-16)][[13](#ref-13)]
-
-### 原則3：PCGはゲームデザインの代替ではない
-
-> *「PCGはゲームデザインの代わりにはならない」*[[36](#ref-36)]
-
-プロシージャル生成はランダム性を与えるが、**ランダム性そのものが面白いわけではない**。No Man's Skyのケースは典型的な教訓だ——1,800京の惑星を生成する技術は本物だったが、「各惑星を訪れる体験の設計」が追いつかず、「広大だが空虚」という批判を受けた。「無限に **面白い** コンテンツ」は現時点では実現不可能であり、PCGの価値は「人間だけでは到達できないデザイン空間を探索し、デザイナーの創造性を拡張すること」にある。[[30](#ref-30)][[29](#ref-29)]
-
-### 原則4：確率を「均等」にしないこと
-
-単純なランダムは「同じようなものが続く」感覚を生み出す。優れたPCGは **確率に意図的な重みをつける**。[[36](#ref-36)]
-
-- Spelunkyの宝は「壁に囲まれた位置ほど出やすい」——リスクとリターンの相関
-- Binding of Isaacの部屋プールはフロアが深いほど難しい部屋が増えていく
-- Hadesの台詞システムは重要なストーリーイベントを最高優先度に置く[[31](#ref-31)]
-
-均等確率（一様分布）ではなく、ゲームデザインの意図を反映した **不均等確率（テーマ・難易度・進行度との相関）** を設計することが重要だ。[[36](#ref-36)]
-
-### 原則5：シミュレーションはシンプルに保つ
-
-Dwarf Fortressから導かれる原則：「**複雑さは必要なところにだけ使え**」。複雑すぎるシステムはデバッグを困難にし、開発を麻痺させる。サブシステムを小さく分解し、個別に理解してから組み合わせる。現実世界のアナロジーを基盤とすることで、破綻したときに「なぜ壊れたか」を把握しやすくなる。[[14](#ref-14)]
+生成は、発売後にプレイヤーの手元で動かすほか、開発中の素材づくりにも使える。ポリフォニー・デジタルの景観デザインチームなどはCEDEC 2019で、Houdiniのプロシージャル法で景観用の素材にバリエーションを作り、手作業に頼る部分もスクリプトで処理して、品質を一定に保つ方法を紹介した。制作側で生成する場合は、候補を並べて見比べ、採用するものを選べる。同じ工程を繰り返せるようにしておけば、後から規則を調整して候補を作り直すこともできる。[[10](#ref-10)][[11](#ref-11)]
 
 ***
 
-## 現代と未来：AIとPCGの融合
+## 数を増やしても、飽きられる
 
-2020年代、PCGはAI・機械学習との融合フェーズに入っている。ニューラルネットワークによる「プレイしやすいレベルの自動評価」（強化学習エージェントが生成レベルを実際にプレイしてクオリティを判定）や、GANによる地形・テクスチャのリアルタイム生成が研究されている。[[2](#ref-2)]
+Hello Gamesの『No Man's Sky』（2016年）は、1,800京以上の惑星を生成する。Sean Murray氏は、影響を受けた作品の一つに『Elite』を挙げている。『No Man's Sky』では、宇宙から惑星の地表へ連続して移動できるよう、地形やその上に置くものをリアルタイムで生成する。[[12](#ref-12)][[13](#ref-13)][[14](#ref-14)]
 
-LLM（大規模言語モデル）と手続き型生成の組み合わせも注目される。LLMが「プレイヤーの行動に基づいてリアルタイムでストーリーを展開する」システムへの応用が検討されており、Hadesが人間の作家が書いた台本で実現したことを、よりスケーラブルな形で実現できる可能性がある。ある市場調査では、AI活用PCGの市場規模は2025年時点で約68億ドルと推定され、2035年にかけて急成長が予測されている。[[37](#ref-37)][[2](#ref-2)]
+発売時には、訪れる惑星の施設が似て見え、行く先を変えてもやることが繰り返しになるという批判があった。PC Gamerのレビューでは、前哨基地や遺跡などで同じようなものを何度も見つけた結果、画面に見える目印を一つずつ調べなくなったと述べている。その後、Hello Gamesは無料アップデートで内容を追加し、初期の「Foundation Update」では拠点建築やサバイバルモードなどを導入した。[[15](#ref-15)][[16](#ref-16)]
 
-しかし研究者たちが繰り返し指摘するように、生成の **速度と品質・表現力と信頼性の間には常にトレードオフが存在する**。AIが1秒で1,000のレベルを生成できても、そのなかに「プレイして楽しいレベル」が1つもなければ意味がない。技術の進化と、プレイヤーが感じる「面白さ」の設計は、依然として別次元の問題として存在し続ける。[[29](#ref-29)]
+惑星ごとに景色が違えば、眺める楽しさは増やせる。探索を続ける理由まで生みたいなら、降り立つ場所によって取れる行動や判断がどう変わるかも設計する。たとえば地形の違いを、目的地までの経路を選ぶ理由にできる。拠点を建てる遊びがあれば、同じ景色でも、資源を集めやすいか、何度も戻ってきたいかという基準で見るようになる。生成される候補の数と、プレイヤーが経験する選択の幅は、それぞれ確かめる必要がある。
 
 ***
 
-## まとめ：PCGの3つの役割の変遷
+## 手法の早見表
 
-| 時代 | 主な役割 | 代表タイトル |
-|---|---|---|
-| 1978–1999 | **容量制約への解答**。22KBで宇宙を作る、パーマデスによるリプレイ価値の確保 | Rogue、Elite、Diablo |
-| 2000–2010 | **コンテンツの多様化**。手作りでは不可能なスケール・深度・リプレイ性の実現 | Dwarf Fortress、Spelunky、Minecraft |
-| 2011–現在 | **体験設計のツール**。PCGとハンドクラフトの融合、ナラティブへの拡張、AIとの連携 | Binding of Isaac、No Man's Sky、Dead Cells、Hades |
+Ken Perlin氏は、映画『Tron』（1982年）で使われたコンピューター映像の機械的な見た目をきっかけに、1983年にPerlin Noiseを開発した。1985年に論文を発表し、1997年にはプロシージャルな質感表現の技術で米国映画芸術科学アカデミーの科学技術賞（Technical Achievement Award）を受けた。[[17](#ref-17)][[18](#ref-18)][[19](#ref-19)]
 
-Rogueの設計者たちが1980年に書いたコードは、「コンピュータが冒険を作る」という夢を持っていた。40年後、その夢は実現しつつある——ただし「面白い冒険」を保証するのは、アルゴリズムではなく依然として人間の設計力だ。PCGはデザイナーの意図を「無限倍」にする技術であり、意図のない場所に魔法をかけることはできない。
+| 手法 | 何をするか | 用途 | 作品例 |
+| --- | --- | --- | --- |
+| Perlin Noise | 近い点ほど値が似るように、不規則な値を滑らかにつなぐ。 | 地形の起伏や表面の模様 |  |
+| セル・オートマトン | 格子のマスごとに、周囲のマスの状態を見て床や壁を決め直す。繰り返すと床や壁がまとまる。[[20](#ref-20)] | 洞窟の下地 |  |
+| 空間の分割 | 広い領域を順に小さく分け、分けた領域に部屋を置く。必要な部屋を通路でつなぐ。[[21](#ref-21)] | ダンジョンの部屋の配置 |  |
+| Wave Function Collapse（WFC） | Maxim Gumin氏の手法。手本の画像から近くに置ける模様の組み合わせを読み取り、隣り合ってよいタイルや模様の制約を満たすように並べる。[[22](#ref-22)] | タイル地図や模様の配置 |  |
 
----
+***
+
+## むすび
+
+AI・機械学習とプロシージャル生成を組み合わせ、既存のレベルなどから配置の特徴を学ばせて新しい候補を作る研究も進んでいる。候補の作り方が変わっても、出口までたどり着けるか、遊ぶたびに判断が変わるかは、それぞれ確かめる必要がある。[[23](#ref-23)]
+
+| 確認項目 | 企画・試作で確かめること |
+| --- | --- |
+| 再現性 | 同じ生成結果を出すために、シードのほかに版や設定も記録しているか。 |
+| 遊べることの保証 | 入口から出口へ行けるか。必要な鍵や道具を、使うより先に入手できるか。 |
+| 手作りの部品の比率 | 必ず見せたい場面をどの単位で固定し、どの部品の選択や組み合わせを乱数に任せるか。 |
+| 規則を直す道具 | 問題の出た結果を再現し、どの規則が原因か調べ、変更前後を見比べられるか。 |
+| 飽きへの対策 | 配置や見た目が変わったとき、プレイヤーが取る経路や行動にも違いが生まれるか。 |
 
 ## References
 
-<a id="ref-1"></a>1. [手続き型生成][1] - 手続き型生成（てつづきがたせいせい、英:procedural generation）またはプロシージャル生成とは、コンピュータを用いたデータ処理（コンピューティング）の手法の一つ。
+<a id="ref-1"></a>1. [Iain Thomson「40 years since Elite became the most fun you could have with 22 kilobytes」][1] — The Register、2024年1月18日。Ian Bell氏とMark Moxon氏へのインタビュー。
 
-<a id="ref-2"></a>2. [Procedural generation][2] - Procedural generation is a method of creating data algorithmically as opposed to manually, typically...
+[1]: https://www.theregister.com/2024/01/18/elite_game_retro/
 
-<a id="ref-3"></a>3. [Beneath Apple Manor][3] - Beneath Apple Manor is a roguelike game written by Don Worth for the Apple II and published by The S...
+<a id="ref-2"></a>2. [Mark Moxon「Galaxy and system seeds」][2] — Elite on the 6502、公開日記載なし。Ian Bell氏が公開したソースコードに基づく解析。
 
-<a id="ref-4"></a>4. [Beneath Apple Manor][4] - It's claimed to be the first CRPG and cited by Wikipedia as "one of the first video games to use pro...
+[2]: https://elite.bbcelite.com/deep_dives/galaxy_and_system_seeds.html
 
-<a id="ref-5"></a>5. [Rogue - Procedural Content Generation Wiki][5] - Rogue is a single player game that is the progenitor of all roguelikes. It is also one of the earlie...
+<a id="ref-3"></a>3. [Matt Gartzke「Caves & Cliffs: Part II Out Today on Bedrock」][3] — Minecraft公式サイト、2021年11月30日。「Known Issues」のシードとバージョンについての記述を参照。
 
-<a id="ref-6"></a>6. [Procedural Level Generation in 2D Roguelite Games][6] - The roguelite game genre is considered to predate the 1980s game Rogue, which combines procedural ge...
+[3]: https://www.minecraft.net/en-us/article/caves---cliffs--part-ii-out-today-bedrock
 
-<a id="ref-7"></a>7. [By Design: Procedural Generation - SUPERJUMP Magazine][7] - Procedural generation is a method of creating things with the use of algorithms, as opposed to manua...
+<a id="ref-4"></a>4. [Cameron Thomas「Caves & Cliffs Part II: The Features」][4] — Minecraft公式サイト、2021年12月3日。「World Blending」を参照。
 
-<a id="ref-8"></a>8. [Elite: Remembering the Original Open-World][8] - Storing an entire galaxy within the confines of the BBC Micro's 16kB of memory was indeed no small f...
+[4]: https://www.minecraft.net/en-us/article/caves---cliffs-part-ii-the-features
 
-<a id="ref-9"></a>9. [[The Night Games Changed the World Part 4] Two ...][9] - Tribonacci sequence (3-term Fibonacci). s0' = s1, s1' = s2, s2' = s0+s1+s2. 4 twists per planet. 256...
+<a id="ref-5"></a>5. [Spelunky World「What is Spelunky?」][5] — Spelunky公式サイト、公開日記載なし。毎回の配置が変わる遊びについての紹介。
 
-<a id="ref-10"></a>10. [Elite Dangerous Wiki - Fandom][10] - According to Guinness World Records, "Elite was the first game to feature a (3D) procedurally genera...
+[5]: https://spelunkyworld.com/whatis.html
 
-<a id="ref-11"></a>11. [Elite (video game)][11] - In 2015, Guinness World Records awarded Elite (1984) as the first game to feature a procedurally gen...
+<a id="ref-6"></a>6. [Darius Kazemi「Spelunky Generator Lessons」][6] — Tiny Subversions、公開日記載なし。初代のソースコードに基づく解説と実演。David Pittman氏のGDC 2015講演「Procedural Level Design in Eldritch」でも参照されている。
 
-<a id="ref-12"></a>12. [Revolutionary British video game Elite turns 40][12] - Squeezing all this groundbreaking experience within the small memory available on the BBC Micro cons...
+[6]: https://tinysubversions.com/spelunkyGen/
 
-<a id="ref-13"></a>13. [Dungeon Generation in Diablo 1 - BorisTheBrave.Com][13] - Seperation of dungeon generation into a walkability map (predungeon) and tile generation is also ver...
+<a id="ref-7"></a>7. [Adam Newgas（Boris）「Dungeon Generation in Diablo 1」][7] — BorisTheBrave.Com、2019年7月14日。復元されたコードに基づく技術解析。
 
-<a id="ref-14"></a>14. [Simulation Principles from Dwarf Fortress][14] - Dwarf Fortress is a game built on simulation, generating unique game worlds for the player to experi...
+[7]: https://www.boristhebrave.com/2019/07/14/dungeon-generation-in-diablo-1/
 
-<a id="ref-15"></a>15. [Procedural Generation and Information Games][15] - In his book of the same name [3], designer Derek Yu explains that the use of PCG in. Spelunky was in...
+<a id="ref-8"></a>8. [Sébastien Bénard「Building the Level Design of a procedurally generated Metroidvania: a hybrid approach.」][8] — Game Developer、2017年3月29日。『Dead Cells』開発者による解説。
 
-<a id="ref-16"></a>16. [How to effectively use procedural generation in games][16] - Two examples from Spelunky. The procedural level generation in Derek Yu's roguelike platformer game ...
+[8]: https://www.gamedeveloper.com/design/building-the-level-design-of-a-procedurally-generated-metroidvania-a-hybrid-approach-
 
-<a id="ref-17"></a>17. [Spelunky style procedural generation : r/gamemaker][17] - In the Spelunky version of Boss Fight Books Derek Yu explains exactly what his methodology was. It b...
+<a id="ref-9"></a>9. [Tarn Adams「Simulation Principles from Dwarf Fortress」][9] — Game AI Pro 2 第41章、2015年。
 
-<a id="ref-18"></a>18. [The Science Behind Minecraft's World Generation][18] - Minecraft relies on procedural generation—a technique where content is created dynamically using mat...
+[9]: https://www.gameaipro.com/GameAIPro2/GameAIPro2_Chapter41_Simulation_Principles_from_Dwarf_Fortress.pdf
 
-<a id="ref-19"></a>19. [Understanding Perlin Noise - an in-depth look at the ...][19] - Perlin Noise is an extremely powerful algorithm that is used often in procedural content generation....
+<a id="ref-10"></a>10. [SideFX「Houdini at CEDEC 2019」][10] — SideFX公式サイト、2019年。「Part 1: バリエーション生成」を参照。
 
-<a id="ref-20"></a>20. [How Minecraft Terrain Generation Works][20] - Conclusion. The generation of a Minecraft world is essentially an algorithms that takes a set of num...
+[10]: https://www.sidefx.com/ja/community/cedec-2019/
 
-<a id="ref-21"></a>21. [Perlin Noise: Implementation, Procedural Generation, and ...][21] - Perlin noise is a foundational algorithm in CGI, widely used to create organic textures and naturali...
+<a id="ref-11"></a>11. [齋藤彰・永友瑛里子・山部道義「プロシージャルゲームコンテンツ制作ブートキャンプ 2019 Part 1 バリエーション生成」][11] — CEDEC 2019、2019年9月6日。CEDiLの公式セッション記録。
 
-<a id="ref-22"></a>22. [Perlin noise][22] - Perlin noise is a type of gradient noise developed by Ken Perlin in 1982. It has many uses, includin...
+[11]: https://cedil.cesa.or.jp/cedil_sessions/view/2111
 
-<a id="ref-23"></a>23. [Game Design Lessons from The Binding of Isaac - KokuTech][23] - Progression is built around randomness: item drops can create brokenly powerful builds, disastrous m...
+<a id="ref-12"></a>12. [Josh Sepielli「What Can You Do in No Man’s Sky?」][12] — PlayStation.Blog、2016年7月14日。発売予定日と惑星の規模を参照。
 
-<a id="ref-24"></a>24. [Dungeon Generation in Binding of Isaac - BorisTheBrave.Com][24] - The maps get slightly larger for later levels, and the contents of rooms change, but the layout algo...
+[12]: https://blog.playstation.com/?p=178276
 
-<a id="ref-25"></a>25. [Maths, No Man's Sky, and the problem with procedural ...][25] - No Man's Sky is a an astonishing mathematical algorithm for procedurally generating 18 quintillion w...
+<a id="ref-13"></a>13. [秋夏「『No Man's Sky』に影響を与えた作品とは―未見シーンを含んだインタビュー映像」][13] — Game*Spark、2015年7月16日。IGNによるSean Murray氏へのインタビューの紹介。
 
-<a id="ref-26"></a>26. [No Man's Sky is only 6GB on disc][26] - Even with its monstrously huge procedurally generated galaxies, No Man's Sky will only be 6GB in its...
+[13]: https://www.gamespark.jp/article/2015/07/16/58597.html
 
-<a id="ref-27"></a>27. [How No Man's Sky Creates 18 Quintillion Planets With Just ...][27] - Temperature, humidity, and elevation determine what plants and animals spawn. These rules are also p...
+<a id="ref-14"></a>14. [Innes McKendrick「Continuous World Generation in 'No Man's Sky'」][14] — GDC 2017、2017年。Hello Gamesの開発者による講演。
 
-<a id="ref-28"></a>28. [Procedural generation - No Man's Sky Wiki - Fandom][28] - No Man's Sky features a procedurally generated open universe of 18 quintillion planets, which means ...
+[14]: https://www.gdcvault.com/play/1024265/Continuous-World-Generation-in-No
 
-<a id="ref-29"></a>29. [プロシージャル生成で「無限のコンテンツ」は本当に作れるのか][29] - 本記事では、PCG（Procedural Content Generation：プロシージャルコンテンツ生成）の学術的理論に基づき、「無限のコンテンツ」という夢と現実のギャップを ...
+<a id="ref-15"></a>15. [Christopher Livingston「No Man's Sky review」][15] — PC Gamer、2016年8月18日。
 
-<a id="ref-30"></a>30. [It's not just No Man's Sky – procedural generation doesn't work][30] - Even worse is when your possible actions in that world are dictated by procedural generation – you c...
+[15]: https://www.pcgamer.com/no-mans-sky-review/
 
-<a id="ref-31"></a>31. [The System Behind Hades' Astounding Dialogue][31] - How does Hades always know what to say and when to say it? Grab a free trial of Skillshare Premium: ...
+<a id="ref-16"></a>16. [Hello Games「Foundation Update」][16] — No Man's Sky公式サイト、2016年11月27日。
 
-<a id="ref-32"></a>32. [Building the Level Design of a procedurally generated ...][32] - A hybrid approach between procedural generation and handmade levels, giving them that consistent fee...
+[16]: https://www.nomanssky.com/foundation-update/
 
-<a id="ref-33"></a>33. [Building the Level Design of a procedurally generated ...][33] - A hybrid approach between procedural generation and handmade levels, giving them that consistent fee...
+<a id="ref-17"></a>17. [Ken Perlin「Ken's Academy Award」][17] — ニューヨーク大学、公開日記載なし。
 
-<a id="ref-34"></a>34. [Procedural Generation: Wave Function Collapse][34] - In this blog, I wanted to explore a procedural generation algorithm called Wave Function Collapse (W...
+[17]: https://cs.nyu.edu/~perlin/doc/oscar
 
-<a id="ref-35"></a>35. [Wave Function Collapse][35] - The Wave Function Collapse Algorithm operates on a matrix of cells, which translates really well to ...
+<a id="ref-18"></a>18. [Ken Perlin「An image synthesizer」][18] — SIGGRAPH '85、1985年7月1日。
 
-<a id="ref-36"></a>36. [Making the Most out of Procedural Generation - Jan Orlowski][36] - Procedural generation gives developers the ability to use random number generation to automatically ...
+[18]: https://doi.org/10.1145/325334.325247
 
-<a id="ref-37"></a>37. [AI-Powered Game Development and Procedural Content ...][37] - AI-Powered Game Development and Procedural Content Creation market size was worth around USD 6.8 bil...
+<a id="ref-19"></a>19. [Nick Montfortほか「10 PRINT CHR$(205.5+RND(1)); : GOTO 10」][19] — MIT Press、2014年ペーパーバック版。「Acceptance and Resistance」の『Tron』と1983年の開発経緯を参照。
 
-[1]: https://ja.wikipedia.org/wiki/%E6%89%8B%E7%B6%9A%E3%81%8D%E5%9E%8B%E7%94%9F%E6%88%90
-[2]: https://en.wikipedia.org/wiki/Procedural_generation
-[3]: https://en.wikipedia.org/wiki/Beneath_Apple_Manor
-[4]: https://www.roguebasin.com/index.php/Beneath_Apple_Manor
-[5]: http://pcg.wikidot.com/pcg-games:rogue
-[6]: https://www.theseus.fi/bitstream/10024/873015/2/Sepanmaa_Tomi.pdf
-[7]: https://www.superjumpmagazine.com/by-design-procedural-generation/
-[8]: https://www.gamespot.com/articles/elite-remembering-the-original-open-world/1100-6419961/
-[9]: https://note.com/gstate_kamiya/n/n775c7ab83141?hl=en
-[10]: https://elite-dangerous.fandom.com/wiki/Elite
-[11]: https://en.wikipedia.org/wiki/Elite_(video_game)
-[12]: https://blog.sciencemuseumgroup.org.uk/revolutionary-british-video-game-elite-turns-40/
-[13]: https://www.boristhebrave.com/2019/07/14/dungeon-generation-in-diablo-1/
-[14]: http://www.gameaipro.com/GameAIPro2/GameAIPro2_Chapter41_Simulation_Principles_from_Dwarf_Fortress.pdf
-[15]: https://ieee-cog.org/2020/papers/paper_87.pdf
-[16]: https://www.gamedeveloper.com/design/how-to-effectively-use-procedural-generation-in-games
-[17]: https://www.reddit.com/r/gamemaker/comments/kao357/spelunky_style_procedural_generation/
-[18]: https://www.linkedin.com/pulse/science-behind-minecrafts-world-generation-apoorv-garg-xp8mc
-[19]: https://www.reddit.com/r/gamedev/comments/2d284n/understanding_perlin_noise_an_indepth_look_at_the/
-[20]: https://cybrancee.com/blog/how-minecraft-terrain-generation-works/
-[21]: https://garagefarm.net/blog/perlin-noise-implementation-procedural-generation-and-simplex-noise
-[22]: https://en.wikipedia.org/wiki/Perlin_noise
-[23]: https://www.kokutech.com/blog/gamedev/design-patterns/unique-mechanics/the-binding-of-isaac
-[24]: https://www.boristhebrave.com/2020/09/12/dungeon-generation-in-binding-of-isaac/
-[25]: https://www.thumbsticks.com/no-mans-sky-problem-procedural-generation/
-[26]: https://www.tweaktown.com/news/52967/mans-sky-6gb-disc/index.html
-[27]: https://dev.to/dubeykartikay/how-no-mans-sky-creates-18-quintillion-planets-with-just-math-3fgf
-[28]: https://nomanssky-archive.fandom.com/wiki/Procedural_generation
-[29]: https://zenn.dev/dsgarage/articles/procedural-content-generation
-[30]: https://extremelyroomypockets.wordpress.com/2016/08/30/its-not-just-no-mans-sky-procedural-generation-doesnt-work/
-[31]: https://www.youtube.com/watch?v=bwdYL0KFA_U
-[32]: https://www.moddb.com/news/the-level-design-of-a-procedurally-generated-metroidvania
-[33]: https://www.gamedeveloper.com/design/building-the-level-design-of-a-procedurally-generated-metroidvania-a-hybrid-approach-
-[34]: https://blog.ptidej.net/procedural-generation-using-wave-function-collapse/
-[35]: https://www.uproomgames.com/dev-log/wave-function-collapse
-[36]: https://janorlowski.com/blog/2020/2/20/when-everything-is-random-nothing-is-interesting
-[37]: https://www.sphericalinsights.com/blogs/ai-powered-game-development-and-procedural-content-creation
+[19]: https://escholarship.org/uc/item/3mb1z52c
+
+<a id="ref-20"></a>20. [Lawrence Johnson・Georgios N. Yannakakis・Julian Togelius「Cellular automata for real-time generation of infinite cave levels」][20] — PCGames 2010、2010年。マルタ大学の機関リポジトリ。
+
+[20]: https://www.um.edu.mt/library/oar/handle/123456789/22895
+
+<a id="ref-21"></a>21. [Jing Ming Yap・Nian Chein Woo・Bee Sian Tan・Kim Soon Chong「From Algorithm to Playable Space: A Technical Note on BSP-Based Dungeon Design」][21] — International Journal of Creative Multimedia、2025年9月30日。
+
+[21]: https://journals.mmupress.com/index.php/ijcm/article/view/2470
+
+<a id="ref-22"></a>22. [Maxim Gumin「WaveFunctionCollapse」][22] — GitHub、公開日記載なし。作者による実装と方式の説明。
+
+[22]: https://github.com/mxgmn/WaveFunctionCollapse
+
+<a id="ref-23"></a>23. [Adam Summervilleほか「Procedural Content Generation via Machine Learning (PCGML)」][23] — IEEE Transactions on Games、2018年。
+
+[23]: https://ieeexplore.ieee.org/document/8382283/
 
 ----
 

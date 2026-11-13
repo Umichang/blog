@@ -342,7 +342,7 @@
 
 ### 🧰 技術基盤・データ・アセット
 
-- [ゲームにおけるプロシージャル生成の技術史と設計論](procedural-content-generation-history-and-design.md) 🟡
+- [乱数に何を任せ、何を保証するのか——Eliteから『No Man's Sky』まで、プロシージャル生成の約束と限界](procedural-content-generation-history-and-design.md) 🟡
 - [ゲームにおける「ロード時間の隠蔽」技術史：黎明期から現代リマスターまで](history-of-hiding-load-times-in-games.md) 🟢
 - [なぜ最近のゲームは100GBを超えるのか――容量肥大化を支えるアセット、圧縮、差分パッチの実務](why-modern-games-are-so-large.md) 🟢
 - [GitやSVNだけではなぜ苦しくなるのか――ゲーム開発のバージョン管理・アセット管理実務](version-control-and-asset-management-for-game-development.md) 🔴
