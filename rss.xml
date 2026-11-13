@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 12 Nov 2026 23:08:47 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 11:43:37 -0000</lastBuildDate>
+    <item>
+      <title>自分のプロジェクトが漏れたとき、プランナーは何をするか――経路と重さで考えるリーク対応</title>
+      <link>https://umichang.github.io/blog/unreleased-game-leak-response-for-planners.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/unreleased-game-leak-response-for-planners.html</guid>
+      <description>制作中・制作予定のゲーム情報が漏れたとき、漏洩経路と情報の重さから、プランナーが社内へ何を伝え、制作と発表をどう支えるかを整理する。国内外の事例をもとに、提携先の株式取引に関わる注意点や、試遊版・レビュー版を配る前の備えも扱う。</description>
+      <pubDate>Fri, 13 Nov 2026 11:43:37 -0000</pubDate>
+    </item>
     <item>
       <title>フアン氏が去ったNVIDIAと、ゲームの行方——GeForceの会社がAIの会社になったあとで</title>
       <link>https://umichang.github.io/blog/nvidia-ceo-transition-2026-gaming-impact.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/allnet-aime-outage-arcade-operators-network-dependency.html</guid>
       <description>セガ フェイブのALL.Net・Aime停止で、通信対戦やカードを使ったプレイに加え、一部のゲーム機はオフラインでも稼働できなくなった。2026年11月12日時点の状況を整理し、店が台を置き続ける判断と、ネットワークが止まったときに残す機能を考える。</description>
       <pubDate>Thu, 12 Nov 2026 04:21:09 -0000</pubDate>
-    </item>
-    <item>
-      <title>ゲームソフトはどう店に届いたか——初心会からプレイステーションの直取引、中古裁判まで</title>
-      <link>https://umichang.github.io/blog/japan-game-software-distribution-shoshinkai-to-playstation.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/japan-game-software-distribution-shoshinkai-to-playstation.html</guid>
-      <description>ファミコンの初心会からプレイステーションの直取引、中古ゲームソフト裁判まで、発注の時期と売れ残りの負担から日本の家庭用ゲーム流通をたどる。</description>
-      <pubDate>Wed, 11 Nov 2026 10:32:36 -0000</pubDate>
     </item>
   </channel>
 </rss>

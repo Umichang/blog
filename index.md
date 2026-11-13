@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [自分のプロジェクトが漏れたとき、プランナーは何をするか――経路と重さで考えるリーク対応](unreleased-game-leak-response-for-planners.md) 🟡
 - [フアン氏が去ったNVIDIAと、ゲームの行方——GeForceの会社がAIの会社になったあとで](nvidia-ceo-transition-2026-gaming-impact.md) 🟡
 - [表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線](restricted-symbols-red-cross-swastika-free-expression.md) 🟡
 - [OpenTracks（旧DOVA-SYNDROME）の音源をゲームで使うには――音楽ゲームの利用条件と配布時の組み込み方](opentracks-dova-syndrome-game-embedding-music-game-terms.md) 🟡
 - [ゲームセンターの台はなぜ止まったのか——ALL.Net・Aimeの停止と、店が台を動かし続ける条件](allnet-aime-outage-arcade-operators-network-dependency.md) 🟡
-- [ゲームソフトはどう店に届いたか——初心会からプレイステーションの直取引、中古裁判まで](japan-game-software-distribution-shoshinkai-to-playstation.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -402,6 +402,7 @@
 - [その停止は、誰が、いつ、何を根拠に決めるか――PHPの重大な脆弱性から考える緊急メンテナンスの段取り](php-emergency-maintenance-who-decides-to-stop.md) 🟡
 - [「詫び石」を仕組みで設計する――障害・不具合の補填基準はどう決めるべきか](live-service-game-incident-compensation-framework.md) 🔴
 - [個人情報漏洩・不正アクセスの初動フロー――ゲーム会社が48時間で確定させるべきこと](personal-data-breach-first-48-hours-game-company.md) 🔴
+- [自分のプロジェクトが漏れたとき、プランナーは何をするか――経路と重さで考えるリーク対応](unreleased-game-leak-response-for-planners.md) 🟡
 - [ゲームセンターの台はなぜ止まったのか——ALL.Net・Aimeの停止と、店が台を動かし続ける条件](allnet-aime-outage-arcade-operators-network-dependency.md) 🟡
 - [残高がマイナスになる日――ブルーアーカイブ“負債石”事件にみる、誤配布通貨の回収とプレイヤー公平性の衝突](negative-currency-recovery-bluearchive-fgo-case.md) 🟡
 - [期待値が良くても、なぜ燃えるのか――『ブルーアーカイブ』「呼び出しチャージ」への変更を確率と信頼から読む](bluearchive-recruitment-charge-probability-player-trust.md) 🟡
