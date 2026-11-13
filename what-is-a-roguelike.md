@@ -85,6 +85,8 @@ difficulty: green
 - **The Binding of Isaac**（2011年/Edmund McMillen・Florian Himsl作）：ゼルダ風トップダウンシューター＋ローグライク要素。2014年までに300万本以上を売り上げ、ジャンルへの関心を大幅に再燃させた[[13](#ref-13)]
 - **FTL: Faster Than Light**（2012年/Subset Games作）：宇宙船管理シミュレーション＋ランダムイベント[[11](#ref-11)]
 
+Spelunkyが通り道を先に確保してから部屋を埋める生成の手順は、[乱数に何を任せ、何を保証するのか](procedural-content-generation-history-and-design.md)で扱っている。
+
 ### 「ローグライト」という言葉の誕生
 
 「ローグライト（Rogue-lite）」という用語を初めて用いたのは、2013年発売の**『Rogue Legacy』**の開発元Cellar Door Games（トロント拠点、Kenny LeeとTeddy Leeの兄弟による2人組スタジオ）であるとされている。彼らは、自分たちのゲームが「ローグライク」に類似しているが、より親しみやすい（アクセシブルな）設計になっていることを示すために、「lite（軽い）」という語を組み合わせた。[[14](#ref-14)][[11](#ref-11)]
