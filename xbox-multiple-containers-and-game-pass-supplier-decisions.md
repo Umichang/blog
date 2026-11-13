@@ -6,6 +6,8 @@ difficulty: yellow
 
 # 「Xbox」はいま、いくつの器を指しているのか ― 作品を出す側が確認すべきこと
 
+> 2026年11月13日更新：Xboxの広告付きクラウドゲーミングの発表を反映しました。
+
 2026年のXboxは、作品とプレイヤーを結ぶ場所を増やしている。5月にはWindows 11のXboxモードの提供と、Discord NitroにGame Passを組み込む提携が発表された。9月にはクラウドの月間利用時間の変更予定が示され、『PHYSINT』のパブリッシングを引き受けることも発表された。コンソールの開発と並行して、起動画面、配布サービス、制作のパートナーという複数の役割が、同じ名前の下で広がっている。
 
 本稿は、Game Passへの作品提供を検討する開発会社やパブリッシング担当者、新人ゲームプランナーの立場から、この動きを読む。対象は **2026年9月11日までに公表された情報** であり、11月に詳細案内を予定する変更など、未確定の部分は未確定として示す。
@@ -93,7 +95,9 @@ Starter Editionの公式ページは、50本以上のライブラリ、対応す
 
 入口となる端末への展開は続いている。英語版のクラウド公式ページは、対応するLG、Samsung、VIDAA OS搭載スマートTVとAmazon Fire TVを引き続き案内し、同じページに各プランの時間枠も載せている。[[7](#ref-7)] 日本語版もスマートTVなどの対応と今後の対応拡大を案内しているが、テレビ欄では英語版のように各ブランドを列挙していない。英語版の機種案内を、そのまま日本の全モデルでの利用保証と読み替えることはできない。[[8](#ref-8)]
 
-技術やサービスの成否は、既刊「[クラウドゲーミングの現在地](cloud-gaming-deep-dive-proofread.md)」で扱った。本稿で見る変化は、入口の広さを保ちながら、そこから遊べる時間に条件が加わることである。
+その後、11月12日には、Microsoftの広告事業が広告主向けに「XBOX Video for Brands」を発表した。スキップできない3分間の広告を見ると、Game Passに加入していなくても30分間クラウドで遊べる。7月にはXbox Insider向けに、所有する一部の作品を広告付きで遊べる試験も行われていた。対象作品、提供地域、一般向けの開始日は発表されていない。時間を買う経路と並んで、広告を見て時間を得る経路が用意されつつある。[[9](#ref-9)][[10](#ref-10)]
+
+クラウドゲーミングの課金の型と、各社が定額・無制限から時間で売る形へ移った流れは、既刊「[クラウドゲーミングのサーバー代は誰が払うのか](cloud-gaming-deep-dive-proofread.md)」で扱った。本稿で見る変化は、入口の広さを保ちながら、そこから遊べる時間に条件が加わることである。
 
 ### 4-2. 編者の考察：入口を広げたまま、滞在時間を区切る意味
 
@@ -105,7 +109,7 @@ Starter Editionの公式ページは、50本以上のライブラリ、対応す
 
 第三に、公式の4%はGame Passメンバーを母集団とする見込みであり、クラウド専用層の4%という数字ではない。クラウド専用層の人数も、そのうち上限を超える割合も示していないため、全体比率の小ささだけでは、この層の負担を評価しきれないと読める。[[6](#ref-6)]
 
-第四に、Chromebook側では別の変化があった。2025年8月、ChromeOSのランチャーで「Steam」を検索した際に表示される告知として、「The Steam for Chromebook beta program will conclude on January 1st, 2026.」という文面が報じられた。以降はベータ経由でインストールしたゲームを端末上で遊べなくなるとされている。[[9](#ref-9)] これはGoogle側の判断であり、Xboxの施策ではない。対象はこのベータによるローカル実行の経路であって、Chromebookのあらゆるローカルゲームではない。なお、Googleのサポートページは2026年9月時点でもこのベータの導入手順を案内しており、告知後に実際どう提供されているかまでは公表資料から確定できない。ただし、この経路を当てにしていた人がPCゲームを遊び続ける際、クラウドへの依存が高まるという説明は立つ。
+第四に、Chromebook側では別の変化があった。2025年8月、ChromeOSのランチャーで「Steam」を検索した際に表示される告知として、「The Steam for Chromebook beta program will conclude on January 1st, 2026.」という文面が報じられた。以降はベータ経由でインストールしたゲームを端末上で遊べなくなるとされている。[[11](#ref-11)] これはGoogle側の判断であり、Xboxの施策ではない。対象はこのベータによるローカル実行の経路であって、Chromebookのあらゆるローカルゲームではない。なお、Googleのサポートページは2026年9月時点でもこのベータの導入手順を案内しており、告知後に実際どう提供されているかまでは公表資料から確定できない。ただし、この経路を当てにしていた人がPCゲームを遊び続ける際、クラウドへの依存が高まるという説明は立つ。
 
 こうして見ると、入口を広げる施策と、滞在時間を区切る施策が同時に走っている。「まず触れられる場所は多く、長く遊ぶには追加時間か別の実行環境が必要になる」という設計であり、別の入口への誘導としても読める。
 
@@ -115,17 +119,17 @@ Starter Editionの公式ページは、50本以上のライブラリ、対応す
 
 ## 5. Xbox Game Studiosは、作品を引き受ける側でもある
 
-収録先とは別に、制作・販売のパートナーとしてのXboxがある。2026年9月10日、日本向けに『PHYSINT』のパブリッシングをXboxが担う提携拡大が発表された。Xbox Game Studiosがパブリッシングを予定する『OD』に続き、コジマプロダクションとの協業がもう一作へ広がった形である。[[10](#ref-10)][[11](#ref-11)] 今回のXbox公式発表は提携先をXBOXと表記しており、個別契約の法人名や権利分担までは示していない。
+収録先とは別に、制作・販売のパートナーとしてのXboxがある。2026年9月10日、日本向けに『PHYSINT』のパブリッシングをXboxが担う提携拡大が発表された。Xbox Game Studiosがパブリッシングを予定する『OD』に続き、コジマプロダクションとの協業がもう一作へ広がった形である。[[12](#ref-12)][[13](#ref-13)] 今回のXbox公式発表は提携先をXBOXと表記しており、個別契約の法人名や権利分担までは示していない。
 
 この出来事は、三つの当事者発信を分けて読む必要がある。
 
-PlayStation公式Xアカウントは、日本時間9月10日11時30分の投稿で、慎重な検討の末に『PHYSINT』での協業から退くという難しい決断をした、と説明した。同時に小島氏の構想への敬意を述べ、「Our relationship remains strong after three decades of industry-leading, genre-defining creative cooperation, and we look forward to continued close collaboration with Hideo Kojima and his award-winning independent studio in the future.」と続けている。[[12](#ref-12)]
+PlayStation公式Xアカウントは、日本時間9月10日11時30分の投稿で、慎重な検討の末に『PHYSINT』での協業から退くという難しい決断をした、と説明した。同時に小島氏の構想への敬意を述べ、「Our relationship remains strong after three decades of industry-leading, genre-defining creative cooperation, and we look forward to continued close collaboration with Hideo Kojima and his award-winning independent studio in the future.」と続けている。[[14](#ref-14)]
 
-一方、小島秀夫氏本人のXアカウントは同日11時38分の投稿で、6月中旬にSIEから制作中のプロジェクトをキャンセルする通達が届いた経緯を「突然、SIEより届きました」と記している。その後3か月間、新たなパートナーを模索し、未来のビジョンを共有できる相手としてXboxと組むことになり、制作は継続していると説明した。[[13](#ref-13)]
+一方、小島秀夫氏本人のXアカウントは同日11時38分の投稿で、6月中旬にSIEから制作中のプロジェクトをキャンセルする通達が届いた経緯を「突然、SIEより届きました」と記している。その後3か月間、新たなパートナーを模索し、未来のビジョンを共有できる相手としてXboxと組むことになり、制作は継続していると説明した。[[15](#ref-15)]
 
 慎重な検討を語るPlayStationと、突然の通達を語る小島氏では、同じ出来事の説明に隔たりがある。ただし、発信した側の検討過程と、受け手にとっての突然さは別の事柄でもある。公表文だけでどちらが正しいかを判定することも、SIEが退いた理由を推測することもできない。外から確認できるのは、SIEが協業から退いたこと、小島氏が新たな相手を探したと説明していること、そしてXboxとの提携で制作が続くことまでである。
 
-三つ目となるXbox公式発表では、CEOのAsha Sharma氏が「クリエイターには、自らのアイデアをどこで、どのような形で実現するかを選ぶ自由があります」と述べている。発表は『OD』『PHYSINT』に加え、映画・テレビ分野にも協力を広げるとしている。[[10](#ref-10)]
+三つ目となるXbox公式発表では、CEOのAsha Sharma氏が「クリエイターには、自らのアイデアをどこで、どのような形で実現するかを選ぶ自由があります」と述べている。発表は『OD』『PHYSINT』に加え、映画・テレビ分野にも協力を広げるとしている。[[12](#ref-12)]
 
 供給側から見ると、Xboxはカタログの収録先であると同時に、他社が手を引いた作品の継続先にもなった。これはスタジオをどの会社が所有するかとは別の、タイトル単位の行き先である。組織の出口は「[Xbox再編から考える、スタジオの「独立・売却・閉鎖」はなぜ分かれるのか](xbox-studio-restructuring-exit-paths-2026.md)」に譲り、ここではパブリッシングの合意とGame Pass収録の合意を分けて押さえたい。今回の発表だけから、個別作品の収録プランや発売条件まで確定することはできない。
 
@@ -147,7 +151,7 @@ PlayStation公式Xアカウントは、日本時間9月10日11時30分の投稿�
 
 ### 6-2. 収録の対価と、制作を引き受ける条件を分ける
 
-Game Pass収録を検討する際には、契約金だけでなく単体販売との関係も確認したい。AUTOMATONは、Xbox Game Studios元VPのShannon Loftis氏がLinkedInで、発売後のDLCや課金アイテムによる収益化を計画する場合を除き、多くのGame Pass作品が相当の小売売上を犠牲にするとの見解を示した、と報じている。これは **元幹部個人の見解であり、Microsoftの公式見解でも、自社作品の損失を示す実測値でもない** 。同じ報道は、契約金を得る利点、注目を集める機会、発売後のDLCで収益につなげる可能性も取り上げている。[[14](#ref-14)]
+Game Pass収録を検討する際には、契約金だけでなく単体販売との関係も確認したい。AUTOMATONは、Xbox Game Studios元VPのShannon Loftis氏がLinkedInで、発売後のDLCや課金アイテムによる収益化を計画する場合を除き、多くのGame Pass作品が相当の小売売上を犠牲にするとの見解を示した、と報じている。これは **元幹部個人の見解であり、Microsoftの公式見解でも、自社作品の損失を示す実測値でもない** 。同じ報道は、契約金を得る利点、注目を集める機会、発売後のDLCで収益につなげる可能性も取り上げている。[[16](#ref-16)]
 
 したがって、自社の判断表では、確定する対価、単体販売の見通し、露出の条件、追加コンテンツの収益機会、移植・保守の費用を分ける。契約金の支払時期と条件を押さえた上で、販売減少も追加購入も予測として置き、どの前提で計画が成り立つのかを確認する。Game Passの賛否ではなく、自社の作品と契約条件の対応を調べる作業である。
 
@@ -201,29 +205,37 @@ Game Pass収録を検討する際には、契約金だけでなく単体販売�
 
 [8]: https://www.xbox.com/ja-JP/cloud-gaming
 
-<a id="ref-9"></a>9. [Google ending Steam for Chromebook support in 2026][9] — 9to5Google、2025年8月7日。ChromeOSのランチャー上に表示された告知の文面を伝える報道。なおGoogleのサポートページ「Play Steam for Chromebook (Beta)」（support.google.com/chromebook/answer/14220699）には、2026年9月11日時点で当該告知の掲載がない。
+<a id="ref-9"></a>9. [Meredith Barrett「XBOX Video for Brands: A new way to get closer to play」][9] — Microsoft Advertising Blog、2026年11月12日。広告主向けの発表。
 
-[9]: https://9to5google.com/2025/08/07/steam-chromebook-2026/
+[9]: https://about.ads.microsoft.com/en/blog/post/november-2026/xbox-video-for-brands-a-new-way-to-get-closer-to-play
 
-<a id="ref-10"></a>10. [XBOX とコジマプロダクションは『PHYSINT』のパブリッシングに向けパートナーシップを拡大][10] — Xbox Wire Japan、Team XBOX、2026年9月10日。米国時間9月9日の発表の抄訳。
+<a id="ref-10"></a>10. [Team XBOX「Beginning Ad-supported Game Streaming Test & Learn」][10] — Xbox Wire、2026年7月23日。
 
-[10]: https://news.xbox.com/ja-jp/2026/09/10/xbox-and-kojima-productions-expand-partnership-to-publish-physint/
+[10]: https://news.xbox.com/en-us/2026/07/23/game-streaming-ad-supported-xbox-insiders/
 
-<a id="ref-11"></a>11. [コジマプロダクション、新作『PHYSINT』ではPlayStationではなくXBOXとタッグに。SIEの“『PHYSINT』プロジェクト中止”通達を受けて][11] — AUTOMATON、Hideaki Fujiwara、2026年9月10日。『OD』のパブリッシャーと提携の経緯。
+<a id="ref-11"></a>11. [Google ending Steam for Chromebook support in 2026][11] — 9to5Google、2025年8月7日。ChromeOSのランチャー上に表示された告知の文面を伝える報道。なおGoogleのサポートページ「Play Steam for Chromebook (Beta)」（support.google.com/chromebook/answer/14220699）には、2026年9月11日時点で当該告知の掲載がない。
 
-[11]: https://automaton-media.com/articles/newsjp/20260910-466428/
+[11]: https://9to5google.com/2025/08/07/steam-chromebook-2026/
 
-<a id="ref-12"></a>12. [PlayStation公式アカウントによる『PHYSINT』の協業終了に関する発信][12] — @PlayStation、2026年9月10日11時30分（日本時間）。本文では冒頭を要約し、後半を原文で引用した。
+<a id="ref-12"></a>12. [XBOX とコジマプロダクションは『PHYSINT』のパブリッシングに向けパートナーシップを拡大][12] — Xbox Wire Japan、Team XBOX、2026年9月10日。米国時間9月9日の発表の抄訳。
 
-[12]: https://x.com/PlayStation/status/2097875212427735146
+[12]: https://news.xbox.com/ja-jp/2026/09/10/xbox-and-kojima-productions-expand-partnership-to-publish-physint/
 
-<a id="ref-13"></a>13. [小島秀夫氏本人による『PHYSINT』の制作継続に関する発信][13] — @Kojima_Hideo、2026年9月10日11時38分（日本時間）。
+<a id="ref-13"></a>13. [コジマプロダクション、新作『PHYSINT』ではPlayStationではなくXBOXとタッグに。SIEの“『PHYSINT』プロジェクト中止”通達を受けて][13] — AUTOMATON、Hideaki Fujiwara、2026年9月10日。『OD』のパブリッシャーと提携の経緯。
 
-[13]: https://x.com/Kojima_Hideo/status/2097877326159917497
+[13]: https://automaton-media.com/articles/newsjp/20260910-466428/
 
-<a id="ref-14"></a>14. [Xbox元幹部が「Game Passは、大多数のゲームが売上を犠牲にして成り立っている」と警鐘鳴らす。ビジネスモデルとせめぎ合う“開発者側のメリット”][14] — AUTOMATON、Kosuke Takenaka、2025年9月9日。Loftis氏のLinkedIn発言を伝える報道。
+<a id="ref-14"></a>14. [PlayStation公式アカウントによる『PHYSINT』の協業終了に関する発信][14] — @PlayStation、2026年9月10日11時30分（日本時間）。本文では冒頭を要約し、後半を原文で引用した。
 
-[14]: https://automaton-media.com/articles/newsjp/game-pass-20250909-356860/
+[14]: https://x.com/PlayStation/status/2097875212427735146
+
+<a id="ref-15"></a>15. [小島秀夫氏本人による『PHYSINT』の制作継続に関する発信][15] — @Kojima_Hideo、2026年9月10日11時38分（日本時間）。
+
+[15]: https://x.com/Kojima_Hideo/status/2097877326159917497
+
+<a id="ref-16"></a>16. [Xbox元幹部が「Game Passは、大多数のゲームが売上を犠牲にして成り立っている」と警鐘鳴らす。ビジネスモデルとせめぎ合う“開発者側のメリット”][16] — AUTOMATON、Kosuke Takenaka、2025年9月9日。Loftis氏のLinkedIn発言を伝える報道。
+
+[16]: https://automaton-media.com/articles/newsjp/game-pass-20250909-356860/
 
 ----
 

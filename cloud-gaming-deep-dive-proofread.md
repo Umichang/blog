@@ -8,7 +8,9 @@ difficulty: yellow
 
 > 2026年11月12日改版：記事全体を全面的に書き直しました。内容の変更はGitの履歴から追えます。
 
-> 料金・プラン・提供状況は2026年11月時点の情報です。
+> 2026年11月13日更新：Xboxの広告付きクラウドゲーミングの発表を反映しました。
+
+> 料金・プラン・提供状況は2026年11月13日時点の情報です。
 
 ## 1. はじめに
 
@@ -50,42 +52,53 @@ HoYoverseの『Genshin Impact · Cloud』では、有料の残高から支払う
 
 日本では、同じHoYoverseの『ゼンレスゾーンゼロ』クラウド版が2026年2月6日に正式リリースされた。配信時の案内では初回ログインで10時間の体験時間が付与され、30日分のフリーパスは2,600円だった。作品内の課金とは別に、クラウドで遊ぶ時間や期間に料金を設定した例である。[[16](#ref-16)]
 
-![クラウドゲーミングの六つの課金方式を、会費で回収する型、作品やライセンスを購入する型、時間で支払う型に整理した図。購入済み作品の持ち込みでは作品代とクラウド利用料が別になる](image/cloud-gaming-payment-models.webp)
+### 広告で払う
 
-六つの型は、プレイヤーから見て何に代金を払うかで分けたものだ。会費と作品代、定額と時間枠のように、複数の型を組み合わせるサービスもある。事業者間で費用をどう分けるかは、購入画面からは分からない。
+プレイヤーが代金の代わりに広告を見て、遊ぶ時間を得る型もある。GeForce NOWの無料会員は、ゲームを選んだ後、各セッションの開始前に最長2分のビデオ広告を見る。広告はプレイ中には表示されない。[[6](#ref-6)]
+
+Xboxは2026年7月23日、Xbox Insider向けに、所有する一部の作品を広告付きで無料でストリーミングできる試験を始めた。1回のプレイは1時間までで、広告はプレイの前に流れる。11月12日には、Microsoftの広告事業が広告主向けに「XBOX Video for Brands」を発表した。スキップできない3分間の広告を見ると30分間プレイでき、Game Passへの加入は要らない。対象作品、提供地域、一般向けの開始日は示されておらず、日本で提供されるかも発表されていない。[[17](#ref-17)][[18](#ref-18)][[19](#ref-19)]
+
+この型では、サーバー代の一部を広告主が負担し、プレイヤーは広告を見る時間で支払う。
+
+![クラウドゲーミングの七つの課金方式を、会費で回収する型、作品やライセンスを購入する型、時間で支払う型、広告で払う型に整理した図。購入済み作品の持ち込みでは作品代とクラウド利用料が別になる](image/cloud-gaming-payment-models.webp)
+
+七つの型は、プレイヤーから見て何に代金を払うかで分けたものだ。会費と作品代、定額と時間枠のように、複数の型を組み合わせるサービスもある。事業者間で費用をどう分けるかは、購入画面からは分からない。
 
 | 型と例 | 誰が何にいくら払うか | プレイ時間の上限・利用期限 |
 | --- | --- | --- |
-| 会員サービスに同梱（PS Plus プレミアム） | プレイヤーが会員特典一式に月1,550円（日本、1か月利用権）[[17](#ref-17)]。購入済み作品を使う場合の作品代は別 | 公式プラン案内に月間枠の記載なし。会員資格が必要 [[3](#ref-3)] |
-| 定額ライブラリ（Game Pass） | プレイヤーがカタログなどに月会費。日本ではEssentialが850円、Premiumが1,300円、Ultimateが1,550円 | 通常3プランに月間枠あり。追加時間は別売り [[18](#ref-18)][[19](#ref-19)] |
+| 会員サービスに同梱（PS Plus プレミアム） | プレイヤーが会員特典一式に月1,550円（日本、1か月利用権）[[20](#ref-20)]。購入済み作品を使う場合の作品代は別 | 公式プラン案内に月間枠の記載なし。会員資格が必要 [[3](#ref-3)] |
+| 定額ライブラリ（Game Pass） | プレイヤーがカタログなどに月会費。日本ではEssentialが850円、Premiumが1,300円、Ultimateが1,550円 | 通常3プランに月間枠あり。追加時間は別売り [[21](#ref-21)][[22](#ref-22)] |
 | 購入済み作品の持ち込み（GeForce NOW） | プレイヤーが作品代を外部ストアに、クラウドの有料会費をNVIDIAに支払う。日本でのUltimate提供開始時は月3,580円。無料プランもある | PerformanceとUltimateは月100時間。1回の接続にもプラン別の上限がある [[6](#ref-6)][[7](#ref-7)] |
 | 個別購入（Stadia、終了済み） | プレイヤーがStadiaストアに作品ごとの代金を支払う。Proは任意で、カナダ向け公式ブログでは月9.99ドル | 当時の購入案内に月間枠の記載なし。サービス終了で配信終了 [[8](#ref-8)] |
 | 作品単位（Switch向けクラウド版） | プレイヤーが作品ごとの代金を支払う。『バイオハザード7』の180日券は2,000円。『キングダム ハーツ』の単品は発売時5,280円から | 『バイオハザード7』の旧券は180日の有効期限。『キングダム ハーツ』は販売終了後のプレイ期限あり [[10](#ref-10)][[11](#ref-11)][[12](#ref-12)] |
 | 時間単位（Genshin Impact · Cloud） | プレイヤーが有料分を1分10 Cloud Coinsで支払う。Cloud Passも選べる | 無料時間・コイン残高またはパスの有効期間による [[13](#ref-13)] |
+| 広告付き（GeForce NOWの無料プラン、Xboxの広告付きクラウド） | プレイヤーは代金の代わりに、セッション前の広告を見る。広告主が広告枠に支払う | GeForce NOWは広告が最長2分。Xboxは3分の広告で30分（広告主向けの発表。一般向けの開始日は未発表） [[6](#ref-6)][[18](#ref-18)] |
 
 ***
 
 ## 3. 2025〜2026年、「無制限」が後退した
 
-**GeForce NOW** は2025年9月10日、Ultimate向けにGeForce RTX 5080クラスのサーバーを順次導入し始めた。一方、PerformanceとUltimateの定額料金に含まれるプレミアム利用時間は月100時間となった。未使用分は最大15時間を翌月に繰り越せ、超過分は15時間単位で追加購入できる。[[6](#ref-6)][[20](#ref-20)][[21](#ref-21)]
+**GeForce NOW** は2025年9月10日、Ultimate向けにGeForce RTX 5080クラスのサーバーを順次導入し始めた。一方、PerformanceとUltimateの定額料金に含まれるプレミアム利用時間は月100時間となった。未使用分は最大15時間を翌月に繰り越せ、超過分は15時間単位で追加購入できる。[[6](#ref-6)][[23](#ref-23)][[24](#ref-24)]
 
-月間枠は2025年から導入され、対象の既存会員には2026年1月まで無制限で使える経過措置があった。NVIDIAの現行FAQでは、無制限の旧プランの権利を持つ会員の移行時期を、2026年1月15日以降の最初の請求日としている。基本のFounders会員には、資格を維持する限り無制限の例外もある。NVIDIAは月間枠を導入した理由として、品質や応答性を保ち、待ち時間を短くすることを挙げている。[[6](#ref-6)][[21](#ref-21)]
+月間枠は2025年から導入され、対象の既存会員には2026年1月まで無制限で使える経過措置があった。NVIDIAの現行FAQでは、無制限の旧プランの権利を持つ会員の移行時期を、2026年1月15日以降の最初の請求日としている。基本のFounders会員には、資格を維持する限り無制限の例外もある。NVIDIAは月間枠を導入した理由として、品質や応答性を保ち、待ち時間を短くすることを挙げている。[[6](#ref-6)][[24](#ref-24)]
 
-**Amazon Luna** は2026年4月10日、ゲームストア、個別購入、他社サブスクリプションの取り扱いを終了した。購入済みの対象作品や持ち込んだ外部ライブラリは6月10日までLunaで遊べた。ここで変わったのは、外部ストアで持っているゲームをLunaの実行枠で遊べる範囲である。[[22](#ref-22)][[23](#ref-23)][[24](#ref-24)]
+**Amazon Luna** は2026年4月10日、ゲームストア、個別購入、他社サブスクリプションの取り扱いを終了した。購入済みの対象作品や持ち込んだ外部ライブラリは6月10日までLunaで遊べた。ここで変わったのは、外部ストアで持っているゲームをLunaの実行枠で遊べる範囲である。[[25](#ref-25)][[26](#ref-26)][[27](#ref-27)]
 
-**Xbox** は2026年11月からGame Passの通常3プランに月間クラウド時間枠を設けた。日本のXbox公式ストアにも時間枠が表示されている。Xboxの発表では、枠を使い切った後は追加時間を購入できる。Xboxは、利用者が増え、プレイが長くなるほど提供コストが増えると説明している。会員資格を持たない人が時間を買う仕組みも発表され、10月にはInsider向けに試験提供が始まった。プランごとの枠と作品を供給する側への影響は [「Xbox」はいま、いくつの器を指しているのか](xbox-multiple-containers-and-game-pass-supplier-decisions.md) で扱う。[[18](#ref-18)][[19](#ref-19)][[25](#ref-25)]
+**Xbox** は2026年11月からGame Passの通常3プランに月間クラウド時間枠を設けた。日本のXbox公式ストアにも時間枠が表示されている。Xboxの発表では、枠を使い切った後は追加時間を購入できる。Xboxは、利用者が増え、プレイが長くなるほど提供コストが増えると説明している。会員資格を持たない人が時間を買う仕組みも発表され、10月にはInsider向けに試験提供が始まった。プランごとの枠と作品を供給する側への影響は [「Xbox」はいま、いくつの器を指しているのか](xbox-multiple-containers-and-game-pass-supplier-decisions.md) で扱う。[[21](#ref-21)][[22](#ref-22)][[28](#ref-28)]
 
 三つの変更が重なったことで、クラウド利用の条件がどこで決まるかが見えやすくなった。GeForce NOWとXboxは、会費で遊べる時間に枠を置き、さらに遊ぶ人から追加料金を受け取る。Lunaは、外部ライブラリにクラウドの実行枠を提供する仕組みを閉じた。時間枠を設けると、事業者は会費に含める利用量を定められ、プレイヤーは残り時間や追加料金を考えて遊ぶことになる。毎月の支払いが同じでも、遊ぶ時間の長い人ほどこの変更の影響を受けやすい。
+
+一方でXboxは、時間枠を導入した同じ11月に、会費を払わずに広告を見て遊ぶ経路も広告主向けに発表した。編者には、遊ぶ時間を会費、追加購入、広告のどれで賄うかを、プレイヤーごとに選ばせる形へ近づいているように見える。[[18](#ref-18)]
 
 ***
 
 ## 4. サービスが終わるとき、購入者に何が残るか
 
-**Stadiaでは返金が行われた。** Googleは2022年9月29日に終了を発表し、2023年1月18日にサービスを終えた。Google Storeで購入した対象のハードウェアと、Stadiaストアで購入した作品や追加コンテンツが返金対象となった。Stadia Proの会費は返金対象外だった。[[26](#ref-26)][[27](#ref-27)]
+**Stadiaでは返金が行われた。** Googleは2022年9月29日に終了を発表し、2023年1月18日にサービスを終えた。Google Storeで購入した対象のハードウェアと、Stadiaストアで購入した作品や追加コンテンツが返金対象となった。Stadia Proの会費は返金対象外だった。[[29](#ref-29)][[30](#ref-30)]
 
-**Lunaでは購入元のストアに作品が残った。** EA、Ubisoft、GOGなどのストアで買った作品は、Lunaでの配信終了後も購入元のサービスで利用できた。対象作品のセーブデータは6月10日の配信終了から90日間ダウンロードできた。Amazonの案内によれば、持ち出したデータが他のサービスで使えるかは作品や移行先に依存する。[[23](#ref-23)][[24](#ref-24)]
+**Lunaでは購入元のストアに作品が残った。** EA、Ubisoft、GOGなどのストアで買った作品は、Lunaでの配信終了後も購入元のサービスで利用できた。対象作品のセーブデータは6月10日の配信終了から90日間ダウンロードできた。Amazonの案内によれば、持ち出したデータが他のサービスで使えるかは作品や移行先に依存する。[[26](#ref-26)][[27](#ref-27)]
 
-**『キングダム ハーツ』では、割引購入とセーブの引き継ぎが用意された。** Switch向けクラウド版は2026年6月9日に販売を終了し、購入者は2027年6月9日までプレイできる。2026年10月8日には本体で動くSwitch 2版が発売され、『KINGDOM HEARTS -HD 1.5+2.5 ReMIX-』にはSwitch版も出た。クラウド版の所有者は対応するダウンロード版をニンテンドーeショップで割引購入し、セーブデータを引き継げる。移行先のダウンロード版は別途購入が必要で、パッケージ版は割引対象外である。[[28](#ref-28)][[29](#ref-29)]
+**『キングダム ハーツ』では、割引購入とセーブの引き継ぎが用意された。** Switch向けクラウド版は2026年6月9日に販売を終了し、購入者は2027年6月9日までプレイできる。2026年10月8日には本体で動くSwitch 2版が発売され、『KINGDOM HEARTS -HD 1.5+2.5 ReMIX-』にはSwitch版も出た。クラウド版の所有者は対応するダウンロード版をニンテンドーeショップで割引購入し、セーブデータを引き継げる。移行先のダウンロード版は別途購入が必要で、パッケージ版は割引対象外である。[[31](#ref-31)][[32](#ref-32)]
 
 購入した作品へのアクセス、支払った代金、プレイの進行状況は、それぞれ別に扱われる。返金で戻るのは代金であり、購入元に作品が残っても、続きから遊ぶにはセーブデータの互換性が要る。終了に向けた準備や告知は [サービス終了をどう設計するか](service-shutdown-design-and-practice.md) で扱う。
 
@@ -99,7 +112,7 @@ HoYoverseの『Genshin Impact · Cloud』では、有料の残高から支払う
 
 ### 1回のプレイをどこで区切れるか
 
-月間枠、1回の接続上限、再接続時の待ち行列は、それぞれ違う形でプレイに影響する。たとえばボス戦の直前しかセーブできない作品では、接続が切れると再び順番を待ち、戦闘をやり直すことになる。1回のプレイの長さとセーブまでの間隔を照らし合わせ、残り時間が少ない状態でも進行を保存できるか、切断後にどこから再開できるかを確認する。
+月間枠、1回の接続上限、再接続時の待ち行列は、それぞれ違う形でプレイに影響する。たとえばボス戦の直前しかセーブできない作品では、接続が切れると再び順番を待ち、戦闘をやり直すことになる。1回のプレイの長さとセーブまでの間隔を照らし合わせ、残り時間が少ない状態でも進行を保存できるか、切断後にどこから再開できるかを確認する。Xboxが広告主向けに発表した広告付きの経路では、1回の広告で遊べるのは30分である。30分の中で一区切りつく遊びがあるか、時間切れの前に保存できるかで、その経路で作品を試した人の印象は変わる。[[18](#ref-18)]
 
 ### どこで配信し、どこにつながるか
 
@@ -123,6 +136,7 @@ HoYoverseの『Genshin Impact · Cloud』では、有料の残高から支払う
 | ストアで個別購入 | 購入した権利がどのサービスにひも付くか。終了時に返金や別の版への移行を誰が扱うか |
 | クラウド版を作品単位で販売 | 利用券の有効期限と配信終了日はいつか。本体で動く版へ移る場合に、購入やセーブはどう扱われるか |
 | 時間単位で販売 | 時間の計測はいつ始まり、いつ止まるか。待機や切断が残高にどう影響し、時間切れの前に保存できるか |
+| 広告付き | 1回の広告で得られる時間の中に、遊びの区切りと保存の機会があるか。広告と待ち時間を合わせて、遊び始めるまでにどれくらいかかるか |
 
 ## References
 
@@ -190,57 +204,69 @@ HoYoverseの『Genshin Impact · Cloud』では、有料の残高から支払う
 
 [16]: https://automaton-media.com/articles/newsjp/zzz-20260130-414736/
 
-<a id="ref-17"></a>17. [GIGAZINE「プレステのオンラインゲームでは必須の有料サブスク「PlayStation Plus」が値上げ」][17] — GIGAZINE、2026年5月19日。日本の各プランの料金と、日本が値上げの対象外であることの確認に使用。
+<a id="ref-17"></a>17. [Team XBOX「Beginning Ad-supported Game Streaming Test & Learn」][17] — Xbox Wire、2026年7月23日。Xbox Insider向けの試験。
 
-[17]: https://gigazine.net/news/20260519-playstation-plus-price-raising
+[17]: https://news.xbox.com/en-us/2026/07/23/game-streaming-ad-supported-xbox-insiders/
 
-<a id="ref-18"></a>18. [Microsoft「XBOX Game Pass Essential — XBOX Game Pass Essential 1 か月間」][18] — Xbox公式ストア、2026年11月12日確認。通常3プランの日本での月額とクラウド時間枠。
+<a id="ref-18"></a>18. [Meredith Barrett「XBOX Video for Brands: A new way to get closer to play」][18] — Microsoft Advertising Blog、2026年11月12日。広告主向けの発表。3分間の広告で30分のプレイ、スキップ不可、Game Pass不要。対象作品・地域・開始日の記載なし。
 
-[18]: https://www.xbox.com/ja-JP/games/store/p/CFQ7TTC0K5DJ/000C
+[18]: https://about.ads.microsoft.com/en/blog/post/november-2026/xbox-video-for-brands-a-new-way-to-get-closer-to-play
 
-<a id="ref-19"></a>19. [Team XBOX「XBOX Cloud Gaming の今後の変更について」][19] — Xbox Wire Japan、2026年9月4日。
+<a id="ref-19"></a>19. [Hideaki Fujiwara「Xboxクラウドゲーミング、広告を見れば無料で遊べる仕組みが広告主向けに正式発表」][19] — AUTOMATON、2026年11月13日。
 
-[19]: https://news.xbox.com/ja-jp/2026/09/04/xbox-cloud-gaming-changes/
+[19]: https://automaton-media.com/articles/newsjp/20261113-479008/
 
-<a id="ref-20"></a>20. [GeForce NOW Community「Paint It Blackwell: GeForce RTX 5080 SuperPOD Rollout Begins」][20] — NVIDIA Blog、2025年9月10日。
+<a id="ref-20"></a>20. [GIGAZINE「プレステのオンラインゲームでは必須の有料サブスク「PlayStation Plus」が値上げ」][20] — GIGAZINE、2026年5月19日。日本の各プランの料金と、日本が値上げの対象外であることの確認に使用。
 
-[20]: https://blogs.nvidia.com/blog/geforce-now-thursday-blackwell-rtx-launch/
+[20]: https://gigazine.net/news/20260519-playstation-plus-price-raising
 
-<a id="ref-21"></a>21. [NVIDIA「GeForce NOW Performance へようこそ: Priority メンバーは即座にアップグレード」][21] — NVIDIAブログ、2024年11月。月間枠の当初発表と追加購入の単位。
+<a id="ref-21"></a>21. [Microsoft「XBOX Game Pass Essential — XBOX Game Pass Essential 1 か月間」][21] — Xbox公式ストア、2026年11月12日確認。通常3プランの日本での月額とクラウド時間枠。
 
-[21]: https://blogs.nvidia.co.jp/blog/geforce-now-thursday-performance-membership/
+[21]: https://www.xbox.com/ja-JP/games/store/p/CFQ7TTC0K5DJ/000C
 
-<a id="ref-22"></a>22. [Video Games Chronicle「Amazon Luna has stopped offering individual games and subscriptions from third-party stores」][22] — VGC、2026年4月10日。Amazonの案内を掲載。
+<a id="ref-22"></a>22. [Team XBOX「XBOX Cloud Gaming の今後の変更について」][22] — Xbox Wire Japan、2026年9月4日。
 
-[22]: https://www.videogameschronicle.com/news/amazon-luna-has-stopped-offering-individual-games-and-subscriptions-from-third-party-stores/
+[22]: https://news.xbox.com/ja-jp/2026/09/04/xbox-cloud-gaming-changes/
 
-<a id="ref-23"></a>23. [GOG「Important update: Amazon Luna on GOG」][23] — GOG公式、2026年4月。GOGライブラリの扱い。
+<a id="ref-23"></a>23. [GeForce NOW Community「Paint It Blackwell: GeForce RTX 5080 SuperPOD Rollout Begins」][23] — NVIDIA Blog、2025年9月10日。
 
-[23]: https://www.gog.com/en/news/important_update_amazon_luna_on_gog
+[23]: https://blogs.nvidia.com/blog/geforce-now-thursday-blackwell-rtx-launch/
 
-<a id="ref-24"></a>24. [Lincoln Carpenter「Amazon's Luna cloud gaming service is ending support for game purchases and subscriptions from third-party stores, and users will lose streaming access to purchased third-party games in June」][24] — PC Gamer、2026年4月10日。Amazonの案内に基づく報道。保存データのダウンロード期間と互換性。
+<a id="ref-24"></a>24. [NVIDIA「GeForce NOW Performance へようこそ: Priority メンバーは即座にアップグレード」][24] — NVIDIAブログ、2024年11月。月間枠の当初発表と追加購入の単位。
 
-[24]: https://www.pcgamer.com/software/platforms/amazons-luna-cloud-gaming-service-is-ending-support-for-game-purchases-and-subscriptions-from-third-party-stores-and-users-will-lose-streaming-access-to-purchased-third-party-games-in-june/
+[24]: https://blogs.nvidia.co.jp/blog/geforce-now-thursday-performance-membership/
 
-<a id="ref-25"></a>25. [Team XBOX「Cloud Playtime Now Available to Test with XBOX Insiders」][25] — Xbox Wire、2026年10月21日。
+<a id="ref-25"></a>25. [Video Games Chronicle「Amazon Luna has stopped offering individual games and subscriptions from third-party stores」][25] — VGC、2026年4月10日。Amazonの案内を掲載。
 
-[25]: https://news.xbox.com/en-us/2026/10/21/cloud-playtime-now-available-to-test-with-xbox-insiders/
+[25]: https://www.videogameschronicle.com/news/amazon-luna-has-stopped-offering-individual-games-and-subscriptions-from-third-party-stores/
 
-<a id="ref-26"></a>26. [Phil Harrison「A message about Stadia and our long term streaming strategy」][26] — The Keyword、2022年9月29日。
+<a id="ref-26"></a>26. [GOG「Important update: Amazon Luna on GOG」][26] — GOG公式、2026年4月。GOGライブラリの扱い。
 
-[26]: https://blog.google/products-and-platforms/products/stadia/message-on-stadia-streaming-strategy/
+[26]: https://www.gog.com/en/news/important_update_amazon_luna_on_gog
 
-<a id="ref-27"></a>27. [Google「Stadia Announcement FAQ」][27] — Stadia Help。返金対象とStadia Pro会費の扱い。
+<a id="ref-27"></a>27. [Lincoln Carpenter「Amazon's Luna cloud gaming service is ending support for game purchases and subscriptions from third-party stores, and users will lose streaming access to purchased third-party games in June」][27] — PC Gamer、2026年4月10日。Amazonの案内に基づく報道。保存データのダウンロード期間と互換性。
 
-[27]: https://support.google.com/stadia/answer/12790109?hl=en
+[27]: https://www.pcgamer.com/software/platforms/amazons-luna-cloud-gaming-service-is-ending-support-for-game-purchases-and-subscriptions-from-third-party-stores-and-users-will-lose-streaming-access-to-purchased-third-party-games-in-june/
 
-<a id="ref-28"></a>28. [スクウェア・エニックス「『KINGDOM HEARTS Switch Cloud Version』販売終了及びサービス終了のお知らせ(6/10)」][28] — スクウェア・エニックス サポートセンター、2026年6月10日。
+<a id="ref-28"></a>28. [Team XBOX「Cloud Playtime Now Available to Test with XBOX Insiders」][28] — Xbox Wire、2026年10月21日。
 
-[28]: https://support.jp.square-enix.com/news.php?drt=1781017200&id=19066&la=0&n=2&tag=ab4073e28135a1345b861beefd8b6a2c459e1ed4
+[28]: https://news.xbox.com/en-us/2026/10/21/cloud-playtime-now-available-to-test-with-xbox-insiders/
 
-<a id="ref-29"></a>29. [スクウェア・エニックス「KINGDOM HEARTS Collection [I〜III]」][29] — スクウェア・エニックス公式。発売日と対応機種。
+<a id="ref-29"></a>29. [Phil Harrison「A message about Stadia and our long term streaming strategy」][29] — The Keyword、2022年9月29日。
 
-[29]: https://www.jp.square-enix.com/kingdom/collection/
+[29]: https://blog.google/products-and-platforms/products/stadia/message-on-stadia-streaming-strategy/
+
+<a id="ref-30"></a>30. [Google「Stadia Announcement FAQ」][30] — Stadia Help。返金対象とStadia Pro会費の扱い。
+
+[30]: https://support.google.com/stadia/answer/12790109?hl=en
+
+<a id="ref-31"></a>31. [スクウェア・エニックス「『KINGDOM HEARTS Switch Cloud Version』販売終了及びサービス終了のお知らせ(6/10)」][31] — スクウェア・エニックス サポートセンター、2026年6月10日。
+
+[31]: https://support.jp.square-enix.com/news.php?drt=1781017200&id=19066&la=0&n=2&tag=ab4073e28135a1345b861beefd8b6a2c459e1ed4
+
+<a id="ref-32"></a>32. [スクウェア・エニックス「KINGDOM HEARTS Collection [I〜III]」][32] — スクウェア・エニックス公式。発売日と対応機種。
+
+[32]: https://www.jp.square-enix.com/kingdom/collection/
 
 ----
 
