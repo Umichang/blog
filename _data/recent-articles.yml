@@ -1,5 +1,7 @@
 ---
 articles:
+- path: minecraft-series-02-becoming-a-company-2010-2014.md
+  published_at: '2026-11-14T22:31:27Z'
 - path: minecraft-series-01-origins-2009-2011.md
   published_at: '2026-11-14T07:11:00Z'
 - path: unreleased-game-leak-response-for-planners.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-12T23:08:47Z'
 - path: restricted-symbols-red-cross-swastika-free-expression.md
   published_at: '2026-11-12T12:46:14Z'
-- path: opentracks-dova-syndrome-game-embedding-music-game-terms.md
-  published_at: '2026-11-12T05:29:03Z'

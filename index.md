@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [一人の作品は、どうやって会社の事業になったか――Mojangの成長（2010〜2014年）](minecraft-series-02-becoming-a-company-2010-2014.md) 🟢
 - [掲示板に置かれた試作は、どうやって正式版になったか――Minecraftの起源（2009〜2011年）](minecraft-series-01-origins-2009-2011.md) 🟢
 - [自分のプロジェクトが漏れたとき、プランナーは何をするか――経路と重さで考えるリーク対応](unreleased-game-leak-response-for-planners.md) 🟡
 - [フアン氏が去ったNVIDIAと、ゲームの行方——GeForceの会社がAIの会社になったあとで](nvidia-ceo-transition-2026-gaming-impact.md) 🟡
 - [表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線](restricted-symbols-red-cross-swastika-free-expression.md) 🟡
-- [OpenTracks（旧DOVA-SYNDROME）の音源をゲームで使うには――音楽ゲームの利用条件と配布時の組み込み方](opentracks-dova-syndrome-game-embedding-music-game-terms.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -312,6 +312,7 @@
 #### ⛏️ Minecraft――一人の個人制作から世界最大級のIPへ
 
 - 第1回：[掲示板に置かれた試作は、どうやって正式版になったか――Minecraftの起源（2009〜2011年）](minecraft-series-01-origins-2009-2011.md) 🟢
+- 第2回：[一人の作品は、どうやって会社の事業になったか――Mojangの成長（2010〜2014年）](minecraft-series-02-becoming-a-company-2010-2014.md) 🟢
 
 ### 📝 仕様・品質判断
 
