@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [掲示板に置かれた試作は、どうやって正式版になったか――Minecraftの起源（2009〜2011年）](minecraft-series-01-origins-2009-2011.md) 🟢
 - [自分のプロジェクトが漏れたとき、プランナーは何をするか――経路と重さで考えるリーク対応](unreleased-game-leak-response-for-planners.md) 🟡
 - [フアン氏が去ったNVIDIAと、ゲームの行方——GeForceの会社がAIの会社になったあとで](nvidia-ceo-transition-2026-gaming-impact.md) 🟡
 - [表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線](restricted-symbols-red-cross-swastika-free-expression.md) 🟡
 - [OpenTracks（旧DOVA-SYNDROME）の音源をゲームで使うには――音楽ゲームの利用条件と配布時の組み込み方](opentracks-dova-syndrome-game-embedding-music-game-terms.md) 🟡
-- [ゲームセンターの台はなぜ止まったのか——ALL.Net・Aimeの停止と、店が台を動かし続ける条件](allnet-aime-outage-arcade-operators-network-dependency.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -308,6 +308,10 @@
 - [物語は残し、課金の器は作り直す――運営型ゲームをコンシューマで売り直すとき、プランナーが分けるもの](live-service-story-premium-rpg-reconstruction.md) 🟡
 - [『ペルソナ3』は18年・4バージョンで何を変え、何を変えなかったか――再解釈と追加販売を設計として読む](persona3-four-version-design-and-edition-strategy.md) 🟡
 - [『ゼノブレイド』は、なぜ四世代のハードを渡れたのか](xenoblade-design-across-four-hardware-generations.md) 🟡
+
+#### ⛏️ Minecraft――一人の個人制作から世界最大級のIPへ
+
+- 第1回：[掲示板に置かれた試作は、どうやって正式版になったか――Minecraftの起源（2009〜2011年）](minecraft-series-01-origins-2009-2011.md) 🟢
 
 ### 📝 仕様・品質判断
 

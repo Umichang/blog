@@ -1,5 +1,7 @@
 ---
 articles:
+- path: minecraft-series-01-origins-2009-2011.md
+  published_at: '2026-11-14T07:11:00Z'
 - path: unreleased-game-leak-response-for-planners.md
   published_at: '2026-11-13T11:43:37Z'
 - path: nvidia-ceo-transition-2026-gaming-impact.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-12T12:46:14Z'
 - path: opentracks-dova-syndrome-game-embedding-music-game-terms.md
   published_at: '2026-11-12T05:29:03Z'
-- path: allnet-aime-outage-arcade-operators-network-dependency.md
-  published_at: '2026-11-12T04:21:09Z'
