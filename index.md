@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [その機械知性は、まだSFか――アイギスからGLaDOSまで、ゲームのAIキャラクターを2026年の技術と並べて読む](ai-in-games-for-japanese-players.md) 🟢
 - [一人の作品は、どうやって会社の事業になったか――Mojangの成長（2010〜2014年）](minecraft-series-02-becoming-a-company-2010-2014.md) 🟢
 - [掲示板に置かれた試作は、どうやって正式版になったか――Minecraftの起源（2009〜2011年）](minecraft-series-01-origins-2009-2011.md) 🟢
 - [自分のプロジェクトが漏れたとき、プランナーは何をするか――経路と重さで考えるリーク対応](unreleased-game-leak-response-for-planners.md) 🟡
 - [フアン氏が去ったNVIDIAと、ゲームの行方——GeForceの会社がAIの会社になったあとで](nvidia-ceo-transition-2026-gaming-impact.md) 🟡
-- [表現の自由がある国で、なぜ使えない表現があるのか——赤十字・鉤十字・レーティングが引く三つの線](restricted-symbols-red-cross-swastika-free-expression.md) 🟡
 
 <!-- recent-articles:end -->
 
@@ -88,7 +88,6 @@
 
 ### 🧠 AI・ゲーム内知性
 
-- [AIの登場するゲームたち ― 日本のプレイヤーが知っている名作で読み解く「もう一つの知性」 ―](ai-in-games-for-japanese-players.md) 🟢
 - [ゲームのAIは何のために賢くなってきたのか——『パックマン』から生成AIまで、ゲームAIの役割の変遷](history-of-ai-in-video-games.md) 🟡
 - [敵AI設計の実務――FSM・ビヘイビアツリー・GOAP・Utility AIをどう選び、どう運用するか](enemy-ai-design-practices.md) 🟡
 - [仲間に任せるとき、プレイヤーは何を決めるのか——FF12のガンビットが開いた「AIを組む遊び」と、開発の道具としてのその後](gambit-system-for-turn-based-rpg-combat-ai.md) 🟡
@@ -213,6 +212,7 @@
 ### 📖 物語・世界設定・謎解き
 
 - [ゲームの世界設定・シナリオとゲームメカニクスの関係](worldbuilding-scenario-and-game-mechanics.md) 🟡
+- [その機械知性は、まだSFか――アイギスからGLaDOSまで、ゲームのAIキャラクターを2026年の技術と並べて読む](ai-in-games-for-japanese-players.md) 🟢
 - [分岐シナリオ・マルチエンディング設計の実務——選択肢の裏で増える制作物と状態をどう制御するか](branching-narrative-design-practices.md) 🟡
 - [ARG（代替現実ゲーム）の歴史と設計――日本の事例と第四境界](arg-complete-guide-japan-fourth-boundary.md) 🟢
 - [「犯人はヤス」に見るゲーム独自の謎解きと第四の壁](yasu-did-it-game-mystery-and-fourth-wall.md) 🟢

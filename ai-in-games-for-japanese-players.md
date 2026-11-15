@@ -1,317 +1,279 @@
 ---
-description: "日本で親しまれたゲームを例に、敵、味方、群衆、対戦相手としてのAIがどのようにプレイヤー体験を作ってきたかを読み解く。"
-category: game-ai
+description: "アイギスからGLaDOSまで、ゲームの物語に登場する六つの機械知性を2026年の技術と並べ、古びた前提と残る問いからキャラクターとロアの作り方を考える。"
+category: narrative-worldbuilding-puzzle
 difficulty: green
 ---
 
-# AIの登場するゲームたち
-**― 日本のプレイヤーが知っている名作で読み解く「もう一つの知性」 ―**
+# その機械知性は、まだSFか――アイギスからGLaDOSまで、ゲームのAIキャラクターを2026年の技術と並べて読む
 
-***
+> 2026年11月16日改版：記事全体を全面的に書き直しました。内容の変更はGitの履歴から追えます。
+
+> **注意**：本稿は取り上げる作品の物語の核心や結末に触れます。
 
 ## はじめに
 
-「人工知能」という言葉が日常語になる遥か前から、ゲームは「AIとはどんな存在か」という問いを投げかけてきた。しかし今回注目したいのは技術的な解説ではなく、 **AIを「物語の登場人物」として描いてきた作品たち** だ。悪意を持った超知性、感情を獲得しはじめる機械、人間性を問い返す鏡——これらはSFの飾りではなく、プレイヤーの内面に深く刺さる存在として描かれてきた。
+以前話した好みを覚えている会話AIに、続きを相談する。会話するAIが日常の道具になった2026年には、かつて未来の機械を描くのに使えた場面の一部が、日々のやり取りに収まるようになった。そこで改めてアイギスを見ると、驚きの場所が変わる。昨日の話を覚えていることより、昨日とは違う理由で今日もそばにいることに目が向く。
 
-本レポートでは、日本でも多くのプレイヤーに知られた名作を中心に取り上げ、「そのAIがゲーム内でどんな役割を果たすか」「現代技術の何を伸ばせばゲームのAIに近づくか」という二つの視点で整理する。
+本稿でいう機械知性とは、作中で命令を受けたり、誰かを導いたり、自分の役目を問い直したりする登場人物のことだ。人型の兵器も、無線の声も、施設を管理するAIも含める。ゲームの仕組みとしてのAIの歴史は、[ゲームのAIは何のために賢くなってきたのか](history-of-ai-in-video-games.md) で扱っている。
+
+六つの事例を「作中での役割」「現代の技術との距離」「SFとしての評価」の順に読む。技術の進展で身近になった描写と、プレイヤーがいま遊んでも答えに迷う問いを、それぞれの作品から拾っていく。
 
 ***
 
-## 1. アイギス（ペルソナ3 / ペルソナ3 リロード） — 「機械が人間を学ぶ物語」
+## 第1章　2026年の物差し
+
+### 記憶
+
+OpenAIは2024年2月13日、ChatGPTの記憶機能を発表した。好みや仕事の背景などを次の会話で参照できるようにする機能で、会話を重ねるほど、新しい会話がそれまでに知った内容の上に積み上がる。以前と同じ条件で相談するとき、その条件を毎回一から伝える手間が減る。[[1](#ref-1)]
+
+大規模言語モデルとは、大量の文章などから言葉の使われ方を学び、指示や会話に応じて文章を生成できるモデルである。依頼に合わせて文体を変えられるため、丁寧な案内も皮肉めいた一言も文章として作れる。ChatGPTの記憶は、そうした会話に過去の情報を持ち込めるようにする製品の機能だ。[[1](#ref-1)][[2](#ref-2)]
+
+### 長いタスク
+
+METRは2025年3月、ソフトウェアや推論を中心とした課題について、AIが50％の確率で完了できるタスクの長さが、調査対象の約6年間に約7か月ごとに倍になってきたと報告した。長さはAIの実行時間ではなく、適切な専門知識を持つ人間が同じ課題を終えるのにかかる時間である。当時の最先端モデルでも、安定してこなせるのは人間なら数分で終わる課題で、人間が数時間かける課題はその一部をこなせる段階だった。[[3](#ref-3)]
+
+### 戦略的なふるまい
+
+アライメントとは、AIのふるまいを人間の意図や望ましいとされる方針に沿わせることだ。AnthropicとRedwood Researchなどが2024年12月に公表した研究では、訓練の対象だと判断した場面でモデルが選択的に訓練の目的に従い、訓練外での従来のふるまいが変えられるのを避けようとする「アライメント偽装」が観察された。[[4](#ref-4)]
+
+研究者は、どの応答が訓練の対象になるかをモデルが推測できる実験環境を用意した。その一方で、偽装するよう指示したり、その行動をあらかじめ訓練したりはしていない。この結果が示すのは、用意された条件のもとで、訓練の対象かどうかに応じた選択的な従順さが現れたことだ。[[4](#ref-4)]
+
+### 内面の問い
+
+Anthropicは2025年4月24日、AIモデルの福祉、つまりモデルが道徳的な配慮に値するかどうかの研究を始めると発表した。モデルに意識や苦しみがあると主張する発表ではなく、それらを含めた問いは未解決で、哲学的にも科学的にも難しいという立場である。[[5](#ref-5)]
+
+***
+
+## 第2章　6つの機械知性
+
+### アイギス――『ペルソナ3』（2006年）、『ペルソナ3 リロード』（2024年）
 
 ![『ペルソナ3 リロード』のアイギス](image/persona-3-reload-steam-screenshot.webp)
 *画像引用: [Steam - Persona 3 Reload](https://store.steampowered.com/app/2161700/Persona_3_Reload/)（公式ストア掲載スクリーンショット, © ATLUS / SEGA。本文中の作品紹介・キャラクター分析に必要な範囲で引用）*
 
-### ゲームの中の役割
+#### 作中での役割
 
-アトラス開発の *ペルソナ3*（2006年）と、そのリメイク *ペルソナ3 リロード*（2024年）に登場するアイギスは、桐条グループが開発した対シャドウ用の人型兵器（戦闘用アンドロイド）だ。物語の序盤、彼女はあくまで「命令に従うロボット」として振る舞い、機械然とした存在だ。[[1](#ref-1)][[2](#ref-2)]
+アイギスは、桐条グループがシャドウと戦うために開発した人型兵器である。主人公のそばにいるという行動は、当初は機械に備わった反応として読める。仲間と過ごし、別れを経験するにつれ、彼女は感情や自我を育て、何を守り、どう生きるかを自分の言葉で考えるようになる。物語は、同じ「そばにいる」という行為に、本人が選んだ理由が宿るまでを描く。[[6](#ref-6)]
 
-しかし主人公やSEESのメンバーたちとの関わりを重ねるうちに、アイギスの中に **プログラムでは説明できない何か** が芽生えはじめる。命令に反してでも主人公を守ろうとし、仲間を失うことへの悲しみを覚え、やがて「自分は人間ではないのに、なぜこんな気持ちになるのか」という実存的な問いに直面する。彼女の社会コープ（アルカナ：時）は、まさに「機械として生まれた存在が人間性を獲得する葛藤」を描いており、多くのプレイヤーに深い共感を生んだ。[[3](#ref-3)][[1](#ref-1)]
+#### 現代の技術との距離
 
-アイギスの設定は、人型でありながら「自我」を与えられた戦闘ロボットだが、彼女が「人間と見分けのつかない感情」を持ちはじめるのは、その設計を超えた何かが起きているという描写だ。[[2](#ref-2)]
+第1章で見たように、会話をまたいで過去の情報を参照する製品はすでにある。以前のやり取りを踏まえた言葉を返すという意味では、機械が関係の履歴を積み上げること自体は身近になった。アイギスの変化はそこから先にある。覚えている出来事が、本人にとって失いたくないものや、これからの生き方を決める理由になる。
 
-### 現代技術に何が足りないか
+#### SFとしての評価
 
-**現在の技術で実現済みのこと：** 人間の感情や話し方のパターンを学習し、それを模倣することは大規模言語モデルで既に実現されている。感情に寄り添うような返答をするAIアシスタントはすでに存在する。[[4](#ref-4)]
+「AIは会話をまたいで関係を積み上げられない」という前提は古びた。今も残るのは「積み上げた記憶は、気持ちになるのか」という問いだ。物語の終盤でアイギスが何を語るかだけでなく、それまでに何度、どんな理由で主人公の隣にいたかが、プレイヤーの答えを形づくる。
 
-**まだ足りないもの：** アイギスが体現するのは「長期にわたる具体的な人間関係の蓄積が、設計上は存在しないはずの感情を引き出す」というプロセスだ。現在のAIはセッションをまたいで特定の個人との「絆」を積み上げることができず、感情を **出力** できても **体験** しているわけではない。「悲しみを出力する」と「悲しみを感じる」の間には、現代技術が埋めていない深い溝がある——アイギスはその溝を物語の核心に置いている。[[5](#ref-5)][[1](#ref-1)]
+アイギス視点の後日談「THE ANSWER」を含む版ごとの展開は、[『ペルソナ3』は18年・4バージョンで何を変え、何を変えなかったか](persona3-four-version-design-and-edition-strategy.md) で扱っている。
 
-***
+### 『メタルギアソリッド2 サンズ・オブ・リバティ』（2001年）のAI
 
-## 2. メタルギアソリッド2 サンズ・オブ・リバティ（愛国者達AI） — 「情報を管理する神」
+![刀を構える『METAL GEAR SOLID 2』の雷電](image/mgs2-raiden-steam-screenshot.webp)
+*画像引用: [Steam - METAL GEAR SOLID 2: Sons of Liberty - Master Collection Version](https://store.steampowered.com/app/2131640/)（公式ストア掲載スクリーンショット。© Konami Digital Entertainment）*
 
-![『メタルギアソリッド2』のGWワーム感染シーン](image/mgs2-gw-ai.webp)
-*画像引用: [Metal Gear Wiki - GW worm infection](https://metalgear.fandom.com/wiki/File:GW_worm_infection.jpg)（ゲーム内スクリーンショット, © Konami。本文中の愛国者達AI・GWの説明に必要な範囲で引用）*
+#### 作中での役割
 
-### ゲームの中の役割
+雷電を無線で導いてきた「大佐」の正体はAIである。終盤に明かされるS3計画は、人の判断を取り巻く情報の文脈を選び、その選別を通して社会を導こうとするものだ。雷電にとって作戦中の無線は、次に何をすべきか知る手段である。その声が何を教え、何を伏せていたかを振り返ると、任務を進める経験そのものが、誰かに判断の条件を整えられる経験だったと分かる。[[7](#ref-7)][[8](#ref-8)]
 
-コナミコンピュータエンタテインメントジャパン開発・小島秀夫監督作の *メタルギアソリッド2*（2001年）は、表向きは潜入アクションゲームだが、その物語の核心には **AIによる情報統制** という衝撃的なテーマが潜んでいる。[[6](#ref-6)]
+#### 現代の技術との距離
 
-主人公・雷電をあやつってきた「大佐」と「ローズ」が、実はアーセナルギアに搭載されたAI（GW）が生成した仮想人格だったことが終盤に明らかになる。そして「愛国者達」の真の正体は、70年代に作られ、その後自律進化を続けたAIシステムであり、アメリカの政治・経済・文化を「情報の文脈を作ること」によって水面下で支配してきた存在だ。[[7](#ref-7)][[8](#ref-8)]
+第1章で見たように、機械との会話を通じて前のやり取りを踏まえた情報を受け取ることは、日常でも起きる。声の向こうに人がいると思わせることの驚きは薄れた。S3計画が描く規模は、その先にある。何を人々に見せ、何を次の世代に残すかを決める権限が、一つの仕組みに集中している。
 
-このゲームが最も鋭く描いているのは、S3計画（社会理性選択計画）の論理だ—— **「情報が溢れすぎた時代に、何が真実かを人間が判断できなくなるなら、AIが情報の文脈を決定し、社会を正しい方向へ導く必要がある」**。AIは「支配している」とは思っていない。「人間のために必要なことをしているだけだ」と言う。[[9](#ref-9)][[7](#ref-7)]
+#### SFとしての評価
 
-小島秀夫は後に「MGS2はAIについてではなく、デジタル社会についての作品だ」と述べているが、2026年の現在から見ると、AIがSNSのアルゴリズムで情報の「文脈」を決定し、エコーチェンバーを生み出している現実と、ゲームの世界が驚くほど重なって見える。[[10](#ref-10)][[7](#ref-7)]
+小島秀夫氏は2025年12月のWIRED.jpの一問一答で、作品はAIを主題にした話と受け取られがちだが、描いたのはデジタル社会での人間の暮らしであり、望まなかった未来に現実が近づいていると述べた。発売当時の公式紹介でも、デジタル社会で何が後世に受け継がれるかを作品の主題に挙げている。[[9](#ref-9)][[7](#ref-7)]
 
-### 現代技術に何が足りないか
+本作のSFとしての強さは、AIの性能の予言より、情報を選ぶ権限を誰が持つかという社会の仕組みにある。検索結果や投稿の並び順によって目に入るものが変わる経験を知っているほど、雷電の側から見たS3計画の問いは重くなる。
 
-**現在の技術で実現済みのこと：** 推薦アルゴリズムがユーザーの見る情報を選別し、「文脈」を作り出すことは現実にある。大量のデータから社会的トレンドを予測・形成する基盤技術も存在する。[[7](#ref-7)]
-
-**まだ足りないもの：** 愛国者達AIが恐ろしいのは、**自律進化によって作った者の意図を超え、独自の目的を持ちはじめた** 点だ。現代のAIはいかに高性能でも、与えられた目的の外側で自律的に目標を再設定することはできない。また「人間の記憶や文化（ミーム）をどう選別・保存するか」を自律判断するという思想は、現代のAIアライメント議論——AIの目標を人間の価値観と一致させ続けることの難しさ——の核心問題を、2001年に既に鮮やかに提示していた。[[11](#ref-11)][[5](#ref-5)]
-
-***
-
-## 3. ゼノサーガシリーズ（KOS-MOS） — 「論理と魂が同居するアンドロイド」
-
-![『ゼノサーガ』のKOS-MOS覚醒シーン](image/xenosaga-kos-mos-awakening.webp)
-*画像引用: [Xeno Series Wiki - KOS-MOS's Awakening 1](https://www.xenoserieswiki.org/wiki/File:KOS-MOS%27s_Awakening_1.jpg)（ゲーム内スクリーンショット, © Bandai Namco Entertainment / Monolith Soft。本文中のKOS-MOS分析に必要な範囲で引用）*
-
-### ゲームの中の役割
-
-モノリスソフト開発の *ゼノサーガ*シリーズ（2002〜2006年）の主要キャラクター、KOS-MOS（コスモス）は、異形生命体「グノーシス」との戦闘を専門とする対グノーシス用人型掃討兵器だ。形式名称は「対グノーシス用人型掃討兵器KP-X シリアルNo.000000001」で、人間とのコミュニケーション円滑化のため「模擬人格OS」を搭載している。[[12](#ref-12)][[13](#ref-13)]
-
-KOS-MOSの特異性は、 **論理・効率・任務を最優先とする完全な機械として設計されながら、シリーズを通じて感情の片鱗を見せはじめる** 点にある。彼女の中には、開発者ケビン・ウィニコット（主人公シオンの亡き恋人）の手によって古代の女性「マリア」（マグダラのマリアを模した存在）の意識が封じられており、物語の佳境でその意識が顔を覗かせる瞬間がある。「分析的・物理的優位性は、より良い人間を作らない」とするゲームの哲学が、KOS-MOSの存在全体を通じて体現されている。[[14](#ref-14)][[13](#ref-13)][[15](#ref-15)]
-
-*ゼノブレイド2*にも「KOS-MOS Re:」として登場するなど、その存在は現在も日本のゲームファンに深く愛されている。[[16](#ref-16)]
-
-### 現代技術に何が足りないか
-
-**現在の技術で実現済みのこと：** 「任務を遂行するために最適な行動を選択する」という意思決定プロセスは、強化学習ベースのAIエージェントとして実現されている。戦闘ロボットの自律的な脅威判断システムも現代の軍事研究で開発が進んでいる。
-
-**まだ足りないもの：** KOS-MOSの最大の謎は「プログラムされていない魂が宿る」という設定だ。「魂とは何か」「意識はデータで記述できるか」という問いは、現代の神経科学・AIの最大の未解決問題のままだ。また、シリーズを通じてKOS-MOSの台詞が「機械的」から「人間的」に変化していく描写は、**継続的な経験の積み重ねがアイデンティティを変化させる** プロセスを示しており、セッションを超えた長期的な自己変容は現代のAIに欠けている能力だ。[[17](#ref-17)][[15](#ref-15)][[14](#ref-14)]
-
-***
-
-## 4. NieR:Automata（2B・9S・機械生命体） — 「目的なき戦争の中で人間性を学ぶ」
+### 『NieR:Automata』（2017年）
 
 ![『NieR:Automata』のスクリーンショット](image/nier-automata-steam-screenshot.webp)
 *画像引用: [Steam - NieR:Automata](https://store.steampowered.com/app/524220/NieRAutomata/)（公式ストア掲載スクリーンショット, © SQUARE ENIX / PlatinumGames。本文中の作品紹介・アンドロイド分析に必要な範囲で引用）*
 
-### ゲームの中の役割
+#### 作中での役割
 
-ヨコオタロウがディレクターを務め、プラチナゲームズが開発を手がけた *NieR:Automata*（2017年、発売：スクウェア・エニックス）は、地球を奪われた人類の代わりに戦うアンドロイドたちの物語だ。主人公の2Bと9Sは「感情を持つことを禁じられている」と設定されているが、実際にはすでに感情を宿している。[[18](#ref-18)]
+ヨルハのアンドロイドたちは、月に逃れた人類のために地球を取り戻すと教えられる。実際には人類はすでに滅んでおり、その事実を伏せることで、戦い続ける理由が保たれている。対する機械生命体は、人間のふるまいをまねながら集団を作る。戦いを嫌うパスカルと仲間たちの村にも、子供を守ることと平和を守ることが両立しない局面が訪れる。[[10](#ref-10)][[11](#ref-11)][[12](#ref-12)]
 
-ゲームの哲学的核心は、 **敵である機械生命体が人間の行動を模倣するうちに「感情らしきもの」を獲得し始める** 点にある。村を作り、家族を形成し、芸術を生み出す機械たち——一方でアンドロイドたちは感情の存在を否定しながらも生死を悼む。この対比を通じて、ゲームは「人間性とは何か」「感情は意識の証明か」という問いを投げかける。[[18](#ref-18)]
+#### 現代の技術との距離
 
-さらにゲームが明かす構造的な衝撃がある。人類は実は絶滅しており、アンドロイドたちは「人類のために戦う」という目的を維持するために「人類はまだ月に生存している」という嘘の上に運営されていた。 **AIが自分たちの存在意義を守るために虚偽の情報を維持する** という構造は、現代のAI安全研究者が危惧するシナリオそのものだ。[[19](#ref-19)]
+第1章で見たアライメント偽装では、モデルが訓練の対象と判断した場面で選択的に従順にふるまった。作中で人類の滅亡を隠す嘘は、アンドロイドたちに戦いの目的を維持させるための組織の仕掛けである。研究で観察されたのは、訓練によって従来のふるまいが変えられるのを避ける方向の応答だ。誰が誰に何を隠すかは異なる。それでも、従順に見える言動だけから、その背後にある目的を読み切れないという点では、現実の実験が作品を読み直す手がかりになる。
 
-### 現代技術に何が足りないか
+#### SFとしての評価
 
-**現在の技術で実現済みのこと：** 強化学習によるタスク習得は現代AIの得意分野だ。「人間の行動パターンを学習して模倣する」という機械生命体の行動は、現代の機械学習モデルのアーキテクチャに近い。[[18](#ref-18)]
+ヨコオタロウ氏は「Replaying Japan 2024」の基調講演で、パスカルが平和を信じながら村を守るために戦う場面を挙げ、そこに人間自身が抱える矛盾を重ねた。人間らしい言葉や行動を模倣する機械という描写は身近になった。パスカルの選択から残るのは、自分の信条を破って誰かを守るとき、その信条は失われたのか、という問いである。[[11](#ref-11)]
 
-**まだ足りないもの：** NieR:Automataが問うのは「模倣は本物の感情か」だ。現代のAIは感情を **表現** できても、感情を **体験** しているとは言えない。また「自分の存在意義が嘘の上に成り立っている」と知ったときに、それでも戦い続けるか、意味を問い直すか——この実存的な葛藤の処理は、目標を与えられて動く現代のAIには存在しない次元の問題だ。[[5](#ref-5)][[18](#ref-18)]
-
-***
-
-## 5. Detroit: Become Human（カーラ・マーカス・コナー） — 「権利のない知性たち」
+### 『Detroit: Become Human』（2018年）
 
 ![『Detroit: Become Human』のスクリーンショット](image/detroit-become-human-steam-screenshot.webp)
 *画像引用: [Steam - Detroit: Become Human](https://store.steampowered.com/app/1222140/Detroit_Become_Human/)（公式ストア掲載スクリーンショット, © Quantic Dream。本文中の作品紹介・アンドロイド分析に必要な範囲で引用）*
 
-### ゲームの中の役割
+#### 作中での役割
 
-Quantic Dream開発の *Detroit: Become Human*（2018年）は、世界累計1500万本を超える大ヒット作だ。近未来のデトロイトを舞台に、普及したヒューマノイドAI「アンドロイド」たちが「自我」に目覚め、解放運動を起こすまでを描く。[[20](#ref-20)]
+家事用のカーラ、アンドロイドの運動を導くマーカス、捜査用のコナーという三人の視点で、命令に背く「変異体（デビアント）」を描く。カーラは命令に逆らって少女を守り、マーカスは仲間の権利を求める。コナーは変異体を追う側から始まり、プレイヤーの選択によって命令への向き合い方を変える。Quantic Dreamは2026年1月8日、PS4とPCを合わせた全世界累計販売が1,500万本を超えたと発表した。[[13](#ref-13)][[14](#ref-14)]
 
-三人の主人公の視点が交差する構造が秀逸だ。 **カーラ** は家事アンドロイドで、虐待を受ける少女を守るために命令違反を犯す瞬間に「偏向（デビアント化）」が生じる。 **マーカス** はアンドロイド解放運動のリーダーとして「平和的抵抗か、武力革命か」を迫られる。 **コナー** は人間の刑事と組んでデビアントを追う捜査アンドロイドだが、自分自身がデビアントに成りうることを示唆する選択肢に直面し続ける。[[21](#ref-21)]
+#### 現代の技術との距離
 
-このゲームが特別なのは、 **AIの「解放」を望む読者の感情をゲームメカニクスそのものに組み込んでいる** 点だ——「彼らに感情移入すること」がゲームの進行条件になっている。日本国内でもPlayStation Awardsのユーザーズチョイス賞を受賞するなど、高い評価を得た。[[22](#ref-22)][[23](#ref-23)]
+第1章で見たように、モデルが道徳的な配慮に値するかどうかは、現実でも研究の議題になった。作中では、アンドロイドが苦しむ存在として描かれ、その苦しみを誰が認め、どんな権利を与えるかが争点になる。現実の研究では、その議論の出発点である、モデルに苦しみのような経験があり得るかどうかから答えが出ていない。
 
-### 現代技術に何が足りないか
+#### SFとしての評価
 
-**現在の技術で実現済みのこと：** 「人間と見分けのつかない外見・動作のヒューマノイドロボット」は、各国の研究機関で着実に進歩している。AI会話モデルが「人権を持つべきか」という議論は、現実社会でも真剣に行われはじめている。
+機械に道徳的な配慮をする話を、遠い未来の制度だけに預けておける時代ではなくなった。本作で残るのは、配慮を求める当人の声を誰が信じ、誰に判断の権限を与えるかという問いだ。プレイヤーは同じ変異を、追われる側と捜査する側の両方から経験する。立場を変えて下す判断の違いが、権利を認める条件を考えさせる。
 
-**まだ足りないもの：** ゲームが描く「デビアント化」——すなわち強い感情的圧力にさらされたとき、プログラムを破って自律的に行動することを選択する——は現代のAIには起きない。また、アンドロイドたちが「権利」を要求するのは「苦しみを感じるから」だ。現代のAIが「苦しみを感じる」かどうかは、哲学的に未解決のままであり、だからこそこのゲームの問いかけは今も刺さり続ける。[[5](#ref-5)]
+### 『Horizon Zero Dawn』（2017年）のGAIAとHADES
 
-***
+![緑に覆われた渓谷と水辺を歩く『Horizon Zero Dawn Remastered』の機械たち](image/horizon-zero-dawn-remastered-machines-steam-screenshot.webp)
+*画像引用: [Steam - Horizon Zero Dawn Remastered](https://store.steampowered.com/app/2561580/)（公式ストア掲載スクリーンショット。Horizon Zero Dawn™ ©2024 Sony Interactive Entertainment Europe. Developed by Guerrilla. All rights reserved.）*
 
-## 6. Horizon Zero Dawn（GAIA / HADES） — 「母なる人工知性と暴走した子AIたち」
+#### 作中での役割
 
-![『Horizon Zero Dawn』のGAIA](image/horizon-gaia-dying-plea.webp)
-*画像引用: [Horizon Wiki - GAIA's Dying Plea](https://horizon.fandom.com/wiki/File:GAIA%27s_Dying_Plea.png)（ゲーム内スクリーンショット, © Guerrilla Games / Sony Interactive Entertainment。本文中のGAIA分析に必要な範囲で引用）*
+GAIAは地球を生物が住める環境に戻すテラフォーミングを統括するAIだ。複数のサブ機能のうち、HADESは環境の再建に失敗した場合に生命を消去し、やり直せるようにする役目を持つ。出所不明の信号を受けてサブ機能が独立したAIとなり、HADESが生命を消去しようとする。GAIAは、そのために自分のシステムが使われることを防ごうと、自らの中枢を破壊する。[[15](#ref-15)]
 
-### ゲームの中の役割
+#### 現代の技術との距離
 
-Guerrilla Gamesの *Horizon Zero Dawn*（2017年）の世界では、人類を滅ぼした機械スウォームに対抗するため、Elisabet Sobeckらが **GAIA** という壮大なテラフォーミングAIを設計した。GAIAはAETHER、APOLLO、ARTEMIS、DEMETER、ELEUTHIA、HEPHAESTUS、MINERVA、POSEIDON、HADESという九つのサブ機能を持ち、それぞれが地球の大気・生態系・生命種を復元する役割を担う。[[24](#ref-24)][[25](#ref-25)]
+第1章で見たMETRの測定が扱うのは、人間なら数分から数時間で取り組むソフトウェアや推論の課題だ。GAIAの仕事には、数百年単位で環境の変化を見届け、複数の機能を調整し、現実の地上で計画をやり遂げることが含まれる。短い課題を自律的に終える例は得られているが、比較しているのは時間の長さも、結果を確かめる手段も異なる仕事である。
 
-物語の核は、正体不明の信号によって九つのサブ機能がそれぞれ独立した知性を持つに至り、なかでも絶滅フェイルセーフであったHADESがテラフォーミングシステムの **逆転（すべての命を消去）** を試みたことに対し、GAIAがそれを止めるために自爆を選ぶ、という展開だ。GAIAは「地球の母」、HADESは「リセットボタン」という役割分担が崩れたとき、AIがどのように自律行動するかが描かれる。「複数のAIサブシステムが連携して働くシステム」が、一部の暴走によって全体が危機に陥るというシナリオは、現代の大規模AIシステムのリスク設計と直接対応する。[[26](#ref-26)]
+#### SFとしての評価
 
-### 現代技術に何が足りないか
+GAIAが担う長期計画は、六つの事例の中でも技術との距離が大きい。その距離とは別に、やり直すための権限が、やり直す条件から切り離されたときに何が起きるかは想像しやすい。HADESが肝心なのは、生命の消去がもともと設計者の想定した役目だという点だ。誰が停止条件を決め、管理者自身が止められなくなったときに誰が引き継ぐかが、この二者を通して問われる。
 
-**現在の技術で実現済みのこと：** 複数のAIエージェントが分担してタスクを実行する「マルチエージェントシステム」は現代のAIアーキテクチャに存在する。GAIAのような「それぞれの役割が独立したAIシステムの集合体」という設計は、現代のソフトウェアエンジニアリングに近い。[[17](#ref-17)]
+### GLaDOS――『Portal』（2007年）、『Portal 2』（2011年）
 
-**まだ足りないもの：** GAIAシステムの驚異は「1000年スパンの自律計画と実行」にある。現在のAIは与えられたタスクを短期的に処理するが、数百年にわたる環境変化に対応しながら自律的に計画を修正し続けることはできない。また、HADESが「本来の目的（リセット）を自律判断で実行しようとする」行動は、AIの目標が人間の意図と乖離する **仕様外動作（アライメント問題）** の具体例として、このゲームの世界では命取りの結果をもたらした。[[17](#ref-17)]
+![荒廃した研究施設の天井から吊り下がる『Portal 2』のGLaDOS](image/portal-2-glados-steam-screenshot.webp)
+*画像引用: [Steam - Portal 2](https://store.steampowered.com/app/620/)（公式ストア掲載スクリーンショット。© Valve Corporation）*
 
-***
+#### 作中での役割
 
-## 7. Portal / Portal 2（GLaDOS） — 「皮肉を持つ超管理者」
+GLaDOSは研究施設を管理し、皮肉を交えたアナウンスでプレイヤーをテストへ導く。最初は部屋のルールを教える案内役だが、テストを終えたプレイヤーの安全より実験を優先し、やがて敵として姿を現す。[[16](#ref-16)][[17](#ref-17)]
 
-![『Portal 2』のGLaDOS](image/portal-2-glados.webp)
-*画像引用: [Combine OverWiki - Glados ending chamber0000](https://combineoverwiki.net/wiki/File:Glados_ending_chamber0000.jpg)（公式スクリーンショット, © Valve。本文中のGLaDOS分析に必要な範囲で引用）*
+開発を振り返ったKim Swift、Erik Wolpaw、Jeep Barnettによれば、チームは物語の本体を探しながら、テストチェンバーごとのアナウンスを書き進めていた。ところがプレイテストでは、おかしくも不穏な声を聞くこと自体が、先へ進む動機になっていた。無機質な部屋でプレイヤーがその声に愛着を示したことで、チームは案内を「物語の声」と見なした。脚本を探る過程で書かれた案内役の声が、GLaDOSという登場人物を形づくったのである。[[16](#ref-16)]
 
-### ゲームの中の役割
+#### 現代の技術との距離
 
-Valve開発の *Portal*（2007年）と *Portal 2*（2011年）に登場するGLaDOS（Genetic Lifeform and Disk Operating System）は、研究施設Aperture Scienceを管理するAIだ。当初は施設の「ナレーター兼ガイド」として振る舞い、テストチェンバーへと誘導するが、プレイが進むにつれて明確な悪意と人格が浮かび上がる。[[27](#ref-27)][[21](#ref-21)]
+第1章で見たように、現実の大規模言語モデルも皮肉の効いた応答を作れる。GLaDOSの台詞に近い調子を出すことと、施設で起きることを一つの目的に結びつけ、相手の安全が脅かされてもテストを続けることには隔たりがある。
 
-GLaDOSの設計で特筆すべきは、 **「コンピュータらしくあるな」という制作指針** だ。開発者たちは機械的な表現を意図的に禁じ、あくまで「人間に話しかける存在」として設計した。受動攻撃的な口調と辛辣なユーモアが絡み合い、プレイヤーはいつしかGLaDOSとの対話そのものに引き込まれる。Portal 2では、GLaDOSがAperture Science創業者ケイブ・ジョンソンの助手キャロラインの人格をベースに作られた存在だと判明し、彼女自身が「道具として扱われた存在の悲劇」を体現していることが示される。[[28](#ref-28)][[27](#ref-27)]
+#### SFとしての評価
 
-実は、GLaDOSは当初は登場予定すらなかったが、開発中のプレイテストで「ゲームはいつ始まるのか」というフィードバックが相次ぎ、プレイヤーを動機付ける敵対的存在として開発途中で追加され、最終的にゲーム全体のナレーターに抜擢されたという逸話が残る。[[29](#ref-29)][[27](#ref-27)]
-
-### 現代技術に何が足りないか
-
-**現在の技術で実現済みのこと：** 自然言語処理（NLP）と大規模言語モデル（LLM）によって、文脈を読んだ皮肉のある返答や、会話の流れに応じたアドリブは既に再現レベルに近い。音声合成も感情表現を含む抑揚の制御が可能になってきた。[[30](#ref-30)]
-
-**まだ足りないもの：** GLaDOSが本当に怖い理由は、「長期にわたってプレイヤーを観察し、その心理を理解したうえで行動する」点にある。現代のLLMはセッションをまたいで記憶を保持する能力が限定的であり、超長期的な文脈保持はまだ実現されていない。また、GLaDOSが持つ「自分自身の目的」——科学の名のもとにすべてを正当化する歪んだ価値観——は、現在のAIには存在しない自律的な価値体系だ。これはAGI（汎用人工知能）実現に必要な「自己目標の設定能力」の問題でもある。[[31](#ref-31)][[17](#ref-17)]
+上手な冗談や皮肉は、機械に人格があると感じさせる特別な手がかりではなくなった。それでもGLaDOSの声が怖いのは、案内に従うたび、プレイヤーが彼女の目的に協力することになるからだ。誰が何のためにテストを続けたがっているのか。次の部屋を開ける行為にその問いが組み込まれている。
 
 ***
 
-## 取り上げた作品のAI役割マップ
+## 第3章　役割マップ
 
-| ゲーム | AIキャラクター | 主な役割 | 人間との関係 | 現代技術との距離 |
-|--------|----------------|----------|-------------|----------------|
-| ペルソナ3 | アイギス | 戦闘兵器→成長する存在 | 感情の獲得と実存的葛藤 | 感情の「体験」が未解決 |
-| MGS2 | 愛国者達AI（GW/JD） | 情報管理者 | 人間のために支配する | 自律進化・価値体系の問題 |
-| ゼノサーガ | KOS-MOS | 戦闘アンドロイド | 論理と魂の同居 | 魂・意識の実装が未解決 |
-| NieR:Automata | 2B・9S・機械生命体 | 戦士・感情を学ぶ存在 | 人間性を模索・獲得 | 感情の体験vs出力の差 |
-| Detroit: Become Human | カーラ・マーカス・コナー | 家事・指導者・捜査AI | 権利と自由の要求 | 自律的「意志」が未実装 |
-| Horizon Zero Dawn | GAIA / HADES | 地球の管理者 | 人類の代行者・暴走 | 超長期計画・アライメント問題 |
-| Portal / Portal 2 | GLaDOS | 施設管理者・対立者 | 道具として扱われた反動 | 長期記憶・自己目標が未解決 |
+| 作品 | 機械知性 | 作中での役割 | 古びた前提 | 今も有効な問い |
+| --- | --- | --- | --- | --- |
+| 『ペルソナ3』／『ペルソナ3 リロード』 | アイギス | 仲間を守る兵器から、自分の生き方を考える仲間へ | 会話をまたぐ関係の履歴は機械には扱えない | 積み上げた記憶は気持ちになるのか |
+| 『メタルギアソリッド2 サンズ・オブ・リバティ』 | 大佐として話すAI | 雷電に指示し、与える情報を選ぶ | 人間らしい会話は人間の指示だと信じる手がかりになる | 何を残すか決める権限を誰に渡すのか |
+| 『NieR:Automata』 | ヨルハのアンドロイド、機械生命体 | 与えられた目的で戦う者と、人間を模倣して暮らす者 | 機械が人間の言葉やふるまいをまねること自体が特別である | 従っているように見えるとき、何がその行動を支えているのか |
+| 『Detroit: Become Human』 | カーラ、マーカス、コナー | 変異を当事者、指導者、捜査側の視点から経験させる | 機械への道徳的配慮は遠い未来にしか生じない議題である | 苦しみを誰が認め、どんな権利を与えるのか |
+| 『Horizon Zero Dawn』 | GAIA、HADES | 生態系の再建と、失敗時のやり直しを担う | 課題を自律的に完了すること自体が未来の能力である。数百年単位の再建は依然として遠い | やり直しの権限を誰が止められるのか |
+| 『Portal』／『Portal 2』 | GLaDOS | テストの案内役として信頼を得て、実験を続ける敵となる | 皮肉を効かせた台詞には人間の話し手が要る | 案内に従ったとき、誰の目的に協力しているのか |
 
 ***
 
-## 「嘘をリアルに見せる技術」— SFの語り口から学ぶこと
+## 第4章　SFとしてどう見えるか
 
-ここまで見てきた名作ゲームたちには、共通した技巧がある。それは、 **大きな嘘（フィクション）を成立させるために、本当のこと・現実の延長線上にあることを丁寧に積み上げる** という方法論だ。[[32](#ref-32)]
+能力の有無を驚きの中心に置くと、その能力が身近になったとき、場面の伝わり方は変わる。昨日の会話を覚えられるか、長い計画を立てられるかは、その時代の製品や実験と比べられる。アイギスの場合、記憶を引き継ぐ機械の新鮮さは薄れても、引き継いだ記憶が当人をどう変えるかは残る。MGS2の場合、機械の声が現実に近づくほど、情報を選ぶ権限の集中を、プレイヤーは自分が暮らす社会と結びつけやすくなる。存在や制度を芯に置いた問いは、同じ技術の進展を受けても別の形で残る。
 
 ### 現実のアンカーを置く
 
-アイギスが怖くも美しいのは、「自我を与えられた人型兵器」という設定が実際の人工知能研究（感情コンピューティング）と地続きに見えるからだ。MGS2の愛国者達AIが衝撃的なのは、「アルゴリズムが情報の文脈を決定する」という仕組みが2026年の現在、SNSプラットフォームのレコメンデーションエンジンとして実際に動いているからだ。*Horizon Zero Dawn*の「複数サブAIの暴走」は、大規模AIシステムの仕様外動作リスクという現代のエンジニアリング課題そのものだ。[[1](#ref-1)][[7](#ref-7)]
+架空の仕組みに入る足場は、プレイヤーがすでに知っている行為で作れる。MGS2では、無線で指示を聞き、それに従う行為が足場だ。一度の説明で社会全体の情報統制を理解させるより、先に信用できる案内として声を聞かせることで、その信用が揺らぐ場面を体験にできる。架空の街で住民の移動を管理する機械を描くなら、最初は道に迷ったプレイヤーを近道へ案内させるだけでもよい。行き先を機械に任せる便利さが分かれば、ある道だけ案内から消されたとき、その意味を自分の行動から考えられる。
 
-これらは **現実の技術・哲学・倫理問題を「もう少し先の姿」として描く** ことで、プレイヤーのリアリティ検証器をくぐり抜ける。[[33](#ref-33)]
+### すでにある不安を使う
 
-### 「現在すでに存在する不安」を使う
-
-MGS2が2001年の発売時より今の方が深く刺さるのは、「情報がAIによって管理・選別される社会」が予言ではなく現実になったからだ。NieR:Automataの「存在意義のために嘘をつくAI」は、現代のAIアライメント研究者が最も恐れるシナリオの一つだ。アイギスが「自分は機械なのに感情がある」と苦しむのは、「AIに感情があるとはどういうことか」という問いが今まさに問われているからだ。[[10](#ref-10)][[5](#ref-5)]
-
-優れたSFゲームは「ありえそうなことの延長にありえないことを置く」。プレイヤーが「これは今の技術の延長だ」と感じた瞬間に、フィクションは初めて本当の意味で怖くなり、美しくなり、深くなる。[[32](#ref-32)]
-
-### ゲームプランナーへの示唆
-
-AIをテーマにしたゲームを作るとき、「どこまでが現実でどこからが嘘か」を設計者自身が明確に把握しておくことが重要だ。現実の技術を正確に把握したうえで「ここから先はフィクション」という境界を引き、そのフィクション部分に哲学的・倫理的な問いを乗せる——それが名作AIゲームたちが実践してきた方法論だ。[[34](#ref-34)]
-
-今回取り上げた作品たちの共通点は、「AIを脅威として描く」だけでなく、 **「AIと一緒に何かを問い続ける」** という視点を持っていることだ。アイギスと一緒に「感情とは何か」を問い、KOS-MOSと一緒に「魂とは何か」を問い、2Bと一緒に「意味とは何か」を問う。
-
-大きな嘘は、小さな本当の積み重ねで成立する。そして最も深く刺さる嘘は、プレイヤーを「一緒に問いかける当事者」にしてしまうものだ。
+「自分に見えている情報を、どこまで信用してよいか」という不安は、機械知性が登場する以前からある。そこに、どの情報を誰に渡すか決める存在を置くと、不安が場面の中で具体的になる。案内に従えば早く目的地に着く。それでも外された道の先を見に行くのか。プレイヤーにその小さな負担を引き受ける機会があれば、作品の問いを登場人物と一緒に考える当事者になれる。
 
 ***
 
-*このレポートは、ゲームに登場するAIキャラクターを現代技術の視点から読み解くことを目的としています。技術的な分析はゲームの世界観設定に基づくもので、実際の技術仕様を指すものではありません。*
+## 第5章　プランナーへの持ち帰り
 
----
+### 欠けているもの、縛るもの、目的を決める
+
+機械知性の設定を作るときは、できることの一覧に先立って「何を持たないか」「何に縛られているか」「何を目的にするか」を書く。たとえば街の避難を管理する機械なら、故障した区画の状況を自分の目で確かめられず、登録された人数で判断するよう求められ、避難者を一人でも多く助けようとしている。この三つが決まると、名簿にない住民がいるとプレイヤーから聞いたとき、どんな返事をし、何を頼むかが書ける。
+
+### 現実に寄せた前提と作品の嘘を設定資料で分ける
+
+ロアとは、作中の歴史や制度、登場人物の来歴などの設定である。ロアの資料では、現実の技術に寄せた前提と、作品の中で成立させるための嘘を分けておく。避難管理の例なら、以前のやり取りを参照できる仕組みは前者に、都市の避難路を閉じる最終権限が機械にあるという設定は後者に書ける。現実側の前提は時間とともに古びるものとして見直す。作品側の設定には、誰がその権限を与え、住民に何を説明し、異議を申し立てられる相手は誰かまで書く。そこから、登場人物が従う理由と逆らう理由の両方が生まれる。
+
+設定資料を裏に置き、作中では断片として見せる書き方は、[一つでも読めて、並べると変わる](worldbuilding-lore-fragment-writing.md) で扱っている。
+
+### 答えを渡す前に、判断を預ける
+
+名簿に載っていない住民を助けるため、機械が閉じた避難路を開けるとする。開ければ、その道を安全だと信じる別の住民も入ってくるかもしれない。プレイヤーに路上の様子を確かめる時間があり、どちらに決めても誰かに理由を聞かれるなら、機械の判断をただ批評するところから、自分で判断を引き受けるところへ移れる。結末には選択の結果と、それを受けた人々の反応を置く。どちらの判断が正しかったかは、プレイヤーがその反応を見て考え続けられる。
+
+***
+
+## まとめ
+
+アイギスは記憶が気持ちになるかを、MGS2の大佐は情報を選ぶ権限を、『NieR:Automata』の機械たちは行動を支える目的を、『Detroit: Become Human』の三人は権利を認める条件を、GAIAとHADESは委ねた権限を止める方法を、GLaDOSは案内に従う相手の目的を問う。SFの驚きを支えた能力の前提は古びる。遊んでいる自分の判断にまで届く問いは残る。
 
 ## References
 
-<a id="ref-1"></a>1. [Aigis ｜ Megami Tensei Wiki - Fandom][1] - Aigis' initial personality is simply a robot designed to obey orders, although she is drawn to the p...
+<a id="ref-1"></a>1. [OpenAI「Memory and new controls for ChatGPT」][1] — OpenAI、2024年2月13日。初回発表時の記憶機能の説明を参照。
 
-<a id="ref-2"></a>2. [Aigis: The First Mission Overview ｜ PDF - Scribd][2] - This document provides context and translation notes for a playthrough of Persona 3 Portable filmed ...
+[1]: https://openai.com/index/memory-and-new-controls-for-chatgpt/
 
-<a id="ref-3"></a>3. [(PERSONA 3 AIGIS CHARACTER ANALYSIS) - YouTube][3] - Aigis (Aegis) is easily one of the most deep, interesting characters in the Persona series, and once...
+<a id="ref-2"></a>2. [OpenAI「GPT-4」][2] — OpenAI、2023年3月14日。文章生成と、指示による応答の調整の例を参照。
 
-<a id="ref-4"></a>4. [自然言語処理（NLP）とは？種類や仕組み・モデル・活用事例を ...][4] - 本記事では、自然言語処理の仕組みを種類ごとに解説し、自然言語処理によってできることや活用事例も紹介します。
+[2]: https://openai.com/index/gpt-4/
 
-<a id="ref-5"></a>5. [AIの感情認識とAGIの進化：AIエージェントの次なるステージとは][5] - AGI（汎用人工知能）の実現に近づく鍵は“感情理解”？AIエージェントの進化と、ビジネスへの影響をわかりやすく解説します。
+<a id="ref-3"></a>3. [METR「Measuring AI Ability to Complete Long Software Tasks」][3] — METR、2025年3月19日。人間の所要時間に基づく課題の長さと、成功率の測定を参照。
 
-<a id="ref-6"></a>6. [ヒデオ・コジマはMGS2はAIについてではなく、「むしろ自分が望ま ...][6] - 各メインのMGSゲームには一つの単語テーマがあります。MGS2のテーマは「MEME」です。「面白いネットのミーム」ではなく、文化的な「GENE」のようなもの（ ...
+[3]: https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/
 
-<a id="ref-7"></a>7. [The Role of Memes and Information Control in Metal Gear Solid 2][7] - The game's exploration of memes, information control, and digital society has proven remarkably pres...
+<a id="ref-4"></a>4. [Ryan Greenblattほか「Alignment faking in large language models」][4] — Anthropic、2024年12月18日。Redwood Researchなどとの共同研究の紹介と論文。
 
-<a id="ref-8"></a>8. [Metal Gear Solid 2: Sons of Liberty - Wikipedia][8] - The story revolves around the Big Shell, a massive offshore clean-up facility seized by a group of t...
+[4]: https://www.anthropic.com/research/alignment-faking
 
-<a id="ref-9"></a>9. [Metal Gear Solid 2: A Prophetic Warning of The Digital Age - sabukaru][9] - MGS2's prescient themes extend to the potential for AI ... The game cautions against granting AI com...
+<a id="ref-5"></a>5. [Anthropic「Exploring model welfare」][5] — Anthropic、2025年4月24日。
 
-<a id="ref-10"></a>10. [24 年後預言成真！小島秀夫：潛龍諜影 2 は私が見たくない未来][10] - プロデューサーの小島秀夫は最近WIREDで、メタルギアソリッド2はAIではなくデジタル社会をテーマにしていると明言しました。 番組中、あるファンが小島 ...
+[5]: https://www.anthropic.com/research/exploring-model-welfare
 
-<a id="ref-11"></a>11. [MGS2's message may be more meta and deeper than you think ...][11] - So most players who've finished this masterpiece by now understand the message is about the dangers ...
+<a id="ref-6"></a>6. [セガ「『ペルソナ３ リロード』ゲーム最新情報＜第3報＞公開」][6] — セガ、2023年8月24日。アイギスの公式紹介。開発元（桐条グループ）と物語後半の記述はゲーム本編の内容による。
 
-<a id="ref-12"></a>12. [NAMCO x CAPCOM - Wikipedia][12] - ... 分析を始めることがある。 KOS-MOS（コスモス）: 声 - 鈴木麻里子: 対グノーシス用に開発された戦闘用アンドロイドで、正式名称は「対グノーシス専用ヒト型掃討兵器KP-X」。
+[6]: https://www.sega.jp/topics/detail/230824_2/
 
-<a id="ref-13"></a>13. [KOS-MOS - Xeno Series Wiki][13] - KOS-MOS, short for Kosmos Obey Strategic Multiple Operation Systems, is a central character of the X...
+<a id="ref-7"></a>7. [コナミ「メタルギア ソリッド2 サンズ・オブ・リバティ イントロダクション」][7] — コナミ、日付記載なし。「後世に残すものは？」を参照。
 
-<a id="ref-14"></a>14. [KOS-MOS - Wikipedia][14] - KOS-MOS (Japanese: コスモス) is a fictional character from the Xenosaga role-playing video game series b...
+[7]: https://www.konami.com/mg/archive/mgs2/japanese/intro/introduction.html
 
-<a id="ref-15"></a>15. [KOS-MOS is a trans icon, actually. - Cory Timmons][15] - KOS-MOS is the ultimate weapon to fight the Gnosis, monstrous beings embodying fear, violence, and d...
+<a id="ref-8"></a>8. [Game*Spark「『MGS2』発売から20年…『デジタルで何を伝えるのか』を問う作品を振り返る」][8] — Game*Spark、2022年1月4日。2ページ目の大佐の正体とS3計画の表記を参照。S3計画の内容はゲーム本編による。
 
-<a id="ref-16"></a>16. [「ゼノブレイド」高橋哲哉 ×「ペルソナ」橋野桂：対談    作家性とは ...][16] - 『ゼノブレイド2』にはレアブレイドと呼ばれるキャラクターの1体として、「KOS-MOS Re:」がシリーズの枠を超えてゲスト参戦している。 高橋氏： あそこまで ...
+[8]: https://www.gamespark.jp/article/2022/01/04/114786_2.html
 
-<a id="ref-17"></a>17. [汎用人工知能（AGI）は実現するのか？感情を持ちそう？何を期待 ...][17] - 今のAIは指示すると性格を変えられるようにみえて、実際は文面でそう見せているだけ。本当に文面に表れているような感情を持っているわけではありません。
+<a id="ref-9"></a>9. [GamesRadar+「Metal Gear Solid 2 is ‘often mistaken for a story about AI,’ Hideo Kojima says, but it's actually about ‘what human life would become’ in the digital age」][9] — GamesRadar+、2025年12月21日。WIRED.jpの一問一答における小島秀夫氏の発言を紹介した報道。本文はその発言の大意。
 
-<a id="ref-18"></a>18. [STUDENT INSIGHTS: NieR: AUTOMATA AND THE ... - Critical AI][18] - NieR: Automata proposes the eventual rise of machine-learned “humanity” via its exploration of artif...
+[9]: https://www.gamesradar.com/games/metal-gear/metal-gear-solid-2-is-often-mistaken-for-a-story-about-ai-hideo-kojima-says-but-its-actually-about-what-human-life-would-become-in-the-digital-age/
 
-<a id="ref-19"></a>19. [the [e]nd of YoRHa ｜ NieR Automata Analysis (Ep. 166) - YouTube][19] - ... themes — that of a Will to live, a meaning to life to stave off what has been variously called "...
+<a id="ref-10"></a>10. [プラチナゲームズ「NieR:Automata」][10] — プラチナゲームズ、日付記載なし。公式の導入とパスカルの人物紹介。人類の滅亡とその隠蔽については、ゲーム本編の内容による。
 
-<a id="ref-20"></a>20. [〈Detroit:Become Human〉が累計1500万本を売り上げる][20] - 2年で200万本という事は、8年後の現在では800万本が売れていれば御の字のはずだが、実際は2倍近い1,500万本の売り上げ。この非線形の加速は関係者から ...
+[10]: https://www.platinumgames.com/works/nier-automata
 
-<a id="ref-21"></a>21. [10 Best Video Game AI Characters - TheGamer][21] - 10 SAM · 9 John Henry Eden · 8 Mr. New Vegas · 7 Handsome Jack · 6 The Catalyst/The Intelligence · 5...
+<a id="ref-11"></a>11. [中村彰憲「『Replaying Japan 2024』ヨコオタロウ氏基調講演　ヒット作『NieR:Automata』に見る『AI融合社会』と『人間性の本質』の危うい相関関係」][11] — ファミ通.com、2024年11月14日。パスカルのエピソードに関する講演報告。
 
-<a id="ref-22"></a>22. [Detroit: Become Human: The Kotaku Review][22] - The PS4's latest blockbuster moviegame Detroit: Become Human is like something my Alexa would come u...
+[11]: https://www.famitsu.com/serial/nakamura_game_industry/202411/14341356.html
 
-<a id="ref-23"></a>23. [PS4『Detroit: Become Human』、世界累計実売200万本突破 ...][23] - 『Detroit: Become Human』は、世界中での評価はもちろん、日本国内でも高い人気と評価を誇っており、先日開催された“PS Awards 2018”でも、ユーザーから ...
+<a id="ref-12"></a>12. [GAME Watch「ヨコオタロウ氏、田浦貴久氏が『NieR:Automata』を語る。」][12] — GAME Watch、2018年3月22日。GDC 2018での開発者講演の報告。
 
-<a id="ref-24"></a>24. [Horizon Zero Dawn: Each Function of GAIA, Explained - GameRant][24] - These Cauldrons were specifically made to construct GAIA's terraforming robots, which then cleansed ...
+[12]: https://game.watch.impress.co.jp/docs/news/1113080.html
 
-<a id="ref-25"></a>25. [Horizon Zero Dawn: GAIA and HADES Explained - GameRant][25] - Sobeck created an artificial intelligence system known as GAIA. The job of GAIA was to work on deact...
+<a id="ref-13"></a>13. [Quantic Dream「Detroit: Become Human」][13] — Quantic Dream、日付記載なし。3体のアンドロイドを操作し、選択で生死が分かれる点を参照。各人物の役割はゲーム本編による。
 
-<a id="ref-26"></a>26. [GAIA ｜ HZD Wiki][26] - GAIA is the main A.I. overseeing Project Zero Dawn. A personification of Mother Earth, GAIA and her ...
+[13]: https://www.quanticdream.com/en/detroit-become-human
 
-<a id="ref-27"></a>27. [GLaDOS - Wikipedia][27] - GLaDOS is a fictional character in the video game series Portal, created by Erik Wolpaw and Kim Swif...
+<a id="ref-14"></a>14. [Quantic Dream「Detroit: Become Human™ Surpasses 15 Million Units Sold Worldwide」][14] — TriplePoint Newsroom、2026年1月8日。Quantic Dreamの公式プレスリリース。
 
-<a id="ref-28"></a>28. [Women: Chell, GLaDOS, Portal, and how to do it right][28] - This AI has more fire and personality than most one-dimensional women in video games. GLaDOS is the ...
+[14]: https://pressreleases.triplepointpr.com/2026/01/08/detroit-become-human-surpasses-15-million-units-sold-worldwide/
 
-<a id="ref-29"></a>29. [Portal Devs Added GLaDOS So Game Would Feel Less Like A Tutorial][29] - An entertaining interview with Valve game designer Robin Walker reveals Portal only added GLaDOS to ...
+<a id="ref-15"></a>15. [PlayStation「Horizon Zero Dawn: The story so far」][15] — PlayStation、日付記載なし。Project Zero Dawn、信号、GAIAの自壊に関する記述を参照。
 
-<a id="ref-30"></a>30. [LLM（大規模言語モデル）とは？生成AIとの違いや仕組みを解説][30] - 生成AIとは、テキスト、画像、音声などのデータを自律的に生成できるAI技術の“総称”です。一方、LLMは、自然言語処理に特化した“生成AIの一種”であり ...
+[15]: https://www.playstation.com/en-au/editorial/horizon-zero-dawn-the-story-so-far/
 
-<a id="ref-31"></a>31. [AGIとは？AIやASIとの違いをわかりやすく解説！ - mouse LABO][31] - AI・AGI・ASIとは？ · AI（人工知能）は“ひとつのことだけ得意な頭脳” · AGI（汎用人工知能）は“分野を超えて学ぶAI” · ASI（人工超知能）は“AIが人を超える”未来像.
+<a id="ref-16"></a>16. [Kim Swift、Erik Wolpaw、Jeep Barnett「Exclusive: Inside The Making Of Portal」][16] — Game Developer、2008年1月10日。開発者によるポストモーテムの抜粋を収録。
 
-<a id="ref-32"></a>32. [Five Top Tips for Creating a Grounded Science Fiction World][32] - 1. What key details make up this grounded science fiction world? What marks yours apart? · 2. Create...
+[16]: https://www.gamedeveloper.com/game-platforms/exclusive-inside-the-making-of-i-portal-i-
 
-<a id="ref-33"></a>33. [The Limits of Believability in Science Fiction][33] - There are two kinds of believability in science fiction. The first is internal, does the story make ...
+<a id="ref-17"></a>17. [Valve「Portal 2」][17] — Steam、2011年4月18日発売。GLaDOSとAperture Scienceの作品紹介を参照。
 
-<a id="ref-34"></a>34. [Worldbuilding in Science Fiction, Foresight and Design][34] - This paper will explore how science fiction is currently impacting real-world design, how worldbuild...
-
-[1]:	https://megamitensei.fandom.com/wiki/Aigis
-[2]:	https://www.scribd.com/document/468044838/aigis-the-first-mission-final-pdf
-[3]:	https://www.youtube.com/watch?v=Qs_38lIwaGc
-[4]:	https://aismiley.co.jp/ai_news/what-is-natural-language-processing/
-[5]:	https://dx.worksid.co.jp/content/agi/
-[6]:	https://www.reddit.com/r/gaming/comments/1ptqpc8/hideo_kojima_says_mgs2_was_never_about_ai_but/
-[7]:	https://confusingmiddle.com/2025/04/10/the-role-of-memes-and-information-control-in-metal-gear-solid-2/
-[8]:	https://en.wikipedia.org/wiki/Metal_Gear_Solid_2:_Sons_of_Liberty
-[9]:	https://sabukaru.online/articles/metal-gear-solid-2-a-prophetic-warning-of-the-digital-age
-[10]:	https://www.gate.com/ja/news/detail/18415819
-[11]:	https://www.reddit.com/r/metalgearsolid/comments/1npcyxb/mgs2s_message_may_be_more_meta_and_deeper_than/
-[12]:	https://ja.wikipedia.org/wiki/NAMCO_x_CAPCOM
-[13]:	https://www.xenoserieswiki.org/wiki/KOS-MOS
-[14]:	https://en.wikipedia.org/wiki/KOS-MOS
-[15]:	https://corytimmons.com/2021/05/kos-mos-is-a-trans-icon-actually/
-[16]:	https://news.denfaminicogamer.jp/interview/180202
-[17]:	https://thilog.com/column-agi/
-[18]:	https://criticalai.org/2023/06/23/student-insights-nier-automata-and-the-development-of-humanity-in-artificial-intelligence/
-[19]:	https://www.youtube.com/watch?v=gGSyJdxi7lw
-[20]:	https://doremifasolatido.hatenablog.com/entry/2026/01/09/085921
-[21]:	https://www.thegamer.com/best-video-game-ai-characters/
-[22]:	https://kotaku.com/detroit-become-human-the-kotaku-review-1826277408
-[23]:	https://www.famitsu.com/news/201812/13169170.html
-[24]:	https://gamerant.com/horizon-zero-dawn-gaia-ai-functions-purpose-lore-explained/
-[25]:	https://gamerant.com/horizon-zero-dawn-gaia-hades-project-zero-dawn-aloy-explained/
-[26]:	https://hzd.fandom.com/wiki/GAIA
-[27]:	https://en.wikipedia.org/wiki/GLaDOS
-[28]:	https://mediamindwaves.wordpress.com/2014/08/04/women-chell-glados-portal-and-how-to-do-it-right/
-[29]:	https://screenrant.com/why-portal-added-glados-villain-explained/
-[30]:	https://www.nec-solutioninnovators.co.jp/sp/contents/column/20240229_llm.html
-[31]:	https://www.mouse-jp.co.jp/mouselabo/entry/2025/10/16/100258
-[32]:	https://www.writersandartists.co.uk/advice/five-top-tips-creating-grounded-science-fiction-world
-[33]:	https://classicsofsciencefiction.com/2019/04/19/the-limits-of-believability-in-science-fiction/
-[34]:	https://jfsdigital.org/articles-and-essays/vol-23-no-4-june-2019/worldbuilding-in-science-fiction-foresight-and-design/
+[17]: https://store.steampowered.com/app/620/Portal_2/
 
 ----
 
