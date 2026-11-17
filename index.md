@@ -519,7 +519,7 @@
 - [ゲームの審査は何を見て、何を拒むのか——各国のレーティングが表現から課金と交流の仕組みへ広げた線](game-global-rating-regulations.md) 🟡
 - [Steam成人向け規制と国内銀行の入金拒否――インディー開発を止める二重の資金ボトルネック](steam-adult-content-payment-banking-bottlenecks.md) 🔴
 - [Steamのライブ生成AI審査とEpic Games Storeの異なる哲学――『Instantale』が示した配信設計の新条件](instantale-steam-live-generated-ai-review-epic-policy.md) 🔴
-- [App Store / Google Playにおけるゲーム表現の審査基準と対策](app-store-google-play-game-content-review-guide.md) 🟡
+- [通った表現が、次の更新で止まる理由――App Store／Google Playの審査をゲームプランナーが読む](app-store-google-play-game-content-review-guide.md) 🟡
 
 #### 🏛️ ゲームと行政のあいだ
 
