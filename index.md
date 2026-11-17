@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [公式が作らなかった遊びを、誰が作ったのか――MinecraftのModとサーバー（2010〜2025年）](minecraft-series-05-mods-and-servers-2010-2025.md) 🟢
 - [どの方向から近づいても、同じ世界が現れる――Minecraftの世界生成（2010〜2021年）](minecraft-series-04-world-generation-2010-2021.md) 🟢
 - [Microsoftは25億ドルで何を買ったのか――Minecraftの買収（2014年）](minecraft-series-03-microsoft-acquisition-2014.md) 🟢
 - [その機械知性は、まだSFか――アイギスからGLaDOSまで、ゲームのAIキャラクターを2026年の技術と並べて読む](ai-in-games-for-japanese-players.md) 🟢
 - [一人の作品は、どうやって会社の事業になったか――Mojangの成長（2010〜2014年）](minecraft-series-02-becoming-a-company-2010-2014.md) 🟢
-- [掲示板に置かれた試作は、どうやって正式版になったか――Minecraftの起源（2009〜2011年）](minecraft-series-01-origins-2009-2011.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -315,6 +315,7 @@
 - 第2回：[一人の作品は、どうやって会社の事業になったか――Mojangの成長（2010〜2014年）](minecraft-series-02-becoming-a-company-2010-2014.md) 🟢
 - 第3回：[Microsoftは25億ドルで何を買ったのか――Minecraftの買収（2014年）](minecraft-series-03-microsoft-acquisition-2014.md) 🟢
 - 第4回：[どの方向から近づいても、同じ世界が現れる――Minecraftの世界生成（2010〜2021年）](minecraft-series-04-world-generation-2010-2021.md) 🟢
+- 第5回：[公式が作らなかった遊びを、誰が作ったのか――MinecraftのModとサーバー（2010〜2025年）](minecraft-series-05-mods-and-servers-2010-2025.md) 🟢
 
 ### 📝 仕様・品質判断
 
