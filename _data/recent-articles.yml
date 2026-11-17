@@ -1,5 +1,7 @@
 ---
 articles:
+- path: minecraft-series-04-world-generation-2010-2021.md
+  published_at: '2026-11-17T01:52:22Z'
 - path: minecraft-series-03-microsoft-acquisition-2014.md
   published_at: '2026-11-16T03:18:07Z'
 - path: ai-in-games-for-japanese-players.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-14T22:31:27Z'
 - path: minecraft-series-01-origins-2009-2011.md
   published_at: '2026-11-14T07:11:00Z'
-- path: unreleased-game-leak-response-for-planners.md
-  published_at: '2026-11-13T11:43:37Z'
