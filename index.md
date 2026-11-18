@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [遊びのゲームを、授業の道具にするには――Minecraftの教育版（2011〜2023年）](minecraft-series-06-education-2011-2023.md) 🟢
 - [公式が作らなかった遊びを、誰が作ったのか――MinecraftのModとサーバー（2010〜2025年）](minecraft-series-05-mods-and-servers-2010-2025.md) 🟢
 - [どの方向から近づいても、同じ世界が現れる――Minecraftの世界生成（2010〜2021年）](minecraft-series-04-world-generation-2010-2021.md) 🟢
 - [Microsoftは25億ドルで何を買ったのか――Minecraftの買収（2014年）](minecraft-series-03-microsoft-acquisition-2014.md) 🟢
 - [その機械知性は、まだSFか――アイギスからGLaDOSまで、ゲームのAIキャラクターを2026年の技術と並べて読む](ai-in-games-for-japanese-players.md) 🟢
-- [一人の作品は、どうやって会社の事業になったか――Mojangの成長（2010〜2014年）](minecraft-series-02-becoming-a-company-2010-2014.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -316,6 +316,7 @@
 - 第3回：[Microsoftは25億ドルで何を買ったのか――Minecraftの買収（2014年）](minecraft-series-03-microsoft-acquisition-2014.md) 🟢
 - 第4回：[どの方向から近づいても、同じ世界が現れる――Minecraftの世界生成（2010〜2021年）](minecraft-series-04-world-generation-2010-2021.md) 🟢
 - 第5回：[公式が作らなかった遊びを、誰が作ったのか――MinecraftのModとサーバー（2010〜2025年）](minecraft-series-05-mods-and-servers-2010-2025.md) 🟢
+- 第6回：[遊びのゲームを、授業の道具にするには――Minecraftの教育版（2011〜2023年）](minecraft-series-06-education-2011-2023.md) 🟢
 
 ### 📝 仕様・品質判断
 
