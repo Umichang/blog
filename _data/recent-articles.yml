@@ -1,5 +1,7 @@
 ---
 articles:
+- path: minecraft-series-08-japan-2014-2026.md
+  published_at: '2026-11-19T23:46:30Z'
 - path: minecraft-series-07-marketplace-creators-2012-2026.md
   published_at: '2026-11-18T23:01:29Z'
 - path: minecraft-series-06-education-2011-2023.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-17T07:45:12Z'
 - path: minecraft-series-04-world-generation-2010-2021.md
   published_at: '2026-11-17T01:52:22Z'
-- path: minecraft-series-03-microsoft-acquisition-2014.md
-  published_at: '2026-11-16T03:18:07Z'

@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [携帯機と店頭から広がった――Minecraftと日本（2014〜2026年）](minecraft-series-08-japan-2014-2026.md) 🟢
 - [作り手が売れる場所を、公式が開くとき――Minecraftのマーケットプレイス（2012〜2026年）](minecraft-series-07-marketplace-creators-2012-2026.md) 🟢
 - [遊びのゲームを、授業の道具にするには――Minecraftの教育版（2011〜2023年）](minecraft-series-06-education-2011-2023.md) 🟢
 - [公式が作らなかった遊びを、誰が作ったのか――MinecraftのModとサーバー（2010〜2025年）](minecraft-series-05-mods-and-servers-2010-2025.md) 🟢
 - [どの方向から近づいても、同じ世界が現れる――Minecraftの世界生成（2010〜2021年）](minecraft-series-04-world-generation-2010-2021.md) 🟢
-- [Microsoftは25億ドルで何を買ったのか――Minecraftの買収（2014年）](minecraft-series-03-microsoft-acquisition-2014.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -318,6 +318,7 @@
 - 第5回：[公式が作らなかった遊びを、誰が作ったのか――MinecraftのModとサーバー（2010〜2025年）](minecraft-series-05-mods-and-servers-2010-2025.md) 🟢
 - 第6回：[遊びのゲームを、授業の道具にするには――Minecraftの教育版（2011〜2023年）](minecraft-series-06-education-2011-2023.md) 🟢
 - 第7回：[作り手が売れる場所を、公式が開くとき――Minecraftのマーケットプレイス（2012〜2026年）](minecraft-series-07-marketplace-creators-2012-2026.md) 🟢
+- 第8回：[携帯機と店頭から広がった――Minecraftと日本（2014〜2026年）](minecraft-series-08-japan-2014-2026.md) 🟢
 
 ### 📝 仕様・品質判断
 
