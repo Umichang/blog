@@ -261,7 +261,7 @@
 - [対戦格闘ゲームの歴史――ストII以前からロールバック時代まで](fighting-game-genre-history.md) 🟢
 - [リズムゲームの歴史：入力を「音楽体験」に変えた判定システムの進化](music-game-judgment-system-history.md) 🟢
 - [弾幕シューティングの歴史：なぜ「撃つゲーム」は「避けるゲーム」へ進化したのか](danmaku-shmup-history.md) 🟢
-- [位置情報ゲームの歴史と新規企画のポイント](location-based-games-market-history-and-design-guide.md) 🟡
+- [人はなぜ、そこへ歩いていくのか――位置情報ゲームの25年と、人が集まった場所で起きたこと](location-based-games-market-history-and-design-guide.md) 🟡
 - [RTA in Japan――寄付イベントとしてのタイムアタック文化](rta-in-japan-charity-speedrun-culture.md) 🟢
 
 ## 🛠️ 開発・運営とビジネス
