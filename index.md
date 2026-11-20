@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [盤面を開いたら、誰がゲームを進めるのか――テーブルゲームワールド CCFOLIAと購入前の期待](table-game-world-ccfolia-switch2-expectation-gap.md) 🟢
 - [携帯機と店頭から広がった――Minecraftと日本（2014〜2026年）](minecraft-series-08-japan-2014-2026.md) 🟢
 - [作り手が売れる場所を、公式が開くとき――Minecraftのマーケットプレイス（2012〜2026年）](minecraft-series-07-marketplace-creators-2012-2026.md) 🟢
 - [遊びのゲームを、授業の道具にするには――Minecraftの教育版（2011〜2023年）](minecraft-series-06-education-2011-2023.md) 🟢
 - [公式が作らなかった遊びを、誰が作ったのか――MinecraftのModとサーバー（2010〜2025年）](minecraft-series-05-mods-and-servers-2010-2025.md) 🟢
-- [どの方向から近づいても、同じ世界が現れる――Minecraftの世界生成（2010〜2021年）](minecraft-series-04-world-generation-2010-2021.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -481,6 +481,7 @@
 - [パブリッシャーとデベロッパーは何が違うのか――「ベヨネッタ」の発売元と開発元から読むゲーム業界](publisher-developer-role-differences-bayonetta.md) 🟢
 - [自国にない機種へ出す——HoYoverse『プチプラネット』Switch 2版が示すパブリッシング判断](hoyoverse-petit-planet-switch2-overseas-publishing.md) 🟡
 - [No Man's Skyの炎上と復活――期待値管理と運営立て直しの事例](no-mans-sky-expectation-management-case-study.md) 🟢
+- [盤面を開いたら、誰がゲームを進めるのか――テーブルゲームワールド CCFOLIAと購入前の期待](table-game-world-ccfolia-switch2-expectation-gap.md) 🟢
 - [Hollow Knight: Silksongの発売経緯とその意味――7年の沈黙が、なぜ炎上ではなく好意的な殺到につながったのか](hollow-knight-silksong-long-silence-launch-anticipation.md) 🟢
 - [スマートフォンゲーム会社の倒産はなぜ過去最多ペースなのか――2026年の数字から読む開発費・運営費と国内市場](smartphone-game-developer-bankruptcies-2026-structural-costs-market.md) 🟡
 - [AI需要による半導体価格高騰がコンソールゲーム業界に与える影響](ai-demand-semiconductor-price-surge-console-industry-impact.md) 🟡
