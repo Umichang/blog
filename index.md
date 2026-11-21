@@ -256,7 +256,7 @@
 - [なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト](why-mario-could-not-go-back-left.md) 🟢
 - [オープンワールドゲームの歴史：萌芽から革新へ](open-world-games-history.md) 🟢
 - [『マリオカート ワールド』は、なぜオープンワールドを「競技の一部」にしたのか](mario-kart-world-open-world-design-vs-forza-horizon.md) 🟡
-- [結局ローグライクってなんなのさ？](what-is-a-roguelike.md) 🟢
+- [結局ローグライクってなんなのさ？――死んだとき、何が失われて何が残るのか](what-is-a-roguelike.md) 🟢
 - [ターンの間、プレイヤーは何をしているのか——D&Dから『Clair Obscur』まで、ターン制RPGの戦闘の変遷](turn-based-rpg-history.md) 🟢
 - [対戦格闘ゲームの歴史――ストII以前からロールバック時代まで](fighting-game-genre-history.md) 🟢
 - [リズムゲームの歴史：入力を「音楽体験」に変えた判定システムの進化](music-game-judgment-system-history.md) 🟢
