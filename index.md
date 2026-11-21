@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [メトロイドヴァニアってなんなのさ？――新しい力で、見慣れた地図を読み直す](what-is-a-metroidvania.md) 🟢
 - [一文字を置いた先に、何万語が待っている――『もじぴったん』の面白さを支えた辞書](mojipittan-dictionary-data-as-game-design.md) 🟢
 - [17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版](minecraft-endless-design-java-bedrock-strategy.md) 🟢
 - [盤面を開いたら、誰がゲームを進めるのか――テーブルゲームワールド CCFOLIAと購入前の期待](table-game-world-ccfolia-switch2-expectation-gap.md) 🟢
 - [携帯機と店頭から広がった――Minecraftと日本（2014〜2026年）](minecraft-series-08-japan-2014-2026.md) 🟢
-- [作り手が売れる場所を、公式が開くとき――Minecraftのマーケットプレイス（2012〜2026年）](minecraft-series-07-marketplace-creators-2012-2026.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -257,6 +257,7 @@
 - [オープンワールドゲームの歴史：萌芽から革新へ](open-world-games-history.md) 🟢
 - [『マリオカート ワールド』は、なぜオープンワールドを「競技の一部」にしたのか](mario-kart-world-open-world-design-vs-forza-horizon.md) 🟡
 - [結局ローグライクってなんなのさ？――死んだとき、何が失われて何が残るのか](what-is-a-roguelike.md) 🟢
+- [メトロイドヴァニアってなんなのさ？――新しい力で、見慣れた地図を読み直す](what-is-a-metroidvania.md) 🟢
 - [ターンの間、プレイヤーは何をしているのか——D&Dから『Clair Obscur』まで、ターン制RPGの戦闘の変遷](turn-based-rpg-history.md) 🟢
 - [対戦格闘ゲームの歴史――ストII以前からロールバック時代まで](fighting-game-genre-history.md) 🟢
 - [リズムゲームの歴史：入力を「音楽体験」に変えた判定システムの進化](music-game-judgment-system-history.md) 🟢
