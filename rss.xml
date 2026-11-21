@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 21 Nov 2026 01:48:11 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 02:28:33 -0000</lastBuildDate>
+    <item>
+      <title>一文字を置いた先に、何万語が待っている――『もじぴったん』の面白さを支えた辞書</title>
+      <link>https://umichang.github.io/blog/mojipittan-dictionary-data-as-game-design.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/mojipittan-dictionary-data-as-game-design.html</guid>
+      <description>演出がほとんどない試作でも手応えがあった『もじぴったん』を題材に、辞書の語数と一語ずつの作り込みが、連鎖や対戦、知らない言葉に出会う楽しさをどう支えたかをたどる。</description>
+      <pubDate>Sat, 21 Nov 2026 02:28:33 -0000</pubDate>
+    </item>
     <item>
       <title>17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版</title>
       <link>https://umichang.github.io/blog/minecraft-endless-design-java-bedrock-strategy.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/minecraft-series-07-marketplace-creators-2012-2026.html</guid>
       <description>Xbox 360版の有料スキンから公式マーケットプレイスの開設、定額サービスや紹介制度までをたどり、誰に販売を任せ、何を審査し、どこまで売り方を広げたかを考える。「Minecraft――一人の個人制作から世界最大級のIPへ」第7回。</description>
       <pubDate>Wed, 18 Nov 2026 23:01:29 -0000</pubDate>
-    </item>
-    <item>
-      <title>遊びのゲームを、授業の道具にするには――Minecraftの教育版（2011〜2023年）</title>
-      <link>https://umichang.github.io/blog/minecraft-series-06-education-2011-2023.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/minecraft-series-06-education-2011-2023.html</guid>
-      <description>先生たちが作ったMinecraftEduからMicrosoftの教育版、休校時の教材公開、2023年の改名までをたどり、授業を回す先生と課題に取り組む生徒に何が渡されたかを考える。「Minecraft――一人の個人制作から世界最大級のIPへ」第6回。</description>
-      <pubDate>Tue, 17 Nov 2026 23:58:25 -0000</pubDate>
     </item>
   </channel>
 </rss>

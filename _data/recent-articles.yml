@@ -1,5 +1,7 @@
 ---
 articles:
+- path: mojipittan-dictionary-data-as-game-design.md
+  published_at: '2026-11-21T02:28:33Z'
 - path: minecraft-endless-design-java-bedrock-strategy.md
   published_at: '2026-11-21T01:48:11Z'
 - path: table-game-world-ccfolia-switch2-expectation-gap.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-19T23:46:30Z'
 - path: minecraft-series-07-marketplace-creators-2012-2026.md
   published_at: '2026-11-18T23:01:29Z'
-- path: minecraft-series-06-education-2011-2023.md
-  published_at: '2026-11-17T23:58:25Z'
