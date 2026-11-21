@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版](minecraft-endless-design-java-bedrock-strategy.md) 🟢
 - [盤面を開いたら、誰がゲームを進めるのか――テーブルゲームワールド CCFOLIAと購入前の期待](table-game-world-ccfolia-switch2-expectation-gap.md) 🟢
 - [携帯機と店頭から広がった――Minecraftと日本（2014〜2026年）](minecraft-series-08-japan-2014-2026.md) 🟢
 - [作り手が売れる場所を、公式が開くとき――Minecraftのマーケットプレイス（2012〜2026年）](minecraft-series-07-marketplace-creators-2012-2026.md) 🟢
 - [遊びのゲームを、授業の道具にするには――Minecraftの教育版（2011〜2023年）](minecraft-series-06-education-2011-2023.md) 🟢
-- [公式が作らなかった遊びを、誰が作ったのか――MinecraftのModとサーバー（2010〜2025年）](minecraft-series-05-mods-and-servers-2010-2025.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -298,7 +298,6 @@
 
 - [その結末は、大きな物語の中で一つに決められるか――『スター・ウォーズ』の正史・レジェンズとゲームの関係](star-wars-canon-legends-and-games.md) 🟡
 - [監修を『割り込み』から『予定された作業』に変える――自社ゲームのグッズ・音源監修とプランナーの制作進行](goods-soundtrack-supervision-production-planning.md) 🟡
-- [Minecraftはなぜ17年近く売れ続けるのか――「終わらない設計」とJava版・Bedrock版を統合しない判断](minecraft-endless-design-java-bedrock-strategy.md) 🟡
 - [『Slay the Spire 2』は何を守り、何を壊したのか――ジャンルを定義したデッキ構築ローグライクの続編設計](slay-the-spire-2-roguelike-deckbuilder-sequel-design.md) 🟡
 - [ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性](post-graphics-saturation-game-development.md) 🟡
 - [リッジレーサーを、いま上層部にどう提案するか——「ゲームっぽいレース」が消えた理由から組み立てる復活の企画](rebooting-ridge-racer-with-modern-technology.md) 🟡
@@ -319,6 +318,7 @@
 - 第6回：[遊びのゲームを、授業の道具にするには――Minecraftの教育版（2011〜2023年）](minecraft-series-06-education-2011-2023.md) 🟢
 - 第7回：[作り手が売れる場所を、公式が開くとき――Minecraftのマーケットプレイス（2012〜2026年）](minecraft-series-07-marketplace-creators-2012-2026.md) 🟢
 - 第8回：[携帯機と店頭から広がった――Minecraftと日本（2014〜2026年）](minecraft-series-08-japan-2014-2026.md) 🟢
+- 第9回：[17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版](minecraft-endless-design-java-bedrock-strategy.md) 🟢
 
 ### 📝 仕様・品質判断
 

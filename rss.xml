@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 20 Nov 2026 11:25:35 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 01:48:11 -0000</lastBuildDate>
+    <item>
+      <title>17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版</title>
+      <link>https://umichang.github.io/blog/minecraft-endless-design-java-bedrock-strategy.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/minecraft-endless-design-java-bedrock-strategy.html</guid>
+      <description>Minecraftの17年を振り返り、遊びの終わりを決めずに更新を続け、Java版とBedrock版にそれぞれの遊ぶ場所を残してきた判断を考える。「Minecraft――一人の個人制作から世界最大級のIPへ」第9回。</description>
+      <pubDate>Sat, 21 Nov 2026 01:48:11 -0000</pubDate>
+    </item>
     <item>
       <title>盤面を開いたら、誰がゲームを進めるのか――テーブルゲームワールド CCFOLIAと購入前の期待</title>
       <link>https://umichang.github.io/blog/table-game-world-ccfolia-switch2-expectation-gap.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/minecraft-series-06-education-2011-2023.html</guid>
       <description>先生たちが作ったMinecraftEduからMicrosoftの教育版、休校時の教材公開、2023年の改名までをたどり、授業を回す先生と課題に取り組む生徒に何が渡されたかを考える。「Minecraft――一人の個人制作から世界最大級のIPへ」第6回。</description>
       <pubDate>Tue, 17 Nov 2026 23:58:25 -0000</pubDate>
-    </item>
-    <item>
-      <title>公式が作らなかった遊びを、誰が作ったのか――MinecraftのModとサーバー（2010〜2025年）</title>
-      <link>https://umichang.github.io/blog/minecraft-series-05-mods-and-servers-2010-2025.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/minecraft-series-05-mods-and-servers-2010-2025.html</guid>
-      <description>BukkitとForgeが広げた遊びから、公式パートナーサーバー、収益化や通報のルール、Java版の難読化撤廃までをたどり、作り手・運営者・Mojangの分担を考える。「Minecraft――一人の個人制作から世界最大級のIPへ」第5回。</description>
-      <pubDate>Tue, 17 Nov 2026 07:45:12 -0000</pubDate>
     </item>
   </channel>
 </rss>
