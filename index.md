@@ -207,7 +207,6 @@
 - [『二ノ国 白き聖灰の女王』は「ジブリらしさ」をどうゲームへ翻訳したか](ni-no-kuni-ghibli-direction-game-design-translation.md) 🟡
 - [『アンチャーテッド 黄金刀と消えた船団』が実現した「操作できる映画」――四つの核設計](uncharted-2-active-cinematic-experience-core-design.md) 🟡
 - [ポケモンはなぜ巨大IPであり続けるのか――「変えない安心」と「世代ごとに変える新規性」の設計](pokemon-global-ip-core-game-design.md) 🟡
-
 - [ゼルダの「あたりまえ」は二度見直された――時のオカリナとブレス オブ ザ ワイルド](zelda-ocarina-botw-rethinking-conventions.md) 🟡
 
 ### 📖 物語・世界設定・謎解き
