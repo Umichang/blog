@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 21 Nov 2026 11:34:14 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 13:07:43 -0000</lastBuildDate>
+    <item>
+      <title>強さを下げるとき、プレイヤーは何を失うのか――ナーフで守るもの、返すもの</title>
+      <link>https://umichang.github.io/blog/nerf-design-what-players-lose-and-keep.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/nerf-design-what-players-lose-and-keep.html</guid>
+      <description>原神、ディアブロ IV、ヘブンバーンズレッド、FF14、ハースストーンの調整をたどり、ナーフで失われる遊び方や育成の時間、購入した価値をどう守り、何を返せるかを考える。</description>
+      <pubDate>Sun, 22 Nov 2026 13:07:43 -0000</pubDate>
+    </item>
     <item>
       <title>メトロイドヴァニアってなんなのさ？――新しい力で、見慣れた地図を読み直す</title>
       <link>https://umichang.github.io/blog/what-is-a-metroidvania.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/table-game-world-ccfolia-switch2-expectation-gap.html</guid>
       <description>『テーブルゲームワールド CCFOLIA』がSwitch 2に移した道具と遊び場を手がかりに、発売時の説明と実際の遊び方がなぜずれたのかをたどり、購入前に何をどう伝えるかを考える。</description>
       <pubDate>Fri, 20 Nov 2026 11:25:35 -0000</pubDate>
-    </item>
-    <item>
-      <title>携帯機と店頭から広がった――Minecraftと日本（2014〜2026年）</title>
-      <link>https://umichang.github.io/blog/minecraft-series-08-japan-2014-2026.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/minecraft-series-08-japan-2014-2026.html</guid>
-      <description>PS Vitaのダウンロード販売からSwitchの店頭販売、国内向けの動画企画や大会、日本の作品との協業までをたどり、スウェーデン生まれのゲームが日本で遊ばれる場をどう増やしたかを考える。「Minecraft――一人の個人制作から世界最大級のIPへ」第8回。</description>
-      <pubDate>Thu, 19 Nov 2026 23:46:30 -0000</pubDate>
     </item>
   </channel>
 </rss>

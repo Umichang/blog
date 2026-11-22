@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [強さを下げるとき、プレイヤーは何を失うのか――ナーフで守るもの、返すもの](nerf-design-what-players-lose-and-keep.md) 🟡
 - [メトロイドヴァニアってなんなのさ？――新しい力で、見慣れた地図を読み直す](what-is-a-metroidvania.md) 🟢
 - [一文字を置いた先に、何万語が待っている――『もじぴったん』の面白さを支えた辞書](mojipittan-dictionary-data-as-game-design.md) 🟢
 - [17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版](minecraft-endless-design-java-bedrock-strategy.md) 🟢
 - [盤面を開いたら、誰がゲームを進めるのか――テーブルゲームワールド CCFOLIAと購入前の期待](table-game-world-ccfolia-switch2-expectation-gap.md) 🟢
-- [携帯機と店頭から広がった――Minecraftと日本（2014〜2026年）](minecraft-series-08-japan-2014-2026.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -394,6 +394,7 @@
 
 ### 🔄 ライブサービス・継続施策
 
+- [強さを下げるとき、プレイヤーは何を失うのか――ナーフで守るもの、返すもの](nerf-design-what-players-lose-and-keep.md) 🟡
 - [ライブ運営の実務――リリース後90日から継続運営まで](live-ops-operations-from-launch-to-sustained-growth.md) 🔴
 - [『ブルーアーカイブ』はなぜネクソンへ移るのか――パブリッシャーを開発元に戻すとき、プレイヤーに何が起きるか](bluearchive-japan-publisher-transfer-yostar-nexon.md) 🟡
 - [期間限定イベント設計の実務――目的、報酬、救済、終了処理を一枚の仕様へ落とす](limited-time-event-design-practices.md) 🟡
@@ -466,7 +467,6 @@
 - [『原神』はなぜ超大型タイトルになれたのか――端末を増やし、体験を分岐させない設計](genshin-impact-unified-cross-platform-design.md) 🟡
 - [ブロックチェーンとP2Eとは何か――ゲームプランナーのための基礎知識ガイド](blockchain-p2e-game-planner-basics.md) 🟢
 - [P2Eゲーム制作を指示されたとき、ゲームプランナーが確認・検討すべきこと](p2e-game-development-planner-checklist.md) 🔴
-- [有償アイテムのナーフが許されない理由](why-paid-item-nerfs-are-hard.md) 🟡
 - [「誇りと達成感」の代償：Star Wars Battlefront IIが業界のルールを書き換えた日](battlefront-2-loot-box-controversy.md) 🟢
 - [100円で出てくるのはプレイ料金か、カード代か――即時印刷・排出型カード筐体の設計論](instant-print-arcade-card-machine-design.md) 🟡
 
