@@ -459,7 +459,7 @@
 ### 💳 マネタイズ・F2P・デジタル商品
 
 - [ガチャ・ルートボックスの抽選演出と期待感の設計――禁じられるのは演出ではなく、事実を歪める期待操作である](loot-box-presentation-and-anticipation-design.md) 🟡
-- [なぜゲームはF2Pモデルに依存するようになったのか](why-games-depend-on-f2p.md) 🟢
+- [なぜゲームはF2Pモデルに依存するようになったのか――「マジコンがゲームをタダにした」という都市伝説を確かめる](why-games-depend-on-f2p.md) 🟢
 - [課金投票が生んだ「声のつく日」――AKB48選抜総選挙からシンデレラガール総選挙まで、キャラクター人気投票の起源と賞味期限](paid-voting-character-popularity-contest-origin-lifespan.md) 🟢
 - [「この子を迎えたい」はどこから来るのか――FGO、ブルーアーカイブ、崩壊：スターレイルにみる物語と課金](story-driven-f2p-monetization.md) 🟡
 - [複数プラットフォーム対応・基本プレイ無料ゲームの開発工数と収益構造](multi-platform-f2p-development-and-monetization.md) 🟡
