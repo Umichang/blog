@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [画面を見て遊ぶAIは、何をもって「できた」とするのか――3社の自動プレイQA](autoplay-qa-agents-capcom-square-enix-mihoyo.md) 🟡
 - [強さを下げるとき、プレイヤーは何を失うのか――ナーフで守るもの、返すもの](nerf-design-what-players-lose-and-keep.md) 🟡
 - [メトロイドヴァニアってなんなのさ？――新しい力で、見慣れた地図を読み直す](what-is-a-metroidvania.md) 🟢
 - [一文字を置いた先に、何万語が待っている――『もじぴったん』の面白さを支えた辞書](mojipittan-dictionary-data-as-game-design.md) 🟢
 - [17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版](minecraft-endless-design-java-bedrock-strategy.md) 🟢
-- [盤面を開いたら、誰がゲームを進めるのか――テーブルゲームワールド CCFOLIAと購入前の期待](table-game-world-ccfolia-switch2-expectation-gap.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -383,6 +383,7 @@
 - [QA・デバッグとマスターアップ——「全部直す」では出荷できないゲーム開発の実務](qa-debugging-and-master-up-guide.md) 🟡
 - [CEDEC2026フォローアップ：『ドンキーコング バナンザ』が自由な破壊を守るために行ったQA](cedec2026-donkey-kong-bananza-qa-freedom-design.md) 🟡
 - [生成AIによるQA・デバッグの実装レベル判断――2026年の実用化領域と人間が担うべき境界](generative-ai-qa-debugging-implementation-guide.md) 🔴
+- [画面を見て遊ぶAIは、何をもって「できた」とするのか――3社の自動プレイQA](autoplay-qa-agents-capcom-square-enix-mihoyo.md) 🟡
 - [重大インシデント後のポストモーテムを設計する――ゲーム開発チームのための事後検証と学習の方法論](postmortem-methodology-after-major-incidents-for-game-teams.md) 🔴
 
 ### 🌏 ローカライズ・音声制作

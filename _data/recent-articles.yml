@@ -1,5 +1,7 @@
 ---
 articles:
+- path: autoplay-qa-agents-capcom-square-enix-mihoyo.md
+  published_at: '2026-11-23T10:54:41Z'
 - path: nerf-design-what-players-lose-and-keep.md
   published_at: '2026-11-22T13:07:43Z'
 - path: what-is-a-metroidvania.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-21T02:28:33Z'
 - path: minecraft-endless-design-java-bedrock-strategy.md
   published_at: '2026-11-21T01:48:11Z'
-- path: table-game-world-ccfolia-switch2-expectation-gap.md
-  published_at: '2026-11-20T11:25:35Z'
