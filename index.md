@@ -502,7 +502,7 @@
 
 ### 📚 法務・知財・二次創作
 
-- [ゲームプランナーが知っておくべき法令ガイド](game-planner-japanese-law-guide.md) 🟡
+- [ゲームプランナーが知っておくべき法令ガイド――仕様書の一行から、どの法律にたどり着くか](game-planner-japanese-law-guide.md) 🟡
 - [ゲーム受託開発と取適法――中小デベロッパーの現場で気づく契約リスク](game-development-subcontracting-toriteki-law.md) 🟡
 - [eスポーツ大会賞金の賭博法制論点――なぜプロゴルフの高額賞金は疑問視されず、eスポーツは賭博を疑われるのか](esports-tournament-prize-gambling-and-amusement-business-law.md) 🟡
 - [GDPR同意要件とテレメトリ設計――なぜ海外向けライブサービスは「同意ゲート」を作る必要があるのか](gdpr-consent-gate-game-telemetry-design.md) 🔴
