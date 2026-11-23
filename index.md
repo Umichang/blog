@@ -403,7 +403,7 @@
 - [オートプレイ・周回スキップ機能の設計――プランナーが決めるべき境界線](auto-play-and-skip-boundaries-design.md) 🟡
 - [ゲーム内経済の設計――通貨とアイテムを壊さず回し続ける実務](in-game-economy-design.md) 🔴
 - [運営公認RMTは機能するのか――Diablo III、WoWトークン、EVE Online、タスクバーヒーローに見る「売るもの」の設計](official-rmt-design-diablo-wow-eve-taskbar-hero.md) 🔴
-- [ゲームのログインボーナスで継続率を下支えするコツ](login-bonus-retention-tips.md) 🟡
+- [明日も開く理由をどう作るか――ログインボーナスと、途切れたときに失われるもの](login-bonus-retention-tips.md) 🟡
 - [プッシュ通知で嫌われずに復帰を促すリエンゲージメント設計](push-notification-reengagement-design.md) 🟡
 - [「創作体験サーバー」はリーク対策か、先行広告か――HoYoverseの制度を運用型ゲームの設計として読む](creator-experience-server-leak-control-and-advertising.md) 🔴
 
