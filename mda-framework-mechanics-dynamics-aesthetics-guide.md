@@ -175,6 +175,8 @@ MDAフレームワークは、ゲームをMechanics、Dynamics、Aestheticsと�
 
 MDAが力を発揮するのは、ルールから振る舞い、体験へと至る因果を問う場面に限られる。ボードゲームのルール学習、ナラティブデザイン、表現資産の扱いには、別の見方が必要になる。DuarteやWalkの批判と後継の提案を含めて理解すると、MDAは正解を出すチェックリストではなく、チームが「何を変えれば、どの体験が変わるのか」を考え続けるための、扱いやすい共通語彙になる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Hunicke, R., LeBlanc, M., & Zubek, R.「MDA: A Formal Approach to Game Design and Game Research」（2004）][1] - MDAの定義、設計者とプレイヤーの視点、八つのAesthetics、モノポリーの分析とチューニングを示す原論文。

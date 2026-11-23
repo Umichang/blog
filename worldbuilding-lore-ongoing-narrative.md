@@ -222,6 +222,8 @@ Ubisoft Paris MobileのValentina Tamer氏によるGDC 2024の講演概要は、�
 
 次の担当は、すべてを一から決め直す必要も、すべての答えを受け取る必要もない。 **ここまでは語った、ここは守る、この先は書ける。** その境目を渡すことで、同じ街の物語を、別の人の文章で続けていける。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Valentina Tamer「Game Narrative Summit: The Playable Series: Writing Seasonal Narratives for Live Games」][1] — GDC Vault、GDC 2024。所属はUbisoft Paris Mobile。公開されている講演概要を参照し、継続運営とテレビシリーズの構成に関する趣旨を日本語で要約した。

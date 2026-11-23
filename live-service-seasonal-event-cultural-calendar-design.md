@@ -131,6 +131,8 @@ Overwatch 2は、クリスマスを中心とした冬季イベントWinter Wonde
 
 万能な中立イベントは存在しない。季節イベントの設計とは、摩擦をゼロにする作業ではなく、誰に強く届けるために、どの摩擦と負担を意識的に引き受けるかを決める仕事である。その選択を言語化できたとき、行事名は単なる装飾ではなく、事業とプレイヤー基盤をつなぐ企画判断になる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Meta Horizon OS Developers「Planning Seasonal In-Game Events」][1] - Summer、Christmas、Halloweenを「ビッグ3」とする整理、新年とエイプリルフールの評価、非西洋圏の行事一覧を掲載した公式開発者向け記事。

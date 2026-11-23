@@ -151,6 +151,8 @@ AUTOMATONは2026年4月、Redditのr/gamingに投稿された「ゲームの発�
 
 2021年に発表され、2026年に新体制で再始動した『ドラゴンクエストXII 夢の彼方へ』は、2026年9月4日現在も発売時期・対応プラットフォームともに未定である。[[4](#ref-4)]
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Inside Starfield: How Bethesda's “NASA punk” epic became the biggest Xbox game in a decade][1] - Todd Howard氏が大規模で野心的なゲーム開発の予測困難さと、『The Elder Scrolls VI』の発表時期を振り返ったGQインタビュー。

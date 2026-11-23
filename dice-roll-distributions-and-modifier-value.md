@@ -318,6 +318,8 @@ D&DにはAdvantage（有利）という方式もある。追加のd20を振り�
 
 装備に「命中＋1」と書き込むとき、その1点が救う失敗の数は、すでに振り方によって形づくられている。分布の選択を先に済ませ、その上で成長と装備を刻む。それが、短い計算式の背後にある成否判定の設計である。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Chaosium「The Game System」（The Call of Cthulhu RPG Wiki）][1] — Chaosium公式のルール解説。Roleplaying Dice、Reading D100 (Percentage Dice)、Skill Rolls and Difficulty Levels。ダイス記法、百分率ダイスの読み方、通常・Hard・Extremeの境界を参照。

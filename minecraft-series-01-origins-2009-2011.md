@@ -93,6 +93,8 @@ Persson氏は最初の掲示板投稿から、主な着想元は『Infiniminer�
 
 この先『Minecraft』がなぜ売れ続けるのかは、シリーズ最終回として改版予定の[更新設計とJava版・Bedrock版の戦略を扱う既刊](minecraft-endless-design-java-bedrock-strategy.md)で考える。次回「会社になる」では、一人で始めた仕事に人が加わり、開発や事業をどう分担するようになったのかを追う。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Graham Smith「The first moments of Minecraft」][1] — PC Gamer、2012年2月6日。TIGSourceの投稿と返信、命名時のブログ投稿を引用した記事。

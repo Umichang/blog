@@ -110,6 +110,8 @@ PlayStation向けの『Spyro: Year of the Dragon』（2000年）で対策を手�
 
 出荷済みの本体に修正できない弱点があれば、装置の流通には法が、サービスの利用には規約が対策を支える。規約上の措置が重くなるほど、一度の誤判定でプレイヤーが失うものも大きくなる。どこまで止めるかを決めるときは、解除の条件、問い合わせ先、プレイを再開できるまでの時間も合わせて考えたい。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Casey O'Donnell「The Nintendo Entertainment System and the 10NES Chip: Carving the Video Game Industry in Silicon」][1] — Games and Culture 6(1)、2011年。

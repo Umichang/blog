@@ -143,6 +143,8 @@ Torpor Gamesが2020年12月4日に発売した『Suzerain』は、架空国家So
 
 企画の出発点は「何を再現するか」だけでは足りない。「プレイヤーは何を繰り返し、そのたびに何を読み直すのか」と問い直すことで、テーマは初めてゲームの時間を持つ。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Chris Crawford, *Balance of Power: International Politics as the Ultimate Global Game* — Introduction][1] - 四つの中心プロセスと、明快さのために現実を単純化する設計方針を説明した著者自身の文章。

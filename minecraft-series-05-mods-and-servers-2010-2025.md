@@ -122,6 +122,8 @@ Java版の配布プログラムには長く、難読化が施されていた。�
 
 サーバーとModがプレイヤーや運営者の手で遊ぶ場所を広げたのに続き、第6回では、MojangとMicrosoftが教育版を通じて教室へと場所を広げた経緯を追う。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Guinness World Records「Most popular Minecraft server network」][1] — Guinness World Records、記録日2017年7月7日。

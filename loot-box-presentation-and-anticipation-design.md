@@ -126,6 +126,8 @@ Lewis-Evansの講演は、選択とコントロールの重要性を強調する
 
 演出の役割は、事実の代わりに期待を作ることではない。プレイヤーが理解した対象、条件、進行に対して、選択と結果のつながりを手触りよく伝えることにある。事実を歪めない限り、間、光、音、カメラ、達成の見せ方は、満足感のある体験を作るための正当な設計材料である。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Genshin Impact Game Developer Will be Banned from Selling Lootboxes to Teens Under 16 without Parental Consent, Pay a $20 Million Fine to Settle FTC Charges][1] - FTCが2025年1月17日に公表したCognosphere／HoYoverse事案の和解、制裁金、販売条件、申立ての概要。

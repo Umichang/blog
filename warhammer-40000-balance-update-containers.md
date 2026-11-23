@@ -166,6 +166,8 @@ difficulty: yellow
 
 紙かデジタルかを優劣の基準にする必要はない。持ち帰るのは、何を動かし、その現在値をどこへ置くかという器の分け方である。数値が変わった日に、プレイヤーが同じ参照先を開き、自分の手持ちに起きた変化を読めるか。その問いを、出荷前の設計へ加えたい。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Munitorum Field Manual Version 2.0][1] — Games Workshop、第10版期・2025年1月。p.1の上書き、増減表示、CrusadeのSupply Limit規定。

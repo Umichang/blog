@@ -185,6 +185,8 @@ difficulty: green
 
 メドゥーサらしさは、採る資料によって変わる。選んだ層を明らかにすれば、残す特徴にも、変える理由にも説明が付く。次回は北欧神話を取り上げ、よく知られた神々や怪物の像が、どの資料と再解釈を通じて届いたのかを考える。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [ヘシオドス『Theogony』、H. G. Evelyn-White訳][1] — William Heinemann、1914年。Theoi Classical Texts Library所収の原典英訳。270〜279行、311〜312行を参照。

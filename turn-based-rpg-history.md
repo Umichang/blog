@@ -102,6 +102,8 @@ Larian Studiosのパブリッシング・ディレクター、マイケル・ダ
 
 試遊でプレイヤーが手を止めたとき、次の手を楽しんで考えているのか、何を見ればよいか迷っているのかで、直す箇所は変わる。コマンドの一覧を見ているなら選択肢の説明、行動順を追っているなら順番が変わる理由、敵の動きを見ているなら攻撃の予兆が手がかりになる。ターンとターンの間に何をしてほしいかを決めると、その時間に画面が何を伝えるべきかも具体的になる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Jordan Middler「Final Fantasy 16 ditched turn-based combat to appeal to younger generations, producer says」][1] — VGC、2022年7月14日。ファミ通の吉田直樹氏インタビューの紹介。

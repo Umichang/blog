@@ -177,6 +177,8 @@ difficulty: yellow
 
 監修を「頼まれたら差し込む仕事」から「最初から予定に載せる仕事」へ変える。そのために確認の時間まで含めて商品の予定を作ることが、制作進行としてのプランナーの仕事である。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [The Astrid Lindgren Company「Approval process」][1] — The Astrid Lindgren Company、日付記載なし。ゲーム業界外の版元による承認手順の例。

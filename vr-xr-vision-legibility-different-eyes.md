@@ -149,6 +149,8 @@ W3Cの「XR Accessibility User Requirements」は、XRで生じるアクセシ�
 
 次回、第4回「入力と空間」では、手やコントローラーを使う操作と、遊ぶ場所の条件を考える。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Hashemi Hほか「Global and regional estimates of prevalence of refractive errors: Systematic review and meta-analysis」][1] — Journal of Current Ophthalmology、2018年、30(1):3–22。1990〜2016年を検索対象とするメタ分析。成人の乱視の推計と、研究ごとに異なる基準のうち最も多い基準に合う研究で統合した点を参照。

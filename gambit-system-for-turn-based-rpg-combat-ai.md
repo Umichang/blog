@@ -118,6 +118,8 @@ AIを組む権限をどこに置くかは、誰に何を考えてほしいかで
 
 たとえば回復ひとつでも、プレイヤーに「どこまでHPが減ったら回復するか」を考えてほしいのか、「仲間の回復を見越して自分はいつ攻撃に踏み込むか」を考えてほしいのかで、開くべき設定は変わる。試作では、戦闘前の設定、戦闘中の操作、戦闘後の見直しのどこでプレイヤーが判断し、その判断の結果をどこで確かめられるかまで決めておきたい。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Clara Hertzog「Extended Play: How Final Fantasy XII’s Gambit Created One of the Most Distinct RPGs Ever」][1] — PlayStation.Blog、2017年7月7日。加藤弘彰氏・片野尚志氏への取材。

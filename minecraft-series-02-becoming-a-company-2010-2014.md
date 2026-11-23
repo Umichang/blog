@@ -76,6 +76,8 @@ Mojangの公式イベントMineConは、2011年のラスベガス、2012年の�
 
 買収の打診に応じずに成長してきたMojangは、2014年に、それまでXbox 360版の販売で組んでいたMicrosoftの傘下に入ることになる。次回は、この買収を扱う。[[3](#ref-3)][[18](#ref-18)][[28](#ref-28)]
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [4J Studios「4J Studios Titles」][1] — 4J Studios公式サイト、日付記載なし。手がけた各機種版の一覧。

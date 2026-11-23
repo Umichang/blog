@@ -195,6 +195,8 @@ Vercidiumが開発中のUE5・Godot向けオーディオレイトレーシング
 
 そしてゲームプランナーとして特に覚えておくべきは、 **「レイトレーシングで何を置き換えるか」と同等に「何を置き換えないか」を決断することがRTの正しい活用である**、という事実だ。ハイブリッドアプローチが現在の業界標準であり、RTGIをGPUに任せながらSSRを共存させるフローは、今後もさらに洗練されていくだろう。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [What is Ray Tracing in Games ｜ CORSAIR][1] - In gaming, ray tracing simulates realistic lighting. That's it. Some of the effects it creates can b...

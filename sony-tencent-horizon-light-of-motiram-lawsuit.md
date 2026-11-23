@@ -87,6 +87,8 @@ Light of Motiram事件は米国における著作権・商標侵害訴訟だが�
 
 秘密和解で終わった本件は判例としての法的拘束力を残さなかったが、著作権・商標が保護する範囲とジャンル表現の境界という論点、そして訴訟がもたらす事業上のインパクトの大きさを示す事例として、企画実務における独自性検証の重要な参考材料となる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Sony sues Tencent, claiming its Light of Motiram game is a "slavish clone" of its Horizon series][1] - SIEの提訴と主張の概要。

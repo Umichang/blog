@@ -155,6 +155,8 @@ Larian Studiosは『Baldur’s Gate 3』のPatch 7で、ゲーム内のMod管理
 
 プレイヤーに新しい遊び方を作ってもらうことが企画の目的なら、ゲーム内の制作機能や公開の仕組みを、公式のUGC（ユーザー生成コンテンツ）として設計する道もある。[ゲームにおけるUGC――Fortnite・Roblox・原神の設計と運営の比較](ugc-in-games-fortnite-roblox-genshin.md)では、そのために必要な機能と運営の設計を比較している。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Valve「Handbook for New Employees」][1] — Valve、2012年。社史年表。

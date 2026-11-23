@@ -183,6 +183,8 @@ difficulty: yellow
 
 自分のゲームで、誰に、どの時点まで、何を選んでほしいのか。その答えに合わせて、終わり方と補正の担い手を決めたい。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [MONOPOLY — 公式ルールブック｜Parker Brothers／Hasbro][1] — ©2004, 2007。「CLASSIC MONOPOLY RULES」を参照。PDFの1ページ目が内容物、4ページ目が購入・賃料、6ページ目がフリーパーキング・建物在庫、8ページ目が破産・勝利条件。冒頭のSpeed Die追加規則は本稿の比較対象に含めない。

@@ -101,6 +101,8 @@ PlayStation Blogのインタビューでは、開発チームが初期試作で�
 
 ![協力プレイ機能や役割分担を検討する前に確認する4つの問いをまとめたチェックリスト](image/pragmata-feature-design-checklist.webp)
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [PRAGMATA ｜ ゲームタイトル ｜ PlayStation（日本）][1] - シングルプレイヤー、二人の同時操作、戦闘・探索での役割を確認。

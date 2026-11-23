@@ -98,6 +98,8 @@ Notch氏「Terrain generation, Part 1」の説明をもとに作成した模式�
 
 第5回では、Modやサーバーを通じてプレイヤーが作った遊びが広がる過程を追い、第3回で予告した、何を売ってよいのか、運営者がどう事業を成り立たせていたのかを取り上げる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Markus Persson「Terrain generation, Part 1」][1] — The Word of Notch、2011年3月9日。Internet Archive保存版。冒頭の説明は原文の要約。

@@ -117,6 +117,8 @@ Crystal Dynamicsの蓄積を乱暴に要約すれば、最重要動詞は「単�
 
 次の失敗事例では、『ロード・オブ・ザ・リング：ゴラム』や『New ガンダムブレイカー』のように、原作のどの行為をゲームへ翻訳するかが曖昧になった作品も候補になる。成功と失敗を並べる目的は、正解集を作ることではない。自社の座組みで、何を約束し、何を捨て、どの能力を先に確保すべきかを判断できるようにすることである。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Get Ready For The Worldwide Reveal of 'Marvel’s Avengers'][1] - 2017年のMarvel Entertainmentとスクウェア・エニックスの複数年・複数タイトル提携、およびCrystal DynamicsとEidos-Montréalによる第1作を記したマーベル公式告知。

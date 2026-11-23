@@ -142,6 +142,8 @@ MR、つまり現実の部屋と仮想の物体などを組み合わせる体験
 
 あなたは、プレイヤーが明日もヘッドセットを被りたくなるゲームを作れるか。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Meta「Building Content to Optimize User Time: 20-40 Minute “Goldilocks” Session Length on Meta Quest」][1] — Meta Horizon OS Developers Blog、2025年7月24日。時間の目安と、その理由・設計上の提案。根拠となる社内調査の方法・規模は非公開。英語資料の大意は本稿で日本語にした。

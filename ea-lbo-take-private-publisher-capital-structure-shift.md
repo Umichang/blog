@@ -305,6 +305,8 @@ Embracerの事例が示すように、ゲームはヒットを予測できない
 
 ゲームプランナーにとってこの一連の動きは、作りたいゲームを作るという理想と、投資回収ができる企画かという現実の間で常に意思決定をしているという、この産業の本質を改めて浮かび上がらせる事例である。業界が資本化・グローバル化する中で、財務・経営構造の理解はゲームプランナーの必須教養になりつつある。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [EA Announces Agreement to be Acquired by PIF, Silver Lake, and Affinity Partners for $55 Billion][1] - EA公式IR、買収合意の一次発表。

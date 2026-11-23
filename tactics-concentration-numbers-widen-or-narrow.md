@@ -205,6 +205,8 @@ Theodore C. Taylorは、論文「Tactical Concentration and Surprise-in Theory�
 
 この問いを、狙える範囲、損害、地形、援護、立て直しまでつなげれば、戦力差をプレイヤーがどう扱うゲームなのかが見えてくる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Theodore C. Taylor「Tactical Concentration and Surprise-in Theory」][1] — Naval War College Review、1985年。Vol. 38, No. 3（配信元の書誌情報による）。要旨にある1914年の連載、書籍への集成、集中の原則と二乗則の説明を参照。2026年10月17日閲覧。

@@ -193,6 +193,8 @@ PCMによって、録音した音の波を数値として持ち、ゲームの�
 
 スーパーファミコンは、圧縮した録音を専用メモリへ送り、独立したCPUと音源で鳴らした。ゲームボーイアドバンスは、メインCPUが楽器を混ぜ、その結果を録音用のチャンネルへ流した。録音を使うという共通点からも、仕事の割り振りが違えば、音に使う容量や処理の配分は変わる。次回の[第5回](console-game-sound-history-05-cd-era.md)では、CDから録音した音楽そのものを流す時代へ進む。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Rodrigo Copetti「Game Boy Advance Architecture」][1] — Architecture of Consoles。Audio節。PCM、Direct Sound、FIFO、DMA、タイマー、CPUによるミキシング、互換音源、BIOSのシーケンサー。

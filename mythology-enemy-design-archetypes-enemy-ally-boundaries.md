@@ -235,6 +235,8 @@ Supergiant Gamesの『Hades』は、2020年にPC・Mac・Nintendo Switch向け�
 
 全10回を通じて企画書に残したいのは、出典に加えて、 **何を受け取り、何を変え、なぜこの相手と戦うのか** という判断である。その答えが行動と決着に表れれば、神話の名前は、プレイヤーが経験する一つの対立へとつながる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Indiana University Libraries「Motif-Index of Folk Literature」][1] — インディアナ大学図書館、公開日記載なし（2026年10月8日確認）。改訂増補版1955〜1958年、全6巻に基づくデータベースの説明。

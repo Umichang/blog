@@ -95,6 +95,8 @@ AI・機械学習とプロシージャル生成を組み合わせ、既存のレ
 | 規則を直す道具 | 問題の出た結果を再現し、どの規則が原因か調べ、変更前後を見比べられるか。 |
 | 飽きへの対策 | 配置や見た目が変わったとき、プレイヤーが取る経路や行動にも違いが生まれるか。 |
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Iain Thomson「40 years since Elite became the most fun you could have with 22 kilobytes」][1] — The Register、2024年1月18日。Ian Bell氏とMark Moxon氏へのインタビュー。

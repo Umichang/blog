@@ -149,6 +149,8 @@ MSXでは、コナミが1987年の『グラディウス2』のゲームROMに、
 
 その間も、旋律・伴奏・効果音は、限られた発音枠を分け合っていた。何を鳴らせるかという仕組みと、何をいつ鳴らすかという判断が結び付いて、実際に聞こえるゲームの音になる。次回の[第3回](console-game-sound-history-03-fm-synthesis.md)は、波の形を描く代わりに、波どうしを作用させて音色を作るFM音源を扱う。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Rodrigo Copetti「NES / Famicom Architecture」][1] — Architecture of Consoles。Audio節。本体音源の構成、伴奏と効果音の切り替え、ファミコンとNESの拡張音源の違い。

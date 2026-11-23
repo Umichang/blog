@@ -222,6 +222,8 @@ PHPの修正版が出る時刻は、多くのチームが作業を合わせる�
 
 次の予告が届いたとき、あるいは予告なしに危険が分かったとき、チームへ問い直したい。 **その停止は、誰が、いつ、何を根拠に決めるか。** 答えをその場で探し始めずに済むことが、緊急メンテナンスへの備えになる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [The PHP Group「Upcoming Critical PHP Security Release」「Security advisory: Critical remote code execution vulnerabilities, update now」ほか][1] — PHP News Archive 2026、2026年10月20日・21日。予告の公開時刻19:30 UTCは財団資料を参照。公開予定は21日14:00 UTC（23:00）。修正版、Webリクエスト処理環境への影響、更新の推奨を参照。2026年10月22日午前に参照。

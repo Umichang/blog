@@ -86,6 +86,8 @@ Microsoft MakeCodeでは、命令を表す画面上のブロックをつなげ�
 
 休校時に教室の教材を家庭に届けたマーケットプレイスを手がかりに、第7回では、公式の販売所でクリエイターが自分の作品を売る仕組みを追う。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Tony Wan「Why Teachers Should Play Minecraft--In Class」][1] — EdSurge、2013年7月2日。

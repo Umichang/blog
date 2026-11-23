@@ -254,6 +254,8 @@ Unity Runtime Fee騒動が残した教訓は、Unityが悪く、Godotが正し�
 
 単一ベンダーへの依存をゼロにはできない。しかし、契約条件の確認、縦切り試作、データの分離、代替ミドルウェア、旧バージョンの保守計画を用意すれば、依存を管理できる。ゲームエンジン選定の成熟とは、最も高性能な道具を選ぶことではなく、作品の成功条件と失敗時の退路を同じ企画書に書けることである。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Unity to start charging fee pegged to game installs][1] - 2023年9月のRuntime Fee発表と、インストール数を基準にした新料金の概要を報じたGame Developerの記事。

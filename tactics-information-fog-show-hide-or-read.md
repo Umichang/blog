@@ -212,6 +212,8 @@ GDC 2019でMatthew Davis（Subset Games）が行った「'Into the Breach' Desig
 
 位置は隠し、範囲は見せ、意図は構えから読ませる、といった組み合わせも選べる。情報ごとにこの問いを置けば、プレイヤーに任せたい読みと、解いてほしい課題を具体化できる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Eliot A. Cohen・Britannica Editors「strategy」][1] — Encyclopaedia Britannica、2026年9月14日最終更新。戦場の霧・摩擦と『孫子』との対比を参照。本文中の日本語訳は本稿による。2026年10月18日閲覧。

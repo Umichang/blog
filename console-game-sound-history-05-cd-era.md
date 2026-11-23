@@ -169,6 +169,8 @@ CDは、録音した曲をゲームへ持ち込む道を広げた。PCエンジ�
 
 次回の[第6回](console-game-sound-history-06-software-audio.md)では、音を鳴らす仕事が、専用の音源チップからソフトウェアへ移っていく流れをたどる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Rodrigo Copetti「PlayStation Architecture」][1] — Architecture of Consoles。Audio節。SPU、ADPCM、3つの再生方式、CD-DAの読み込み制約、シーケンス演奏と『Final Fantasy VII』。

@@ -185,6 +185,8 @@ IPAのガイドラインも、付録Ⅵの「模倣犯を阻止する」の対�
 
 次回、第3回は「外部依存の棚卸し――取引先や社内システムが止まったら」を扱う。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [OWASP「Abuse Case Cheat Sheet (Historical)」][1] — OWASP Cheat Sheet Series、2026年10月30日参照。定義、業務側の役割、検討後の仕様更新、Archive Statementを参照。英語資料の説明は本稿による要約。

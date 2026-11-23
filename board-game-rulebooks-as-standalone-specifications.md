@@ -215,6 +215,8 @@ GMT Gamesの前掲『Great Battles of the American Civil War』2023年版リビ�
 
 「この仕様書は、書いた自分が休んだ日に読まれても成立するか」。その問いを置くと、今日直すべきものが見えやすくなる。同じ処理の呼び名か、例外の置き場所か、調べたい情報への入口か。卓上の文書技術は、その一か所を直すための具体的な選択肢になる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [The 3 stages of playtesting — Internal, Local, and Blind｜BackerKit][1] — 卓上ゲーム制作の段階と、ブラインドテストにおける作者の関わり方。

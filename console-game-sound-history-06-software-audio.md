@@ -218,6 +218,8 @@ Xbox 360も、演奏やミキシング、効果をまとめて引き受ける専
 
 次回の[第7回](console-game-sound-history-07-spatial-audio.md)では、音の数や質に加えて、音がどこから聞こえるかという、空間の表現へ進む。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Rodrigo Copetti「Nintendo 64 Architecture」][1] — Architecture of Consoles。Audio節。CPU・RSP・Audio Interfaceの分担、出力、処理量とメモリの制約。

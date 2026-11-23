@@ -139,6 +139,8 @@ InsomniacによるMarvel's Wolverineのような後続タイトルを見る際�
 
 本稿は成功事例編である。次回は、映画・コミック原作の大型IPで、スタジオ、ライセンス、コア体験の組み合わせが機能しなかった事例を扱う。成功例と失敗例を並べることで、他メディアIPをゲームへ翻訳する座組みの条件をさらに掘り下げたい。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Video: Designing Spider-Man 2's classic web-swinging mechanic][1] - Treyarchの『スパイダーマン2』開発者ジェイミー・フリストロムによる、振り子式ウェブスイングの試作・実装過程の証言（GDC 2019講演の内容を報じたもの）。

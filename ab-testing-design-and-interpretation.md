@@ -229,6 +229,8 @@ A/Bテストの勝者は、p値が最小の群ではない。事前に決めた�
 
 この確認表を、結果が出てから埋めても意味は薄い。実験票、分析クエリ、ダッシュボード、意思決定会議のすべてが、開始前に合意した同じ規則を参照できる状態を作る。そこで初めて「Bが勝った」は、偶然目立った数字ではなく、再現を期待できる判断材料になる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [A Dirty Dozen: Twelve Common Metric Interpretation Pitfalls in Online Controlled Experiments][1] - Microsoftの実験チームが、Twyman's Lawを含むオンライン実験の代表的な解釈ミスを整理したKDD 2017論文。

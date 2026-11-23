@@ -99,6 +99,8 @@ RobloxやFortniteなど、他作品がプレイヤー制作のコンテンツを
 
 一人のプレイヤーが作った場所を、まだ会ったことのない誰かが訪ねて遊ぶ。公式の売り場ができると、その出会いが次の作品の制作費にもつながるようになった。次回の第8回では、日本に目を向け、『Minecraft』が国内でどんな人たちに受け取られ、遊びや学びの場に持ち込まれていったかをたどる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Sofia Dankis「Free Educational Content in Minecraft Marketplace!」][1] — Minecraft公式サイト、2020年3月24日。

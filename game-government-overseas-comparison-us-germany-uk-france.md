@@ -268,6 +268,8 @@ CIJVの成り立ちでは、フランスと欧州委員会のやり取りが重�
 
 海外の記録を重ねると、同じ問いにも、公聴会での約束、裁判所の審査、解釈の変更、文化審査、評価の期限という答え方がある。それぞれの前提を確かめながら、日本の事例へ戻るための問いが、 **同じ問いに、別の国はどの道具で答えたか** である。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [米国上院政府問題委員会「Activities of the Committee on Governmental Affairs」][1] — Senate Report 104-27、1995年4月4日。小委員会の活動報告中「Violent Video Games: What Parents Need to Know」「Video Game Violence and Establishing a Video Game Rating System」。1993年12月9日と1994年3月4日の議題・経過。1993年12月9日の公聴会の記述は第X章「Subcommittee on Regulation and Government Information」の項、印刷ページ58〜59（PDFの61〜62ページ）。

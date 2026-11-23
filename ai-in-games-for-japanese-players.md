@@ -205,6 +205,8 @@ GLaDOSは研究施設を管理し、皮肉を交えたアナウンスでプレ�
 
 アイギスは記憶が気持ちになるかを、MGS2の大佐は情報を選ぶ権限を、『NieR:Automata』の機械たちは行動を支える目的を、『Detroit: Become Human』の三人は権利を認める条件を、GAIAとHADESは委ねた権限を止める方法を、GLaDOSは案内に従う相手の目的を問う。SFの驚きを支えた能力の前提は古びる。遊んでいる自分の判断にまで届く問いは残る。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [OpenAI「Memory and new controls for ChatGPT」][1] — OpenAI、2024年2月13日。初回発表時の記憶機能の説明を参照。

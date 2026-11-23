@@ -164,6 +164,8 @@ IPゲームの失敗を避ける順序は明確である。まず、プレイヤ
 
 原作の大きさは、この順序を省略する理由にはならない。むしろ、失敗が最も速く広がる理由になる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [The Lord of the Rings: Gollum Slinks Out of the Shadows on May 25th][1] - DaedalicとNaconによる世界発売日、開発元・共同発売元、アクションアドベンチャーとしての公式説明。

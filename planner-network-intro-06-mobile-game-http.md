@@ -198,6 +198,8 @@ IPA（Information-technology Promotion Agency、情報処理推進機構）の�
 
 本編は今回で一区切りとなる。番外編では、 **「データ量と通信時間」** を扱う予定だ。何をどれだけ送るのかを、ダウンロードや待ち時間の体験へつなげて考える。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [R. Fielding、M. Nottingham、J. Reschke編「HTTP Semantics（RFC 9110）」][1] — RFC Editor、2022年6月。9.2節、10.2.3節、15節、15.5.9節、15.6.4〜15.6.5節を参照。本稿の説明は原文の大意による。

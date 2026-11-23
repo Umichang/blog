@@ -116,6 +116,8 @@ Justin Reeve氏は2018年9月19日のGame Developerの記事で、『ゼルダ�
 
 次回は川から離れ、雨の少ない土地へ向かい、草原・ステップの広がりを「見せる・隠す・運ぶ」で読んでいく。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Étienne Carrier「The Procedural World Generation of Far Cry 5」][1] — PlayStation Blog、2018年3月22日。山・水系・侵食・植生の関係と、生成ツールの説明を参照。

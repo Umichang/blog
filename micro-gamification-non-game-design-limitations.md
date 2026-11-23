@@ -160,6 +160,8 @@ AIを入れる前に、次の順で決めるべきである。
 
 ゲームから学ぶべきなのは、人を長く画面の前に留める手口ではない。人が自分で選び、試し、失敗し、前よりできるようになったと感じられる条件を、誠実に組み立てる技術である。その技術まで輸出できるなら、ゲームデザインは非ゲーム領域でも十分に力を持つ。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [A point with pointsification? clarifying and separating pointsification from gamification in education][1] - ゲーミフィケーションの定義、pointsification の由来、ポイントのみへ還元することの問題を整理した査読論文。

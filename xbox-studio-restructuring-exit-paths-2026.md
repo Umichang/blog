@@ -137,6 +137,8 @@ Ninja Theoryの Senua とUndead Labsの State of Decay 3 は、発表時点で�
 
 スタジオの所属とは別に、開発中タイトルのパブリッシング先が変わる例として、『PHYSINT』の提携変更を「[「Xbox」はいま、いくつの器を指しているのか](xbox-multiple-containers-and-game-pass-supplier-decisions.md)」で扱う。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Microsoft cuts 4,800 jobs, about 2% globally, revamps salesforce and launches massive Xbox overhaul][1] - GeekWireによる、Microsoft全体の約4,800人とXboxの当日1,600人・年度内3,200人計画の報道。CEOのAsha Sharma氏によるメモの内容も引用している。

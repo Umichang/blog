@@ -126,6 +126,8 @@ Naughty DogのエンジニアであるMax Dyckhoffは、GDC 2014の「Ellie: Bud
 
 ゲームプランナーが持ち帰るべき問いは、「どれだけ現実らしくするか」だけではない。各制約は、プレイヤーにどの判断を残し、どの失敗を自分の選択として受け止められるようにするか。この境界を資源、遭遇、AIのそれぞれで揃えられたとき、物語上の過酷な旅は、眺めるものではなく、自分で生き残ったものとして記憶される。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [The Last of Us special editions showcased in new trailers][1] - PlayStation.Blog、2013年5月1日。発売日、舞台、ジョエルとエリーの旅の概要。

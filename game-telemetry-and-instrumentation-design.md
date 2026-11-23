@@ -280,7 +280,7 @@ Databricks の分析事例（Sega HARDlight のモバイルゲーム）では、
 
 *参考文献・ソース：本記事はGameAnalytics Documentation、Anders Drachen et al.「Game Analytics – The Basics」、LootLocker Game Dev Privacy Guide、Unity Docs、Respectlytics Event Naming Best Practices、Microsoft Game Dev Blog、Databricks Blog、各種GDPR・個人情報保護法関連ドキュメントを参照して執筆した。*
 
----
+***
 
 ## References
 

@@ -216,6 +216,8 @@ difficulty: green
 
 次回は古代オリエント、エジプトとメソポタミアを扱う。古い神像や怪物の姿を敵へ移すとき、どの役割と象徴を残すかを考える。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Vālmīki『The Rāmāyana, Volume Two』][1] — Manmatha Nath Dutt英訳、1891年。Project Gutenberg公開版、Āraṇya Kāṇḍaのラーヴァナとシーターの場面を参照。

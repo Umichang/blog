@@ -194,6 +194,8 @@ ValveのSteam Datagram Relay（SDR）は、ゲームの通信をValveの中継�
 
 第4回は「TCPとUDP」である。宛先と窓口が決まった先で、どんな約束でデータを運ぶのかを見ていく。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Y. Rekhterほか「Address Allocation for Private Internets（RFC 1918）」][1] — RFC Editor、1996年2月。第3節のプライベートアドレス範囲を参照。

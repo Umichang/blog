@@ -114,6 +114,8 @@ difficulty: green
 
 広い世界のどこを歩いても、何かが見え、何かが隠れ、その先へ進む理由がある。規則と手作業の両方を、その一歩につなげたい。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Étienne Carrier「The Procedural World Generation of Far Cry 5」][1] — PlayStation Blog、2018年3月22日。制作の反復、地形と植生の関係、biome recipesの説明を参照。

@@ -167,6 +167,8 @@ Supermassive Gamesの『Until Dawn』は、2015年にPlayStation 4で発売さ�
 
 次回は、クトゥルフとSCPを題材に人工神話を扱う。作者や共同制作の仕組みが見える題材では、作品ごとの権利とライセンスが、敵を作る判断の中心になる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Julia Farley「Who were the Celts?」][1] — 大英博物館ブログ、2015年10月13日。大英博物館の鉄器時代コレクション学芸員による解説。

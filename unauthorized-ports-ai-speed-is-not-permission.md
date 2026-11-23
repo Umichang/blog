@@ -169,6 +169,8 @@ AIは、解析・実装・仕上げに必要な時間を縮める。その速さ
 
 **速く作れることは、出してよい理由になるか。** プランナーが持ち帰るべきなのは、制作の速さを評価する目と、その先の公開の判断を確かめる習慣である。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Lewis Parker「AI Vibe-Coding Just Hit The Video Game Industry Like An Avalanche」][1] — Kotaku、2026年10月15日。

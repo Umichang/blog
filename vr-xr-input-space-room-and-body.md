@@ -145,6 +145,8 @@ Appleは、障害、空間の制約、環境などによって誰もが特定の
 
 次回の第5回「ゲームではない場所——ソーシャルVR」では、人が集まって過ごす場所としてのVRを考える。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [ソニー・インタラクティブエンタテインメント「PlayStation VR2 Launches Globally with Dozens of Stunning Virtual Reality Games Available」][1] — Sony Interactive Entertainment、2023年2月22日。英語資料の説明は本稿による日本語の大意。

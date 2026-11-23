@@ -113,6 +113,8 @@ P2Eを「ゲームの報酬を少し豪華にする仕組み」と見なすと�
 
 この土台を押さえたうえで、企画段階で確かめるべき問いは「[P2Eゲーム制作を指示されたとき、ゲームプランナーが確認・検討すべきこと](p2e-game-development-planner-checklist.md)」、個別プロジェクトの収支と終了の読み方は「[TOKYO BEASTはなぜ76日で終わったのか――P2Eゲームの大型プロジェクトを読み解く個別事例](tokyo-beast-p2e-game-shutdown-case-study.md)」、外部取引とRMTの規制摩擦は「[NEXT Bayは日本のライブサービスに何を持ち込むか――LINE NEXTのUSDT建てRMT仲介を警戒する理由](next-bay-rmt-crypto-regulatory-friction.md)」を参照するとよい。個々の企画では、まず「何を記録し、誰が操作し、報酬を何に使うのか」を分けて問うことから始める。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Technical intro to Ethereum][1] - 公開型ブロックチェーンにおける記録の共有、ブロックの連結、ノードの合意の説明。

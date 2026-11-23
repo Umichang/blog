@@ -72,6 +72,8 @@ Notch氏は同日のブログ「I'm leaving Mojang」で、自分の正気を保
 
 次回以降は、Microsoft傘下に入ったあとの『Minecraft』を、世界生成、Mod・サーバー文化、教育版などのテーマ別に扱う。買収時に示された提供継続の約束がその後どう守られたかは、シリーズの最終回で扱う。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Phil Savage「Why Minecraft's new EULA is good for the game」][1] — PC Gamer、2014年6月18日。

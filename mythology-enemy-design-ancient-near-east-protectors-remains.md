@@ -174,6 +174,8 @@ difficulty: green
 
 次回は、ケルト、アステカ・マヤなど、これまでの回で中心に据えてこなかった地域の神話を扱う。よく知られた名前の背後に、どの土地の資料と現在の人々がいるのかを考える。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Jo Marchant「Why does the mummy’s curse refuse to die?」][1] — Aeon、2013年10月25日。ラウドンへの言及は、同記事によるドミニク・モンセラットの研究の紹介。

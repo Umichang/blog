@@ -236,6 +236,8 @@ John氏の講演を伝えた記事では、ローカライズチームととも�
 - 食い違いを見つけたら、該当箇所と判断待ちの内容を残したか。対応後の結論も追えるか。
 - 次に書く人は、誰に確認すればよいかわかるか。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Alissa McAloon「Crash meetings, keep a lore bible, and other narrative design tips learned at King」][1] — Game Developer、2019年3月22日。KingのTracey John氏によるGDC講演の取材記事。一貫性、設定資料、ローカライズチームとの共有、用語・命名の記録についての説明を日本語で要約した。

@@ -151,6 +151,8 @@ Project Moonの『Lobotomy Corporation』（2018年、Windows）は、公式の�
 
 次回は番外編として、神話の地域を横断し、巨人・竜・死者などの類型から敵のモチーフを見る。あわせて、同じ存在が敵にも味方にもなるとき、その境界を何が決めるのかを考える。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Laura Škrobánková「Crossing Genres, Crossing Media: The Cthulhu Mythos Through the Ages」][1] — Verbum、2025年。研究論集『Crossing borders between countries, scholars and genres: Commemorating the late Kathleen E. Dubs』所収、pp. 65–86。特に第3節「The Derleth Mythos」。

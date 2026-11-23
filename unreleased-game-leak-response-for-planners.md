@@ -128,6 +128,8 @@ Insomniac Gamesは2023年12月の声明で、攻撃が開発チームに精神�
 
 発覚直後のプランナーの仕事は、見つけた事実を窓口に届け、漏れた内容が制作・発表・提携のどこに響くかを担当範囲から伝えることだ。経路の調査に時間がかかっても、次の発表までに判断が要るか、連絡すべき相手がいるか、チームがどの作業を続けられるかは考え始められる。配布前に守る情報とその重さを決めておけば、第一報の時点で何を急ぐかも伝えやすくなる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Game Developer「Rockstar confirms hacker penetrated systems, stole Grand Theft Auto VI footage」][1] — Game Developer、2022年9月19日。Rockstar Gamesの声明を掲載。

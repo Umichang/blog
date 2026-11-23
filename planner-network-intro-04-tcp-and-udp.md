@@ -128,6 +128,8 @@ Unityの公式資料は、LAN（Local Area Network、家庭や開発室などの
 
 次回、第5回は「セルラー（4G・5G）」。ここまでの話が、移動しながら使うスマートフォンの回線でどう変わるかを見ていく。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [W. Eddy編「Transmission Control Protocol (TCP)」][1] — RFC Editor、RFC 9293、2022年8月。2.2節。

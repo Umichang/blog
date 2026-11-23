@@ -157,6 +157,8 @@ GamesBeatの評論「It's the Little Things: Never turning back in Super Mario B
 
 そこから本稿が読み取るのは、限られた条件のなかで、何を覚え、何を諦めるかという選択である。プランナーも、守りたい体験を決め、残す変化と手放す機能を仕様にする。そして、その規則をプレイヤーが分かる形で示す。画面の左端にある小さな壁は、そうした判断を考える入り口になる。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Nathan Altice「The long shadow of Super Mario Bros.」][1] — Game Developer、2015年9月11日。媒体上の署名はGame Developer Staffだが、記事冒頭で『I Am Error』の著者Alticeによる論考と紹介されている。コースのデータ構成、131バイトの例、RAMと後戻りについての実装分析。英文の大意・用語の訳は本稿による。

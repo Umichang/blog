@@ -93,6 +93,8 @@ Richard Lemarchandは開発後の振り返りで、全体の流れを追うス�
 
 本作の列車、村、立体的な銃撃戦は、見た目も遊び方も異なる。それでも記憶の中で一つの作品として結び付くのは、どの場面も「見せたい瞬間ほど、プレイヤーに操作させる」という同じ選択から作られているためである。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Award-Winning UNCHARTED 2: Among Thieves Debuts Exclusively on the PlayStation 3][1] — Sony Computer Entertainment America、2009年10月13日。発売日、PS3独占、シリーズ続編としての位置付け

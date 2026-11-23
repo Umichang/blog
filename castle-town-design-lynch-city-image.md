@@ -147,6 +147,8 @@ difficulty: green
 
 次回は日本の城の入口を取り上げる。街へ入る道をたどるだけでも、境目を越える体験は作れる。その道をどう曲げ、どこで立ち止まらせるのかを考えていこう。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Kevin Lynch『The Image of the City』][1] — The Technology Press／Harvard University Press、1960年（現在の刊行元はMIT Press）。第1章pp.2、9、第3章pp.46–49、付録B pp.140–141を参照。リンク先は出版社の書籍案内（ペーパーバック版）。

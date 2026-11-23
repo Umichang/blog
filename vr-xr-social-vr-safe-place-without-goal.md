@@ -151,6 +151,8 @@ VRChatの公式ヘルプは、本名、所在地、連絡先などをプロフ�
 
 次回、第6回は「出口の設計」を扱う。体験を終えるときまで含めて、ヘッドセットを被る理由を考えていく。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [VRChat「Safety Resources: For Players」][1] — VRChat Help Center、2025年5月28日更新。英語資料の説明は本稿による日本語の大意。

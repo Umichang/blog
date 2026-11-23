@@ -101,6 +101,8 @@ AWSもGameLiftを含むクラウドサービスについて、2026年中に大�
 
 ![半導体価格高騰に対してプランナーと運営担当者が確認する7項目のチェックリスト](image/ai-demand-planner-checklist.webp)
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Global Memory Shortage Crisis: Market Analysis and the Potential Impact on the Smartphone and PC Markets in 2026][1] - AI需要によるDRAM価格高騰の全体像を分析。

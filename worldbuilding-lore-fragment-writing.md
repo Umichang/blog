@@ -225,6 +225,8 @@ Cygamesの講演記事でも、一人称のカードコメントではキャラ�
 - 語り手は誰か。その人が知り得る範囲で書いているか。
 - 並べたとき、単なる情報の追加を越えて、前に読んだ文章の意味が変わるか。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Ernest Hemingway『Death in the Afternoon』][1] — Charles Scribner's Sons、1932年。第16章の省略と氷山に関する段落。リンク先はFaded Pageの書誌・ダウンロードページ。本文では趣旨を日本語で要約した。

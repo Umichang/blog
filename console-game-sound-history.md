@@ -132,6 +132,8 @@ PCエンジンには1988年にCD-ROM²が加わり、本体の音源に加えて
 
 かつての少ない音色や発音数は、現在ではあえて選ぶ表現の様式にもなっている。そうした制約を音楽の個性として受け継ぐチップチューンは、[シリーズの番外編](console-game-sound-history-extra-chiptune.md)で扱う。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Rodrigo Copetti「NES / Famicom Architecture」][1] — Architecture of Consoles。Audio節。

@@ -105,6 +105,8 @@ difficulty: yellow
 
 ![基本ループ、既存キャラクター、新規性、調整運営の4項目ごとに、守るものと壊すもの、確認の問いを対比した続編設計の整理図](image/slay-the-spire-2-sequel-design-framework.webp)
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Slay the Spire 2 is out NOW in Early Access!!][1] - 2026年3月5日の早期アクセス開始、早期アクセス中の追加・調整方針、および前作をジャンルを定義した作品と位置付ける文言（原文は英語）を示すMega Crit公式発表。

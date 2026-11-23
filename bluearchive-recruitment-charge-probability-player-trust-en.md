@@ -239,6 +239,8 @@ But the old 200 Recruitment Points were not merely a probability safeguard. They
 
 To earn acceptance for a design change, presenting the favorable mean is not enough. Teams need to acknowledge lost guarantees first, then present goal-specific distributions, worst cases, carryover, and reward deadlines as one explanation. In an environment where information crosses borders immediately, regional delay offers no extra time for trust. Players judge that trust before the system reaches them.
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [生徒募集システムのリニューアルについて][1] — *Blue Archive* official notice (July 28, 2026). Announces the removal of Recruitment Points, their 1:1 conversion to Keystone Fragments, the 100- and 200-recruit Recruitment Charge effects, reset and carryover rules, and Recruitment Count Rewards.

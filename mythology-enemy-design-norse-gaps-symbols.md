@@ -177,6 +177,8 @@ Ninja Theoryの『Hellblade: Senua's Sacrifice』は、2017年8月8日にPlaySta
 
 次回は日本の神話・伝承を扱う。身近な神や妖怪を敵にするとき、土地や信仰との結び付きから、何を残し、何を変えるかを考える。
 
+***
+
 ## References
 
 <a id="ref-1"></a>1. [Biodiversity Heritage Library「Release the Kraken!」][1] — Biodiversity Heritage Library Blog、2014年10月30日。ポントピダンの自然史と所収資料へのリンク。
