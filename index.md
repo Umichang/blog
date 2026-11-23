@@ -382,7 +382,7 @@
 - [スマホゲームのリリース前スケジュール――プランナーが準備すべきことの逆算チェックリスト](smartphone-game-prelaunch-schedule-planner-checklist.md) 🟡
 - [QA・デバッグとマスターアップ——「全部直す」では出荷できないゲーム開発の実務](qa-debugging-and-master-up-guide.md) 🟡
 - [CEDEC2026フォローアップ：『ドンキーコング バナンザ』が自由な破壊を守るために行ったQA](cedec2026-donkey-kong-bananza-qa-freedom-design.md) 🟡
-- [生成AIによるQA・デバッグの実装レベル判断――2026年の実用化領域と人間が担うべき境界](generative-ai-qa-debugging-implementation-guide.md) 🔴
+- [「70%自動化」は何の70%か――生成AIをQAに入れるときの判断と、人が担う境界](generative-ai-qa-debugging-implementation-guide.md) 🔴
 - [画面を見て遊ぶAIは、何をもって「できた」とするのか――3社の自動プレイQA](autoplay-qa-agents-capcom-square-enix-mihoyo.md) 🟡
 - [重大インシデント後のポストモーテムを設計する――ゲーム開発チームのための事後検証と学習の方法論](postmortem-methodology-after-major-incidents-for-game-teams.md) 🔴
 
