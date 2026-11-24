@@ -269,6 +269,7 @@
 
 ### 🛠️ 企画・制作プロセス
 
+- [きれいになった先で、何に手間をかけるか――グラフィックスの「飽和」と、開発が選べる4つの道](post-graphics-saturation-game-development.md) 🟡
 - [発表されたタイトルに、あとから人が集まる――発表と開発は別のカレンダーで動いている](game-announcement-timing-and-development-calendar.md) 🟡
 - [DLC・シーズンパスは実際どう作られているか――本編開発中の仕込みと発売後の判断](how-dlc-and-season-passes-are-planned.md) 🟢
 - [モーションキャプチャは収録して終わりではない――企画からゲーム内で動くまでの実務工程](motion-capture-production-workflow-from-planning-to-integration.md) 🟢
@@ -300,7 +301,6 @@
 - [その結末は、大きな物語の中で一つに決められるか――『スター・ウォーズ』の正史・レジェンズとゲームの関係](star-wars-canon-legends-and-games.md) 🟡
 - [監修を『割り込み』から『予定された作業』に変える――自社ゲームのグッズ・音源監修とプランナーの制作進行](goods-soundtrack-supervision-production-planning.md) 🟡
 - [『Slay the Spire 2』は何を守り、何を壊したのか――ジャンルを定義したデッキ構築ローグライクの続編設計](slay-the-spire-2-roguelike-deckbuilder-sequel-design.md) 🟡
-- [ゲームのグラフィックスが飽和したその先は — AAA・AA級スタジオが労力を振り向ける7つの方向性](post-graphics-saturation-game-development.md) 🟡
 - [リッジレーサーを、いま上層部にどう提案するか——「ゲームっぽいレース」が消えた理由から組み立てる復活の企画](rebooting-ridge-racer-with-modern-technology.md) 🟡
 - [カービィのエアライダーとStar Foxは帰ってきた。F-ZEROに残る23年目の空白から読む、任天堂の休眠IP再起動](nintendo-dormant-ip-revival-f-zero-kirby-star-fox.md) 🟡
 - [『スプラトゥーン4』ではなくスピンオフを選んだ理由――『スプラトゥーン レイダース』の二つの方向転換から学ぶ設計判断](splatoon-raiders-spin-off-development-design-lessons.md) 🟡
