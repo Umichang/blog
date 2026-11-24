@@ -1,5 +1,7 @@
 ---
 articles:
+- path: why-mario-goes-right-history-caution.md
+  published_at: '2026-11-24T11:10:10Z'
 - path: autoplay-qa-agents-capcom-square-enix-mihoyo.md
   published_at: '2026-11-23T10:54:41Z'
 - path: nerf-design-what-players-lose-and-keep.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-21T11:34:14Z'
 - path: mojipittan-dictionary-data-as-game-design.md
   published_at: '2026-11-21T02:28:33Z'
-- path: minecraft-endless-design-java-bedrock-strategy.md
-  published_at: '2026-11-21T01:48:11Z'

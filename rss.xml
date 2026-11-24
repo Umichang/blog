@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 23 Nov 2026 10:54:41 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 11:10:10 -0000</lastBuildDate>
+    <item>
+      <title>マリオはなぜ右へ進むのか、にどう答えるか――ゲームの歴史を語る難しさ</title>
+      <link>https://umichang.github.io/blog/why-mario-goes-right-history-caution.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/why-mario-goes-right-history-caution.html</guid>
+      <description>AUTOMATONのコラムに寄せられた開発者の反応から、ネット上の情報だけでゲームの歴史を語る難しさと、実務ガイドとしてのこのブログの立ち位置を考える。「マリオの進む向き」番外編。</description>
+      <pubDate>Tue, 24 Nov 2026 11:10:10 -0000</pubDate>
+    </item>
     <item>
       <title>画面を見て遊ぶAIは、何をもって「できた」とするのか――3社の自動プレイQA</title>
       <link>https://umichang.github.io/blog/autoplay-qa-agents-capcom-square-enix-mihoyo.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/mojipittan-dictionary-data-as-game-design.html</guid>
       <description>演出がほとんどない試作でも手応えがあった『もじぴったん』を題材に、辞書の語数と一語ずつの作り込みが、連鎖や対戦、知らない言葉に出会う楽しさをどう支えたかをたどる。</description>
       <pubDate>Sat, 21 Nov 2026 02:28:33 -0000</pubDate>
-    </item>
-    <item>
-      <title>17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版</title>
-      <link>https://umichang.github.io/blog/minecraft-endless-design-java-bedrock-strategy.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/minecraft-endless-design-java-bedrock-strategy.html</guid>
-      <description>Minecraftの17年を振り返り、遊びの終わりを決めずに更新を続け、Java版とBedrock版にそれぞれの遊ぶ場所を残してきた判断を考える。「Minecraft――一人の個人制作から世界最大級のIPへ」第9回。</description>
-      <pubDate>Sat, 21 Nov 2026 01:48:11 -0000</pubDate>
     </item>
   </channel>
 </rss>

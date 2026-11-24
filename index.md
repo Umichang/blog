@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [マリオはなぜ右へ進むのか、にどう答えるか――ゲームの歴史を語る難しさ](why-mario-goes-right-history-caution.md) 🟢
 - [画面を見て遊ぶAIは、何をもって「できた」とするのか――3社の自動プレイQA](autoplay-qa-agents-capcom-square-enix-mihoyo.md) 🟡
 - [強さを下げるとき、プレイヤーは何を失うのか――ナーフで守るもの、返すもの](nerf-design-what-players-lose-and-keep.md) 🟡
 - [メトロイドヴァニアってなんなのさ？――新しい力で、見慣れた地図を読み直す](what-is-a-metroidvania.md) 🟢
 - [一文字を置いた先に、何万語が待っている――『もじぴったん』の面白さを支えた辞書](mojipittan-dictionary-data-as-game-design.md) 🟢
-- [17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版](minecraft-endless-design-java-bedrock-strategy.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -252,8 +252,6 @@
 
 ### 🎲 ジャンル・ゲーム文化
 
-- [なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md) 🟢
-- [なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト](why-mario-could-not-go-back-left.md) 🟢
 - [オープンワールドゲームの歴史：萌芽から革新へ](open-world-games-history.md) 🟢
 - [『マリオカート ワールド』は、なぜオープンワールドを「競技の一部」にしたのか](mario-kart-world-open-world-design-vs-forza-horizon.md) 🟡
 - [結局ローグライクってなんなのさ？――死んだとき、何が失われて何が残るのか](what-is-a-roguelike.md) 🟢
@@ -264,6 +262,12 @@
 - [弾幕シューティングの歴史：なぜ「撃つゲーム」は「避けるゲーム」へ進化したのか](danmaku-shmup-history.md) 🟢
 - [人はなぜ、そこへ歩いていくのか――位置情報ゲームの25年と、人が集まった場所で起きたこと](location-based-games-market-history-and-design-guide.md) 🟡
 - [RTA in Japan――寄付イベントとしてのタイムアタック文化](rta-in-japan-charity-speedrun-culture.md) 🟢
+
+#### 🍄 マリオの進む向き
+
+- 第1回：[なぜマリオは右へ進むのか？ — 横スクロールアクションゲームの変遷](why-mario-goes-right.md) 🟢
+- 第2回：[なぜマリオは左に戻れなかったのか？ — 通り過ぎた世界を覚えておくコスト](why-mario-could-not-go-back-left.md) 🟢
+- 番外編：[マリオはなぜ右へ進むのか、にどう答えるか――ゲームの歴史を語る難しさ](why-mario-goes-right-history-caution.md) 🟢
 
 ## 🛠️ 開発・運営とビジネス
 
