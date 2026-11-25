@@ -127,7 +127,7 @@
 - [家庭用ゲーム機とオンライン環境の歴史](console-online-gaming-history.md) 🟢
 - [ゲームの非同期オンライン要素：プレイヤー体験視点の分類と設計指針](asynchronous-online-gameplay-design.md) 🟡
 - [家庭用ゲーム機のネット対戦――物理的遅延の構造と遅延を隠す技術](console-online-multiplayer-latency-techniques.md) 🟡
-- [オンラインゲームのアンチチート技術：歴史・現状・開発者の判断軸](online-game-anti-cheat-technology-history.md) 🔴
+- [アンチチートは、どこまで踏み込むのか――ゲームの外から機械の奥へ、攻防の30年とプランナーの判断](online-game-anti-cheat-technology-history.md) 🔴
 - [『モンスターハンターポータブル 3rd』が「持ち寄って狩る」文化の集大成になった理由](monster-hunter-portable-3rd-local-multiplayer-culture-peak.md) 🟡
 
 #### 📡 ゲームプランナーのためのネットワーク入門

@@ -133,7 +133,7 @@ Larian Studiosは『Baldur’s Gate 3』のPatch 7で、ゲーム内のMod管理
 
 配布の場にも独自の線引きがある。Nexus Modsは2025年7月、英国とEUの法令への対応として、成人向けコンテンツの大半へのアクセスに年齢確認を導入する方針を示した。[[29](#ref-29)]
 
-オンラインの不正対策の設計は[オンラインゲームのアンチチート技術：歴史・現状・開発者の判断軸](online-game-anti-cheat-technology-history.md)で扱っている。配布の場が悪用された事例は[『めっちゃカメレオン』の悪性ModマップとDiscord乗っ取り――「技術的な連鎖」と「同一犯」を混同しないために](meccha-chameleon-workshop-malware-discord-incident.md)を参照されたい。
+オンラインの不正対策の設計は[アンチチートは、どこまで踏み込むのか――ゲームの外から機械の奥へ、攻防の30年とプランナーの判断](online-game-anti-cheat-technology-history.md)で扱っている。配布の場が悪用された事例は[『めっちゃカメレオン』の悪性ModマップとDiscord乗っ取り――「技術的な連鎖」と「同一犯」を混同しないために](meccha-chameleon-workshop-malware-discord-incident.md)を参照されたい。
 
 ***
 
