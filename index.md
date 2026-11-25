@@ -367,7 +367,7 @@
 - [CEDEC2026予習：Unity AIとバイブコーディングが変えるゲーム企画の検証工程](cedec2026-unity-ai-prototyping-planner-vibe-coding.md) 🟡
 - [UE6でブループリントがなくなる――自分で組むプランナーは何を失い、何を持ち越せるか](ue6-blueprint-removal-planner-impact.md) 🟡
 - [ゲームプランナーが知っておくべきデータベースの基礎](database-basics-for-game-planners.md) 🔴
-- [セーブシステムの設計史と実装の落とし穴](save-system-design-history-and-pitfalls.md) 🔴
+- [セーブは何を守っているのか――ふっかつのじゅもんからクラウドまで、記録の設計と落とし穴](save-system-design-history-and-pitfalls.md) 🔴
 - [ゲームプランナーが知っておくべき乱数の話](random-numbers-for-game-planners.md) 🔴
 - [クラウドゲーミングのサーバー代は誰が払うのか——定額・無制限から時間で売る形へ、各社の選択をたどる](cloud-gaming-deep-dive-proofread.md) 🟡
 

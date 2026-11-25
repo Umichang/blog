@@ -159,7 +159,7 @@ Larian Studiosは『Baldur’s Gate 3』のPatch 5で、オナーモードとカ
 
 <a id="ref-1"></a>1. [ゲームプランナーが知っておくべき乱数の話][1] - 乱数シードと『不思議のダンジョン』のリプレイ型セーブを扱う既存記事。
 
-<a id="ref-2"></a>2. [セーブシステムの設計史と実装の落とし穴][2] - 『Splatoon 2』を含むクラウドセーブと公平性を扱う既存記事。
+<a id="ref-2"></a>2. [セーブは何を守っているのか――ふっかつのじゅもんからクラウドまで、記録の設計と落とし穴][2] - 『Splatoon 2』を含むクラウドセーブと公平性を扱う既存記事。
 
 <a id="ref-3"></a>3. [Why XCOM's Random Results Sometimes Aren't (and You Should Play on Ironman)][3] - Jake Solomon氏への取材。同期乱数、回避策、Ironmanモードの趣旨を説明。
 
