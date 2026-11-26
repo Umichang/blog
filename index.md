@@ -148,7 +148,7 @@
 - [ガチャはなぜ続けたくなるのか――可変比率強化を約70年の研究から読み解く](variable-ratio-reinforcement-gacha-loot-box-psychology.md) 🟡
 - [MDAフレームワークとは何か――「面白い」をMechanics・Dynamics・Aestheticsに分けて考える](mda-framework-mechanics-dynamics-aesthetics-guide.md) 🟡
 - [コアループ・メタループ・ソーシャルループの3層設計——「今この瞬間」から「10年続くゲーム」への設計論](core-meta-social-loop-three-layer-game-design.md) 🟡
-- [マイクロゲーミフィケーション――ゲームデザイン手法の非ゲーム領域への輸出とその限界](micro-gamification-non-game-design-limitations.md) 🟡
+- [一分だけ立たせるゲームデザイン――Apple Watch、Duolingo、GitHubに見るマイクロゲーミフィケーションと、その限界](micro-gamification-non-game-design-limitations.md) 🟡
 - [フロー理論はゲームのために生まれたのか――原典・調査手法・反証から読み直す「ちょうどよい挑戦」](flow-theory-psychology-origins-and-game-design.md) 🟡
 - [3すくみはなぜ最強手を作らないのか――ジャンケンから多角形へ広がる非推移バランス設計](intransitive-balance-rock-paper-scissors-game-design.md) 🟡
 
