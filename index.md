@@ -26,11 +26,11 @@
 ## 🆕 新着記事
 
 <!-- recent-articles:start -->
+- [ペアプランニングのすすめ――プランナーと生成AIが、キーボードを渡し合うとき](planner-generative-ai-pair-work.md) 🟢
 - [マリオはなぜ右へ進むのか、にどう答えるか――ゲームの歴史を語る難しさ](why-mario-goes-right-history-caution.md) 🟢
 - [画面を見て遊ぶAIは、何をもって「できた」とするのか――3社の自動プレイQA](autoplay-qa-agents-capcom-square-enix-mihoyo.md) 🟡
 - [強さを下げるとき、プレイヤーは何を失うのか――ナーフで守るもの、返すもの](nerf-design-what-players-lose-and-keep.md) 🟡
 - [メトロイドヴァニアってなんなのさ？――新しい力で、見慣れた地図を読み直す](what-is-a-metroidvania.md) 🟢
-- [一文字を置いた先に、何万語が待っている――『もじぴったん』の面白さを支えた辞書](mojipittan-dictionary-data-as-game-design.md) 🟢
 
 <!-- recent-articles:end -->
 
@@ -287,6 +287,7 @@
 - [CEDEC2026中盤レポート：6大セッションに見る「即効性のない投資判断」](cedec2026-day2-recap-pokemon-bananza-pragmata-investment.md) 🟡
 - [CEDEC2026最終日レポート：5大セッションに見る「『できるはず』と『できた』のあいだを埋める泥臭さ」](cedec2026-day3-recap-garage-ai-npc-prototyping-120fps.md) 🟡
 - [スクラムの振り返り会で新人ゲームプランナーができること――KPTを「儀式」で終わらせない参加者の実践](agile-scrum-kpt-retrospective-for-junior-planners.md) 🟢
+- [ペアプランニングのすすめ――プランナーと生成AIが、キーボードを渡し合うとき](planner-generative-ai-pair-work.md) 🟢
 - [外部クリエイターへの発注ガイド](game-planner-outsourcing-guide.md) 🟡
 - [『スチームパイロッツ』の資金・契約トラブルから学ぶ――インディーゲームのクラウドファンディング・ガバナンス](steam-pilots-crowdfunding-governance-lessons.md) 🟡
 

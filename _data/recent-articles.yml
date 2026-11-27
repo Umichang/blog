@@ -1,5 +1,7 @@
 ---
 articles:
+- path: planner-generative-ai-pair-work.md
+  published_at: '2026-11-27T11:46:45Z'
 - path: why-mario-goes-right-history-caution.md
   published_at: '2026-11-24T11:10:10Z'
 - path: autoplay-qa-agents-capcom-square-enix-mihoyo.md
@@ -8,5 +10,3 @@ articles:
   published_at: '2026-11-22T13:07:43Z'
 - path: what-is-a-metroidvania.md
   published_at: '2026-11-21T11:34:14Z'
-- path: mojipittan-dictionary-data-as-game-design.md
-  published_at: '2026-11-21T02:28:33Z'

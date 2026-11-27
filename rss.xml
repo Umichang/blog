@@ -5,7 +5,14 @@
     <link>https://umichang.github.io/blog/</link>
     <description>ゲームや技術に関する調査記事をまとめています。</description>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 24 Nov 2026 11:10:10 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 11:46:45 -0000</lastBuildDate>
+    <item>
+      <title>ペアプランニングのすすめ――プランナーと生成AIが、キーボードを渡し合うとき</title>
+      <link>https://umichang.github.io/blog/planner-generative-ai-pair-work.html</link>
+      <guid isPermaLink="true">https://umichang.github.io/blog/planner-generative-ai-pair-work.html</guid>
+      <description>ペアプログラミングを下敷きに、プランナーと生成AIが役割を交代しながら企画を進める「ペアプランニング」を提案する。案出し、バトルの試作、報酬の検算、タスク整理を題材に、企画の判断を自分で引き受ける方法を考える。</description>
+      <pubDate>Fri, 27 Nov 2026 11:46:45 -0000</pubDate>
+    </item>
     <item>
       <title>マリオはなぜ右へ進むのか、にどう答えるか――ゲームの歴史を語る難しさ</title>
       <link>https://umichang.github.io/blog/why-mario-goes-right-history-caution.html</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="true">https://umichang.github.io/blog/what-is-a-metroidvania.html</guid>
       <description>『メトロイド』と『月下の夜想曲』から『Hollow Knight』『Dead Cells』までをたどり、新しい能力が見慣れた地図をどう変えるかを手がかりに、メトロイドヴァニアの芯を考える。</description>
       <pubDate>Sat, 21 Nov 2026 11:34:14 -0000</pubDate>
-    </item>
-    <item>
-      <title>一文字を置いた先に、何万語が待っている――『もじぴったん』の面白さを支えた辞書</title>
-      <link>https://umichang.github.io/blog/mojipittan-dictionary-data-as-game-design.html</link>
-      <guid isPermaLink="true">https://umichang.github.io/blog/mojipittan-dictionary-data-as-game-design.html</guid>
-      <description>演出がほとんどない試作でも手応えがあった『もじぴったん』を題材に、辞書の語数と一語ずつの作り込みが、連鎖や対戦、知らない言葉に出会う楽しさをどう支えたかをたどる。</description>
-      <pubDate>Sat, 21 Nov 2026 02:28:33 -0000</pubDate>
     </item>
   </channel>
 </rss>
