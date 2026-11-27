@@ -1,6 +1,6 @@
 ---
 description: "『New ガンダムブレイカー』の3対3と戦闘中の換装が、組み上げたガンプラで戦う遊びをどう変えたかを、開発者の証言と当時のレビューから読み解く。「他メディアIPのゲーム化 成功・失敗事例シリーズ」第6回。"
-category: ip-adaptation
+category: series-ip-strategy
 difficulty: yellow
 ---
 

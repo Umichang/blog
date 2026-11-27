@@ -1,6 +1,6 @@
 ---
 description: "『ドラゴンボール ファイターズ』が既存のセルルック制作基盤を原作再現へ転用し、3対3の競技性と簡略操作を両立させた設計を、販売推移とオンライン対戦の課題から読む。「他メディアIPのゲーム化 成功・失敗事例シリーズ」第5回。"
-category: ip-adaptation
+category: series-ip-strategy
 difficulty: yellow
 ---
 

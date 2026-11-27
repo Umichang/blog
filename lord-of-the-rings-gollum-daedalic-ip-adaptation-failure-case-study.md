@@ -1,6 +1,6 @@
 ---
 description: "ゴラムを主人公にした企画の発表から、二度の延期、発売、開発元の再編までをたどり、原作の独自解釈をプレイヤー自身の体験として届けるための条件を考える。「他メディアIPのゲーム化 成功・失敗事例シリーズ」第4回。"
-category: ip-adaptation
+category: series-ip-strategy
 difficulty: yellow
 ---
 

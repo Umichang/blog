@@ -1,6 +1,6 @@
 ---
 description: "他メディアIPのゲーム化 成功・失敗事例シリーズ第2回。『Marvel's Avengers』を題材に、物語型スタジオの座組み、映画で定着したヒーローの顔、発売後も繰り返し遊ぶ理由の三つから、大型IPのゲーム化が定着しなかった経緯をたどる。"
-category: ip-adaptation
+category: series-ip-strategy
 difficulty: yellow
 ---
 

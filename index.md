@@ -325,6 +325,17 @@
 - 第8回：[携帯機と店頭から広がった――Minecraftと日本（2014〜2026年）](minecraft-series-08-japan-2014-2026.md) 🟢
 - 第9回：[17年を経ても、続きを遊べる場所がある――Minecraftの更新と二つの版](minecraft-endless-design-java-bedrock-strategy.md) 🟢
 
+#### 🎬 他メディアIPのゲーム化 成功・失敗事例
+
+- 第1回：[『Marvel's Spider-Man』は、なぜ「映画タイアップ」から離れて成功できたのか――大型IPゲーム化の成功事例](marvel-spider-man-insomniac-ip-adaptation-success-case-study.md) 🟡
+- 第2回：[『Marvel's Avengers』は、なぜ大型IPをゲームとして定着させられなかったのか――座組みから読む失敗事例](marvel-avengers-crystal-dynamics-ip-adaptation-failure-case-study.md) 🟡
+- 第3回：[『鬼滅の刃 ヒノカミ血風譚』は、なぜ急拡大したアニメIPをゲームへ着地させられたのか――協働とタイミングの成功事例](demon-slayer-hinokami-keppuutan-cyberconnect2-ip-adaptation-success-case-study.md) 🟡
+- 第4回：[『ザ・ロード・オブ・ザ・リング：ゴラム』は、なぜIPの「独自解釈」をゲームの価値へ変えられなかったのか――適性、ライセンス、実行力から読む失敗事例](lord-of-the-rings-gollum-daedalic-ip-adaptation-failure-case-study.md) 🟡
+- 第5回：[『ドラゴンボール ファイターズ』は、なぜ既存の表現基盤を大型IPの成功へ変えられたのか――技術転用と競技性から読む成功事例](dragon-ball-fighterz-arc-system-works-ip-adaptation-success-case-study.md) 🟡
+- 第6回：[『New ガンダムブレイカー』は、なぜ「ユーザーの声に応える刷新」を前作からの後退にしてしまったのか](new-gundam-breaker-crafts-meister-ip-adaptation-failure-case-study.md) 🟡
+- 第7回：[IPゲーム化は「知名度の借用」ではない――成功・失敗6事例から読む期待値の循環](media-ip-game-adaptation-case-study-series-conclusion.md) 🟡
+- 番外編：[ゲームから映画へ、同じ成功ではない――マリオと『バイオハザード』に見る二つの到達点](game-to-film-success-mario-resident-evil-contrast.md) 🟢
+
 ### 📝 仕様・品質判断
 
 - [1000種以上のポケモンをどう調整し続けるか――大規模ゲームバランスを支える3つの仕組み](scaling-game-balance-operations-three-layers.md) 🟡
@@ -344,17 +355,6 @@
 - 第4回：[遊びの仕組みをどう守るか――特許、開放する契約、名前の選択](game-mechanics-patents-open-licenses-and-trademarks.md) 🟡
 - 第5回：[数値は変わる、書籍は残る――ウォーハンマー40,000に学ぶ「変更を届ける器」の設計](warhammer-40000-balance-update-containers.md) 🟡
 - 第6回：[負けた人に何を残すか――脱落の扱いを規則として書く](eliminated-player-rights-as-written-rules.md) 🟡
-
-### 🎬 他メディアIPのゲーム化
-
-- [IPゲーム化は「知名度の借用」ではない――成功・失敗6事例から読む期待値の循環](media-ip-game-adaptation-case-study-series-conclusion.md) 🟡
-- [『Marvel's Spider-Man』は、なぜ「映画タイアップ」から離れて成功できたのか――大型IPゲーム化の成功事例](marvel-spider-man-insomniac-ip-adaptation-success-case-study.md) 🟡
-- [『Marvel's Avengers』は、なぜ大型IPをゲームとして定着させられなかったのか――座組みから読む失敗事例](marvel-avengers-crystal-dynamics-ip-adaptation-failure-case-study.md) 🟡
-- [『鬼滅の刃 ヒノカミ血風譚』は、なぜ急拡大したアニメIPをゲームへ着地させられたのか――協働とタイミングの成功事例](demon-slayer-hinokami-keppuutan-cyberconnect2-ip-adaptation-success-case-study.md) 🟡
-- [『ザ・ロード・オブ・ザ・リング：ゴラム』は、なぜIPの「独自解釈」をゲームの価値へ変えられなかったのか――適性、ライセンス、実行力から読む失敗事例](lord-of-the-rings-gollum-daedalic-ip-adaptation-failure-case-study.md) 🟡
-- [『ドラゴンボール ファイターズ』は、なぜ既存の表現基盤を大型IPの成功へ変えられたのか――技術転用と競技性から読む成功事例](dragon-ball-fighterz-arc-system-works-ip-adaptation-success-case-study.md) 🟡
-- [『New ガンダムブレイカー』は、なぜ「ユーザーの声に応える刷新」を前作からの後退にしてしまったのか](new-gundam-breaker-crafts-meister-ip-adaptation-failure-case-study.md) 🟡
-- [番外編：ゲームから映画へ、同じ成功ではない――マリオと『バイオハザード』に見る二つの到達点](game-to-film-success-mario-resident-evil-contrast.md) 🟢
 
 ### 🧰 技術基盤・データ・アセット
 

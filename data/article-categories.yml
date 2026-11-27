@@ -56,10 +56,6 @@ categories:
     heading: "📝 仕様・品質判断"
     parent_group: "🛠️ 開発・運営とビジネス"
     display_order: 30
-  - slug: ip-adaptation
-    heading: "🎬 他メディアIPのゲーム化"
-    parent_group: "🛠️ 開発・運営とビジネス"
-    display_order: 40
   - slug: tech-foundation-data-assets
     heading: "🧰 技術基盤・データ・アセット"
     parent_group: "🛠️ 開発・運営とビジネス"

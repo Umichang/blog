@@ -1,6 +1,6 @@
 ---
 description: "劇場版のヒットで開発中に期待が膨らんだ『鬼滅の刃 ヒノカミ血風譚』を、アニメ制作側との協働、戦闘演出の優先順位、続編の展開から読む。「他メディアIPのゲーム化 成功・失敗事例シリーズ」第3回。"
-category: ip-adaptation
+category: series-ip-strategy
 difficulty: yellow
 ---
 
