@@ -34,7 +34,7 @@ ENV_CANDIDATES = [
   File.expand_path('~/.config/umichang-blog/x.env'),
   File.expand_path('~/mnt/umichang-blog/x.env') # Coworkの作業環境で ~/.config/umichang-blog を接続した場合
 ].compact.freeze
-BLOG_URL = %r{https://umichang\.github\.io/blog/\S+}.freeze
+BLOG_URL = %r{https://umichang\.github\.io/blog/\S*}.freeze
 
 def fail!(message)
   warn "中止しました: #{message}"
@@ -143,7 +143,10 @@ def articles_by_url
   @articles_by_url ||= RecommendationSync::ArticleCatalog.new(ROOT).articles.to_h { |a| [RecommendationSync.normalized_blog_url(a.url), a] }
 end
 
-def check(text)
+TOP_URL = 'https://umichang.github.io/blog/'
+
+# top: true のとき、ブログのトップページ（企画の告知など）へのリンクを認める
+def check(text, top: false)
   problems = []
   len = weighted_length(text)
   problems << "長すぎます（#{len} / #{LIMIT}）" if len > LIMIT
@@ -157,7 +160,10 @@ def check(text)
     problems << "Xがリンクにしてしまう語があります: #{bare.uniq.join('、')}（「.」を「․」（U+2024）に置き換えるなどして避ける）"
   end
   article = nil
-  if urls.length == 1
+  if urls.length == 1 && top && urls.first == TOP_URL
+    code = http_get(URI(urls.first)).code rescue 'error'
+    problems << "公開URLが表示できません（#{code}）" unless code == '200'
+  elsif urls.length == 1
     normalized = RecommendationSync.normalized_blog_url(urls.first)
     article = articles_by_url[normalized]
     problems << "index.md に掲載された記事と一致しません: #{urls.first}" unless article
@@ -190,8 +196,8 @@ def recent_duplicate?(text)
   end
 end
 
-def post(text, force:)
-  result = check(text)
+def post(text, force:, top: false)
+  result = check(text, top: top)
   fail!("点検に通りません: #{result['problems'].join(' / ')}") unless result['ok']
   fail!('同じ本文を24時間以内に投稿しています（二重投稿の防止）。意図した再投稿なら --force を付けます。') if recent_duplicate?(text) && !force
 
@@ -220,13 +226,13 @@ case command
 when 'fetch'
   emit(fetch_post(ARGV.first))
 when 'check'
-  result = check(read_text(ARGV.first))
+  result = check(read_text(ARGV.find { |a| !a.start_with?('--') }), top: ARGV.include?('--top'))
   emit(result)
   exit 1 unless result['ok']
 when 'post'
   file = ARGV.find { |a| !a.start_with?('--') }
   fail!('投稿するには --yes を付けます（うみちゃんの承認を得てから）。') unless ARGV.include?('--yes')
-  post(read_text(file), force: ARGV.include?('--force'))
+  post(read_text(file), force: ARGV.include?('--force'), top: ARGV.include?('--top'))
 when 'auth'
   load_credentials!
   puts "認証OK: @#{my_username}"
